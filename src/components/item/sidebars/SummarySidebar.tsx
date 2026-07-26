@@ -2,6 +2,12 @@ import React from "react";
 import type { ItemTabProps } from "../types";
 import { StatCard, Pill } from "../../character/ui/fields";
 
+/**
+ * The persistent left column of the item sheet: the handful of numbers that
+ * identify the item at a glance, visible next to every tab except Rules
+ * (equivalent to PF2e's `{Type} Summary` sidebar).
+ */
+
 interface SummaryFieldDef {
   label: string;
   path: string;
@@ -65,20 +71,33 @@ const SUMMARY_CONFIG: Record<string, SummaryFieldDef[]> = {
     { label: "ANIMA.ItemWeaponGroup", path: "weaponGroup", color: "acc" },
     { label: "ANIMA.ItemDpCost", path: "dpCost" },
   ],
+  psychicPower: [
+    { label: "ANIMA.ItemPowerLevel", path: "powerLevel", color: "acc" },
+    { label: "ANIMA.ItemPsychicDiscipline", path: "discipline" },
+    { label: "ANIMA.ItemAction", path: "action" },
+    { label: "ANIMA.ItemMasteryCost", path: "masteryCost", color: "blue" },
+  ],
+  psychicDiscipline: [
+    { label: "ANIMA.ItemAffinityCost", path: "affinityCost", color: "acc" },
+    { label: "ANIMA.ItemSituationalModifier", path: "situationalModifier" },
+  ],
+  mentalPattern: [
+    { label: "ANIMA.ItemDpCost", path: "dpCost", color: "acc" },
+    { label: "ANIMA.ItemModifier", path: "modifier" },
+  ],
 };
 
 function readPath(obj: Record<string, any>, path: string): any {
   return path.split(".").reduce((o, k) => (o == null ? o : o[k]), obj);
 }
 
-export function SummaryTab({ system }: ItemTabProps) {
-  const itemType = (system as any)._itemType as string | undefined;
-  const fields = SUMMARY_CONFIG[itemType ?? ""] ?? [];
-
+/** The StatCard stack, reused by the physical sidebar. */
+export function SummaryStats({ itemType, system }: Pick<ItemTabProps, "itemType" | "system">) {
+  const fields = SUMMARY_CONFIG[itemType] ?? [];
   const loc = (k: string) => game.i18n.localize(k);
 
   return (
-    <div className="a-item-summary-grid">
+    <>
       {fields.map((f) => (
         <StatCard
           key={f.path}
@@ -87,6 +106,16 @@ export function SummaryTab({ system }: ItemTabProps) {
           color={f.color}
         />
       ))}
+    </>
+  );
+}
+
+export function SummarySidebar({ itemType, system }: ItemTabProps) {
+  const loc = (k: string) => game.i18n.localize(k);
+
+  return (
+    <div className="a-item-summary-grid">
+      <SummaryStats itemType={itemType} system={system} />
       {"equipped" in system && (
         <div className="a-item-summary-pill">
           <Pill>{system.equipped ? loc("ANIMA.ItemEquipped") : loc("ANIMA.ItemNotEquipped")}</Pill>

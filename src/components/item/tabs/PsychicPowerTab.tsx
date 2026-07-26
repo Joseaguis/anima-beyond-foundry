@@ -1,6 +1,7 @@
 import type { ItemTabProps } from "../types";
 import { SectionCard } from "../../character/ui/SectionCard";
 import { Field, NumberField, TextField, CheckboxField } from "../../character/ui/fields";
+import { RichTextEditor } from "../../ui/RichTextEditor";
 import { DIFFICULTY_LEVELS } from "../../../actors/creature/tables";
 
 const ACTIONS = [
@@ -13,7 +14,7 @@ interface Grade {
   effect: string;
 }
 
-export function PsychicPowerTab({ system, isEditable, onUpdate }: ItemTabProps) {
+export function PsychicPowerTab({ itemUuid, system, isEditable, onUpdate }: ItemTabProps) {
   const loc = (k: string) => game.i18n.localize(k);
 
   const grades: Grade[] = Array.isArray(system.grades) ? system.grades : [];
@@ -83,10 +84,17 @@ export function PsychicPowerTab({ system, isEditable, onUpdate }: ItemTabProps) 
           <Field label={loc("ANIMA.ItemIsMatrix")}>
             <CheckboxField system={system} path="isMatrix" isEditable={isEditable} onUpdate={onUpdate} />
           </Field>
-          <Field label={loc("ANIMA.ItemEffect")}>
-            <TextField system={system} path="effect" isEditable={isEditable} onUpdate={onUpdate} />
-          </Field>
         </div>
+        <Field label={loc("ANIMA.ItemEffect")}>
+          <RichTextEditor
+            path="effect"
+            value={system.effect ?? ""}
+            isEditable={isEditable}
+            onUpdate={onUpdate}
+            ownerKey={itemUuid}
+            height={140}
+          />
+        </Field>
       </SectionCard>
 
       <SectionCard title={loc("ANIMA.ItemGrades")} light>
@@ -101,15 +109,19 @@ export function PsychicPowerTab({ system, isEditable, onUpdate }: ItemTabProps) 
               placeholder={loc("ANIMA.ItemDifficulty")}
               onChange={(e) => updateGrade(i, { difficulty: e.target.value })}
             />
-            <input
-              type="text"
-              className="a-input"
-              style={{ flex: 2 }}
-              value={g.effect}
-              disabled={!isEditable}
-              placeholder={loc("ANIMA.ItemEffect")}
-              onChange={(e) => updateGrade(i, { effect: e.target.value })}
-            />
+            {/* Los grados viven en un ArrayField: se commitea el array entero,
+                así que el editor recibe su propio onUpdate en vez de un path. */}
+            <div style={{ flex: 2 }}>
+              <RichTextEditor
+                path={`grades.${i}.effect`}
+                value={g.effect}
+                isEditable={isEditable}
+                onUpdate={async (_path, value) => updateGrade(i, { effect: String(value) })}
+                ownerKey={itemUuid}
+                toggled
+                height={90}
+              />
+            </div>
             {isEditable && (
               <button type="button" onClick={() => removeGrade(i)} className="a-modifier-row button">
                 ✕

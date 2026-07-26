@@ -1,6 +1,6 @@
 import { BaseItemModel, baseItemSchema } from "../base/model";
 
-const { NumberField, StringField } = foundry.data.fields;
+const { NumberField, StringField, HTMLField } = foundry.data.fields;
 
 export function monsterAbilitySchema() {
   return {
@@ -8,7 +8,7 @@ export function monsterAbilitySchema() {
     subtype: new StringField({ required: true, initial: "monsterPower" }),
     dpCost: new NumberField({ required: true, initial: 0, integer: true, min: 0 }),
     level: new NumberField({ required: true, initial: 0, integer: true, min: 0 }),
-    effect: new StringField({ required: true, initial: "" }),
+    effect: new HTMLField({ required: true, initial: "" }),
     action: new StringField({ required: true, initial: "active" }),
   };
 }

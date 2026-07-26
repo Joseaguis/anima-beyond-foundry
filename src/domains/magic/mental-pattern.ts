@@ -1,6 +1,6 @@
 import { BaseItemModel, baseItemSchema } from "../../items/base/model";
 
-const { NumberField, StringField } = foundry.data.fields;
+const { NumberField, StringField, HTMLField } = foundry.data.fields;
 
 /**
  * Un Patrón Mental (Arcana Exxet cap. 8): rasgo mental adquirido con PD que
@@ -12,7 +12,7 @@ export function mentalPatternSchema() {
   return {
     ...baseItemSchema(),
     // Texto del efecto (normalmente de rol).
-    effect: new StringField({ required: true, initial: "" }),
+    effect: new HTMLField({ required: true, initial: "" }),
     // Se adquieren con PD; valor informativo, aún no cableado a las reservas.
     dpCost: new NumberField({ required: true, initial: 0, integer: true, min: 0 }),
     // Modificador asociado (columna de la ficha); solo para mostrar.

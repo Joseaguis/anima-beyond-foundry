@@ -289,6 +289,13 @@
   }
 }
 
+/* Items scroll inside .a-item-body, so the mount only needs the height. */
+.animabfv2.sheet.item {
+  .react-mount {
+    @apply h-full min-h-0;
+  }
+}
+
 /* ============================================================
    Item sheet layout
    ============================================================ */
@@ -303,26 +310,52 @@
   align-items: center;
   gap: 10px;
   padding: 8px 12px;
-  border-bottom: 1px solid var(--bd, #d9dde2);
+  border-bottom: 1px solid var(--bd);
   background: #f7f8fa;
 }
 
 .a-item-img {
   border-radius: 6px;
-  border: 1px solid #d9dde2;
+  border: 1px solid var(--bd);
   object-fit: cover;
 }
 
-.a-item-header-info {
+.a-item-img[role="button"] {
+  cursor: pointer;
+}
+
+.a-item-img[role="button"]:hover {
+  border-color: var(--acc);
+}
+
+.a-item-header-details {
   flex: 1;
   min-width: 0;
 }
 
+/* Editable in place: reads as a title until focused. */
 .a-item-name {
+  width: 100%;
   font-size: 16px;
   font-weight: 700;
   margin: 0;
   line-height: 1.2;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 1px 4px;
+}
+
+.a-item-name:hover:not(:disabled) {
+  border-color: var(--bd);
+  background: var(--edit);
+}
+
+.a-item-name:focus {
+  border-color: var(--acc);
+  background: #fff;
+  outline: none;
 }
 
 .a-item-header-tags {
@@ -332,20 +365,37 @@
   margin-top: 4px;
 }
 
-.a-item-equipped-toggle {
+.a-item-type {
+  font-size: 11px;
+  color: var(--mut);
+}
+
+/* Sidebar title + tab bar share one row, as in PF2e's nav. */
+.a-item-nav {
+  display: flex;
+  align-items: stretch;
+  border-bottom: 2px solid var(--bd);
+  background: #f0f2f5;
+}
+
+.a-sidebar-title {
+  flex: 0 0 180px;
   display: flex;
   align-items: center;
-  gap: 4px;
+  padding: 6px 10px;
   font-size: 11px;
-  color: #737a85;
-  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--mut);
+  border-right: 1px solid var(--bd);
 }
 
 .a-item-tabbar {
   display: flex;
+  flex: 1;
+  min-width: 0;
   gap: 0;
-  border-bottom: 2px solid #d9dde2;
-  background: #f0f2f5;
   padding: 0 8px;
 }
 
@@ -356,35 +406,125 @@
   cursor: pointer;
   border: none;
   background: none;
-  color: #737a85;
+  color: var(--mut);
   border-bottom: 2px solid transparent;
   margin-bottom: -2px;
   transition: color 0.15s, border-color 0.15s;
 }
 
 .a-item-tabbar .a-tab:hover {
-  color: #1c2128;
+  color: var(--ink);
   background: #e9ecf0;
 }
 
 .a-item-tabbar .a-tab--active {
-  color: #e0732a;
-  border-bottom-color: #e0732a;
+  color: var(--acc);
+  border-bottom-color: var(--acc);
 }
 
-.a-item-panels {
+/* Sidebar + active tab body. */
+.a-item-content {
   flex: 1;
-  overflow: auto;
+  display: flex;
+  min-height: 0;
+}
+
+.a-item-sidebar {
+  flex: 0 0 180px;
+  overflow-y: auto;
+  padding: 10px;
+  border-right: 1px solid var(--bd);
+  background: #f4f6f8;
+}
+
+.a-item-sidebar-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.a-item-sidebar-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* The sidebar is a single narrow column: one card per row. */
+.a-item-sidebar .a-item-summary-grid {
+  grid-template-columns: 1fr;
+  gap: 6px;
+}
+
+.a-item-body {
+  flex: 1;
+  min-width: 0;
+  overflow-y: auto;
   padding: 10px 12px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
+/* Both columns are scroll containers with a bounded height, so their children
+   must keep their natural size — otherwise flex shrinks the cards and
+   `.a-card { overflow: hidden }` clips the content instead of scrolling. */
+.a-item-body > *,
+.a-item-sidebar-stack > *,
+.a-item-sidebar > * {
+  flex-shrink: 0;
+}
+
+/* Foundry hides the native scrollbar; make the two item columns show one. */
+.a-item-body,
+.a-item-sidebar {
+  scrollbar-width: thin;
+  scrollbar-color: #b6bcc4 transparent;
+}
+
+.a-item-body::-webkit-scrollbar,
+.a-item-sidebar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.a-item-body::-webkit-scrollbar-thumb,
+.a-item-sidebar::-webkit-scrollbar-thumb {
+  background: #c2c8d0;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+.a-item-body::-webkit-scrollbar-thumb:hover,
+.a-item-sidebar::-webkit-scrollbar-thumb:hover {
+  background: #9aa1ab;
+  background-clip: content-box;
+}
+
+.a-item-body::-webkit-scrollbar-track,
+.a-item-sidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Rules is a full-width technical panel: no summary next to it. */
+.a-item-sheet[data-active-tab="rules"] .a-item-sidebar {
+  display: none;
+}
+
+/* Hidden, not removed, so the tab bar does not shift. */
+.a-item-sheet[data-active-tab="rules"] .a-sidebar-title {
+  visibility: hidden;
+}
+
 .a-item-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   gap: 8px;
+}
+
+/* With the sidebar taking 180px the panels are narrower: a long single-word
+   label ("MANTENIMIENTO") would otherwise overflow into the next column. */
+.a-item-sheet .a-flabel {
+  overflow-wrap: anywhere;
 }
 
 .a-item-grid--7 {
@@ -408,22 +548,104 @@
 }
 
 /* ============================================================
-   Item modifier editor (system.modifiers)
+   Rules tab: identifiers panel + rule elements
+   ============================================================ */
+.a-rules-nerd {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.a-rules-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.a-rules-row > .a-flabel {
+  flex: 0 0 90px;
+}
+
+.a-rules-row > .a-input {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.a-rules-row button {
+  padding: 3px 8px;
+  font-size: 11px;
+  cursor: pointer;
+  border: 1px solid var(--bd);
+  border-radius: 4px;
+  background: #f7f8fa;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.a-rules-row button:hover {
+  border-color: var(--acc);
+  color: var(--acc);
+}
+
+.a-rules-options summary {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--mut);
+  cursor: pointer;
+}
+
+.a-rules-options ul {
+  margin: 4px 0 0;
+  padding-left: 16px;
+  max-height: 160px;
+  overflow-y: auto;
+}
+
+.a-rules-options code {
+  font-size: 11px;
+}
+
+.a-rules-create {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--bd);
+}
+
+/* ============================================================
+   Rich text editor (ProseMirror host / textarea fallback)
+   ============================================================ */
+.a-editor-container {
+  border: 1px solid var(--bd);
+  border-radius: 4px;
+  background: #fff;
+  min-height: 32px;
+}
+
+.a-editor-container--gm {
+  background: #fdf6ee;
+  border-color: var(--acc);
+}
+
+.a-editor-loading {
+  min-height: 60px;
+}
+
+.a-editor-container prose-mirror {
+  display: block;
+  padding: 4px 6px;
+}
+
+/* ============================================================
+   Item modifier editor (system.rules)
    ============================================================ */
 .a-modifiers-editor {
   margin-top: 0;
   padding-top: 0;
 }
 
-.a-modifiers-editor h3 {
-  margin: 0 0 6px;
-  font-size: 13px;
-  font-weight: 600;
-}
-
 .a-modifiers-empty {
   font-size: 11px;
-  color: #737a85;
+  color: var(--mut);
   margin: 0 0 6px;
 }
 
@@ -452,8 +674,8 @@
   width: 24px;
   height: 24px;
   cursor: pointer;
-  color: #d23b3b;
-  border: 1px solid #d9dde2;
+  color: var(--red);
+  border: 1px solid var(--bd);
   border-radius: 4px;
   background: #f7f8fa;
 }
@@ -470,6 +692,6 @@
 }
 
 .a-modifier-add:hover {
-  border-color: #e0732a;
-  color: #e0732a;
+  border-color: var(--acc);
+  color: var(--acc);
 }

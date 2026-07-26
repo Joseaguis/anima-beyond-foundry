@@ -2,13 +2,14 @@ import React from "react";
 import type { ItemTabProps } from "../types";
 import { SectionCard } from "../../character/ui/SectionCard";
 import { Field, NumberField, TextField } from "../../character/ui/fields";
+import { RichTextEditor } from "../../ui/RichTextEditor";
 
 const ACTIONS = [
   { value: "active", label: "Activa" },
   { value: "passive", label: "Pasiva" },
 ];
 
-export function MonsterAbilityTab({ system, isEditable, onUpdate }: ItemTabProps) {
+export function MonsterAbilityTab({ itemUuid, system, isEditable, onUpdate }: ItemTabProps) {
   const loc = (k: string) => game.i18n.localize(k);
 
   return (
@@ -29,10 +30,17 @@ export function MonsterAbilityTab({ system, isEditable, onUpdate }: ItemTabProps
             {ACTIONS.map((t) => <option key={t.value} value={t.value}>{t.label}</option>)}
           </select>
         </Field>
-        <Field label={loc("ANIMA.ItemEffect")}>
-          <TextField system={system} path="effect" isEditable={isEditable} onUpdate={onUpdate} />
-        </Field>
       </div>
+      <Field label={loc("ANIMA.ItemEffect")}>
+        <RichTextEditor
+          path="effect"
+          value={system.effect ?? ""}
+          isEditable={isEditable}
+          onUpdate={onUpdate}
+          ownerKey={itemUuid}
+          height={140}
+        />
+      </Field>
     </SectionCard>
   );
 }

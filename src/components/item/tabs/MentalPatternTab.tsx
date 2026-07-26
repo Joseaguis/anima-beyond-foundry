@@ -1,8 +1,9 @@
 import type { ItemTabProps } from "../types";
 import { SectionCard } from "../../character/ui/SectionCard";
-import { Field, NumberField, TextField, TextArea } from "../../character/ui/fields";
+import { Field, NumberField, TextField } from "../../character/ui/fields";
+import { RichTextEditor } from "../../ui/RichTextEditor";
 
-export function MentalPatternTab({ system, isEditable, onUpdate }: ItemTabProps) {
+export function MentalPatternTab({ itemUuid, system, isEditable, onUpdate }: ItemTabProps) {
   const loc = (k: string) => game.i18n.localize(k);
 
   return (
@@ -17,12 +18,13 @@ export function MentalPatternTab({ system, isEditable, onUpdate }: ItemTabProps)
       </div>
       {/* Bonos, penalizadores, patrones opuestos y costes: prosa, no números. */}
       <Field label={loc("ANIMA.ItemEffect")}>
-        <TextArea
-          system={system}
+        <RichTextEditor
           path="effect"
+          value={system.effect ?? ""}
           isEditable={isEditable}
           onUpdate={onUpdate}
-          style={{ minHeight: 140 }}
+          ownerKey={itemUuid}
+          height={140}
         />
       </Field>
     </SectionCard>

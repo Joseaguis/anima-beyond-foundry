@@ -1,11 +1,14 @@
 import { descriptionSchema } from "./data";
 import type { AnimaItem } from "../../documents/item";
 
-const { ArrayField, ObjectField } = foundry.data.fields;
+const { ArrayField, ObjectField, StringField } = foundry.data.fields;
 
 export function baseItemSchema() {
   return {
     ...descriptionSchema(),
+    // Stable identifier edited from the Rules tab; predicates can match on it.
+    // Empty means "derive it from the name" (see src/utils/slugify).
+    slug: new StringField({ required: true, initial: "" }),
     // Rule elements (loose JSON, validated when instantiated — see src/rules).
     rules: new ArrayField(new ObjectField(), { required: true, initial: [] }),
   };

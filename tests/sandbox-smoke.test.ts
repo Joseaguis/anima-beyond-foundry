@@ -93,13 +93,79 @@ describe("sandbox mock pipeline", () => {
     const weapon = character.items.contents.find((i) => i.type === "weapon")!;
     const itemHtml = renderToString(
       createElement(ItemSheetApp, {
-        item: { id: weapon.id, name: weapon.name, img: weapon.img, type: weapon.type },
+        item: {
+          id: weapon.id,
+          uuid: `Item.${weapon.id}`,
+          name: weapon.name,
+          img: weapon.img,
+          type: weapon.type,
+        },
         system: weapon.system,
         isEditable: true,
+        isGM: true,
+        rollOptions: ["self:type:character"],
         onUpdate: async () => {},
+        onEditImage: async () => {},
       }),
     );
     expect(itemHtml).toContain("Espada Larga");
+    // Sidebar present and marked, so the CSS that hides it on Rules has a hook.
+    expect(itemHtml).toContain('data-active-tab="description"');
+    expect(itemHtml).toContain("a-item-sidebar");
+  });
+
+  it("renders every item type without throwing, all with a Rules tab", async () => {
+    const { renderToString } = await import("react-dom/server");
+    const { createElement } = await import("react");
+    const { ItemSheetApp } = await import("../src/components/item/ItemSheetApp");
+    const { MockItem } = await import("../sandbox/mock-documents");
+    const { buildTabs } = await import("../src/components/item/itemTabs");
+
+    // Every type registered in src/main.ts.
+    const types = [
+      "weapon",
+      "armor",
+      "category",
+      "trait",
+      "weaponTable",
+      "combatStyle",
+      "kiAbility",
+      "kiTechnique",
+      "spell",
+      "magicPath",
+      "psychicPower",
+      "psychicDiscipline",
+      "mentalPattern",
+      "monsterAbility",
+    ];
+
+    for (const type of types) {
+      const item = new MockItem({ _id: `mock-${type}`, name: `Prueba ${type}`, type, system: {} });
+      const props = {
+        item: { id: item.id, uuid: `Item.${item.id}`, name: item.name, img: item.img, type },
+        system: item.system as Record<string, any>,
+        isEditable: true,
+        isGM: true,
+        rollOptions: [],
+        onUpdate: async () => {},
+        onEditImage: async () => {},
+      };
+
+      const html = renderToString(createElement(ItemSheetApp, props));
+      expect(html, type).toContain(`Prueba ${type}`);
+
+      const tabProps = {
+        itemType: type,
+        itemUuid: props.item.uuid,
+        itemName: item.name,
+        system: props.system,
+        isEditable: true,
+        isGM: true,
+        rollOptions: [],
+        onUpdate: props.onUpdate,
+      };
+      expect(buildTabs(type, tabProps).map((t) => t.id), type).toContain("rules");
+    }
   });
 
   it("supports item CRUD like the sheet callbacks", async () => {

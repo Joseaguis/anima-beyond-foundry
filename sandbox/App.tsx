@@ -60,10 +60,20 @@ function buildSheetProps(actor: MockActor, openItem: (actor: MockActor, id: stri
 
 function buildItemProps(item: MockItem): ReactItemSheetProps {
   return {
-    item: { id: item.id, name: item.name, img: item.img, type: item.type },
+    item: {
+      id: item.id,
+      uuid: `Item.${item.id}`,
+      name: item.name,
+      img: item.img,
+      type: item.type,
+    },
     system: item.system,
     isEditable: true,
+    // The sandbox has no users: always show what a GM would see.
+    isGM: true,
+    rollOptions: [],
     onUpdate: (path, value) => item.update({ [path]: value }),
+    onEditImage: async () => {},
   };
 }
 
@@ -235,8 +245,8 @@ export function App() {
             <Window
               key={window.key}
               title={item.name}
-              width={520}
-              height={480}
+              width={700}
+              height={500}
               onClose={() => closeItemWindow(window.key)}
             >
               <ItemSheetApp {...buildItemProps(item)} />

@@ -1,6 +1,6 @@
 import { BaseItemModel, baseItemSchema } from "../base/model";
 
-const { NumberField, StringField } = foundry.data.fields;
+const { NumberField, StringField, HTMLField } = foundry.data.fields;
 
 export function traitSchema() {
   return {
@@ -9,7 +9,7 @@ export function traitSchema() {
     cpCost: new NumberField({ required: true, initial: 1, integer: true }),
     traitCategory: new StringField({ required: true, initial: "common" }),
     prerequisites: new StringField({ required: true, initial: "" }),
-    effect: new StringField({ required: true, initial: "" }),
+    effect: new HTMLField({ required: true, initial: "" }),
   };
 }
 

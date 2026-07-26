@@ -2,7 +2,7 @@ import { BaseItemModel, baseItemSchema } from "../../items/base/model";
 import { CreatureModel } from "../../actors/creature/model";
 import type { PsychicDisciplineData } from "./data";
 
-const { NumberField, StringField } = foundry.data.fields;
+const { NumberField, StringField, HTMLField } = foundry.data.fields;
 
 export function psychicDisciplineSchema() {
   return {
@@ -12,7 +12,7 @@ export function psychicDisciplineSchema() {
     situationalModifier: new StringField({ required: true, initial: "" }),
     // Afinidad a una disciplina: normally 1 CV (Core p. 211).
     affinityCost: new NumberField({ required: true, initial: 1, integer: true, min: 0 }),
-    effect: new StringField({ required: true, initial: "" }),
+    effect: new HTMLField({ required: true, initial: "" }),
   };
 }
 

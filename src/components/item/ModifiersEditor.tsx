@@ -88,7 +88,6 @@ export function ModifiersEditor({ rules, isEditable, onUpdate }: ModifiersEditor
 
   return (
     <div className="a-modifiers-editor">
-      <h3>{localize("ANIMA.Modifiers")}</h3>
       {rows.length === 0 && (
         <p className="a-modifiers-empty">{localize("ANIMA.ModifiersEmpty")}</p>
       )}

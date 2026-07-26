@@ -2,6 +2,7 @@ import React from "react";
 import type { ItemTabProps } from "../types";
 import { SectionCard } from "../../character/ui/SectionCard";
 import { Field, NumberField, TextField } from "../../character/ui/fields";
+import { RichTextEditor } from "../../ui/RichTextEditor";
 
 const ACTION_TYPES = [
   { value: "active", label: "Activa" },
@@ -39,7 +40,7 @@ const SPELL_GRADES = [
   { key: "arcane", label: "Arcano" },
 ];
 
-export function SpellTab({ system, isEditable, onUpdate }: ItemTabProps) {
+export function SpellTab({ itemUuid, system, isEditable, onUpdate }: ItemTabProps) {
   const loc = (k: string) => game.i18n.localize(k);
 
   return (
@@ -72,7 +73,16 @@ export function SpellTab({ system, isEditable, onUpdate }: ItemTabProps) {
                 </Field>
               </div>
               <Field label={loc("ANIMA.ItemEffect")}>
-                <TextField system={system} path={`grades.${g.key}.effect`} isEditable={isEditable} onUpdate={onUpdate} />
+                {/* Textos cortos ("Daño 100."): plegados para no dominar el panel. */}
+                <RichTextEditor
+                  path={`grades.${g.key}.effect`}
+                  value={system.grades?.[g.key]?.effect ?? ""}
+                  isEditable={isEditable}
+                  onUpdate={onUpdate}
+                  ownerKey={itemUuid}
+                  toggled
+                  height={90}
+                />
               </Field>
             </div>
           ))}
@@ -115,7 +125,14 @@ export function SpellTab({ system, isEditable, onUpdate }: ItemTabProps) {
       </SectionCard>
 
       <SectionCard title={loc("ANIMA.ItemEffect")} light>
-        <TextField system={system} path="effect" isEditable={isEditable} onUpdate={onUpdate} />
+        <RichTextEditor
+          path="effect"
+          value={system.effect ?? ""}
+          isEditable={isEditable}
+          onUpdate={onUpdate}
+          ownerKey={itemUuid}
+          height={160}
+        />
       </SectionCard>
     </>
   );

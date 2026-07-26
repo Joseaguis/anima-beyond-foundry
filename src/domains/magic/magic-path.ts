@@ -3,7 +3,7 @@ import { mkCostSchema } from "../../items/base/data";
 import { CreatureModel } from "../../actors/creature/model";
 import type { MagicPathData } from "./data";
 
-const { NumberField, StringField } = foundry.data.fields;
+const { NumberField, StringField, HTMLField } = foundry.data.fields;
 
 export function magicPathSchema() {
   return {
@@ -25,7 +25,7 @@ export function magicPathSchema() {
     // Path level 1-100 (Core p. 118): one spell every two levels. Spent magic
     // level equals this value (subtype "path" only; metamagias don't count).
     level: new NumberField({ required: true, initial: 1, integer: true, min: 1, max: 100 }),
-    effect: new StringField({ required: true, initial: "" }),
+    effect: new HTMLField({ required: true, initial: "" }),
   };
 }
 

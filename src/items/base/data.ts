@@ -10,6 +10,8 @@ export function descriptionSchema() {
   return {
     description: new SchemaField({
       value: new HTMLField({ required: true, initial: "" }),
+      // GM-only notes, shown above the public description on the sheet.
+      gm: new HTMLField({ required: true, initial: "" }),
       chat: new HTMLField({ required: true, initial: "" }),
     }),
     source: new StringField({ required: true, initial: "" }),

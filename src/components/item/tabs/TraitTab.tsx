@@ -2,6 +2,7 @@ import React from "react";
 import type { ItemTabProps } from "../types";
 import { SectionCard } from "../../character/ui/SectionCard";
 import { Field, NumberField, TextField } from "../../character/ui/fields";
+import { RichTextEditor } from "../../ui/RichTextEditor";
 
 const SUBTYPES = [
   { value: "advantage", label: "Ventaja" },
@@ -15,7 +16,7 @@ const CATEGORIES = [
   { value: "magic", label: "Mágico" },
 ];
 
-export function TraitTab({ system, isEditable, onUpdate }: ItemTabProps) {
+export function TraitTab({ itemUuid, system, isEditable, onUpdate }: ItemTabProps) {
   const loc = (k: string) => game.i18n.localize(k);
 
   return (
@@ -39,10 +40,17 @@ export function TraitTab({ system, isEditable, onUpdate }: ItemTabProps) {
         <Field label={loc("ANIMA.ItemPrerequisites")}>
           <TextField system={system} path="prerequisites" isEditable={isEditable} onUpdate={onUpdate} />
         </Field>
-        <Field label={loc("ANIMA.ItemEffect")}>
-          <TextField system={system} path="effect" isEditable={isEditable} onUpdate={onUpdate} />
-        </Field>
       </div>
+      <Field label={loc("ANIMA.ItemEffect")}>
+        <RichTextEditor
+          path="effect"
+          value={system.effect ?? ""}
+          isEditable={isEditable}
+          onUpdate={onUpdate}
+          ownerKey={itemUuid}
+          height={140}
+        />
+      </Field>
     </SectionCard>
   );
 }

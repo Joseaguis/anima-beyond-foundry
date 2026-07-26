@@ -11,6 +11,7 @@ import type {
   TechniqueProfile,
 } from "./technique-data";
 import { TECHNIQUE_LEVELS } from "./technique-tables";
+import { slugify } from "../../utils/slugify";
 
 const { ArrayField, BooleanField, NumberField, SchemaField, StringField } = foundry.data.fields;
 
@@ -114,14 +115,16 @@ export class KiTechniqueModel extends BaseItemModel<KiTechniqueSchema> {
    */
   declare usesBookCost: boolean;
 
-  /** Stable identifier used by the activation roll option. */
-  get slug(): string {
-    return (this.parent?.name ?? "")
-      .normalize("NFD")
-      .replace(/[̀-ͯ]/g, "")
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, "-")
-      .replace(/^-+|-+$/g, "");
+  /**
+   * Stable identifier used by the activation roll option. Prefers the `slug`
+   * field (editable from the Rules tab); falls back to the technique's name.
+   *
+   * Named `rollOptionSlug` and not `slug` on purpose: `slug` is now a schema
+   * field, and a same-named getter would break TypeDataModel's assignment.
+   */
+  get rollOptionSlug(): string {
+    const own = (this as unknown as { slug?: string }).slug;
+    return own || slugify(this.parent?.name ?? "");
   }
 
   get composition(): TechniqueComposition {
@@ -179,7 +182,7 @@ export class KiTechniqueModel extends BaseItemModel<KiTechniqueSchema> {
     this.build = build;
     this.mkCost = build.cm;
     this.profile = buildTechniqueProfile(composition);
-    this.syntheticRules = techniqueRuleElements(this.profile, this.slug);
+    this.syntheticRules = techniqueRuleElements(this.profile, this.rollOptionSlug);
   }
 
   /** Publish onto the actor so `prepareKi` can budget the CM it consumes. */

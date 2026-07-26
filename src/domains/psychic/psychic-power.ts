@@ -3,7 +3,8 @@ import { CreatureModel } from "../../actors/creature/model";
 import { DIFFICULTY_KEYS } from "../../actors/creature/tables";
 import type { PsychicPowerData } from "./data";
 
-const { SchemaField, NumberField, StringField, BooleanField, ArrayField } = foundry.data.fields;
+const { SchemaField, NumberField, StringField, BooleanField, ArrayField, HTMLField } =
+  foundry.data.fields;
 
 export function psychicPowerSchema() {
   return {
@@ -39,11 +40,11 @@ export function psychicPowerSchema() {
     grades: new ArrayField(
       new SchemaField({
         difficulty: new StringField({ required: true, initial: "" }),
-        effect: new StringField({ required: true, initial: "" }),
+        effect: new HTMLField({ required: true, initial: "" }),
       }),
       { required: true, initial: [] },
     ),
-    effect: new StringField({ required: true, initial: "" }),
+    effect: new HTMLField({ required: true, initial: "" }),
   };
 }
 

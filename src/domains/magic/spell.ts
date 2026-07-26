@@ -2,7 +2,7 @@ import { BaseItemModel, baseItemSchema } from "../../items/base/model";
 import { CreatureModel } from "../../actors/creature/model";
 import type { SpellData } from "./data";
 
-const { NumberField, StringField, SchemaField } = foundry.data.fields;
+const { NumberField, StringField, SchemaField, HTMLField } = foundry.data.fields;
 
 /**
  * One of a spell's four grades (Core p. 119): each has its own zeon cost, INT
@@ -16,7 +16,7 @@ function spellGradeField() {
     maintenanceCost: new NumberField({ required: true, initial: 0, integer: true, min: 0 }),
     // Per-grade effect line (Excel "Tablas Magia" cols V-Y): the same spell has
     // different numbers at each grade ("Daño 60" / "Daño 90"…).
-    effect: new StringField({ required: true, initial: "" }),
+    effect: new HTMLField({ required: true, initial: "" }),
   });
 }
 
@@ -31,7 +31,7 @@ export function spellSchema() {
     resistanceType: new StringField({ required: true, initial: "none" }),
     // effect | attack | defense | detection | automatic | spiritual (Anímico).
     spellType: new StringField({ required: true, initial: "effect" }),
-    effect: new StringField({ required: true, initial: "" }),
+    effect: new HTMLField({ required: true, initial: "" }),
     // Paths this spell is closed to, comma separated (Excel col AA "Vía
     // cerrada"): Libre Acceso spells contradicting a path's nature (Core p. 118).
     closedPaths: new StringField({ required: true, initial: "" }),
