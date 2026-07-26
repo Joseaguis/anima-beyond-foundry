@@ -1,0 +1,48 @@
+{
+  "name": "Lágrimas de sangre",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este terrorífico conjuro provoca que la sangre del corazón de un objetivo se expanda y lo reviente desde dentro a causa de la presión. Si el personaje falla el control por más de 40 puntos muere de manera automática, mientras que si el nivel de fracaso no es superior a 40, recibe el daño determinado en la descripción del Grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 74,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Sangre",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Este terrorífico conjuro provoca que la sangre del corazón de un objetivo se expanda y lo reviente desde dentro a causa de la presión. Si el personaje falla el control por más de 40 puntos muere de manera automática, mientras que si el nivel de fracaso no es superior a 40, recibe el daño determinado en la descripción del Grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 280,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 140 / Daño 50"
+      },
+      "intermediate": {
+        "zeonCost": 320,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 180 / Daño 100"
+      },
+      "advanced": {
+        "zeonCost": 360,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 220 / Daño 150"
+      },
+      "arcane": {
+        "zeonCost": 400,
+        "intRequired": 17,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 260 / Daño 200"
+      }
+    }
+  }
+}

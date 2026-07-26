@@ -1,0 +1,48 @@
+{
+  "name": "Sueño eterno",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este terrible conjuro sume a su víctima en un Sueños del que no puede despertar hasta que el hechicero no lo desee, sin importar lo que le pase a su cuerpo. Alguien afectado por este conjuro tiene derecho a una resistencia al día, aunque aplica un -40 a sus resistencias para despertarse si ya ha sido afectado por el conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 54,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Sueños",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Este terrible conjuro sume a su víctima en un Sueños del que no puede despertar hasta que el hechicero no lo desee, sin importar lo que le pase a su cuerpo. Alguien afectado por este conjuro tiene derecho a una resistencia al día, aunque aplica un -40 a sus resistencias para despertarse si ya ha sido afectado por el conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 7,
+        "maintenanceCost": 10,
+        "effect": "RM 80"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "RM 100"
+      },
+      "advanced": {
+        "zeonCost": 180,
+        "intRequired": 11,
+        "maintenanceCost": 20,
+        "effect": "RM 120"
+      },
+      "arcane": {
+        "zeonCost": 240,
+        "intRequired": 13,
+        "maintenanceCost": 25,
+        "effect": "RM 140"
+      }
+    }
+  }
+}

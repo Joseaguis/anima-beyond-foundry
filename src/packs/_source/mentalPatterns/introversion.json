@@ -1,0 +1,16 @@
+{
+  "name": "Introversión",
+  "type": "mentalPattern",
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Los mentalistas que desarrollan el Patrón de Introversión ven facilitados sus esfuerzos por usar sus poderes mentales para afectarse a sí mismos. Sin embargo, esto hace más difícil usar sus matrices con el exterior; tienen tendencia a ir hacia dentro, no hacia fuera.</p><p>El mentalista tiene un comportamiento callado y tímido, guardándose sus pensamientos y emociones para él mismo. Es poco sociable, prefiriendo mucho la soledad, o pequeños grupos de amigos.</p><p><em>Sus matrices tienen un aspecto convexo y en espiral, apuntando hacia el interior de su propia mente.</em></p>",
+      "chat": ""
+    },
+    "source": "Arcana Exxet",
+    "rules": [],
+    "effect": "Bonos: al emplear un poder sobre sí mismo, +40 al Potencial Psíquico y éxito automático de Proyección Psíquica (no aplica a poderes de área que puedan afectarle junto a otros). Al mantener como innato un poder que sólo le afecte a él, lo hace un nivel de potencial por encima de lo normal (p. ej. MED pasa a DIF).\nPenalizadores: −20 a la Proyección Psíquica para poderes que no recaigan sobre el propio mentalista. −40 a cualquier habilidad social que implique expresarse o actuar ante grupos o desconocidos. −40 a toda acción el primer turno de un combate contra desconocidos o ante mucha gente (ignorable ante un grupo pequeño de amigos).\nPatrones Mentales Opuestos: Extroversión.\nCoste: 30 PD / 40 PD. Coste de Cancelación: 10 PD.",
+    "dpCost": 30,
+    "modifier": "+40 Pot. sobre sí mismo / −20 Proy. sobre otros"
+  }
+}

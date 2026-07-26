@@ -1,0 +1,48 @@
+{
+  "name": "Sacrificio vital",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite al mago consumir su vida aumentando su capacidad física. Esta habilidad es pasiva. Por 5 puntos de vida se gana +5 a una acción (seres con acumulación, multiplican por multiplo). El bono se usa para acciones físicas, ataque, defensa o Proyección Mágica. Es necesario declarar el sacrificio antes de lanzar los dados. Se puede conferir esta capacidad a otro. La vida se recuperan como sacrificio (10 por día). Sus efectos no se superponen.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 56,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Fuego",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Permite al mago consumir su vida aumentando su capacidad física. Esta habilidad es pasiva. Por 5 puntos de vida se gana +5 a una acción (seres con acumulación, multiplican por multiplo). El bono se usa para acciones físicas, ataque, defensa o Proyección Mágica. Es necesario declarar el sacrificio antes de lanzar los dados. Se puede conferir esta capacidad a otro. La vida se recuperan como sacrificio (10 por día). Sus efectos no se superponen.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "Sacrificio máximo de 50 PV por asalto"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "Sacrificio máximo de 100 PV por asalto"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "Sacrificio máximo de 150 PV por asalto"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "Sacrificio máximo de 200 PV por asalto"
+      }
+    }
+  }
+}

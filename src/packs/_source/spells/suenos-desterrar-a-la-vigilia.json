@@ -1,0 +1,48 @@
+{
+  "name": "Desterrar a la Vigilia",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este hechizo permite arrancar del mundo terrenal a un individuo o ser y lanzarlo hasta un lugar al azar de la Vigilia. El lanzador puede elegir si sólo envía el subconsciente onírico del afectado (es decir, que su cuerpo permanece durmiendo mientras su mente va a la Vigilia). También puede afectar a criaturas propias de la Vigilia que serán arrastradas por completo. Para resistirse deberá superar una RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 74,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Sueños",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Este hechizo permite arrancar del mundo terrenal a un individuo o ser y lanzarlo hasta un lugar al azar de la Vigilia. El lanzador puede elegir si sólo envía el subconsciente onírico del afectado (es decir, que su cuerpo permanece durmiendo mientras su mente va a la Vigilia). También puede afectar a criaturas propias de la Vigilia que serán arrastradas por completo. Para resistirse deberá superar una RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM 100"
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM 120"
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "RM 140"
+      },
+      "arcane": {
+        "zeonCost": 160,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "RM 160"
+      }
+    }
+  }
+}

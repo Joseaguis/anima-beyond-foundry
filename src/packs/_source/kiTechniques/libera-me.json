@@ -1,0 +1,73 @@
+{
+  "name": "Libera Me",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Ormus",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-indirecto",
+        "role": "primary",
+        "options": [
+          "Nv 1"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "camuflar-ataque",
+        "role": "secondary",
+        "options": [
+          "Muy Difícil (140)"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "aumento-de-dano",
+        "role": "secondary",
+        "options": [
+          "+25",
+          "Sacrificio Vital"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 45,
+    "bookCost": "AGI 4 DES 5 FUE 5 POD 5",
+    "bookDistribution": {
+      "agi": {
+        "activation": 4,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "str": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 5,
+        "upkeep": 0
+      }
+    }
+  }
+}

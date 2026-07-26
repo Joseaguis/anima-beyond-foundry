@@ -1,0 +1,48 @@
+{
+  "name": "El despertar",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El mago devuelve la vida a los muertos y los somete a su dominio. El Despertar no tiene un radio de acción determinado; afecta por igual a cualquier difunto cuyo nivel no fuese superior a lo que determine el grado del conjuro. Si sus espíritus esperan aún el llamamiento, se levantan como espectros o, en caso contrario, como cadáveres animados. Aquellos seres cuyo gnosis sea al menos 15 puntos superior a su Natura, regresa como no muerto con sus facultades plenas.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 100,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "El mago devuelve la vida a los muertos y los somete a su dominio. El Despertar no tiene un radio de acción determinado; afecta por igual a cualquier difunto cuyo nivel no fuese superior a lo que determine el grado del conjuro. Si sus espíritus esperan aún el llamamiento, se levantan como espectros o, en caso contrario, como cadáveres animados. Aquellos seres cuyo gnosis sea al menos 15 puntos superior a su Natura, regresa como no muerto con sus facultades plenas.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 900,
+        "intRequired": 17,
+        "maintenanceCost": 45,
+        "effect": "Nivel 4"
+      },
+      "intermediate": {
+        "zeonCost": 2000,
+        "intRequired": 18,
+        "maintenanceCost": 100,
+        "effect": "Nivel 8"
+      },
+      "advanced": {
+        "zeonCost": 3500,
+        "intRequired": 19,
+        "maintenanceCost": 175,
+        "effect": "Nivel 12"
+      },
+      "arcane": {
+        "zeonCost": 5000,
+        "intRequired": 20,
+        "maintenanceCost": 250,
+        "effect": "Nivel 15"
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Tomeru",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Sirius",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "estados-sobrenaturales",
+        "role": "secondary",
+        "options": [
+          "RF 140",
+          "Estado añadido: Paralización Total"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "dano-reducido",
+        "option": "Ningún Daño"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 40,
+    "bookCost": "DES 8 POD 8 VOL 9",
+    "bookDistribution": {
+      "dex": {
+        "activation": 8,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 8,
+        "upkeep": 0
+      },
+      "wp": {
+        "activation": 9,
+        "upkeep": 0
+      }
+    }
+  }
+}

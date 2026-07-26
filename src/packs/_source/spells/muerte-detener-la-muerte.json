@@ -1,0 +1,48 @@
+{
+  "name": "Detener la muerte",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El blanco de este conjuro se vuelve temporalmente inmortal. No se le conisidera un No Muerto. No tiene efecto sobre poderes que exterminen directamente el alma, o efectos similares.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 84,
+    "actionType": "passive",
+    "maintenanceType": "sustained",
+    "magicPath": "Muerte",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El blanco de este conjuro se vuelve temporalmente inmortal. No se le conisidera un No Muerto. No tiene efecto sobre poderes que exterminen directamente el alma, o efectos similares.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 350,
+        "intRequired": 10,
+        "maintenanceCost": 15,
+        "effect": "El personaje ignora  cualquier efecto de muerte automática"
+      },
+      "intermediate": {
+        "zeonCost": 500,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "El personaje se vuelve inmortal ante el daño físico."
+      },
+      "advanced": {
+        "zeonCost": 800,
+        "intRequired": 14,
+        "maintenanceCost": 40,
+        "effect": "El afectado no puede morir a consecuencia de críticos."
+      },
+      "arcane": {
+        "zeonCost": 1200,
+        "intRequired": 16,
+        "maintenanceCost": 60,
+        "effect": "Inmune a cualquier negativo a la acción derivado del deterioro físico."
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Congelar",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Crioquinesis",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "hard",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "80 RF"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "100 RF"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "120 RF"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "140 RF"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "160 RF"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "180 RF"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "220 RF"
+      }
+    ],
+    "effect": ""
+  }
+}

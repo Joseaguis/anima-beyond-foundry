@@ -1,0 +1,48 @@
+{
+  "name": "Maestro de la guerra",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El hechicero puede combatir físicamente con cualquier arma usando su habilidad de Proyección Mágica ofensiva y defensiva como si fuera habilidad de ataque y defensa. El límite máximo que puede alcanzar está determinado por el Grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 84,
+    "actionType": "passive",
+    "maintenanceType": "sustained",
+    "magicPath": "Guerra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El hechicero puede combatir físicamente con cualquier arma usando su habilidad de Proyección Mágica ofensiva y defensiva como si fuera habilidad de ataque y defensa. El límite máximo que puede alcanzar está determinado por el Grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "200 Habilidad"
+      },
+      "intermediate": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "250 Habilidad"
+      },
+      "advanced": {
+        "zeonCost": 400,
+        "intRequired": 15,
+        "maintenanceCost": 20,
+        "effect": "300 Habilidad"
+      },
+      "arcane": {
+        "zeonCost": 500,
+        "intRequired": 18,
+        "maintenanceCost": 25,
+        "effect": "Sin Límite"
+      }
+    }
+  }
+}

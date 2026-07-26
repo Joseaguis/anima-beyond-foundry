@@ -1,0 +1,48 @@
+{
+  "name": "Visualizar cartografía",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite al hechicero visualizar los elementos del terreno que se encuentren cercanos al sitio en el que está. No se puede localizar a individuos concretos o construcciones con exactitud, pero sí la ubicación de ciudades, ríos, montañas...</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 52,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Permite al hechicero visualizar los elementos del terreno que se encuentren cercanos al sitio en el que está. No se puede localizar a individuos concretos o construcciones con exactitud, pero sí la ubicación de ciudades, ríos, montañas...",
+    "closedPaths": "Oscuridad",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "25 kilómetros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "100 kilómetros de radio"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "250 kilómetros de radio"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "1.000 kilómetros de radio"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Presencia absoluta",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Quienquiera que intente realizar una actividad que no esté centrada en el hechicero recibe automaticamente un penalizador de -40 a toda acción (-120 en caso de estar relacionadas con habilidades perceptivas). La condición para ser afectado por este conjuro es simplemente estar en el interior del área designada y no superar un control de RM o RP.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 74,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Nobleza",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Quienquiera que intente realizar una actividad que no esté centrada en el hechicero recibe automaticamente un penalizador de -40 a toda acción (-120 en caso de estar relacionadas con habilidades perceptivas). La condición para ser afectado por este conjuro es simplemente estar en el interior del área designada y no superar un control de RM o RP.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "120 de RM o RP/ 20 metros radio"
+      },
+      "intermediate": {
+        "zeonCost": 150,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "160 de RM o RP/ 50 metros radio"
+      },
+      "advanced": {
+        "zeonCost": 200,
+        "intRequired": 14,
+        "maintenanceCost": 15,
+        "effect": "200 de RM o RP/ 100 metros radio"
+      },
+      "arcane": {
+        "zeonCost": 250,
+        "intRequired": 16,
+        "maintenanceCost": 20,
+        "effect": "240 de RM o RP/ 150 metros radio"
+      }
+    }
+  }
+}

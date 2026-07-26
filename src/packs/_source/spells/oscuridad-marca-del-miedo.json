@@ -1,0 +1,48 @@
+{
+  "name": "Marca del miedo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Forma una marca o un espectáculo de luces en un lugar determinado que aterroriza y llena de terror a quienes la observen. Todo aquel que lo mire y falle la Resistencia sufrirá de inmediato el estado de Terror. La condición para ser afectado consiste en mirar directamente la Marca del Miedo</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 70,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Oscuridad",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Forma una marca o un espectáculo de luces en un lugar determinado que aterroriza y llena de terror a quienes la observen. Todo aquel que lo mire y falle la Resistencia sufrirá de inmediato el estado de Terror. La condición para ser afectado consiste en mirar directamente la Marca del Miedo",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 140,
+        "intRequired": 10,
+        "maintenanceCost": 5,
+        "effect": "Visible en 1 kilómetro de radio / RM o RP 120"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "Visible en 5 kilómetros de radio / RM o RP 150"
+      },
+      "advanced": {
+        "zeonCost": 280,
+        "intRequired": 14,
+        "maintenanceCost": 10,
+        "effect": "Visible en 15 kilómetros de radio / RM o RP 180"
+      },
+      "arcane": {
+        "zeonCost": 360,
+        "intRequired": 16,
+        "maintenanceCost": 15,
+        "effect": "Visible en 25 kilómetros de radio / RM o RP 220"
+      }
+    }
+  }
+}

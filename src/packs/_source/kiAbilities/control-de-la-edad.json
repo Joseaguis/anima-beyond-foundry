@@ -1,0 +1,20 @@
+{
+  "name": "Control de la edad",
+  "type": "kiAbility",
+  "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Influye en el envejecimiento: multiplica ×3-4 la esperanza de vida y reduce a la mitad los penalizadores por edad avanzada.</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 20,
+    "subtype": "kiPower",
+    "parent": "Dominio físico",
+    "branch": "Control del Ki",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

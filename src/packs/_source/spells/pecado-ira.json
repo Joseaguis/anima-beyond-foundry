@@ -1,0 +1,48 @@
+{
+  "name": "Ira",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El objetivo del hechizo entra en un estado de ira berserker que no puede controlar, atacando de inmediato a todo aquel que sea objeto de su furia. El hechicero podrá, en el momento del lanzamiento, enfocar sobre quién irá dirigida toda esa rabia. Para resistir los efectos de este conjuro es necesario superar un control de RM contra la dificultad determinada por el Grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 74,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Pecado",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "El objetivo del hechizo entra en un estado de ira berserker que no puede controlar, atacando de inmediato a todo aquel que sea objeto de su furia. El hechicero podrá, en el momento del lanzamiento, enfocar sobre quién irá dirigida toda esa rabia. Para resistir los efectos de este conjuro es necesario superar un control de RM contra la dificultad determinada por el Grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 8,
+        "maintenanceCost": 5,
+        "effect": "RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 10,
+        "maintenanceCost": 5,
+        "effect": "RM 140"
+      },
+      "advanced": {
+        "zeonCost": 180,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "RM 160"
+      },
+      "arcane": {
+        "zeonCost": 220,
+        "intRequired": 14,
+        "maintenanceCost": 10,
+        "effect": "RM 180"
+      }
+    }
+  }
+}

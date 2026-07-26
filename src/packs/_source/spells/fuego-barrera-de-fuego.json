@@ -1,0 +1,48 @@
+{
+  "name": "Barrera de fuego",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro levanta un potente muro de fuego. Cualquiera que trate de traspasarlo recibirá automáticamente un ataque contra una habilidad de Casi Imposible, en la TA de calor. Recibir daño no impide a un personaje atravesar el muro. Adicionalmente, el brujo podrá usarla a modo de escudo mágico para detener únicamente ataques basados en agua, frío o fuego</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 22,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Fuego",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "defense",
+    "effect": "Este conjuro levanta un potente muro de fuego. Cualquiera que trate de traspasarlo recibirá automáticamente un ataque contra una habilidad de Casi Imposible, en la TA de calor. Recibir daño no impide a un personaje atravesar el muro. Adicionalmente, el brujo podrá usarla a modo de escudo mágico para detener únicamente ataques basados en agua, frío o fuego",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Daño 80 / 2 metros de extensión / 300 puntos de Resistencia"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "Daño 90 / 5 metros de extensión / 500 puntos de Resistencia"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "Daño 100 / 10 metros / 800 puntos / Puede detener ataques basados en energía"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "Daño 100 /15 metros/1000 puntos/Ataque a IMP/ Puede con toda clase ataque"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Locura",
+  "type": "mentalPattern",
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Si bien \"locura\" es un término muy genérico, los mentalistas que desarrollan este Patrón son un tipo muy concreto de locos; locos de atar. Impredecibles, actúan sin ninguna aparente causalidad, pues viven en un mundo propio apartado de la realidad.</p><p><em>Sus matrices tienen un aspecto siempre cambiante e inconexo; nunca son dos veces iguales.</em></p>",
+      "chat": ""
+    },
+    "source": "Arcana Exxet",
+    "rules": [],
+    "effect": "Bonos: cada vez que active un poder psíquico lanza 1D10 y aplica un modificador a su Potencial Psíquico según la Tabla 15 (1: −40, 2: −30, 3: −20, 4: −10, 5: +0, 6: +10, 7: +20, 8: +30, 9: +40, 10: +50). Además es inmune a todo efecto de locura.\nPenalizadores: si se usan las reglas de Salud Mental, el personaje tiene directamente 0 puntos de SM.\nPatrones Mentales Opuestos: cualquiera. Al intentar desarrollar un Patrón nuevo debe tirar un dado; con resultado par es un Patrón opuesto a su morfología mental actual y no puede desarrollarlo.\nCoste: 20 PD / 30 PD. Coste de Cancelación: 10 PD.",
+    "dpCost": 20,
+    "modifier": "1D10 al Potencial (−40 a +50, Tabla 15)"
+  }
+}

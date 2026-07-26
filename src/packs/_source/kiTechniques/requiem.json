@@ -1,0 +1,81 @@
+{
+  "name": "Réquiem",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Ormus",
+    "level": 3,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-adicional-limitado",
+        "role": "primary",
+        "options": [
+          "+5",
+          "Ataque Contínuo"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "multiplicador-al-dano",
+        "role": "secondary",
+        "options": [
+          "x2"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-elemental",
+        "role": "secondary",
+        "options": [
+          "Luz"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 110,
+    "bookCost": "AGI 10 CON 5 DES 10 FUE 10 POD 10 VOL 5",
+    "bookDistribution": {
+      "agi": {
+        "activation": 10,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 10,
+        "upkeep": 0
+      },
+      "str": {
+        "activation": 10,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 10,
+        "upkeep": 0
+      },
+      "wp": {
+        "activation": 5,
+        "upkeep": 0
+      }
+    }
+  }
+}

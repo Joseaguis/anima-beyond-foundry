@@ -1,0 +1,48 @@
+{
+  "name": "Sellar",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Estanca un conjuro anímico activo en una persona, haciendo imposible que se libre de sus efectos. El conjuro se utiliza sobre un conjuro Anímico lanzado anteriormente sobre un individuo que falló la Resistencia. Hasta que el conjuro Anímico no deje de mantenerse o sea destruido, el sujeto pierde la capacidad de realizar una RM. No tiene efectos sobre hechizos sin mantenimiento, o aquellos que influyan sólo en un área determinada.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 92,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Estanca un conjuro anímico activo en una persona, haciendo imposible que se libre de sus efectos. El conjuro se utiliza sobre un conjuro Anímico lanzado anteriormente sobre un individuo que falló la Resistencia. Hasta que el conjuro Anímico no deje de mantenerse o sea destruido, el sujeto pierde la capacidad de realizar una RM. No tiene efectos sobre hechizos sin mantenimiento, o aquellos que influyan sólo en un área determinada.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "Estanca un conjuro de grado base"
+      },
+      "intermediate": {
+        "zeonCost": 360,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "Estanca un conjuro de grado intermedio"
+      },
+      "advanced": {
+        "zeonCost": 420,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "Estanca un conjuro de grado avanzado"
+      },
+      "arcane": {
+        "zeonCost": 480,
+        "intRequired": 17,
+        "maintenanceCost": 0,
+        "effect": "Estanca un conjuro de grado arcano"
+      }
+    }
+  }
+}

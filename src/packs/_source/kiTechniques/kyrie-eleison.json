@@ -1,0 +1,63 @@
+{
+  "name": "Kyrie eleison",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Ormus",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "maniobras-de-combate-y-apuntar",
+        "role": "primary",
+        "options": [
+          "-75"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "potenciar-critico",
+        "role": "secondary",
+        "options": [
+          "+125",
+          "Crítico Automático"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 75,
+    "bookCost": "AGI 9 DES 9 FUE 9 POD 9",
+    "bookDistribution": {
+      "agi": {
+        "activation": 9,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 9,
+        "upkeep": 0
+      },
+      "str": {
+        "activation": 9,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 9,
+        "upkeep": 0
+      }
+    }
+  }
+}

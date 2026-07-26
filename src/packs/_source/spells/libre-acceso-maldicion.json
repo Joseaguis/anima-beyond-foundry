@@ -1,0 +1,48 @@
+{
+  "name": "Maldición",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro provoca una serie de condiciones negativas sobre el objetivo. Su cometido es causar infortunio sobre ciertas acciones que realice el objetivo. El mago decide a qué exactamente, así como sus consecuencias, dentro de los límites por el grado del conjuro. Otros vinculados a la maldicion pueden tirar su RM para evitar sus efectos. Sólo se puede realizar un nuevo control cuando sus efectos vuelvan a activarse.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 42,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Este conjuro provoca una serie de condiciones negativas sobre el objetivo. Su cometido es causar infortunio sobre ciertas acciones que realice el objetivo. El mago decide a qué exactamente, así como sus consecuencias, dentro de los límites por el grado del conjuro. Otros vinculados a la maldicion pueden tirar su RM para evitar sus efectos. Sólo se puede realizar un nuevo control cuando sus efectos vuelvan a activarse.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "actos concretos y crea infortunio, que no pueda lograr sus objetivos /RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 350,
+        "intRequired": 10,
+        "maintenanceCost": 20,
+        "effect": "Actos genéricos, mala suerte, maldecir una habilidad (–60 por uso) / RM 140"
+      },
+      "advanced": {
+        "zeonCost": 500,
+        "intRequired": 13,
+        "maintenanceCost": 25,
+        "effect": "acto o condición, toda clase de efectos negativos, habilidad (–80) / RM 160"
+      },
+      "arcane": {
+        "zeonCost": 700,
+        "intRequired": 16,
+        "maintenanceCost": 35,
+        "effect": "Complejidad imaginable y produce efectos mayores, incluso muerte / RM 180"
+      }
+    }
+  }
+}

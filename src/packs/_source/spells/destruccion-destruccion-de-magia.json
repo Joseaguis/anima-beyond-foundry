@@ -1,0 +1,48 @@
+{
+  "name": "Destrucción de magia",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Destruye un sortilegio hasta cierto valor de Zeon. Dado que es un conjuro pasivo, puede emplearse para anular cualquier hechizo que se lance en el mismo asalto.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 18,
+    "actionType": "passive",
+    "maintenanceType": "none",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Destruye un sortilegio hasta cierto valor de Zeon. Dado que es un conjuro pasivo, puede emplearse para anular cualquier hechizo que se lance en el mismo asalto.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "Valor zeónico 50"
+      },
+      "intermediate": {
+        "zeonCost": 150,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "Valor zeónico 120"
+      },
+      "advanced": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Valor zeónico 200"
+      },
+      "arcane": {
+        "zeonCost": 500,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Valor zeónico 350"
+      }
+    }
+  }
+}

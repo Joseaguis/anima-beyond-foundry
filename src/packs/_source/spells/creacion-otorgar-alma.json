@@ -1,0 +1,48 @@
+{
+  "name": "Otorgar alma",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El mago puede concebir un alma, dándole el soplo de la vida a un objeto o cuerpo capaz de contenerla. Si se la otorga a una criatura engendrada mágicamente, como las del conjuro Crear Ser o los de nivel 82 de las elementales, no es necesario mantener el hechizo y el ente cobra existencia independiente. Rompe cualquier lazo con su creador, obteniendo libre albedrío. No se puede emplear sobre algo que ya posea un alma viva.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 88,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El mago puede concebir un alma, dándole el soplo de la vida a un objeto o cuerpo capaz de contenerla. Si se la otorga a una criatura engendrada mágicamente, como las del conjuro Crear Ser o los de nivel 82 de las elementales, no es necesario mantener el hechizo y el ente cobra existencia independiente. Rompe cualquier lazo con su creador, obteniendo libre albedrío. No se puede emplear sobre algo que ya posea un alma viva.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 500,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 30"
+      },
+      "intermediate": {
+        "zeonCost": 800,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 50"
+      },
+      "advanced": {
+        "zeonCost": 1200,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 80"
+      },
+      "arcane": {
+        "zeonCost": 2000,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 100"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Ether",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Hypnos Requiem",
+    "level": 1,
+    "combinable": true,
+    "effects": [
+      {
+        "effect": "intangibilidad",
+        "role": "primary",
+        "options": [],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "atadura-elemental",
+        "option": "Oscuridad"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 25,
+    "bookCost": "POD 4 (1) VOL 4 (1)",
+    "bookDistribution": {
+      "pow": {
+        "activation": 4,
+        "upkeep": 1
+      },
+      "wp": {
+        "activation": 4,
+        "upkeep": 1
+      }
+    }
+  }
+}

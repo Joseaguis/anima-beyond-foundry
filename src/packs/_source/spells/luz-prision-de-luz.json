@@ -1,0 +1,48 @@
+{
+  "name": "Prisión de luz",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Encierra algo en luz, no podrá interactuar con el exterior, ni éste con lo encerrado. No se sabe lo que ocurre fuera, ni viceversa. Para forzar la prisión desde el interior, se considera un ser de acumulación con TA 10 y resistencia dada por el grado del conjuro. El daño desde fuera se dobla. Tiene Regeneración 19. Si el blanco falla la RM, deberá romper la prisión para salir de la prisión, sin derecho a otra RM. El mago no puede encerrarse.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 92,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Luz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Encierra algo en luz, no podrá interactuar con el exterior, ni éste con lo encerrado. No se sabe lo que ocurre fuera, ni viceversa. Para forzar la prisión desde el interior, se considera un ser de acumulación con TA 10 y resistencia dada por el grado del conjuro. El daño desde fuera se dobla. Tiene Regeneración 19. Si el blanco falla la RM, deberá romper la prisión para salir de la prisión, sin derecho a otra RM. El mago no puede encerrarse.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 14,
+        "maintenanceCost": 40,
+        "effect": "RM 140 / La prisión posee 10.000 puntos de resistencia"
+      },
+      "intermediate": {
+        "zeonCost": 350,
+        "intRequired": 16,
+        "maintenanceCost": 70,
+        "effect": "RM 180 / La prisión posee 250.000 puntos de resistencia"
+      },
+      "advanced": {
+        "zeonCost": 500,
+        "intRequired": 18,
+        "maintenanceCost": 100,
+        "effect": "RM 220 / La prisión posee 500.000 puntos de resistencia"
+      },
+      "arcane": {
+        "zeonCost": 800,
+        "intRequired": 20,
+        "maintenanceCost": 160,
+        "effect": "RM 240 / no puede romperse desde adentro, 500.000 puntos de resistencia."
+      }
+    }
+  }
+}

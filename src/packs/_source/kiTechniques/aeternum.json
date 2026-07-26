@@ -1,0 +1,63 @@
+{
+  "name": "Aeternum",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Magus Abstergo",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-parada",
+        "role": "primary",
+        "options": [
+          "+75"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "defensas-adicionales",
+        "role": "secondary",
+        "options": [
+          "+2"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "defensa-especializada",
+        "option": "Conjuros"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 65,
+    "bookCost": "POD 8 (2) VOL 8 (2) CON 8 (2)",
+    "bookDistribution": {
+      "pow": {
+        "activation": 8,
+        "upkeep": 2
+      },
+      "wp": {
+        "activation": 8,
+        "upkeep": 2
+      },
+      "con": {
+        "activation": 8,
+        "upkeep": 2
+      }
+    }
+  }
+}

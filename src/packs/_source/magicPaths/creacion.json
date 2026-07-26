@@ -1,0 +1,21 @@
+{
+  "name": "Creación",
+  "type": "magicPath",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "subtype": "path",
+    "element": "Creación",
+    "pathType": "major",
+    "opposedPath": "Destrucción, Nigromancia",
+    "parentPathId": "",
+    "mkCost": 0,
+    "level": 1,
+    "effect": ""
+  }
+}

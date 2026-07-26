@@ -1,0 +1,64 @@
+{
+  "name": "Leer impulsos eléctricos",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Electromagnetismo",
+    "powerLevel": 2,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "hard",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "RF 100 / 10 m radio"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "RF 120 / 25 m radio"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "RF 140 / 50 m radio"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "RF 160 / 100 m radio"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "RF 180 / 150 m radio"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "RF 200 / 250 m radio"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "RF 220 / 1 km radio"
+      }
+    ],
+    "effect": ""
+  }
+}

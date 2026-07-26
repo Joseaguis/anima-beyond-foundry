@@ -1,0 +1,20 @@
+{
+  "name": "Anulación de Ki",
+  "type": "kiAbility",
+  "img": "icons/magic/unholy/orb-swirling-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>Aura que reduce las Acumulaciones de los presentes (Tabla 11); 2 Ki/asalto (5 si se fija en un blanco). Si una Acumulación llega a 0, no puede usar Ki de esa Característica.</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 30,
+    "subtype": "nemesisPower",
+    "parent": "Uso del Némesis",
+    "branch": "Némesis",
+    "kiCost": 2,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

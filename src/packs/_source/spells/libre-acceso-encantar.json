@@ -1,0 +1,48 @@
+{
+  "name": "Encantar",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Otorga a un objeto o lugar el carácter de cuerpo sobrenatural. La sustancia afectada será material para seres intangibles y conjuros. Si es lanzado sobre un arma, será capaz de dañar a seres inmateriales (empleando la presencia del objeto), y una pared encantada no podrá ser traspasada por seres etéreos o efectos místicos. Permite afectar a multitud de objetos, siempre y cuando la suma de sus presencias no supere el valor indicado por el conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 12,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Otorga a un objeto o lugar el carácter de cuerpo sobrenatural. La sustancia afectada será material para seres intangibles y conjuros. Si es lanzado sobre un arma, será capaz de dañar a seres inmateriales (empleando la presencia del objeto), y una pared encantada no podrá ser traspasada por seres etéreos o efectos místicos. Permite afectar a multitud de objetos, siempre y cuando la suma de sus presencias no supere el valor indicado por el conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Presencia máxima 40"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 9,
+        "maintenanceCost": 5,
+        "effect": "Presencia máxima 60"
+      },
+      "advanced": {
+        "zeonCost": 110,
+        "intRequired": 11,
+        "maintenanceCost": 10,
+        "effect": "Presencia máxima 90"
+      },
+      "arcane": {
+        "zeonCost": 130,
+        "intRequired": 13,
+        "maintenanceCost": 10,
+        "effect": "Presencia máxima 120"
+      }
+    }
+  }
+}

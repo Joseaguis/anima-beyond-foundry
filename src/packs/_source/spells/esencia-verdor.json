@@ -1,0 +1,48 @@
+{
+  "name": "Verdor",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Verdor crea vida vegetal y animal al antojo del lanzador. Animales y plantas aparecerán en el instante en el que se lance el hechizo, sin importar las condiciones climatológicas de la zona. El brujo podrá crear una selva incluso en mitad de un desierto (aunque eso no significa que sobreviviese durante un período prolongado en esas condiciones). Fauna y flora deben pertenecer a especies naturales existentes.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 90,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Verdor crea vida vegetal y animal al antojo del lanzador. Animales y plantas aparecerán en el instante en el que se lance el hechizo, sin importar las condiciones climatológicas de la zona. El brujo podrá crear una selva incluso en mitad de un desierto (aunque eso no significa que sobreviviese durante un período prolongado en esas condiciones). Fauna y flora deben pertenecer a especies naturales existentes.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "10 kilómetros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 450,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "150 kilómetros de radio"
+      },
+      "advanced": {
+        "zeonCost": 600,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "350 kilómetros de radio"
+      },
+      "arcane": {
+        "zeonCost": 750,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "600 kilómetros de radio"
+      }
+    }
+  }
+}

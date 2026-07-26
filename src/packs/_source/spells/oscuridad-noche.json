@@ -1,0 +1,48 @@
+{
+  "name": "Noche",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Forma una cúpula de oscuridad absoluta. Todo aquel que se encuentre en su interior, excepto el hechicero, se verá sometido a las reglas de Ceguera. Para poder ver a través de esta oscuridad, ya sea desde dentro o fuera de la cúpula, es necesario superar una dificultad de Imposible en Advertir o de Absurdo en Buscar. No se puede designar blancos en el interior del área</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 42,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Oscuridad",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Forma una cúpula de oscuridad absoluta. Todo aquel que se encuentre en su interior, excepto el hechicero, se verá sometido a las reglas de Ceguera. Para poder ver a través de esta oscuridad, ya sea desde dentro o fuera de la cúpula, es necesario superar una dificultad de Imposible en Advertir o de Absurdo en Buscar. No se puede designar blancos en el interior del área",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "Radio 25 metros"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "Radio 250 metros"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "Radio 500 metros/ La oscuridad se considera sobrenatural"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "Radio 1 kilómetro / La oscuridad se considera sobrenatural"
+      }
+    }
+  }
+}

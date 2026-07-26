@@ -1,0 +1,15 @@
+{
+  "_id": "abftraitGift0001",
+  "name": "El Don",
+  "type": "trait",
+  "img": "icons/magic/light/explosion-star-glow-blue-purple.webp",
+  "system": {
+    "description": { "value": "<p>El personaje posee la capacidad de percibir y emplear la magia.</p>", "chat": "" },
+    "source": "Core Exxet",
+    "subtype": "advantage",
+    "cpCost": 1,
+    "traitCategory": "supernatural",
+    "prerequisites": "",
+    "effect": "Otorga acceso a las habilidades mágicas."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Esquirlas de hielo",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Crioquinesis",
+    "powerLevel": 2,
+    "action": "active",
+    "maintainable": false,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Daño 80"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Daño 100"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Daño 120"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Daño 160 / área 5 m"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Daño 200 / área 25 m"
+      }
+    ],
+    "effect": ""
+  }
+}

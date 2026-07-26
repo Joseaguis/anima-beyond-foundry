@@ -1,0 +1,48 @@
+{
+  "name": "Objetos oscuros",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Forma un objeto físico de energía lumínica, ya sea algo tan complejo como un reloj o tan simple como una espada. Pese a estar hecho de luz, tiene consistencia física. La presencia máxima de dicho objeto y la calidad del mismo viene determinada por el grado del conjuro</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 76,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Oscuridad",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Forma un objeto físico de energía lumínica, ya sea algo tan complejo como un reloj o tan simple como una espada. Pese a estar hecho de luz, tiene consistencia física. La presencia máxima de dicho objeto y la calidad del mismo viene determinada por el grado del conjuro",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 150,
+        "intRequired": 10,
+        "maintenanceCost": 15,
+        "effect": "Presencia 60 / Calidad +5."
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 12,
+        "maintenanceCost": 20,
+        "effect": "Presencia 100 / Calidad +10"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 14,
+        "maintenanceCost": 25,
+        "effect": "Presencia 140 / Calidad +10"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 16,
+        "maintenanceCost": 30,
+        "effect": "Presencia 180 / Calidad +15"
+      }
+    }
+  }
+}

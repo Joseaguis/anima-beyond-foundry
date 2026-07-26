@@ -1,0 +1,49 @@
+{
+  "name": "Kolinger",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Frostkolier",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "armadura",
+        "role": "primary",
+        "options": [
+          "TA 6"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "atadura-elemental",
+        "option": "Agua"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 45,
+    "bookCost": "CON 7 (2) POD 7 (1)",
+    "bookDistribution": {
+      "con": {
+        "activation": 7,
+        "upkeep": 2
+      },
+      "pow": {
+        "activation": 7,
+        "upkeep": 1
+      }
+    }
+  }
+}

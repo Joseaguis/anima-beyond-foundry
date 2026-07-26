@@ -1,0 +1,48 @@
+{
+  "name": "Devolver al flujo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Afecta a un espíritu, devolviéndolo al más allá. Permite influenciar tanto a almas que esperan El Llamamiento como a criaturas de naturaleza espiritual. Salvo si la entidad tiene un Gnosis lo suficientemente elevado como para permitirle regresar al mundo, su esencia desaparecerá al llegar al más allá. En el caso de los no muertos, dado que sus almas no pertenecen al mundo, son automáticamente destruídos.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 62,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Afecta a un espíritu, devolviéndolo al más allá. Permite influenciar tanto a almas que esperan El Llamamiento como a criaturas de naturaleza espiritual. Salvo si la entidad tiene un Gnosis lo suficientemente elevado como para permitirle regresar al mundo, su esencia desaparecerá al llegar al más allá. En el caso de los no muertos, dado que sus almas no pertenecen al mundo, son automáticamente destruídos.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM 180"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM 240"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM 300"
+      }
+    }
+  }
+}

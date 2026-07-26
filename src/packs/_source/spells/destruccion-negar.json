@@ -1,0 +1,48 @@
+{
+  "name": "Negar",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El hechicero veta una acción concreta para un sujeto, impidiendole intentar siquiera llevarla a cabo. Este conjuro sólo permite negar acciones activas. En el caso de que la acción negada sea muy amplia, como no atacar, o no moverse, el afectado puede aplicar entre un +10 y un +30 a su RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 58,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "El hechicero veta una acción concreta para un sujeto, impidiendole intentar siquiera llevarla a cabo. Este conjuro sólo permite negar acciones activas. En el caso de que la acción negada sea muy amplia, como no atacar, o no moverse, el afectado puede aplicar entre un +10 y un +30 a su RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 7,
+        "maintenanceCost": 10,
+        "effect": "RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 15,
+        "effect": "RM 160"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 13,
+        "maintenanceCost": 25,
+        "effect": "RM 200"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 16,
+        "maintenanceCost": 30,
+        "effect": "RM 240"
+      }
+    }
+  }
+}

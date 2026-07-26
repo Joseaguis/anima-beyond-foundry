@@ -1,0 +1,64 @@
+{
+  "name": "Ataque de aceleración magnética",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Electromagnetismo",
+    "powerLevel": 3,
+    "action": "active",
+    "maintainable": false,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 12"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 10"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "+20 Daño / R 14 / 50m / 500gr"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "+40 Daño / R 18 / 100m / 1kg"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "+80 Daño / R 26 / 150m / 10kg"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "+120 Daño / R 30 / 300m / 100kg"
+      }
+    ],
+    "effect": ""
+  }
+}

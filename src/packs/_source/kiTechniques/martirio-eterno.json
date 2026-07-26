@@ -1,0 +1,61 @@
+{
+  "name": "Martirio Eterno",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "A’Arab Zaraq",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "recuperar-accion",
+        "role": "primary",
+        "options": [],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "habilidad-de-contraataque",
+        "role": "secondary",
+        "options": [
+          "+25"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "circunstancia-limite",
+        "option": "Mitad de PV"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 30,
+    "bookCost": "FUE 5 CON 5 POD 5",
+    "bookDistribution": {
+      "str": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 5,
+        "upkeep": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Control físico",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite controlar el cuerpo de un ser. Dado a que es solo dominio físico y no espiritual, el individuo sometido no está obligado a usar ninguna habilidad sobrenatural en contra de su voluntad, aunque sí sus habilidades marciales. Para resistir el control, hay que superar una RM. El afectado tendrá derecho a una nueva Resistencia por día, y en cada ocasión en la que las órdenes recibidas vayan completamente en contra de su comportamiento.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 38,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Permite controlar el cuerpo de un ser. Dado a que es solo dominio físico y no espiritual, el individuo sometido no está obligado a usar ninguna habilidad sobrenatural en contra de su voluntad, aunque sí sus habilidades marciales. Para resistir el control, hay que superar una RM. El afectado tendrá derecho a una nueva Resistencia por día, y en cada ocasión en la que las órdenes recibidas vayan completamente en contra de su comportamiento.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 6,
+        "maintenanceCost": 24,
+        "effect": "RM 80"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 40,
+        "effect": "RM 120"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 50,
+        "effect": "RM 140"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 60,
+        "effect": "RM 180"
+      }
+    }
+  }
+}

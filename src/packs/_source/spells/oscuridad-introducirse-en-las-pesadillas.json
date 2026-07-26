@@ -1,0 +1,48 @@
+{
+  "name": "Introducirse en las pesadillas",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El mago entra físicamente en las pesadillas de alguien. No tendrá control del mundo onírico del soñador, todo lo que pase será real para él. El blanco deberá tener pesadillas como requisito, si se torna  buen Sueños, despierta o muere, el mago abandona el mundo onírico y vuelve al real. Un conjuro de Esencia hecho al durmiente afecta también al mago. Una vez en las pesadillas, el brujo puede saltar al subconsciente de otro soñador que se defiende con su RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 50,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Oscuridad",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "El mago entra físicamente en las pesadillas de alguien. No tendrá control del mundo onírico del soñador, todo lo que pase será real para él. El blanco deberá tener pesadillas como requisito, si se torna  buen Sueños, despierta o muere, el mago abandona el mundo onírico y vuelve al real. Un conjuro de Esencia hecho al durmiente afecta también al mago. Una vez en las pesadillas, el brujo puede saltar al subconsciente de otro soñador que se defiende con su RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "RM o RP 140 / 10 metros de distancia"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "RM o RP 160 / 80 metros de distancia"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "RM o RP 200 / 140 metros de distancia"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "RM o RP 240 / 200 metros de distancia"
+      }
+    }
+  }
+}

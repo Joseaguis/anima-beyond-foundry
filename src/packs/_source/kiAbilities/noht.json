@@ -1,0 +1,20 @@
+{
+  "name": "Noht",
+  "type": "kiAbility",
+  "img": "icons/magic/death/skull-energy-light-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Armadura de vacío amplificada: reduce hasta -30 el Daño base de los ataques recibidos.</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 30,
+    "subtype": "nemesisPower",
+    "parent": "Armadura de vacío",
+    "branch": "Némesis",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

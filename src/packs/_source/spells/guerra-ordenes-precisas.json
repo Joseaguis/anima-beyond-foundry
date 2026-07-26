@@ -1,0 +1,48 @@
+{
+  "name": "Órdenes precisas",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite al hechicero o a aquel sobre el que se lance el conjuro trasmitir órdenes directamente a la mente de sus compañeros. Estos mensajes son automáticos, sin la necesidad de hablar con ellos o de formular largas frases o indicaciones que pueden ser escuchadas por personas indeseadas. El elegido puede seleccionar quienes les escuchan y quienes no, o incluso transmitir varias órdenes a la vez con un simple pensamiento.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 74,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Guerra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Permite al hechicero o a aquel sobre el que se lance el conjuro trasmitir órdenes directamente a la mente de sus compañeros. Estos mensajes son automáticos, sin la necesidad de hablar con ellos o de formular largas frases o indicaciones que pueden ser escuchadas por personas indeseadas. El elegido puede seleccionar quienes les escuchan y quienes no, o incluso transmitir varias órdenes a la vez con un simple pensamiento.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 150,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "25m radio"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "100m radio"
+      },
+      "advanced": {
+        "zeonCost": 250,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "250m radio"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "500m radio"
+      }
+    }
+  }
+}

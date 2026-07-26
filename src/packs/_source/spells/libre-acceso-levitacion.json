@@ -1,0 +1,48 @@
+{
+  "name": "Levitación",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El blanco de este conjuro podrá elevarse o descender verticalmente a voluntad por el aire, aunque no hacer movimientos horizontales</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 22,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El blanco de este conjuro podrá elevarse o descender verticalmente a voluntad por el aire, aunque no hacer movimientos horizontales",
+    "closedPaths": "Tierra",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Tipo de vuelo 4"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "Tipo de vuelo 6"
+      },
+      "advanced": {
+        "zeonCost": 100,
+        "intRequired": 11,
+        "maintenanceCost": 10,
+        "effect": "Tipo de vuelo 8"
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "Tipo de vuelo 10"
+      }
+    }
+  }
+}

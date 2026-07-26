@@ -1,0 +1,48 @@
+{
+  "name": "Tierra maldita",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El mago encanta una zona, todo ser que fallezca dentro se levanta como un no muerto bajo su control. Los difuntos se convierten en cadáveres animados, los seres naturales cuyo Gnosis sea al menos 5 puntos superior a su natura, se levantan como un espectro. Las criaturas sólo pueden actuar dentro de la tierra maldita. Si salen de ella, la magia que los sustenta desaparece. El conjuro afecta una zona de terreno que permanece estática en el lugar donde fue lanzada.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 88,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El mago encanta una zona, todo ser que fallezca dentro se levanta como un no muerto bajo su control. Los difuntos se convierten en cadáveres animados, los seres naturales cuyo Gnosis sea al menos 5 puntos superior a su natura, se levantan como un espectro. Las criaturas sólo pueden actuar dentro de la tierra maldita. Si salen de ella, la magia que los sustenta desaparece. El conjuro afecta una zona de terreno que permanece estática en el lugar donde fue lanzada.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 350,
+        "intRequired": 9,
+        "maintenanceCost": 35,
+        "effect": "1 kilómetro de radio"
+      },
+      "intermediate": {
+        "zeonCost": 600,
+        "intRequired": 12,
+        "maintenanceCost": 60,
+        "effect": "10 kilómetros de radio"
+      },
+      "advanced": {
+        "zeonCost": 900,
+        "intRequired": 14,
+        "maintenanceCost": 90,
+        "effect": "100 kilómetros de radio"
+      },
+      "arcane": {
+        "zeonCost": 1500,
+        "intRequired": 16,
+        "maintenanceCost": 150,
+        "effect": "1.000 kilómetros de radio"
+      }
+    }
+  }
+}

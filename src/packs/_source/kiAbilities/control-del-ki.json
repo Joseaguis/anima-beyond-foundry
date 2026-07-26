@@ -1,0 +1,20 @@
+{
+  "name": "Control del Ki",
+  "type": "kiAbility",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Control absoluto de la energía interna: permite acumular Ki y usar Técnicas de Dominio.</p>",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "rules": [],
+    "mkCost": 30,
+    "subtype": "kiPower",
+    "parent": "Uso del Ki",
+    "branch": "Control del Ki",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

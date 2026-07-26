@@ -1,0 +1,64 @@
+{
+  "name": "Leer el pasado",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Telemetría",
+    "powerLevel": 2,
+    "action": "active",
+    "maintainable": false,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Una hora"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Seis horas"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Un día"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Una semana"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Un mes"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Un año"
+      }
+    ],
+    "effect": ""
+  }
+}

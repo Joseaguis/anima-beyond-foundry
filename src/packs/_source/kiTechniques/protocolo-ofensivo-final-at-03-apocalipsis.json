@@ -1,0 +1,71 @@
+{
+  "name": "Protocolo Ofensivo Final At-03: Apocalipsis",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Legado De Sólomon",
+    "level": 3,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-predeterminado",
+        "role": "primary",
+        "options": [
+          "Zen (440)"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "multiplicador-al-dano",
+        "role": "secondary",
+        "options": [
+          "x3"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "requerimiento",
+        "option": "Sangre antigua"
+      },
+      {
+        "disadvantage": "tecnica-mantenida",
+        "option": "Mecanus"
+      },
+      {
+        "disadvantage": "circunstancia-limite",
+        "option": "Mitad de PV"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 80,
+    "bookCost": "DES 20 AGI 20 POD 20",
+    "bookDistribution": {
+      "dex": {
+        "activation": 20,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 20,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 20,
+        "upkeep": 0
+      }
+    }
+  }
+}

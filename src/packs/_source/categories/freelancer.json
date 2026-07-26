@@ -1,0 +1,69 @@
+{
+  "_id": "ETQQKuAXyXyEQqzQ",
+  "_key": "!items!ETQQKuAXyXyEQqzQ",
+  "name": "Novel",
+  "type": "category",
+  "img": "icons/sundries/books/book-embossed-jewel-gold-purple.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "archetype": "freelancer",
+    "lifeMultiple": 20,
+    "lpPerLevel": 5,
+    "initiativePerLevel": 5,
+    "martialKnowledgePerLevel": 20,
+    "combatCosts": {
+      "attack": 2,
+      "parry": 2,
+      "dodge": 2,
+      "wearArmor": 2
+    },
+    "combatBonusPerLevel": {
+      "attack": 0,
+      "parry": 0,
+      "dodge": 0,
+      "wearArmor": 0
+    },
+    "supernatural": {
+      "zeon": 2,
+      "actMultiple": 60,
+      "magicProjection": 2,
+      "ki": 2,
+      "kiAccMultiple": 20,
+      "psychicProjection": 2,
+      "cv": 20,
+      "summoning": 2,
+      "zeonPerLevel": 10,
+      "levelsPerCv": 2
+    },
+    "secondaryCosts": {
+      "athletics": 2,
+      "social": 2,
+      "perceptive": 2,
+      "intellectual": 2,
+      "vigor": 2,
+      "subterfuge": 2,
+      "creative": 2
+    },
+    "secondaryBonusPerLevel": {
+      "athletics": 0,
+      "social": 0,
+      "perceptive": 0,
+      "intellectual": 0,
+      "vigor": 0,
+      "subterfuge": 0,
+      "creative": 0
+    },
+    "dpLimits": {
+      "combat": 0.6,
+      "magic": 0.6,
+      "psychic": 0.6
+    },
+    "secondaryCostOverrides": {},
+    "secondaryAbilityBonusPerLevel": {},
+    "novelPerLevel": 5
+  }
+}

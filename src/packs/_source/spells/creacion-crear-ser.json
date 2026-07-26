@@ -1,0 +1,48 @@
+{
+  "name": "Crear ser",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea una criatura con apariencia de vida bajo el control del mago. Será un Ser Entre Mundos con Gnosis 25. Su existencia se encuentra atada al alma del mago y el número de seres que haya creado que dependan de él limitará su nivel máximo. Puede tener como tope el nivel de su creador, menos el número de entidades creadas. Si uno o varios seres tienen ya su nivel máximo y el brujo crea otro nuevo, los anteriores bajan un nivel.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 78,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea una criatura con apariencia de vida bajo el control del mago. Será un Ser Entre Mundos con Gnosis 25. Su existencia se encuentra atada al alma del mago y el número de seres que haya creado que dependan de él limitará su nivel máximo. Puede tener como tope el nivel de su creador, menos el número de entidades creadas. Si uno o varios seres tienen ya su nivel máximo y el brujo crea otro nuevo, los anteriores bajan un nivel.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 9,
+        "maintenanceCost": 50,
+        "effect": "Nivel 1"
+      },
+      "intermediate": {
+        "zeonCost": 400,
+        "intRequired": 12,
+        "maintenanceCost": 80,
+        "effect": "Nivel 5"
+      },
+      "advanced": {
+        "zeonCost": 600,
+        "intRequired": 15,
+        "maintenanceCost": 120,
+        "effect": "Nivel 9"
+      },
+      "arcane": {
+        "zeonCost": 1000,
+        "intRequired": 17,
+        "maintenanceCost": 200,
+        "effect": "Nivel 12"
+      }
+    }
+  }
+}

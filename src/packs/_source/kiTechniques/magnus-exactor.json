@@ -1,0 +1,58 @@
+{
+  "name": "Magnus Exactor",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Celéritas",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-con-area",
+        "role": "primary",
+        "options": [
+          "10 metros de radio"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "incrementar-turno",
+        "role": "secondary",
+        "options": [
+          "+150"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 45,
+    "bookCost": "AGI 7 DES 7 POD 3",
+    "bookDistribution": {
+      "agi": {
+        "activation": 7,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 7,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 3,
+        "upkeep": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Sacrificio vital",
+  "type": "kiAbility",
+  "img": "icons/magic/life/heart-cross-strong-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Consume fuerza vital: por cada 2 PV sacrificados recupera 1 punto de Ki de su reserva (los PV cuentan como Sacrificio).</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 10,
+    "subtype": "kiPower",
+    "parent": "Transmisión del Ki",
+    "branch": "Transmisión del Ki",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

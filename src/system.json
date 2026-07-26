@@ -1,0 +1,82 @@
+{
+  "id": "animabfv2",
+  "title": "Anima: Beyond Fantasy",
+  "description": "Sistema de Anima: Beyond Fantasy para Foundry VTT",
+  "version": "0.2.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "authors": [
+    {
+      "name": "Jose Manuel Aguilar",
+      "email": "Joseaguis1@hotmail.com"
+    }
+  ],
+  "esmodules": ["main.js"],
+  "styles": ["style.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "character": {},
+      "npc": {}
+    },
+    "Item": {
+      "weapon": {},
+      "armor": {},
+      "category": {},
+      "trait": {},
+      "weaponTable": {},
+      "combatStyle": {},
+      "kiAbility": {},
+      "kiTechnique": {},
+      "spell": {},
+      "magicPath": {},
+      "psychicPower": {},
+      "psychicDiscipline": {},
+      "mentalPattern": {},
+      "monsterAbility": {}
+    }
+  },
+  "packs": [
+    { "name": "categories", "label": "Categorías (ABF)", "path": "packs/categories", "type": "Item", "system": "animabfv2", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "weapons", "label": "Armas (ABF)", "path": "packs/weapons", "type": "Item", "system": "animabfv2", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "armors", "label": "Armaduras (ABF)", "path": "packs/armors", "type": "Item", "system": "animabfv2", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "traits", "label": "Ventajas y Desventajas (ABF)", "path": "packs/traits", "type": "Item", "system": "animabfv2", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "weaponTables", "label": "Tablas de Armas (ABF)", "path": "packs/weaponTables", "type": "Item", "system": "animabfv2", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "combatStyles", "label": "Estilos de Combate (ABF)", "path": "packs/combatStyles", "type": "Item", "system": "animabfv2", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "kiAbilities", "label": "Habilidades de Ki (ABF)", "path": "packs/kiAbilities", "type": "Item", "system": "animabfv2", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "kiTechniques", "label": "Técnicas de Ki (ABF)", "path": "packs/kiTechniques", "type": "Item", "system": "animabfv2", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "spells", "label": "Conjuros (ABF)", "path": "packs/spells", "type": "Item", "system": "animabfv2", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "magicPaths", "label": "Vías y Metamagias (ABF)", "path": "packs/magicPaths", "type": "Item", "system": "animabfv2", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "psychicPowers", "label": "Poderes Psíquicos (ABF)", "path": "packs/psychicPowers", "type": "Item", "system": "animabfv2", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "psychicDisciplines", "label": "Disciplinas Psíquicas (ABF)", "path": "packs/psychicDisciplines", "type": "Item", "system": "animabfv2", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "mentalPatterns", "label": "Patrones Mentales (ABF)", "path": "packs/mentalPatterns", "type": "Item", "system": "animabfv2", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "monsterAbilities", "label": "Poderes de Criatura (ABF)", "path": "packs/monsterAbilities", "type": "Item", "system": "animabfv2", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } }
+  ],
+  "packFolders": [
+    {
+      "name": "Anima Beyond Fantasy",
+      "sorting": "m",
+      "packs": ["categories", "weapons", "armors", "traits", "weaponTables", "combatStyles", "kiAbilities", "kiTechniques", "spells", "magicPaths", "psychicPowers", "psychicDisciplines", "mentalPatterns", "monsterAbilities"]
+    }
+  ],
+  "grid": {
+    "distance": 1.5,
+    "units": "m"
+  },
+  "primaryTokenAttribute": "lifePoints",
+  "socket": false
+}

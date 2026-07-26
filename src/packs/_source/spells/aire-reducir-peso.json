@@ -1,0 +1,48 @@
+{
+  "name": "Reducir peso",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Reduce el peso de un cuerpo material orgánico o inorgánico hasta un mínimo de 1 kilogramo.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 10,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Aire",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Reduce el peso de un cuerpo material orgánico o inorgánico hasta un mínimo de 1 kilogramo.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 5,
+        "maintenanceCost": 5,
+        "effect": "-20 Kg"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 8,
+        "maintenanceCost": 15,
+        "effect": "-150 Kg"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 10,
+        "maintenanceCost": 25,
+        "effect": "-300  Kg"
+      },
+      "arcane": {
+        "zeonCost": 350,
+        "intRequired": 12,
+        "maintenanceCost": 35,
+        "effect": "-500 Kg"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Aumentar peso",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Incrementa el peso de un cuerpo, ya sea orgánico o inorgánico</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 10,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Tierra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Incrementa el peso de un cuerpo, ya sea orgánico o inorgánico",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 5,
+        "maintenanceCost": 5,
+        "effect": "+20 kilogramos"
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 8,
+        "maintenanceCost": 25,
+        "effect": "+120 kilogramos"
+      },
+      "advanced": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 30,
+        "effect": "+200 kilogramos"
+      },
+      "arcane": {
+        "zeonCost": 320,
+        "intRequired": 12,
+        "maintenanceCost": 40,
+        "effect": "+300 kilogramos"
+      }
+    }
+  }
+}

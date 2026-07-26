@@ -1,0 +1,64 @@
+{
+  "name": "Inmolar",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Piroquinesis",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": false,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Daño 60 / 5 m de Radio"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Daño 80 / 10 m de Radio"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Daño 100 / 20 m de Radio"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Daño 120 / 30 m de Radio"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Daño 150 / 50 m de Radio"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Daño 200 / 100 m de Radio"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Daño 250 / 200 m de Radio"
+      }
+    ],
+    "effect": ""
+  }
+}

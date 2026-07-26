@@ -1,0 +1,48 @@
+{
+  "name": "Atravesar lo sólido",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite a uno o varios sujetos, atravesar cuerpos sólidos. No hace inmateriales a los blancos, viéndose influidos por los efectos de los elementos como el calor o el frío, pero pueden ignorar completamente cualquier cosa no basada en energía. De este modo, podrían atravesar voluntariamente una pared como si no existiera para ellos, o pasar a través de una espada normal sin sufrir daños. Es posible decidir qué cuerpos puede atravesar y cuáles no.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 32,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Tierra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Permite a uno o varios sujetos, atravesar cuerpos sólidos. No hace inmateriales a los blancos, viéndose influidos por los efectos de los elementos como el calor o el frío, pero pueden ignorar completamente cualquier cosa no basada en energía. De este modo, podrían atravesar voluntariamente una pared como si no existiera para ellos, o pasar a través de una espada normal sin sufrir daños. Es posible decidir qué cuerpos puede atravesar y cuáles no.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 7,
+        "maintenanceCost": 5,
+        "effect": "Presencia máxima 100"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 5,
+        "effect": "Presencia máxima 140"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "Presencia máxima 180"
+      },
+      "arcane": {
+        "zeonCost": 140,
+        "intRequired": 14,
+        "maintenanceCost": 10,
+        "effect": "Presencia máxima 240"
+      }
+    }
+  }
+}

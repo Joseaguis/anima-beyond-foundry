@@ -1,0 +1,48 @@
+{
+  "name": "Incrementar debilidad",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Incrrementa los puntos débiles de alguien. Dobla el penalizador que tenga por alguna vulnerabilidad. Un elemental débil ante la lúz recibiría x4 de daño contra ataques de luz, mientras que alguien vulnerable a los venenos reduciría su RV x4. Una vez afectado por la RM, el blanco del conjuro puede repetir la tirada cada vez que su debilidad le afecte.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 16,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Incrrementa los puntos débiles de alguien. Dobla el penalizador que tenga por alguna vulnerabilidad. Un elemental débil ante la lúz recibiría x4 de daño contra ataques de luz, mientras que alguien vulnerable a los venenos reduciría su RV x4. Una vez afectado por la RM, el blanco del conjuro puede repetir la tirada cada vez que su debilidad le afecte.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "120 RM"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "140 RM"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 10,
+        "maintenanceCost": 15,
+        "effect": "160 RM"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "200 RM"
+      }
+    }
+  }
+}

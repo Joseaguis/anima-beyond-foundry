@@ -1,0 +1,69 @@
+{
+  "name": "Guan Shi",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Di Quiu",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-con-area",
+        "role": "primary",
+        "options": [
+          "25 metros de radio",
+          "Elección de Blanco"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "potenciar-critico",
+        "role": "secondary",
+        "options": [
+          "+50",
+          "Crítico Automático"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "tecnica-mantenida",
+        "option": "Jin Shu"
+      },
+      {
+        "disadvantage": "circunstancia-de-combate",
+        "option": "Apresado"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 60,
+    "bookCost": "POD 8 VOL 8 FUE 8",
+    "bookDistribution": {
+      "pow": {
+        "activation": 8,
+        "upkeep": 0
+      },
+      "wp": {
+        "activation": 8,
+        "upkeep": 0
+      },
+      "str": {
+        "activation": 8,
+        "upkeep": 0
+      }
+    }
+  }
+}

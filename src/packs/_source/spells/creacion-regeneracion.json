@@ -1,0 +1,48 @@
+{
+  "name": "Regeneración",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Aumenta la capacidad de un cuerpo para sanar todo tipo de herida. Este conjuro otorga un nivel de Regeneración base a cualquier individuo designado por el mago, sustituyendo la que poseyera naturalmente.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 10,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Aumenta la capacidad de un cuerpo para sanar todo tipo de herida. Este conjuro otorga un nivel de Regeneración base a cualquier individuo designado por el mago, sustituyendo la que poseyera naturalmente.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "Regeneración 4"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "Regeneración 8"
+      },
+      "advanced": {
+        "zeonCost": 150,
+        "intRequired": 10,
+        "maintenanceCost": 15,
+        "effect": "Regeneración 12"
+      },
+      "arcane": {
+        "zeonCost": 250,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "Regeneración 16"
+      }
+    }
+  }
+}

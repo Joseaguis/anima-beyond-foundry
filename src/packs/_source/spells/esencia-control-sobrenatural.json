@@ -1,0 +1,48 @@
+{
+  "name": "Control sobrenatural",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Se obtiene el control de un espíritu o de un Ser Entre Mundos. Se podrá transmitir las órdenes por la conexión mística que crea con la entidad. Para resistir los efectos , es necesario superar una RM (dado que se controla la esencia de la criatura, no es posible utilizar su RP). El ser tendrá derecho a una Resistencia por día, y en cada ocasión en la que las órdenes recibidas vayan completamente en contra de su comportamiento.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 70,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Se obtiene el control de un espíritu o de un Ser Entre Mundos. Se podrá transmitir las órdenes por la conexión mística que crea con la entidad. Para resistir los efectos , es necesario superar una RM (dado que se controla la esencia de la criatura, no es posible utilizar su RP). El ser tendrá derecho a una Resistencia por día, y en cada ocasión en la que las órdenes recibidas vayan completamente en contra de su comportamiento.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 8,
+        "maintenanceCost": 25,
+        "effect": "RM 100"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 40,
+        "effect": "RM 120"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 13,
+        "maintenanceCost": 50,
+        "effect": "RM 140"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 60,
+        "effect": "RM 180"
+      }
+    }
+  }
+}

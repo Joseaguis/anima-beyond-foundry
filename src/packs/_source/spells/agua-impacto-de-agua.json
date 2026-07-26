@@ -1,0 +1,48 @@
+{
+  "name": "Impacto de agua",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El brujo genera una descarga ofensiva que, aunque ataca en Contundente, es capaz de dañar energía. Si causa daño o es detenido, produce un impacto sobre el blanco del sortilegio con una fuerza determinada por el grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 20,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Agua",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "El brujo genera una descarga ofensiva que, aunque ataca en Contundente, es capaz de dañar energía. Si causa daño o es detenido, produce un impacto sobre el blanco del sortilegio con una fuerza determinada por el grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 5,
+        "maintenanceCost": 0,
+        "effect": "Daño 40 / Fuerza 8."
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "Daño 60 / Fuerza 10."
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Daño 80 / Fuerza 12."
+      },
+      "arcane": {
+        "zeonCost": 200,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Daño 100 / Fuerza 14."
+      }
+    }
+  }
+}

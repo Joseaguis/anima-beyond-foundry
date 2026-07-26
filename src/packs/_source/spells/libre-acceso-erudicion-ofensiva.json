@@ -1,0 +1,48 @@
+{
+  "name": "Erudición ofensiva",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Empleando este conjuro, el hechicero aumenta su Proyección Mágica ofensiva. Sólo puede emplearse a la vez un conjuro de Erudición Ofensiva sobre un sujeto concreto</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 72,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Empleando este conjuro, el hechicero aumenta su Proyección Mágica ofensiva. Sólo puede emplearse a la vez un conjuro de Erudición Ofensiva sobre un sujeto concreto",
+    "closedPaths": "Creación",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "+20 a la Proyección Mágica Ofensiva"
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 11,
+        "maintenanceCost": 10,
+        "effect": "+30 a la Proyección Mágica Ofensiva"
+      },
+      "advanced": {
+        "zeonCost": 160,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "+40 a la Proyección mágica ofensiva"
+      },
+      "arcane": {
+        "zeonCost": 200,
+        "intRequired": 16,
+        "maintenanceCost": 15,
+        "effect": "+50 a la Proyección mágica ofensiva"
+      }
+    }
+  }
+}

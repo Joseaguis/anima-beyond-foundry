@@ -1,0 +1,48 @@
+{
+  "name": "Crear golem",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea un ser de piedra con apariencia de vida, bajo el control absoluto del hechicero. El ente será creado como un ser entre mundos, usando los poderes y limitaciones de los elementales de Tierra, según las reglas de creación de seres. La criatura tendrá PD, y se le aplican los limites descritos en el conjuro Crear Ser, de la Vía de Creación</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 82,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Tierra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea un ser de piedra con apariencia de vida, bajo el control absoluto del hechicero. El ente será creado como un ser entre mundos, usando los poderes y limitaciones de los elementales de Tierra, según las reglas de creación de seres. La criatura tendrá PD, y se le aplican los limites descritos en el conjuro Crear Ser, de la Vía de Creación",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 10,
+        "maintenanceCost": 50,
+        "effect": "Nivel 1"
+      },
+      "intermediate": {
+        "zeonCost": 350,
+        "intRequired": 12,
+        "maintenanceCost": 70,
+        "effect": "Nivel 3"
+      },
+      "advanced": {
+        "zeonCost": 500,
+        "intRequired": 14,
+        "maintenanceCost": 100,
+        "effect": "Nivel 6"
+      },
+      "arcane": {
+        "zeonCost": 700,
+        "intRequired": 16,
+        "maintenanceCost": 140,
+        "effect": "Nivel 10"
+      }
+    }
+  }
+}

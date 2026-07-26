@@ -1,0 +1,20 @@
+{
+  "name": "Ataque elemental",
+  "type": "kiAbility",
+  "img": "icons/magic/fire/blast-jet-stream-fire-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>El arma con aura inflige un tipo de Daño elemental a elección.</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 10,
+    "subtype": "kiPower",
+    "parent": "Extensión del aura al arma",
+    "branch": "Extrusión de presencia",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

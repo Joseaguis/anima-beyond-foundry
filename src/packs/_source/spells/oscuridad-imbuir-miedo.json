@@ -1,0 +1,48 @@
+{
+  "name": "Imbuir miedo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Provoca, temporalmente, el estado de Miedo a todos los sujetos que se encuentren alrededor del lanzador. El hechicero decidirá cuál es la fuente que origina el miedo a los afectados</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 6,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Oscuridad",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Provoca, temporalmente, el estado de Miedo a todos los sujetos que se encuentren alrededor del lanzador. El hechicero decidirá cuál es la fuente que origina el miedo a los afectados",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 5,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 80 / 10 metros de radio."
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 100 / 50 metros de radio"
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 120 / 100 metros de radio"
+      },
+      "arcane": {
+        "zeonCost": 180,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 140 / 250 metros de radio"
+      }
+    }
+  }
+}

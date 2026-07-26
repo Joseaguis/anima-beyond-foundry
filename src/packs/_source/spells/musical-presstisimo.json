@@ -1,0 +1,48 @@
+{
+  "name": "Presstisimo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro crea una frenética melodía que incrementa la velocidad de reacción de todo aquel que la escuche y sea designado por el lanzador. Los afectados que se encuentren cerca del hechicero obtienen de inmediato un bono a su turno e incrementan su velodiad.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 64,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Musical",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este conjuro crea una frenética melodía que incrementa la velocidad de reacción de todo aquel que la escuche y sea designado por el lanzador. Los afectados que se encuentren cerca del hechicero obtienen de inmediato un bono a su turno e incrementan su velodiad.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 8,
+        "maintenanceCost": 5,
+        "effect": "10 metros de radio/ +1 al tipo de movimiento/ +30 al Turno"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "20 metros de radio/ +2 al turno/ +30 al Turno"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "30 metros de radio/ +2 al tipo de movimiento/ +40 al Turno"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 14,
+        "maintenanceCost": 20,
+        "effect": "40 metros de radio/ +3 al tipo de movimiento/ +50 al Turno"
+      }
+    }
+  }
+}

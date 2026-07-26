@@ -1,0 +1,48 @@
+{
+  "name": "Lentitud",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Reduce la velocidad de movimiento y la capacidad de reacción de un individuo si éste no supera la RM del conjuro. Si el tipo de movimiento llega a cero, cada punto de movimiento adicional que se reduzca provoca en su lugar un -20 a todas las acciones físicas.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 22,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Tierra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Reduce la velocidad de movimiento y la capacidad de reacción de un individuo si éste no supera la RM del conjuro. Si el tipo de movimiento llega a cero, cada punto de movimiento adicional que se reduzca provoca en su lugar un -20 a todas las acciones físicas.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "RM 120 / -50 al turno y -2 al Tipo de Movimiento"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "RM 140 / -70 al turno y -4 al Tipo de Movimiento"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "RM 160 / -90 al turno y -6 al Tipo de Movimiento"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "RM 180 / -120 al turno y -10 al Tipo de Movimiento"
+      }
+    }
+  }
+}

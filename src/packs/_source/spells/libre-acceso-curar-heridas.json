@@ -1,0 +1,48 @@
+{
+  "name": "Curar heridas",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Sana cualquier clase de herida recuperando Puntos de Vida. Este tipo de curación no permite recobrar miembros perdidos o daños similares, pero sí evita los efectos del desangramiento</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 52,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Sana cualquier clase de herida recuperando Puntos de Vida. Este tipo de curación no permite recobrar miembros perdidos o daños similares, pero sí evita los efectos del desangramiento",
+    "closedPaths": "Destrucción",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "40 Puntos de vida"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "80 Puntos de vida"
+      },
+      "advanced": {
+        "zeonCost": 180,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "160 Puntos de vida"
+      },
+      "arcane": {
+        "zeonCost": 220,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "320 Puntos de vida"
+      }
+    }
+  }
+}

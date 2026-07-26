@@ -1,0 +1,48 @@
+{
+  "name": "Crear frío",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea intensidades de frío o hielo. Mientras se mantenga el conjuro, la temperatura se conservará.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 6,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Agua",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea intensidades de frío o hielo. Mientras se mantenga el conjuro, la temperatura se conservará.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 5,
+        "maintenanceCost": 5,
+        "effect": "1 Intensidad."
+      },
+      "intermediate": {
+        "zeonCost": 50,
+        "intRequired": 7,
+        "maintenanceCost": 5,
+        "effect": "3 Intensidades."
+      },
+      "advanced": {
+        "zeonCost": 90,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "5 Intensidades."
+      },
+      "arcane": {
+        "zeonCost": 140,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "8 Intensidades."
+      }
+    }
+  }
+}

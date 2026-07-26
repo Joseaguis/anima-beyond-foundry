@@ -1,0 +1,48 @@
+{
+  "name": "Debilidad",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El blanco de este conjuro se verá sometido temporalmente al efecto de Debilidad tal y como se explica en el Capítulo 14</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 62,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "El blanco de este conjuro se verá sometido temporalmente al efecto de Debilidad tal y como se explica en el Capítulo 14",
+    "closedPaths": "Creación",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 11,
+        "maintenanceCost": 10,
+        "effect": "RM 140"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 14,
+        "maintenanceCost": 15,
+        "effect": "RM 160"
+      },
+      "arcane": {
+        "zeonCost": 140,
+        "intRequired": 16,
+        "maintenanceCost": 15,
+        "effect": "RM 180"
+      }
+    }
+  }
+}

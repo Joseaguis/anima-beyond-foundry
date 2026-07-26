@@ -1,0 +1,20 @@
+{
+  "name": "Magnitud",
+  "type": "kiAbility",
+  "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Invirtiendo 3 Ki extra al crear una sombra, su penalizador a la Acción baja a -60 (-3 a Características).</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 30,
+    "subtype": "kiPower",
+    "parent": "Multiplicación de cuerpos",
+    "branch": "Control del Ki",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

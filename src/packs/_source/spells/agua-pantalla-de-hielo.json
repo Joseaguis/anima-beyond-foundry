@@ -1,0 +1,48 @@
+{
+  "name": "Pantalla de hielo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Forma una barrera de hielo que protege frente a cualquier fuente de ataque. En el caso de que el escudo detenga con éxito una descarga de energía basada en luz u oscuridad, puede devolver el ataque hacia su lanzador con la misma habilidad con la que este lo proyectó.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 36,
+    "actionType": "passive",
+    "maintenanceType": "sustained",
+    "magicPath": "Agua",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "defense",
+    "effect": "Forma una barrera de hielo que protege frente a cualquier fuente de ataque. En el caso de que el escudo detenga con éxito una descarga de energía basada en luz u oscuridad, puede devolver el ataque hacia su lanzador con la misma habilidad con la que este lo proyectó.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "400 puntos de Resistencia."
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "1.500 puntos de Resistencia."
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "2.500 puntos de Resistencia."
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "4.000 puntos de Resistencia."
+      }
+    }
+  }
+}

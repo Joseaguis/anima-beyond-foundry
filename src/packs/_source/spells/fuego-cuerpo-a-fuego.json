@@ -1,0 +1,48 @@
+{
+  "name": "Cuerpo a fuego",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El objetivo se transforma en llamas, volviéndose inmune a ataques no basado en energía, frió o agua. Todo aquello capaz de mitigar el fuego (arena, espuma) producirá también daño. Quien se ponga en contacto con las llamas, superar una RF contra el doble de su presencia o perder puntos de vida equivalente a la mitad del nivel de fracaso (si el afectado tiene TA contra calor obtiene un bono de +5 a esta tirada)</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 52,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Fuego",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El objetivo se transforma en llamas, volviéndose inmune a ataques no basado en energía, frió o agua. Todo aquello capaz de mitigar el fuego (arena, espuma) producirá también daño. Quien se ponga en contacto con las llamas, superar una RF contra el doble de su presencia o perder puntos de vida equivalente a la mitad del nivel de fracaso (si el afectado tiene TA contra calor obtiene un bono de +5 a esta tirada)",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "Las habilidades descritas"
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 11,
+        "maintenanceCost": 15,
+        "effect": "Se gana +30 a sus Resistencias contra efectos basados en calor"
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "Idem arriba, el sujeto puede pasar por donde pueda pasar el fuego"
+      },
+      "arcane": {
+        "zeonCost": 160,
+        "intRequired": 16,
+        "maintenanceCost": 20,
+        "effect": "Idem arriba, los ataques de frío o agua no sobrenatural no causan daño"
+      }
+    }
+  }
+}

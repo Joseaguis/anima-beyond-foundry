@@ -1,0 +1,48 @@
+{
+  "name": "Crear",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Otorga la capacidad de concebir cualquier cosa que desee: continentes, océanos o incluso mundos enteros. Otorga puntos de presencia para crear, mientras no supere un límite de presencia determinada por el grado del conjuro. Este hechizo también puede imponer nuevas reglas a la realidad; alterar la gravedad, modificar la velocidad con la que pasa el tiempo… Cualquiera con un Gnosis inferior a la mitad del que posee el lanzador, se verá sometido a ellas.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 100,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Otorga la capacidad de concebir cualquier cosa que desee: continentes, océanos o incluso mundos enteros. Otorga puntos de presencia para crear, mientras no supere un límite de presencia determinada por el grado del conjuro. Este hechizo también puede imponer nuevas reglas a la realidad; alterar la gravedad, modificar la velocidad con la que pasa el tiempo… Cualquiera con un Gnosis inferior a la mitad del que posee el lanzador, se verá sometido a ellas.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 1000,
+        "intRequired": 17,
+        "maintenanceCost": 0,
+        "effect": "1.000 Puntos de presencia / Presencia máxima 180 / 1 regla existencial"
+      },
+      "intermediate": {
+        "zeonCost": 3000,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "10.000 Puntos de presencia / Presencia máxima 220 / 5 reglas existenciales"
+      },
+      "advanced": {
+        "zeonCost": 6000,
+        "intRequired": 19,
+        "maintenanceCost": 0,
+        "effect": "10..000 Puntos de presencia / Presencia máxima 260 / 10 reglas existenciales"
+      },
+      "arcane": {
+        "zeonCost": 12000,
+        "intRequired": 20,
+        "maintenanceCost": 0,
+        "effect": "100.000 de presencia / Presencia máxima 320 / Sin límite reglas existenciales."
+      }
+    }
+  }
+}

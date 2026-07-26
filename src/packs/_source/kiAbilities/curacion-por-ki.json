@@ -1,0 +1,20 @@
+{
+  "name": "Curación por Ki",
+  "type": "kiAbility",
+  "img": "icons/magic/life/heart-cross-strong-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Cura 2 PV por cada punto de Ki genérico gastado (máximo la mitad del Daño sufrido).</p>",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "rules": [],
+    "mkCost": 10,
+    "subtype": "kiPower",
+    "parent": "Transmisión del Ki",
+    "branch": "Transmisión del Ki",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

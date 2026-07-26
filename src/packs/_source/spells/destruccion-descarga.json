@@ -1,0 +1,48 @@
+{
+  "name": "Descarga",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Proyecta una descarga mística, que ataca en la TA de Energía.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 36,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "Proyecta una descarga mística, que ataca en la TA de Energía.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "Daño 100"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "Daño 150"
+      },
+      "advanced": {
+        "zeonCost": 220,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Daño 200"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "Daño 250"
+      }
+    }
+  }
+}

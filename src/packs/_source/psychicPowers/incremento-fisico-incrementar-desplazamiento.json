@@ -1,0 +1,64 @@
+{
+  "name": "Incrementar desplazamiento",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Incremento Físico",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "hard",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Tipo de movimiento +1"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Tipo de movimiento +2"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Tipo de movimiento +3"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Tipo de movimiento +4"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Tipo de movimiento +5"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Tipo de movimiento +6"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Tipo de movimiento +8"
+      }
+    ],
+    "effect": ""
+  }
+}

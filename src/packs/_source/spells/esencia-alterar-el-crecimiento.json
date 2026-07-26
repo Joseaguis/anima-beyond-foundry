@@ -1,0 +1,48 @@
+{
+  "name": "Alterar el crecimiento",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Modifica el ritmo natural de desarrollo de un organismo, acelerando o retrasando su evolución. En juego, permite multiplicar o dividir el ritmo de envejecimiento de un cuerpo vivo por el valor que determina el grado de conjuro. Una vez alguien es afectado por este sortilegio, no tiene derecho a repetir la RM mientras el lanzador lo mantenga.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 46,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Modifica el ritmo natural de desarrollo de un organismo, acelerando o retrasando su evolución. En juego, permite multiplicar o dividir el ritmo de envejecimiento de un cuerpo vivo por el valor que determina el grado de conjuro. Una vez alguien es afectado por este sortilegio, no tiene derecho a repetir la RM mientras el lanzador lo mantenga.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "x2 al ritmo de crecimiento / RM 100"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 11,
+        "maintenanceCost": 15,
+        "effect": "X 10 al ritmo de crecimiento / RM 120"
+      },
+      "advanced": {
+        "zeonCost": 180,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "x50 al ritmo de crecimiento / RM 140"
+      },
+      "arcane": {
+        "zeonCost": 240,
+        "intRequired": 16,
+        "maintenanceCost": 20,
+        "effect": "x100 al ritmo de crecimiento / RM 160"
+      }
+    }
+  }
+}

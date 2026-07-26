@@ -1,0 +1,48 @@
+{
+  "name": "Sacrificio de poder",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite al hechicero consumir su propia energía mágica para incrementar su acumulación mágica. Este conjuro otorga la habilidad pasiva de gastar puntos de Zeon para obtener un bono temporal a su ACT. Cada 10 puntos que invierta con este fin, le proporcionarán un +5 a su ACT hasta el fin del turno. Sus efectos no se superponen, y sólo se puede tener un conjuro de esta clase activo sobre un individuo determinado</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 66,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Fuego",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Permite al hechicero consumir su propia energía mágica para incrementar su acumulación mágica. Este conjuro otorga la habilidad pasiva de gastar puntos de Zeon para obtener un bono temporal a su ACT. Cada 10 puntos que invierta con este fin, le proporcionarán un +5 a su ACT hasta el fin del turno. Sus efectos no se superponen, y sólo se puede tener un conjuro de esta clase activo sobre un individuo determinado",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 7,
+        "maintenanceCost": 10,
+        "effect": "20 puntos de Zeon por asalto"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "50 puntos de Zeon por asalto"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "80 puntos de Zeon por asalto"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "120 puntos de Zeon por asalto"
+      }
+    }
+  }
+}

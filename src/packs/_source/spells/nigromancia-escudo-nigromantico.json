@@ -1,0 +1,48 @@
+{
+  "name": "Escudo nigromántico",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Empleando la esencia de almas muertas, forma un escudo de energía que protege frente a cualquier clase de ataque.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 46,
+    "actionType": "passive",
+    "maintenanceType": "sustained",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "defense",
+    "effect": "Empleando la esencia de almas muertas, forma un escudo de energía que protege frente a cualquier clase de ataque.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 9,
+        "maintenanceCost": 5,
+        "effect": "1.000 puntos de Resistencia"
+      },
+      "intermediate": {
+        "zeonCost": 160,
+        "intRequired": 11,
+        "maintenanceCost": 10,
+        "effect": "2.000 puntos de Resistencia"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "3.500 puntos de Resistencia"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "5.000 puntos de Resistencia"
+      }
+    }
+  }
+}

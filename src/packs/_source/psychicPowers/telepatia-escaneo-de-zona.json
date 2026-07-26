@@ -1,0 +1,64 @@
+{
+  "name": "Escaneo de zona",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Telepatía",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "medium",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "100 RP y 10 m de radio"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "120 RP y 50 m de radio"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "140 RP y 100 m de radio"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "160 RP y 250 m de radio"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "180 RP y 500 m de radio"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "200 RP y 1 km de radio"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "220 RP y 10 km de radio"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "260 RP y 100 km de radio"
+      }
+    ],
+    "effect": ""
+  }
+}

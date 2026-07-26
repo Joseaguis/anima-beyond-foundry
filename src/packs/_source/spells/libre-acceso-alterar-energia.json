@@ -1,0 +1,48 @@
+{
+  "name": "Alterar energia",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El hechicero puede transformar intensidades de cualquier tipo de energía elemental en otro, como convertir fuego en electricidad. Si estas intensidades son mágicas o tienen presencia propia, podrán resistirse superando una RM. Este conjuro no causa daños a los seres elementales, pero sí altera su naturaleza</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 42,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "El hechicero puede transformar intensidades de cualquier tipo de energía elemental en otro, como convertir fuego en electricidad. Si estas intensidades son mágicas o tienen presencia propia, podrán resistirse superando una RM. Este conjuro no causa daños a los seres elementales, pero sí altera su naturaleza",
+    "closedPaths": "Destrucción",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "10 intensidades / RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 160,
+        "intRequired": 10,
+        "maintenanceCost": 20,
+        "effect": "15 intensidades / RM 140"
+      },
+      "advanced": {
+        "zeonCost": 200,
+        "intRequired": 12,
+        "maintenanceCost": 20,
+        "effect": "20 intensidades / RM 160"
+      },
+      "arcane": {
+        "zeonCost": 240,
+        "intRequired": 14,
+        "maintenanceCost": 25,
+        "effect": "25 intensidades / RM 180"
+      }
+    }
+  }
+}

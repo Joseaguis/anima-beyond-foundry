@@ -1,0 +1,58 @@
+{
+  "name": "Summun",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Celéritas",
+    "level": 3,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-adicional-limitado",
+        "role": "primary",
+        "options": [
+          "+8"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "incrementar-turno",
+        "role": "secondary",
+        "options": [
+          "+175"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 85,
+    "bookCost": "AGI 15 DES 17 POD 8",
+    "bookDistribution": {
+      "agi": {
+        "activation": 15,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 17,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 8,
+        "upkeep": 0
+      }
+    }
+  }
+}

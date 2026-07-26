@@ -1,0 +1,48 @@
+{
+  "name": "Engatusar",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El individuo objeto del conjuro ve aumentado, mediante la magia, su carisma y su encanto. Mientras esté activo, el personaje recibirá un bono a sus habilidades secundarias Liderazgo y Persuasión.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 20,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Ilusión",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El individuo objeto del conjuro ve aumentado, mediante la magia, su carisma y su encanto. Mientras esté activo, el personaje recibirá un bono a sus habilidades secundarias Liderazgo y Persuasión.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "+50 a Liderazgo y Persuasión."
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "+80 a Liderazgo y Persuasión."
+      },
+      "advanced": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "+100 a Liderazgo y Persuasión."
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "+120 a Liderazgo y Persuasión."
+      }
+    }
+  }
+}

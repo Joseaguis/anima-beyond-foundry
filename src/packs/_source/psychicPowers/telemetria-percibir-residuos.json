@@ -1,0 +1,64 @@
+{
+  "name": "Percibir residuos",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Telemetría",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "easy",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Una hora"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Seis horas"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Un día"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Tres días"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Una semana"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Un mes"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Un año"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Una década"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Un siglo"
+      }
+    ],
+    "effect": ""
+  }
+}

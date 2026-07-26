@@ -1,0 +1,64 @@
+{
+  "name": "Presa telequinética",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Telequinesis",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "medium",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fuerza 6"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fuerza 8"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Fuerza 10"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Fuerza 12 / Radio 5 m"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Fuerza 14 / Radio 10 m"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Fuerza 15 / Radio 50 m"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Fuerza 16 / Radio 100 m"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Fuerza 18 / Radio 500 m"
+      }
+    ],
+    "effect": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Controlar impulsos eléctricos",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Electromagnetismo",
+    "powerLevel": 3,
+    "action": "active",
+    "maintainable": false,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 12"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 10"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "-40 acción / RF 120"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "-80 acción / RF 140"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Control parcial / RF 160"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Control total / RF 140"
+      }
+    ],
+    "effect": ""
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Drenar almas",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Se drena el alma del objetivo que o supera una RM o pierde presencia igual a la mitad de nivel de fracaso. Por 5 puntos perdidos resta un nivel  y cualquier capacidad o poder que dependiera de este. Si llega a cero muere. Por cada 10 puntos que sume, incrementa temporalmente una característica en +1, u obtiene 10 PD para poderes o habilidades esenciales de monstruos de Gnosis 30. Se pierde cada día un punto de característica o 20 de los PD incrementados.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 78,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Se drena el alma del objetivo que o supera una RM o pierde presencia igual a la mitad de nivel de fracaso. Por 5 puntos perdidos resta un nivel  y cualquier capacidad o poder que dependiera de este. Si llega a cero muere. Por cada 10 puntos que sume, incrementa temporalmente una característica en +1, u obtiene 10 PD para poderes o habilidades esenciales de monstruos de Gnosis 30. Se pierde cada día un punto de característica o 20 de los PD incrementados.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM 140"
+      },
+      "advanced": {
+        "zeonCost": 280,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "RM 160"
+      },
+      "arcane": {
+        "zeonCost": 320,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "RM 180"
+      }
+    }
+  }
+}

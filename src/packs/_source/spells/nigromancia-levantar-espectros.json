@@ -1,0 +1,48 @@
+{
+  "name": "Levantar espectros",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Convierte almas de muertos en espectros a su servicio. Conservan parte de sus capacidades en vida. Un espectro, reduce a la mitad el nivel de vivo (redondeado hacia arriba), y tiene 100 PD más que el mago usa para darle los poderes como ser con Gnosis 20. Sólo funciona sobre almas recién fallecidas y que esperen el llamamiento. Puede afectar a varios espectros a la vez, siempre que la suma de sus presencias no supere lo que determine el grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 60,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Convierte almas de muertos en espectros a su servicio. Conservan parte de sus capacidades en vida. Un espectro, reduce a la mitad el nivel de vivo (redondeado hacia arriba), y tiene 100 PD más que el mago usa para darle los poderes como ser con Gnosis 20. Sólo funciona sobre almas recién fallecidas y que esperen el llamamiento. Puede afectar a varios espectros a la vez, siempre que la suma de sus presencias no supere lo que determine el grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 20,
+        "effect": "Nivel máximo del espíritu 1 / Suma total de presencias 100"
+      },
+      "intermediate": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "Nivel máximo del espíritu 2 / Suma total de presencias 160"
+      },
+      "advanced": {
+        "zeonCost": 280,
+        "intRequired": 14,
+        "maintenanceCost": 30,
+        "effect": "Nivel máximo del espíritu 4 / Suma total de presencias 220"
+      },
+      "arcane": {
+        "zeonCost": 320,
+        "intRequired": 16,
+        "maintenanceCost": 35,
+        "effect": "Nivel máximo del espíritu 6 / Suma total de presencias 280"
+      }
+    }
+  }
+}

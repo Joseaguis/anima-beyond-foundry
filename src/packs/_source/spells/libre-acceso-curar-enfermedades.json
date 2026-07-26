@@ -1,0 +1,48 @@
+{
+  "name": "Curar enfermedades",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Elimina automáticamente cualquier enfermedad. Puede emplearse sobre varios individuos, siempre y cuando la suma de sus presencias no supere lo que determina el grado del conjuro</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 32,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Elimina automáticamente cualquier enfermedad. Puede emplearse sobre varios individuos, siempre y cuando la suma de sus presencias no supere lo que determina el grado del conjuro",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "Nivel máximo de la enfermedad 30 / Presencia máxima 80"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "Nivel máximo de la enfermedad 50 / Presencia máxima 120"
+      },
+      "advanced": {
+        "zeonCost": 200,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "Nivel máximo de la enfermedad 70 / Presencia máxima 180"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Nivel máximo de la enfermedad 100 / Presencia máxima 240"
+      }
+    }
+  }
+}

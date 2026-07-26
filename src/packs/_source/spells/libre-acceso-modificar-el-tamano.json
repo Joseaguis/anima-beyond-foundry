@@ -1,0 +1,48 @@
+{
+  "name": "Modificar el tamaño",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Incrementa o disminuye el Tamaño de la persona u objeto sobre el que es lanzado. Por muchos añadidos que se empleen, nunca podrá disminuirse por debajo de 1. Puede resistirse sus efectos superando una RM</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 32,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Incrementa o disminuye el Tamaño de la persona u objeto sobre el que es lanzado. Por muchos añadidos que se empleen, nunca podrá disminuirse por debajo de 1. Puede resistirse sus efectos superando una RM",
+    "closedPaths": "Destrucción",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 7,
+        "maintenanceCost": 10,
+        "effect": "Altera 2 puntos de Tamaño/ RM 100"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "Altera 4 puntos de Tamaño/ RM 120"
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "Altera 6 puntos de Tamaño/ RM 140"
+      },
+      "arcane": {
+        "zeonCost": 180,
+        "intRequired": 14,
+        "maintenanceCost": 20,
+        "effect": "Altera 8 puntos de Tamaño/ RM 160"
+      }
+    }
+  }
+}

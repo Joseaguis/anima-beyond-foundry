@@ -1,0 +1,46 @@
+{
+  "name": "Gunslinger",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Gunhell",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "armas-fisicas-de-ki",
+        "role": "primary",
+        "options": [
+          "+10",
+          "Arma de Proyectil",
+          "1 Arma Adicional"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 35,
+    "bookCost": "POD 8 (2) DES 8 (2)",
+    "bookDistribution": {
+      "pow": {
+        "activation": 8,
+        "upkeep": 2
+      },
+      "dex": {
+        "activation": 8,
+        "upkeep": 2
+      }
+    }
+  }
+}

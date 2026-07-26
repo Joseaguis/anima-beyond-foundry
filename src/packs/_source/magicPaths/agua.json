@@ -1,0 +1,21 @@
+{
+  "name": "Agua",
+  "type": "magicPath",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "subtype": "path",
+    "element": "Agua",
+    "pathType": "minor",
+    "opposedPath": "Fuego, Nigromancia",
+    "parentPathId": "",
+    "mkCost": 0,
+    "level": 1,
+    "effect": ""
+  }
+}

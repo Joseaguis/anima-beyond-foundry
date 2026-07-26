@@ -1,0 +1,58 @@
+{
+  "name": "La Garra Del Tigre",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Wushu",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "aumento-de-dano",
+        "role": "primary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "destruir-armadura",
+        "role": "secondary",
+        "options": [
+          "-3 TA"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 25,
+    "bookCost": "FUE 5 DES 5 CON 2",
+    "bookDistribution": {
+      "str": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 2,
+        "upkeep": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Obitus",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Obscuritas",
+    "level": 2,
+    "combinable": true,
+    "effects": [
+      {
+        "effect": "camuflar-ataque",
+        "role": "primary",
+        "options": [
+          "Zen (440)"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "sin-defensa",
+        "option": ""
+      },
+      {
+        "disadvantage": "exceso-de-energia",
+        "option": ""
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 45,
+    "bookCost": "AGI 5 DES 5 VOL 6 POD 6",
+    "bookDistribution": {
+      "agi": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "wp": {
+        "activation": 6,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 6,
+        "upkeep": 0
+      }
+    }
+  }
+}

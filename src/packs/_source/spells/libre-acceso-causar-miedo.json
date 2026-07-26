@@ -1,0 +1,48 @@
+{
+  "name": "Causar miedo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Los afectados que se encuentren en un radio alrededor del hechicero serán presos de un terrible miedo mágico si no superan una RM. Aquellos que fallen el control temerán al lanzador, quedando sometidos al estado de Miedo</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 22,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Los afectados que se encuentren en un radio alrededor del hechicero serán presos de un terrible miedo mágico si no superan una RM. Aquellos que fallen el control temerán al lanzador, quedando sometidos al estado de Miedo",
+    "closedPaths": "Luz",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "5 metros de radio / RM 100"
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "15 metros de radio / RM 120"
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 14,
+        "maintenanceCost": 15,
+        "effect": "25 metros de radio / RM 140"
+      },
+      "arcane": {
+        "zeonCost": 160,
+        "intRequired": 16,
+        "maintenanceCost": 20,
+        "effect": "50 metros de radio / RM 160"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Resistencia a la muerte",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Protege contra cualquier efecto que pueda provocar la muerte de manera automática, otorgando un bono a todas las resistencias del objetivo.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 14,
+    "actionType": "passive",
+    "maintenanceType": "daily",
+    "magicPath": "Muerte",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Protege contra cualquier efecto que pueda provocar la muerte de manera automática, otorgando un bono a todas las resistencias del objetivo.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "+20 a resistencias"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "+40 a resistencias"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "+60 a resistencias"
+      },
+      "arcane": {
+        "zeonCost": 140,
+        "intRequired": 14,
+        "maintenanceCost": 15,
+        "effect": "+80 a resistencias"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Firmeza",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Aumenta el aguante ante el daño. Si se lanza sobre un ser vivo, otorga un bonificador a cualquier tirada de RF que se realice para evitar los efectos de un crítico. Si se aplica sobre un objeto, incrementa su entereza. Sólo es posible afectar a un cuerpo a la vez con un conjuro de Firmeza.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 16,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Tierra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Aumenta el aguante ante el daño. Si se lanza sobre un ser vivo, otorga un bonificador a cualquier tirada de RF que se realice para evitar los efectos de un crítico. Si se aplica sobre un objeto, incrementa su entereza. Sólo es posible afectar a un cuerpo a la vez con un conjuro de Firmeza.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "RF +20 / Entereza +3"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "RF +30 / Entereza +5"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 11,
+        "maintenanceCost": 15,
+        "effect": "RF +45 / Entereza +7"
+      },
+      "arcane": {
+        "zeonCost": 160,
+        "intRequired": 13,
+        "maintenanceCost": 20,
+        "effect": "RF +60 / Entereza +9"
+      }
+    }
+  }
+}

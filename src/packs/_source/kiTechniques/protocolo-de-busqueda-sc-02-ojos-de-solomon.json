@@ -1,0 +1,55 @@
+{
+  "name": "Protocolo De Búsqueda Sc-02: Ojos De Sólomon",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Legado De Sólomon",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidades-perceptivas",
+        "role": "primary",
+        "options": [
+          "Visión Radial",
+          "Visión Nocturna",
+          "Ver lo Sobrenatural"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "requerimiento",
+        "option": "Sangre antigua"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 60,
+    "bookCost": "DES 9 AGI 10 POD 10",
+    "bookDistribution": {
+      "dex": {
+        "activation": 9,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 10,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 10,
+        "upkeep": 0
+      }
+    }
+  }
+}

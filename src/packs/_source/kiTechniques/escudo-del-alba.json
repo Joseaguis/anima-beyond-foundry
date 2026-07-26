@@ -1,0 +1,58 @@
+{
+  "name": "Escudo del alba",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Basis",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-parada",
+        "role": "primary",
+        "options": [
+          "+40"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "armadura",
+        "role": "secondary",
+        "options": [
+          "TA 4"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 25,
+    "bookCost": "DES 4 FUE 5 CON 6",
+    "bookDistribution": {
+      "dex": {
+        "activation": 4,
+        "upkeep": 0
+      },
+      "str": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 6,
+        "upkeep": 0
+      }
+    }
+  }
+}

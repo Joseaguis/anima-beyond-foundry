@@ -1,0 +1,48 @@
+{
+  "name": "Transporte automático",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El mago, u objetivo, es teletransportado a un lugar que vea o conozca. El conjuro puede pasar a través de objetos físicos, si no se encuentren basados en energía o sean de carácter sobrenatural. En caso de que el conjuro se use para teletransportar a alguien a una posición innatural (como por ejemplo, a 50 metros de altura en el aire), el blanco puede aplicar un +40 a su RM. Se puede afectar a varios, siempre que la suma de presencias no supere el grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 26,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Aire",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El mago, u objetivo, es teletransportado a un lugar que vea o conozca. El conjuro puede pasar a través de objetos físicos, si no se encuentren basados en energía o sean de carácter sobrenatural. En caso de que el conjuro se use para teletransportar a alguien a una posición innatural (como por ejemplo, a 50 metros de altura en el aire), el blanco puede aplicar un +40 a su RM. Se puede afectar a varios, siempre que la suma de presencias no supere el grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "50 metros / presencia maxima 60"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "250 metros / presencia maxima 90"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "400 metros / presencia maxima 120"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "1 kilometro / presencia maxima 150"
+      }
+    }
+  }
+}

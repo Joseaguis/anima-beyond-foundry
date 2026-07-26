@@ -1,0 +1,63 @@
+{
+  "name": "El Abrazo Del Mono",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Wushu",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+40"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "apresamiento",
+        "role": "secondary",
+        "options": [
+          "FUE 12"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "dano-reducido",
+        "option": "Ningún daño"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 30,
+    "bookCost": "FUE 5 DES 5 AGI 5",
+    "bookDistribution": {
+      "str": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 5,
+        "upkeep": 0
+      }
+    }
+  }
+}

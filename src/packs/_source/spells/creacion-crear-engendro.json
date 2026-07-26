@@ -1,0 +1,48 @@
+{
+  "name": "Crear engendro",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea un ser mágico con apariencia de vida bajo control del mago. Se crea como un Ser Entre Mundos con las reglas del Capítulo 26. Tendrá Gnosis 20. Sin importar el Grado, no se puede crear criaturas de un nivel superior al del mago. Los engendros no tienen la capacidad de recibir un alma, por lo que no es posible darles vida independiente mediante el conjuro de Otorgar Alma, ni transmigrar un espíritu en ellos.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 52,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea un ser mágico con apariencia de vida bajo control del mago. Se crea como un Ser Entre Mundos con las reglas del Capítulo 26. Tendrá Gnosis 20. Sin importar el Grado, no se puede crear criaturas de un nivel superior al del mago. Los engendros no tienen la capacidad de recibir un alma, por lo que no es posible darles vida independiente mediante el conjuro de Otorgar Alma, ni transmigrar un espíritu en ellos.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "Nivel 2"
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 10,
+        "maintenanceCost": 15,
+        "effect": "Nivel 4"
+      },
+      "advanced": {
+        "zeonCost": 250,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "Nivel 8"
+      },
+      "arcane": {
+        "zeonCost": 500,
+        "intRequired": 15,
+        "maintenanceCost": 50,
+        "effect": "Nivel 12"
+      }
+    }
+  }
+}

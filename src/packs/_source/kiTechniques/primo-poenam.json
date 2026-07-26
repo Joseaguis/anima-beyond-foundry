@@ -1,0 +1,58 @@
+{
+  "name": "Primo Poenam",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Coelo Ruinam",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "aumento-de-dano",
+        "role": "primary",
+        "options": [
+          "+40"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "secondary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 35,
+    "bookCost": "DES 6 AGI 3 FUE 3",
+    "bookDistribution": {
+      "dex": {
+        "activation": 6,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 3,
+        "upkeep": 0
+      },
+      "str": {
+        "activation": 3,
+        "upkeep": 0
+      }
+    }
+  }
+}

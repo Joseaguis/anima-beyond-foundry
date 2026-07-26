@@ -1,0 +1,64 @@
+{
+  "name": "Alterar el clima",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Causalidad",
+    "powerLevel": 2,
+    "action": "active",
+    "maintainable": false,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Cambio menor posible / 1 km"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Cambio menor raro / 2 km"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Cambio intermedio / 5 km"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Cambio mayor / 10 km"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Cambio radical / 15 km"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Alteración completa / 20 km"
+      }
+    ],
+    "effect": ""
+  }
+}

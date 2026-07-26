@@ -1,0 +1,64 @@
+{
+  "name": "La Sombra De La Muerte",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Hypnos Requiem",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "estados-sobrenaturales",
+        "role": "primary",
+        "options": [
+          "RF 160",
+          "Estado añadido: Drenaje de Ki"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-indirecto",
+        "role": "secondary",
+        "options": [
+          "Nv 2"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "atadura-elemental",
+        "option": "Oscuridad"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 60,
+    "bookCost": "POD 12 VOL 12 DES 10",
+    "bookDistribution": {
+      "pow": {
+        "activation": 12,
+        "upkeep": 0
+      },
+      "wp": {
+        "activation": 12,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 10,
+        "upkeep": 0
+      }
+    }
+  }
+}

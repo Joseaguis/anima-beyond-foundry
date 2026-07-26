@@ -1,0 +1,48 @@
+{
+  "name": "Serenidad",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Causa una sensación de tranquilidad y paz sobre el blanco del conjuro, haciéndolo propenso a calmarse incluso si se encuentra lleno de ira o aterrorizado. Este conjuro anula cualquier estado de miedo, terror o ira que padezca el sujeto afectado, salvo si son de origen sobrenatural</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 22,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Causa una sensación de tranquilidad y paz sobre el blanco del conjuro, haciéndolo propenso a calmarse incluso si se encuentra lleno de ira o aterrorizado. Este conjuro anula cualquier estado de miedo, terror o ira que padezca el sujeto afectado, salvo si son de origen sobrenatural",
+    "closedPaths": "Fuego,Oscuridad",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 70,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "RM 140"
+      },
+      "advanced": {
+        "zeonCost": 100,
+        "intRequired": 11,
+        "maintenanceCost": 10,
+        "effect": "RM 160"
+      },
+      "arcane": {
+        "zeonCost": 130,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "RM 180"
+      }
+    }
+  }
+}

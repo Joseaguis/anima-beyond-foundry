@@ -1,0 +1,48 @@
+{
+  "name": "Vuelo (Libre Acceso)",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Otorga al afectado la capacidad de moverse por el aire a voluntad</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 72,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Otorga al afectado la capacidad de moverse por el aire a voluntad",
+    "closedPaths": "Tierra",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 8,
+        "maintenanceCost": 5,
+        "effect": "Tipo de Vuelo Místico 8"
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 11,
+        "maintenanceCost": 10,
+        "effect": "Tipo de Vuelo Místico 10"
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 13,
+        "maintenanceCost": 10,
+        "effect": "Tipo de Vuelo Místico 12"
+      },
+      "arcane": {
+        "zeonCost": 160,
+        "intRequired": 16,
+        "maintenanceCost": 10,
+        "effect": "Tipo de Vuelo Místico 14"
+      }
+    }
+  }
+}

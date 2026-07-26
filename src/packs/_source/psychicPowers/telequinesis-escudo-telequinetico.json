@@ -1,0 +1,64 @@
+{
+  "name": "Escudo telequinético",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Telequinesis",
+    "powerLevel": 1,
+    "action": "passive",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "medium",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "300 PVs"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "500 PVs"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "700 PVs"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "1000 PVs"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "1500 PVs / Barrera de daño 60"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "2000 PVs / BD 80 Para energía"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "3000 PVs / BD 120 Para energía"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "5000 PVs / BD 160 Para energía"
+      }
+    ],
+    "effect": ""
+  }
+}

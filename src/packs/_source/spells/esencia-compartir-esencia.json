@@ -1,0 +1,48 @@
+{
+  "name": "Compartir esencia",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Se ata la esencia de dos individuos, formando una unidad indivisible. Cualquier daño o efecto espiritual que reciba uno de los afectados, lo sufrirá el otro. En el caso de anímicos, se usa la RM más elevada. Si se ata la esencia de un ser normal a otro con acumulación de daño, el primero sufrirá una quinta parte del daño recibido por la criatura. En el caso de que alguno de los blancos del conjuro quiera resistirse, deberá superar una RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 72,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Se ata la esencia de dos individuos, formando una unidad indivisible. Cualquier daño o efecto espiritual que reciba uno de los afectados, lo sufrirá el otro. En el caso de anímicos, se usa la RM más elevada. Si se ata la esencia de un ser normal a otro con acumulación de daño, el primero sufrirá una quinta parte del daño recibido por la criatura. En el caso de que alguno de los blancos del conjuro quiera resistirse, deberá superar una RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 140,
+        "intRequired": 8,
+        "maintenanceCost": 15,
+        "effect": "Presencia máxima 100 / RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 20,
+        "effect": "Presencia máxima 140 / RM 140"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 13,
+        "maintenanceCost": 25,
+        "effect": "Presencia máxima 200 / RM 170"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "Presencia máxima 260 / RM 200"
+      }
+    }
+  }
+}

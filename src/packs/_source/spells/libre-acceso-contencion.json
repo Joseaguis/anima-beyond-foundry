@@ -1,0 +1,48 @@
+{
+  "name": "Contención",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Encanta una zona haciendo que todo el que entre (o que ya se encuentre en su interior) no pueda salir si no supera RM. Una vez que se ha fallado la Resistencia, un sujeto afectado no tiene derecho a un nuevo control mientras se mantenga el conjuro, salvo si por alguna causa sus Resistencias aumentan. El mago no podrá elegir blancos en su interior, e incluso podrá quedar él mismo encerrado</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 72,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Encanta una zona haciendo que todo el que entre (o que ya se encuentre en su interior) no pueda salir si no supera RM. Una vez que se ha fallado la Resistencia, un sujeto afectado no tiene derecho a un nuevo control mientras se mantenga el conjuro, salvo si por alguna causa sus Resistencias aumentan. El mago no podrá elegir blancos en su interior, e incluso podrá quedar él mismo encerrado",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 9,
+        "maintenanceCost": 40,
+        "effect": "10 metros de radio / RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 240,
+        "intRequired": 11,
+        "maintenanceCost": 50,
+        "effect": "25 metros de radio / RM 140"
+      },
+      "advanced": {
+        "zeonCost": 280,
+        "intRequired": 14,
+        "maintenanceCost": 60,
+        "effect": "50 metros de radio / RM 160"
+      },
+      "arcane": {
+        "zeonCost": 320,
+        "intRequired": 16,
+        "maintenanceCost": 65,
+        "effect": "100 metros de radio / RM 180"
+      }
+    }
+  }
+}

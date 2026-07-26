@@ -1,0 +1,49 @@
+{
+  "name": "La Primera Arte",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "El Arte",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+90"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "atadura-elemental",
+        "option": "Luz, Aire"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 20,
+    "bookCost": "DES 7 AGI 7",
+    "bookDistribution": {
+      "dex": {
+        "activation": 7,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 7,
+        "upkeep": 0
+      }
+    }
+  }
+}

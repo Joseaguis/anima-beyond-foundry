@@ -1,0 +1,48 @@
+{
+  "name": "Maldición mortal",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El lanzador puede hacer que un individuo muera en un momento determinado por él, y de la forma que él elija. El objetivo, y todos aquellos implicados en las circunstancias de su muerte, tienen derecho a una RM para resistir los efectos.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 74,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Muerte",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "El lanzador puede hacer que un individuo muera en un momento determinado por él, y de la forma que él elija. El objetivo, y todos aquellos implicados en las circunstancias de su muerte, tienen derecho a una RM para resistir los efectos.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 150,
+        "intRequired": 9,
+        "maintenanceCost": 15,
+        "effect": "RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 250,
+        "intRequired": 11,
+        "maintenanceCost": 25,
+        "effect": "RM 160"
+      },
+      "advanced": {
+        "zeonCost": 350,
+        "intRequired": 13,
+        "maintenanceCost": 35,
+        "effect": "RM 200"
+      },
+      "arcane": {
+        "zeonCost": 500,
+        "intRequired": 15,
+        "maintenanceCost": 50,
+        "effect": "RM 240"
+      }
+    }
+  }
+}

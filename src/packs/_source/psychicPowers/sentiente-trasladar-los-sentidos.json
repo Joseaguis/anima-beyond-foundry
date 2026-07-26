@@ -1,0 +1,64 @@
+{
+  "name": "Trasladar los sentidos",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Sentiente",
+    "powerLevel": 2,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "veryHard",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "1 km"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "10 km"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "50 km"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "100 km"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "1000 km"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Cualquier distancia"
+      }
+    ],
+    "effect": ""
+  }
+}

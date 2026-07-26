@@ -1,0 +1,20 @@
+{
+  "name": "Eliminación de peso",
+  "type": "kiAbility",
+  "img": "icons/magic/air/wind-swirl-gray.webp",
+  "system": {
+    "description": {
+      "value": "<p>Ignora parcialmente la gravedad: durante un asalto corre por cualquier superficie (paredes, agua) hasta su Movimiento. Prolongar cuesta 1 Ki genérico por asalto.</p>",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "rules": [],
+    "mkCost": 10,
+    "subtype": "kiPower",
+    "parent": "Uso del Ki",
+    "branch": "Uso del Ki",
+    "kiCost": 0,
+    "kiMaintenance": 1,
+    "action": "active"
+  }
+}

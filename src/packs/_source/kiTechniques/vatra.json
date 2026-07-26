@@ -1,0 +1,81 @@
+{
+  "name": "Vatra",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Ignis",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+75"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "aumento-de-dano",
+        "role": "secondary",
+        "options": [
+          "+75"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "potenciar-critico",
+        "role": "secondary",
+        "options": [
+          "+40"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "tecnica-mantenida",
+        "option": "Feuer"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 40,
+    "bookCost": "VOL 11 DES 6 POD 6 FUE 1 CON 3",
+    "bookDistribution": {
+      "wp": {
+        "activation": 11,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 6,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 6,
+        "upkeep": 0
+      },
+      "str": {
+        "activation": 1,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 3,
+        "upkeep": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Fusionar",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une dos seres, creando otro con características y habilidades de ambos. El mago elige qué capacidades predominarán,de cada uno. El dominio del cuerpo es del que gane un control enfrentado de Voluntad, pero se mantiene algo de personalidad del otro. Los cuerpos vuelven como eran al finalizar el conjuro. La muerte de la entidad conlleva la muerte de ambos . La suma de la presencia no puede ser mayor al limite. Es posible fusionar seres con objetos.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 42,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Une dos seres, creando otro con características y habilidades de ambos. El mago elige qué capacidades predominarán,de cada uno. El dominio del cuerpo es del que gane un control enfrentado de Voluntad, pero se mantiene algo de personalidad del otro. Los cuerpos vuelven como eran al finalizar el conjuro. La muerte de la entidad conlleva la muerte de ambos . La suma de la presencia no puede ser mayor al limite. Es posible fusionar seres con objetos.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 140,
+        "intRequired": 7,
+        "maintenanceCost": 15,
+        "effect": "Presencia máxima 80 / RM 80"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "Presencia máxima 100 / RM 120"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "Presencia máxima 150 / RM 140"
+      },
+      "arcane": {
+        "zeonCost": 350,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "Presencia máxima 200 / RM 180"
+      }
+    }
+  }
+}

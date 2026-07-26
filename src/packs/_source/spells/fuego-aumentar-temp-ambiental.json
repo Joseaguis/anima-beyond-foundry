@@ -1,0 +1,48 @@
+{
+  "name": "Aumentar temp. ambiental",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Aumenta la temperatura ambiente. Si la temperatura aumenta 10º por encima de lo que es natural en una zona en su momento más cálido, el índice de aumento se reduce a la mitad.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 36,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Fuego",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Aumenta la temperatura ambiente. Si la temperatura aumenta 10º por encima de lo que es natural en una zona en su momento más cálido, el índice de aumento se reduce a la mitad.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 7,
+        "maintenanceCost": 15,
+        "effect": "+5 grados/ 1 km de radio"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 10,
+        "maintenanceCost": 40,
+        "effect": "+10 grados / 5 km de radio"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 50,
+        "effect": "+20 grados / 10km de radio"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 60,
+        "effect": "+30 grados / 15 km de  radio"
+      }
+    }
+  }
+}

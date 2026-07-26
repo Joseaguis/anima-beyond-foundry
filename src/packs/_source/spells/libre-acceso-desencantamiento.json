@@ -1,0 +1,48 @@
+{
+  "name": "Desencantamiento",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Destruye automáticamente un objeto mágico. El hechicero puede elegir si destruir completamente el objeto o, por el contrario, despojarle simplemente de sus cualidades sobrenaturales</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 82,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Destruye automáticamente un objeto mágico. El hechicero puede elegir si destruir completamente el objeto o, por el contrario, despojarle simplemente de sus cualidades sobrenaturales",
+    "closedPaths": "Creación",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 80"
+      },
+      "intermediate": {
+        "zeonCost": 250,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 100"
+      },
+      "advanced": {
+        "zeonCost": 320,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 120"
+      },
+      "arcane": {
+        "zeonCost": 400,
+        "intRequired": 17,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 140"
+      }
+    }
+  }
+}

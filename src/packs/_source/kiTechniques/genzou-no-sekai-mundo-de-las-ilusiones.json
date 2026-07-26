@@ -1,0 +1,51 @@
+{
+  "name": "Genzou No Sekai, Mundo De Las Ilusiones",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Kagami",
+    "level": 3,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "estados-sobrenaturales",
+        "role": "primary",
+        "options": [
+          "RF 160",
+          "Estado añadido: Ilusión Fantasmal",
+          "Condición: Por el Aire",
+          "Distancia: 25 metros"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 115,
+    "bookCost": "DES 19 VOL 20 POD 19",
+    "bookDistribution": {
+      "dex": {
+        "activation": 19,
+        "upkeep": 0
+      },
+      "wp": {
+        "activation": 20,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 19,
+        "upkeep": 0
+      }
+    }
+  }
+}

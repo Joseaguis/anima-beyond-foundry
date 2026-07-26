@@ -1,0 +1,48 @@
+{
+  "name": "Escudo espectral",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Forma un escudo de energía nigromántica, capaz de detener cualquier asalto anímico que afecte a las Resistencias sobrenaturales del personaje, aunque no así de acometidas de carácter físico o ataques que produzcan daños. Permite detener efectos místicos, siempre que estos no obliguen a lanzar una Resistencia contra más de lo que determine el grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 10,
+    "actionType": "passive",
+    "maintenanceType": "sustained",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "defense",
+    "effect": "Forma un escudo de energía nigromántica, capaz de detener cualquier asalto anímico que afecte a las Resistencias sobrenaturales del personaje, aunque no así de acometidas de carácter físico o ataques que produzcan daños. Permite detener efectos místicos, siempre que estos no obliguen a lanzar una Resistencia contra más de lo que determine el grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Detiene Resistencias de hasta 140"
+      },
+      "intermediate": {
+        "zeonCost": 60,
+        "intRequired": 9,
+        "maintenanceCost": 5,
+        "effect": "Detiene Resistencias de hasta 180"
+      },
+      "advanced": {
+        "zeonCost": 80,
+        "intRequired": 11,
+        "maintenanceCost": 10,
+        "effect": "Detiene Resistencias de hasta 220"
+      },
+      "arcane": {
+        "zeonCost": 100,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "Detiene Resistencias de hasta 260"
+      }
+    }
+  }
+}

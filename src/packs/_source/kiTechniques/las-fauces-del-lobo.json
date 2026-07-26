@@ -1,0 +1,58 @@
+{
+  "name": "Las Fauces Del Lobo",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Wushu",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-parada",
+        "role": "primary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-adicional-limitado",
+        "role": "secondary",
+        "options": [
+          "+1"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 20,
+    "bookCost": "FUE 5 DES 5 AGI 5",
+    "bookDistribution": {
+      "str": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 5,
+        "upkeep": 0
+      }
+    }
+  }
+}

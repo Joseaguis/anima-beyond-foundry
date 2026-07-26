@@ -1,0 +1,48 @@
+{
+  "name": "Perfección",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El blanco del conjuro altera su complexión física adquiriendo automáticamente una apariencia perfecta.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 84,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Nobleza",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El blanco del conjuro altera su complexión física adquiriendo automáticamente una apariencia perfecta.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 9,
+        "maintenanceCost": 15,
+        "effect": "Apariencia 10 y bono de +100 a Estilo, Persuasión, Intimidar y Liderazgo."
+      },
+      "intermediate": {
+        "zeonCost": 150,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "+3 al nivel de regeneración base."
+      },
+      "advanced": {
+        "zeonCost": 200,
+        "intRequired": 14,
+        "maintenanceCost": 20,
+        "effect": "El bono aumenta a +200"
+      },
+      "arcane": {
+        "zeonCost": 250,
+        "intRequired": 16,
+        "maintenanceCost": 25,
+        "effect": "+1 a todos los atributos."
+      }
+    }
+  }
+}

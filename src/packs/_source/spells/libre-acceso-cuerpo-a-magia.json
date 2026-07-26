@@ -1,0 +1,48 @@
+{
+  "name": "Cuerpo a magia",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El cuerpo designado por el hechicero se transformará en energía mágica</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 62,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El cuerpo designado por el hechicero se transformará en energía mágica",
+    "closedPaths": "Tierra",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "El objetivo es inmune a todos los ataques no basados en energía"
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 11,
+        "maintenanceCost": 15,
+        "effect": "el objetivo puede atravesar cualquier materia física no basada en energía"
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "el objetivo obtiene un +10 a su ACT"
+      },
+      "arcane": {
+        "zeonCost": 160,
+        "intRequired": 16,
+        "maintenanceCost": 20,
+        "effect": "todo daño basado en habilidad mágica o conjuro queda reducido a la mitad"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Cuerpo de vacío",
+  "type": "kiAbility",
+  "img": "icons/magic/death/skull-energy-light-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Funde el Némesis con el cuerpo: +20 a todas las Resistencias (físicas, mentales y mágicas) y deja de sufrir desangramiento.</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "target": "rf",
+        "value": 20,
+        "type": "special"
+      },
+      {
+        "key": "FlatModifier",
+        "target": "re",
+        "value": 20,
+        "type": "special"
+      },
+      {
+        "key": "FlatModifier",
+        "target": "rv",
+        "value": 20,
+        "type": "special"
+      },
+      {
+        "key": "FlatModifier",
+        "target": "rm",
+        "value": 20,
+        "type": "special"
+      },
+      {
+        "key": "FlatModifier",
+        "target": "rp",
+        "value": 20,
+        "type": "special"
+      }
+    ],
+    "mkCost": 10,
+    "subtype": "nemesisPower",
+    "parent": "Uso del Némesis",
+    "branch": "Némesis",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

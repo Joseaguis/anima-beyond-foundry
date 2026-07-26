@@ -1,0 +1,48 @@
+{
+  "name": "Crear homúnculo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea elementales de magia de nivel 0 para diversas funciones, bajo el completo control del mago, con las reglas del Capítulo 26. Son Seres Entre Mundos con Gnosis 5. El maximo en características es 5, sin Don, ni habilidad primaria o secundaria mayor a 50. Tienen un penalizador de –2 a tamaño y no pueden elegir Tamaño Innatural. Ninguna habilidad intelectual puede estar por encima de la de su creador. Pueden ser muy diferentes.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 26,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea elementales de magia de nivel 0 para diversas funciones, bajo el completo control del mago, con las reglas del Capítulo 26. Son Seres Entre Mundos con Gnosis 5. El maximo en características es 5, sin Don, ni habilidad primaria o secundaria mayor a 50. Tienen un penalizador de –2 a tamaño y no pueden elegir Tamaño Innatural. Ninguna habilidad intelectual puede estar por encima de la de su creador. Pueden ser muy diferentes.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "1 Homúnculo"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "10 Homúnculos"
+      },
+      "advanced": {
+        "zeonCost": 250,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "25 Homúnculos"
+      },
+      "arcane": {
+        "zeonCost": 350,
+        "intRequired": 15,
+        "maintenanceCost": 35,
+        "effect": "100 Homúnculos"
+      }
+    }
+  }
+}

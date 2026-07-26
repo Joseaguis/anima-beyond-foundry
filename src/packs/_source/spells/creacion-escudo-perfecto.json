@@ -1,0 +1,48 @@
+{
+  "name": "Escudo perfecto",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Forma una barrera de energía que protege frente a cualquier fuente de ataque. Si no es destruido al finalizar el asalto, recupera automáticamente todos sus puntos de vida perdidos.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 60,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "defense",
+    "effect": "Forma una barrera de energía que protege frente a cualquier fuente de ataque. Si no es destruido al finalizar el asalto, recupera automáticamente todos sus puntos de vida perdidos.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 150,
+        "intRequired": 8,
+        "maintenanceCost": 15,
+        "effect": "Aguanta 100 puntos de daño"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 20,
+        "effect": "Aguanta 250 puntos de daño"
+      },
+      "advanced": {
+        "zeonCost": 300,
+        "intRequired": 13,
+        "maintenanceCost": 30,
+        "effect": "Aguanta 500 puntos de daño"
+      },
+      "arcane": {
+        "zeonCost": 400,
+        "intRequired": 16,
+        "maintenanceCost": 40,
+        "effect": "Aguanta 1.000 puntos de daño"
+      }
+    }
+  }
+}

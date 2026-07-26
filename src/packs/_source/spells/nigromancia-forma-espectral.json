@@ -1,0 +1,48 @@
+{
+  "name": "Forma espectral",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El cuerpo físico del nigromante se convierte en una crepitante masa espectral, que daña la esencia de cualquier ser vivo que se ponga en contacto con ella.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 52,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El cuerpo físico del nigromante se convierte en una crepitante masa espectral, que daña la esencia de cualquier ser vivo que se ponga en contacto con ella.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "El brujo es inmaterial y sólo puede ser dañado por ataques que afecten energia"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 12,
+        "maintenanceCost": 20,
+        "effect": "si lo tocan, RF o RM (PREx2) o negativo acción y vida = ½ fracaso"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 14,
+        "maintenanceCost": 25,
+        "effect": "pero gana vida = a la cantidad que pierde ser que lo toco."
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 16,
+        "maintenanceCost": 30,
+        "effect": "Si falla la RM o RF por más de 40 puntos muere"
+      }
+    }
+  }
+}

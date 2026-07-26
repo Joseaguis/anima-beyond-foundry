@@ -1,0 +1,68 @@
+{
+  "name": "El latido del trueno",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Basis",
+    "level": 3,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-parada",
+        "role": "primary",
+        "options": [
+          "+90"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "habilidad-de-contraataque",
+        "role": "secondary",
+        "options": [
+          "+75"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "aumento-de-dano",
+        "role": "secondary",
+        "options": [
+          "+75"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 60,
+    "bookCost": "DES 12 FUE 11 CON 10",
+    "bookDistribution": {
+      "dex": {
+        "activation": 12,
+        "upkeep": 0
+      },
+      "str": {
+        "activation": 11,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 10,
+        "upkeep": 0
+      }
+    }
+  }
+}

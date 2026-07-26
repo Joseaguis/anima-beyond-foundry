@@ -1,0 +1,48 @@
+{
+  "name": "Resistir",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Potencia una de las Resistencias de un sujeto. Sólo se mejora un único tipo, como la RM o RF; no en su totalidad</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 62,
+    "actionType": "passive",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Potencia una de las Resistencias de un sujeto. Sólo se mejora un único tipo, como la RM o RF; no en su totalidad",
+    "closedPaths": "Destrucción",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 20,
+        "effect": "+20 a una Resistencia"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 11,
+        "maintenanceCost": 20,
+        "effect": "+40 a una Resistencia"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 13,
+        "maintenanceCost": 25,
+        "effect": "+60 a una Resistencia"
+      },
+      "arcane": {
+        "zeonCost": 140,
+        "intRequired": 16,
+        "maintenanceCost": 30,
+        "effect": "+80 a una Resistencia"
+      }
+    }
+  }
+}

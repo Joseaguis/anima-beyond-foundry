@@ -1,0 +1,64 @@
+{
+  "name": "Holograma",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Luz",
+    "powerLevel": 2,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "absurd",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "1 m2"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "5 m2"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "10 m2"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "25 m2"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "50 m2"
+      }
+    ],
+    "effect": ""
+  }
+}

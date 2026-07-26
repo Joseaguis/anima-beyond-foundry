@@ -1,0 +1,48 @@
+{
+  "name": "Crear viento",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Levanta viento de gran velocidad. Para usar este conjuro, es necesario que el brujo se encuentre en el exterior, o en una zona en la que sea posible que sople el aire. La anchura de la corriente no deberá exceder lo determinado por el grado del conjuro, y su longitud será 10 veces su anchura</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 2,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Aire",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Levanta viento de gran velocidad. Para usar este conjuro, es necesario que el brujo se encuentre en el exterior, o en una zona en la que sea posible que sople el aire. La anchura de la corriente no deberá exceder lo determinado por el grado del conjuro, y su longitud será 10 veces su anchura",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 5,
+        "maintenanceCost": 5,
+        "effect": "20 Km/h / 25 metros de anchura"
+      },
+      "intermediate": {
+        "zeonCost": 60,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "40 Km/h / 50 metros de anchura"
+      },
+      "advanced": {
+        "zeonCost": 90,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "80 Km/h / 75 metros de anchura"
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "100 Km/h / 100 metros de anchura"
+      }
+    }
+  }
+}

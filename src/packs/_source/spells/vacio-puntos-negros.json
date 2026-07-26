@@ -1,0 +1,48 @@
+{
+  "name": "Puntos negros",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Cualquiera que entre en el área designada debe superar cada asalto un control de Atletismo, Acrobacias o Defensa, o de lo contrario chocará con unos de puntos negros. Si se diera el caso, el personaje debe de superar un control de RF o RM o sufrir un daño y una pérdida de puntos de Ki equivalente a la mitad del nivel de fracaso, así como una pérdida de Zeon equivalente al nivel de fracaso pleno. No es posible designar blancos en el interior del sortilegio.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 64,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Vacío",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Cualquiera que entre en el área designada debe superar cada asalto un control de Atletismo, Acrobacias o Defensa, o de lo contrario chocará con unos de puntos negros. Si se diera el caso, el personaje debe de superar un control de RF o RM o sufrir un daño y una pérdida de puntos de Ki equivalente a la mitad del nivel de fracaso, así como una pérdida de Zeon equivalente al nivel de fracaso pleno. No es posible designar blancos en el interior del sortilegio.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 150,
+        "intRequired": 8,
+        "maintenanceCost": 15,
+        "effect": "Dificultad 120 / 10 metros de radio / RM o RF 120."
+      },
+      "intermediate": {
+        "zeonCost": 250,
+        "intRequired": 10,
+        "maintenanceCost": 25,
+        "effect": "Dificultad 140 / 20 metros de radio / RM o RF 140."
+      },
+      "advanced": {
+        "zeonCost": 350,
+        "intRequired": 12,
+        "maintenanceCost": 35,
+        "effect": "Dificultad 180 / 50 metros de radio / RM o RF 160"
+      },
+      "arcane": {
+        "zeonCost": 500,
+        "intRequired": 15,
+        "maintenanceCost": 50,
+        "effect": "Dificultad 240 / 100 metros de radio / RM o RF 180."
+      }
+    }
+  }
+}

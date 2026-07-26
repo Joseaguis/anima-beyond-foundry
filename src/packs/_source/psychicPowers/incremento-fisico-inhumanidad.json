@@ -1,0 +1,64 @@
+{
+  "name": "Inhumanidad",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Incremento Físico",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "medium",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Inhumanidad"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Inhumanidad / +05 Hab Atléticas"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Inhumanidad / +10 Hab Atléticas"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Inhumanidad / +20 Hab Atléticas"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Inhumanidad / +30 Hab Atléticas"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Zen / +40 Hab Atléticas"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Zen / +60 Hab Atléticas"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Zen / +80 Hab Atléticas"
+      }
+    ],
+    "effect": ""
+  }
+}

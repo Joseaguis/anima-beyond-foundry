@@ -1,0 +1,48 @@
+{
+  "name": "Quimera",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El mago, o el objetivo, se transforma en un Ser Entre Mundos con Gnosis 25, con todas sus ventajas y desventajas. Obtendrá PD extras usables para elegir entre Habilidades Esenciales y poderes de la Creación de Seres. También puede escoger PD en desventajas y penalizadores para más puntos. El exceso de PD aumenta el nivel. Sólo funciona en seres naturales. Todo lo que se obtiene depende de su forma física perdiendose si se trasmigra el alma.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 80,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El mago, o el objetivo, se transforma en un Ser Entre Mundos con Gnosis 25, con todas sus ventajas y desventajas. Obtendrá PD extras usables para elegir entre Habilidades Esenciales y poderes de la Creación de Seres. También puede escoger PD en desventajas y penalizadores para más puntos. El exceso de PD aumenta el nivel. Sólo funciona en seres naturales. Todo lo que se obtiene depende de su forma física perdiendose si se trasmigra el alma.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Más 100 PD / hasta 100 PD opcionales en desventajas"
+      },
+      "intermediate": {
+        "zeonCost": 500,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "Más 200 PD / hasta 100 PD opcionales en desventajas"
+      },
+      "advanced": {
+        "zeonCost": 1000,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "Más 300 PD / hasta 200 PD opcionales en desventajas"
+      },
+      "arcane": {
+        "zeonCost": 2500,
+        "intRequired": 17,
+        "maintenanceCost": 0,
+        "effect": "Más 400 PD / hasta 200 PD opcionales en desventajas"
+      }
+    }
+  }
+}

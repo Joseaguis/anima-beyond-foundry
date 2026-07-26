@@ -1,0 +1,48 @@
+{
+  "name": "Autopsia",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Determina la causa de la muerte y el momento en el que ocurrió. No espeficica si el blanco del conjuro murió asesinado, ni tampoco el responsable, pero sí si alguien ha fallecido por contusión masiva, o el tipo de enfermedad que lo mató.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 4,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Muerte",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Determina la causa de la muerte y el momento en el que ocurrió. No espeficica si el blanco del conjuro murió asesinado, ni tampoco el responsable, pero sí si alguien ha fallecido por contusión masiva, o el tipo de enfermedad que lo mató.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 4,
+        "maintenanceCost": 0,
+        "effect": "1 hora"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "1 día"
+      },
+      "advanced": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "1 semana"
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "1 mes"
+      }
+    }
+  }
+}

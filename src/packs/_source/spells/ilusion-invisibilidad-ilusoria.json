@@ -1,0 +1,48 @@
+{
+  "name": "Invisibilidad ilusoria",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Utilizando este conjuro, un Ilusiónista puede hacer desaparecer de la vista cualquier ser u objeto. Afectará a tantos como desee, mientras la suma de sus presencias no supere lo que determina el grado del conjuro. Cualquier individuo que mire hacia los cuerpos invisibles deberá superar automáticamente una RM o no será capaz de detectarlos usando su sentido de la vista.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 26,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Ilusión",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Utilizando este conjuro, un Ilusiónista puede hacer desaparecer de la vista cualquier ser u objeto. Afectará a tantos como desee, mientras la suma de sus presencias no supere lo que determina el grado del conjuro. Cualquier individuo que mire hacia los cuerpos invisibles deberá superar automáticamente una RM o no será capaz de detectarlos usando su sentido de la vista.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "RM 120 / Presencia máxima 140."
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 5,
+        "effect": "RM 150 / Presencia máxima 200."
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "RM 180 / Presencia máxima 260."
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 10,
+        "effect": "RM 210 / Presencia máxima 320."
+      }
+    }
+  }
+}

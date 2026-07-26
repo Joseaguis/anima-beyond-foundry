@@ -1,0 +1,20 @@
+{
+  "name": "Anulación de magia mayor",
+  "type": "kiAbility",
+  "img": "icons/magic/unholy/orb-swirling-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>Usa la segunda columna de la Tabla 12 (Zeon anulado mayor). Coste 5 Ki/asalto (10 sobre un blanco).</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 20,
+    "subtype": "nemesisPower",
+    "parent": "Anulación de magia",
+    "branch": "Némesis",
+    "kiCost": 5,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Destrucción mayor",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Otorga la capacidad de destruír parte del mundo material a gran escala, desde grandes construcciones a amplias zonas de terreno. Puede afectar automáticamente a cualquier número de cosas inorgánicas, siempre que no superen la presencia determinada por el grado de conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 92,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Otorga la capacidad de destruír parte del mundo material a gran escala, desde grandes construcciones a amplias zonas de terreno. Puede afectar automáticamente a cualquier número de cosas inorgánicas, siempre que no superen la presencia determinada por el grado de conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 350,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 100"
+      },
+      "intermediate": {
+        "zeonCost": 600,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 160"
+      },
+      "advanced": {
+        "zeonCost": 900,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 200"
+      },
+      "arcane": {
+        "zeonCost": 1500,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 240"
+      }
+    }
+  }
+}

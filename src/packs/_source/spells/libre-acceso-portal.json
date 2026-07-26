@@ -1,0 +1,48 @@
+{
+  "name": "Portal",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea una puerta mágica de tránsito entre dos lugares. Cualquiera que la atraviese se trasladará, instantáneamente, hasta la otra abertura. El conjuro queda fijado en el lugar donde es lanzado y en el sitio donde se designe la salida. El mago puede decidir, si funciona en ambas direcciones o sólo transporta en una.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 82,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea una puerta mágica de tránsito entre dos lugares. Cualquiera que la atraviese se trasladará, instantáneamente, hasta la otra abertura. El conjuro queda fijado en el lugar donde es lanzado y en el sitio donde se designe la salida. El mago puede decidir, si funciona en ambas direcciones o sólo transporta en una.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 500,
+        "intRequired": 10,
+        "maintenanceCost": 25,
+        "effect": "5 metros de abertura / 1.000 kilómetros de distancia / 500 presencias al día"
+      },
+      "intermediate": {
+        "zeonCost": 600,
+        "intRequired": 12,
+        "maintenanceCost": 30,
+        "effect": "15 metros de abertura / 5.000 kilómetros de distancia / 1.000 presencias al día"
+      },
+      "advanced": {
+        "zeonCost": 700,
+        "intRequired": 14,
+        "maintenanceCost": 35,
+        "effect": "25 metros de abertura / 25.000 kilómetros de distancia / 2.000 presencias al día"
+      },
+      "arcane": {
+        "zeonCost": 800,
+        "intRequired": 16,
+        "maintenanceCost": 40,
+        "effect": "50 metros de abertura/cualquier distancia /Sin límite de presencias"
+      }
+    }
+  }
+}

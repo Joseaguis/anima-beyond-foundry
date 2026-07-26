@@ -1,0 +1,48 @@
+{
+  "name": "Lazos oscuros",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Forma unos lazos de oscuridad que sujetan al blanco designado. Para ello el lanzador emplea las reglas de Presa, aunque sin penalizador alguno a su habilidad. Los lazos de oscuridad no pueden romperse por el sujeto al que sujetan, pero si un tercero intenta romperlos, estos se consideran un arma de energía con Entereza 25.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 28,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Oscuridad",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "Forma unos lazos de oscuridad que sujetan al blanco designado. Para ello el lanzador emplea las reglas de Presa, aunque sin penalizador alguno a su habilidad. Los lazos de oscuridad no pueden romperse por el sujeto al que sujetan, pero si un tercero intenta romperlos, estos se consideran un arma de energía con Entereza 25.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "Disponen de una Fuerza base 8 para los controles"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "Disponen de una Fuerza base 12 para los controles"
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "Disponen de una Fuerza base 15 para los controles y tienen Entereza 30"
+      },
+      "arcane": {
+        "zeonCost": 180,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "Disponen de una Fuerza base 18 para los controles y tienen Entereza 35"
+      }
+    }
+  }
+}

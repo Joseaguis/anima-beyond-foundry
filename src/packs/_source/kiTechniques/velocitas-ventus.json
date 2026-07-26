@@ -1,0 +1,58 @@
+{
+  "name": "Velocitas Ventus",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Celéritas",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-adicional-limitado",
+        "role": "primary",
+        "options": [
+          "+3"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "incrementar-turno",
+        "role": "secondary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 25,
+    "bookCost": "AGI 7 DES 7 POD 4",
+    "bookDistribution": {
+      "agi": {
+        "activation": 7,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 7,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 4,
+        "upkeep": 0
+      }
+    }
+  }
+}

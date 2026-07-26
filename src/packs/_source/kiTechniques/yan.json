@@ -1,0 +1,54 @@
+{
+  "name": "Yan",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Di Quiu",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "acumulacion",
+        "role": "primary",
+        "options": [
+          "600 PV",
+          "Regeneración 250"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "predeterminacion",
+        "option": ""
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 40,
+    "bookCost": "CON 6 (2) VOL 6 (2) POD 6 (2)",
+    "bookDistribution": {
+      "con": {
+        "activation": 6,
+        "upkeep": 2
+      },
+      "wp": {
+        "activation": 6,
+        "upkeep": 2
+      },
+      "pow": {
+        "activation": 6,
+        "upkeep": 2
+      }
+    }
+  }
+}

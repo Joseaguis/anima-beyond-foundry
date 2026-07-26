@@ -1,0 +1,48 @@
+{
+  "name": "Imbuir calma",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Tranquiliza a los individuos perturbados por un sentimiento de temor u odio que se encuentren alrededor del lanzador. Hace desaparecer cualquier estado de Miedo, Terror o Ira en el que estén sumidos, incluso si es de origen sobrenatural. De cualquier modo, no eliminará acciones violentas si estas se realizan a sangre fría o premeditadamente.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 6,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Luz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Tranquiliza a los individuos perturbados por un sentimiento de temor u odio que se encuentren alrededor del lanzador. Hace desaparecer cualquier estado de Miedo, Terror o Ira en el que estén sumidos, incluso si es de origen sobrenatural. De cualquier modo, no eliminará acciones violentas si estas se realizan a sangre fría o premeditadamente.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 5,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 80 / 10 metros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 100 / 25 metros de radio."
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 120 / 50 metros de radio"
+      },
+      "arcane": {
+        "zeonCost": 160,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 150 / 100 metros de radio"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Condicionamiento",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Afecta a otros conjuros del mago, estancándolos hasta darse una circunstancia. Debe lanzarse a la vez que los hechizos adicionales. El conjuro se activará automáticamente en el momento dé la circunstancia, incluso si el mago no es consciente. La acción del conjuro es activa o pasiva, dependiendo de este. Puede tener varios conjuros pero sin exceder el Zeon máximo determinado por Grado del conjuro. Sólo es posible mantener activo un condicionar a la vez.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 92,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Afecta a otros conjuros del mago, estancándolos hasta darse una circunstancia. Debe lanzarse a la vez que los hechizos adicionales. El conjuro se activará automáticamente en el momento dé la circunstancia, incluso si el mago no es consciente. La acción del conjuro es activa o pasiva, dependiendo de este. Puede tener varios conjuros pero sin exceder el Zeon máximo determinado por Grado del conjuro. Sólo es posible mantener activo un condicionar a la vez.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 300,
+        "intRequired": 11,
+        "maintenanceCost": 30,
+        "effect": "Zeón máximo 100"
+      },
+      "intermediate": {
+        "zeonCost": 400,
+        "intRequired": 13,
+        "maintenanceCost": 40,
+        "effect": "Zeón máximo 150"
+      },
+      "advanced": {
+        "zeonCost": 500,
+        "intRequired": 15,
+        "maintenanceCost": 50,
+        "effect": "Zeón máximo 200"
+      },
+      "arcane": {
+        "zeonCost": 600,
+        "intRequired": 17,
+        "maintenanceCost": 60,
+        "effect": "Zeón máximo 250"
+      }
+    }
+  }
+}

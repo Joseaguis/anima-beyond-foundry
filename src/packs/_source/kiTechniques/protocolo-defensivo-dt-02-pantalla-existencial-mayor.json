@@ -1,0 +1,64 @@
+{
+  "name": "Protocolo Defensivo Dt-02: Pantalla Existencial Mayor",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Legado De Sólomon",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "defensa-predeterminada",
+        "role": "primary",
+        "options": [
+          "Casi Imposible (240)"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "escudo-de-energia",
+        "role": "secondary",
+        "options": [
+          "500 PV",
+          "Regeneración 250"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "requerimiento",
+        "option": "Sangre antigua"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 65,
+    "bookCost": "DES 12 (4) AGI 12 (4) POD 12 (4)",
+    "bookDistribution": {
+      "dex": {
+        "activation": 12,
+        "upkeep": 4
+      },
+      "agi": {
+        "activation": 12,
+        "upkeep": 4
+      },
+      "pow": {
+        "activation": 12,
+        "upkeep": 4
+      }
+    }
+  }
+}

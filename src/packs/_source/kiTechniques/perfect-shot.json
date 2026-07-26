@@ -1,0 +1,63 @@
+{
+  "name": "Perfect Shot",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Gunhell",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+75"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "marca",
+        "role": "secondary",
+        "options": [
+          "Mayor"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "tecnica-mantenida",
+        "option": "Gunslinger"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 85,
+    "bookCost": "POD 6 DES 6 AGI 5",
+    "bookDistribution": {
+      "pow": {
+        "activation": 6,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 6,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 5,
+        "upkeep": 0
+      }
+    }
+  }
+}

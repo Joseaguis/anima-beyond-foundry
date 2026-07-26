@@ -1,0 +1,20 @@
+{
+  "name": "Detección del Ki",
+  "type": "kiAbility",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Detecta las energías del entorno. Habilidad secundaria especial = media entre el CM total y Advertir.</p>",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "rules": [],
+    "mkCost": 20,
+    "subtype": "kiPower",
+    "parent": "Control del Ki",
+    "branch": "Control del Ki",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

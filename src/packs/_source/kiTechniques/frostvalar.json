@@ -1,0 +1,61 @@
+{
+  "name": "Frostvalar",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Frostkolier",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "choque-fisico",
+        "role": "primary",
+        "options": [],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-elemental",
+        "role": "secondary",
+        "options": [
+          "Agua"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "atadura-elemental",
+        "option": "Agua"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 25,
+    "bookCost": "DES 3 CON 3 (1) POD 3 (1)",
+    "bookDistribution": {
+      "dex": {
+        "activation": 3,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 3,
+        "upkeep": 1
+      },
+      "pow": {
+        "activation": 3,
+        "upkeep": 1
+      }
+    }
+  }
+}

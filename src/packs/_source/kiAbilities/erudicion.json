@@ -1,0 +1,20 @@
+{
+  "name": "Erudición",
+  "type": "kiAbility",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Al detectar, determina la potencia y la forma de las energías percibidas (si alguien acumula Ki, su fuerza, etc.).</p>",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "rules": [],
+    "mkCost": 10,
+    "subtype": "kiPower",
+    "parent": "Detección del Ki",
+    "branch": "Control del Ki",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

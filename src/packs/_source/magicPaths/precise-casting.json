@@ -1,0 +1,15 @@
+{
+  "_id": "abfmetaPrecise01",
+  "name": "Lanzamiento Preciso",
+  "type": "magicPath",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": { "value": "<p>Metamagia que mejora la precisión de los conjuros.</p>", "chat": "" },
+    "source": "Arcana Exxet",
+    "subtype": "metamagic",
+    "element": "",
+    "opposedPath": "",
+    "mkCost": 30,
+    "effect": "Reduce la penalización por lanzar conjuros con dificultad elevada."
+  }
+}

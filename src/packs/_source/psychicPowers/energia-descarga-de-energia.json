@@ -1,0 +1,64 @@
+{
+  "name": "Descarga de energía",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Energía",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": false,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Daño 50"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Daño 70"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Daño 100"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Daño 120"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Daño 140 Daña energía"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Daño 180 Daña energía"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Daño 220 Daña energía"
+      }
+    ],
+    "effect": ""
+  }
+}

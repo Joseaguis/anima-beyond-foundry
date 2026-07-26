@@ -1,0 +1,48 @@
+{
+  "name": "Dormir",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Provoca Sueños sobre la gente en la zona. Los afectados deben superar una RM o quedan sumidos en un profundo Sueños en poco más de un minuto. Si fallan por una diferencia mayor a 20 puntos, los efectos del conjuro son inmediatos. Mientras se mantenga el sortilegio, los afectados no podrán despertarse. Cualquier causa que permitiría al hechizado despertar mientras sigue preso del conjuro, le dará la oportunidad de realizar una nueva RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 52,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Provoca Sueños sobre la gente en la zona. Los afectados deben superar una RM o quedan sumidos en un profundo Sueños en poco más de un minuto. Si fallan por una diferencia mayor a 20 puntos, los efectos del conjuro son inmediatos. Mientras se mantenga el sortilegio, los afectados no podrán despertarse. Cualquier causa que permitiría al hechizado despertar mientras sigue preso del conjuro, le dará la oportunidad de realizar una nueva RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "10 metros de radio / RM 80"
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "25 metros de radio / RM 100"
+      },
+      "advanced": {
+        "zeonCost": 160,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "50 metros de radio / RM 120"
+      },
+      "arcane": {
+        "zeonCost": 200,
+        "intRequired": 14,
+        "maintenanceCost": 15,
+        "effect": "100 metros de radio / RM 140"
+      }
+    }
+  }
+}

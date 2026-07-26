@@ -1,0 +1,64 @@
+{
+  "name": "Crear electricidad",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Electromagnetismo",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "medium",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "1 intensidad"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "3 intensidades"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "5 intensidades"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "7 intensidades"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "10 intensidades"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "13 intensidades"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "16 intensidades"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "20 intensidades"
+      }
+    ],
+    "effect": ""
+  }
+}

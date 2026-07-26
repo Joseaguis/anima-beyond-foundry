@@ -1,0 +1,53 @@
+{
+  "name": "Barrel Shot",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Gunhell",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-adicional-limitado",
+        "role": "primary",
+        "options": [
+          "+5"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "tecnica-mantenida",
+        "option": "Gunslinger"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 45,
+    "bookCost": "POD 6 DES 6 AGI 6",
+    "bookDistribution": {
+      "pow": {
+        "activation": 6,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 6,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 6,
+        "upkeep": 0
+      }
+    }
+  }
+}

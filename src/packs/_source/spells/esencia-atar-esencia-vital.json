@@ -1,0 +1,48 @@
+{
+  "name": "Atar esencia vital",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Esconde un alma en un contenedor físico. El alma sigue usando su cuerpo, aunque ya solo es una cáscara. Es incapaz de morir por pérdida de PV's. Si éstos se reducen hasta la Muerte, el cuerpo quedará inutilzado y sólo se curará mediante habilidades sobrenaturales. La carcasa sin alma será inmune a los efectos místicos de carácter anímico. La distancia máxima de separación con el contenedor es el grado de conjuro. El efecto puede resisitirse con RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 86,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Esconde un alma en un contenedor físico. El alma sigue usando su cuerpo, aunque ya solo es una cáscara. Es incapaz de morir por pérdida de PV's. Si éstos se reducen hasta la Muerte, el cuerpo quedará inutilzado y sólo se curará mediante habilidades sobrenaturales. La carcasa sin alma será inmune a los efectos místicos de carácter anímico. La distancia máxima de separación con el contenedor es el grado de conjuro. El efecto puede resisitirse con RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM 100 / 1 kilómetro de distancia"
+      },
+      "intermediate": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM 120 / 5 kilómetros de distancia"
+      },
+      "advanced": {
+        "zeonCost": 400,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "RM 140 / 50 kilómetros de distancia"
+      },
+      "arcane": {
+        "zeonCost": 500,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "RM 160 / 150 kilómetros de distancia"
+      }
+    }
+  }
+}

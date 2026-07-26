@@ -1,0 +1,48 @@
+{
+  "name": "Tajo de aire",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Produce una fuerte ráfaga de aire, capaz de cortar lo que toque como si se tratase de una afilada espada. El tajo afecta en una línea en la cual no será posible seleccionar blanco. Tiene un daño base de 80 y ataca en Filo, reduciendo en -2 la TA al defensor</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 40,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Aire",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "Produce una fuerte ráfaga de aire, capaz de cortar lo que toque como si se tratase de una afilada espada. El tajo afecta en una línea en la cual no será posible seleccionar blanco. Tiene un daño base de 80 y ataca en Filo, reduciendo en -2 la TA al defensor",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "linea de 3 metros de longitud"
+      },
+      "intermediate": {
+        "zeonCost": 150,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "linea de 12 metros de lingitud"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "linea de 25 metros de longitud"
+      },
+      "arcane": {
+        "zeonCost": 350,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "linea de 50 metros de longitud"
+      }
+    }
+  }
+}

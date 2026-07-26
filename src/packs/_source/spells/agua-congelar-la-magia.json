@@ -1,0 +1,48 @@
+{
+  "name": "Congelar la magia",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Se congela la magia, paralizando un conjuro y anulando sus efectos. Mientras permanezca helado no desaparece, pero se queda estancado sin producir consecuencias, y tampoco requiere que se pague mantenimiento. Afecta a hechizos controlados por el mago como los lanzados por otros. Cuando congelar la magia deja de mantenerse, el conjuro estancado vuelve a ser efectivo. Ya que es pasivo, puede congelar hechizos que se usan en el mismo turno.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 86,
+    "actionType": "passive",
+    "maintenanceType": "daily",
+    "magicPath": "Agua",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Se congela la magia, paralizando un conjuro y anulando sus efectos. Mientras permanezca helado no desaparece, pero se queda estancado sin producir consecuencias, y tampoco requiere que se pague mantenimiento. Afecta a hechizos controlados por el mago como los lanzados por otros. Cuando congelar la magia deja de mantenerse, el conjuro estancado vuelve a ser efectivo. Ya que es pasivo, puede congelar hechizos que se usan en el mismo turno.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 9,
+        "maintenanceCost": 50,
+        "effect": "Valor zeónico máximo 150."
+      },
+      "intermediate": {
+        "zeonCost": 400,
+        "intRequired": 12,
+        "maintenanceCost": 75,
+        "effect": "Valor zeónico máximo 250."
+      },
+      "advanced": {
+        "zeonCost": 550,
+        "intRequired": 15,
+        "maintenanceCost": 90,
+        "effect": "Valor zeónico máximo 300."
+      },
+      "arcane": {
+        "zeonCost": 800,
+        "intRequired": 18,
+        "maintenanceCost": 100,
+        "effect": "Valor zeónico máximo 400."
+      }
+    }
+  }
+}

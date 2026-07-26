@@ -1,0 +1,49 @@
+{
+  "name": "Ajna",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Sattyagraha",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidades-perceptivas",
+        "role": "primary",
+        "options": [
+          "Visión Radial",
+          "Ver lo Sobrenatural"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 35,
+    "bookCost": "DES 7 (2) AGI 7 (1) POD 7 (1)",
+    "bookDistribution": {
+      "dex": {
+        "activation": 7,
+        "upkeep": 2
+      },
+      "agi": {
+        "activation": 7,
+        "upkeep": 1
+      },
+      "pow": {
+        "activation": 7,
+        "upkeep": 1
+      }
+    }
+  }
+}

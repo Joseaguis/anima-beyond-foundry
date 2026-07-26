@@ -1,0 +1,48 @@
+{
+  "name": "Lluvia de destrucción",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Desencadena una tempestad de descargas selectivas en área que destrozan únicamente los blancos designados por el brujo. Este conjuro ataca en la TA de Energía.Adicionalmente, si consigue impactar a un blanco y provocarle daño, este deberá superar una RM o sufrir una perdida de puntos de vida equivalente al nivel de fracaso</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 82,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "Desencadena una tempestad de descargas selectivas en área que destrozan únicamente los blancos designados por el brujo. Este conjuro ataca en la TA de Energía.Adicionalmente, si consigue impactar a un blanco y provocarle daño, este deberá superar una RM o sufrir una perdida de puntos de vida equivalente al nivel de fracaso",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Daño 200 / RM 140 / 50 metros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 350,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "Daño 250 / RM 180 / 150 metros de radio"
+      },
+      "advanced": {
+        "zeonCost": 450,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "Daño 300 / RM 220 / 500 metros de radio"
+      },
+      "arcane": {
+        "zeonCost": 600,
+        "intRequired": 17,
+        "maintenanceCost": 0,
+        "effect": "Daño 400 / RM 260 / 1 kilómetro de radio"
+      }
+    }
+  }
+}

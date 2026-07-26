@@ -1,0 +1,48 @@
+{
+  "name": "Dramaturgo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este hechizo modifica la realidad siempre que sea algo plausible y no afecte directamente a otro ser vivo. Las posibilidades de este hechizo son casi infinitas, siempre y cuando los elementos y objetos empleados sean simples y con una presencia que no supere lo que determine el grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 74,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Literae",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este hechizo modifica la realidad siempre que sea algo plausible y no afecte directamente a otro ser vivo. Las posibilidades de este hechizo son casi infinitas, siempre y cuando los elementos y objetos empleados sean simples y con una presencia que no supere lo que determine el grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 280,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 40"
+      },
+      "intermediate": {
+        "zeonCost": 320,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 80"
+      },
+      "advanced": {
+        "zeonCost": 480,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 120"
+      },
+      "arcane": {
+        "zeonCost": 700,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 160"
+      }
+    }
+  }
+}

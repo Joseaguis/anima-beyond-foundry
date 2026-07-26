@@ -1,0 +1,48 @@
+{
+  "name": "Caos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>En el área, el mago puede alterar reglas existenciales.Puede designar qué aspecto de la existencia en concreto quiere alterar, o transformarla toda. El conjuro no le otorga control sobre lo que está cambiando, por lo que el resultado y devenir de los acontecimientos serán, caóticos. No existe resistencia posible, y afecta a todos aquellos seres cuyo Gnosis no sea muy elevado. La única  excepción son individuos cuyo Gnosis sea 20 puntos superior a su Natura.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 98,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "En el área, el mago puede alterar reglas existenciales.Puede designar qué aspecto de la existencia en concreto quiere alterar, o transformarla toda. El conjuro no le otorga control sobre lo que está cambiando, por lo que el resultado y devenir de los acontecimientos serán, caóticos. No existe resistencia posible, y afecta a todos aquellos seres cuyo Gnosis no sea muy elevado. La única  excepción son individuos cuyo Gnosis sea 20 puntos superior a su Natura.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 700,
+        "intRequired": 14,
+        "maintenanceCost": 70,
+        "effect": "100 kilómetros de radio / Afecta hasta Gnosis 10"
+      },
+      "intermediate": {
+        "zeonCost": 1200,
+        "intRequired": 16,
+        "maintenanceCost": 80,
+        "effect": "1.000 kilómetros de radio / Afecta hasta Gnosis 20"
+      },
+      "advanced": {
+        "zeonCost": 2000,
+        "intRequired": 18,
+        "maintenanceCost": 90,
+        "effect": "10.000 kilómetros de radio / Afecta hasta Gnosis 30"
+      },
+      "arcane": {
+        "zeonCost": 5000,
+        "intRequired": 20,
+        "maintenanceCost": 100,
+        "effect": "Afecta a toda la creación / Afecta hasta Gnosis 40"
+      }
+    }
+  }
+}

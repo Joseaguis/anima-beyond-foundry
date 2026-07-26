@@ -1,0 +1,48 @@
+{
+  "name": "Crear recuerdos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite crear recuerdos en la mente de alguien, sin borrar necesariamente con ello los anteriores. Salvo si se modifican memorias muy arraigadas, el personaje se siente confundido, pero cree que todos sus recuerdos son reales. El mago puede determinar la información a inducir, no importa complejidad o duración. Para evitarlo, RM o RP. Aunque no exige mantenimiento, el individuo tendrá derecho a una nueva tirada si ve o hace algo de lo que sospechar.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 46,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Permite crear recuerdos en la mente de alguien, sin borrar necesariamente con ello los anteriores. Salvo si se modifican memorias muy arraigadas, el personaje se siente confundido, pero cree que todos sus recuerdos son reales. El mago puede determinar la información a inducir, no importa complejidad o duración. Para evitarlo, RM o RP. Aunque no exige mantenimiento, el individuo tendrá derecho a una nueva tirada si ve o hace algo de lo que sospechar.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 140,
+        "intRequired": 7,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 100"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 120"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 160"
+      },
+      "arcane": {
+        "zeonCost": 350,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 200"
+      }
+    }
+  }
+}

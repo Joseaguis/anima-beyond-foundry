@@ -1,0 +1,48 @@
+{
+  "name": "Predestinación",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El mago puede modificar sucesos venideros. El mago designa la complejidad de estos como desee. Es posible que predestine un único evento, dejando a casualidad los sucesos que permitan que pase, o determinar los aspectos hasta el fin deseado. No puede causar eventos imposibles. Los sucesos determinados pueden fijarse para una fecha concreta o para que se repitan eternamente a lo largo del tiempo. No crea un futuro absoluto e ineludible.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 92,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "El mago puede modificar sucesos venideros. El mago designa la complejidad de estos como desee. Es posible que predestine un único evento, dejando a casualidad los sucesos que permitan que pase, o determinar los aspectos hasta el fin deseado. No puede causar eventos imposibles. Los sucesos determinados pueden fijarse para una fecha concreta o para que se repitan eternamente a lo largo del tiempo. No crea un futuro absoluto e ineludible.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 600,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM 140"
+      },
+      "intermediate": {
+        "zeonCost": 900,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM 170"
+      },
+      "advanced": {
+        "zeonCost": 1200,
+        "intRequired": 17,
+        "maintenanceCost": 0,
+        "effect": "RM 200"
+      },
+      "arcane": {
+        "zeonCost": 1500,
+        "intRequired": 19,
+        "maintenanceCost": 0,
+        "effect": "RM 240"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Celeridad",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Eleva el movimiento de un sujeto, al igual que le proporciona un bono a su turno. Los valores que hagan aumentar el Tipo de Movimiento por encima de 12 quedan reducidos a la mitad</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 22,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Eleva el movimiento de un sujeto, al igual que le proporciona un bono a su turno. Los valores que hagan aumentar el Tipo de Movimiento por encima de 12 quedan reducidos a la mitad",
+    "closedPaths": "Tierra",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "Más 1 al Tipo de movimiento / +20 al turno"
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "Más 2 al tipo de movimiento / +40 al turno"
+      },
+      "advanced": {
+        "zeonCost": 160,
+        "intRequired": 11,
+        "maintenanceCost": 15,
+        "effect": "Más 4 al Tipo de movimiento / +60 al turno"
+      },
+      "arcane": {
+        "zeonCost": 200,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "Más 6 al Tipo de movimiento / +80 al turno"
+      }
+    }
+  }
+}

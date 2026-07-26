@@ -1,0 +1,48 @@
+{
+  "name": "Velocidad en la batalla",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Canaliza el espíritu de batalla de los aliados, haciéndolos trabajar como un solo hombre y permitiéndoles anticiparse a las acciones de sus enemigos.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 24,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Guerra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Canaliza el espíritu de batalla de los aliados, haciéndolos trabajar como un solo hombre y permitiéndoles anticiparse a las acciones de sus enemigos.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Da +10 Turno / 10m radio"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "Da +10 Turno / 50m radio"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "Da +20 Turno / 250m radio"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "Da +20 Turno / 500m radio"
+      }
+    }
+  }
+}

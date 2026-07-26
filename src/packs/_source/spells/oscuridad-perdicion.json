@@ -1,0 +1,48 @@
+{
+  "name": "Perdición",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Disminuyendo capacidades y poderes de alguien. Los que este en la zona deberán superar RM, o recibir penalizador a toda acción y Resistencias de –30. El conjuro afecta en un radio alrededor del mago, afectando automáticamente a cualquiera que este desee de cuantos se encuentren en el interior. Los penalizadores de la Perdición no se superponen, por lo que un personaje no sufriría el doble de negativos por encontrarse bajo la influencia de dos perdiciones</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 56,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Oscuridad",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Disminuyendo capacidades y poderes de alguien. Los que este en la zona deberán superar RM, o recibir penalizador a toda acción y Resistencias de –30. El conjuro afecta en un radio alrededor del mago, afectando automáticamente a cualquiera que este desee de cuantos se encuentren en el interior. Los penalizadores de la Perdición no se superponen, por lo que un personaje no sufriría el doble de negativos por encontrarse bajo la influencia de dos perdiciones",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "RM 120 / Radio de 5 metros."
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "RM 160 / 25 metros de radio"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "RM 180 / 50 metros de radio / -40 a toda acción"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "RM 200 / 150 metros de radio / -50 a toda acción"
+      }
+    }
+  }
+}

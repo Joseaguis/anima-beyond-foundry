@@ -1,0 +1,48 @@
+{
+  "name": "Ilusión fantasmal",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea uno o varios objetos, que se verán sometidos a las reglas de conjuro Fantasmal. Podrá crearse cualquier cosa inanimada que decida el hechicero, desde una espada a un muro siempre y cuando la supuesta presencia del objeto no supere lo que determina el grado del conjuro. Una vez fallada la resistencia, los afectados sólo tendrán derecho a una nueva tirada si encuentran algún motivo o sospecha para dudar de la realidad de la ilusión.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 50,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Ilusión",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Crea uno o varios objetos, que se verán sometidos a las reglas de conjuro Fantasmal. Podrá crearse cualquier cosa inanimada que decida el hechicero, desde una espada a un muro siempre y cuando la supuesta presencia del objeto no supere lo que determina el grado del conjuro. Una vez fallada la resistencia, los afectados sólo tendrán derecho a una nueva tirada si encuentran algún motivo o sospecha para dudar de la realidad de la ilusión.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "RM 120 / Presencia máxima 60"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "RM 150 / Presencia máxima 80"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "RM 180 / Presencia máxima 100"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "RM 210 / Presencia máxima 120"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Dominar a los carroñeros",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Otorga al brujo un control absoluto sobre cualquier alimaña carroñera. La consideración de alimaña carroñera es la de toda criatura de naturaleza inferior, es decir, con presencia 20 o inferior, que se alimente generalmente de los muertos. Cuervos, gusanos y otros muchos insectos encajan perfectamente dentro de esta descripción.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 8,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Otorga al brujo un control absoluto sobre cualquier alimaña carroñera. La consideración de alimaña carroñera es la de toda criatura de naturaleza inferior, es decir, con presencia 20 o inferior, que se alimente generalmente de los muertos. Cuervos, gusanos y otros muchos insectos encajan perfectamente dentro de esta descripción.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "10 metros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "150 metros de radio"
+      },
+      "advanced": {
+        "zeonCost": 200,
+        "intRequired": 11,
+        "maintenanceCost": 10,
+        "effect": "500 metros de radio"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "2 kilometros de radio"
+      }
+    }
+  }
+}

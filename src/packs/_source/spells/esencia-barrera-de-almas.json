@@ -1,0 +1,48 @@
+{
+  "name": "Barrera de almas",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea una barrera espiritual para detener cualquier efecto que obligue a superar una RM o RP, aunque es inútil contra cualquier otro tipo de ataque o conjuro. Tampoco detiene ataques que provoquen daños con efectos añadidos, como Lluvia de Destrucción, por ejemplo. El escudo no tiene puntos de vida, porque no protege contra impactos que causen daños.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 20,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "defense",
+    "effect": "Crea una barrera espiritual para detener cualquier efecto que obligue a superar una RM o RP, aunque es inútil contra cualquier otro tipo de ataque o conjuro. Tampoco detiene ataques que provoquen daños con efectos añadidos, como Lluvia de Destrucción, por ejemplo. El escudo no tiene puntos de vida, porque no protege contra impactos que causen daños.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Hasta 140 de Resistencia"
+      },
+      "intermediate": {
+        "zeonCost": 60,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "Hasta 160 de Resistencia"
+      },
+      "advanced": {
+        "zeonCost": 90,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "Hasta 200 de Resistencia"
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "Hasta 240 de Resistencia"
+      }
+    }
+  }
+}

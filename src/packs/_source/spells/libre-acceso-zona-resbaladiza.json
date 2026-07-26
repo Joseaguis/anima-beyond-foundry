@@ -1,0 +1,48 @@
+{
+  "name": "Zona resbaladiza",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Encanta un área estática sobre la cual es tan fácil resbalar como sobre una zona de hielo mojado. Pasar lentamente por ella sin caer requiere una tirada de Atletismo o Acrobacias de Difícil, mientras que corriendo la dificultad aumenta a Absurdo.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 12,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Encanta un área estática sobre la cual es tan fácil resbalar como sobre una zona de hielo mojado. Pasar lentamente por ella sin caer requiere una tirada de Atletismo o Acrobacias de Difícil, mientras que corriendo la dificultad aumenta a Absurdo.",
+    "closedPaths": "Fuego",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "5 metros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "25 metros de radio"
+      },
+      "advanced": {
+        "zeonCost": 160,
+        "intRequired": 11,
+        "maintenanceCost": 10,
+        "effect": "50 metros de radio"
+      },
+      "arcane": {
+        "zeonCost": 240,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "100 metros de radio / Pasar lentamente control contra 140, y corriendo a 280"
+      }
+    }
+  }
+}

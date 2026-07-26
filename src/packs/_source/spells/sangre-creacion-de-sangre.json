@@ -1,0 +1,48 @@
+{
+  "name": "Creación de sangre",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea un objeto u arma a partir de la propia sangre del hechicero, cristalizándola hasta convertirla en un material de una dureza extrema. Lamentablemente, esto hace que el brujo deba de sacrificar necesariamente parte de su propia sangre, perdiendo puntos de vida en el proceso.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 34,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Sangre",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea un objeto u arma a partir de la propia sangre del hechicero, cristalizándola hasta convertirla en un material de una dureza extrema. Lamentablemente, esto hace que el brujo deba de sacrificar necesariamente parte de su propia sangre, perdiendo puntos de vida en el proceso.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "Pérdida de -10 PV / Calidad +0 / Objetos de hasta 2 Kg"
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 9,
+        "maintenanceCost": 40,
+        "effect": "Pérdida de -20 PV / Calidad +5 / Objetos de hasta 5 Kg"
+      },
+      "advanced": {
+        "zeonCost": 160,
+        "intRequired": 12,
+        "maintenanceCost": 50,
+        "effect": "Pérdida de -40 PV / Calidad +10 / Objetos de hasta 15 Kg"
+      },
+      "arcane": {
+        "zeonCost": 200,
+        "intRequired": 15,
+        "maintenanceCost": 60,
+        "effect": "Pérdida de -60 PV / Calidad +15 / Objetos de hasta 25 Kg"
+      }
+    }
+  }
+}

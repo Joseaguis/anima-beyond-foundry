@@ -1,0 +1,48 @@
+{
+  "name": "Escudo de vacío",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea un escudo que detiene los ataques de forma convencional y que anula cualquier poder sobrenatural del que se defienda con éxito si el atacante no logra superar un control de Voluntad o Poder. De igual forma, cualquier objeto físico que logre parar el escudo debe superar una RF o será destruido de inmediato.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 24,
+    "actionType": "passive",
+    "maintenanceType": "sustained",
+    "magicPath": "Vacío",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "defense",
+    "effect": "Crea un escudo que detiene los ataques de forma convencional y que anula cualquier poder sobrenatural del que se defienda con éxito si el atacante no logra superar un control de Voluntad o Poder. De igual forma, cualquier objeto físico que logre parar el escudo debe superar una RF o será destruido de inmediato.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "200 Puntos de Resistencia / Dificultad 14 / RF 100."
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "300 Puntos de Resistencia / Dificultad 16 / RF 120."
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "400 Puntos de Resistencia / Dificultad 18 / RF 140."
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "500 Puntos de Resistencia / Dificultad 20 / RF 160."
+      }
+    }
+  }
+}

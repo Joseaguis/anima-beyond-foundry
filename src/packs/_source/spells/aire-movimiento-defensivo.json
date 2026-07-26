@@ -1,0 +1,48 @@
+{
+  "name": "Movimiento defensivo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Ell mago se mueve o transporta fuera del alcance de un ataque. Puede usar Proyección Mágica del mago como si se tratase de su esquiva. Podrá apartarse de un máximo de ataques por asalto, tras los cuales deberá encontrar otro método de defensa hasta el siguiente turno. El conjuro esquiva como si se dispusiera de una velocidad equivalente a un Tipo de movimiento determinado por el grado del conjuro a la hora de los penalizadores contra ataques en área.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 62,
+    "actionType": "passive",
+    "maintenanceType": "sustained",
+    "magicPath": "Aire",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "defense",
+    "effect": "Ell mago se mueve o transporta fuera del alcance de un ataque. Puede usar Proyección Mágica del mago como si se tratase de su esquiva. Podrá apartarse de un máximo de ataques por asalto, tras los cuales deberá encontrar otro método de defensa hasta el siguiente turno. El conjuro esquiva como si se dispusiera de una velocidad equivalente a un Tipo de movimiento determinado por el grado del conjuro a la hora de los penalizadores contra ataques en área.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 7,
+        "maintenanceCost": 15,
+        "effect": "3 esquivas / tipo de movimiento 8"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 20,
+        "effect": "9 esquivas / tipo de movimiento 12"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "15 esquivas / tipo de movimiento 16"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "sin limite de esquivas / tipo de movimiento 18"
+      }
+    }
+  }
+}

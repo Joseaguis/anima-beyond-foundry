@@ -1,0 +1,48 @@
+{
+  "name": "Manipulación del caos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El conjuro debe ser lanzado inmediatamente después de que se realice una acción; el personaje que la haya realizado deberá repetir inmediatamente su tirada de dados. Este conjuro es automático, y la condición para obligar a realizar la RM es estar ante el brujo y haber realizado una acción en ese momento. Los seres con Gnosis 35 o Natura elevada son conscientes del cambio, mientras que los demás no pueden percibirlo</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 64,
+    "actionType": "passive",
+    "maintenanceType": "none",
+    "magicPath": "Caos",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "El conjuro debe ser lanzado inmediatamente después de que se realice una acción; el personaje que la haya realizado deberá repetir inmediatamente su tirada de dados. Este conjuro es automático, y la condición para obligar a realizar la RM es estar ante el brujo y haber realizado una acción en ese momento. Los seres con Gnosis 35 o Natura elevada son conscientes del cambio, mientras que los demás no pueden percibirlo",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM 140"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM 180 / puede obligar a repetir la tirada dos veces"
+      },
+      "advanced": {
+        "zeonCost": 300,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "RM 220 /  Puede obligar a repetir la tirada tres veces"
+      },
+      "arcane": {
+        "zeonCost": 400,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "RM 260/ Puede obligar a repetir la tirada cuatro veces"
+      }
+    }
+  }
+}

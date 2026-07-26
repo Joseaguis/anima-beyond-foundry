@@ -1,0 +1,48 @@
+{
+  "name": "Bucle temporal",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Al llegar el final del periodo determinado por el lanzador el tiempo se reinicia, repitiendo los mismos acontecimientos.Los seres con Gnosis 40 o mayor son conscientes de inmediato del lugar y posicionamiento de todos los bucles temporales existentes en ese instante. Limitación Especial: En contra de las reglas generales, Bucle Temporal se considera un conjuro de Alta Magia.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 84,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Tiempo",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Al llegar el final del periodo determinado por el lanzador el tiempo se reinicia, repitiendo los mismos acontecimientos.Los seres con Gnosis 40 o mayor son conscientes de inmediato del lugar y posicionamiento de todos los bucles temporales existentes en ese instante. Limitación Especial: En contra de las reglas generales, Bucle Temporal se considera un conjuro de Alta Magia.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 400,
+        "intRequired": 11,
+        "maintenanceCost": 40,
+        "effect": "250m radio / Hasta 1 día"
+      },
+      "intermediate": {
+        "zeonCost": 600,
+        "intRequired": 14,
+        "maintenanceCost": 60,
+        "effect": "500m radio / Hasta 1 semana"
+      },
+      "advanced": {
+        "zeonCost": 900,
+        "intRequired": 16,
+        "maintenanceCost": 90,
+        "effect": "1 Km radio / Hasta 1 mes"
+      },
+      "arcane": {
+        "zeonCost": 1400,
+        "intRequired": 18,
+        "maintenanceCost": 140,
+        "effect": "5 Km radio / Hasta 1 año"
+      }
+    }
+  }
+}

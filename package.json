@@ -1,0 +1,35 @@
+{
+  "name": "anima-beyond-foundry",
+  "version": "0.2.0",
+  "description": "Anima: Beyond Fantasy system for Foundry VTT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch",
+    "sandbox": "vite --config vite.sandbox.config.ts",
+    "build": "vite build && npm run build:packs",
+    "build:packs": "tsx scripts/build-packs.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "gen:ki-tables": "tsx scripts/extract-technique-tables.ts",
+    "gen:spell-tables": "tsx scripts/extract-spell-tables.ts",
+    "gen:psychic-tables": "tsx scripts/extract-psychic-tables.ts"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.4",
+    "@tailwindcss/vite": "^4.3.2",
+    "@types/node": "^26.1.1",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^6.0.3",
+    "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#main",
+    "tailwindcss": "^4.3.2",
+    "tsx": "^4.23.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.1.4",
+    "vitest": "^4.1.10"
+  }
+}

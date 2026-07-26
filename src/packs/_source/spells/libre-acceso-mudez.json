@@ -1,0 +1,48 @@
+{
+  "name": "Mudez",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Los sujetos dentro del radio del conjuro que fallen la RM perderán la capacidad de hablar</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 52,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Los sujetos dentro del radio del conjuro que fallen la RM perderán la capacidad de hablar",
+    "closedPaths": "Creación",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 5,
+        "effect": "Radio de 5 metros / RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 5,
+        "effect": "Radio de 25 metros / RM 150"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "Radio de 50 metros / RM 190"
+      },
+      "arcane": {
+        "zeonCost": 140,
+        "intRequired": 14,
+        "maintenanceCost": 10,
+        "effect": "Radio de 100 metros / RM 220"
+      }
+    }
+  }
+}

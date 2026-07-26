@@ -1,0 +1,16 @@
+{
+  "name": "Extroversión",
+  "type": "mentalPattern",
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Normalmente, los mentalistas que desarrollan este Patrón Mental disfrutan de los grupos de personas, les encantan las emociones y les gusta oír su voz. Sin embargo, una vez han desarrollado este Patrón, todos esos rasgos se magnifican en exceso. El mentalista tiene un comportamiento gregario, asertivo y buscador de emociones, sintiéndose en la cumbre cuando está rodeado de gente. Sin embargo, la soledad le afecta de forma muy negativa.</p><p><em>Sus matrices son grandilocuentes, amplias y espectaculares, como una firma muy vistosa.</em></p>",
+      "chat": ""
+    },
+    "source": "Arcana Exxet",
+    "rules": [],
+    "effect": "Bonos: al proyectar un poder sobre otros, +20 al Potencial Psíquico y +20 a la Proyección Psíquica. Se aplica a cualquier poder que no afecte de forma concreta al mentalista directa y exclusivamente.\nPenalizadores: dobla su índice de pifia al calcular el Potencial Psíquico de cualquier poder que recaiga sobre él mismo. Todos sus poderes son perfectamente visibles para todo el mundo (vean o no matrices), incluso los que normalmente no lo serían, como telepatía o telemetría. Cuando se encuentre solo, sin nadie a quien hablar o que pueda admirarle, −40 a toda acción.\nPatrones Mentales Opuestos: Introversión.\nCoste: 30 PD / 40 PD. Coste de Cancelación: 10 PD.",
+    "dpCost": 30,
+    "modifier": "+20 Pot. y +20 Proy. sobre otros / −40 en soledad"
+  }
+}

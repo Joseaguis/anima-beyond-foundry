@@ -1,0 +1,48 @@
+{
+  "name": "Vitalidad",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>La magia crea un estado de vitalidad sobrenatural en un individuo, aumenta el valor máximo de sus puntos de vida mientras este hechizo se mantenga. Sus efectos no se superponen, y sólo se puede afectar con él una vez a cada sujeto. Los seres con acumulación de daño multiplican por cinco esta cantidad.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 62,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "La magia crea un estado de vitalidad sobrenatural en un individuo, aumenta el valor máximo de sus puntos de vida mientras este hechizo se mantenga. Sus efectos no se superponen, y sólo se puede afectar con él una vez a cada sujeto. Los seres con acumulación de daño multiplican por cinco esta cantidad.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 150,
+        "intRequired": 8,
+        "maintenanceCost": 15,
+        "effect": "Mas 50 puntos de vida"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 20,
+        "effect": "Mas 75 puntos de vida"
+      },
+      "advanced": {
+        "zeonCost": 250,
+        "intRequired": 13,
+        "maintenanceCost": 25,
+        "effect": "Mas 100 puntos de vida"
+      },
+      "arcane": {
+        "zeonCost": 350,
+        "intRequired": 16,
+        "maintenanceCost": 35,
+        "effect": "Mas 150 puntos de vida"
+      }
+    }
+  }
+}

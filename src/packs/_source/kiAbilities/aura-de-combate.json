@@ -1,0 +1,20 @@
+{
+  "name": "Aura de combate",
+  "type": "kiAbility",
+  "img": "icons/magic/defensive/shield-barrier-glowing-triangle-magenta.webp",
+  "system": {
+    "description": {
+      "value": "<p>El «instinto asesino»: exterioriza la Presencia obligando a un control de RF (Presencia base + bono por Acumulaciones, Tabla 8). Radio = Presencia/5 m; cuesta 1 Ki cada 5 asaltos.</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 40,
+    "subtype": "kiPower",
+    "parent": "Control del Ki",
+    "branch": "Control del Ki",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

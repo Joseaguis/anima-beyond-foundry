@@ -1,0 +1,48 @@
+{
+  "name": "Comunicación por esencia",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El hechizo establece un enlace anímico entre el lanzador y un sujeto determinado, permitiéndoles a ambos comunicarse espiritualmente. La conversación se realizará mediante conceptos que ambos entenderán automáticamente, incluso si hablan idiomas distintos, o aunque uno de ellos no esté capacitado para hablar. Es incluso posible comunicarse con animales o plantas, que no tienen un idioma estructurado.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 10,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "El hechizo establece un enlace anímico entre el lanzador y un sujeto determinado, permitiéndoles a ambos comunicarse espiritualmente. La conversación se realizará mediante conceptos que ambos entenderán automáticamente, incluso si hablan idiomas distintos, o aunque uno de ellos no esté capacitado para hablar. Es incluso posible comunicarse con animales o plantas, que no tienen un idioma estructurado.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "Permite comunicarse con animales o plantas"
+      },
+      "intermediate": {
+        "zeonCost": 70,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "Permite comunicarte con cualquier clase de ser natural"
+      },
+      "advanced": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 20,
+        "effect": "Permite comunicarse con cualquier clase de ser natural o entre mundos"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 13,
+        "maintenanceCost": 25,
+        "effect": "Permite comunicarse con cualquier clase de entidad"
+      }
+    }
+  }
+}

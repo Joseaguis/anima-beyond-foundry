@@ -1,0 +1,64 @@
+{
+  "name": "Percibir electricidad",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Electromagnetismo",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": false,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "10 m de radio"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "25 m de radio"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "50 m de radio"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "100 m / RF 120"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "500 m / RF 140"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "1 km / RF 160"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "5 km / RF 180"
+      }
+    ],
+    "effect": ""
+  }
+}

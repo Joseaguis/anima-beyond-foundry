@@ -1,0 +1,48 @@
+{
+  "name": "Rechazo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Encanta un cuerpo físico con energía mágica, produciendo un fuerte rechazo a cualquiera que lo toque. El conjuro provoca un impacto sobre todo aquel con el que se ponga en contacto. Como en todos los golpes similares, el DJ deberá considerar el daño que sufre el afectado, dependiendo de la diferencia con un control enfrentado de Agilidad o Fuerza, y los elementos que haya en el entorno.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 62,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Encanta un cuerpo físico con energía mágica, produciendo un fuerte rechazo a cualquiera que lo toque. El conjuro provoca un impacto sobre todo aquel con el que se ponga en contacto. Como en todos los golpes similares, el DJ deberá considerar el daño que sufre el afectado, dependiendo de la diferencia con un control enfrentado de Agilidad o Fuerza, y los elementos que haya en el entorno.",
+    "closedPaths": "Esencia,Agua",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 5,
+        "effect": "Presencia máxima 30 / Fuerza 8"
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 11,
+        "maintenanceCost": 5,
+        "effect": "Presencia máxima 40 / Fuerza 10"
+      },
+      "advanced": {
+        "zeonCost": 180,
+        "intRequired": 13,
+        "maintenanceCost": 10,
+        "effect": "Presencia máxima 50 / Fuerza 12"
+      },
+      "arcane": {
+        "zeonCost": 220,
+        "intRequired": 16,
+        "maintenanceCost": 15,
+        "effect": "Presencia máxima 60 / Fuerza 14"
+      }
+    }
+  }
+}

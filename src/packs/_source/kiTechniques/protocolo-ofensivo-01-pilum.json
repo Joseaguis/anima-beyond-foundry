@@ -1,0 +1,63 @@
+{
+  "name": "Protocolo Ofensivo 01: Pilum",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Solomon Imperus",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+40"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "incrementar-turno",
+        "role": "secondary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "requerimiento",
+        "option": "Sangre Antigua"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 30,
+    "bookCost": "DES 3 AGI 2 POD 3",
+    "bookDistribution": {
+      "dex": {
+        "activation": 3,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 2,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 3,
+        "upkeep": 0
+      }
+    }
+  }
+}

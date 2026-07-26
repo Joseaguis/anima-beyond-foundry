@@ -1,0 +1,48 @@
+{
+  "name": "Ilusión total",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Forma una ilusión completa, que engaña a los cinco sentido de los afectados. El brujo podrá crear cualquier cosa inanimada. La ilusión será destruida si es alcanzada por ataques que dañen en energía. El conjuro afectará a cualquiera capaz de ver, oír o sentir la ilusión y que no supere una RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 32,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Ilusión",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Forma una ilusión completa, que engaña a los cinco sentido de los afectados. El brujo podrá crear cualquier cosa inanimada. La ilusión será destruida si es alcanzada por ataques que dañen en energía. El conjuro afectará a cualquiera capaz de ver, oír o sentir la ilusión y que no supere una RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "120 RM."
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 5,
+        "effect": "160 RM."
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "200 RM."
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 10,
+        "effect": "240 RM."
+      }
+    }
+  }
+}

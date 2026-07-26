@@ -1,0 +1,64 @@
+{
+  "name": "Repulsión",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Telequinesis",
+    "powerLevel": 2,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "veryHard",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Fuerza 6 /Línea de 2 m"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Fuerza 8 / Línea de 5 m"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Fuerza 10 / Línea de 10 m"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Fuerza 12 / Línea de 20 m"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Fuerza 14 / Línea de 50 m"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Fuerza 18 / Línea de 100 m"
+      }
+    ],
+    "effect": ""
+  }
+}

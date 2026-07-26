@@ -1,0 +1,48 @@
+{
+  "name": "Exterminio menor",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Mata a las criaturas con Presencia 20 determinadas por el lanzador en un área, si no superan la RM determinada por el grado de conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 24,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Muerte",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Mata a las criaturas con Presencia 20 determinadas por el lanzador en un área, si no superan la RM determinada por el grado de conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 7,
+        "maintenanceCost": 0,
+        "effect": "RM 60 / 10 metros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "RM 80 / 25 metros de radio"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "RM 100 / 50 metros de radio"
+      },
+      "arcane": {
+        "zeonCost": 140,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "RM 120 / 75 metros de radio"
+      }
+    }
+  }
+}

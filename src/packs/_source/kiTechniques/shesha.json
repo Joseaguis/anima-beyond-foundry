@@ -1,0 +1,68 @@
+{
+  "name": "Shesha",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Estilo De La Familia Vilfain",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "incrementar-turno",
+        "role": "secondary",
+        "options": [
+          "+75"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "destruir-armadura",
+        "role": "secondary",
+        "options": [
+          "-2 TA"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 45,
+    "bookCost": "DES 5 AGI 5 FUE 5",
+    "bookDistribution": {
+      "dex": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "str": {
+        "activation": 5,
+        "upkeep": 0
+      }
+    }
+  }
+}

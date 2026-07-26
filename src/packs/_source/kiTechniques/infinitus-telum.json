@@ -1,0 +1,60 @@
+{
+  "name": "Infinitus Telum",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Coelo Ruinam",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-adicional-limitado",
+        "role": "primary",
+        "options": [
+          "+4"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "acciones-adicionales",
+        "role": "secondary",
+        "options": [
+          "+4",
+          "Desenfundar",
+          "Especial"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 65,
+    "bookCost": "DES 9 AGI 5 CON 3",
+    "bookDistribution": {
+      "dex": {
+        "activation": 9,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 3,
+        "upkeep": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Recuperar",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Restaura completamente la condición física de un sujeto, sanando sus puntos de vida perdidos y haciendo desaparecer cualquier penalizador físico que tuviese, siempre que no sea por causa de miembros amputados o daños similares. Este hechizo no recupera puntos de Cansancio, ni deshace estados negativos provocados por medios sobrenaturales.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 48,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Restaura completamente la condición física de un sujeto, sanando sus puntos de vida perdidos y haciendo desaparecer cualquier penalizador físico que tuviese, siempre que no sea por causa de miembros amputados o daños similares. Este hechizo no recupera puntos de Cansancio, ni deshace estados negativos provocados por medios sobrenaturales.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "500 Puntos de vida"
+      },
+      "intermediate": {
+        "zeonCost": 300,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "750 Puntos de vida"
+      },
+      "advanced": {
+        "zeonCost": 350,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "1.000 Puntos de vida"
+      },
+      "arcane": {
+        "zeonCost": 400,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "1.500 Puntos de vida"
+      }
+    }
+  }
+}

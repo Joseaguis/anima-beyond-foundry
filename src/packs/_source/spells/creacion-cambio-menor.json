@@ -1,0 +1,48 @@
+{
+  "name": "Cambio menor",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Altera la apariencia de un objeto o ser, modificando su forma. Modifica aspecto exterior, sin perder sus cualidades o naturaleza original. Una espada corta se podría tornar vieja y oxidada, pero no en un bastón. A los seres vivos, puede modificarse su aspecto físico sin variar más de dos puntos su Tamaño. Los objetos no repiten control de RM, las personas, una vez al día. Se puede afectar a varios objetivos, si la suma de sus presencias no es mayor a lo permitido.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 28,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Altera la apariencia de un objeto o ser, modificando su forma. Modifica aspecto exterior, sin perder sus cualidades o naturaleza original. Una espada corta se podría tornar vieja y oxidada, pero no en un bastón. A los seres vivos, puede modificarse su aspecto físico sin variar más de dos puntos su Tamaño. Los objetos no repiten control de RM, las personas, una vez al día. Se puede afectar a varios objetivos, si la suma de sus presencias no es mayor a lo permitido.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "RM 80 / Máxima Presencia 60"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "RM 100 / Máxima Presencia 90"
+      },
+      "advanced": {
+        "zeonCost": 150,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "RM 140 / Máxima Presencia 120"
+      },
+      "arcane": {
+        "zeonCost": 250,
+        "intRequired": 15,
+        "maintenanceCost": 25,
+        "effect": "RM 180 / Máxima Presencia 180"
+      }
+    }
+  }
+}

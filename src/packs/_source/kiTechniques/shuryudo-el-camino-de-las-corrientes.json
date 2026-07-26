@@ -1,0 +1,40 @@
+{
+  "name": "Shuryudo, El Camino De Las Corrientes",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Arashido, El Camino De Las Tormentas",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "incrementar-turno",
+        "role": "primary",
+        "options": [
+          "+75"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 25,
+    "bookCost": "AGI 6 (2)",
+    "bookDistribution": {
+      "agi": {
+        "activation": 6,
+        "upkeep": 2
+      }
+    }
+  }
+}

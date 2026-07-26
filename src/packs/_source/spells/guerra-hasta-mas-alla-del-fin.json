@@ -1,0 +1,48 @@
+{
+  "name": "Hasta más allá del fin",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este hechizo lleva más allá del poder de los mortales el espíritu combativo de los aliados del brujo, permitiéndoles seguir adelante incluso en el umbral de la muerte. Todos sus aliados que se encuentren dentro del radio de acción del sortilegio duplican su aguante en puntos de vida negativos (en caso de usar las reglas opcionales Entre la Vida y la Muerte, aplican un +40 a sus controles de RF), y no sufren ningún negativo por combatir en dicho estado.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 94,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Guerra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este hechizo lleva más allá del poder de los mortales el espíritu combativo de los aliados del brujo, permitiéndoles seguir adelante incluso en el umbral de la muerte. Todos sus aliados que se encuentren dentro del radio de acción del sortilegio duplican su aguante en puntos de vida negativos (en caso de usar las reglas opcionales Entre la Vida y la Muerte, aplican un +40 a sus controles de RF), y no sufren ningún negativo por combatir en dicho estado.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 14,
+        "maintenanceCost": 25,
+        "effect": "25m radio"
+      },
+      "intermediate": {
+        "zeonCost": 500,
+        "intRequired": 16,
+        "maintenanceCost": 50,
+        "effect": "50m radio"
+      },
+      "advanced": {
+        "zeonCost": 750,
+        "intRequired": 18,
+        "maintenanceCost": 75,
+        "effect": "250m radio"
+      },
+      "arcane": {
+        "zeonCost": 1000,
+        "intRequired": 20,
+        "maintenanceCost": 100,
+        "effect": "500m radio / Puede seguir luchando  hasta 2 asaltos después de muerto"
+      }
+    }
+  }
+}

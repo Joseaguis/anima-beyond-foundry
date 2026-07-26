@@ -1,0 +1,48 @@
+{
+  "name": "Marca de detección",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Encanta una persona, objeto o lugar, permitiendo al hechicero unir con él sus sentidos. De este modo, el brujo puede utilizar sus habilidades de percepción como si estuviera presente hasta la distancia máxima precisada por el grado del conjuro. Además, tendrá siempre constancia de dónde se encuentra su marca con respecto a su posición. En el caso de tratarse de un ser vivo o un objeto sobrenatural, podrá evitar ser afectado superando una RM</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 72,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Encanta una persona, objeto o lugar, permitiendo al hechicero unir con él sus sentidos. De este modo, el brujo puede utilizar sus habilidades de percepción como si estuviera presente hasta la distancia máxima precisada por el grado del conjuro. Además, tendrá siempre constancia de dónde se encuentra su marca con respecto a su posición. En el caso de tratarse de un ser vivo o un objeto sobrenatural, podrá evitar ser afectado superando una RM",
+    "closedPaths": "Oscuridad",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "10 kilómetros / RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 11,
+        "maintenanceCost": 15,
+        "effect": "100 kilómetros / RM 140"
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 14,
+        "maintenanceCost": 15,
+        "effect": "1.000 kilómetros / RM 160"
+      },
+      "arcane": {
+        "zeonCost": 160,
+        "intRequired": 16,
+        "maintenanceCost": 20,
+        "effect": "Cualquier distancia / RM 180"
+      }
+    }
+  }
+}

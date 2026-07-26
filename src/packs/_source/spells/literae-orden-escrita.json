@@ -1,0 +1,48 @@
+{
+  "name": "Orden escrita",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>La orden funcionará incluso si está oculta entre otras frases, aunque el personaje afectado obtiene entre un +20 y +60 al control si el mandato va directamente en contra de su naturaleza. Este conjuro puede repetirse de manera encadenada en varias ocasiones para crear una orden compleja, como “abre la puerta y luego olvida lo ocurrido”. El poder de las palabras pierde su poder después de haber imbuido a una persona con la orden.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 34,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Literae",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "La orden funcionará incluso si está oculta entre otras frases, aunque el personaje afectado obtiene entre un +20 y +60 al control si el mandato va directamente en contra de su naturaleza. Este conjuro puede repetirse de manera encadenada en varias ocasiones para crear una orden compleja, como “abre la puerta y luego olvida lo ocurrido”. El poder de las palabras pierde su poder después de haber imbuido a una persona con la orden.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 120"
+      },
+      "intermediate": {
+        "zeonCost": 240,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 140"
+      },
+      "advanced": {
+        "zeonCost": 360,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 160"
+      },
+      "arcane": {
+        "zeonCost": 480,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 180"
+      }
+    }
+  }
+}

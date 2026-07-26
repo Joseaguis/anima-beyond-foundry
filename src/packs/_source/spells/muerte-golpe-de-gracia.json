@@ -1,0 +1,48 @@
+{
+  "name": "Golpe de gracia",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Remata a alguien que esté a punto de morir. La condición para ser afectado es que el objetivo debe encontrarse en el estado entre la vida y la muerte , y fallecerá de manera automática si no supera la RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 34,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Muerte",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Remata a alguien que esté a punto de morir. La condición para ser afectado es que el objetivo debe encontrarse en el estado entre la vida y la muerte , y fallecerá de manera automática si no supera la RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 7,
+        "maintenanceCost": 0,
+        "effect": "RM 140"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "RM 160"
+      },
+      "advanced": {
+        "zeonCost": 100,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "RM 180"
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "RM 200"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Destrucción por Ki",
+  "type": "kiAbility",
+  "img": "icons/magic/fire/blast-jet-stream-fire-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Proyecta energía para destruir lo que toca: 1 Ki fuerza una RF contra su Presencia base; +5 por Ki extra (máx. doble de Presencia). Es un ataque, no se mantiene.</p>",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "rules": [],
+    "mkCost": 20,
+    "subtype": "kiPower",
+    "parent": "Extrusión de presencia",
+    "branch": "Extrusión de presencia",
+    "kiCost": 1,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

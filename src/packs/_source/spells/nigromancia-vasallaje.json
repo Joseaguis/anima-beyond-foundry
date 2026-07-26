@@ -1,0 +1,48 @@
+{
+  "name": "Vasallaje",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Ata eternamente la esencia de una criatura no muerta al mago, convirtiendolo en su superior jerárquico, y haciendo que la existencia de la entidad dependa de este. Aunque no otorga al nigromante control sobre la criatura, la vida del vasallo está unida a la de su maestro, conllevando que si el “amo” es destruido, también perezca el “súbdito”. Un no muerto puede resistirse al vasallaje superando una RM o RF, pero una vez fallada la unión no puede romperse.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 76,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Ata eternamente la esencia de una criatura no muerta al mago, convirtiendolo en su superior jerárquico, y haciendo que la existencia de la entidad dependa de este. Aunque no otorga al nigromante control sobre la criatura, la vida del vasallo está unida a la de su maestro, conllevando que si el “amo” es destruido, también perezca el “súbdito”. Un no muerto puede resistirse al vasallaje superando una RM o RF, pero una vez fallada la unión no puede romperse.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 100"
+      },
+      "intermediate": {
+        "zeonCost": 360,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 140"
+      },
+      "advanced": {
+        "zeonCost": 450,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 180"
+      },
+      "arcane": {
+        "zeonCost": 540,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 220"
+      }
+    }
+  }
+}

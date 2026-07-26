@@ -1,0 +1,48 @@
+{
+  "name": "Golpe de aire",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El mago lanza un golpe de viento, concentrándolo lo suficiente para impactar a un blanco lejano, o de una forma dispersa como para retener a un grupo de personas a distancia. Si se concentre sobre un solo blanco, aplica un bonificador de +2 a su Fuerza. Daño igual al doble del bono de la Fuerza del impacto en Contundente. El ataque sólo podrá ser percibido por personas capaces de ver magia o que superen un control de Advertir contra Absurdo.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 20,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Aire",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "El mago lanza un golpe de viento, concentrándolo lo suficiente para impactar a un blanco lejano, o de una forma dispersa como para retener a un grupo de personas a distancia. Si se concentre sobre un solo blanco, aplica un bonificador de +2 a su Fuerza. Daño igual al doble del bono de la Fuerza del impacto en Contundente. El ataque sólo podrá ser percibido por personas capaces de ver magia o que superen un control de Advertir contra Absurdo.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "5 metros de anchura / fuerza 6"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "20 metros de anchura / fuerza 9"
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "30 metros de anchura / fuerza 12"
+      },
+      "arcane": {
+        "zeonCost": 200,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "50 metros de anchura / fuerza 14"
+      }
+    }
+  }
+}

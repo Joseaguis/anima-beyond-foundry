@@ -1,0 +1,63 @@
+{
+  "name": "Seísmo",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Maestro De Catástrofes",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-con-area",
+        "role": "primary",
+        "options": [
+          "25 metros de radio"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "aumento-de-dano",
+        "role": "secondary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "condicion",
+        "option": "Terreno Determinado: Tierra"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 45,
+    "bookCost": "FUE 4 POD 4 VOL 3",
+    "bookDistribution": {
+      "str": {
+        "activation": 4,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 4,
+        "upkeep": 0
+      },
+      "wp": {
+        "activation": 3,
+        "upkeep": 0
+      }
+    }
+  }
+}

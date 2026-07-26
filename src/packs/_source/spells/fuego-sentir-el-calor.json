@@ -1,0 +1,48 @@
+{
+  "name": "Sentir el calor",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Detecta la localización de cualquier fuente de calor. El conjuro no dará información sobre qué lo produce, pero podrá sentir intensidades y tamaños. Es posible, incluso percibir el calor que desprende un cuerpo humano, pero no el de seres inanimados o inmateriales, como golems o no muertos. Si se desea resistir, deberá superarse una RM</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 12,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Fuego",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "detection",
+    "effect": "Detecta la localización de cualquier fuente de calor. El conjuro no dará información sobre qué lo produce, pero podrá sentir intensidades y tamaños. Es posible, incluso percibir el calor que desprende un cuerpo humano, pero no el de seres inanimados o inmateriales, como golems o no muertos. Si se desea resistir, deberá superarse una RM",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "25 metros / RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "50 metros / RM 150"
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "100 metros / RM 180"
+      },
+      "arcane": {
+        "zeonCost": 200,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "250 metros / RM 220"
+      }
+    }
+  }
+}

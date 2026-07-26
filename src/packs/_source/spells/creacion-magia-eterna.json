@@ -1,0 +1,48 @@
+{
+  "name": "Magia eterna",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Disminuye el coste del mantenimiento de otro conjuro o incluso lo hace desaparecer, dependiendo de si influye o no a un mantenimiento diario. Si es diario deja de ser necesario mantenerlo. El sortilegio sigue siendo controlado por su lanzador. Si el mantenimiento es por asalto, se convierte en Diario. Magia Eterna sólo influye en hechizos que tengan un nivel de vía inferior a 80.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 92,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Disminuye el coste del mantenimiento de otro conjuro o incluso lo hace desaparecer, dependiendo de si influye o no a un mantenimiento diario. Si es diario deja de ser necesario mantenerlo. El sortilegio sigue siendo controlado por su lanzador. Si el mantenimiento es por asalto, se convierte en Diario. Magia Eterna sólo influye en hechizos que tengan un nivel de vía inferior a 80.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 600,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Afecta a un conjuro de Grado Base"
+      },
+      "intermediate": {
+        "zeonCost": 1000,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "Afecta a un conjuro de Grado Intermedio"
+      },
+      "advanced": {
+        "zeonCost": 2500,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Afecta a un conjuro de Grado Avanzado"
+      },
+      "arcane": {
+        "zeonCost": 5000,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "Afecta a un conjuro de Grado Arcano"
+      }
+    }
+  }
+}

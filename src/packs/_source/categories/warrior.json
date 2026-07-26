@@ -1,0 +1,73 @@
+{
+  "_id": "jK5OfCibgSmhuHo5",
+  "_key": "!items!jK5OfCibgSmhuHo5",
+  "name": "Guerrero",
+  "type": "category",
+  "img": "icons/sundries/books/book-embossed-jewel-gold-purple.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "archetype": "fighter",
+    "lifeMultiple": 15,
+    "lpPerLevel": 15,
+    "initiativePerLevel": 5,
+    "martialKnowledgePerLevel": 25,
+    "combatCosts": {
+      "attack": 2,
+      "parry": 2,
+      "dodge": 2,
+      "wearArmor": 2
+    },
+    "combatBonusPerLevel": {
+      "attack": 5,
+      "parry": 5,
+      "dodge": 0,
+      "wearArmor": 5
+    },
+    "supernatural": {
+      "zeon": 3,
+      "actMultiple": 70,
+      "magicProjection": 3,
+      "ki": 2,
+      "kiAccMultiple": 20,
+      "psychicProjection": 3,
+      "cv": 20,
+      "summoning": 3,
+      "zeonPerLevel": 0,
+      "magicLevel": 3,
+      "levelsPerCv": 3
+    },
+    "secondaryCosts": {
+      "athletics": 2,
+      "social": 2,
+      "perceptive": 2,
+      "intellectual": 3,
+      "vigor": 2,
+      "subterfuge": 2,
+      "creative": 2
+    },
+    "secondaryBonusPerLevel": {
+      "athletics": 0,
+      "social": 0,
+      "perceptive": 0,
+      "intellectual": 0,
+      "vigor": 0,
+      "subterfuge": 0,
+      "creative": 0
+    },
+    "dpLimits": {
+      "combat": 0.6,
+      "magic": 0.5,
+      "psychic": 0.5
+    },
+    "secondaryCostOverrides": {
+      "featsOfStrength": 1
+    },
+    "secondaryAbilityBonusPerLevel": {
+      "featsOfStrength": 5
+    }
+  }
+}

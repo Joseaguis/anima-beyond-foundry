@@ -1,0 +1,48 @@
+{
+  "name": "Relentizar pulso",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El afectado se siente relajado, siendo eliminada cualquier emoción extrema en que esté sumido, sea de origen natural o no. La sensación de tranquilidad será tan grande, que durante el siguiente minuto el blanco del conjuro sufre un -10 a Toda Acción de carácter físico. Para tratar de resistirse a sus efectos es necesario superar una RM contra la dificultad determinada por el Grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 4,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Sangre",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "El afectado se siente relajado, siendo eliminada cualquier emoción extrema en que esté sumido, sea de origen natural o no. La sensación de tranquilidad será tan grande, que durante el siguiente minuto el blanco del conjuro sufre un -10 a Toda Acción de carácter físico. Para tratar de resistirse a sus efectos es necesario superar una RM contra la dificultad determinada por el Grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 5,
+        "maintenanceCost": 0,
+        "effect": "RM 80"
+      },
+      "intermediate": {
+        "zeonCost": 60,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "RM 100"
+      },
+      "advanced": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM 120"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "RM 160"
+      }
+    }
+  }
+}

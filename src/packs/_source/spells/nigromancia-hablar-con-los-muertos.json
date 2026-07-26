@@ -1,0 +1,48 @@
+{
+  "name": "Hablar con los muertos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este hechizo confiere al nigromante la capacidad de comunicarse con almas y espíritus de seres muertos que se encuentren a su alrededor, incluso si no es consciente de su posición exacta. El nivel del espíritu es el que determina si este puede o no escucharle.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 18,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Este hechizo confiere al nigromante la capacidad de comunicarse con almas y espíritus de seres muertos que se encuentren a su alrededor, incluso si no es consciente de su posición exacta. El nivel del espíritu es el que determina si este puede o no escucharle.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Nivel 4"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 5,
+        "effect": "Nivel 8"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 5,
+        "effect": "Nivel 12"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 5,
+        "effect": "Nivel 16"
+      }
+    }
+  }
+}

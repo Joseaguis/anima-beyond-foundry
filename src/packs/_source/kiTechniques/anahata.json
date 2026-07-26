@@ -1,0 +1,58 @@
+{
+  "name": "Anahata",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Sattyagraha",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "parada-en-area",
+        "role": "primary",
+        "options": [
+          "25 metros de radio"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "habilidad-de-parada-limitada",
+        "role": "secondary",
+        "options": [
+          "+90"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 45,
+    "bookCost": "DES 5 AGI 5 POD 5",
+    "bookDistribution": {
+      "dex": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 5,
+        "upkeep": 0
+      }
+    }
+  }
+}

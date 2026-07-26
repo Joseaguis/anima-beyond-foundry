@@ -1,0 +1,64 @@
+{
+  "name": "Impacto telequinético",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Telequinesis",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": false,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fuerza 8"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fuerza 10"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Fuerza 12"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Fuerza 14"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Fuerza 15"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Fuerza 16"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Fuerza 18"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Fuerza 20"
+      }
+    ],
+    "effect": ""
+  }
+}

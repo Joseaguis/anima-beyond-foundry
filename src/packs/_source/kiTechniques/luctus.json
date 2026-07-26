@@ -1,0 +1,56 @@
+{
+  "name": "Luctus",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Obscuritas",
+    "level": 1,
+    "combinable": true,
+    "effects": [
+      {
+        "effect": "potenciar-critico",
+        "role": "primary",
+        "options": [
+          "+75"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 40,
+    "bookCost": "POD 4 VOL 4 FUE 4 DES 4 CON 4",
+    "bookDistribution": {
+      "pow": {
+        "activation": 4,
+        "upkeep": 0
+      },
+      "wp": {
+        "activation": 4,
+        "upkeep": 0
+      },
+      "str": {
+        "activation": 4,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 4,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 4,
+        "upkeep": 0
+      }
+    }
+  }
+}

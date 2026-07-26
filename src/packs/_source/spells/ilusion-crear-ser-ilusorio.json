@@ -1,0 +1,48 @@
+{
+  "name": "Crear ser ilusorio",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea un ser ilusorio que actúa dentro de la zona. Es Ser Entre Mundos. La criatura es ficticia a todos los efectos y no podrá producir daños ni alterar la realidad, y cualquier ataque no basado en energía la atravesará sin producirle daños. Cualquiera que entre en ella tira RM y, si la supera, no verá o sentirá a la criatura, la cual no verá al personaje. La ilusión pude tener como máximo dos niveles por encima del lanzador.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 40,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Ilusión",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Crea un ser ilusorio que actúa dentro de la zona. Es Ser Entre Mundos. La criatura es ficticia a todos los efectos y no podrá producir daños ni alterar la realidad, y cualquier ataque no basado en energía la atravesará sin producirle daños. Cualquiera que entre en ella tira RM y, si la supera, no verá o sentirá a la criatura, la cual no verá al personaje. La ilusión pude tener como máximo dos niveles por encima del lanzador.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 7,
+        "maintenanceCost": 5,
+        "effect": "RM 120 / Nivel 2 / 20 metros de radio."
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 10,
+        "maintenanceCost": 5,
+        "effect": "RM 140 / Nivel 4 / 50 metros de radio."
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 13,
+        "maintenanceCost": 10,
+        "effect": "RM 160 / Nivel 7 / 100 metros de radio."
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 10,
+        "effect": "RM 180 / Nivel 10 / 250 metros de radio."
+      }
+    }
+  }
+}

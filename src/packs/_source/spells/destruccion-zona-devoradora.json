@@ -1,0 +1,48 @@
+{
+  "name": "Zona devoradora",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Por cada día que un objeto o personaje pase dentro de la zona devoradora, debe superar una RF o RM, o perderá 5 puntos de presencia base. Si ésta disminuye hasta 0, se descompondrá dejando escasos rastros. Los seres vivos reciben un penalizador a toda acción igual al doble de sus puntos de presencia perdidos. El daño espiritual se recupera al ritmo de cinco puntos por día.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 76,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Por cada día que un objeto o personaje pase dentro de la zona devoradora, debe superar una RF o RM, o perderá 5 puntos de presencia base. Si ésta disminuye hasta 0, se descompondrá dejando escasos rastros. Los seres vivos reciben un penalizador a toda acción igual al doble de sus puntos de presencia perdidos. El daño espiritual se recupera al ritmo de cinco puntos por día.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 9,
+        "maintenanceCost": 25,
+        "effect": "RM o RF 140 y 500 metros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 360,
+        "intRequired": 12,
+        "maintenanceCost": 40,
+        "effect": "RM o RF 195 y 6000 metros de radio"
+      },
+      "advanced": {
+        "zeonCost": 450,
+        "intRequired": 15,
+        "maintenanceCost": 45,
+        "effect": "RM o RF 240 y 10500 metros de radio"
+      },
+      "arcane": {
+        "zeonCost": 600,
+        "intRequired": 17,
+        "maintenanceCost": 55,
+        "effect": "RM o RF 270 y 13500 metros de radio"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Pax in terrax",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Todo individuo que entre en la zona debe superar automáticamente una RM o será incapaz de realizar acciones violentas. Una persona que falle la resistencia no tiene derecho a repetirla mientras siga dentro del área de acción del conjuro, mientras que aquellos que la superen deberán volver a realizar el control cada vez que traten de realizar una acción violenta en el interior de la zona.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 94,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Paz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Todo individuo que entre en la zona debe superar automáticamente una RM o será incapaz de realizar acciones violentas. Una persona que falle la resistencia no tiene derecho a repetirla mientras siga dentro del área de acción del conjuro, mientras que aquellos que la superen deberán volver a realizar el control cada vez que traten de realizar una acción violenta en el interior de la zona.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 350,
+        "intRequired": 8,
+        "maintenanceCost": 35,
+        "effect": "1 Km radio / RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 600,
+        "intRequired": 10,
+        "maintenanceCost": 60,
+        "effect": "5 Km radio / RM 140"
+      },
+      "advanced": {
+        "zeonCost": 1000,
+        "intRequired": 12,
+        "maintenanceCost": 100,
+        "effect": "15 Km radio / RM 160"
+      },
+      "arcane": {
+        "zeonCost": 1600,
+        "intRequired": 14,
+        "maintenanceCost": 160,
+        "effect": "50 Km radio / RM 180"
+      }
+    }
+  }
+}

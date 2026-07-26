@@ -1,0 +1,48 @@
+{
+  "name": "Perversion de vida",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro corrompe la esencia de un ser vivo y detiene sus funciones físicas, transformándolo de inmediato en un ente no muerto. El personaje afectado mantendrá las mismas características y habilidades que tenía en vida, aunque en su estado de cadáver animado conseguirá, naturalmente, la ventaja de exención física. Para evitar la transformación, es necesario superar una RM o RF.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 72,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Este conjuro corrompe la esencia de un ser vivo y detiene sus funciones físicas, transformándolo de inmediato en un ente no muerto. El personaje afectado mantendrá las mismas características y habilidades que tenía en vida, aunque en su estado de cadáver animado conseguirá, naturalmente, la ventaja de exención física. Para evitar la transformación, es necesario superar una RM o RF.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 100"
+      },
+      "intermediate": {
+        "zeonCost": 240,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 140"
+      },
+      "advanced": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 180"
+      },
+      "arcane": {
+        "zeonCost": 360,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 220"
+      }
+    }
+  }
+}

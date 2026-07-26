@@ -1,0 +1,48 @@
+{
+  "name": "Defensa absoluta",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Mientras el hechicero no realice ninguna acción ofensiva durante un asalto puede aplicar un bono a su Proyección Mágica Defensiva.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 64,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Paz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Mientras el hechicero no realice ninguna acción ofensiva durante un asalto puede aplicar un bono a su Proyección Mágica Defensiva.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "Da +20 a la Proyección Mágica Defensiva"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "Da +30 a la Proyección Mágica Defensiva"
+      },
+      "advanced": {
+        "zeonCost": 110,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "Da +40 a la Proyección Mágica Defensiva"
+      },
+      "arcane": {
+        "zeonCost": 140,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "Da +50 a la Proyección Mágica Defensiva"
+      }
+    }
+  }
+}

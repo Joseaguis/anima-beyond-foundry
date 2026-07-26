@@ -1,0 +1,48 @@
+{
+  "name": "Holocausto de oscuridad",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este poder arrasa todo, tanto en el mundo material como espiritual. Incluso las criaturas elementales de oscuridad son asimiladas. Una gran cúpula oscura que ataca en la TA de energía. Cualquier ser que reciba daño, por mínimo que sea, debe superar una RM de 160 o es unificado con la oscuridad y destruido en cuerpo y alma. No es posible designar blancos en el radio del conjuro, y afecta a todos por igual salvo al lanzador.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 100,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Oscuridad",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "Este poder arrasa todo, tanto en el mundo material como espiritual. Incluso las criaturas elementales de oscuridad son asimiladas. Una gran cúpula oscura que ataca en la TA de energía. Cualquier ser que reciba daño, por mínimo que sea, debe superar una RM de 160 o es unificado con la oscuridad y destruido en cuerpo y alma. No es posible designar blancos en el radio del conjuro, y afecta a todos por igual salvo al lanzador.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 600,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "Daño 350 / 100 metros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 1000,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Daño 500 / 100 kilómetros de radio"
+      },
+      "advanced": {
+        "zeonCost": 2500,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "Daño 800 / 10.000 kilómetros de radio"
+      },
+      "arcane": {
+        "zeonCost": 10000,
+        "intRequired": 20,
+        "maintenanceCost": 0,
+        "effect": "Daño 1.000 / 1 ua de radio"
+      }
+    }
+  }
+}

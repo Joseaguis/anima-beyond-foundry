@@ -1,0 +1,48 @@
+{
+  "name": "Destruir intensidades",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Destruye intensidades de uno de los tres tipos de energía existentes: fuego, frío o electricidad. Los seres formados por dichos elementos pierden cinco puntos de vida por cada intensidad disminuida, si no superan la RM adecuada.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 8,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Destruye intensidades de uno de los tres tipos de energía existentes: fuego, frío o electricidad. Los seres formados por dichos elementos pierden cinco puntos de vida por cada intensidad disminuida, si no superan la RM adecuada.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 5,
+        "maintenanceCost": 0,
+        "effect": "1 intensidad / 100 RM"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "5 intensidades / 120 RM"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "10 intensidades / 140 RM"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "15 intensidades / 160 RM"
+      }
+    }
+  }
+}

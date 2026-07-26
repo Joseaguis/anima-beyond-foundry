@@ -1,0 +1,48 @@
+{
+  "name": "Alas de salvación",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea una barrera protectora que protege contra cualquier tipo de ataque. El conjuro permite cubrir todos los individuos que estén dentro del radio de acción del sortilegio sin sufrir por ello daño adicional o aplicar un penalizador a la habilidad defensiva del lanzador.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 74,
+    "actionType": "passive",
+    "maintenanceType": "sustained",
+    "magicPath": "Paz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "defense",
+    "effect": "Crea una barrera protectora que protege contra cualquier tipo de ataque. El conjuro permite cubrir todos los individuos que estén dentro del radio de acción del sortilegio sin sufrir por ello daño adicional o aplicar un penalizador a la habilidad defensiva del lanzador.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 150,
+        "intRequired": 9,
+        "maintenanceCost": 15,
+        "effect": "El Escudo tiene 500 puntos de Resistencia / 5m radio"
+      },
+      "intermediate": {
+        "zeonCost": 250,
+        "intRequired": 11,
+        "maintenanceCost": 25,
+        "effect": "El Escudo tiene 1.200 puntos de Resistencia / 15m radio"
+      },
+      "advanced": {
+        "zeonCost": 350,
+        "intRequired": 13,
+        "maintenanceCost": 35,
+        "effect": "El Escudo tiene 2.200 puntos de Resistencia / 25m radio"
+      },
+      "arcane": {
+        "zeonCost": 450,
+        "intRequired": 15,
+        "maintenanceCost": 45,
+        "effect": "El Escudo tiene 5.000 puntos de Resistencia / 50m radio"
+      }
+    }
+  }
+}

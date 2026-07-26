@@ -1,0 +1,48 @@
+{
+  "name": "Avaricia",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Arrebata automáticamente algo que esté en posesión del blanco del conjuro, haciéndolo aparecer ante el hechicero. No es ni siquiera necesario que dicho objeto pueda \"moverse\" hacia el lanzador. Alguien que sea consciente de que puede ser blanco de este conjuro puede tratar de resistirse a sus efectos superando una RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 44,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Pecado",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Arrebata automáticamente algo que esté en posesión del blanco del conjuro, haciéndolo aparecer ante el hechicero. No es ni siquiera necesario que dicho objeto pueda \"moverse\" hacia el lanzador. Alguien que sea consciente de que puede ser blanco de este conjuro puede tratar de resistirse a sus efectos superando una RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "RM 120 / Pres. 50"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM 140 / Pres. 80"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM 160 / Pres. 100"
+      },
+      "arcane": {
+        "zeonCost": 260,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "RM 180 / Pres. 120"
+      }
+    }
+  }
+}

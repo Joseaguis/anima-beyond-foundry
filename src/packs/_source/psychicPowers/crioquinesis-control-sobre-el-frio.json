@@ -1,0 +1,64 @@
+{
+  "name": "Control sobre el frío",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Crioquinesis",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": false,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "80 RF / 4 intensidades"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "100 RF / 6 intensidades"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "120 RF / 8 intensidades"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "140 RF / 12 intensidades"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "160 RF / 16 intensidades"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "180 RF / 20 intensidades"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "200 RF / 25 intensidades"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "240 RF / 30 intensidades"
+      }
+    ],
+    "effect": ""
+  }
+}

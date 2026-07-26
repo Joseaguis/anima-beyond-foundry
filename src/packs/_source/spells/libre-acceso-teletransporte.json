@@ -1,0 +1,48 @@
+{
+  "name": "Teletransporte",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El hechicero, o quien este designe, es teletransportado a otra posición. Este conjuro permite pasar a través de cuerpos físicos, mientras no se encuentren basados en energía. Puede afectar a tantos blancos como se desee, mientras la suma de su presencias no supere lo que determina el grado del conjuro</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 82,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El hechicero, o quien este designe, es teletransportado a otra posición. Este conjuro permite pasar a través de cuerpos físicos, mientras no se encuentren basados en energía. Puede afectar a tantos blancos como se desee, mientras la suma de su presencias no supere lo que determina el grado del conjuro",
+    "closedPaths": "Tierra",
+    "grades": {
+      "base": {
+        "zeonCost": 300,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "50 kilómetros / Presencia máxima 80"
+      },
+      "intermediate": {
+        "zeonCost": 480,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "1.000 kilómetros / Presencia máxima 180"
+      },
+      "advanced": {
+        "zeonCost": 560,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "5.000 kilómetros / Presencia máxima 240"
+      },
+      "arcane": {
+        "zeonCost": 640,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "10.000 kilómetros / Presencia máxima 320"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Descarga de almas",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Proyecta una descarga de energía mágica compuesta por almas marchitas. Este conjuro ataca en Energía. Sólo afecta a seres con alma, por lo que ignora los cuerpos físicos sin vida, como paredes o golems. Dada la naturaleza de la descarga, únicamente aquellos con la capacidad de ver espíritus son capaces de percibirla.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 68,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "Proyecta una descarga de energía mágica compuesta por almas marchitas. Este conjuro ataca en Energía. Sólo afecta a seres con alma, por lo que ignora los cuerpos físicos sin vida, como paredes o golems. Dada la naturaleza de la descarga, únicamente aquellos con la capacidad de ver espíritus son capaces de percibirla.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 140,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "Daño 100"
+      },
+      "intermediate": {
+        "zeonCost": 260,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "Daño 200"
+      },
+      "advanced": {
+        "zeonCost": 380,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "Daño 300"
+      },
+      "arcane": {
+        "zeonCost": 500,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Daño 400"
+      }
+    }
+  }
+}

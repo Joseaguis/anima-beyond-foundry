@@ -1,0 +1,64 @@
+{
+  "name": "Arco eléctrico",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Electromagnetismo",
+    "powerLevel": 2,
+    "action": "active",
+    "maintainable": false,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Daño 60"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Daño 80"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Daño 120"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Daño 140"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Daño 160"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Daño 180"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Daño 200"
+      }
+    ],
+    "effect": ""
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Cúpula de destrucción",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Desencadena una cúpula de energía sobrenatural, que estalla en un área. El ataque se realiza en la TA de Energía, y no es posible seleccionar blancos.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 46,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "Desencadena una cúpula de energía sobrenatural, que estalla en un área. El ataque se realiza en la TA de Energía, y no es posible seleccionar blancos.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 7,
+        "maintenanceCost": 0,
+        "effect": "10 metros de radio / Daño 80"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "50 metros de radio / Daño 120"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "100 metros de radio / Daño 160"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "150 metros de radio / Daño 200"
+      }
+    }
+  }
+}

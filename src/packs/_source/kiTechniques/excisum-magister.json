@@ -1,0 +1,58 @@
+{
+  "name": "Excisum Magister",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Celéritas",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+75"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "incrementar-turno",
+        "role": "secondary",
+        "options": [
+          "+125"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 45,
+    "bookCost": "AGI 8 DES 8 POD 5",
+    "bookDistribution": {
+      "agi": {
+        "activation": 8,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 8,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 5,
+        "upkeep": 0
+      }
+    }
+  }
+}

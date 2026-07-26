@@ -1,0 +1,64 @@
+{
+  "name": "Conectar matrices",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "",
+    "powerLevel": 0,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": true,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "hard",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "2 indivíduos"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "3 indivíduos"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "4 indivíduos"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "6 indivíduos"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "8 indivíduos"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "10 indivíduos"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "20 indivíduos"
+      }
+    ],
+    "effect": ""
+  }
+}

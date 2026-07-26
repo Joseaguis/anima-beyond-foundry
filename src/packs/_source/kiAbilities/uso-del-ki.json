@@ -1,0 +1,20 @@
+{
+  "name": "Uso del Ki",
+  "type": "kiAbility",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Habilidad básica para despertar la energía interna y utilizarla. Requisito de casi todas las demás.</p>",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "rules": [],
+    "mkCost": 40,
+    "subtype": "kiPower",
+    "parent": "",
+    "branch": "Uso del Ki",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

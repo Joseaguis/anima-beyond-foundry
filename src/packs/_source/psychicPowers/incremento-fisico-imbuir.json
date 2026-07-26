@@ -1,0 +1,64 @@
+{
+  "name": "Imbuir",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Incremento Físico",
+    "powerLevel": 3,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "absurd",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 16"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 12"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Poderes de nivel Muy Dificil"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Poderes de nivel Absurdo"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Poderes de nivel Casi Imposible"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Poderes de nivel Imposible"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Poderes de nivel Inhumano"
+      }
+    ],
+    "effect": ""
+  }
+}

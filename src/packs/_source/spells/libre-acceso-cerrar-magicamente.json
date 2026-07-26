@@ -1,0 +1,48 @@
+{
+  "name": "Cerrar mágicamente",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Cierra automáticamente cualquier puerta o cerradura, aumentando varios grados la dificultad necesaria para abrirla. Aunque el cerrojo queda encantado, no es necesario pagar un mantenimiento, ya que el hechizo se mantendrá hasta que sea abierta. Un conjuro de Cerrar Mágicamente sólo puede afectar a la vez a una cerradura</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 22,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Cierra automáticamente cualquier puerta o cerradura, aumentando varios grados la dificultad necesaria para abrirla. Aunque el cerrojo queda encantado, no es necesario pagar un mantenimiento, ya que el hechizo se mantendrá hasta que sea abierta. Un conjuro de Cerrar Mágicamente sólo puede afectar a la vez a una cerradura",
+    "closedPaths": "Destrucción",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "Más 1 nivel de dificultad"
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "Más 2 niveles de dificultad"
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "Más 3 niveles de dificultad"
+      },
+      "arcane": {
+        "zeonCost": 160,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "Más 4 niveles de dificultad"
+      }
+    }
+  }
+}

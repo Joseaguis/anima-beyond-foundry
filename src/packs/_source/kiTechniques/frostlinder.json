@@ -1,0 +1,63 @@
+{
+  "name": "Frostlinder",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Frostkolier",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-a-distancia",
+        "role": "primary",
+        "options": [
+          "20 metros"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-adicional",
+        "role": "secondary",
+        "options": [
+          "+3"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "atadura-elemental",
+        "option": "Agua"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 35,
+    "bookCost": "DES 9 CON 9 POD 9",
+    "bookDistribution": {
+      "dex": {
+        "activation": 9,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 9,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 9,
+        "upkeep": 0
+      }
+    }
+  }
+}

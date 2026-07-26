@@ -1,0 +1,48 @@
+{
+  "name": "Sangre fría",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Cambia la temperatura corporal de los objetivos del conjuro, permitiendo regularla de forma acorde a las condiciones externas. Así, no se verán afectados por la meteorología adversa, pudiendo sobrevivir en yermos gélidos o desiertos ardientes. Puede afectar a tantos blancos como se desee, siempre y cuando la suma de sus presencias no supere lo que determine el Grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 24,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Sangre",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Cambia la temperatura corporal de los objetivos del conjuro, permitiendo regularla de forma acorde a las condiciones externas. Así, no se verán afectados por la meteorología adversa, pudiendo sobrevivir en yermos gélidos o desiertos ardientes. Puede afectar a tantos blancos como se desee, siempre y cuando la suma de sus presencias no supere lo que determine el Grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Pres. máxima 60"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "Pres. máxima 100"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "Pres. máxima 180"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "Pres. máxima 300"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Causar enfermedad",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Hace enfermar a un individuo que falle la RE requerida</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 42,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Hace enfermar a un individuo que falle la RE requerida",
+    "closedPaths": "Ilusión,Agua",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "Enfermedad de Nivel 30."
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Enfermedad de Nivel 50."
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Enfermedad de Nivel 70."
+      },
+      "arcane": {
+        "zeonCost": 200,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "Enfermedad de Nivel 90."
+      }
+    }
+  }
+}

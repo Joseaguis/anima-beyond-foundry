@@ -1,0 +1,64 @@
+{
+  "name": "Incrementar capacidad de salto",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Incremento Físico",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "easy",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Saltar +10"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Saltar +20"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Saltar +40"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Saltar +80"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Saltar +120 / Inhumanidad"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Saltar +180 / Inhumanidad"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Saltar +220 / Inhumanidad"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Saltar +280 / Zen"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Saltar +320 / Zen"
+      }
+    ],
+    "effect": ""
+  }
+}

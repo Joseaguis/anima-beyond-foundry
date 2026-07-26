@@ -1,0 +1,48 @@
+{
+  "name": "Drenar vida",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite absorber parte de la vida de otro ser, dañándolo a la vez que el mago se fortalece. El objetivo debe tirar RM o perderá una cantidad de puntos de vida equivalente al nivel de fracaso, los cuales curanrán al mago. Los seres de acumulación pierden cinco veces esa cantidad, pero el brujo, sólo recupera una quinta parte (es decir, si un ser con acumulación de daño falla el control por 20 puntos, perdería 100 PV, aunque el nigromante solo absorbería 20).</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 12,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Permite absorber parte de la vida de otro ser, dañándolo a la vez que el mago se fortalece. El objetivo debe tirar RM o perderá una cantidad de puntos de vida equivalente al nivel de fracaso, los cuales curanrán al mago. Los seres de acumulación pierden cinco veces esa cantidad, pero el brujo, sólo recupera una quinta parte (es decir, si un ser con acumulación de daño falla el control por 20 puntos, perdería 100 PV, aunque el nigromante solo absorbería 20).",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "RM 100"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "RM 140"
+      },
+      "advanced": {
+        "zeonCost": 230,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM 180"
+      },
+      "arcane": {
+        "zeonCost": 320,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "RM 240"
+      }
+    }
+  }
+}

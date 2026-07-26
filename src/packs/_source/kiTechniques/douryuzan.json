@@ -1,0 +1,73 @@
+{
+  "name": "Douryuzan",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "La Vía De Meizo",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-con-area",
+        "role": "primary",
+        "options": [
+          "25 metros de radio"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "impacto",
+        "role": "secondary",
+        "options": [
+          "FUE 14"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "secondary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "agotamiento",
+        "option": "-2 cansancio"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 70,
+    "bookCost": "DES 7 AGI 7 POD 7",
+    "bookDistribution": {
+      "dex": {
+        "activation": 7,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 7,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 7,
+        "upkeep": 0
+      }
+    }
+  }
+}

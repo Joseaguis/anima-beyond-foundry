@@ -1,0 +1,48 @@
+{
+  "name": "Inmortalidad",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Mientras este conjuro siga activo, el hechicero o quien este designe no envejece ni sufre los efectos del paso del tiempo. Así, se volverá un ser inmortal, salvo ante una muerte de carácter violento. Si este conjuro deja de mantenerse o es destruido, el individuo recuperará la edad que le corresponde a un ritmo muy acelerado</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 82,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Mientras este conjuro siga activo, el hechicero o quien este designe no envejece ni sufre los efectos del paso del tiempo. Así, se volverá un ser inmortal, salvo ante una muerte de carácter violento. Si este conjuro deja de mantenerse o es destruido, el individuo recuperará la edad que le corresponde a un ritmo muy acelerado",
+    "closedPaths": "Destrucción",
+    "grades": {
+      "base": {
+        "zeonCost": 300,
+        "intRequired": 10,
+        "maintenanceCost": 15,
+        "effect": "Las habilidades descritas"
+      },
+      "intermediate": {
+        "zeonCost": 400,
+        "intRequired": 13,
+        "maintenanceCost": 20,
+        "effect": "Idem base, invulnerable a venenos o enfermedades que no sean sobrenaturales"
+      },
+      "advanced": {
+        "zeonCost": 500,
+        "intRequired": 15,
+        "maintenanceCost": 25,
+        "effect": "Idem intermedio, invulnerable a desangramiento o daños físicos sobrenaturales"
+      },
+      "arcane": {
+        "zeonCost": 600,
+        "intRequired": 17,
+        "maintenanceCost": 30,
+        "effect": "Idem avanzado, invulnerable a todo daño físico, si no es crítico mortal"
+      }
+    }
+  }
+}

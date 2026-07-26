@@ -1,0 +1,20 @@
+{
+  "name": "Imitación de Técnicas",
+  "type": "kiAbility",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Al presenciar o sufrir una Técnica, la aprende de inmediato si tiene CM libre (coste 10/20/30 CM menos según nivel). No cuenta para el total de Técnicas propias.</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 50,
+    "subtype": "kiPower",
+    "parent": "Control del Ki",
+    "branch": "Control del Ki",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

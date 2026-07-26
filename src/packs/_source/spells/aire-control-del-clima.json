@@ -1,0 +1,48 @@
+{
+  "name": "Control del clima",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El hechicero obtiene un completo control sobre el clima en un radio de acción determinado por el grado del conjuro. Podrá modificar cualquier elemento meteorológico a su antojo, creando la situación climática que desee de manera gradual</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 80,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Aire",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El hechicero obtiene un completo control sobre el clima en un radio de acción determinado por el grado del conjuro. Podrá modificar cualquier elemento meteorológico a su antojo, creando la situación climática que desee de manera gradual",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 9,
+        "maintenanceCost": 50,
+        "effect": "5 kilometros"
+      },
+      "intermediate": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 60,
+        "effect": "25 kilometros"
+      },
+      "advanced": {
+        "zeonCost": 380,
+        "intRequired": 14,
+        "maintenanceCost": 80,
+        "effect": "100 kilometros"
+      },
+      "arcane": {
+        "zeonCost": 500,
+        "intRequired": 16,
+        "maintenanceCost": 100,
+        "effect": "1000 kilometros"
+      }
+    }
+  }
+}

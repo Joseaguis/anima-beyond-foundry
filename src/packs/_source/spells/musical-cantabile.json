@@ -1,0 +1,48 @@
+{
+  "name": "Cantábile",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro permite al personaje hacer sonar su voz o una melodía interpretada por este en cualquier lugar que desee hasta una distancia máxima determinada por el grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 14,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Musical",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este conjuro permite al personaje hacer sonar su voz o una melodía interpretada por este en cualquier lugar que desee hasta una distancia máxima determinada por el grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 5,
+        "maintenanceCost": 5,
+        "effect": "100 metros"
+      },
+      "intermediate": {
+        "zeonCost": 60,
+        "intRequired": 8,
+        "maintenanceCost": 5,
+        "effect": "250 metros"
+      },
+      "advanced": {
+        "zeonCost": 80,
+        "intRequired": 10,
+        "maintenanceCost": 5,
+        "effect": "500 metros"
+      },
+      "arcane": {
+        "zeonCost": 100,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "1 kilometro"
+      }
+    }
+  }
+}

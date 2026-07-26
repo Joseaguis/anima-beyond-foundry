@@ -1,0 +1,64 @@
+{
+  "name": "Protocolo Defensivo Dt-01: Pantalla",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Legado De Sólomon",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "defensa-predeterminada",
+        "role": "primary",
+        "options": [
+          "Absurdo (180)"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "escudo-de-energia",
+        "role": "secondary",
+        "options": [
+          "400 PV",
+          "Regeneración 100"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "requerimiento",
+        "option": "Sangre antigua"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 50,
+    "bookCost": "DES 8 (2) AGI 8 (2) POD 11 (3)",
+    "bookDistribution": {
+      "dex": {
+        "activation": 8,
+        "upkeep": 2
+      },
+      "agi": {
+        "activation": 8,
+        "upkeep": 2
+      },
+      "pow": {
+        "activation": 11,
+        "upkeep": 3
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Posesión",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Controla el cuerpo de otro. Permite usar habilidades del poseído o las suyas. Si usa habilidades del poseído, las características físicas son las del poseído. Si el ser es diferente al mago aplica un  –20 a –40. El mago permanece en estado de coma. Los ataques que no dañan energía afectan al cuerpo poseído, pero si son sobrenaturales, restan vida a ambos. En el caso de que el cuerpo muera, pero no el mago, regresa de a su forma original. Para evitar, superar RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 92,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Controla el cuerpo de otro. Permite usar habilidades del poseído o las suyas. Si usa habilidades del poseído, las características físicas son las del poseído. Si el ser es diferente al mago aplica un  –20 a –40. El mago permanece en estado de coma. Los ataques que no dañan energía afectan al cuerpo poseído, pero si son sobrenaturales, restan vida a ambos. En el caso de que el cuerpo muera, pero no el mago, regresa de a su forma original. Para evitar, superar RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 300,
+        "intRequired": 10,
+        "maintenanceCost": 30,
+        "effect": "RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 400,
+        "intRequired": 12,
+        "maintenanceCost": 40,
+        "effect": "RM 140"
+      },
+      "advanced": {
+        "zeonCost": 500,
+        "intRequired": 14,
+        "maintenanceCost": 50,
+        "effect": "RM 180"
+      },
+      "arcane": {
+        "zeonCost": 600,
+        "intRequired": 16,
+        "maintenanceCost": 60,
+        "effect": "RM 220"
+      }
+    }
+  }
+}

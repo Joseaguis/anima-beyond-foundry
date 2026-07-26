@@ -1,0 +1,48 @@
+{
+  "name": "Armagedón",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Concede al lanzador la capacidad de consumir una parte de la propia esencia del mundo, calcinando las almas que están a su alrededor. Cualquier cosa, orgánica o no, que se encuentre en el interior de su área, deberá superar cada minuto que esté dentro una RM o será calcinado física y espiritualmente. Mientras el lanzador mantenga activo el Armagedón, ninguna forma de vida podrá nacer o ser creada dentro de su zona de influencia.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 100,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Fuego",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Concede al lanzador la capacidad de consumir una parte de la propia esencia del mundo, calcinando las almas que están a su alrededor. Cualquier cosa, orgánica o no, que se encuentre en el interior de su área, deberá superar cada minuto que esté dentro una RM o será calcinado física y espiritualmente. Mientras el lanzador mantenga activo el Armagedón, ninguna forma de vida podrá nacer o ser creada dentro de su zona de influencia.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 450,
+        "intRequired": 15,
+        "maintenanceCost": 90,
+        "effect": "10 km de radio / RM 140"
+      },
+      "intermediate": {
+        "zeonCost": 800,
+        "intRequired": 16,
+        "maintenanceCost": 100,
+        "effect": "25 km de radio / RM 150"
+      },
+      "advanced": {
+        "zeonCost": 1200,
+        "intRequired": 17,
+        "maintenanceCost": 105,
+        "effect": "50 km de radio / RM 160"
+      },
+      "arcane": {
+        "zeonCost": 1600,
+        "intRequired": 18,
+        "maintenanceCost": 110,
+        "effect": "150 km de radio / RM 180"
+      }
+    }
+  }
+}

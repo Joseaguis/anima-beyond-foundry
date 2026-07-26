@@ -1,0 +1,48 @@
+{
+  "name": "Apertura",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite abrir cualquier puerta cerrada utilizando una habilidad final en Cerrajería determinada por el grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 2,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Permite abrir cualquier puerta cerrada utilizando una habilidad final en Cerrajería determinada por el grado del conjuro.",
+    "closedPaths": "Destrucción,Fuego",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 5,
+        "maintenanceCost": 0,
+        "effect": "80 en Cerrajería"
+      },
+      "intermediate": {
+        "zeonCost": 70,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "140 en Cerrajería"
+      },
+      "advanced": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "240 en Cerrajería"
+      },
+      "arcane": {
+        "zeonCost": 140,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "280 en Cerrajería"
+      }
+    }
+  }
+}

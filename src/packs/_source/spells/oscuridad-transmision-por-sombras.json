@@ -1,0 +1,48 @@
+{
+  "name": "Transmisión por sombras",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Transporta instantáneamente a los individuos u objetos designados por el brujo, desde una sombra hasta otra. Si desea resistirse, hay que superar la RM del conjuro. Tanto la distancia máxima como la máxima presencia afectable son determinadas por el grado del conjuro</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 78,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Oscuridad",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Transporta instantáneamente a los individuos u objetos designados por el brujo, desde una sombra hasta otra. Si desea resistirse, hay que superar la RM del conjuro. Tanto la distancia máxima como la máxima presencia afectable son determinadas por el grado del conjuro",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "100 kilómetros / 250 de presencia / RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 360,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "1.000 kilómetros / 500 de presencia / RM 140"
+      },
+      "advanced": {
+        "zeonCost": 450,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "5.000 kilómetros / 1.000 de presencia / RM 180"
+      },
+      "arcane": {
+        "zeonCost": 600,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "15.000 kilómetros / 2.000 de presencia / RM contra 200"
+      }
+    }
+  }
+}

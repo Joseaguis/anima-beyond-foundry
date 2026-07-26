@@ -1,0 +1,20 @@
+{
+  "name": "Anulación de lazos",
+  "type": "kiAbility",
+  "img": "icons/magic/unholy/orb-swirling-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>Aura que penaliza Convocar, Desconvocar, Atar y Controlar de los presentes (Tabla 14). No afecta a lazos previos.</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 30,
+    "subtype": "nemesisPower",
+    "parent": "Uso del Némesis",
+    "branch": "Némesis",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

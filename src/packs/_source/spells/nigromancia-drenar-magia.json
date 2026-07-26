@@ -1,0 +1,48 @@
+{
+  "name": "Drenar magia",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite drenar la energía mágica de un individuo u objeto y otorgársela al nigromante. Quienquiera que sea afectado por el conjuro, deberá realizar un control de RM, o perderá una cantidad de puntos de Zeon equivalente al doble del nivel de fracaso, que será inmediatamente absorbida por el brujo.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 32,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Permite drenar la energía mágica de un individuo u objeto y otorgársela al nigromante. Quienquiera que sea afectado por el conjuro, deberá realizar un control de RM, o perderá una cantidad de puntos de Zeon equivalente al doble del nivel de fracaso, que será inmediatamente absorbida por el brujo.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "RM 140"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM 180"
+      },
+      "advanced": {
+        "zeonCost": 220,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "RM 220"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM 260"
+      }
+    }
+  }
+}

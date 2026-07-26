@@ -1,0 +1,48 @@
+{
+  "name": "Alzamiento",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Alza un cadáver conservando todos los poderes, conocimientos y habilidades que tenía en vida. Carece de alma. Afecta a cualquier individuo o criatura fallecida cuyo cadáver esté al alcance del mago, siempre y cuando su nivel no sea mayor de lo que diga el grado del conjuro. Si el cuerpo se encuentra en mal estado, sus habilidades físicas pueden perjudicarse. Alguien levantado no puede volver a ser alzado. El cadaver no está controlado por el mago.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 82,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Alza un cadáver conservando todos los poderes, conocimientos y habilidades que tenía en vida. Carece de alma. Afecta a cualquier individuo o criatura fallecida cuyo cadáver esté al alcance del mago, siempre y cuando su nivel no sea mayor de lo que diga el grado del conjuro. Si el cuerpo se encuentra en mal estado, sus habilidades físicas pueden perjudicarse. Alguien levantado no puede volver a ser alzado. El cadaver no está controlado por el mago.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 350,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "Nivel máximo 3"
+      },
+      "intermediate": {
+        "zeonCost": 500,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Nivel máximo 6"
+      },
+      "advanced": {
+        "zeonCost": 800,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "Nivel máximo 9"
+      },
+      "arcane": {
+        "zeonCost": 1200,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Nivel máximo 12"
+      }
+    }
+  }
+}

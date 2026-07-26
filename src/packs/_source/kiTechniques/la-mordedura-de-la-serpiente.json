@@ -1,0 +1,68 @@
+{
+  "name": "La Mordedura De La Serpiente",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Wushu",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "incrementar-turno",
+        "role": "primary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "potenciar-critico",
+        "role": "secondary",
+        "options": [
+          "+40"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "maniobras-de-combate-y-apuntar",
+        "role": "secondary",
+        "options": [
+          "-50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 30,
+    "bookCost": "FUE 5 DES 5 AGI 4",
+    "bookDistribution": {
+      "str": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 4,
+        "upkeep": 0
+      }
+    }
+  }
+}

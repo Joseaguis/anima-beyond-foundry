@@ -1,0 +1,72 @@
+{
+  "name": "Carnificare Magnus",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Coelo Ruinam",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "potenciar-critico",
+        "role": "secondary",
+        "options": [
+          "+40"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "maniobras-de-combate-y-apuntar",
+        "role": "secondary",
+        "options": [
+          "-75"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 45,
+    "bookCost": "DES 7 AGI 5 FUE 5 POD 1",
+    "bookDistribution": {
+      "dex": {
+        "activation": 7,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "str": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 1,
+        "upkeep": 0
+      }
+    }
+  }
+}

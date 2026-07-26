@@ -1,0 +1,48 @@
+{
+  "name": "Inhumanidad",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Los afectados por este conjuro podrán alcanzar la dificultad de Inhumano en cualquier campo o materia. Ten en cuenta que ello no quiere decir que las acciones realizadas por dichos sujetos sean automáticamente inhumanas, sino que podrán lograrlas si sus tiradas de habilidad o sus atributos se lo permiten.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 12,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Los afectados por este conjuro podrán alcanzar la dificultad de Inhumano en cualquier campo o materia. Ten en cuenta que ello no quiere decir que las acciones realizadas por dichos sujetos sean automáticamente inhumanas, sino que podrán lograrlas si sus tiradas de habilidad o sus atributos se lo permiten.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Permite alcanzar Inhumanidad en una habilidad determinada"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 9,
+        "maintenanceCost": 5,
+        "effect": "Permite alcanzar Inhumanidad en cualquier habilidad"
+      },
+      "advanced": {
+        "zeonCost": 110,
+        "intRequired": 11,
+        "maintenanceCost": 10,
+        "effect": "Permite alcanzar Inhumanidad en cualquier habilidad y Zen en una habilidad"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "Permite alcanzar Zen en cualquier habilidad"
+      }
+    }
+  }
+}

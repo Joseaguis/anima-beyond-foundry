@@ -1,0 +1,48 @@
+{
+  "name": "Destruir almas",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Arrasa la materia espiritual que se encuentre en el área determinada por el grado de conjuro, acabando con la existencia de todo aquel que no sea capaz de resistirse. Quien falle la RM morirá de inmediato.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 96,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Arrasa la materia espiritual que se encuentre en el área determinada por el grado de conjuro, acabando con la existencia de todo aquel que no sea capaz de resistirse. Quien falle la RM morirá de inmediato.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 500,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "RM 100 / 5 kilómetros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 800,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM 140 /50 kilómetros de radio"
+      },
+      "advanced": {
+        "zeonCost": 1500,
+        "intRequired": 17,
+        "maintenanceCost": 0,
+        "effect": "RM 180 / 250 kilómetros de radio"
+      },
+      "arcane": {
+        "zeonCost": 2500,
+        "intRequired": 19,
+        "maintenanceCost": 0,
+        "effect": "RM 220 / 1.000 kilómetros de radio"
+      }
+    }
+  }
+}

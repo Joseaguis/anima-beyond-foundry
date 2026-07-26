@@ -1,0 +1,48 @@
+{
+  "name": "Reflejar estados",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea un espejo místico, capaz de reflejar estado sobrenatural del que él o un individuo cercano sea blanco. El efecto se refleja automáticamente sobre aquel que lo haya producido, quien deberá superar una RM para evitar su propio poder. Este hechizo no tiene mantenimiento, pero el estado reflejado se mantendrá mientras perdure en el sujeto sobre el que fue lanzado originariamente. Cada efecto sólo puede tratar de reflejarse una vez.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 56,
+    "actionType": "passive",
+    "maintenanceType": "none",
+    "magicPath": "Agua",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Crea un espejo místico, capaz de reflejar estado sobrenatural del que él o un individuo cercano sea blanco. El efecto se refleja automáticamente sobre aquel que lo haya producido, quien deberá superar una RM para evitar su propio poder. Este hechizo no tiene mantenimiento, pero el estado reflejado se mantendrá mientras perdure en el sujeto sobre el que fue lanzado originariamente. Cada efecto sólo puede tratar de reflejarse una vez.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 7,
+        "maintenanceCost": 0,
+        "effect": "RM 120."
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM 150."
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "RM 180."
+      },
+      "arcane": {
+        "zeonCost": 320,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "RM 220."
+      }
+    }
+  }
+}

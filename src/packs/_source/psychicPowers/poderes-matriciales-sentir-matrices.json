@@ -1,0 +1,64 @@
+{
+  "name": "Sentir matrices",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "",
+    "powerLevel": 0,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": true,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "easy",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "10m / Ver matrices activas"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "25m / Detecta poder latente"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "50m / Reconocer poder"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "100 m"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "250m Detecta disciplinas"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "500m Mide potencial"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "1km Detecta los CV libres"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "5km Poderes de otro psíquico"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "100km"
+      }
+    ],
+    "effect": ""
+  }
+}

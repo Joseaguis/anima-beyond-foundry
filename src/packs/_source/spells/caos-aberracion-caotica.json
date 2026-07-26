@@ -1,0 +1,48 @@
+{
+  "name": "Aberración caótica",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea un engendro solidificando el caos, que se comportará de un modo impredecible (aunque por regla general, siempre violento). El lanzador solamente puede elegir gastar voluntariamente la mitad de los PD de la criatura, mientras que la otra mitad serán determinados al azar por el Director de Juego.No permite crear criaturas de un nivel superior al del hechicero, ya que estas se basan en la presencia espiritual del mismo.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 54,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Caos",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea un engendro solidificando el caos, que se comportará de un modo impredecible (aunque por regla general, siempre violento). El lanzador solamente puede elegir gastar voluntariamente la mitad de los PD de la criatura, mientras que la otra mitad serán determinados al azar por el Director de Juego.No permite crear criaturas de un nivel superior al del hechicero, ya que estas se basan en la presencia espiritual del mismo.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "Nivel 2"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Nivel 4"
+      },
+      "advanced": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Nivel 8"
+      },
+      "arcane": {
+        "zeonCost": 700,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "Nivel 12"
+      }
+    }
+  }
+}

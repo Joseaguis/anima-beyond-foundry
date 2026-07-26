@@ -1,0 +1,64 @@
+{
+  "name": "Área (Sentiente)",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Sentiente",
+    "powerLevel": 3,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "veryHard",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 16"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 12"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "10 m"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "100 m"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "1000 m"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "10 km"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "100 km"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "500 km"
+      }
+    ],
+    "effect": ""
+  }
+}

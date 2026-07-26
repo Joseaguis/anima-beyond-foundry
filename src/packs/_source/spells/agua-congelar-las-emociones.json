@@ -1,0 +1,48 @@
+{
+  "name": "Congelar las emociones",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este hechizo hiela los sentimientos de una persona, otorgándole inmunidad psicológica contra todos los estados emocionales.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 26,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Agua",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este hechizo hiela los sentimientos de una persona, otorgándole inmunidad psicológica contra todos los estados emocionales.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Afecta a estados naturales."
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 5,
+        "effect": "Como en grado base, pero el afectado deja de sentir también dolor."
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "Como en Intermedio, pero también afecta a todos los estados sobrenaturales."
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 10,
+        "effect": "Como en Avanzado, pero el mago puede elegir qué sentimientos congelar."
+      }
+    }
+  }
+}

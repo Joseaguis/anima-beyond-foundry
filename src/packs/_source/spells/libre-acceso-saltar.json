@@ -1,0 +1,48 @@
+{
+  "name": "Saltar",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El individuo afectado por este hechizo aumenta sobrenaturalmente su capacidad de saltar. El conjuro añade un bono a la base de la habilidad secundaria Saltar.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 2,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El individuo afectado por este hechizo aumenta sobrenaturalmente su capacidad de saltar. El conjuro añade un bono a la base de la habilidad secundaria Saltar.",
+    "closedPaths": "Tierra",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 5,
+        "maintenanceCost": 5,
+        "effect": "+50 a Saltar"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "+100 a Saltar"
+      },
+      "advanced": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "+150  a Saltar / Pernite alcanzar la dificultad de Inhumano en los controles"
+      },
+      "arcane": {
+        "zeonCost": 140,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "+200 a Saltar/ Permite alcanzar la dificultad de Zen en los controles"
+      }
+    }
+  }
+}

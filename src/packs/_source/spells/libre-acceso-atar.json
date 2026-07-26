@@ -1,0 +1,48 @@
+{
+  "name": "Atar",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Hace que cuerdas, cadenas o cualquier tipo de filamento, se anuden con una habilidad final en Trucos de Manos determinada por el grado del conjuro. Se puede ordenar que aten a un sujeto, el blanco se defendera contra un ataque de Habilidad final igual a Trucos de Manos del conjuro. La Fuerza de la sujeción dependerá del material. Una cuerda muy gruesa tendría una Fuerza 10, unas cadenas tendrian 12. Las cuerdas no son creadas por el hechizo.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 2,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Hace que cuerdas, cadenas o cualquier tipo de filamento, se anuden con una habilidad final en Trucos de Manos determinada por el grado del conjuro. Se puede ordenar que aten a un sujeto, el blanco se defendera contra un ataque de Habilidad final igual a Trucos de Manos del conjuro. La Fuerza de la sujeción dependerá del material. Una cuerda muy gruesa tendría una Fuerza 10, unas cadenas tendrian 12. Las cuerdas no son creadas por el hechizo.",
+    "closedPaths": "Destrucción,Ilusión",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 5,
+        "maintenanceCost": 0,
+        "effect": "120 en Trucos de Manos"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "140 en Trucos de Manos"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "180 en Trucos de Manos"
+      },
+      "arcane": {
+        "zeonCost": 160,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "240 en Trucos de Manos"
+      }
+    }
+  }
+}

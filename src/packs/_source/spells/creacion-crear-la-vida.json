@@ -1,0 +1,48 @@
+{
+  "name": "Crear la vida",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite crear una nueva forma de vida. La creación puede ser de cualquier clase (Natural, Espiritual o Entre Mundos), y estar atada a un elemento. El nivel máximo no podrá ser superior a al creador. Este debe elegir el Gnosis de su obra, dándole como máximo diez puntos menos que el del. Si es Natural con Gnosis inferior a 20, obtendrá además PD para elegir poderes y habilidades especiales raciales, empleando las reglas del Capítulo 26.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 98,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Permite crear una nueva forma de vida. La creación puede ser de cualquier clase (Natural, Espiritual o Entre Mundos), y estar atada a un elemento. El nivel máximo no podrá ser superior a al creador. Este debe elegir el Gnosis de su obra, dándole como máximo diez puntos menos que el del. Si es Natural con Gnosis inferior a 20, obtendrá además PD para elegir poderes y habilidades especiales raciales, empleando las reglas del Capítulo 26.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 800,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Nivel 1 y 50 PD en el caso de que se trate de un ser natural"
+      },
+      "intermediate": {
+        "zeonCost": 2000,
+        "intRequired": 17,
+        "maintenanceCost": 0,
+        "effect": "Nivel 6 y 100 PD en el caso de que se trate de un ser natural"
+      },
+      "advanced": {
+        "zeonCost": 4000,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "Nivel 11 y 150 PD en el caso de que se trate de un ser natural"
+      },
+      "arcane": {
+        "zeonCost": 8000,
+        "intRequired": 19,
+        "maintenanceCost": 0,
+        "effect": "Nivel 16 y 200 PD en el caso de que se trate de un ser natural"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Implosión",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este terrorífico conjuro crea un punto de vacío en el interior de algo que atrae toda la masa del mismo a su interior, provocando que su estructura implosione y desaparezca completamente. Al absorber la carne, huesos y órganos, en caso de causar daño provoca además un crítico automático con un bonificador determinado por el grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 84,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Vacío",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "Este terrorífico conjuro crea un punto de vacío en el interior de algo que atrae toda la masa del mismo a su interior, provocando que su estructura implosione y desaparezca completamente. Al absorber la carne, huesos y órganos, en caso de causar daño provoca además un crítico automático con un bonificador determinado por el grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "Daño 200 / Crítico +20."
+      },
+      "intermediate": {
+        "zeonCost": 500,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Daño 400 / Crítico +40."
+      },
+      "advanced": {
+        "zeonCost": 750,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "Daño 500 / Crítico +60."
+      },
+      "arcane": {
+        "zeonCost": 1000,
+        "intRequired": 20,
+        "maintenanceCost": 0,
+        "effect": "Daño 800 / Crítico +100."
+      }
+    }
+  }
+}

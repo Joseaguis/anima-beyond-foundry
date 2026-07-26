@@ -1,0 +1,73 @@
+{
+  "name": "Protocolo Ofensivo At-02: Mecanus",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Legado De Sólomon",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-adicional-limitado",
+        "role": "primary",
+        "options": [
+          "+1"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-predeterminado",
+        "role": "secondary",
+        "options": [
+          "Casi Imposible (240)"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-a-distancia",
+        "role": "secondary",
+        "options": [
+          "100 metros"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "requerimiento",
+        "option": "Sangre antigua"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 100,
+    "bookCost": "DES 18 AGI 18 POD 18",
+    "bookDistribution": {
+      "dex": {
+        "activation": 18,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 18,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 18,
+        "upkeep": 0
+      }
+    }
+  }
+}

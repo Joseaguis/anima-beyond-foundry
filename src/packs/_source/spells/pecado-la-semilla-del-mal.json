@@ -1,0 +1,48 @@
+{
+  "name": "La semilla del mal",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un individuo afectado por este sortilegio se torna intrínsecamente malvado, perdiendo cualquier concepto de moralidad. El personaje adquirirá una maldad extrema automáticamente. Una persona realmente pura, sin concepto alguno de la maldad, es inmune a este conjuro. Para resistirse a sus efectos es necesario superar un control de RM contra la dificultad determinada por el Grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 94,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Pecado",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Un individuo afectado por este sortilegio se torna intrínsecamente malvado, perdiendo cualquier concepto de moralidad. El personaje adquirirá una maldad extrema automáticamente. Una persona realmente pura, sin concepto alguno de la maldad, es inmune a este conjuro. Para resistirse a sus efectos es necesario superar un control de RM contra la dificultad determinada por el Grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM 140"
+      },
+      "advanced": {
+        "zeonCost": 260,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "RM 160"
+      },
+      "arcane": {
+        "zeonCost": 320,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "RM 180"
+      }
+    }
+  }
+}

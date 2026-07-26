@@ -1,0 +1,64 @@
+{
+  "name": "Eliminación de cansancio",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Incremento Físico",
+    "powerLevel": 3,
+    "action": "active",
+    "maintainable": false,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 16"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 12"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Recupera 2 puntos"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Recupera 4 puntos"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Recupera 6 puntos"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Recupera 10 puntos"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Recuperación completa"
+      }
+    ],
+    "effect": ""
+  }
+}

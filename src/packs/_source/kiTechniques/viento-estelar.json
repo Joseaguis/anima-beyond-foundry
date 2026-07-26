@@ -1,0 +1,58 @@
+{
+  "name": "Viento Estelar",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Cosmos",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-esquiva-limitada",
+        "role": "primary",
+        "options": [
+          "+75"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "transporte-automatico",
+        "role": "secondary",
+        "options": [
+          "50 metros"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 45,
+    "bookCost": "AGI 7 (3) DES 6 (1) POD 7 (2)",
+    "bookDistribution": {
+      "agi": {
+        "activation": 7,
+        "upkeep": 3
+      },
+      "dex": {
+        "activation": 6,
+        "upkeep": 1
+      },
+      "pow": {
+        "activation": 7,
+        "upkeep": 2
+      }
+    }
+  }
+}

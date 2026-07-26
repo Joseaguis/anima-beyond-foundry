@@ -1,0 +1,48 @@
+{
+  "name": "Sentir el caos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El hechicero es capaz de notar las fluctuaciones provocadas por el caos en el ambiente, permitiéndole sentir cualquier cosa innatural para la realidad que ocurra dentro del área del conjuro. No determina la localización exacta, pero si es consciente del nivel de influencia del caos.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 4,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Caos",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El hechicero es capaz de notar las fluctuaciones provocadas por el caos en el ambiente, permitiéndole sentir cualquier cosa innatural para la realidad que ocurra dentro del área del conjuro. No determina la localización exacta, pero si es consciente del nivel de influencia del caos.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 5,
+        "maintenanceCost": 5,
+        "effect": "50 metros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "100 metros de radio"
+      },
+      "advanced": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "250 metros de radio"
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 12,
+        "effect": "500 metros de radio/Percibe gnosis > 20 o Natura > 10, si no superan RM 160"
+      }
+    }
+  }
+}

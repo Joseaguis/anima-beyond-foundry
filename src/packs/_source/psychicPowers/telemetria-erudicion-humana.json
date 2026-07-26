@@ -1,0 +1,64 @@
+{
+  "name": "Erudición humana",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Telemetría",
+    "powerLevel": 2,
+    "action": "active",
+    "maintainable": false,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Un día / 80 RP"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Una semana / 100 RP"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Un mes / 120 RP"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Un año / 140 RP"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Una década / 160 RP"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Cincuenta años / 180 RP"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Toda su vida / 200 RP"
+      }
+    ],
+    "effect": ""
+  }
+}

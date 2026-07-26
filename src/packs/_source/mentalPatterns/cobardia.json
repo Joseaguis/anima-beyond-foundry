@@ -1,0 +1,16 @@
+{
+  "name": "Cobardía",
+  "type": "mentalPattern",
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Los personajes con este Patrón tienen miedo prácticamente de todas las cosas. Se sienten vulnerables, frágiles, y consideran que salvaguardar la vida es lo más importante para ellos.</p><p><em>Sus matrices son pequeñas y muy finas, como si no tratasen de llamar la atención.</em></p>",
+      "chat": ""
+    },
+    "source": "Arcana Exxet",
+    "rules": [],
+    "effect": "Bonos: +30 a la Proyección Psíquica al defenderse de ataques, e incrementa automáticamente un grado el nivel de dificultad alcanzado (siempre que no haya obtenido un resultado de Fatiga) al crear escudos o poderes que incrementen su resistencia.\nPenalizadores: cuando entable un combate que no esté seguro de ganar sin problemas (basta con dudar), −40 a su Potencial Psíquico. Si considera que está realmente en peligro, aplica el estado de Miedo a cualquier acción que no sea escapar del combate.\nPatrones Mentales Opuestos: Valentía.\nCoste: 30 PD / 40 PD. Coste de Cancelación: 10 PD.",
+    "dpCost": 30,
+    "modifier": "+30 Proy. defensiva / −40 Pot. en combate incierto"
+  }
+}

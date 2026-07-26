@@ -1,0 +1,48 @@
+{
+  "name": "Cuerpo muerto",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Detiene temporalmente las funciones corporales de un individuo sin matarlo, aunque puede moverse y actuar con normalidad. Mientras permanezca activo, el ser será extremadamente resistente a los efectos del daño y sus consecuencias, los penalizadores físicos quedan reducidos a la mitad. Se mantiene consciente y sin negativos (salvo por críticos) en el estado de entre la vida y la muerte. No se puede saber que no se trata de un verdadero cadáver.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 30,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Detiene temporalmente las funciones corporales de un individuo sin matarlo, aunque puede moverse y actuar con normalidad. Mientras permanezca activo, el ser será extremadamente resistente a los efectos del daño y sus consecuencias, los penalizadores físicos quedan reducidos a la mitad. Se mantiene consciente y sin negativos (salvo por críticos) en el estado de entre la vida y la muerte. No se puede saber que no se trata de un verdadero cadáver.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "Personajes de Nivel 3"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "Personajes de Nivel 6"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "Personajes de Nivel 12"
+      },
+      "arcane": {
+        "zeonCost": 140,
+        "intRequired": 14,
+        "maintenanceCost": 15,
+        "effect": "Personajes de Nivel 18"
+      }
+    }
+  }
+}

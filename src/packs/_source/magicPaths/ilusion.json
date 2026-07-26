@@ -1,0 +1,21 @@
+{
+  "name": "Ilusión",
+  "type": "magicPath",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "subtype": "path",
+    "element": "Ilusión",
+    "pathType": "minor",
+    "opposedPath": "Esencia, Nigromancia",
+    "parentPathId": "",
+    "mkCost": 0,
+    "level": 1,
+    "effect": ""
+  }
+}

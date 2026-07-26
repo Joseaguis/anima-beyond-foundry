@@ -1,0 +1,64 @@
+{
+  "name": "Transporte defensivo",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Teletransporte",
+    "powerLevel": 1,
+    "action": "passive",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "hard",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "1 Esquiva / 5 m"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "2 Esquivas / 10 m"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "3 Esquivas / 15 m"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "4 Esquivas / 25 m"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "6 Esquivas / 50 m"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "8 Esquivas / 100 m"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Esquivas ilimitadas / Sin área"
+      }
+    ],
+    "effect": ""
+  }
+}

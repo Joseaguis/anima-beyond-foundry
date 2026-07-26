@@ -1,0 +1,48 @@
+{
+  "name": "Señor del fuego",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Controla núcleos de elevado calor a su alrededor lo que le permite incluso manejar las corrientes de magma del interior del planeta, pudiendo crear erupciones y volcanes. Toda criatura basa en fuego que se encuentre dentro del área del conjuro, deberá superar una RM o será controlada por el lanzador. Si la pasan, ya no necesitan volver a realizar el control. Los afectados tienen derecho a una nueva tirada únicamente si alteran su Resistencia Base.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 96,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Fuego",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Controla núcleos de elevado calor a su alrededor lo que le permite incluso manejar las corrientes de magma del interior del planeta, pudiendo crear erupciones y volcanes. Toda criatura basa en fuego que se encuentre dentro del área del conjuro, deberá superar una RM o será controlada por el lanzador. Si la pasan, ya no necesitan volver a realizar el control. Los afectados tienen derecho a una nueva tirada únicamente si alteran su Resistencia Base.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 300,
+        "intRequired": 10,
+        "maintenanceCost": 30,
+        "effect": "100 km/ 140 RM"
+      },
+      "intermediate": {
+        "zeonCost": 450,
+        "intRequired": 12,
+        "maintenanceCost": 45,
+        "effect": "1.000 km/ 180RM"
+      },
+      "advanced": {
+        "zeonCost": 600,
+        "intRequired": 15,
+        "maintenanceCost": 60,
+        "effect": "10.000 km / 200 RM"
+      },
+      "arcane": {
+        "zeonCost": 1000,
+        "intRequired": 18,
+        "maintenanceCost": 100,
+        "effect": "Afecta a cualquier fuente de calor / RM 240"
+      }
+    }
+  }
+}

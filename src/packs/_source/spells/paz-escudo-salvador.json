@@ -1,0 +1,48 @@
+{
+  "name": "Escudo salvador",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea una barrera protectora que protege contra cualquier tipo de ataque. En el caso de que se utilice para cubrir a varios individuos contra un ataque en área, el conjuro permite proteger a tantos blancos como indique el Grado del conjuro sin sufrir por ello daño adicional o aplicar un penalizador a la habilidad defensiva del lanzador.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 4,
+    "actionType": "passive",
+    "maintenanceType": "sustained",
+    "magicPath": "Paz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "defense",
+    "effect": "Crea una barrera protectora que protege contra cualquier tipo de ataque. En el caso de que se utilice para cubrir a varios individuos contra un ataque en área, el conjuro permite proteger a tantos blancos como indique el Grado del conjuro sin sufrir por ello daño adicional o aplicar un penalizador a la habilidad defensiva del lanzador.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "300 puntos de Resistencia / Protege hasta 2 personas sin penalizador"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 8,
+        "maintenanceCost": 15,
+        "effect": "900 puntos de Resistencia / Protege hasta 5 personas sin penalizador"
+      },
+      "advanced": {
+        "zeonCost": 160,
+        "intRequired": 10,
+        "maintenanceCost": 20,
+        "effect": "1.500 puntos de Resistencia / Hasta 8 personas sin penalizador"
+      },
+      "arcane": {
+        "zeonCost": 240,
+        "intRequired": 14,
+        "maintenanceCost": 25,
+        "effect": "3.000 puntos de Resistencia / Hasta 12 personas sin penalizador"
+      }
+    }
+  }
+}

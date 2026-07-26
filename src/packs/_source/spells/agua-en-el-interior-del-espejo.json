@@ -1,0 +1,48 @@
+{
+  "name": "En el interior del espejo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Se crea el reflejo de un territorio, siendo una realidad paralela a imagen y semejanza del mundo real. No podrán ser imitados seres vivos con una presencia superior a 20 y los lugares con características excepcionales. Al lanzarse, el mago debe crear distintas puertas que conecten el mundo real con su obra, que podrán ubicarse y tener la forma que desee. No hay un número máximo de aperturas, aunque por lo menos está obligado a crear una.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 90,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Agua",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Se crea el reflejo de un territorio, siendo una realidad paralela a imagen y semejanza del mundo real. No podrán ser imitados seres vivos con una presencia superior a 20 y los lugares con características excepcionales. Al lanzarse, el mago debe crear distintas puertas que conecten el mundo real con su obra, que podrán ubicarse y tener la forma que desee. No hay un número máximo de aperturas, aunque por lo menos está obligado a crear una.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 300,
+        "intRequired": 9,
+        "maintenanceCost": 30,
+        "effect": "500 metros de radio máximo."
+      },
+      "intermediate": {
+        "zeonCost": 480,
+        "intRequired": 12,
+        "maintenanceCost": 50,
+        "effect": "2 kilómetros de radio máximo."
+      },
+      "advanced": {
+        "zeonCost": 600,
+        "intRequired": 15,
+        "maintenanceCost": 60,
+        "effect": "5 kilómetros de radio máximo."
+      },
+      "arcane": {
+        "zeonCost": 800,
+        "intRequired": 17,
+        "maintenanceCost": 70,
+        "effect": "10 kilómetros de radio máximo / Se pueden imitar seres de hasta presencia 30."
+      }
+    }
+  }
+}

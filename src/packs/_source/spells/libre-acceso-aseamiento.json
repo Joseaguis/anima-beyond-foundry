@@ -1,0 +1,48 @@
+{
+  "name": "Aseamiento",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Elimina cualquier impureza física menor (como suciedad, mal olor…), en el cuerpo y ropas del objetivo del conjuro. También puede ser utilizado sobre lugares u objetos para sanearlos, siempre que la presencia de estos no supere a lo que determina el grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 2,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Elimina cualquier impureza física menor (como suciedad, mal olor…), en el cuerpo y ropas del objetivo del conjuro. También puede ser utilizado sobre lugares u objetos para sanearlos, siempre que la presencia de estos no supere a lo que determina el grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 5,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 40"
+      },
+      "intermediate": {
+        "zeonCost": 60,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 80"
+      },
+      "advanced": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 120"
+      },
+      "arcane": {
+        "zeonCost": 140,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 140"
+      }
+    }
+  }
+}

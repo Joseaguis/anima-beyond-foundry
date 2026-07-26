@@ -1,0 +1,48 @@
+{
+  "name": "Crítico directo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Causa un estallido interno en un individuo, provocándole un crítico de manera automática. A efectos del juego, el blanco recibirá el equivalente a un Nivel de Crítico aunque tendrá la capacidad de contrarrestarlo con su RF empleando las reglas generales. Para evitar sus efectos es necesario superar un control de RM contra el calor determinado por el grado de conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 70,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Fuego",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Causa un estallido interno en un individuo, provocándole un crítico de manera automática. A efectos del juego, el blanco recibirá el equivalente a un Nivel de Crítico aunque tendrá la capacidad de contrarrestarlo con su RF empleando las reglas generales. Para evitar sus efectos es necesario superar un control de RM contra el calor determinado por el grado de conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "Crítico 120/ RM 140"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "Crítico 140/ RM 160"
+      },
+      "advanced": {
+        "zeonCost": 200,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "Crítico 180/ RM 180"
+      },
+      "arcane": {
+        "zeonCost": 280,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Crítico 220/ RM 200"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Lujuria",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El blanco del conjuro se convertirá en un imán para cualquiera que se sienta atraído por el sexo del blanco. Cualquiera que lo vea y no supere la RM se sentirá inmensamente atraído por el afectado, mientras que quien falle el control por más de 40 puntos sentirá una atracción obsesiva y enfermiza.. Cualquier individuo afectado puede repetir el control cada hora.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 34,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Pecado",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "El blanco del conjuro se convertirá en un imán para cualquiera que se sienta atraído por el sexo del blanco. Cualquiera que lo vea y no supere la RM se sentirá inmensamente atraído por el afectado, mientras que quien falle el control por más de 40 puntos sentirá una atracción obsesiva y enfermiza.. Cualquier individuo afectado puede repetir el control cada hora.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 7,
+        "maintenanceCost": 5,
+        "effect": "RM 140"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 9,
+        "maintenanceCost": 5,
+        "effect": "RM 160"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 11,
+        "maintenanceCost": 10,
+        "effect": "RM 180"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 13,
+        "maintenanceCost": 10,
+        "effect": "RM 200"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Ataque fantasmal",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Proyecta una descarga de enería fantasmal. El daño se someterá a las reglas de conjuros fantasmales. Dado que el ataque no es real, no puede usarse para chocar contra otras descargas. Puede atacar en cualquier tipología de ataque que desee el lanzador.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 70,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Ilusión",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "Proyecta una descarga de enería fantasmal. El daño se someterá a las reglas de conjuros fantasmales. Dado que el ataque no es real, no puede usarse para chocar contra otras descargas. Puede atacar en cualquier tipología de ataque que desee el lanzador.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "RM 140 / Daño 100"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "RM 160 / Daño 180"
+      },
+      "advanced": {
+        "zeonCost": 220,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM 180 / Daño 250"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM 200 / Daño 350"
+      }
+    }
+  }
+}

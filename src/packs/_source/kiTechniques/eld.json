@@ -1,0 +1,63 @@
+{
+  "name": "Eld",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Ignis",
+    "level": 3,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+150"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "aumento-de-dano",
+        "role": "secondary",
+        "options": [
+          "Sacrificio Vital Doble"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "tecnica-mantenida",
+        "option": "Feuer"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 60,
+    "bookCost": "VOL 19 DES 10 FUE 10",
+    "bookDistribution": {
+      "wp": {
+        "activation": 19,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 10,
+        "upkeep": 0
+      },
+      "str": {
+        "activation": 10,
+        "upkeep": 0
+      }
+    }
+  }
+}

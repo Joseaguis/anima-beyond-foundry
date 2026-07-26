@@ -1,0 +1,21 @@
+{
+  "name": "Nigromancia",
+  "type": "magicPath",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "subtype": "path",
+    "element": "Nigromancia",
+    "pathType": "major",
+    "opposedPath": "Luz, Oscuridad, Fuego, Agua, Aire, Tierra, Creación, Destrucción, Esencia, Ilusión",
+    "parentPathId": "",
+    "mkCost": 0,
+    "level": 1,
+    "effect": ""
+  }
+}

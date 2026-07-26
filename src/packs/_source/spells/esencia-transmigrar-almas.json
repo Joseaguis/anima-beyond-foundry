@@ -1,0 +1,48 @@
+{
+  "name": "Transmigrar almas",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Transporta almas de un cuerpo a otro, conservando las capacidades intelectuales y anímicas y adquiere las limitaciones físicas del nuevo cuerpo. Un cuerpo muerto, volverá a vivir. Si el cuerpo ya tiene alma, ambas lucharan (ver libro). Tanto el alma como el cuerpo anfitrión tienen derecho a RM. Puede transmigrar cualquier clase de alma, incluso espíritus que esperan El Llamamiento. Si un espíritu es encerrado en un cuerpo físico, pierde sus poderes anímicos.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 76,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Transporta almas de un cuerpo a otro, conservando las capacidades intelectuales y anímicas y adquiere las limitaciones físicas del nuevo cuerpo. Un cuerpo muerto, volverá a vivir. Si el cuerpo ya tiene alma, ambas lucharan (ver libro). Tanto el alma como el cuerpo anfitrión tienen derecho a RM. Puede transmigrar cualquier clase de alma, incluso espíritus que esperan El Llamamiento. Si un espíritu es encerrado en un cuerpo físico, pierde sus poderes anímicos.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "RM 100 / Presencia máxima 60"
+      },
+      "intermediate": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM 140 / Presencia máxima 100"
+      },
+      "advanced": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM 160 / Presencia máxima 140"
+      },
+      "arcane": {
+        "zeonCost": 540,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "RM 200 / Presencia máxima 180"
+      }
+    }
+  }
+}

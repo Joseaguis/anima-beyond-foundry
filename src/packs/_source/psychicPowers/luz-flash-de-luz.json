@@ -1,0 +1,64 @@
+{
+  "name": "Flash de luz",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Luz",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": false,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "5 m de radio / RF 80"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "10 m de radio / RF 100"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "15 m de radio / RF 120"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "25 m de radio / RF 140"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "50 m de radio / RF 160"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "75 m de radio / RF 180"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "100 m de radio / RF 200"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "150 m de radio / RF 220"
+      }
+    ],
+    "effect": ""
+  }
+}

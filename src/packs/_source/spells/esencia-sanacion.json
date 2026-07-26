@@ -1,0 +1,48 @@
+{
+  "name": "Sanación",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Otorga la capacidad de regenerar a un ritmo vertiginoso las heridas de un individuo, curando los puntos de vida perdidos. No permite recuperar miembros cercenados o daños similares, ni tampoco elimina los penalizadores causados por los críticos, pero sí detiene cualquier tipo de desangramiento. En caso de ser lanzado sobre un ser con acumulación de daño, sólo recupera la mitad del valor porcentual indicado.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 16,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Otorga la capacidad de regenerar a un ritmo vertiginoso las heridas de un individuo, curando los puntos de vida perdidos. No permite recuperar miembros cercenados o daños similares, ni tampoco elimina los penalizadores causados por los críticos, pero sí detiene cualquier tipo de desangramiento. En caso de ser lanzado sobre un ser con acumulación de daño, sólo recupera la mitad del valor porcentual indicado.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "20% puntos de vida"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "40% puntos de vida"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "60% puntos de vida"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "80% puntos de vida"
+      }
+    }
+  }
+}

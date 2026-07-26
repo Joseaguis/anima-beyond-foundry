@@ -1,0 +1,48 @@
+{
+  "name": "Descarga de luz",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Proyecta una descarga de energía mágica basada en luz. El ataque se realiza en la TA de Energía</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 22,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Luz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "Proyecta una descarga de energía mágica basada en luz. El ataque se realiza en la TA de Energía",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "Daño 60."
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "Daño 90."
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Daño 120."
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "Daño 150."
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Creación mayor",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Otorga al hechicero el don de crear a su antojo, concediéndole puntos de presencia para repartir libremente entre varios objetos o construcciones. Puede elaborar cualquier cosa inanimada que desee, desde castillos a montañas, siempre y cuando la presencia de sus Creaciónes no seasuperior a lo que permite el grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 90,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Otorga al hechicero el don de crear a su antojo, concediéndole puntos de presencia para repartir libremente entre varios objetos o construcciones. Puede elaborar cualquier cosa inanimada que desee, desde castillos a montañas, siempre y cuando la presencia de sus Creaciónes no seasuperior a lo que permite el grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 400,
+        "intRequired": 10,
+        "maintenanceCost": 20,
+        "effect": "500 Puntos de Presencia / Presencia máxima 100"
+      },
+      "intermediate": {
+        "zeonCost": 800,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "1.000 Puntos de Presencia / Presencia máxima 120"
+      },
+      "advanced": {
+        "zeonCost": 1200,
+        "intRequired": 14,
+        "maintenanceCost": 25,
+        "effect": "2.000 Puntos de Presencia / Presencia máxima 140"
+      },
+      "arcane": {
+        "zeonCost": 2000,
+        "intRequired": 16,
+        "maintenanceCost": 30,
+        "effect": "3.000 Puntos de Presencia / Presencia máxima 180"
+      }
+    }
+  }
+}

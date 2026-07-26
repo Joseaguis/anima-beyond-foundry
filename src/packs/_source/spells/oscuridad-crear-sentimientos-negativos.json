@@ -1,0 +1,48 @@
+{
+  "name": "Crear sentimientos negativos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Introduce algún tipo de sentimiento negativo, como odio, miedo o ira, en los individuos designados por el hechicero. El afectado puede repetir el control una vez al día.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 58,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Oscuridad",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Introduce algún tipo de sentimiento negativo, como odio, miedo o ira, en los individuos designados por el hechicero. El afectado puede repetir el control una vez al día.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "Radio de 20 metros / RM o RP 120"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "Radio de 100 metros / RM o RP 160"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "Radio de 250 metros / RM o RP 180"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "Radio de 500 metros / RM o RP 220"
+      }
+    }
+  }
+}

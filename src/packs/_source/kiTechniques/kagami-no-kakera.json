@@ -1,0 +1,48 @@
+{
+  "name": "Kagami No Kakera",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Hyousetsu Jigoku",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-adicional-limitado",
+        "role": "primary",
+        "options": [
+          "+5"
+        ],
+        "duration": "sustainedMinor",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 70,
+    "bookCost": "AGI 10 DES 10 POD 12",
+    "bookDistribution": {
+      "agi": {
+        "activation": 10,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 10,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 12,
+        "upkeep": 0
+      }
+    }
+  }
+}

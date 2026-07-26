@@ -1,0 +1,71 @@
+{
+  "name": "Apertura Espacial",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Cosmos",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-adicional",
+        "role": "primary",
+        "options": [
+          "+1"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-a-distancia",
+        "role": "secondary",
+        "options": [
+          "20 metros"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-indirecto",
+        "role": "secondary",
+        "options": [],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "condicion",
+        "option": "Terreno Determinado: Terreno abierto"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 35,
+    "bookCost": "AGI 7 (2) DES 6 (1) POD 7 (2)",
+    "bookDistribution": {
+      "agi": {
+        "activation": 7,
+        "upkeep": 2
+      },
+      "dex": {
+        "activation": 6,
+        "upkeep": 1
+      },
+      "pow": {
+        "activation": 7,
+        "upkeep": 2
+      }
+    }
+  }
+}

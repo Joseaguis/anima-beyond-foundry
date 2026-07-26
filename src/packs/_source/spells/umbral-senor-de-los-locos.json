@@ -1,0 +1,48 @@
+{
+  "name": "Señor de los locos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El brujo puede controlar a cualquier persona demente alterando su demencia y percepción de la realidad. La condición para ser afectado es estar dentro de la zona de influencia del conjuro y estar sumido en una demencia grave. Aquellos que sólo tengan una locura transitoria pueden aplicar un +40 a sus Resistencias contra los efectos de este conjuro. Los afectados sólo tienen derecho a repetir el control una vez al día o cuando aumenten sus Resistencias.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 74,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Umbral",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "El brujo puede controlar a cualquier persona demente alterando su demencia y percepción de la realidad. La condición para ser afectado es estar dentro de la zona de influencia del conjuro y estar sumido en una demencia grave. Aquellos que sólo tengan una locura transitoria pueden aplicar un +40 a sus Resistencias contra los efectos de este conjuro. Los afectados sólo tienen derecho a repetir el control una vez al día o cuando aumenten sus Resistencias.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 140 / 100 metros de radio."
+      },
+      "intermediate": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 160 / 250 metros de radio."
+      },
+      "advanced": {
+        "zeonCost": 400,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 180 / 1 kilómetro de radio."
+      },
+      "arcane": {
+        "zeonCost": 500,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 200 / 5 kilómetros de radio."
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Sombra",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro aumenta la capacidad de ocultación del hechicero, acrecentando sus habilidades secundarias de Sigilo y Ocultarse, así como su Valoración mágica en la misma cantidad, aunque sólo en el caso de que pretenda ocultar el potencial mágico de algo o alguien (nunca para detectarlo).</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 12,
+    "actionType": "passive",
+    "maintenanceType": "sustained",
+    "magicPath": "Oscuridad",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este conjuro aumenta la capacidad de ocultación del hechicero, acrecentando sus habilidades secundarias de Sigilo y Ocultarse, así como su Valoración mágica en la misma cantidad, aunque sólo en el caso de que pretenda ocultar el potencial mágico de algo o alguien (nunca para detectarlo).",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 5,
+        "maintenanceCost": 5,
+        "effect": "+50 en Sigilo, Ocultarse y Valoración Mágica"
+      },
+      "intermediate": {
+        "zeonCost": 150,
+        "intRequired": 9,
+        "maintenanceCost": 15,
+        "effect": "+150 en Sigilo, Ocultarse y Valoración Mágica"
+      },
+      "advanced": {
+        "zeonCost": 200,
+        "intRequired": 12,
+        "maintenanceCost": 20,
+        "effect": "+200 en Sigilo, Ocultarse y Valoración Mágica"
+      },
+      "arcane": {
+        "zeonCost": 240,
+        "intRequired": 14,
+        "maintenanceCost": 25,
+        "effect": "+250 en Sigilo, Ocultarse y Valoración Mágica"
+      }
+    }
+  }
+}

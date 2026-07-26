@@ -1,0 +1,64 @@
+{
+  "name": "Itami",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Sirius",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+40"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "estados-sobrenaturales",
+        "role": "secondary",
+        "options": [
+          "RF 100",
+          "Estado añadido: Pen. a la Acción Menor"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "dano-reducido",
+        "option": "Ningún Daño"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 30,
+    "bookCost": "DES 4 POD 4 VOL 4",
+    "bookDistribution": {
+      "dex": {
+        "activation": 4,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 4,
+        "upkeep": 0
+      },
+      "wp": {
+        "activation": 4,
+        "upkeep": 0
+      }
+    }
+  }
+}

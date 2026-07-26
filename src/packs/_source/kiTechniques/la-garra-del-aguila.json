@@ -1,0 +1,68 @@
+{
+  "name": "La Garra Del Águila",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Wushu",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "apresamiento",
+        "role": "primary",
+        "options": [
+          "FUE 16"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "aumento-de-dano",
+        "role": "secondary",
+        "options": [
+          "+90"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "secondary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 70,
+    "bookCost": "DES 11 AGI 10 FUE 11",
+    "bookDistribution": {
+      "dex": {
+        "activation": 11,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 10,
+        "upkeep": 0
+      },
+      "str": {
+        "activation": 11,
+        "upkeep": 0
+      }
+    }
+  }
+}

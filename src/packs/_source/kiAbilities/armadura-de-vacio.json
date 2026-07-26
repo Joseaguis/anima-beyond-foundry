@@ -1,0 +1,20 @@
+{
+  "name": "Armadura de vacío",
+  "type": "kiAbility",
+  "img": "icons/magic/death/skull-energy-light-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Pantalla de vacío: todos los ataques recibidos reducen 10 puntos su Daño base (si llega a 0, no dañan).</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 20,
+    "subtype": "nemesisPower",
+    "parent": "Uso del Némesis",
+    "branch": "Némesis",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

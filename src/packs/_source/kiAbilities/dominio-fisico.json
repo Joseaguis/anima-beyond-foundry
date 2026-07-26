@@ -1,0 +1,27 @@
+{
+  "name": "Dominio físico",
+  "type": "kiAbility",
+  "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Funde energía y cuerpo, otorgando un bono de +10 a la RF contra cualquier tipo de Daño.</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "target": "rf",
+        "value": 10,
+        "type": "special"
+      }
+    ],
+    "mkCost": 10,
+    "subtype": "kiPower",
+    "parent": "Control del Ki",
+    "branch": "Control del Ki",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

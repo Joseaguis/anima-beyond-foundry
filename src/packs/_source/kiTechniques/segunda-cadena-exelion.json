@@ -1,0 +1,68 @@
+{
+  "name": "Segunda Cadena: Exelion",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Las Cadenas",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "aumento-de-dano",
+        "role": "primary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-con-area",
+        "role": "secondary",
+        "options": [
+          "10 metros de radio"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-a-distancia",
+        "role": "secondary",
+        "options": [
+          "100 metros"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 50,
+    "bookCost": "FUE 5 DES 6 POD 6",
+    "bookDistribution": {
+      "str": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 6,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 6,
+        "upkeep": 0
+      }
+    }
+  }
+}

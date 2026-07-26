@@ -1,0 +1,48 @@
+{
+  "name": "Holograma",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea forma luminosa inmaterial, el mago elige apariencia y movimiento. Si crea una criatura, podrá hacer acciones inhumanas, pero imita las habilidades físicas del mago. Si se utiliza para simular que se va a atacar, utiliza la habilidad de combate del mago. El holograma no puede tocar ni ser tocado. Si recibe daño basado en energía, desaparece. Para percibir que se trata de una imagen, superar control de Advertir (Casi Imposible), o Buscar (Muy Difícil).</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 26,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Luz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea forma luminosa inmaterial, el mago elige apariencia y movimiento. Si crea una criatura, podrá hacer acciones inhumanas, pero imita las habilidades físicas del mago. Si se utiliza para simular que se va a atacar, utiliza la habilidad de combate del mago. El holograma no puede tocar ni ser tocado. Si recibe daño basado en energía, desaparece. Para percibir que se trata de una imagen, superar control de Advertir (Casi Imposible), o Buscar (Muy Difícil).",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "La imagen tiene un tamaño máximo de un metro cuadrados"
+      },
+      "intermediate": {
+        "zeonCost": 150,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "La imagen tiene un tamaño máximo de 15 metros cuadrados"
+      },
+      "advanced": {
+        "zeonCost": 250,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "La imagen tiene un tamaño máximo de 50 metros cuadrados"
+      },
+      "arcane": {
+        "zeonCost": 350,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "máximo 100 metros² y dificultad de Advertir (IMP) y Buscar (ABS)."
+      }
+    }
+  }
+}

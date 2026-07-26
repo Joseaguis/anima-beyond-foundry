@@ -1,0 +1,71 @@
+{
+  "_id": "bMkvsOq10eebCIrL",
+  "_key": "!items!bMkvsOq10eebCIrL",
+  "name": "Tao",
+  "type": "category",
+  "img": "icons/sundries/books/book-embossed-jewel-gold-purple.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "archetype": "fighter",
+    "lifeMultiple": 20,
+    "lpPerLevel": 10,
+    "initiativePerLevel": 5,
+    "martialKnowledgePerLevel": 30,
+    "combatCosts": {
+      "attack": 2,
+      "parry": 2,
+      "dodge": 2,
+      "wearArmor": 2
+    },
+    "combatBonusPerLevel": {
+      "attack": 0,
+      "parry": 0,
+      "dodge": 0,
+      "wearArmor": 0
+    },
+    "supernatural": {
+      "zeon": 3,
+      "actMultiple": 70,
+      "magicProjection": 3,
+      "ki": 2,
+      "kiAccMultiple": 15,
+      "psychicProjection": 3,
+      "cv": 20,
+      "summoning": 3,
+      "zeonPerLevel": 0,
+      "magicLevel": 3,
+      "levelsPerCv": 3
+    },
+    "secondaryCosts": {
+      "athletics": 2,
+      "social": 2,
+      "perceptive": 2,
+      "intellectual": 3,
+      "vigor": 2,
+      "subterfuge": 2,
+      "creative": 2
+    },
+    "secondaryBonusPerLevel": {
+      "athletics": 0,
+      "social": 0,
+      "perceptive": 0,
+      "intellectual": 0,
+      "vigor": 0,
+      "subterfuge": 0,
+      "creative": 0
+    },
+    "dpLimits": {
+      "combat": 0.6,
+      "magic": 0.5,
+      "psychic": 0.5
+    },
+    "secondaryCostOverrides": {},
+    "secondaryAbilityBonusPerLevel": {
+      "style": 5
+    }
+  }
+}

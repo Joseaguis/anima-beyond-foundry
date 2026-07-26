@@ -1,0 +1,48 @@
+{
+  "name": "Coraza",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Forma una coraza física que protege contra todos los tipos de ataque, salvo los basados en energía. Aunque cuenta como armadura, no aplica penalizadores al turno por emplear capas adicionales.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 26,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Tierra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Forma una coraza física que protege contra todos los tipos de ataque, salvo los basados en energía. Aunque cuenta como armadura, no aplica penalizadores al turno por emplear capas adicionales.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 5,
+        "effect": "TA 2"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 5,
+        "effect": "TA 4"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "TA 6"
+      },
+      "arcane": {
+        "zeonCost": 140,
+        "intRequired": 15,
+        "maintenanceCost": 10,
+        "effect": "TA 8"
+      }
+    }
+  }
+}

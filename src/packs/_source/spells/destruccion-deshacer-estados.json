@@ -1,0 +1,48 @@
+{
+  "name": "Deshacer estados",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Deshace inmediatamente cualquiera de los estados descritos en el Capítulo 14 del manual básico, u otros equivalentes. Podrá afectar a tantos individuos como se desee, siempre y cuando la suma de sus presencias no sea superior a la determinada por el conjuro. No puede deshacer los penalizadores a toda acción provocados por un crítico. Si desea resistirse, debe superarse la RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 42,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Deshace inmediatamente cualquiera de los estados descritos en el Capítulo 14 del manual básico, u otros equivalentes. Podrá afectar a tantos individuos como se desee, siempre y cuando la suma de sus presencias no sea superior a la determinada por el conjuro. No puede deshacer los penalizadores a toda acción provocados por un crítico. Si desea resistirse, debe superarse la RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 7,
+        "maintenanceCost": 0,
+        "effect": "120 RM / Presencia máxima 120"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "140 RM / Presencia máxima 200"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "160 RM / Presencia máxima 300"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "200 RM / Presencia máxima 400"
+      }
+    }
+  }
+}

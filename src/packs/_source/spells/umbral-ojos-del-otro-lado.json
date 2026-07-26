@@ -1,0 +1,48 @@
+{
+  "name": "Ojos del otro lado",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Los ojos del hechicero le permiten ver los miedos intrínsecos de la gente, así como sus trastornos y locuras. Mientras este conjuro está activo, cualquiera capaz de percibir espíritus verá como los ojos del personaje se tornan completamente negros, como si una oscuridad interna los devorase. Para evitar sus efectos, un individuo puede superar un control de RM o RP contra la dificultad determinada por el grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 4,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Umbral",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "detection",
+    "effect": "Los ojos del hechicero le permiten ver los miedos intrínsecos de la gente, así como sus trastornos y locuras. Mientras este conjuro está activo, cualquiera capaz de percibir espíritus verá como los ojos del personaje se tornan completamente negros, como si una oscuridad interna los devorase. Para evitar sus efectos, un individuo puede superar un control de RM o RP contra la dificultad determinada por el grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 5,
+        "maintenanceCost": 5,
+        "effect": "El personaje puede sentir si una persona está asustada o no / RM o RP 120."
+      },
+      "intermediate": {
+        "zeonCost": 60,
+        "intRequired": 8,
+        "maintenanceCost": 5,
+        "effect": "Percibe cual es el origen del miedo que siente una persona / RM o RP 140"
+      },
+      "advanced": {
+        "zeonCost": 90,
+        "intRequired": 11,
+        "maintenanceCost": 5,
+        "effect": "El mago percibe los miedos de alguien, aunque no esté asustada /RM o RP 160."
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 14,
+        "maintenanceCost": 10,
+        "effect": "El personaje percibe representacion visual de los miedos / RM o RP 180."
+      }
+    }
+  }
+}

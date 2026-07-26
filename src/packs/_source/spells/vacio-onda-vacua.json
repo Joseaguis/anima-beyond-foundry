@@ -1,0 +1,48 @@
+{
+  "name": "Onda vacua",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este hechizo manda una leve onda de vacío capaz de desestructurar las fibras sobrenaturales de cualquier protección. Este conjuro en si no provoca daños a sus adversarios, pero dirigido contra un escudo sobrenatural, provoca demoledoras consecuencias. La Onda Vacua es invisible al ojo humano, salvo para aquellos capaces de ver magia.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 14,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Vacío",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "Este hechizo manda una leve onda de vacío capaz de desestructurar las fibras sobrenaturales de cualquier protección. Este conjuro en si no provoca daños a sus adversarios, pero dirigido contra un escudo sobrenatural, provoca demoledoras consecuencias. La Onda Vacua es invisible al ojo humano, salvo para aquellos capaces de ver magia.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "Daño 120 contra escudos."
+      },
+      "intermediate": {
+        "zeonCost": 60,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "Daño 250 contra escudos."
+      },
+      "advanced": {
+        "zeonCost": 90,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Daño 400 contra escudos."
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "Daño 600 contra escudos."
+      }
+    }
+  }
+}

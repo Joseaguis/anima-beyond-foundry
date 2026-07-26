@@ -1,0 +1,48 @@
+{
+  "name": "Destruir ilusiones",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Destruye un conjruo activo que pertenezca a la vía de ilusión.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 60,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Ilusión",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Destruye un conjruo activo que pertenezca a la vía de ilusión.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 7,
+        "maintenanceCost": 0,
+        "effect": "Zeón máximo 80."
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Zeón máximo 140."
+      },
+      "advanced": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Zeón máximo 200."
+      },
+      "arcane": {
+        "zeonCost": 500,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "Zeón máximo 300."
+      }
+    }
+  }
+}

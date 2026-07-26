@@ -1,0 +1,88 @@
+{
+  "name": "Storm Waltz",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Gunhell",
+    "level": 3,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+150"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-con-area",
+        "role": "secondary",
+        "options": [
+          "100 metros de radio",
+          "Elección de Blanco"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-sobrenatural",
+        "role": "secondary",
+        "options": [],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "tecnica-mantenida",
+        "option": "Gunslinger"
+      },
+      {
+        "disadvantage": "sin-defensa",
+        "option": ""
+      },
+      {
+        "disadvantage": "requerimiento",
+        "option": "Piezas metálicas"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 90,
+    "bookCost": "POD 14 DES 14 AGI 14 CON 4 VOL 4",
+    "bookDistribution": {
+      "pow": {
+        "activation": 14,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 14,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 14,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 4,
+        "upkeep": 0
+      },
+      "wp": {
+        "activation": 4,
+        "upkeep": 0
+      }
+    }
+  }
+}

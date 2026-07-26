@@ -1,0 +1,20 @@
+{
+  "name": "Vuelo",
+  "type": "kiAbility",
+  "img": "icons/magic/air/wind-swirl-gray.webp",
+  "system": {
+    "description": {
+      "value": "<p>Control total de la masa: Tipo de vuelo = su Movimiento completo (1 Ki por nivel, 1 por minuto de mantenimiento).</p>",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "rules": [],
+    "mkCost": 20,
+    "subtype": "kiPower",
+    "parent": "Levitación",
+    "branch": "Uso del Ki",
+    "kiCost": 0,
+    "kiMaintenance": 1,
+    "action": "active"
+  }
+}

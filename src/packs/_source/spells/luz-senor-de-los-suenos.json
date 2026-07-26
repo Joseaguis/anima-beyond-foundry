@@ -1,0 +1,48 @@
+{
+  "name": "Señor de los sueños",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite dominar cualquier  Sueños del objetivo que no pase RM. El mago podra controlar el mundo onírico de un durmiente, modificándolo como si tuviera Gnosis 45. En el caso de que el Sueños se torne una pesadilla, su Gnosis será de 30. Los conjuros que el brujo lance gracias a dicho Gnosis (como por ejemplo, magia divina), no tienen efecto fuera de los límites espaciales del conjuro y sus efectos desaparecen en cuanto el mago sale del Sueños o de la Vigilia.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 80,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Luz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Permite dominar cualquier  Sueños del objetivo que no pase RM. El mago podra controlar el mundo onírico de un durmiente, modificándolo como si tuviera Gnosis 45. En el caso de que el Sueños se torne una pesadilla, su Gnosis será de 30. Los conjuros que el brujo lance gracias a dicho Gnosis (como por ejemplo, magia divina), no tienen efecto fuera de los límites espaciales del conjuro y sus efectos desaparecen en cuanto el mago sale del Sueños o de la Vigilia.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 60,
+        "effect": "RM 140."
+      },
+      "intermediate": {
+        "zeonCost": 400,
+        "intRequired": 14,
+        "maintenanceCost": 65,
+        "effect": "RM 150 / En Vigilia, obtiene Gnosis 40. En zona neutra, 30."
+      },
+      "advanced": {
+        "zeonCost": 500,
+        "intRequired": 16,
+        "maintenanceCost": 70,
+        "effect": "RM 160 / como intermedio, pero el Gnosis en zonas neutras es de 35."
+      },
+      "arcane": {
+        "zeonCost": 750,
+        "intRequired": 18,
+        "maintenanceCost": 80,
+        "effect": "RM 180 / Como Avanzado, sin límites espacial."
+      }
+    }
+  }
+}

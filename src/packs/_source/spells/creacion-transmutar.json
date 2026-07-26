@@ -1,0 +1,48 @@
+{
+  "name": "Transmutar",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El brujo transforma un objeto inorgánico convirtiéndolo en otro distinto, pero de poder anímico similar. De este modo modifica algo en otra cosa que tenga un valor de presencia igual o inferior. Si el objeto es sobrenatural o especialmente poderoso, puede resistirse pasando una RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 70,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "El brujo transforma un objeto inorgánico convirtiéndolo en otro distinto, pero de poder anímico similar. De este modo modifica algo en otra cosa que tenga un valor de presencia igual o inferior. Si el objeto es sobrenatural o especialmente poderoso, puede resistirse pasando una RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "RM 120 / Presencia Máxima 50"
+      },
+      "intermediate": {
+        "zeonCost": 350,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM 160 / Presencia Máxima 100"
+      },
+      "advanced": {
+        "zeonCost": 500,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM 220 / Presencia Máxima 150"
+      },
+      "arcane": {
+        "zeonCost": 800,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "RM 260 / Presencia Máxima 200"
+      }
+    }
+  }
+}

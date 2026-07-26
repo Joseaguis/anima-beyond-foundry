@@ -1,0 +1,48 @@
+{
+  "name": "Esfera oscura",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea una esfera de oscuridad que ataca en TA de ENE. Se controla con la Proyección Mágica del mago hasta impactar, por lo que si un blanco esquiva, podrá seguir atacando en el turno siguiente. Únicamente cuando causa daño o es parada, la esfera desaparece. Si el mago abandona el control directo sobre ella, la esfera se moverá por si misma, atacando todos los asaltos al último blanco prefijado con su propia Proyección Mágica independiente de la del mago.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 46,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Oscuridad",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "Crea una esfera de oscuridad que ataca en TA de ENE. Se controla con la Proyección Mágica del mago hasta impactar, por lo que si un blanco esquiva, podrá seguir atacando en el turno siguiente. Únicamente cuando causa daño o es parada, la esfera desaparece. Si el mago abandona el control directo sobre ella, la esfera se moverá por si misma, atacando todos los asaltos al último blanco prefijado con su propia Proyección Mágica independiente de la del mago.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 6,
+        "maintenanceCost": 15,
+        "effect": "Daño Base 100 / Proyección Mágica 150."
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "Daño Base de 120 / Proyección Mágica 180"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "Daño Base de 160 / Proyección Mágica 210"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "Daño Base de 200 / Proyección Mágica 240"
+      }
+    }
+  }
+}

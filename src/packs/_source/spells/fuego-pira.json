@@ -1,0 +1,48 @@
+{
+  "name": "Pira",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea intensidades de fuego. Mientras se mantenga el conjuro, la llama seguirá ardiendo incluso sin nada que consumir. Si se prende en algo inflamable, arderá naturalmente tras finalizar el hechizo.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 86,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Fuego",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea intensidades de fuego. Mientras se mantenga el conjuro, la llama seguirá ardiendo incluso sin nada que consumir. Si se prende en algo inflamable, arderá naturalmente tras finalizar el hechizo.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 10,
+        "maintenanceCost": 25,
+        "effect": "15 intensidades"
+      },
+      "intermediate": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 30,
+        "effect": "25 intensidades"
+      },
+      "advanced": {
+        "zeonCost": 350,
+        "intRequired": 14,
+        "maintenanceCost": 30,
+        "effect": "35 intensidades"
+      },
+      "arcane": {
+        "zeonCost": 400,
+        "intRequired": 18,
+        "maintenanceCost": 35,
+        "effect": "45 intensidades"
+      }
+    }
+  }
+}

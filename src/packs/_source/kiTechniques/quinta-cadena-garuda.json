@@ -1,0 +1,76 @@
+{
+  "name": "Quinta Cadena: Garuda",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Las Cadenas",
+    "level": 3,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-adicional",
+        "role": "primary",
+        "options": [
+          "+4"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "destruir-armadura",
+        "role": "secondary",
+        "options": [
+          "-6 TA"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-a-distancia",
+        "role": "secondary",
+        "options": [
+          "100 metros"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 90,
+    "bookCost": "FUE 9 DES 12 POD 12 VOL 6 CON 4",
+    "bookDistribution": {
+      "str": {
+        "activation": 9,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 12,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 12,
+        "upkeep": 0
+      },
+      "wp": {
+        "activation": 6,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 4,
+        "upkeep": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Memento mori",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este hechizo mata a cualquier criatura dentro de su área que pueda ser considerada un ser vivo, sin importar su naturaleza o condición.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 64,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Muerte",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Este hechizo mata a cualquier criatura dentro de su área que pueda ser considerada un ser vivo, sin importar su naturaleza o condición.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "RM 80 / 5 m. radio"
+      },
+      "intermediate": {
+        "zeonCost": 150,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM 100 / 10 m. radio"
+      },
+      "advanced": {
+        "zeonCost": 200,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "RM 120 / 25 m. radio"
+      },
+      "arcane": {
+        "zeonCost": 260,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM 140 / 50 m. radio"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Gunnhildur",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Frostkolier",
+    "level": 3,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-adicional-limitado",
+        "role": "primary",
+        "options": [
+          "+10",
+          "Ataque Contínuo"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "atadura-elemental",
+        "option": "Agua"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 75,
+    "bookCost": "DES 13 CON 13 POD 13",
+    "bookDistribution": {
+      "dex": {
+        "activation": 13,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 13,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 13,
+        "upkeep": 0
+      }
+    }
+  }
+}

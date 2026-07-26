@@ -1,0 +1,48 @@
+{
+  "name": "Matar",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro detiene las funciones vitales de una persona, produciéndole de inmediato la muerte. Este hechizo sólo funciona sobre seres vivos, por lo que resulta virtualmente inútil contra espíritus o Seres Entre Mundos inanimados. Cualquier afectado deberá superar un control de RM o RF si quiere sobrevivir.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 66,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Este conjuro detiene las funciones vitales de una persona, produciéndole de inmediato la muerte. Este hechizo sólo funciona sobre seres vivos, por lo que resulta virtualmente inútil contra espíritus o Seres Entre Mundos inanimados. Cualquier afectado deberá superar un control de RM o RF si quiere sobrevivir.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 80"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 100"
+      },
+      "advanced": {
+        "zeonCost": 180,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 120"
+      },
+      "arcane": {
+        "zeonCost": 220,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 140"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Caos primario",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Alterando completamente las leyes de la realidad, el hechicero crea caos en su estado más puro, una zona donde todo cuanto contiene deja de responder a ninguna regla de la razón. Alguien normal puede volverse loco en pocos minutos, mientras que todo poder sobrenatural puede salir fuera de control. La zona de acción de este conjuro es determinada por su grado, y permanece estática donde fue lanzada</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 94,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Caos",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Alterando completamente las leyes de la realidad, el hechicero crea caos en su estado más puro, una zona donde todo cuanto contiene deja de responder a ninguna regla de la razón. Alguien normal puede volverse loco en pocos minutos, mientras que todo poder sobrenatural puede salir fuera de control. La zona de acción de este conjuro es determinada por su grado, y permanece estática donde fue lanzada",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 500,
+        "intRequired": 12,
+        "maintenanceCost": 100,
+        "effect": "500 metros"
+      },
+      "intermediate": {
+        "zeonCost": 900,
+        "intRequired": 14,
+        "maintenanceCost": 180,
+        "effect": "1 kilómetro"
+      },
+      "advanced": {
+        "zeonCost": 1500,
+        "intRequired": 16,
+        "maintenanceCost": 300,
+        "effect": "5 kilómetro / Tras un minuto, cualquiera es afectado por  Mutación Caótica"
+      },
+      "arcane": {
+        "zeonCost": 2400,
+        "intRequired": 18,
+        "maintenanceCost": 480,
+        "effect": "25 kilómetros/ A menos de un kilómetro del núcleo, RM 150 o descreación"
+      }
+    }
+  }
+}

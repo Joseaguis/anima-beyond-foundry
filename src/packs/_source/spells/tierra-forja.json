@@ -1,0 +1,48 @@
+{
+  "name": "Forja",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Emplea la magia para fraguar un objeto, empleando el equivalente a la habilidad de Forja. Dado que se utiliza puro poder sobrenatural, no aplica ninguno de los modificadores de tiempo de la Tabla 21, ni necesita herramientas o fragua. El hechizo no fabrica los materiales con los que se crea el objeto, por lo que debe ser el hechicero quien los consiga.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 50,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Tierra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Emplea la magia para fraguar un objeto, empleando el equivalente a la habilidad de Forja. Dado que se utiliza puro poder sobrenatural, no aplica ninguno de los modificadores de tiempo de la Tabla 21, ni necesita herramientas o fragua. El hechizo no fabrica los materiales con los que se crea el objeto, por lo que debe ser el hechicero quien los consiga.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 160,
+        "intRequired": 7,
+        "maintenanceCost": 0,
+        "effect": "Forja 120"
+      },
+      "intermediate": {
+        "zeonCost": 270,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "Forja 180"
+      },
+      "advanced": {
+        "zeonCost": 360,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Forja 240"
+      },
+      "arcane": {
+        "zeonCost": 450,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "Forja 280"
+      }
+    }
+  }
+}

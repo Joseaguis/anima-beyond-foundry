@@ -1,0 +1,48 @@
+{
+  "name": "Omnisciencia radial",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite al lanzador ser omnisciente respecto a cualquier suceso o pensamiento que acontezca a su alrededor. Sólo afecta a individuos que no tengan más Gnosis que el personaje y cuya presencia no sea superior a lo permitido por el Grado del conjuro. El brujo sabrá, de manera automática, todo lo que está pasado dentro de este radio y qué piensan las personas. No hay control de Resistencia posible.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 88,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Luz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Permite al lanzador ser omnisciente respecto a cualquier suceso o pensamiento que acontezca a su alrededor. Sólo afecta a individuos que no tengan más Gnosis que el personaje y cuya presencia no sea superior a lo permitido por el Grado del conjuro. El brujo sabrá, de manera automática, todo lo que está pasado dentro de este radio y qué piensan las personas. No hay control de Resistencia posible.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 40,
+        "effect": "500 metros de radio / presencia máxima 60."
+      },
+      "intermediate": {
+        "zeonCost": 250,
+        "intRequired": 12,
+        "maintenanceCost": 50,
+        "effect": "2 kilómetros de radio / presencia máxima 80"
+      },
+      "advanced": {
+        "zeonCost": 400,
+        "intRequired": 15,
+        "maintenanceCost": 60,
+        "effect": "10 kilómetros de radio / presencia máxima 100"
+      },
+      "arcane": {
+        "zeonCost": 800,
+        "intRequired": 18,
+        "maintenanceCost": 65,
+        "effect": "50 kilómetros de radio / presencia máxima 120"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Imitar conjuro",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite al brujo imitar un conjuro que se encuentre en su presencia. Pueden copiarse tanto hechizos automáticos, si se lanzan en el mismo asalto que se utiliza la imitación, como conjuros mantenidos. Este hechizo imita incluso conjuros de Alta Magia o Divinos, sin necesidad de que el brujo tenga el Gnosis necesario para lanzarlos. El brujo elige si emplea su propia Proyección Mágica o la de quien lanza el conjuro original.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 92,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Permite al brujo imitar un conjuro que se encuentre en su presencia. Pueden copiarse tanto hechizos automáticos, si se lanzan en el mismo asalto que se utiliza la imitación, como conjuros mantenidos. Este hechizo imita incluso conjuros de Alta Magia o Divinos, sin necesidad de que el brujo tenga el Gnosis necesario para lanzarlos. El brujo elige si emplea su propia Proyección Mágica o la de quien lanza el conjuro original.",
+    "closedPaths": "Destrucción",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Valor zeónico máximo 100"
+      },
+      "intermediate": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Valor zeónico máximo 150"
+      },
+      "advanced": {
+        "zeonCost": 360,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "Valor zeónico máximo 200"
+      },
+      "arcane": {
+        "zeonCost": 420,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Valor zeónico máximo 250"
+      }
+    }
+  }
+}

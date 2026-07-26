@@ -1,0 +1,48 @@
+{
+  "name": "Desmantelar",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Desmantela un objeto que esté formado por varias partes. Sólo afecta a cosas inanimadas.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 6,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Desmantela un objeto que esté formado por varias partes. Sólo afecta a cosas inanimadas.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 5,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 20"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 40"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 60"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 80"
+      }
+    }
+  }
+}

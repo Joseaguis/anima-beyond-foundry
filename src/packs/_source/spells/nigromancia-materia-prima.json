@@ -1,0 +1,48 @@
+{
+  "name": "Materia prima",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este hechizo genera las energías corruptas que utiliza la magia nigromántica para alzar cadáveres y espectros, permitiendo al lanzador crear de la nada materia prima con la que levantar cadáveres posteriormente. El conjuro forma material nigromántico equivalente a cierta cantidad de cuerpos humanos muertos o, en su defecto, a una cantidad menor de otras criaturas más poderosas.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 92,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este hechizo genera las energías corruptas que utiliza la magia nigromántica para alzar cadáveres y espectros, permitiendo al lanzador crear de la nada materia prima con la que levantar cadáveres posteriormente. El conjuro forma material nigromántico equivalente a cierta cantidad de cuerpos humanos muertos o, en su defecto, a una cantidad menor de otras criaturas más poderosas.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 350,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "1.000 cuerpos humanos"
+      },
+      "intermediate": {
+        "zeonCost": 500,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "10.000 cuerpos humanos"
+      },
+      "advanced": {
+        "zeonCost": 900,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "100.000 cuerpos humanos"
+      },
+      "arcane": {
+        "zeonCost": 1500,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "1.000.000 cuerpos humanos"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "El miedo hecho carne",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El personaje se torna una fuente de miedo, provocando temor a todo tipo de criatura, incluso a aquellas que son inmunes a psicología. Todo aquel que esté en su presencia es sometido automáticamente a miedo, sin resistencia posible, y debe superar un control de RM o RP para no verse sometido además a Terror.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 94,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Umbral",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "El personaje se torna una fuente de miedo, provocando temor a todo tipo de criatura, incluso a aquellas que son inmunes a psicología. Todo aquel que esté en su presencia es sometido automáticamente a miedo, sin resistencia posible, y debe superar un control de RM o RP para no verse sometido además a Terror.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 120"
+      },
+      "intermediate": {
+        "zeonCost": 350,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 140"
+      },
+      "advanced": {
+        "zeonCost": 450,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 200"
+      },
+      "arcane": {
+        "zeonCost": 600,
+        "intRequired": 17,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 240"
+      }
+    }
+  }
+}

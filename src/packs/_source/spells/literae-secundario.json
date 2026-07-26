@@ -1,0 +1,48 @@
+{
+  "name": "Secundario",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea un “personaje” con la personalidad y habilidades que desee el hechicero. Para hacerlo, el lanzador debe de describir en un libro la personalidad, historia y naturaleza de dicho individuo, quien creerá realmente ser lo que el brujo ha descrito para él. Si el libro es destruído, el Secundario desaparecerá. El nivel del Secundario no puede superar el indicado por el grado del sortilegio ni tampoco el nivel del propio hechicero.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 84,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Literae",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea un “personaje” con la personalidad y habilidades que desee el hechicero. Para hacerlo, el lanzador debe de describir en un libro la personalidad, historia y naturaleza de dicho individuo, quien creerá realmente ser lo que el brujo ha descrito para él. Si el libro es destruído, el Secundario desaparecerá. El nivel del Secundario no puede superar el indicado por el grado del sortilegio ni tampoco el nivel del propio hechicero.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 400,
+        "intRequired": 10,
+        "maintenanceCost": 40,
+        "effect": "Nivel 2"
+      },
+      "intermediate": {
+        "zeonCost": 600,
+        "intRequired": 12,
+        "maintenanceCost": 60,
+        "effect": "Nivel 5"
+      },
+      "advanced": {
+        "zeonCost": 800,
+        "intRequired": 14,
+        "maintenanceCost": 80,
+        "effect": "Nivel 7"
+      },
+      "arcane": {
+        "zeonCost": 1200,
+        "intRequired": 17,
+        "maintenanceCost": 120,
+        "effect": "Nivel 10"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Aura de vacío",
+  "type": "kiAbility",
+  "img": "icons/magic/death/skull-energy-light-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Frío existencial a su alrededor: los seres vivos que entren hacen RF contra el doble de su Presencia base o sufren -20 a toda Acción. Activación gratuita.</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 30,
+    "subtype": "nemesisPower",
+    "parent": "Uso del Némesis",
+    "branch": "Némesis",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

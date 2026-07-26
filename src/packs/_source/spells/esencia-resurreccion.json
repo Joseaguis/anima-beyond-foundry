@@ -1,0 +1,48 @@
+{
+  "name": "Resurrección",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro trae del más allá un alma muerta. La dificultad depende del tiempo que transcurra desde que murio. Sólo permite traer el alma, pero no podrá atarla a un cuerpo ni sanarlo. Para hacer una resurrección, debe trasladarse el alma a un cuerpo apropiado mediante Transmigrar el Alma. No es posible resucitar un alma que ya se haya reencarnado o que fuese destruida. Máxima presencia igual a grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 96,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este conjuro trae del más allá un alma muerta. La dificultad depende del tiempo que transcurra desde que murio. Sólo permite traer el alma, pero no podrá atarla a un cuerpo ni sanarlo. Para hacer una resurrección, debe trasladarse el alma a un cuerpo apropiado mediante Transmigrar el Alma. No es posible resucitar un alma que ya se haya reencarnado o que fuese destruida. Máxima presencia igual a grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 400,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 30 / 1 mes"
+      },
+      "intermediate": {
+        "zeonCost": 500,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 60 / 1 año"
+      },
+      "advanced": {
+        "zeonCost": 600,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 120 / 1 década"
+      },
+      "arcane": {
+        "zeonCost": 700,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 150 / 1 siglo"
+      }
+    }
+  }
+}

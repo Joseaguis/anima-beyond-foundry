@@ -1,0 +1,64 @@
+{
+  "name": "Protocolo Defensivo Final Dt-03: Guardián",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Legado De Sólomon",
+    "level": 3,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "defensa-predeterminada",
+        "role": "primary",
+        "options": [
+          "Inhumano (320)"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "escudo-de-energia",
+        "role": "secondary",
+        "options": [
+          "1.000 PV",
+          "Regeneración 500"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "requerimiento",
+        "option": "Sangre antigua"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 95,
+    "bookCost": "DES 22 (7) AGI 22 (7) POD 23 (7)",
+    "bookDistribution": {
+      "dex": {
+        "activation": 22,
+        "upkeep": 7
+      },
+      "agi": {
+        "activation": 22,
+        "upkeep": 7
+      },
+      "pow": {
+        "activation": 23,
+        "upkeep": 7
+      }
+    }
+  }
+}

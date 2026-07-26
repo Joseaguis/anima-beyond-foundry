@@ -1,0 +1,63 @@
+{
+  "name": "Necis",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Magus Abstergo",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+75"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "aumento-de-dano",
+        "role": "secondary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "ataque-especializado",
+        "option": "Parada"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 25,
+    "bookCost": "POD 7 VOL 7 CON 7",
+    "bookDistribution": {
+      "pow": {
+        "activation": 7,
+        "upkeep": 0
+      },
+      "wp": {
+        "activation": 7,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 7,
+        "upkeep": 0
+      }
+    }
+  }
+}

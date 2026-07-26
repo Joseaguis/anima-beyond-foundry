@@ -1,0 +1,48 @@
+{
+  "name": "Desviar trayectoria",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El mago modifica trayectoria de un cuerpo en movimiento, redirigiéndolo. No permite mover un cuerpo estático. Puede ser utilizado como defensa contra ataques materiales, como espadazos o proyectiles. En el caso de que el mago consiga una defensa con éxito con su Proyección Mágica, podrá redirigirlo hacia otro adversario. Este conjuro puede evitarse, superando una RM (en caso de usarse como defensa, será el atacante quien deba superar la Resistencia)</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 72,
+    "actionType": "passive",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El mago modifica trayectoria de un cuerpo en movimiento, redirigiéndolo. No permite mover un cuerpo estático. Puede ser utilizado como defensa contra ataques materiales, como espadazos o proyectiles. En el caso de que el mago consiga una defensa con éxito con su Proyección Mágica, podrá redirigirlo hacia otro adversario. Este conjuro puede evitarse, superando una RM (en caso de usarse como defensa, será el atacante quien deba superar la Resistencia)",
+    "closedPaths": "Fuego",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "RM 140"
+      },
+      "intermediate": {
+        "zeonCost": 160,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "RM 160"
+      },
+      "advanced": {
+        "zeonCost": 220,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "RM 200"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "RM 240"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Atraer alimañas menores",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Invoca una masa de alimañas (sapos, lagartijas, avispas, insectos…) hasta el lugar que designe el hechicero. Su aparición no es automática, pero son atraídas de inmediato desde la zona más cercana a donde se encuentran. El sortilegio no otorga ningún control sobre los seres. El lanzador determina que clase de alimañas son las que atrae.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 12,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Invoca una masa de alimañas (sapos, lagartijas, avispas, insectos…) hasta el lugar que designe el hechicero. Su aparición no es automática, pero son atraídas de inmediato desde la zona más cercana a donde se encuentran. El sortilegio no otorga ningún control sobre los seres. El lanzador determina que clase de alimañas son las que atrae.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Atrae hasta a quinientos seres"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 9,
+        "maintenanceCost": 5,
+        "effect": "Atrae hasta diez mil seres"
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 11,
+        "maintenanceCost": 10,
+        "effect": "Atrae hasta cien mil seres"
+      },
+      "arcane": {
+        "zeonCost": 180,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "Atrae a varios millones de seres"
+      }
+    }
+  }
+}

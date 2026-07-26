@@ -1,0 +1,16 @@
+{
+  "name": "Crioquinesis",
+  "type": "psychicDiscipline",
+  "img": "icons/magic/control/energy-stream-link-blue.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "situationalModifier": "",
+    "affinityCost": 1,
+    "effect": ""
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Transporte rápido",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Transporta al blanco del conjuro a distancia. Este conjuro permite pasar a través de cuerpos físicos, siempre que no se encuentren basados en energía, pero no situar a sus objetivos en una superficie de naturaleza diferente a aquella en la que se encontrara (por ejemplo, haciendo aparecer a alguien en el aire)</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 42,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Transporta al blanco del conjuro a distancia. Este conjuro permite pasar a través de cuerpos físicos, siempre que no se encuentren basados en energía, pero no situar a sus objetivos en una superficie de naturaleza diferente a aquella en la que se encontrara (por ejemplo, haciendo aparecer a alguien en el aire)",
+    "closedPaths": "Tierra",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "25 metros"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "100 metros"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "200 metros"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "350 metros"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Uno con la nada",
+  "type": "kiAbility",
+  "img": "icons/magic/death/skull-energy-light-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Cuerpo y energía se funden por completo: nunca sufre penalizadores por causas físicas y anula los Críticos (salvo puntos vulnerables).</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 40,
+    "subtype": "nemesisPower",
+    "parent": "Esencia de vacío",
+    "branch": "Némesis",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

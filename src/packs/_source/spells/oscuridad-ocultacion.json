@@ -1,0 +1,48 @@
+{
+  "name": "Ocultación",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Oculta la presencia del hechicero o del blanco designado por éste ante cualquier tipo de detección. A efectos de juego, aumenta en las Resistencias contra detecciones sobrenaturales, ya sean místicas o psíquicas. Esta habilidad también aumenta la Ocultación del Ki del personaje (aunque este aumento no se contabiliza a la hora de determinar los bonos aplicables a la RM), permitiéndole esconder su energía incluso si no ha desarrollado dicha habilidad</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 32,
+    "actionType": "passive",
+    "maintenanceType": "daily",
+    "magicPath": "Oscuridad",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Oculta la presencia del hechicero o del blanco designado por éste ante cualquier tipo de detección. A efectos de juego, aumenta en las Resistencias contra detecciones sobrenaturales, ya sean místicas o psíquicas. Esta habilidad también aumenta la Ocultación del Ki del personaje (aunque este aumento no se contabiliza a la hora de determinar los bonos aplicables a la RM), permitiéndole esconder su energía incluso si no ha desarrollado dicha habilidad",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "+50 a la RM o RP / +50 Ocultación del Ki"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "+140 a la RM o RP / +150 Ocultación del Ki"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "+220 a la RM o RP / +200 Ocultación del Ki"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "+280 a la RM o RP / +250 Ocultación del Ki"
+      }
+    }
+  }
+}

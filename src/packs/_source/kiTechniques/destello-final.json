@@ -1,0 +1,72 @@
+{
+  "name": "Destello Final",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Basis",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "aumento-de-dano",
+        "role": "secondary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-con-area",
+        "role": "secondary",
+        "options": [
+          "25 metros de radio"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 50,
+    "bookCost": "DES 5 FUE 6 CON 6 POD 3",
+    "bookDistribution": {
+      "dex": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "str": {
+        "activation": 6,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 6,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 3,
+        "upkeep": 0
+      }
+    }
+  }
+}

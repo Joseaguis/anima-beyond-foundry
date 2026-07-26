@@ -1,0 +1,48 @@
+{
+  "name": "Señor de las aguas",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Otorga el control de las sustancias líquidas en un radio de 100 km. Puede alterar libremente los océanos, ríos y lagos de cualquier magnitud, moldeándolos a su antojo. Toda criatura basada en agua que se encuentre dentro del área del conjuro, deberá superar una RM o será controlada por el mago. Si la pasan, ya no necesitan volver a realizar el control. Los afectados tienen derecho a una nueva tirada únicamente si alteran su Resistencia base.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 96,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Agua",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Otorga el control de las sustancias líquidas en un radio de 100 km. Puede alterar libremente los océanos, ríos y lagos de cualquier magnitud, moldeándolos a su antojo. Toda criatura basada en agua que se encuentre dentro del área del conjuro, deberá superar una RM o será controlada por el mago. Si la pasan, ya no necesitan volver a realizar el control. Los afectados tienen derecho a una nueva tirada únicamente si alteran su Resistencia base.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 300,
+        "intRequired": 10,
+        "maintenanceCost": 30,
+        "effect": "100 kilómetros de radio / 140 RM."
+      },
+      "intermediate": {
+        "zeonCost": 450,
+        "intRequired": 12,
+        "maintenanceCost": 45,
+        "effect": "1.000 kilómetros de radio / 180 RM."
+      },
+      "advanced": {
+        "zeonCost": 600,
+        "intRequired": 15,
+        "maintenanceCost": 60,
+        "effect": "10.000 kilómetros de radio / 200 RM."
+      },
+      "arcane": {
+        "zeonCost": 1000,
+        "intRequired": 18,
+        "maintenanceCost": 100,
+        "effect": "Afecta cualquier sustancia líquida existente / 240 RM."
+      }
+    }
+  }
+}

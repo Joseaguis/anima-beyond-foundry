@@ -1,0 +1,48 @@
+{
+  "name": "Mostrar lo invisible",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Muestra cualquier fuerza o presencia invisible, exhibiéndola a la vista de todo el mundo. Este conjuro revela tanto efectos sobrenaturales como seres de naturaleza espiritual o completamente invisibles. Las criaturas afectadas podrán evitar manifestarse superando una RM. La condición consiste, simplemente, en encontrarse dentro del área del hechizo</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 42,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Muestra cualquier fuerza o presencia invisible, exhibiéndola a la vista de todo el mundo. Este conjuro revela tanto efectos sobrenaturales como seres de naturaleza espiritual o completamente invisibles. Las criaturas afectadas podrán evitar manifestarse superando una RM. La condición consiste, simplemente, en encontrarse dentro del área del hechizo",
+    "closedPaths": "Oscuridad",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Radio de 25 metros / RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 5,
+        "effect": "Radio de 50 metros / RM 160"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "Radio de 100 metros / RM 200"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 10,
+        "effect": "Radio de 250 metros / RM 240"
+      }
+    }
+  }
+}

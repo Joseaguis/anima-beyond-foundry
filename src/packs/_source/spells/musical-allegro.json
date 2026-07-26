@@ -1,0 +1,48 @@
+{
+  "name": "Allegro",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea la más hermosa melodía imaginable, que atonta y embelesa a quienes la escuchar.  Todo aquel que se encuentre alrededor del hechicero debe superar cada dos asaltos un control de RM o quedará fascinado, siendo incapaz de realizar acciones activas por su propia voluntad. Los objetivos incapaces de oír son inmunes a este hechizo y si alguien esccha parcialmente la melodía obtiene un +40 a la tirada de resistencia.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 54,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Musical",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Crea la más hermosa melodía imaginable, que atonta y embelesa a quienes la escuchar.  Todo aquel que se encuentre alrededor del hechicero debe superar cada dos asaltos un control de RM o quedará fascinado, siendo incapaz de realizar acciones activas por su propia voluntad. Los objetivos incapaces de oír son inmunes a este hechizo y si alguien esccha parcialmente la melodía obtiene un +40 a la tirada de resistencia.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 7,
+        "maintenanceCost": 5,
+        "effect": "120 RM/ 10 metros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 160,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "140 RM/ 25 metros de radio"
+      },
+      "advanced": {
+        "zeonCost": 220,
+        "intRequired": 11,
+        "maintenanceCost": 15,
+        "effect": "160 RM/ 50 metros de radio"
+      },
+      "arcane": {
+        "zeonCost": 280,
+        "intRequired": 13,
+        "maintenanceCost": 20,
+        "effect": "180 RM/ 100 metros de radio"
+      }
+    }
+  }
+}

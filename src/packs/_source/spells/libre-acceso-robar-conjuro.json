@@ -1,0 +1,48 @@
+{
+  "name": "Robar conjuro",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Sustrae la esencia mágica de un hechizo, cortando sus lazos con el mago que lo ha lanzado y ligándolo a otro. El mago toma un conjuro que no es suyo, dominándolo a partir de ese momento como si él mismo fuese el lanzadorSólo es posible robar aquellos que tengan mantenimiento; nunca los de acción automática. El hechicero que controla el conjuro podrá evitar que le sea robado superando una RM</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 82,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Sustrae la esencia mágica de un hechizo, cortando sus lazos con el mago que lo ha lanzado y ligándolo a otro. El mago toma un conjuro que no es suyo, dominándolo a partir de ese momento como si él mismo fuese el lanzadorSólo es posible robar aquellos que tengan mantenimiento; nunca los de acción automática. El hechicero que controla el conjuro podrá evitar que le sea robado superando una RM",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Valor zeónico máximo 120 / RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 280,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Valor zeónico máximo 180 / RM 140"
+      },
+      "advanced": {
+        "zeonCost": 340,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "Valor zeónico máximo 240 / RM 160"
+      },
+      "arcane": {
+        "zeonCost": 400,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Valor zeónico máximo 300 / RM 180"
+      }
+    }
+  }
+}

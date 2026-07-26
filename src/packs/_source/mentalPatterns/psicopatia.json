@@ -1,0 +1,16 @@
+{
+  "name": "Psicopatía",
+  "type": "mentalPattern",
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Si para los mentalistas su mente es su herramienta, para aquellos que desarrollan un Patrón de psicopatía todo el mundo es una herramienta que usar y romper. Son personas incapaces de sentir culpa, pena o tristeza y pierden por completo toda capacidad empática, centrando sus poderes en dañar a quienes les rodean. Un psicópata no es necesariamente un asesino: puede ser simpático y de apariencia sensata, pero no dudará en cometer un crimen cuando le convenga, sin sentir la más mínima culpa por ello. Su principal característica es su incapacidad de vincularse a otros seres y tratar de comprenderlos.</p><p><em>Sus matrices son muy angulosas, llenas de picos y esquinas.</em></p>",
+      "chat": ""
+    },
+    "source": "Arcana Exxet",
+    "rules": [],
+    "effect": "Bonos: +20 a la Proyección Psíquica y +30 al Potencial Psíquico para dañar o manipular a una persona de manera perjudicial. Cualquier ataque que ejecute aplica +10 a su daño base. Además, +40 a Frialdad.\nPenalizadores: todos los poderes que le permitan vincularse a la mente o los sentimientos de otros (como todos los de Sentiente o la mayoría de Telepatía) aplican −80 a su Potencial; los que no tengan como finalidad dañar o utilizar a otros aplican −20 al potencial. Además, −100 a cualquier tirada relacionada con una acción social.\nPatrones Mentales Opuestos: Compasión.\nCoste: 30 PD / 40 PD. Coste de Cancelación: 10 PD.",
+    "dpCost": 30,
+    "modifier": "+30 Pot. y +20 Proy. al dañar / −100 social"
+  }
+}

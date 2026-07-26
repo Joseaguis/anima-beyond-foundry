@@ -1,0 +1,48 @@
+{
+  "name": "Crear luz",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea una fuente de luz en un punto u objeto determinado por el hechicero</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 2,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Luz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea una fuente de luz en un punto u objeto determinado por el hechicero",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 20,
+        "intRequired": 5,
+        "maintenanceCost": 5,
+        "effect": "5 metros de zona iluminada"
+      },
+      "intermediate": {
+        "zeonCost": 50,
+        "intRequired": 8,
+        "maintenanceCost": 5,
+        "effect": "25 metros de zona iluminada"
+      },
+      "advanced": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "100 metros de zona iluminada"
+      },
+      "arcane": {
+        "zeonCost": 200,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "500 metros de zona iluminada"
+      }
+    }
+  }
+}

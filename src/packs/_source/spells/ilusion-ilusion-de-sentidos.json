@@ -1,0 +1,48 @@
+{
+  "name": "Ilusión de sentidos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El mago puede hacer creer cualquier cosa a alguien.Si, por ejemplo, utiliza el conjuro para hacerle pensar que no tiene brazos ni piernas, deja de sentir sus extremidades y cae al suelo pensando que las ha perdido. Si se le dice que está muerto, caerá inconsciente automáticamente. El personaje afectado no tendrá derecho a una nueva Resistencia, salvo si tiene la convicción de que es víctima de un engaño.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 86,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Ilusión",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "El mago puede hacer creer cualquier cosa a alguien.Si, por ejemplo, utiliza el conjuro para hacerle pensar que no tiene brazos ni piernas, deja de sentir sus extremidades y cae al suelo pensando que las ha perdido. Si se le dice que está muerto, caerá inconsciente automáticamente. El personaje afectado no tendrá derecho a una nueva Resistencia, salvo si tiene la convicción de que es víctima de un engaño.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 20,
+        "effect": "RM o RP 120."
+      },
+      "intermediate": {
+        "zeonCost": 250,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "RM o RP 150"
+      },
+      "advanced": {
+        "zeonCost": 300,
+        "intRequired": 14,
+        "maintenanceCost": 30,
+        "effect": "RM o RP 190"
+      },
+      "arcane": {
+        "zeonCost": 350,
+        "intRequired": 16,
+        "maintenanceCost": 35,
+        "effect": "RM o RP 220"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Ilusión sonora",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Forma un sonido ilusorio, que el hechicero compondrá con completa libertad. Podría crear, por ejemplo, voces humanas o el ruido de un arroyo. El conjuro afectará a aquellos sujetos que no superen una RM. El hechicero puede elegir quién escucha el sonido dentro del área y quién no.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 2,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Ilusión",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Forma un sonido ilusorio, que el hechicero compondrá con completa libertad. Podría crear, por ejemplo, voces humanas o el ruido de un arroyo. El conjuro afectará a aquellos sujetos que no superen una RM. El hechicero puede elegir quién escucha el sonido dentro del área y quién no.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 5,
+        "maintenanceCost": 5,
+        "effect": "RM 100 / radio de 20 metros"
+      },
+      "intermediate": {
+        "zeonCost": 50,
+        "intRequired": 8,
+        "maintenanceCost": 5,
+        "effect": "RM 120 / radio de 50 metros"
+      },
+      "advanced": {
+        "zeonCost": 90,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "RM 140 / radio de 100 metros"
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "RM 160 / radio de 250 metros"
+      }
+    }
+  }
+}

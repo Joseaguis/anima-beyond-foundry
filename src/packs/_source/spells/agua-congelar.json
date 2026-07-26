@@ -1,0 +1,48 @@
+{
+  "name": "Congelar",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Provoca un intenso frío sobre una o varias personas, congelando sus cuerpos al tiempo que los encierra en prisiones de hielo. Si se concentra sobre un único antagonista, aumenta el valor de la Resistencia 20 puntos. Dependiendo del nivel de fracaso del control, las consecuencias del conjuro son distintas. Si la diferencia es menor de 20, el efecto es parálisis menor; si es menor de 80, de parálisis normal, y si es superior, parálisis completa.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 32,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Agua",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Provoca un intenso frío sobre una o varias personas, congelando sus cuerpos al tiempo que los encierra en prisiones de hielo. Si se concentra sobre un único antagonista, aumenta el valor de la Resistencia 20 puntos. Dependiendo del nivel de fracaso del control, las consecuencias del conjuro son distintas. Si la diferencia es menor de 20, el efecto es parálisis menor; si es menor de 80, de parálisis normal, y si es superior, parálisis completa.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "RM 120 / 5 metros de radio."
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "RM 140/ 10 metros de radio."
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "RM 160 / 25 metros de radio."
+      },
+      "arcane": {
+        "zeonCost": 220,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "RM 180 / 50 metros de radio."
+      }
+    }
+  }
+}

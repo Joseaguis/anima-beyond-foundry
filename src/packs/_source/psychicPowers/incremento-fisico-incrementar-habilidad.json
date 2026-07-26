@@ -1,0 +1,64 @@
+{
+  "name": "Incrementar habilidad",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Incremento Físico",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "medium",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Destreza o Agilidad +1"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Destreza o Agilidad +2"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Destreza o Agilidad +3"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Destreza o Agilidad +4"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Destreza o Agilidad +5"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Destreza o Agilidad +6"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Destreza o Agilidad +8"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Destreza o Agilidad +10"
+      }
+    ],
+    "effect": ""
+  }
+}

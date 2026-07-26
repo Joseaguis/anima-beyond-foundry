@@ -1,0 +1,48 @@
+{
+  "name": "Arma mágica",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El brujo elabora con su magia un arma sobrenatural. La creación será considerada un objeto de la calidad determinada por el grado del sortilegio con la habilidad de dañar energía</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 62,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El brujo elabora con su magia un arma sobrenatural. La creación será considerada un objeto de la calidad determinada por el grado del sortilegio con la habilidad de dañar energía",
+    "closedPaths": "Destrucción",
+    "grades": {
+      "base": {
+        "zeonCost": 140,
+        "intRequired": 9,
+        "maintenanceCost": 15,
+        "effect": "Calidad +5"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 11,
+        "maintenanceCost": 20,
+        "effect": "Calidad +10"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 14,
+        "maintenanceCost": 25,
+        "effect": "Calidad +15"
+      },
+      "arcane": {
+        "zeonCost": 280,
+        "intRequired": 16,
+        "maintenanceCost": 30,
+        "effect": "Calidad +20"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Mente de vida",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El mago conecta su esencia con la mente de todo ser vivo con Gnosis entre 0 y 10 dentro del area. Podrá sentir lo que hay alrededor utilizando la percepción de estos. Puede lanzar conjuros con la mitad de ACT como si estuviese allí, pero los conjuros Anímicos sobre el cuerpo en que está lo afectan. Se puede evitar la posesión con RM, una vez que pasa el control, ya no puede ser afectado. Una persona no se da cuenta de que está siendo utilizada de este modo.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 42,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "El mago conecta su esencia con la mente de todo ser vivo con Gnosis entre 0 y 10 dentro del area. Podrá sentir lo que hay alrededor utilizando la percepción de estos. Puede lanzar conjuros con la mitad de ACT como si estuviese allí, pero los conjuros Anímicos sobre el cuerpo en que está lo afectan. Se puede evitar la posesión con RM, una vez que pasa el control, ya no puede ser afectado. Una persona no se da cuenta de que está siendo utilizada de este modo.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 7,
+        "maintenanceCost": 10,
+        "effect": "RM 80 / 500 metros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "RM 120 / 1 kilómetro de radio"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "RM 140 / 2 kilómetros de radio"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "RM 180 / 3 kilómetros de radio"
+      }
+    }
+  }
+}

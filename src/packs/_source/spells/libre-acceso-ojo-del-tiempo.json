@@ -1,0 +1,48 @@
+{
+  "name": "Ojo del tiempo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El brujo puede enviar sus sentidos al pasado, para observar cualquier acontecimiento que haya ocurrido tiempo atrás en el lugar donde se encuentra como si estuviera presente. El lanzador puede avanzar y retroceder libremente al momento que desee dentro del periodo que le permite el grado del conjuro</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 92,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El brujo puede enviar sus sentidos al pasado, para observar cualquier acontecimiento que haya ocurrido tiempo atrás en el lugar donde se encuentra como si estuviera presente. El lanzador puede avanzar y retroceder libremente al momento que desee dentro del periodo que le permite el grado del conjuro",
+    "closedPaths": "Oscuridad",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 11,
+        "maintenanceCost": 10,
+        "effect": "Una década"
+      },
+      "intermediate": {
+        "zeonCost": 300,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "Un siglo"
+      },
+      "advanced": {
+        "zeonCost": 400,
+        "intRequired": 15,
+        "maintenanceCost": 20,
+        "effect": "Una milenio"
+      },
+      "arcane": {
+        "zeonCost": 500,
+        "intRequired": 17,
+        "maintenanceCost": 25,
+        "effect": "Cualquier periodo de tiempo"
+      }
+    }
+  }
+}

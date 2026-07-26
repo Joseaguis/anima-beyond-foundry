@@ -1,0 +1,48 @@
+{
+  "name": "Paralizar",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Somete al efecto de Paralización Completa a cualquier sujeto que se encuentre en el área de acción del conjuro y falle la RM</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 62,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Somete al efecto de Paralización Completa a cualquier sujeto que se encuentre en el área de acción del conjuro y falle la RM",
+    "closedPaths": "Aire",
+    "grades": {
+      "base": {
+        "zeonCost": 140,
+        "intRequired": 8,
+        "maintenanceCost": 15,
+        "effect": "10 metros de Radio / RM 80"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "25 metros de Radio / RM 100"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 13,
+        "maintenanceCost": 25,
+        "effect": "50 metros de Radio / RM 120"
+      },
+      "arcane": {
+        "zeonCost": 280,
+        "intRequired": 16,
+        "maintenanceCost": 30,
+        "effect": "100 metros de Radio / RM 140"
+      }
+    }
+  }
+}

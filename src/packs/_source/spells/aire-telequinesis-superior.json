@@ -1,0 +1,48 @@
+{
+  "name": "Telequinesis superior",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro permite al brujo mover a distancia cualquier cuerpo material, orgánico o inorgánico, sin la necesidad de que exista contacto físico con ellos y dotándoles de una velocidad equivalente a un Tipo de vuelo 10. Los seres vivos o criaturas de presencia sobrenatural excepcional podrán resistirse si superan una RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 86,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Aire",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este conjuro permite al brujo mover a distancia cualquier cuerpo material, orgánico o inorgánico, sin la necesidad de que exista contacto físico con ellos y dotándoles de una velocidad equivalente a un Tipo de vuelo 10. Los seres vivos o criaturas de presencia sobrenatural excepcional podrán resistirse si superan una RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 160,
+        "intRequired": 10,
+        "maintenanceCost": 35,
+        "effect": "RM 100 / 100 toneladas"
+      },
+      "intermediate": {
+        "zeonCost": 280,
+        "intRequired": 12,
+        "maintenanceCost": 40,
+        "effect": "RM 120 / 10000 toneladas"
+      },
+      "advanced": {
+        "zeonCost": 400,
+        "intRequired": 14,
+        "maintenanceCost": 50,
+        "effect": "RM 140 / 250000 toneladas"
+      },
+      "arcane": {
+        "zeonCost": 550,
+        "intRequired": 16,
+        "maintenanceCost": 60,
+        "effect": "RM 160 / 500000 toneladas"
+      }
+    }
+  }
+}

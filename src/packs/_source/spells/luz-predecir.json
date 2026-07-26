@@ -1,0 +1,48 @@
+{
+  "name": "Predecir",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite vislumbrar acontecimientos futuros que se desarrollarán alrededor de una persona, objeto o lugar. Muestra lo más probable que ocurra, dándo información detallada. El tiempo no puede ser superior al Grado del conjuro. El DJ debe explicar al mago cuáles serán los sucesos que acontecerán probablemente, aunque estos pueden ser modificados por fuerzas mayores o individuos con Gnosis muy superior a su Natura.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 90,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Luz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Permite vislumbrar acontecimientos futuros que se desarrollarán alrededor de una persona, objeto o lugar. Muestra lo más probable que ocurra, dándo información detallada. El tiempo no puede ser superior al Grado del conjuro. El DJ debe explicar al mago cuáles serán los sucesos que acontecerán probablemente, aunque estos pueden ser modificados por fuerzas mayores o individuos con Gnosis muy superior a su Natura.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Un año"
+      },
+      "intermediate": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Cinco años"
+      },
+      "advanced": {
+        "zeonCost": 450,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "Cincuenta años / Si ocurrirá en menos de un día, será muy exacta"
+      },
+      "arcane": {
+        "zeonCost": 600,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Un siglo / Si ocurrirá en menos de un año, será bastante exacta."
+      }
+    }
+  }
+}

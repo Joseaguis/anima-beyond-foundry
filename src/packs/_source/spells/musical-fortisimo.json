@@ -1,0 +1,48 @@
+{
+  "name": "Fortísimo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El hechicero obtiene un control absoluto sobre cualquier sonido que sea producido en el área de influencia determinada por el grado del conjuro, pudiendo alterarlo, incrementar su potencia o hacerlo competamente imperceptible. Salvo si el sonido como tal tiene presencia propia o es producido por un ser con Gnosis 40 o superior, no es posible de ningún modo evitar los efectos de este sortilegio.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 74,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Musical",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El hechicero obtiene un control absoluto sobre cualquier sonido que sea producido en el área de influencia determinada por el grado del conjuro, pudiendo alterarlo, incrementar su potencia o hacerlo competamente imperceptible. Salvo si el sonido como tal tiene presencia propia o es producido por un ser con Gnosis 40 o superior, no es posible de ningún modo evitar los efectos de este sortilegio.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "10 metros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 15,
+        "effect": "25 metros de radio"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 20,
+        "effect": "50 metros de radio"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 14,
+        "maintenanceCost": 30,
+        "effect": "100 metros de radio"
+      }
+    }
+  }
+}

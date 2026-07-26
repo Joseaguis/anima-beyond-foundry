@@ -1,0 +1,20 @@
+{
+  "name": "Restituir a otros",
+  "type": "kiAbility",
+  "img": "icons/magic/life/heart-cross-strong-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite usar Recuperación sobre otros individuos (mismo coste y límite de 1 por asalto).</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 10,
+    "subtype": "kiPower",
+    "parent": "Recuperación",
+    "branch": "Uso de la energía necesaria",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Destrucción de zeon",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Afecta directamente a la esencia de la magia y es capaz de disipar el poder de otro sortilegio activo, disminuyendo su grado y valor zeónico. Si el hechizo queda mermado hasta una cantidad menor que el coste de su grado base, desaparece.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 86,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Afecta directamente a la esencia de la magia y es capaz de disipar el poder de otro sortilegio activo, disminuyendo su grado y valor zeónico. Si el hechizo queda mermado hasta una cantidad menor que el coste de su grado base, desaparece.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "-50 al Zeon del Conjuro / Sólo afecta a conjuros de grado base"
+      },
+      "intermediate": {
+        "zeonCost": 400,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "-150 al Zeon del Conjuro/ Afecta a conjuros hasta grado Intermedio"
+      },
+      "advanced": {
+        "zeonCost": 600,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "-250 al Zeon del Conjuro/ Afecta a conjuros hasta grado Avanzado"
+      },
+      "arcane": {
+        "zeonCost": 700,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "-350 al Zeon del Conjuro/ Afecta a conjuros hasta grado arcano"
+      }
+    }
+  }
+}

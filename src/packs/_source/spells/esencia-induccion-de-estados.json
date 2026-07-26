@@ -1,0 +1,48 @@
+{
+  "name": "Inducción de estados",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Mediante la manipulación del alma, se imbuye al objetivo del conjuro de cualquiera de los estados genéricos descritos en el Capítulo 14, con excepción de Muerte. El brujo elige cúal desea provocar en el momento de lanzar el hechizo, cuya duración dependerá de las reglas generales en cada caso. Para resistirse, es necesario superar una RM. Si los estados inducidos son Coma o Paralización Completa, el afectado puede añadir un bono de +40 a su RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 60,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Mediante la manipulación del alma, se imbuye al objetivo del conjuro de cualquiera de los estados genéricos descritos en el Capítulo 14, con excepción de Muerte. El brujo elige cúal desea provocar en el momento de lanzar el hechizo, cuya duración dependerá de las reglas generales en cada caso. Para resistirse, es necesario superar una RM. Si los estados inducidos son Coma o Paralización Completa, el afectado puede añadir un bono de +40 a su RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "RM 100"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM 140"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM 180"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM 200"
+      }
+    }
+  }
+}

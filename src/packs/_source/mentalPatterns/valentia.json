@@ -1,0 +1,16 @@
+{
+  "name": "Valentía",
+  "type": "mentalPattern",
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Los mentalistas que desarrollan el Patrón de Valentía son individuos que no tienen sentido del peligro personal. Se consideran invencibles, capaces de hacer cualquier cosa y de superar cualquier prueba. En consecuencia, sus matrices tienen un poder superior cuando se arriesgan o se enfrentan a imposibles.</p><p><em>Sus matrices son grandes y rectas.</em></p>",
+      "chat": ""
+    },
+    "source": "Arcana Exxet",
+    "rules": [],
+    "effect": "Bonos: +30 a la Proyección Psíquica ofensiva, e incrementa automáticamente un grado el nivel de dificultad alcanzado (siempre que no haya obtenido un resultado de Fatiga) al usar poderes de ataque.\nPenalizadores: −20 a su Proyección Psíquica defensiva. Además, −40 a toda acción enfocada a escapar de un combate o un reto.\nPatrones Mentales Opuestos: Cobardía.\nCoste: 30 PD / 40 PD. Coste de Cancelación: 10 PD.",
+    "dpCost": 30,
+    "modifier": "+30 Proy. ofensiva / −20 Proy. defensiva"
+  }
+}

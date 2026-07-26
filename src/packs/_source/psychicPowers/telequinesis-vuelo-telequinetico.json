@@ -1,0 +1,64 @@
+{
+  "name": "Vuelo telequinético",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Telequinesis",
+    "powerLevel": 2,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "hard",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Tipo de vuelo 6"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Tipo de vuelo 8"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Tipo de vuelo 10"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Tipo de vuelo 12"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Tipo de vuelo 14"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Tipo de vuelo 16"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Tipo de vuelo 18"
+      }
+    ],
+    "effect": ""
+  }
+}

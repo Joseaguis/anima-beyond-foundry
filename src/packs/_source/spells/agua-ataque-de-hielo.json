@@ -1,0 +1,48 @@
+{
+  "name": "Ataque de hielo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Produce una potente descarga de hielo capaz de dañar energía. El lanzador puede elegir libremente entre atacar en Frío o en Penetrantes.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 42,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Agua",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "Produce una potente descarga de hielo capaz de dañar energía. El lanzador puede elegir libremente entre atacar en Frío o en Penetrantes.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "Daño 100."
+      },
+      "intermediate": {
+        "zeonCost": 160,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "Daño 150."
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Daño 200."
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "Daño 250."
+      }
+    }
+  }
+}

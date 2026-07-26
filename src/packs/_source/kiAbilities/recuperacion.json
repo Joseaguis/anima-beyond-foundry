@@ -1,0 +1,20 @@
+{
+  "name": "Recuperación",
+  "type": "kiAbility",
+  "img": "icons/magic/life/heart-cross-strong-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Recupera Cansancio con Ki: 1 punto de Cansancio por cada 5 de Ki genérico, máximo 1 por turno.</p>",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "rules": [],
+    "mkCost": 20,
+    "subtype": "kiPower",
+    "parent": "Eliminación de penalizadores",
+    "branch": "Uso de la energía necesaria",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

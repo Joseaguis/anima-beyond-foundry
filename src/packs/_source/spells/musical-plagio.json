@@ -1,0 +1,48 @@
+{
+  "name": "Plagio",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Proporciona al mago la capacidad artística necesaria para efectuar una interpretación de algún tipo de composición musical, ya sea tocando un instrumento o cantando. El hechicero deberá conocer o haber escuchado, aunque sea de forma incompleta, la pieza que desea representar. Al hacerlo, el personaje tiene el equivalente a una habilidad de Música determinado por el grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 24,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Musical",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Proporciona al mago la capacidad artística necesaria para efectuar una interpretación de algún tipo de composición musical, ya sea tocando un instrumento o cantando. El hechicero deberá conocer o haber escuchado, aunque sea de forma incompleta, la pieza que desea representar. Al hacerlo, el personaje tiene el equivalente a una habilidad de Música determinado por el grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "120 Música"
+      },
+      "intermediate": {
+        "zeonCost": 70,
+        "intRequired": 8,
+        "maintenanceCost": 5,
+        "effect": "180 Música"
+      },
+      "advanced": {
+        "zeonCost": 80,
+        "intRequired": 10,
+        "maintenanceCost": 5,
+        "effect": "240 Música"
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "280 Música"
+      }
+    }
+  }
+}

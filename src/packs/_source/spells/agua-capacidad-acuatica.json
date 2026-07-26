@@ -1,0 +1,48 @@
+{
+  "name": "Capacidad acuática",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Confiere la capacidad de respirar y moverse libremente por ambientes acuáticos. El personaje sobre el que se lance podrá trasladarse con su máximo Tipo de movimiento en dichos medios, respirando líquidos y resistiendo cualquier clase de presión. Puede afectar a tantos blancos como desee el brujo, siempre que la suma de sus presencias no supere lo que determine el grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 10,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Agua",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Confiere la capacidad de respirar y moverse libremente por ambientes acuáticos. El personaje sobre el que se lance podrá trasladarse con su máximo Tipo de movimiento en dichos medios, respirando líquidos y resistiendo cualquier clase de presión. Puede afectar a tantos blancos como desee el brujo, siempre que la suma de sus presencias no supere lo que determine el grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 5,
+        "maintenanceCost": 10,
+        "effect": "Presencia máxima 50."
+      },
+      "intermediate": {
+        "zeonCost": 70,
+        "intRequired": 8,
+        "maintenanceCost": 20,
+        "effect": "Presencia máxima 100."
+      },
+      "advanced": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 20,
+        "effect": "Presencia máxima 200."
+      },
+      "arcane": {
+        "zeonCost": 140,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "Presencia máxima 350."
+      }
+    }
+  }
+}

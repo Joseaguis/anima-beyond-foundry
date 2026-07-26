@@ -1,0 +1,48 @@
+{
+  "name": "El magistrado",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El mago es juez dentro del area. Puede vetar acción activa de gente, evitando lo que no quiera. No es capaz de someter a nadie a su voluntad. La prohibición es una acción pasiva. El mago debe ser consciente de lo que desea vetar. Cada vez que se quiera hacer algo prohíbido superar RM. Si  alguien consigue superar RM, no se verá totalmente libre, ya que en el siguiente asalto volverá a someterse si no supera otro control. El área permanece estática.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 92,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "El mago es juez dentro del area. Puede vetar acción activa de gente, evitando lo que no quiera. No es capaz de someter a nadie a su voluntad. La prohibición es una acción pasiva. El mago debe ser consciente de lo que desea vetar. Cada vez que se quiera hacer algo prohíbido superar RM. Si  alguien consigue superar RM, no se verá totalmente libre, ya que en el siguiente asalto volverá a someterse si no supera otro control. El área permanece estática.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 450,
+        "intRequired": 12,
+        "maintenanceCost": 45,
+        "effect": "50 metros de radio / RM 140"
+      },
+      "intermediate": {
+        "zeonCost": 600,
+        "intRequired": 14,
+        "maintenanceCost": 60,
+        "effect": "100 metros de radio / RM 180"
+      },
+      "advanced": {
+        "zeonCost": 800,
+        "intRequired": 16,
+        "maintenanceCost": 80,
+        "effect": "500 metros de radio / RM 220"
+      },
+      "arcane": {
+        "zeonCost": 1000,
+        "intRequired": 18,
+        "maintenanceCost": 100,
+        "effect": "1 kilómetro de radio / RM 260"
+      }
+    }
+  }
+}

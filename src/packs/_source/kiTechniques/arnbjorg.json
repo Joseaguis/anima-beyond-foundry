@@ -1,0 +1,83 @@
+{
+  "name": "Arnbjorg",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Frostkolier",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-parada",
+        "role": "primary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "habilidad-de-contraataque",
+        "role": "secondary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-indirecto",
+        "role": "secondary",
+        "options": [
+          "Nv 2"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-adicional-limitado",
+        "role": "secondary",
+        "options": [
+          "+1"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "atadura-elemental",
+        "option": "Agua"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 45,
+    "bookCost": "DES 11 CON 11 POD 11",
+    "bookDistribution": {
+      "dex": {
+        "activation": 11,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 11,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 11,
+        "upkeep": 0
+      }
+    }
+  }
+}

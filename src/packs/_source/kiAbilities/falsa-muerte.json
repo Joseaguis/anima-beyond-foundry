@@ -1,0 +1,20 @@
+{
+  "name": "Falsa muerte",
+  "type": "kiAbility",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Entra en un coma similar a la muerte (sin respiración ni latido). Descubrirlo exige Medicina a Imposible; requiere un turno para reactivarse.</p>",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "rules": [],
+    "mkCost": 10,
+    "subtype": "kiPower",
+    "parent": "Ocultación del Ki",
+    "branch": "Uso de la energía necesaria",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

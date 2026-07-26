@@ -1,0 +1,20 @@
+{
+  "name": "Aumento de características",
+  "type": "kiAbility",
+  "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Sube un atributo físico hasta 3 grados sobre su valor; cuesta tantos Ki de ese atributo como la cifra a alcanzar, +1 por asalto de mantenimiento.</p>",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "rules": [],
+    "mkCost": 20,
+    "subtype": "kiPower",
+    "parent": "Uso de la energía necesaria",
+    "branch": "Uso de la energía necesaria",
+    "kiCost": 0,
+    "kiMaintenance": 1,
+    "action": "active"
+  }
+}

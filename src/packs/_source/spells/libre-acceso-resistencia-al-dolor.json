@@ -1,0 +1,48 @@
+{
+  "name": "Resistencia al dolor",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Aumenta el aguante de un ser vivo, otorgando un bonificador a la habilidad secundaria Resistir el Dolor</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 32,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Aumenta el aguante de un ser vivo, otorgando un bonificador a la habilidad secundaria Resistir el Dolor",
+    "closedPaths": "Esencia",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "Más 50 a Resistir el dolor"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "Más 100 a Resistir el dolor"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 11,
+        "maintenanceCost": 15,
+        "effect": "Más 150 a Resistir el dolor / Permite alcanzar Inhumanidad"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 14,
+        "maintenanceCost": 15,
+        "effect": "Más 200 a Resistir el dolor / Permite alcanzar Zen"
+      }
+    }
+  }
+}

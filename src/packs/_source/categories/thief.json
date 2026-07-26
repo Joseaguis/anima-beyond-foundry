@@ -1,0 +1,79 @@
+{
+  "_id": "xl48dzWcNiKJJHGt",
+  "_key": "!items!xl48dzWcNiKJJHGt",
+  "name": "Ladrón",
+  "type": "category",
+  "img": "icons/sundries/books/book-embossed-jewel-gold-purple.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "archetype": "stalker",
+    "lifeMultiple": 20,
+    "lpPerLevel": 5,
+    "initiativePerLevel": 10,
+    "martialKnowledgePerLevel": 20,
+    "combatCosts": {
+      "attack": 2,
+      "parry": 3,
+      "dodge": 2,
+      "wearArmor": 3
+    },
+    "combatBonusPerLevel": {
+      "attack": 0,
+      "parry": 0,
+      "dodge": 5,
+      "wearArmor": 0
+    },
+    "supernatural": {
+      "zeon": 3,
+      "actMultiple": 70,
+      "magicProjection": 3,
+      "ki": 2,
+      "kiAccMultiple": 25,
+      "psychicProjection": 3,
+      "cv": 20,
+      "summoning": 3,
+      "zeonPerLevel": 0,
+      "magicLevel": 3,
+      "levelsPerCv": 3
+    },
+    "secondaryCosts": {
+      "athletics": 1,
+      "social": 2,
+      "perceptive": 2,
+      "intellectual": 3,
+      "vigor": 3,
+      "subterfuge": 1,
+      "creative": 2
+    },
+    "secondaryBonusPerLevel": {
+      "athletics": 0,
+      "social": 0,
+      "perceptive": 0,
+      "intellectual": 0,
+      "vigor": 0,
+      "subterfuge": 0,
+      "creative": 0
+    },
+    "dpLimits": {
+      "combat": 0.5,
+      "magic": 0.5,
+      "psychic": 0.5
+    },
+    "secondaryCostOverrides": {
+      "appraise": 1
+    },
+    "secondaryAbilityBonusPerLevel": {
+      "sleightOfHand": 5,
+      "notice": 5,
+      "search": 5,
+      "trapLore": 5,
+      "hide": 5,
+      "stealth": 5,
+      "theft": 10
+    }
+  }
+}

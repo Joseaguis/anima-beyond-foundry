@@ -1,0 +1,48 @@
+{
+  "name": "Sentir pecado",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Mediante este conjuro el hechicero podrá ver los pecados que ha cometido alguien. No obtendrá información específica de ellos (sabrá el tipo de pecado aunque no sepa exactamente que hizo), pero sentirá más o menos su gravedad y en qué momento aproximado fueron cometidos. El lanzador puede sentir un pecado por cada 10 puntos por los que el blanco del conjuro falle un control de RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 4,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Pecado",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "detection",
+    "effect": "Mediante este conjuro el hechicero podrá ver los pecados que ha cometido alguien. No obtendrá información específica de ellos (sabrá el tipo de pecado aunque no sepa exactamente que hizo), pero sentirá más o menos su gravedad y en qué momento aproximado fueron cometidos. El lanzador puede sentir un pecado por cada 10 puntos por los que el blanco del conjuro falle un control de RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 60,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "RM 140"
+      },
+      "advanced": {
+        "zeonCost": 90,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM 160"
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM 180"
+      }
+    }
+  }
+}

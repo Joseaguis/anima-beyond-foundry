@@ -1,0 +1,48 @@
+{
+  "name": "Devolución de conjuro",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Devuelve un conjuro activo contra su lanzador, o sobre cualquier otro blanco que se elija. El sortilegio rechazado utiliza la misma Proyección Mágica de quien lo ejecutó. La devolución es un efecto automático</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 82,
+    "actionType": "passive",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Devuelve un conjuro activo contra su lanzador, o sobre cualquier otro blanco que se elija. El sortilegio rechazado utiliza la misma Proyección Mágica de quien lo ejecutó. La devolución es un efecto automático",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 150,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Zeón máximo del conjuro 100"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Zeón máximo del conjuro 120"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "Zeón máximo del conjuro 140"
+      },
+      "arcane": {
+        "zeonCost": 280,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Zeón máximo del conjuro 160"
+      }
+    }
+  }
+}

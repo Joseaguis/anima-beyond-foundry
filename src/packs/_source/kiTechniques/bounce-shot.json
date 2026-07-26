@@ -1,0 +1,61 @@
+{
+  "name": "Bounce Shot",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Gunhell",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-indirecto",
+        "role": "primary",
+        "options": [],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "camuflar-ataque",
+        "role": "secondary",
+        "options": [
+          "Casi Imposible (240)"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "tecnica-mantenida",
+        "option": "Gunslinger"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 25,
+    "bookCost": "POD 4 DES 4 AGI 4",
+    "bookDistribution": {
+      "pow": {
+        "activation": 4,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 4,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 4,
+        "upkeep": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Control de la gravedad",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Otorga la capacidad de controlar las fuerzas gravitacionales de una zona del planeta. Dentro de ella, el lanzador podrá anular la gravedad, incrementarla hasta diez veces su valor, o invertirla. Todo cuerpo físico que se encuentre dentro del área designada, será automáticamente influído por sus efectos.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 92,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Tierra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Otorga la capacidad de controlar las fuerzas gravitacionales de una zona del planeta. Dentro de ella, el lanzador podrá anular la gravedad, incrementarla hasta diez veces su valor, o invertirla. Todo cuerpo físico que se encuentre dentro del área designada, será automáticamente influído por sus efectos.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 350,
+        "intRequired": 12,
+        "maintenanceCost": 70,
+        "effect": "100 kilómetros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 500,
+        "intRequired": 14,
+        "maintenanceCost": 100,
+        "effect": "750 kilómetros de radio"
+      },
+      "advanced": {
+        "zeonCost": 650,
+        "intRequired": 16,
+        "maintenanceCost": 130,
+        "effect": "1.500 kilómetros de radio"
+      },
+      "arcane": {
+        "zeonCost": 800,
+        "intRequired": 18,
+        "maintenanceCost": 160,
+        "effect": "5.000 kilómetros de radio"
+      }
+    }
+  }
+}

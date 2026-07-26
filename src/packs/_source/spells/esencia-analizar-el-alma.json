@@ -1,0 +1,48 @@
+{
+  "name": "Analizar el alma",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite obtener información detallada acerca de las capacidades naturales y poderes de un individuo o criatura. No le da acceso a saber cuáles son sus conocimientos ni el nivel de las habilidades que dependan de estos, sí medir su potencial espiritual y averiguar cómo funcionan sus capacidades innatas. Este conjuro funciona automáticamente sobre la criatura designada si el hechicero la ve o conoce su verdadero nombre, aunque puede resistirse con una RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 32,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Permite obtener información detallada acerca de las capacidades naturales y poderes de un individuo o criatura. No le da acceso a saber cuáles son sus conocimientos ni el nivel de las habilidades que dependan de estos, sí medir su potencial espiritual y averiguar cómo funcionan sus capacidades innatas. Este conjuro funciona automáticamente sobre la criatura designada si el hechicero la ve o conoce su verdadero nombre, aunque puede resistirse con una RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 7,
+        "maintenanceCost": 0,
+        "effect": "RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM 140"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "RM 180"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM 200"
+      }
+    }
+  }
+}

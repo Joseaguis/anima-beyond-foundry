@@ -1,0 +1,25 @@
+{
+  "_id": "abfweaponLongSwd",
+  "name": "Espada Larga",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-guard-steel-green.webp",
+  "system": {
+    "description": { "value": "<p>Arma de filo versátil y equilibrada.</p>", "chat": "" },
+    "source": "Core Exxet",
+    "quality": 0,
+    "presence": 30,
+    "fortitude": 12,
+    "breakage": 4,
+    "weight": 2,
+    "price": 200,
+    "equipped": false,
+    "weaponType": "melee",
+    "damage": 60,
+    "speed": 0,
+    "requiredStr": 7,
+    "primaryType": "FIL",
+    "secondaryType": "CON",
+    "size": "medium",
+    "special": ""
+  }
+}

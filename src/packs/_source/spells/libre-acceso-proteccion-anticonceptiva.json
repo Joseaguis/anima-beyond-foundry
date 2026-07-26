@@ -1,0 +1,48 @@
+{
+  "name": "Protección anticonceptiva",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Evita al personaje contraer enfermedades de transmisión sexual o concebir descendencia. Puede afectar a varios individuos siempre que la suma de sus presencias no supere lo que determine el grado del conjuro</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 22,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Evita al personaje contraer enfermedades de transmisión sexual o concebir descendencia. Puede afectar a varios individuos siempre que la suma de sus presencias no supere lo que determine el grado del conjuro",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Presencia máxima 80"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 5,
+        "effect": "Presencia máxima 180"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "Presencia máxima 260"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 10,
+        "effect": "Presencia máxima 380"
+      }
+    }
+  }
+}

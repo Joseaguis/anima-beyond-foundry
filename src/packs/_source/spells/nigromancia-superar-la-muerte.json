@@ -1,0 +1,48 @@
+{
+  "name": "Superar la muerte",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El Blanco se convierte en no muerto. Lanzado en el instante en el que el personaje fallece o escasos segundos antes. El mago decide si será un Ser Entre Mundos o  un Espíritu, tendrá Gnosis 25. Gana PD para elegir habilidades esenciales o poderes, si opta por ser espectro, deberá invertir 100 PD. Puede escoger PD en desventajas y penalizadores, que dan más puntos. El exceso de PD aumenta su nivel.  Sólo funciona sobre seres vivos en el momento de morir.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 80,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El Blanco se convierte en no muerto. Lanzado en el instante en el que el personaje fallece o escasos segundos antes. El mago decide si será un Ser Entre Mundos o  un Espíritu, tendrá Gnosis 25. Gana PD para elegir habilidades esenciales o poderes, si opta por ser espectro, deberá invertir 100 PD. Puede escoger PD en desventajas y penalizadores, que dan más puntos. El exceso de PD aumenta su nivel.  Sólo funciona sobre seres vivos en el momento de morir.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Mas 100 PD / hasta 100 PD opcionales en desventajas"
+      },
+      "intermediate": {
+        "zeonCost": 500,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "Mas 200 PD / hasta 100 PD opcionales en desventajas"
+      },
+      "advanced": {
+        "zeonCost": 1000,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "Mas 300 PD / hasta 200 PD opcionales en desventajas"
+      },
+      "arcane": {
+        "zeonCost": 2500,
+        "intRequired": 17,
+        "maintenanceCost": 0,
+        "effect": "Mas 400 PD / hasta 200 PD opcionales en desventajas"
+      }
+    }
+  }
+}

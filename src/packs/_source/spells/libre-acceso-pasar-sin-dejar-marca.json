@@ -1,0 +1,48 @@
+{
+  "name": "Pasar sin dejar marca",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Elimina los rastros físicos que deja tras de sí una persona. Para seguir las huellas de alguien sobre quien está activo este conjuro, será necesario alcanzar una dificultad de Imposible en Rastrear. Puede afectar a tantos blancos como se desee, mientras la suma de sus presencias no supere el valor determinado por el grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 12,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Elimina los rastros físicos que deja tras de sí una persona. Para seguir las huellas de alguien sobre quien está activo este conjuro, será necesario alcanzar una dificultad de Imposible en Rastrear. Puede afectar a tantos blancos como se desee, mientras la suma de sus presencias no supere el valor determinado por el grado del conjuro.",
+    "closedPaths": "Luz",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "Presencia máxima 120"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 9,
+        "maintenanceCost": 15,
+        "effect": "Presencia máxima 180"
+      },
+      "advanced": {
+        "zeonCost": 220,
+        "intRequired": 11,
+        "maintenanceCost": 25,
+        "effect": "Presencia máxima 240 / La dificultad para rastrearle aumenta a Inhumano"
+      },
+      "arcane": {
+        "zeonCost": 340,
+        "intRequired": 13,
+        "maintenanceCost": 35,
+        "effect": "Presencia máxima 320 / La dificultad para rastrearle aumenta a Zen"
+      }
+    }
+  }
+}

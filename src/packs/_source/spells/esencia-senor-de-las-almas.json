@@ -1,0 +1,48 @@
+{
+  "name": "Señor de las almas",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El mago controla parte del flujo de almas. Tiene autoridad sobre cualquier alma, lo que incluye Seres Espirituales y otras criaturas. Tendrá control total sobre ellas y las maneja como desee. También podrá arrancarlas de un cuerpo y reintroducirlas en otro, incluso en niños que aún no han nacido. El Señor de las Almas puede transmitir sus órdenes a las almas que se encuentren bajo su control directamente. Su efecto se resiste con RM a una tirada por día.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 100,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "El mago controla parte del flujo de almas. Tiene autoridad sobre cualquier alma, lo que incluye Seres Espirituales y otras criaturas. Tendrá control total sobre ellas y las maneja como desee. También podrá arrancarlas de un cuerpo y reintroducirlas en otro, incluso en niños que aún no han nacido. El Señor de las Almas puede transmitir sus órdenes a las almas que se encuentren bajo su control directamente. Su efecto se resiste con RM a una tirada por día.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 600,
+        "intRequired": 12,
+        "maintenanceCost": 120,
+        "effect": "RM 120 / 100 kilómetros"
+      },
+      "intermediate": {
+        "zeonCost": 800,
+        "intRequired": 14,
+        "maintenanceCost": 160,
+        "effect": "RM 140 / 1.000 kilómetros"
+      },
+      "advanced": {
+        "zeonCost": 1200,
+        "intRequired": 16,
+        "maintenanceCost": 240,
+        "effect": "RM 180 / 2.500 kilómetros"
+      },
+      "arcane": {
+        "zeonCost": 1500,
+        "intRequired": 18,
+        "maintenanceCost": 300,
+        "effect": "RM 200 / 5.000 kilómetros"
+      }
+    }
+  }
+}

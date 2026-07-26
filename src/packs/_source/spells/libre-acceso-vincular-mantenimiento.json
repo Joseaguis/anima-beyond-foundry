@@ -1,0 +1,48 @@
+{
+  "name": "Vincular mantenimiento",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El mago vincula el mantenimiento de un conjuro a otro mago u objeto mágico. Para evitalo superar RM, si no se da cuenta, no puede realizar un nuevo control de RM. Si se da cuenta, podrá repetir tirada, dependiendo del tipo de hechizo, cada día si es diario, o cada 5 asaltos si no. En el momento en que supere la RM o no le queden suficientes puntos de Zeon, los efectos de la vinculación desaparecerán para siempre.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 92,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "El mago vincula el mantenimiento de un conjuro a otro mago u objeto mágico. Para evitalo superar RM, si no se da cuenta, no puede realizar un nuevo control de RM. Si se da cuenta, podrá repetir tirada, dependiendo del tipo de hechizo, cada día si es diario, o cada 5 asaltos si no. En el momento en que supere la RM o no le queden suficientes puntos de Zeon, los efectos de la vinculación desaparecerán para siempre.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 150,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM 140"
+      },
+      "advanced": {
+        "zeonCost": 200,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "RM 160"
+      },
+      "arcane": {
+        "zeonCost": 250,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "RM 180"
+      }
+    }
+  }
+}

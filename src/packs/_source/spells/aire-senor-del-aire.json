@@ -1,0 +1,48 @@
+{
+  "name": "Señor del aire",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El mago controla cualquier aire y electricidad, sin importar las intensidades. Este dominio le permite también modificar el clima, como crear vendavales, tormentas o ventiscas de cualquier magnitud. Toda criatura basada en aire que se encuentre dentro del área, deberá superar una RM o será controlada. Si la pasan, ya no necesitan volver a realizar el control. Los afectados tienen derecho a una nueva tirada únicamente si alteran su Resistencia base</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 96,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Aire",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "El mago controla cualquier aire y electricidad, sin importar las intensidades. Este dominio le permite también modificar el clima, como crear vendavales, tormentas o ventiscas de cualquier magnitud. Toda criatura basada en aire que se encuentre dentro del área, deberá superar una RM o será controlada. Si la pasan, ya no necesitan volver a realizar el control. Los afectados tienen derecho a una nueva tirada únicamente si alteran su Resistencia base",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 300,
+        "intRequired": 10,
+        "maintenanceCost": 30,
+        "effect": "100 kilometros de radio / 140 RM"
+      },
+      "intermediate": {
+        "zeonCost": 450,
+        "intRequired": 12,
+        "maintenanceCost": 45,
+        "effect": "1000 kilometros de radio / 180 RM"
+      },
+      "advanced": {
+        "zeonCost": 600,
+        "intRequired": 14,
+        "maintenanceCost": 60,
+        "effect": "10000 kilometros de radio / 200 RM"
+      },
+      "arcane": {
+        "zeonCost": 1000,
+        "intRequired": 16,
+        "maintenanceCost": 100,
+        "effect": "100000 kilometros de radio / 240 RM"
+      }
+    }
+  }
+}

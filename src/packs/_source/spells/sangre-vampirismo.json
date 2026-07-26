@@ -1,0 +1,48 @@
+{
+  "name": "Vampirismo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro provoca que un arma beba parte de la sangre de aquellos a los que hiera, canalizando sus energías vitales y otorgándoselas al portador para que recupere sus PV perdidos. En el caso de que se ataque a un ser con acumulación de daño, la cantidad drenada debe dividirse por diez.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 64,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Sangre",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este conjuro provoca que un arma beba parte de la sangre de aquellos a los que hiera, canalizando sus energías vitales y otorgándoselas al portador para que recupere sus PV perdidos. En el caso de que se ataque a un ser con acumulación de daño, la cantidad drenada debe dividirse por diez.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 150,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "Drena el 10% de las heridas causadas"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "Drena el 20% de las heridas causadas"
+      },
+      "advanced": {
+        "zeonCost": 250,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "Drena el 30% de las heridas causadas"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "Drena el 40% de las heridas causadas"
+      }
+    }
+  }
+}

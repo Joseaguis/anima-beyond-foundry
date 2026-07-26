@@ -1,0 +1,48 @@
+{
+  "name": "Veneno de almas",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El veneno es una creación sobrenatural que se inocula en el alma del afectado y se extiende por todo su cuerpo. El mago podrá crear libremente los efectos del veneno, siguiendo la descripción del capítulo 14. También es posible desarrollar antídotos, si se tienen los conocimientos suficientes sobre el veneno original.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 30,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "El veneno es una creación sobrenatural que se inocula en el alma del afectado y se extiende por todo su cuerpo. El mago podrá crear libremente los efectos del veneno, siguiendo la descripción del capítulo 14. También es posible desarrollar antídotos, si se tienen los conocimientos suficientes sobre el veneno original.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "Veneno de nivel 40"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "Veneno de nivel 50"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Veneno de nivel 60"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "Veneno de nivel 70"
+      }
+    }
+  }
+}

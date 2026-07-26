@@ -1,0 +1,48 @@
+{
+  "name": "Detener el tiempo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Todo aquel individuo o cosa que, a partir del asalto posterior al lanzamiento del conjuro, se encuentre en el interior de la zona de efecto quedará congelado en el tiempo si no supera una RM. Las personas o cosas congeladas son completamente sólidas, por lo que nada puede tocarlas o dañarlas (excepto seres con Gnosis 40 o superior). Puede repetirse el control de RM una vez al día. El área afectada permanece estática y no es posible elegir blancos.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 44,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Tiempo",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Todo aquel individuo o cosa que, a partir del asalto posterior al lanzamiento del conjuro, se encuentre en el interior de la zona de efecto quedará congelado en el tiempo si no supera una RM. Las personas o cosas congeladas son completamente sólidas, por lo que nada puede tocarlas o dañarlas (excepto seres con Gnosis 40 o superior). Puede repetirse el control de RM una vez al día. El área afectada permanece estática y no es posible elegir blancos.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 9,
+        "maintenanceCost": 40,
+        "effect": "120RM / 10m"
+      },
+      "intermediate": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 60,
+        "effect": "140RM / 25m"
+      },
+      "advanced": {
+        "zeonCost": 400,
+        "intRequired": 14,
+        "maintenanceCost": 80,
+        "effect": "160RM / 50m"
+      },
+      "arcane": {
+        "zeonCost": 500,
+        "intRequired": 16,
+        "maintenanceCost": 100,
+        "effect": "180RM / 100m"
+      }
+    }
+  }
+}

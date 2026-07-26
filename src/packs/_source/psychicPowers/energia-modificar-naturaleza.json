@@ -1,0 +1,64 @@
+{
+  "name": "Modificar naturaleza",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Energía",
+    "powerLevel": 2,
+    "action": "active",
+    "maintainable": false,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "6 intensidades / 100 RF"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "8 intensidades / 120 RF"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "12 intensidades / 140 RF"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "16 intensidades / 160 RF"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "20 intensidades / 180 RF"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "25 intensidades / 220 RF"
+      }
+    ],
+    "effect": ""
+  }
+}

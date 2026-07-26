@@ -1,0 +1,48 @@
+{
+  "name": "Un lugar en el mundo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>No es capaz de cambiar la esencia de las cosas ni su forma, pero puede moverlas por el mundo y situarlas en cualquier lugar. Es posible mover tantas cosas como se desee por turno, sin importar su número o condición. La única manera de resistirse a sus efectos será superar una RM en cada ocasión en la que se quiera evitar ser trasladado. El radio afecta automáticamente a cualquier ser u objeto que se encuentre en su interior</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 100,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Aire",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "No es capaz de cambiar la esencia de las cosas ni su forma, pero puede moverlas por el mundo y situarlas en cualquier lugar. Es posible mover tantas cosas como se desee por turno, sin importar su número o condición. La única manera de resistirse a sus efectos será superar una RM en cada ocasión en la que se quiera evitar ser trasladado. El radio afecta automáticamente a cualquier ser u objeto que se encuentre en su interior",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 450,
+        "intRequired": 12,
+        "maintenanceCost": 45,
+        "effect": "50 kilometros de radio / RM 140"
+      },
+      "intermediate": {
+        "zeonCost": 800,
+        "intRequired": 14,
+        "maintenanceCost": 80,
+        "effect": "250 kilometros de radio / RM 180"
+      },
+      "advanced": {
+        "zeonCost": 1200,
+        "intRequired": 16,
+        "maintenanceCost": 120,
+        "effect": "500 kilometros de radio / RM 240"
+      },
+      "arcane": {
+        "zeonCost": 1600,
+        "intRequired": 18,
+        "maintenanceCost": 200,
+        "effect": "1000 kilometros de radio / RM 280"
+      }
+    }
+  }
+}

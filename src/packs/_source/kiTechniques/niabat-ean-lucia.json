@@ -1,0 +1,64 @@
+{
+  "name": "Niabat Ean Lucia",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "El Arte",
+    "level": 3,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+150"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-adicional-limitado",
+        "role": "secondary",
+        "options": [
+          "+2",
+          "Ataque Contínuo"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "atadura-elemental",
+        "option": "Luz, Aire"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 100,
+    "bookCost": "DES 18 AGI 18 POD 14",
+    "bookDistribution": {
+      "dex": {
+        "activation": 18,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 18,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 14,
+        "upkeep": 0
+      }
+    }
+  }
+}

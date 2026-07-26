@@ -1,0 +1,71 @@
+{
+  "_id": "2aAB8AU2Yna02Tp1",
+  "_key": "!items!2aAB8AU2Yna02Tp1",
+  "name": "Hechicero Mentalista",
+  "type": "category",
+  "img": "icons/sundries/books/book-embossed-jewel-gold-purple.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "archetype": "mystic",
+    "lifeMultiple": 20,
+    "lpPerLevel": 5,
+    "initiativePerLevel": 5,
+    "martialKnowledgePerLevel": 10,
+    "combatCosts": {
+      "attack": 3,
+      "parry": 3,
+      "dodge": 2,
+      "wearArmor": 3
+    },
+    "combatBonusPerLevel": {
+      "attack": 0,
+      "parry": 0,
+      "dodge": 0,
+      "wearArmor": 0
+    },
+    "supernatural": {
+      "zeon": 1,
+      "actMultiple": 50,
+      "magicProjection": 2,
+      "ki": 3,
+      "kiAccMultiple": 30,
+      "psychicProjection": 2,
+      "cv": 10,
+      "summoning": 2,
+      "zeonPerLevel": 100,
+      "levelsPerCv": 1
+    },
+    "secondaryCosts": {
+      "athletics": 2,
+      "social": 2,
+      "perceptive": 2,
+      "intellectual": 2,
+      "vigor": 3,
+      "subterfuge": 2,
+      "creative": 2
+    },
+    "secondaryBonusPerLevel": {
+      "athletics": 0,
+      "social": 0,
+      "perceptive": 0,
+      "intellectual": 0,
+      "vigor": 0,
+      "subterfuge": 0,
+      "creative": 0
+    },
+    "dpLimits": {
+      "combat": 0.5,
+      "magic": 0.5,
+      "psychic": 0.5
+    },
+    "secondaryCostOverrides": {},
+    "secondaryAbilityBonusPerLevel": {
+      "occult": 5,
+      "magicAppraisal": 10
+    }
+  }
+}

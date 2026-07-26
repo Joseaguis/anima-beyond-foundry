@@ -1,0 +1,48 @@
+{
+  "name": "Sesgar la existencia",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Como si enarbolara una cuchilla de vacío, el brujo es capaz de cortar la misma realidad, aniquilando todo aquello que se encuentre en su camino. Cualquier cosa que entre en contacto con el conjuro, será destruida física y animicamente, sin dejar rastro de haber existido. Puede trazar una línea o ser enfocado en un solo punto. En este último caso, la RM a superar aumenta en +20. A pesar de ser un conjuro anímico, el corte en la realidad es visible para todo el mundo.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 80,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Como si enarbolara una cuchilla de vacío, el brujo es capaz de cortar la misma realidad, aniquilando todo aquello que se encuentre en su camino. Cualquier cosa que entre en contacto con el conjuro, será destruida física y animicamente, sin dejar rastro de haber existido. Puede trazar una línea o ser enfocado en un solo punto. En este último caso, la RM a superar aumenta en +20. A pesar de ser un conjuro anímico, el corte en la realidad es visible para todo el mundo.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 350,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM 120 / 10 metros de línea"
+      },
+      "intermediate": {
+        "zeonCost": 500,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "RM 160 / 100 metros de línea"
+      },
+      "advanced": {
+        "zeonCost": 600,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "RM 200 / 250 metros de línea"
+      },
+      "arcane": {
+        "zeonCost": 800,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "RM 240 / 1 kilómetro metros de línea"
+      }
+    }
+  }
+}

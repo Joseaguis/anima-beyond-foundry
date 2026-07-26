@@ -1,0 +1,48 @@
+{
+  "name": "Respirar líquidos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Confiere la capacidad de respirar en el interior de cualquier líquido, como si se tratase de aire. Se puede afectar a varios sujetos, siempre que la suma de sus presencias no supere el valor indicado por el conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 12,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Confiere la capacidad de respirar en el interior de cualquier líquido, como si se tratase de aire. Se puede afectar a varios sujetos, siempre que la suma de sus presencias no supere el valor indicado por el conjuro.",
+    "closedPaths": "Tierra,Fuego",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Presencia máxima 60"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "Presencia máxima 100"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 11,
+        "maintenanceCost": 10,
+        "effect": "Presencia máxima 200"
+      },
+      "arcane": {
+        "zeonCost": 160,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "Presencia máxima 320"
+      }
+    }
+  }
+}

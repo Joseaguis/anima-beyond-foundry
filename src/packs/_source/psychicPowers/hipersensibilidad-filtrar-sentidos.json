@@ -1,0 +1,64 @@
+{
+  "name": "Filtrar sentidos",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Hipersensibilidad",
+    "powerLevel": 1,
+    "action": "passive",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "easy",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Hasta -10 / 1 sentido"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Hasta -20 / 1 sentido"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Hasta -30 / 1 sentido"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Hasta -40 / 2 sentidos"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Hasta -50 / 2 sentidos"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Hasta -60 / 3 sentidos"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Hasta -70 / 3 sentidos"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Hasta -80 / 4 sentidos"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Hasta -100 / 5 sentidos"
+      }
+    ],
+    "effect": ""
+  }
+}

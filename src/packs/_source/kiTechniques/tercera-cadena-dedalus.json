@@ -1,0 +1,68 @@
+{
+  "name": "Tercera Cadena: Dedalus",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Las Cadenas",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "apresamiento",
+        "role": "secondary",
+        "options": [
+          "FUE 14"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-a-distancia",
+        "role": "secondary",
+        "options": [
+          "100 metros"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 60,
+    "bookCost": "FUE 8 DES 8 POD 8",
+    "bookDistribution": {
+      "str": {
+        "activation": 8,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 8,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 8,
+        "upkeep": 0
+      }
+    }
+  }
+}

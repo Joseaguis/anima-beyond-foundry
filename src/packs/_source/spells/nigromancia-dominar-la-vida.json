@@ -1,0 +1,48 @@
+{
+  "name": "Dominar la vida",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite al brujo esclavizar el alma de un ser vivo, sometiéndolo a un control similar al que tiene sobre sus criaturas no muertas. El personaje podrá resistirse superando un control de RM. El individuo tendrá derecho a una nueva Resistencia por día, y en cada ocasión en la que las órdenes recibidas vayan completamente en contra de su comportamiento.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 48,
+    "actionType": "passive",
+    "maintenanceType": "daily",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Permite al brujo esclavizar el alma de un ser vivo, sometiéndolo a un control similar al que tiene sobre sus criaturas no muertas. El personaje podrá resistirse superando un control de RM. El individuo tendrá derecho a una nueva Resistencia por día, y en cada ocasión en la que las órdenes recibidas vayan completamente en contra de su comportamiento.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 140,
+        "intRequired": 9,
+        "maintenanceCost": 30,
+        "effect": "RM 100"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 11,
+        "maintenanceCost": 40,
+        "effect": "RM 120"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 13,
+        "maintenanceCost": 50,
+        "effect": "RM 140"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 60,
+        "effect": "RM 160"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Devastación",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Proyecta una explosión ígnea, que ataca en área con un daño base de 200 puntos. Ataca en la TA de calor, aunque es capaz de dañar energía. No es posible designar blancos en el interior del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 90,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Fuego",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "Proyecta una explosión ígnea, que ataca en área con un daño base de 200 puntos. Ataca en la TA de calor, aunque es capaz de dañar energía. No es posible designar blancos en el interior del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "1 km de radio"
+      },
+      "intermediate": {
+        "zeonCost": 300,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "5 km de radio"
+      },
+      "advanced": {
+        "zeonCost": 400,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "10 km de radio"
+      },
+      "arcane": {
+        "zeonCost": 500,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "15 km de radio"
+      }
+    }
+  }
+}

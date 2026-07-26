@@ -1,0 +1,48 @@
+{
+  "name": "Ilusión táctil",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Falsea el tacto o el gusto de un elemento concreto. El Ilusiónista decidirá qué nueva sensación o gusto adquiere, y quién la notará, dentro del área, El conjuro afectará a aquellos sujetos que no superen una RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 10,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Ilusión",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Falsea el tacto o el gusto de un elemento concreto. El Ilusiónista decidirá qué nueva sensación o gusto adquiere, y quién la notará, dentro del área, El conjuro afectará a aquellos sujetos que no superen una RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 5,
+        "maintenanceCost": 5,
+        "effect": "RM 100 / radio de 20 metros"
+      },
+      "intermediate": {
+        "zeonCost": 50,
+        "intRequired": 8,
+        "maintenanceCost": 5,
+        "effect": "RM 120 / radio de 50 metros"
+      },
+      "advanced": {
+        "zeonCost": 90,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "RM 140 / radio de 100 metros"
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "RM 160 / radio de 250 metros"
+      }
+    }
+  }
+}

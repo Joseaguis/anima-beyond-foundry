@@ -1,0 +1,48 @@
+{
+  "name": "Control de la electricidad",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite controlar la forma y dirección de una fuente eléctrica. Si se trata de un ser basado naturalmente en electricidad, el mago podrá controlarlo si este no supera una RM</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 60,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Aire",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Permite controlar la forma y dirección de una fuente eléctrica. Si se trata de un ser basado naturalmente en electricidad, el mago podrá controlarlo si este no supera una RM",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "RM 120 / 5 intensidades"
+      },
+      "intermediate": {
+        "zeonCost": 150,
+        "intRequired": 10,
+        "maintenanceCost": 20,
+        "effect": "RM 160 / 15 intensidades"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 13,
+        "maintenanceCost": 25,
+        "effect": "RM 180 / 25 intensidades"
+      },
+      "arcane": {
+        "zeonCost": 350,
+        "intRequired": 15,
+        "maintenanceCost": 35,
+        "effect": "RM 220 / 40 intensidades"
+      }
+    }
+  }
+}

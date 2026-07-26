@@ -1,0 +1,48 @@
+{
+  "name": "Mitigar fuego",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Disminuye intensidades de fuego o de calor. Hay que tener en uenta que alguna fuentes de fuego, como volcanes o grandes incendios, se reproducen automáticamente si no se consifuen mitigar del todo. Al lanzarlo sobre un ser basado en fuego, recibira 5 puntos de daño por cada intensidad rebajada, si no supera la RM. Los seres con acumulación reciben 25 puntos de daño por cada intensidad.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 6,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Fuego",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Disminuye intensidades de fuego o de calor. Hay que tener en uenta que alguna fuentes de fuego, como volcanes o grandes incendios, se reproducen automáticamente si no se consifuen mitigar del todo. Al lanzarlo sobre un ser basado en fuego, recibira 5 puntos de daño por cada intensidad rebajada, si no supera la RM. Los seres con acumulación reciben 25 puntos de daño por cada intensidad.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 5,
+        "maintenanceCost": 0,
+        "effect": "-1 intesidad de fuego"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "-5 Intensidades de fuego"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "-10 Intensidades fuego"
+      },
+      "arcane": {
+        "zeonCost": 200,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "-15 Intensidades de fuego"
+      }
+    }
+  }
+}

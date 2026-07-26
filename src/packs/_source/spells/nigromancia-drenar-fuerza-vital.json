@@ -1,0 +1,48 @@
+{
+  "name": "Drenar fuerza vital",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Absorbe la fuerza vital de un ser y se pasa al objetivo. El blanco debe superar RM o perder un punto de Constitución y de Poder por cada 10 que falle. Si se quiere, el objetivo envejece tantos años como nivel de fracaso. Los puntos absorbidos permiten al mago o al sujeto que los reciba, recuperar atributos perdidos hasta sus niveles iniciales o rejuvenecer. El personaje al que se le arranca la fuerza vital no la recupera, salvo con habilidades sobrenaturales.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 62,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Absorbe la fuerza vital de un ser y se pasa al objetivo. El blanco debe superar RM o perder un punto de Constitución y de Poder por cada 10 que falle. Si se quiere, el objetivo envejece tantos años como nivel de fracaso. Los puntos absorbidos permiten al mago o al sujeto que los reciba, recuperar atributos perdidos hasta sus niveles iniciales o rejuvenecer. El personaje al que se le arranca la fuerza vital no la recupera, salvo con habilidades sobrenaturales.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "RM 100"
+      },
+      "intermediate": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM 130"
+      },
+      "advanced": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM 160"
+      },
+      "arcane": {
+        "zeonCost": 360,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "RM 190"
+      }
+    }
+  }
+}

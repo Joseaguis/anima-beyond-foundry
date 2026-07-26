@@ -1,0 +1,20 @@
+{
+  "name": "Uso de la energía necesaria",
+  "type": "kiAbility",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Optimiza el gasto de energía: ×10 el tiempo de esfuerzo sin Cansancio y permite gastar hasta 5 de Cansancio por asalto (+75 a una acción o bonos de +15).</p>",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "rules": [],
+    "mkCost": 10,
+    "subtype": "kiPower",
+    "parent": "Uso del Ki",
+    "branch": "Uso de la energía necesaria",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

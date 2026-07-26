@@ -1,0 +1,64 @@
+{
+  "name": "Incrementar sentido acrobático",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Incremento Físico",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "easy",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Acrobacias +10"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Acrobacias +20"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Acrobacias +40"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Acrobacias +80"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Acrobacias +120 / Inhumanidad"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Acrobacias +180 / Inhumanidad"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Acrobacias +220 / Inhumanidad"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Acrobacias +280 / Zen"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Acrobacias +320 / Zen"
+      }
+    ],
+    "effect": ""
+  }
+}

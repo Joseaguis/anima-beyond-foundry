@@ -1,0 +1,48 @@
+{
+  "name": "Bendición",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>La bendición imbuye de una increíble energía sobrenatural a quienes se encuentren alrededor del hechicero. Aquellos que se encuentren bajo su influencia recibirán un bonificador a todas sus acciones y Resistencias. Los beneficios de este conjuro no se superponen, por lo que un personaje no obtendría el doble de bonos por encontrarse en el área de dos conjuros de Bendición.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 56,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Luz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "La bendición imbuye de una increíble energía sobrenatural a quienes se encuentren alrededor del hechicero. Aquellos que se encuentren bajo su influencia recibirán un bonificador a todas sus acciones y Resistencias. Los beneficios de este conjuro no se superponen, por lo que un personaje no obtendría el doble de bonos por encontrarse en el área de dos conjuros de Bendición.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 8,
+        "maintenanceCost": 5,
+        "effect": "+10 a toda acción / +10 resistencias / Radio de 5 metros"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "+20 a toda acción / +20 resistencias / Radio de 25 metros"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "+20 a toda acción / +30 resistencias / Radio de 50 metros"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "+30 a toda acción / +30 resistencias / Radio de 150 metros"
+      }
+    }
+  }
+}

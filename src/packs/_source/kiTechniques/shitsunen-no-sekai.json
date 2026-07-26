@@ -1,0 +1,56 @@
+{
+  "name": "Shitsunen No Sekai",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Hyousetsu Jigoku",
+    "level": 3,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "estados-sobrenaturales",
+        "role": "primary",
+        "options": [
+          "RF 180",
+          "Estado añadido: Paralización Total",
+          "Distancia: 50 metros",
+          "Condición: Por el Aire"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "predeterminacion",
+        "option": ""
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 115,
+    "bookCost": "AGI 24 DES 24 POD 24",
+    "bookDistribution": {
+      "agi": {
+        "activation": 24,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 24,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 24,
+        "upkeep": 0
+      }
+    }
+  }
+}

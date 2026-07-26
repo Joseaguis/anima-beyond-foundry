@@ -1,0 +1,109 @@
+{
+  "name": "Delevi Deus Anima, Exterminador De Las Almas De Los Dioses",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Anima, La Canción De Los Ángeles Caídos",
+    "level": 3,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+200"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-con-area",
+        "role": "secondary",
+        "options": [
+          "5 kilómetros de radio"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "multiplicador-al-dano",
+        "role": "secondary",
+        "options": [
+          "x3"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-sobrenatural",
+        "role": "secondary",
+        "options": [],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-indirecto",
+        "role": "secondary",
+        "options": [
+          "Nv 3"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "destruir-armadura",
+        "role": "secondary",
+        "options": [
+          "Sin Armadura"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "predeterminacion",
+        "option": ""
+      },
+      {
+        "disadvantage": "sobrecarga",
+        "option": "Espera de 20 asaltos"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 200,
+    "bookCost": "AGI 26 DES 28 POD 30 VOL 29",
+    "bookDistribution": {
+      "agi": {
+        "activation": 26,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 28,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 30,
+        "upkeep": 0
+      },
+      "wp": {
+        "activation": 29,
+        "upkeep": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Terremoto",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea un terremoto. Cualquier construcción con barrera inferior a 40 queda destruída, mientras que el resto sufrirá 5 puntos de daño en el primer asalto, que se doblarán en cada turno posterior (10 en el segundo, 20 en el tercero, 40 en el cuarto...) Las construcciones con una barrera de daño superior a 150 no son afectadas por el terremoto. Cualquier individuo dentro de la zona del conjuro sufrirá sus efectos, dependiendo del entorno en el que se encuentre.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 76,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Tierra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea un terremoto. Cualquier construcción con barrera inferior a 40 queda destruída, mientras que el resto sufrirá 5 puntos de daño en el primer asalto, que se doblarán en cada turno posterior (10 en el segundo, 20 en el tercero, 40 en el cuarto...) Las construcciones con una barrera de daño superior a 150 no son afectadas por el terremoto. Cualquier individuo dentro de la zona del conjuro sufrirá sus efectos, dependiendo del entorno en el que se encuentre.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 150,
+        "intRequired": 8,
+        "maintenanceCost": 15,
+        "effect": "500 metros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 20,
+        "effect": "3 kilómetros de radio"
+      },
+      "advanced": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "10 kilómetros de radio"
+      },
+      "arcane": {
+        "zeonCost": 400,
+        "intRequired": 14,
+        "maintenanceCost": 30,
+        "effect": "15 kilómetros de radio"
+      }
+    }
+  }
+}

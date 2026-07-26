@@ -1,0 +1,48 @@
+{
+  "name": "Gula",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El hechicero recupera automáticamente una parte de todos los Puntos de Zeon (redondeado hacia arriba en grupos de 5) y de Ki que se gasten en un radio a su alrededor. Gula no tiene efectos sobre conjuros innatos o poderes mágicos que no consuman propiamente Zeon, ni tampoco aquellos conjuros o Técnicas de Ki que utilice el lanzador.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 24,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Pecado",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El hechicero recupera automáticamente una parte de todos los Puntos de Zeon (redondeado hacia arriba en grupos de 5) y de Ki que se gasten en un radio a su alrededor. Gula no tiene efectos sobre conjuros innatos o poderes mágicos que no consuman propiamente Zeon, ni tampoco aquellos conjuros o Técnicas de Ki que utilice el lanzador.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 7,
+        "maintenanceCost": 5,
+        "effect": "Absorbe un 10% / 10m radio"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 9,
+        "maintenanceCost": 5,
+        "effect": "Absorbe un 20% / 20m radio"
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 11,
+        "maintenanceCost": 10,
+        "effect": "Absorbe un 30% / 40m radio"
+      },
+      "arcane": {
+        "zeonCost": 180,
+        "intRequired": 13,
+        "maintenanceCost": 10,
+        "effect": "Absorbe un 50% / 60m radio"
+      }
+    }
+  }
+}

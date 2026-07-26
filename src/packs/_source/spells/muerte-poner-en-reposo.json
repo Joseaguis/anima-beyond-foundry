@@ -1,0 +1,48 @@
+{
+  "name": "Poner en reposo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Destruye automáticamente a criaturas no muertas sin alma en el radio de acción del conjuro. Las criaturas pueden resistirse superando la RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 44,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Muerte",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Destruye automáticamente a criaturas no muertas sin alma en el radio de acción del conjuro. Las criaturas pueden resistirse superando la RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 7,
+        "maintenanceCost": 0,
+        "effect": "RM 120 / 10 m. de radio"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM 140 / 25 m. de radio"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "RM 160 / 50 m. de radio"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM 180 / 75 m. de radio"
+      }
+    }
+  }
+}

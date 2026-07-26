@@ -1,0 +1,48 @@
+{
+  "name": "Cuerpo sólido",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El cuerpo objetivo adquirirá mucha solidez, obteniendo una resistencia similar a la de la piedra. Si se lanza contra un individuo, da una armadura natural (salvo contra energía) y barrera de daño igual al doble de su presencia. Sus músculos se fortalecerán, pero disminuirá en 2 su Tipo de movimiento. El material al que se asemeja el cuerpo transformado varía, dependiendo del grado del conjuro, entre roca, acero, diamante y malebolgia.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 52,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Tierra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El cuerpo objetivo adquirirá mucha solidez, obteniendo una resistencia similar a la de la piedra. Si se lanza contra un individuo, da una armadura natural (salvo contra energía) y barrera de daño igual al doble de su presencia. Sus músculos se fortalecerán, pero disminuirá en 2 su Tipo de movimiento. El material al que se asemeja el cuerpo transformado varía, dependiendo del grado del conjuro, entre roca, acero, diamante y malebolgia.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "Las habilidades descritas / TA natural 6 / +1 Fuerza"
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 11,
+        "maintenanceCost": 15,
+        "effect": "Las habilidades descritas / TA natural 8 / +2 Fuerza"
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "TA natural 10 / No dañan ataques físicos no basados en energía / +3 a Fuerza"
+      },
+      "arcane": {
+        "zeonCost": 160,
+        "intRequired": 16,
+        "maintenanceCost": 20,
+        "effect": "Idem arriba, TA 12 /Ataques físicos basados en ENE mitad daño /+4 a Fuerza"
+      }
+    }
+  }
+}

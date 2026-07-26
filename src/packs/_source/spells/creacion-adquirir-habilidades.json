@@ -1,0 +1,48 @@
+{
+  "name": "Adquirir habilidades",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este hechizo incrementa temporalmente las habilidades secundarias de un individuo, otorgándole un bonificador que podrá repartir libremente entre cualquier campo hasta un máximo de 320, salvo en aquellos que requieran conocimientos.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 40,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este hechizo incrementa temporalmente las habilidades secundarias de un individuo, otorgándole un bonificador que podrá repartir libremente entre cualquier campo hasta un máximo de 320, salvo en aquellos que requieran conocimientos.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Mas 50 al bonificador"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "Mas 150 al bonificador"
+      },
+      "advanced": {
+        "zeonCost": 280,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "Mas 250 al bonificador"
+      },
+      "arcane": {
+        "zeonCost": 350,
+        "intRequired": 15,
+        "maintenanceCost": 20,
+        "effect": "Mas 400 al bonificador"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Erudición del terreno",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El lanzador obtiene un conocimiento absoluto de todo lo que se haya a su alrededor en contacto con el suelo. No se trata de un hechizo de localización, sino que permite al brujo unir su conciencia con la propia tierra, y sentir todo lo que está en contacto con ella. Tanto seres vivos como construcciones son localizados de inmediatio (excepto seres inmateriales o que estén en vuelo). No permite ver a a través de lugares sellados por energía.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 72,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Tierra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El lanzador obtiene un conocimiento absoluto de todo lo que se haya a su alrededor en contacto con el suelo. No se trata de un hechizo de localización, sino que permite al brujo unir su conciencia con la propia tierra, y sentir todo lo que está en contacto con ella. Tanto seres vivos como construcciones son localizados de inmediatio (excepto seres inmateriales o que estén en vuelo). No permite ver a a través de lugares sellados por energía.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 7,
+        "maintenanceCost": 0,
+        "effect": "500 metros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 270,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "3 kilómetros de radio"
+      },
+      "advanced": {
+        "zeonCost": 360,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "10 kilómetros de radio"
+      },
+      "arcane": {
+        "zeonCost": 450,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "15 kilómetros de radio"
+      }
+    }
+  }
+}

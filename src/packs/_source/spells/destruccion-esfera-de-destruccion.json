@@ -1,0 +1,48 @@
+{
+  "name": "Esfera de destrucción",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Proyecta descargas menores de energía mágica. El ataque se realiza en la TA de Energía y tiene daño 30. Cada ataque puede ser dirigido a blancos diferentes, pero hay que determinar todos sus objetivos y distribución en el momento del lanzamiento.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 12,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "Proyecta descargas menores de energía mágica. El ataque se realiza en la TA de Energía y tiene daño 30. Cada ataque puede ser dirigido a blancos diferentes, pero hay que determinar todos sus objetivos y distribución en el momento del lanzamiento.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 5,
+        "maintenanceCost": 0,
+        "effect": "Un ataque"
+      },
+      "intermediate": {
+        "zeonCost": 60,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "Tres ataques"
+      },
+      "advanced": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Cinco ataques"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "Siete ataques"
+      }
+    }
+  }
+}

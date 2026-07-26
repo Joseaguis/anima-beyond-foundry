@@ -1,0 +1,48 @@
+{
+  "name": "Control de las mareas",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Otorga la capacidad de controlar limitadamente las corrientes de agua de mares y ríos, permitiendo al hechicero modificar su curso y potencia. El poder de este hechizo es tal, que el mago puede incluso producir pequeños maremotos o invertir el sentido de un río. Afecta en un radio alrededor del hechicero.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 62,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Agua",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Otorga la capacidad de controlar limitadamente las corrientes de agua de mares y ríos, permitiendo al hechicero modificar su curso y potencia. El poder de este hechizo es tal, que el mago puede incluso producir pequeños maremotos o invertir el sentido de un río. Afecta en un radio alrededor del hechicero.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 150,
+        "intRequired": 6,
+        "maintenanceCost": 15,
+        "effect": "500 metros de radio."
+      },
+      "intermediate": {
+        "zeonCost": 300,
+        "intRequired": 9,
+        "maintenanceCost": 30,
+        "effect": "1 kilómetro de radio."
+      },
+      "advanced": {
+        "zeonCost": 450,
+        "intRequired": 12,
+        "maintenanceCost": 45,
+        "effect": "3 kilómetros de radio."
+      },
+      "arcane": {
+        "zeonCost": 600,
+        "intRequired": 15,
+        "maintenanceCost": 60,
+        "effect": "5 kilómetros de radio."
+      }
+    }
+  }
+}

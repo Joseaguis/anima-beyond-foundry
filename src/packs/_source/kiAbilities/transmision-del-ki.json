@@ -1,0 +1,20 @@
+{
+  "name": "Transmisión del Ki",
+  "type": "kiAbility",
+  "img": "icons/magic/control/energy-stream-link-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>Transmite o absorbe Ki de otros sujetos en contacto; el intercambio por asalto es igual a la acumulación, entre las mismas características.</p>",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "rules": [],
+    "mkCost": 10,
+    "subtype": "kiPower",
+    "parent": "Uso del Ki",
+    "branch": "Transmisión del Ki",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

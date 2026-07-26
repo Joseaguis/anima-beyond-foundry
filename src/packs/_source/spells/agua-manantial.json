@@ -1,0 +1,48 @@
+{
+  "name": "Manantial",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Atrae cualquier corriente o arroyo subterráneo que haya en las proximidades, haciendo brotar un manantial en el lugar designado por el brujo. El conjuro influye en los líquidos naturales que se encuentren a menos distancia del lanzador de lo que determina el grado del conjuro, aunque no es capaz de atravesar barreras de energía.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 2,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Agua",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Atrae cualquier corriente o arroyo subterráneo que haya en las proximidades, haciendo brotar un manantial en el lugar designado por el brujo. El conjuro influye en los líquidos naturales que se encuentren a menos distancia del lanzador de lo que determina el grado del conjuro, aunque no es capaz de atravesar barreras de energía.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 5,
+        "maintenanceCost": 5,
+        "effect": "100 metros."
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 7,
+        "maintenanceCost": 10,
+        "effect": "250 metros."
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 10,
+        "maintenanceCost": 15,
+        "effect": "500 metros."
+      },
+      "arcane": {
+        "zeonCost": 180,
+        "intRequired": 12,
+        "maintenanceCost": 20,
+        "effect": "1 kilómetro."
+      }
+    }
+  }
+}

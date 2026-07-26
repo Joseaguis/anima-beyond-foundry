@@ -1,0 +1,48 @@
+{
+  "name": "Desangrar",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Mientras se mantenga activo, el afectado incrementa el daño que sufra en una cantidad determinada por el Grado del conjuro. Para que Desangrar tenga efecto el daño resultante debe provenir de contusiones, hemorragias y cortes, mientras que las heridas provocadas por calor, frío o energía no se benefician de esta regla. Puede repetirse la RM cada vez que se reciba un impacto cuyo daño sea incrementado por este sortilegio.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 54,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Sangre",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Mientras se mantenga activo, el afectado incrementa el daño que sufra en una cantidad determinada por el Grado del conjuro. Para que Desangrar tenga efecto el daño resultante debe provenir de contusiones, hemorragias y cortes, mientras que las heridas provocadas por calor, frío o energía no se benefician de esta regla. Puede repetirse la RM cada vez que se reciba un impacto cuyo daño sea incrementado por este sortilegio.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "Incrementa el Daño Recibido un 50% / RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 150,
+        "intRequired": 9,
+        "maintenanceCost": 15,
+        "effect": "Dobla el Daño Recibido / RM 140"
+      },
+      "advanced": {
+        "zeonCost": 200,
+        "intRequired": 12,
+        "maintenanceCost": 20,
+        "effect": "Triplica el Daño Recibido / RM 160"
+      },
+      "arcane": {
+        "zeonCost": 250,
+        "intRequired": 15,
+        "maintenanceCost": 25,
+        "effect": "Cuadruplica el Daño Recibido / RM 180"
+      }
+    }
+  }
+}

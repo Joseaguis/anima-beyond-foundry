@@ -1,0 +1,48 @@
+{
+  "name": "Inmunidad contra el fuego",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro permite al hechicero, o a las personas que designe, ser inmunes a intensidades de calor. En el caso de que se reciba un ataque basado en dicho elemento, cada intensidad a la que es inmune disminuye 5 puntos de daño base del ataque, otorgando un +5 a las Resistencias contra sus efectos</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 10,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Fuego",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este conjuro permite al hechicero, o a las personas que designe, ser inmunes a intensidades de calor. En el caso de que se reciba un ataque basado en dicho elemento, cada intensidad a la que es inmune disminuye 5 puntos de daño base del ataque, otorgando un +5 a las Resistencias contra sus efectos",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "5 Intensidades de calor"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "12 Intensidades de calor"
+      },
+      "advanced": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "20 Intensidades de calor"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "30 Intensidades de calor"
+      }
+    }
+  }
+}

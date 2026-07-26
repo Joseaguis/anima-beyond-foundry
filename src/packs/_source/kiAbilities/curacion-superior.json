@@ -1,0 +1,20 @@
+{
+  "name": "Curación superior",
+  "type": "kiAbility",
+  "img": "icons/magic/life/heart-cross-strong-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Mejora la Curación por Ki: 5 PV por cada punto de Ki genérico (sigue limitada a la mitad del Daño sufrido).</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 10,
+    "subtype": "kiPower",
+    "parent": "Curación por Ki",
+    "branch": "Transmisión del Ki",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

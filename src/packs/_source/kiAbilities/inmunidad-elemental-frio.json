@@ -1,0 +1,20 @@
+{
+  "name": "Inmunidad elemental: Frío",
+  "type": "kiAbility",
+  "img": "icons/magic/defensive/shield-barrier-glowing-triangle-magenta.webp",
+  "system": {
+    "description": {
+      "value": "<p>Resistencia innata a 5 intensidades de Frío; +1 intensidad por cada Ki genérico mantenido por asalto.</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 20,
+    "subtype": "kiPower",
+    "parent": "Eliminación de necesidades",
+    "branch": "Uso de la energía necesaria",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

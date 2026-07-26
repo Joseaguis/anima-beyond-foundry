@@ -1,0 +1,48 @@
+{
+  "name": "Crear silfo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea una criatura de aire con apariencia de vida bajo el control absoluto del hechicero. El ente será desarrollado como un Ser Entre Mundos, usando los poderes y limitaciones de los elementales de aire del Capítulo 26. Para calcular su nivel máximo, se emplean las mismas reglas que en el conjuro Crear Ser de la vía de Creación</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 82,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Aire",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea una criatura de aire con apariencia de vida bajo el control absoluto del hechicero. El ente será desarrollado como un Ser Entre Mundos, usando los poderes y limitaciones de los elementales de aire del Capítulo 26. Para calcular su nivel máximo, se emplean las mismas reglas que en el conjuro Crear Ser de la vía de Creación",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 10,
+        "maintenanceCost": 50,
+        "effect": "Nivel 1."
+      },
+      "intermediate": {
+        "zeonCost": 350,
+        "intRequired": 12,
+        "maintenanceCost": 70,
+        "effect": "Nivel 3"
+      },
+      "advanced": {
+        "zeonCost": 500,
+        "intRequired": 14,
+        "maintenanceCost": 100,
+        "effect": "Nivel 6."
+      },
+      "arcane": {
+        "zeonCost": 700,
+        "intRequired": 16,
+        "maintenanceCost": 140,
+        "effect": "Nivel 10."
+      }
+    }
+  }
+}

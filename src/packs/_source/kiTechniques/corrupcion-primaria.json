@@ -1,0 +1,57 @@
+{
+  "name": "Corrupción Primaria",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "A’Arab Zaraq",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "acumulacion",
+        "role": "primary",
+        "options": [
+          "1.000 PV",
+          "Regeneración 250"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "intangibilidad",
+        "role": "secondary",
+        "options": [],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 75,
+    "bookCost": "FUE 12 (4) CON 14 (5) POD 13 (5)",
+    "bookDistribution": {
+      "str": {
+        "activation": 12,
+        "upkeep": 4
+      },
+      "con": {
+        "activation": 14,
+        "upkeep": 5
+      },
+      "pow": {
+        "activation": 13,
+        "upkeep": 5
+      }
+    }
+  }
+}

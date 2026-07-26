@@ -1,0 +1,64 @@
+{
+  "name": "Detectar sentimientos",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Sentiente",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "medium",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "80 RP / 10 m de radio"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "100 RP / 50 m de radio"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "120 RP / 100 m de radio"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "140 RP / 250 m de radio"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "160 RP / 500 m de radio"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "180 RP / 1 km de radio"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "200 RP / 10 km de radio"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "220 RP / 100 km de radio"
+      }
+    ],
+    "effect": ""
+  }
+}

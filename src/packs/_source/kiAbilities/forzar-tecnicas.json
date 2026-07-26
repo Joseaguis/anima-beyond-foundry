@@ -1,0 +1,20 @@
+{
+  "name": "Forzar Técnicas",
+  "type": "kiAbility",
+  "img": "icons/magic/fire/blast-jet-stream-fire-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Acumulando el doble de Ki de una Técnica, incrementa sus efectos en la mitad (redondeo abajo); +1 multiplicador de Daño, +40 a controles de Resistencia.</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 20,
+    "subtype": "kiPower",
+    "parent": "Uso del Ki",
+    "branch": "Uso del Ki",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

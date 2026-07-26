@@ -1,0 +1,48 @@
+{
+  "name": "Tsunami",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 72,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Agua",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "1 kilómetro de longitud."
+      },
+      "intermediate": {
+        "zeonCost": 350,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "10 kilómetros de longitud."
+      },
+      "advanced": {
+        "zeonCost": 450,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "20 kilómetros de longitud."
+      },
+      "arcane": {
+        "zeonCost": 550,
+        "intRequired": 17,
+        "maintenanceCost": 0,
+        "effect": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Conocimiento natural",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite analizar toda la información sobre un determinado tipo de ser natural, como animales o plantas. Un hechicero que usase este conjuro podría, por ejemplo, examinar una planta extraña y descubrir si es venenosa o si tiene algún tipo de propiedad especial.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 12,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Permite analizar toda la información sobre un determinado tipo de ser natural, como animales o plantas. Un hechicero que usase este conjuro podría, por ejemplo, examinar una planta extraña y descubrir si es venenosa o si tiene algún tipo de propiedad especial.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "Analiza las propiedades básicas de una planta o animal"
+      },
+      "intermediate": {
+        "zeonCost": 60,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "Analiza todas las propiedades de una planta o animal"
+      },
+      "advanced": {
+        "zeonCost": 90,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Analiza todas las propiedades de una raza natural"
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "Analiza todas las propiedades y poderes místicos de un ser natural."
+      }
+    }
+  }
+}

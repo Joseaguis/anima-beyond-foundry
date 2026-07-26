@@ -1,0 +1,54 @@
+{
+  "name": "Shi Tou",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Di Quiu",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "armadura",
+        "role": "primary",
+        "options": [
+          "TA 4",
+          "Inmodificable",
+          "Lentitud"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 50,
+    "bookCost": "POD 4 (1) FUE 4 (1) VOL 4 (1) CON 5 (1)",
+    "bookDistribution": {
+      "pow": {
+        "activation": 4,
+        "upkeep": 1
+      },
+      "str": {
+        "activation": 4,
+        "upkeep": 1
+      },
+      "wp": {
+        "activation": 4,
+        "upkeep": 1
+      },
+      "con": {
+        "activation": 5,
+        "upkeep": 1
+      }
+    }
+  }
+}

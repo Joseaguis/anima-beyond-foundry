@@ -1,0 +1,62 @@
+{
+  "name": "Sheraphim Ianua, La Puerta Del Serafín",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Anima, La Canción De Los Ángeles Caídos",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-esquiva-completa",
+        "role": "primary",
+        "options": [
+          "+40"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "defensas-adicionales",
+        "role": "secondary",
+        "options": [
+          "+3"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 40,
+    "bookCost": "AGI 8 (3) DES 9 (3) POD 7 (2) VOL 7 (1)",
+    "bookDistribution": {
+      "agi": {
+        "activation": 8,
+        "upkeep": 3
+      },
+      "dex": {
+        "activation": 9,
+        "upkeep": 3
+      },
+      "pow": {
+        "activation": 7,
+        "upkeep": 2
+      },
+      "wp": {
+        "activation": 7,
+        "upkeep": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Ocultación del Ki",
+  "type": "kiAbility",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Oculta el rastro de su energía (habilidad secundaria especial = media entre CM total y Ocultarse). Suma la mitad de su valor a las RM/RP contra detección sobrenatural.</p>",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "rules": [],
+    "mkCost": 10,
+    "subtype": "kiPower",
+    "parent": "Uso de la energía necesaria",
+    "branch": "Uso de la energía necesaria",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Alterar apariencia",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Altera a la vista el aspecto fisico de un individuo u objeto. Sólo podrá aumentar o reducir en tres grados las características de Tamaño y Apariencia del afectado. Cualquier sujeto que mire, debe superar una RM para ver la realidad que esconde. Una vez que alguien es afectado,sólo tendrá derecho a un control de Resistencia cuando posea algún motivo para sospechar que hay algo raro en la identidad o apariencia del sujeto.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 22,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Ilusión",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Altera a la vista el aspecto fisico de un individuo u objeto. Sólo podrá aumentar o reducir en tres grados las características de Tamaño y Apariencia del afectado. Cualquier sujeto que mire, debe superar una RM para ver la realidad que esconde. Una vez que alguien es afectado,sólo tendrá derecho a un control de Resistencia cuando posea algún motivo para sospechar que hay algo raro en la identidad o apariencia del sujeto.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "RM 160"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "RM 200"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "RM 240"
+      }
+    }
+  }
+}

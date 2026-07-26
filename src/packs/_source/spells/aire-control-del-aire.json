@@ -1,0 +1,48 @@
+{
+  "name": "Control del aire",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Otorga al hechicero el control del aire, así como el de cualquier sustancia gaseosa que se encuentre a su alrededor. El mago será capaz de manejar a su antojo las corrientes de viento y los elementos gaseosos para usarlos como desee. Podría, por ejemplo, vaciar de aire una zona o cambiar el curso de un tornado. Si se lanza sobre un ser basado naturalmente en aire, el mago podrá controlarlo si la criatura no supera una RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 56,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Aire",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Otorga al hechicero el control del aire, así como el de cualquier sustancia gaseosa que se encuentre a su alrededor. El mago será capaz de manejar a su antojo las corrientes de viento y los elementos gaseosos para usarlos como desee. Podría, por ejemplo, vaciar de aire una zona o cambiar el curso de un tornado. Si se lanza sobre un ser basado naturalmente en aire, el mago podrá controlarlo si la criatura no supera una RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "radio de 50 metros / RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 150,
+        "intRequired": 10,
+        "maintenanceCost": 20,
+        "effect": "radio de 300 metros / RM 140"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 13,
+        "maintenanceCost": 25,
+        "effect": "radio de 500 metros / RM 180"
+      },
+      "arcane": {
+        "zeonCost": 350,
+        "intRequired": 15,
+        "maintenanceCost": 35,
+        "effect": "radio de 1 kilometro / RM 220"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Dominio",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite dominar la voluntad de cualquiera que no supere una RM o RP. El afectado sólo tiene derecho a un nuevo control cada vez que se le ordene realizar un acto que va completamente en contra de su naturaleza. Si la orden es excepcionalmente opuesta, puede aplicar un +20 a su tirada</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 72,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Permite dominar la voluntad de cualquiera que no supere una RM o RP. El afectado sólo tiene derecho a un nuevo control cada vez que se le ordene realizar un acto que va completamente en contra de su naturaleza. Si la orden es excepcionalmente opuesta, puede aplicar un +20 a su tirada",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 160,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "RM o RP 100"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 11,
+        "maintenanceCost": 20,
+        "effect": "RM o RP 120"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 13,
+        "maintenanceCost": 25,
+        "effect": "RM o RP 140"
+      },
+      "arcane": {
+        "zeonCost": 280,
+        "intRequired": 16,
+        "maintenanceCost": 30,
+        "effect": "RM o RP 160"
+      }
+    }
+  }
+}

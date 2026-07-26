@@ -1,0 +1,64 @@
+{
+  "name": "Balística",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Telequinesis",
+    "powerLevel": 2,
+    "action": "active",
+    "maintainable": false,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "+0 Proyección / 5 metros"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "+10 Proyección / 10 metros"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "+20 Proyección / 15 metros"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "+30 Proyección / 25 metros"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "+40 Proyección / 40 metros"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "+50 Proyección / 80 metros"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "+60 Proyección / 150 metros"
+      }
+    ],
+    "effect": ""
+  }
+}

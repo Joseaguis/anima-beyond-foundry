@@ -1,0 +1,48 @@
+{
+  "name": "El don del conocimiento",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El hechicero obtiene conocimientos intelectuales que desconoce. Otorga al brujo, o a quien este designe, un bono a las secundarias del campo Intelectual, que podrá repartir como considere apropiado (hasta un tope de 340). Por ejemplo si obtuviera 100 puntos, puede aumentar 40 puntos su habilidad de Historia, más 30 en Ciencia y Animales, respectivamente. Sólo un conjuro de El Don del Conocimiento puede estar activo en un sujeto a la vez.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 92,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El hechicero obtiene conocimientos intelectuales que desconoce. Otorga al brujo, o a quien este designe, un bono a las secundarias del campo Intelectual, que podrá repartir como considere apropiado (hasta un tope de 340). Por ejemplo si obtuviera 100 puntos, puede aumentar 40 puntos su habilidad de Historia, más 30 en Ciencia y Animales, respectivamente. Sólo un conjuro de El Don del Conocimiento puede estar activo en un sujeto a la vez.",
+    "closedPaths": "Destrucción",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 30,
+        "effect": "+100 de bono"
+      },
+      "intermediate": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 45,
+        "effect": "+250 de bono"
+      },
+      "advanced": {
+        "zeonCost": 400,
+        "intRequired": 14,
+        "maintenanceCost": 60,
+        "effect": "+400 de bono"
+      },
+      "arcane": {
+        "zeonCost": 500,
+        "intRequired": 16,
+        "maintenanceCost": 75,
+        "effect": "+600 de bono"
+      }
+    }
+  }
+}

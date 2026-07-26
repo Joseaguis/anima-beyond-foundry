@@ -1,0 +1,48 @@
+{
+  "name": "Destruir recuerdos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Afecta a los recuerdos de un individuo, haciéndole olvidar todo lo que el hechicero desee. No influye en las habilidades, sólo en la memoria consciente.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 52,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Afecta a los recuerdos de un individuo, haciéndole olvidar todo lo que el hechicero desee. No influye en las habilidades, sólo en la memoria consciente.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 140,
+        "intRequired": 7,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 100"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 120"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 160"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 200"
+      }
+    }
+  }
+}

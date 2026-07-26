@@ -1,0 +1,48 @@
+{
+  "name": "Imitar",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea una copia exacta de un objeto inorgánico ya existente que se encuentre al alcance del brujo. Se forma una imitación perfecta del original que mantendrá todas sus cualidades, incluso las sobrenaturales, siempre y cuando no sean poderes de Nivel 4 o superior. No tiene efectos sobre criaturas animadas mágicamente, pero sí sobre construcciones mecánicas, en el caso de que no tengan alma.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 30,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea una copia exacta de un objeto inorgánico ya existente que se encuentre al alcance del brujo. Se forma una imitación perfecta del original que mantendrá todas sus cualidades, incluso las sobrenaturales, siempre y cuando no sean poderes de Nivel 4 o superior. No tiene efectos sobre criaturas animadas mágicamente, pero sí sobre construcciones mecánicas, en el caso de que no tengan alma.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Presencia máxima 30"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "Presencia máxima 80"
+      },
+      "advanced": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "Presencia máxima 120"
+      },
+      "arcane": {
+        "zeonCost": 400,
+        "intRequired": 15,
+        "maintenanceCost": 20,
+        "effect": "Presencia máxima 160"
+      }
+    }
+  }
+}

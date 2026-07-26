@@ -1,0 +1,48 @@
+{
+  "name": "Telemetría",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El brujo puede leer la historia de un objeto con el que se ponga en contacto, percibiendo los acontecimientos más importantes que hayan ocurrido en torno a él durante un tiempo. Puede usarse también sobre personas pero, en tal caso, el individuo afectado podrá evitarlo superando una RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 42,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Tierra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El brujo puede leer la historia de un objeto con el que se ponga en contacto, percibiendo los acontecimientos más importantes que hayan ocurrido en torno a él durante un tiempo. Puede usarse también sobre personas pero, en tal caso, el individuo afectado podrá evitarlo superando una RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "RM 80 / 1 mes"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "RM 120 / 1 año"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM 140 / 10 años"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM 160 / 1 siglo"
+      }
+    }
+  }
+}

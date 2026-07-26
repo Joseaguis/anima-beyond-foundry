@@ -1,0 +1,48 @@
+{
+  "name": "Control magnético",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Controla campos magnéticos, manipula a distancia, cuerpos metálicos, con fuerza dada por el grado de conjuro. Produce un efecto automático sobre el metal y puede evitarse con un control enfrentado de Fuerza o Agilidad. esto es una acción activa, por lo que no puede emplearse como defensa. Si un cuerpo tiene metales solo en parte, o esta escudado con energía, el control tiene -4. Si se usa arma a distancia, se aplicaran las reglas de Telequinesis Menor.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 46,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Tierra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Controla campos magnéticos, manipula a distancia, cuerpos metálicos, con fuerza dada por el grado de conjuro. Produce un efecto automático sobre el metal y puede evitarse con un control enfrentado de Fuerza o Agilidad. esto es una acción activa, por lo que no puede emplearse como defensa. Si un cuerpo tiene metales solo en parte, o esta escudado con energía, el control tiene -4. Si se usa arma a distancia, se aplicaran las reglas de Telequinesis Menor.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "25 metros de radio / Fuerza 10"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "150 metros de radio / Fuerza 12"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "350 metros de radio / Fuerza 13"
+      },
+      "arcane": {
+        "zeonCost": 320,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "500 metros de radio / Fuerza 14"
+      }
+    }
+  }
+}

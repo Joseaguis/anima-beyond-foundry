@@ -1,0 +1,48 @@
+{
+  "name": "Destrucción de ki",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>La magia que desencadena este conjuro se introduce en el alma de un individuo, deshaciendo la reserva de Ki que posea. El afectado deberá superar una RM o perderá una cantidad de puntos de Ki equivalente al nivel de fracaso.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 28,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "La magia que desencadena este conjuro se introduce en el alma de un individuo, deshaciendo la reserva de Ki que posea. El afectado deberá superar una RM o perderá una cantidad de puntos de Ki equivalente al nivel de fracaso.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "140 RM"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "160 RM"
+      },
+      "advanced": {
+        "zeonCost": 220,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "180 RM"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "220 RM"
+      }
+    }
+  }
+}

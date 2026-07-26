@@ -1,0 +1,48 @@
+{
+  "name": "Uno con la tierra",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El mago fusiona su esencia con el mundo, teniendo control de cualquier elemento mineral. Esto le permite alterar la apariencia del planeta dentro de su radio de acción, levantando montañas y cordilleras, o haciéndolas desaparecer. Toda criatura basada en Tierra que esté dentro del área debe superar una RM o es controlada de inmediato. Si la pasan, ya no necesitan volver a realizar el control. Los afectados pueden repetir la tirada si incrementan su presencia.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 96,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Tierra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "El mago fusiona su esencia con el mundo, teniendo control de cualquier elemento mineral. Esto le permite alterar la apariencia del planeta dentro de su radio de acción, levantando montañas y cordilleras, o haciéndolas desaparecer. Toda criatura basada en Tierra que esté dentro del área debe superar una RM o es controlada de inmediato. Si la pasan, ya no necesitan volver a realizar el control. Los afectados pueden repetir la tirada si incrementan su presencia.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 300,
+        "intRequired": 10,
+        "maintenanceCost": 30,
+        "effect": "100 kilómetros de radio / 140 RM"
+      },
+      "intermediate": {
+        "zeonCost": 450,
+        "intRequired": 12,
+        "maintenanceCost": 45,
+        "effect": "1.000 kilómetros de radio / 180 RM"
+      },
+      "advanced": {
+        "zeonCost": 600,
+        "intRequired": 15,
+        "maintenanceCost": 60,
+        "effect": "10.000 kilómetros de radio / 200 RM"
+      },
+      "arcane": {
+        "zeonCost": 1000,
+        "intRequired": 18,
+        "maintenanceCost": 100,
+        "effect": "Afecta cualquier elemento mineral existente / 240 RM"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Localización",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Localización permite encontrar una persona, objeto o lugar, y conocer su ubicación exacta en ese momento. El brujo puede buscar cualquier cosa concreta, pero no cualidades subjetivas, como por ejemplo localizar a la persona que ha matado a su hermano si no sabe quién es exactamente. Para evitar ser encontrados, las personas u objetos deberán superar una RM. Los lugares de gran tamaño aplicarán un penalizador de –40 a dicha tirada</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 82,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "detection",
+    "effect": "Localización permite encontrar una persona, objeto o lugar, y conocer su ubicación exacta en ese momento. El brujo puede buscar cualquier cosa concreta, pero no cualidades subjetivas, como por ejemplo localizar a la persona que ha matado a su hermano si no sabe quién es exactamente. Para evitar ser encontrados, las personas u objetos deberán superar una RM. Los lugares de gran tamaño aplicarán un penalizador de –40 a dicha tirada",
+    "closedPaths": "Oscuridad",
+    "grades": {
+      "base": {
+        "zeonCost": 300,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "100 kilómetros / RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 360,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "1.000 kilómetros / RM 140"
+      },
+      "advanced": {
+        "zeonCost": 420,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "10.000 kilómetros / RM 180"
+      },
+      "arcane": {
+        "zeonCost": 480,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Cualquier distancia / RM 220"
+      }
+    }
+  }
+}

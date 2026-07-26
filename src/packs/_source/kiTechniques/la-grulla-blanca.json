@@ -1,0 +1,58 @@
+{
+  "name": "La Grulla Blanca",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Wushu",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-esquiva",
+        "role": "primary",
+        "options": [
+          "+40"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "habilidad-de-contraataque",
+        "role": "secondary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 20,
+    "bookCost": "FUE 4 DES 4 AGI 4",
+    "bookDistribution": {
+      "str": {
+        "activation": 4,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 4,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 4,
+        "upkeep": 0
+      }
+    }
+  }
+}

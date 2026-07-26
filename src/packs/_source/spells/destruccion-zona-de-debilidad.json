@@ -1,0 +1,48 @@
+{
+  "name": "Zona de debilidad",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Todo en el área se vuelve frágil y quebradizo. Todo daño se dobla y los personajes reciben críticos como si todo su cuerpo fuera un punto vulnerable. Las estructuras perderán su barrera de daño, y los objetos con entereza, sufren un penalizador de -5. El área permanece fija, y la condición para verse afectado es simplemente entrar en su interior. Sólo es posible repetir la RM una vez al día, aunque los efectos desaparecen al abandonar el lugar afectado.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 68,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Todo en el área se vuelve frágil y quebradizo. Todo daño se dobla y los personajes reciben críticos como si todo su cuerpo fuera un punto vulnerable. Las estructuras perderán su barrera de daño, y los objetos con entereza, sufren un penalizador de -5. El área permanece fija, y la condición para verse afectado es simplemente entrar en su interior. Sólo es posible repetir la RM una vez al día, aunque los efectos desaparecen al abandonar el lugar afectado.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "25 metros de radio / RM 140"
+      },
+      "intermediate": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 30,
+        "effect": "100 metros de radio / RM 160"
+      },
+      "advanced": {
+        "zeonCost": 400,
+        "intRequired": 14,
+        "maintenanceCost": 40,
+        "effect": "250 metros de radio / RM 180"
+      },
+      "arcane": {
+        "zeonCost": 500,
+        "intRequired": 16,
+        "maintenanceCost": 50,
+        "effect": "500 metros de radio / RM 200"
+      }
+    }
+  }
+}

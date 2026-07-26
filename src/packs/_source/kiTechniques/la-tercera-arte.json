@@ -1,0 +1,63 @@
+{
+  "name": "La Tercera Arte",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "El Arte",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+100"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-con-area",
+        "role": "secondary",
+        "options": [
+          "100 metros de radio"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "atadura-elemental",
+        "option": "Luz, Aire"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 50,
+    "bookCost": "DES 14 AGI 7 POD 6",
+    "bookDistribution": {
+      "dex": {
+        "activation": 14,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 7,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 6,
+        "upkeep": 0
+      }
+    }
+  }
+}

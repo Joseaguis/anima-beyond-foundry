@@ -1,0 +1,48 @@
+{
+  "name": "Destrozar",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Provoca penalizadores mediante la acumulación de dolor, sufrimiento, desdicha y otros efectos místicos tenebrosos. El afectado deberá superar una RM, o sufrir un penalizador a toda acción y a sus Resistencias equivalente al nivel de fracaso del control. Si no supera la RM, el blanco del conjuro no tendrá derecho a una nueva tirada mientras el hechizo se mantenga</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 68,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Oscuridad",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Provoca penalizadores mediante la acumulación de dolor, sufrimiento, desdicha y otros efectos místicos tenebrosos. El afectado deberá superar una RM, o sufrir un penalizador a toda acción y a sus Resistencias equivalente al nivel de fracaso del control. Si no supera la RM, el blanco del conjuro no tendrá derecho a una nueva tirada mientras el hechizo se mantenga",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "RM 120."
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "RM 160"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "RM 200"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "RM 240"
+      }
+    }
+  }
+}

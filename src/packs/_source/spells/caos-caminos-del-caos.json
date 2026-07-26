@@ -1,0 +1,48 @@
+{
+  "name": "Caminos del caos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El hechicero puede repetir cierta cantidad de tiradas por asalto, siempre y cuando ninguna de ellas sea un resultado de pifia. No es posible afectar dos veces la misma tirada</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 44,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Caos",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "El hechicero puede repetir cierta cantidad de tiradas por asalto, siempre y cuando ninguna de ellas sea un resultado de pifia. No es posible afectar dos veces la misma tirada",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 7,
+        "maintenanceCost": 20,
+        "effect": "Una tirada por asalto"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "Dos tiradas por asalto"
+      },
+      "advanced": {
+        "zeonCost": 280,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "Tres tiradas por asalto"
+      },
+      "arcane": {
+        "zeonCost": 400,
+        "intRequired": 14,
+        "maintenanceCost": 30,
+        "effect": "Cuatro tiradas por asalto o una que sea pifia"
+      }
+    }
+  }
+}

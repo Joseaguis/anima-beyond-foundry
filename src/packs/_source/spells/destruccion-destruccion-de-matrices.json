@@ -1,0 +1,48 @@
+{
+  "name": "Destrucción de matrices",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este hechizo deshace las energías matriciales de un poder psíquico. Dado que es pasivo, puede emplearse para anular cualquier poder lanzado en el mismo turno.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 22,
+    "actionType": "passive",
+    "maintenanceType": "none",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este hechizo deshace las energías matriciales de un poder psíquico. Dado que es pasivo, puede emplearse para anular cualquier poder lanzado en el mismo turno.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "Dificultad Media (80)"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "Dificultad Muy Difícil (140)"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Dificultad Casi Imposible (240)"
+      },
+      "arcane": {
+        "zeonCost": 320,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Dificultad Inhumana (320)"
+      }
+    }
+  }
+}

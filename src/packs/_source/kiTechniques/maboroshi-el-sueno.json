@@ -1,0 +1,64 @@
+{
+  "name": "Maboroshi, El Sueño",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Kagami",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+75"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "estados-sobrenaturales",
+        "role": "secondary",
+        "options": [
+          "RF 160",
+          "Estado añadido: Ilusión Mayor"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "dano-reducido",
+        "option": "Ningún daño"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 60,
+    "bookCost": "DES 12 VOL 13 POD 13",
+    "bookDistribution": {
+      "dex": {
+        "activation": 12,
+        "upkeep": 0
+      },
+      "wp": {
+        "activation": 13,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 13,
+        "upkeep": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Localización psíquica",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Telepatía",
+    "powerLevel": 2,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "veryHard",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "10 km de distancia / 140 RP"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "100 km de distancia / 160 RP"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "500 km de distancia / 180 RP"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "1000 km de distancia / 200 RP"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "5000 km de distancia / 220 RP"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Cualquier distancia / 260 RP"
+      }
+    ],
+    "effect": ""
+  }
+}

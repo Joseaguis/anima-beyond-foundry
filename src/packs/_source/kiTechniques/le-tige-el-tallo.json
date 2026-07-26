@@ -1,0 +1,48 @@
+{
+  "name": "Le Tige, El Tallo",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Le Rose Du Sang",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "defensas-adicionales",
+        "role": "primary",
+        "options": [
+          "+3"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 20,
+    "bookCost": "AGI 3 (1) DES 3 (1) CON 3 (1)",
+    "bookDistribution": {
+      "agi": {
+        "activation": 3,
+        "upkeep": 1
+      },
+      "dex": {
+        "activation": 3,
+        "upkeep": 1
+      },
+      "con": {
+        "activation": 3,
+        "upkeep": 1
+      }
+    }
+  }
+}

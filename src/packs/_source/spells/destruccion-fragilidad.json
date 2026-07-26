@@ -1,0 +1,48 @@
+{
+  "name": "Fragilidad",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Altera la solidez de un objeto. Cualquier cuerpo afectado perderá automáticamente su barrera de daño y, en caso de ser un arma o una armadura, reducirá su entereza</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 2,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Altera la solidez de un objeto. Cualquier cuerpo afectado perderá automáticamente su barrera de daño y, en caso de ser un arma o una armadura, reducirá su entereza",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 5,
+        "maintenanceCost": 5,
+        "effect": "-2 a su entereza / Presencia máxima afectable 30"
+      },
+      "intermediate": {
+        "zeonCost": 60,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "-4 a su entereza / Presencia máxima afectable 60"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 10,
+        "maintenanceCost": 15,
+        "effect": "-8 a su entereza / Presencia máxima afectable 90"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "-12 a su entereza / Presencia máxima afectable 120"
+      }
+    }
+  }
+}

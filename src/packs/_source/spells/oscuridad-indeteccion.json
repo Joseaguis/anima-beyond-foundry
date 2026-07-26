@@ -1,0 +1,48 @@
+{
+  "name": "Indetección",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El hechicero, o quien este designe, se vuelve completamente inmune ante ciertos tipos de detecciones sobrenaturales. Por ejemplo, un personaje que use este conjuro en grado Arcano sólo podría ser encontrado mediante los sentidos físicos, como la vista o el oído.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 90,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Oscuridad",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El hechicero, o quien este designe, se vuelve completamente inmune ante ciertos tipos de detecciones sobrenaturales. Por ejemplo, un personaje que use este conjuro en grado Arcano sólo podría ser encontrado mediante los sentidos físicos, como la vista o el oído.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 350,
+        "intRequired": 12,
+        "maintenanceCost": 80,
+        "effect": "El personaje se vuelve indetectable ante conjuros y habilidades psíquicas."
+      },
+      "intermediate": {
+        "zeonCost": 450,
+        "intRequired": 14,
+        "maintenanceCost": 90,
+        "effect": "Como en grado Base, pero se vuelve indetectable ante habilidades del Ki."
+      },
+      "advanced": {
+        "zeonCost": 600,
+        "intRequired": 16,
+        "maintenanceCost": 105,
+        "effect": "También es indetectable ante todas las habilidades sobrenaturales."
+      },
+      "arcane": {
+        "zeonCost": 800,
+        "intRequired": 18,
+        "maintenanceCost": 115,
+        "effect": "Ignora cualquier detección que no sean los sentidos naturales"
+      }
+    }
+  }
+}

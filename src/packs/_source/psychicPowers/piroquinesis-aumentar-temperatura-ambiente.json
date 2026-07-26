@@ -1,0 +1,64 @@
+{
+  "name": "Aumentar temperatura ambiente",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Piroquinesis",
+    "powerLevel": 2,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "veryHard",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "1 km de Radio / +5ºC"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "5 km de Radio / +10ºC"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "10 km de Radio / +15ºC"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "25 km de Radio / +20ºC"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "50 km de Radio / +30ºC"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "100 km de Radio / +40ºC"
+      }
+    ],
+    "effect": ""
+  }
+}

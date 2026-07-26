@@ -1,0 +1,48 @@
+{
+  "name": "Andar por las paredes",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite a un individuo moverse por paredes o techos como si se tratase del suelo, anulando absolutamente cualquier regla de la gravedad</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 52,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Permite a un individuo moverse por paredes o techos como si se tratase del suelo, anulando absolutamente cualquier regla de la gravedad",
+    "closedPaths": "Agua",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 8,
+        "maintenanceCost": 5,
+        "effect": "A una cuarta parte del Tipo de Movimiento como máximo"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 10,
+        "maintenanceCost": 5,
+        "effect": "A mitad de Tipo de Movimiento como máximo"
+      },
+      "advanced": {
+        "zeonCost": 100,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "Tipo de Movimiento pleno"
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 15,
+        "maintenanceCost": 10,
+        "effect": "Puede moverse o quedarse quieto por superficies completamente imposibles."
+      }
+    }
+  }
+}

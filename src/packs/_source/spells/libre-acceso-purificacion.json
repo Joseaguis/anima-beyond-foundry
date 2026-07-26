@@ -1,0 +1,48 @@
+{
+  "name": "Purificación",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Purifica un cuerpo eliminando cualquier elemento nocivo para el sistema, como venenos o toxinas. La purificación sólo afectará a los elementos de un cuerpo que resulten dañinos y que no pertenezcan a él. De este modo, el veneno que posee una serpiente no se verá alterado, dado que es algo natural para ella, pero podría eliminarse cuando se inocule en una víctima</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 32,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Purifica un cuerpo eliminando cualquier elemento nocivo para el sistema, como venenos o toxinas. La purificación sólo afectará a los elementos de un cuerpo que resulten dañinos y que no pertenezcan a él. De este modo, el veneno que posee una serpiente no se verá alterado, dado que es algo natural para ella, pero podría eliminarse cuando se inocule en una víctima",
+    "closedPaths": "Creación",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 7,
+        "maintenanceCost": 0,
+        "effect": "Nivel máximo del veneno 30"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Nivel máximo del veneno 50"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Nivel máximo del veneno 70"
+      },
+      "arcane": {
+        "zeonCost": 140,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "Nivel máximo del veneno 90"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Sombra de vacío",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Trae a la existencia un fragmento del vacío, una mera sombra de la nada primordial que durante unos instantes absorbe parcialmente la luz, reduce la cantidad de oxígeno en la zona, y arrebata energía vital a cuanto la rodea. Todo aquel que se encuentren en la zona afectada por este conjuro deberá realizar un control de RM o perderá o bien un punto de Cansancio en los seres vivos, dos intensidades en el caso de elementales.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 4,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Vacío",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Trae a la existencia un fragmento del vacío, una mera sombra de la nada primordial que durante unos instantes absorbe parcialmente la luz, reduce la cantidad de oxígeno en la zona, y arrebata energía vital a cuanto la rodea. Todo aquel que se encuentren en la zona afectada por este conjuro deberá realizar un control de RM o perderá o bien un punto de Cansancio en los seres vivos, dos intensidades en el caso de elementales.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 5,
+        "maintenanceCost": 0,
+        "effect": "RM 80 / Área 5 metros"
+      },
+      "intermediate": {
+        "zeonCost": 60,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "RM 100 / Área 10 metros."
+      },
+      "advanced": {
+        "zeonCost": 90,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "RM 120 / Área 15 metros"
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "RM 150 / Área 30 metros."
+      }
+    }
+  }
+}

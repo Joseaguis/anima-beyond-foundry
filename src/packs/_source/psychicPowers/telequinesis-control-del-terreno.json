@@ -1,0 +1,64 @@
+{
+  "name": "Control del terreno",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Telequinesis",
+    "powerLevel": 3,
+    "action": "active",
+    "maintainable": false,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 16"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 12"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "10 m / Barrera de daño 40"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "100 m / Barrera de daño 60"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "250 m / Barrera de daño 80"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "500 m / Barrera de daño 100"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "1 km / Barrera de daño 140"
+      }
+    ],
+    "effect": ""
+  }
+}

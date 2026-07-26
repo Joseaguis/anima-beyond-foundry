@@ -1,0 +1,48 @@
+{
+  "name": "Restituir",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro restituye los penalizadores que se apliquen sobre un individuo determinado. Los negativos restituidos podrán haber sido causados por cansancio, hambre, daños físicos o incluso conjuros, aunque no por carencias físicas, como la pérdida de un miembro u otra parte del cuerpo. La restitución recuperará, además, cierta cantidad de de puntos de Cansancio gastados.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 68,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Luz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este conjuro restituye los penalizadores que se apliquen sobre un individuo determinado. Los negativos restituidos podrán haber sido causados por cansancio, hambre, daños físicos o incluso conjuros, aunque no por carencias físicas, como la pérdida de un miembro u otra parte del cuerpo. La restitución recuperará, además, cierta cantidad de de puntos de Cansancio gastados.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 150,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "Elimina un -40 a toda acción y restituye 2 puntos de Cansancio"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Elimina un -80 a toda acción y restituye 5 puntos de Cansancio"
+      },
+      "advanced": {
+        "zeonCost": 250,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Elimina un -120 a toda acción y restituye 10 puntos de Cansancio"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "Restituye cualquier penalizador y cantidad de Puntos de Cansancio"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Salto temporal",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro afecta a un individuo o cosa haciendo que dé un salto temporal al futuro. A efectos de juego, el blanco del conjuro desaparece de donde está, apareciendo en el mismo sitio cierto periodo de tiempo después. El lanzador es quien elige cuanto tiempo adelanta el afectado. No obstante, hay un límite a sus efectos; existen ciertos momentos en la historia que marcan acontecimientos tan importantes existencialmente que son imposibles de evitar.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 74,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Tiempo",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Este conjuro afecta a un individuo o cosa haciendo que dé un salto temporal al futuro. A efectos de juego, el blanco del conjuro desaparece de donde está, apareciendo en el mismo sitio cierto periodo de tiempo después. El lanzador es quien elige cuanto tiempo adelanta el afectado. No obstante, hay un límite a sus efectos; existen ciertos momentos en la historia que marcan acontecimientos tan importantes existencialmente que son imposibles de evitar.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "Hasta 10 minutos / 120RM"
+      },
+      "intermediate": {
+        "zeonCost": 350,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "Hasta 1 día / 160RM"
+      },
+      "advanced": {
+        "zeonCost": 450,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Hasta 1 mes / 200RM"
+      },
+      "arcane": {
+        "zeonCost": 600,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "Hasta 1 año / 240RM"
+      }
+    }
+  }
+}

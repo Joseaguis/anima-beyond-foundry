@@ -1,0 +1,48 @@
+{
+  "name": "Quimera nigromántica",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Se crea una criatura no muerta sometida al mago desarrollada como Ser Entre Mundos de Gnosis 25. No se puede crear a la criatura de la nada, hay que reunir partes de cadáveres con los que darle forma. Para otorgarle cualquier poder o habilidad esencial que desee, ha de conseguir cuerpos de seres que los tuvieran. Puesto que la existencia de la quimera se encuentra directamente atada al mago, para calcular su nivel máximo es igual que el conjuro Crear Ser.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 70,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Se crea una criatura no muerta sometida al mago desarrollada como Ser Entre Mundos de Gnosis 25. No se puede crear a la criatura de la nada, hay que reunir partes de cadáveres con los que darle forma. Para otorgarle cualquier poder o habilidad esencial que desee, ha de conseguir cuerpos de seres que los tuvieran. Puesto que la existencia de la quimera se encuentra directamente atada al mago, para calcular su nivel máximo es igual que el conjuro Crear Ser.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 9,
+        "maintenanceCost": 50,
+        "effect": "Nivel 2"
+      },
+      "intermediate": {
+        "zeonCost": 360,
+        "intRequired": 12,
+        "maintenanceCost": 80,
+        "effect": "Nivel 6"
+      },
+      "advanced": {
+        "zeonCost": 500,
+        "intRequired": 15,
+        "maintenanceCost": 100,
+        "effect": "Nivel 10"
+      },
+      "arcane": {
+        "zeonCost": 800,
+        "intRequired": 17,
+        "maintenanceCost": 160,
+        "effect": "Nivel 13"
+      }
+    }
+  }
+}

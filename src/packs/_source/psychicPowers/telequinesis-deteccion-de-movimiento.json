@@ -1,0 +1,64 @@
+{
+  "name": "Detección de movimiento",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Telequinesis",
+    "powerLevel": 2,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "hard",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "120 RF y 10 m de radio"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "160 RF y 50 m de radio"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "200 RF y 100 m de radio"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "240 RF y 500 m de radio"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "280 RF y 1000 m de radio"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "320 RF y 10 km de radio"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "400 RF y 100 km de radio"
+      }
+    ],
+    "effect": ""
+  }
+}

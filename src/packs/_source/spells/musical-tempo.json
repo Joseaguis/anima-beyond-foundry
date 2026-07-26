@@ -1,0 +1,48 @@
+{
+  "name": "Tempo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Controlando el ritmo del mundo, este conjuro aísla al hechicero de las distracciones exteriores permitiéndole discernir de manera intuitiva todos los sonidos que le rodean. En conscuencia, obtiene un bono a su habilidad secundaria Buscar para todos aquellos controles que estén relacionados con el sonido.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 4,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Musical",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Controlando el ritmo del mundo, este conjuro aísla al hechicero de las distracciones exteriores permitiéndole discernir de manera intuitiva todos los sonidos que le rodean. En conscuencia, obtiene un bono a su habilidad secundaria Buscar para todos aquellos controles que estén relacionados con el sonido.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 5,
+        "maintenanceCost": 0,
+        "effect": "Da + 40 a buscar"
+      },
+      "intermediate": {
+        "zeonCost": 50,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "Da +60 a buscar"
+      },
+      "advanced": {
+        "zeonCost": 70,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Da +80 a buscar"
+      },
+      "arcane": {
+        "zeonCost": 100,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Da +100 a buscar"
+      }
+    }
+  }
+}

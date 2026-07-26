@@ -1,0 +1,48 @@
+{
+  "name": "Arrojar de los cielos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Arrebata la presencia divina a un ente. La criatura afectada reducirá su gnosis según el valor indicado. Mientras se mantenga la reducción, no podrá utilizar los poderes y capacidades que le otorgase su Gnosis original. No puede repetirse la RM mientras el conjuro siga activo.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 88,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Arrebata la presencia divina a un ente. La criatura afectada reducirá su gnosis según el valor indicado. Mientras se mantenga la reducción, no podrá utilizar los poderes y capacidades que le otorgase su Gnosis original. No puede repetirse la RM mientras el conjuro siga activo.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "-5 a su Gnosis, RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 600,
+        "intRequired": 14,
+        "maintenanceCost": 30,
+        "effect": "-10 a su Gnosis, RM 160"
+      },
+      "advanced": {
+        "zeonCost": 1000,
+        "intRequired": 16,
+        "maintenanceCost": 50,
+        "effect": "-15 a su Gnosis, RM 200"
+      },
+      "arcane": {
+        "zeonCost": 2000,
+        "intRequired": 18,
+        "maintenanceCost": 100,
+        "effect": "-20 a su Gnosis, RM 260"
+      }
+    }
+  }
+}

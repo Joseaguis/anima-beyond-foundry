@@ -1,0 +1,48 @@
+{
+  "name": "Moral",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este grito provoca que los aliados del hechicero aumenten su espíritu combativo y se vuelvan inmunes a los efectos del Miedo o Dolor. A efectos de juego, se obtiene un Bono a Frialdad hasta que finalice el combate en el que se encuentran trabados o transcurran más de 10 min.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 4,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Guerra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este grito provoca que los aliados del hechicero aumenten su espíritu combativo y se vuelvan inmunes a los efectos del Miedo o Dolor. A efectos de juego, se obtiene un Bono a Frialdad hasta que finalice el combate en el que se encuentran trabados o transcurran más de 10 min.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 5,
+        "maintenanceCost": 0,
+        "effect": "Da +40 a Frialdad / 10m radio"
+      },
+      "intermediate": {
+        "zeonCost": 60,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "Da +80 a Frialdad / 50m radio"
+      },
+      "advanced": {
+        "zeonCost": 90,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "Da +120 a Frialdad / 250m radio"
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "Da +180 a Frialdad / 500m radio"
+      }
+    }
+  }
+}

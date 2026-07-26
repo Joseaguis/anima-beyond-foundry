@@ -1,0 +1,48 @@
+{
+  "name": "La falsa realidad",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Hace realidad algo que no ocurrio. Permite inventar acontecimientos y que repercutan en el presente. No puede realizar imposibles, sólo alterar acontecimientos posibles. La RM es la mayor de lo afectado en la mentira. En el caso de que se cambiara algún acontecimiento que implicase que un difunto volviese a la vida, lo haría sin alma y sin personalidad. No afecta a características o nivel de seres. Tampoco involucrar a un ser con Gnosis mayor al mago.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 100,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Ilusión",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Hace realidad algo que no ocurrio. Permite inventar acontecimientos y que repercutan en el presente. No puede realizar imposibles, sólo alterar acontecimientos posibles. La RM es la mayor de lo afectado en la mentira. En el caso de que se cambiara algún acontecimiento que implicase que un difunto volviese a la vida, lo haría sin alma y sin personalidad. No afecta a características o nivel de seres. Tampoco involucrar a un ser con Gnosis mayor al mago.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 600,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "RM 140"
+      },
+      "intermediate": {
+        "zeonCost": 1000,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "RM 180"
+      },
+      "advanced": {
+        "zeonCost": 2000,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "RM 220"
+      },
+      "arcane": {
+        "zeonCost": 3000,
+        "intRequired": 19,
+        "maintenanceCost": 0,
+        "effect": "RM 240"
+      }
+    }
+  }
+}

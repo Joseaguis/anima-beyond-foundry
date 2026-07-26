@@ -1,0 +1,48 @@
+{
+  "name": "Paz absoluta",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El objetivo de este conjuro queda imbuido por una energía de la paz más pura, que le impedirá volver a entablar actos violentos de ningún tipo. Alguien que falle la RM determinada por el Grado del sortilegio deja de poder realizar acciones ofensivas contra nadie de un modo consciente. Dado que su propia esencia violenta desaparece por completo, este conjuro no tiene mantenimiento.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 84,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Paz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "El objetivo de este conjuro queda imbuido por una energía de la paz más pura, que le impedirá volver a entablar actos violentos de ningún tipo. Alguien que falle la RM determinada por el Grado del sortilegio deja de poder realizar acciones ofensivas contra nadie de un modo consciente. Dado que su propia esencia violenta desaparece por completo, este conjuro no tiene mantenimiento.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "RM 140"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "RM 160"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM 180"
+      }
+    }
+  }
+}

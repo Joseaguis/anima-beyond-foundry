@@ -1,0 +1,48 @@
+{
+  "name": "Crear energía",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea intensidades de uno de los tres tipos de energía existentes: frío, fuego o electricidad.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 8,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea intensidades de uno de los tres tipos de energía existentes: frío, fuego o electricidad.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 5,
+        "maintenanceCost": 5,
+        "effect": "1 intensidad"
+      },
+      "intermediate": {
+        "zeonCost": 150,
+        "intRequired": 8,
+        "maintenanceCost": 15,
+        "effect": "5 intensidades"
+      },
+      "advanced": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 20,
+        "effect": "10 intensidades"
+      },
+      "arcane": {
+        "zeonCost": 250,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "20 intensidades"
+      }
+    }
+  }
+}

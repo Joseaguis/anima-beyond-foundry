@@ -1,0 +1,48 @@
+{
+  "name": "Magia pasiva",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este hechizo envuelve la esencia de su lanzador, haciendo que la magia fluya en él de un modo instintivo y manifestando automáticamente sus designios. Así pues, la magia y él responden como un solo ser ante cualquier acontecimiento. Mientras se mantenga, cualquier hechizo que ejecute el personaje se considerará una acción pasiva, incluidos los de Ataque y los Anímicos</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 92,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Aire",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este hechizo envuelve la esencia de su lanzador, haciendo que la magia fluya en él de un modo instintivo y manifestando automáticamente sus designios. Así pues, la magia y él responden como un solo ser ante cualquier acontecimiento. Mientras se mantenga, cualquier hechizo que ejecute el personaje se considerará una acción pasiva, incluidos los de Ataque y los Anímicos",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 30,
+        "effect": "Afecta a conjuros de grado base"
+      },
+      "intermediate": {
+        "zeonCost": 400,
+        "intRequired": 12,
+        "maintenanceCost": 40,
+        "effect": "Afecta a conjuros Automáticos de Grado Intermedio"
+      },
+      "advanced": {
+        "zeonCost": 550,
+        "intRequired": 14,
+        "maintenanceCost": 55,
+        "effect": "Afecta a conjuros Automáticos de Grado Avanzado"
+      },
+      "arcane": {
+        "zeonCost": 800,
+        "intRequired": 16,
+        "maintenanceCost": 80,
+        "effect": "Afecta a conjuros Automáticos de Grado Arcano"
+      }
+    }
+  }
+}

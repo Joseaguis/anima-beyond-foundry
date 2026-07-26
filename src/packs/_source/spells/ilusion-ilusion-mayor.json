@@ -1,0 +1,48 @@
+{
+  "name": "Ilusión mayor",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea una gran ilusión que afecta a los cinco sentidos. Se manifiesta en una zona dentro de la cual las personas verán y sentirán todo lo que el hechicero desee. Cualquiera que entre en la zona se verá afectado automáticamente por la ilusión si no supera una RM. Si falla el control, sus sentidos se adaptarán a la mentira, y sólo podrán repetir la Resistencia si encuentran algún motivo de sospecha sobre la autenticidad de lo que hay a su alrededor.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 80,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Ilusión",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Crea una gran ilusión que afecta a los cinco sentidos. Se manifiesta en una zona dentro de la cual las personas verán y sentirán todo lo que el hechicero desee. Cualquiera que entre en la zona se verá afectado automáticamente por la ilusión si no supera una RM. Si falla el control, sus sentidos se adaptarán a la mentira, y sólo podrán repetir la Resistencia si encuentran algún motivo de sospecha sobre la autenticidad de lo que hay a su alrededor.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 9,
+        "maintenanceCost": 25,
+        "effect": "RM 120 / 1kilómetro de radio"
+      },
+      "intermediate": {
+        "zeonCost": 350,
+        "intRequired": 12,
+        "maintenanceCost": 35,
+        "effect": "RM 160 / 5 kilómetros de radio"
+      },
+      "advanced": {
+        "zeonCost": 500,
+        "intRequired": 15,
+        "maintenanceCost": 50,
+        "effect": "RM 200 / 10 kilómetros de radio"
+      },
+      "arcane": {
+        "zeonCost": 700,
+        "intRequired": 18,
+        "maintenanceCost": 70,
+        "effect": "RM 240 / 20 kilómetros de radio"
+      }
+    }
+  }
+}

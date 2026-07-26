@@ -1,0 +1,48 @@
+{
+  "name": "Descarga mayor",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Proyecta una poderosa descarga mística. El ataque se realiza en la TA de Energía.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 62,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "Proyecta una poderosa descarga mística. El ataque se realiza en la TA de Energía.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 150,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "Daño 150"
+      },
+      "intermediate": {
+        "zeonCost": 300,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Daño 300"
+      },
+      "advanced": {
+        "zeonCost": 450,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "Daño 450"
+      },
+      "arcane": {
+        "zeonCost": 600,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Daño 500"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Destruir no muertos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro destruye completamente la esencia de los no muertos. Cualquier ser nigromántico que sea su blanco deberá superar un control de RM o sufrir un daño equivalente al doble de su nivel de fracaso. Si tiene acumulación, sufre diez veces dicha cantidad.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 36,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Este conjuro destruye completamente la esencia de los no muertos. Cualquier ser nigromántico que sea su blanco deberá superar un control de RM o sufrir un daño equivalente al doble de su nivel de fracaso. Si tiene acumulación, sufre diez veces dicha cantidad.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "RM 140"
+      },
+      "intermediate": {
+        "zeonCost": 160,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM 180"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "RM 220"
+      },
+      "arcane": {
+        "zeonCost": 320,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM 260"
+      }
+    }
+  }
+}

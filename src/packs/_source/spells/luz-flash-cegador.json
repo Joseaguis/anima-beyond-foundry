@@ -1,0 +1,48 @@
+{
+  "name": "Flash cegador",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Causa un repentino flash de luz en un radio alrededor del brujo que ciega a cualquiera que lo mire durante tantos asaltos como número de decenas por las que no supere la RF del conjuro. No es posible designar blancos específicos en el interior del flash, afectando automáticamente a todos por igual salvo al lanzador. Si alguien se está cubriendo los ojos o prevé de algún modo el resplandor, podrá aplicar un +40 a su RF.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 8,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Luz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Causa un repentino flash de luz en un radio alrededor del brujo que ciega a cualquiera que lo mire durante tantos asaltos como número de decenas por las que no supere la RF del conjuro. No es posible designar blancos específicos en el interior del flash, afectando automáticamente a todos por igual salvo al lanzador. Si alguien se está cubriendo los ojos o prevé de algún modo el resplandor, podrá aplicar un +40 a su RF.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "10 metros de radio / 140 RF"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "25 metros de radio / 140 RF."
+      },
+      "advanced": {
+        "zeonCost": 150,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "50 metros de radio / 140 RF."
+      },
+      "arcane": {
+        "zeonCost": 200,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "100 metros de radio / 160 RF"
+      }
+    }
+  }
+}

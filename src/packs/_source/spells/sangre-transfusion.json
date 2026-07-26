@@ -1,0 +1,48 @@
+{
+  "name": "Transfusión",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite que el brujo transfiera parte de sus Puntos de Vida a otra persona. La cantidad de PV que sacrifique el lanzador se multiplica por la cantidad que determine el Grado del conjuro. Este conjuro no permite restaurar miembros cercenados o pérdidas permanentes, pero si elimina los penalizadores causados por los críticos en una cantidad equivalente a los PV sacrificados.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 44,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Sangre",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Permite que el brujo transfiera parte de sus Puntos de Vida a otra persona. La cantidad de PV que sacrifique el lanzador se multiplica por la cantidad que determine el Grado del conjuro. Este conjuro no permite restaurar miembros cercenados o pérdidas permanentes, pero si elimina los penalizadores causados por los críticos en una cantidad equivalente a los PV sacrificados.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "x2 a los PV Sacrificados"
+      },
+      "intermediate": {
+        "zeonCost": 60,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "x5 a los PV Sacrificados"
+      },
+      "advanced": {
+        "zeonCost": 80,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "x10 a los PV Sacrificados"
+      },
+      "arcane": {
+        "zeonCost": 100,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "x20 a los PV Sacrificados"
+      }
+    }
+  }
+}

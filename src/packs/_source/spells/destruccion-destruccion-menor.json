@@ -1,0 +1,48 @@
+{
+  "name": "Destrucción menor",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Afecta a la esencia de un objeto sin vida, destruyéndolo completamente, siempre que su presencia no sea superior a lo permitido por el grado del conjuro</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 10,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Afecta a la esencia de un objeto sin vida, destruyéndolo completamente, siempre que su presencia no sea superior a lo permitido por el grado del conjuro",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 20"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 40"
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 60"
+      },
+      "arcane": {
+        "zeonCost": 180,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 80"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Enviar sueños",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite enviar imágenes y palabras al subconsciente de un durmiente. El conjuro no funciona como un sistema de comunicación, ya que el brujo no tendrá constancia de lo que el soñador diga o haga. El mensaje puede mandarse a cualquier sujeto que el hechicero designe, sin importar la distancia a la que esté. La condición para ser afectado por el conjuro es estar durmiendo, y ser el individuo elegido por el lanzador</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 42,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Permite enviar imágenes y palabras al subconsciente de un durmiente. El conjuro no funciona como un sistema de comunicación, ya que el brujo no tendrá constancia de lo que el soñador diga o haga. El mensaje puede mandarse a cualquier sujeto que el hechicero designe, sin importar la distancia a la que esté. La condición para ser afectado por el conjuro es estar durmiendo, y ser el individuo elegido por el lanzador",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "Sueños vagos,poco claros,imágenes fragmentadas,frases inconexas y sonidos"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Los Sueños son vagos, pero permiten mostrar secuencias y lugares al soñador"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Sueños claros con mensaje comprensible, imágenes ideadas por el mago"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "Sueños claros, permitiendo al soñador preguntar o interactuar con lo que ve"
+      }
+    }
+  }
+}

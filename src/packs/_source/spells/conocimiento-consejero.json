@@ -1,0 +1,48 @@
+{
+  "name": "Consejero",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Como su nombre indica, este hechizo aconseja sabiamente al lanzador respecto a una cuestión o duda. El conjuro no adivinará ni tendrá conocimientos mayores a los que posea el lanzador, pero usando sus conocimientos base aconsejará lo mejor posible al lanzador.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 74,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Conocimiento",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Como su nombre indica, este hechizo aconseja sabiamente al lanzador respecto a una cuestión o duda. El conjuro no adivinará ni tendrá conocimientos mayores a los que posea el lanzador, pero usando sus conocimientos base aconsejará lo mejor posible al lanzador.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Un consejo aproximado sobre cual es la mejor decision que ha de tomar."
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "Mostrará el espectro de de posibilidades y sus posibles consecuencias."
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 11,
+        "maintenanceCost": 15,
+        "effect": "El lanzador obtiene un consejo con índice de acierto elevado."
+      },
+      "arcane": {
+        "zeonCost": 200,
+        "intRequired": 13,
+        "maintenanceCost": 20,
+        "effect": "Obtiene un consejo detallado con todas las posibilidades y consecuencias."
+      }
+    }
+  }
+}

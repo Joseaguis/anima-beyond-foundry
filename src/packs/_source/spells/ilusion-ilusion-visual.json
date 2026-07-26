@@ -1,0 +1,48 @@
+{
+  "name": "Ilusión visual",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea una imagen ilusoria inmóvil que engaña al sentido de la vista. El conjuro afectará a cualquier persona dentro del radio de efecto que vea la imagen y no supere una RM. El hechicero puede elegir qué sujetos la verán y cuáles no.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 12,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Ilusión",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Crea una imagen ilusoria inmóvil que engaña al sentido de la vista. El conjuro afectará a cualquier persona dentro del radio de efecto que vea la imagen y no supere una RM. El hechicero puede elegir qué sujetos la verán y cuáles no.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "RM 100 / radio de 10 metros"
+      },
+      "intermediate": {
+        "zeonCost": 70,
+        "intRequired": 8,
+        "maintenanceCost": 5,
+        "effect": "RM 120 / radio de 25 metros"
+      },
+      "advanced": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "RM 140 / radio de 50 metros"
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "RM 160 / radio de 100 metros"
+      }
+    }
+  }
+}

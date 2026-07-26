@@ -1,0 +1,48 @@
+{
+  "name": "Ascensión",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El conjuro intercambia la esencia del lanzador por energía divina, modificando su espíritu por puro poder sobrenatural. Al hacerlo, el lanzador o el individuo designado por éste aumenta su Gnosis hasta una cantidad máxima determinada por el grado del conjuro</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 98,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Luz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El conjuro intercambia la esencia del lanzador por energía divina, modificando su espíritu por puro poder sobrenatural. Al hacerlo, el lanzador o el individuo designado por éste aumenta su Gnosis hasta una cantidad máxima determinada por el grado del conjuro",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 500,
+        "intRequired": 14,
+        "maintenanceCost": 30,
+        "effect": "Gnosis máximo 30"
+      },
+      "intermediate": {
+        "zeonCost": 1000,
+        "intRequired": 16,
+        "maintenanceCost": 40,
+        "effect": "Gnosis máximo 35"
+      },
+      "advanced": {
+        "zeonCost": 2000,
+        "intRequired": 18,
+        "maintenanceCost": 45,
+        "effect": "Gnosis máximo 40"
+      },
+      "arcane": {
+        "zeonCost": 5000,
+        "intRequired": 20,
+        "maintenanceCost": 50,
+        "effect": "Gnosis máximo 45."
+      }
+    }
+  }
+}

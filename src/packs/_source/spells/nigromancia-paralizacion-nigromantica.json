@@ -1,0 +1,48 @@
+{
+  "name": "Paralización Nigromántica",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro congela la esencia sobrenatural de las criaturas no muertas, conteniéndolas y haciendo que sean incapaces de moverse. Cualquier ser nigromántico, en un radio respecto al brujo, queda automáticamente sometido a paralización completa si no es capaz de superar un control de RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 20,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Este conjuro congela la esencia sobrenatural de las criaturas no muertas, conteniéndolas y haciendo que sean incapaces de moverse. Cualquier ser nigromántico, en un radio respecto al brujo, queda automáticamente sometido a paralización completa si no es capaz de superar un control de RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 7,
+        "maintenanceCost": 10,
+        "effect": "10 metros de radio / RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "25 metros de radio / RM 140"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "50 metros de radio / RM 160"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "100 metros de radio / RM 180"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Spiritum",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Magus Abstergo",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "incremento-de-resistencia-magica",
+        "role": "primary",
+        "options": [
+          "+40 RM"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 30,
+    "bookCost": "POD 4 (2) VOL 4 (2) CON 4",
+    "bookDistribution": {
+      "pow": {
+        "activation": 4,
+        "upkeep": 2
+      },
+      "wp": {
+        "activation": 4,
+        "upkeep": 2
+      },
+      "con": {
+        "activation": 4,
+        "upkeep": 0
+      }
+    }
+  }
+}

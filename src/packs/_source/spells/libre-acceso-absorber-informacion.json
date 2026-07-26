@@ -1,0 +1,48 @@
+{
+  "name": "Absorber información",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El hechicero absorbe conocimientos escritos o gráficos, que se encuentren a su vista o al alcance de su mano. Así pues, le es posible, por ejemplo, leer un libro en escasos segundos tocando su cubierta y recordar los detalles como si lo hubiera hecho con detenimiento. Un personaje que trate de recordar información que ha memorizado usando este conjuro disminuye dos grados la dificultad de cualquier control de Memorizar.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 42,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El hechicero absorbe conocimientos escritos o gráficos, que se encuentren a su vista o al alcance de su mano. Así pues, le es posible, por ejemplo, leer un libro en escasos segundos tocando su cubierta y recordar los detalles como si lo hubiera hecho con detenimiento. Un personaje que trate de recordar información que ha memorizado usando este conjuro disminuye dos grados la dificultad de cualquier control de Memorizar.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "Un libro corto y no muy complejo"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Un grueso volumen de gran complejidad"
+      },
+      "advanced": {
+        "zeonCost": 320,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "El equivalente a una enciclopedia"
+      },
+      "arcane": {
+        "zeonCost": 500,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "El conocimiento de una biblioteca entera"
+      }
+    }
+  }
+}

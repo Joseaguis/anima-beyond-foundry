@@ -1,0 +1,475 @@
+@import "tailwindcss/theme" layer(theme);
+@import "tailwindcss/utilities" layer(utilities);
+/* Explicit content root: with the sandbox's vite root (sandbox/), Tailwind's
+   automatic source detection would not scan src/. No-op for the main build. */
+@source "../";
+
+/* ============================================================
+   Anima "Ficha" design system — ported from Ficha Anima.dc.html
+   Theme tokens + reusable section-card / field / tooltip styles.
+   Scope everything under .anima-sheet so it never leaks.
+   ============================================================ */
+:is(.anima-sheet, .a-item-sheet) {
+  --bd: #b6bcc4;
+  --hdr: #17191d;
+  --ink: #1c2128;
+  --mut: #737a85;
+  --fld: #eef1f5;
+  --acc: #e0732a;
+  --blue: #2f6fd0;
+  --red: #d23b3b;
+  --edit: #f2f2f2;     /* celda editable en fila blanca */
+  --edit-alt: #d9d9d9; /* celda editable en fila zebra gris */
+
+  font-family: Inter, system-ui, sans-serif;
+  color: var(--ink);
+  background: #e9ebee;
+  font-size: 13px;
+  line-height: 1.35;
+  -webkit-font-smoothing: antialiased;
+  font-variant-numeric: tabular-nums;
+  @apply flex flex-col h-full;
+
+  /* ----- scrollbars ----- */
+  .scl::-webkit-scrollbar { height: 10px; width: 10px; }
+  .scl::-webkit-scrollbar-thumb { background: #c2c8d0; border-radius: 6px; border: 2px solid #fff; }
+  .scl::-webkit-scrollbar-track { background: transparent; }
+
+  /* ----- vitals strip ----- */
+  .a-vitals {
+    background: var(--hdr);
+    color: #eef0f2;
+    border-bottom: 2px solid var(--acc);
+    @apply flex items-center gap-4 flex-wrap px-4 py-2;
+  }
+  .a-vitals-tagline { color: #9aa2ad; @apply text-[9px] font-semibold; letter-spacing: 0.22em; }
+  .a-vitals-name { @apply text-base font-bold leading-none; }
+  .a-vitals-sub { color: #c3c9d1; @apply text-xs; }
+  .a-vitals-sep { width: 1px; height: 30px; background: #3c424b; }
+  .a-vital {
+    border-left: 1px solid #3c424b;
+    @apply flex flex-col items-center px-3 cursor-help;
+  }
+  .a-vital-label { color: #9aa2ad; @apply text-[9px] font-semibold uppercase; letter-spacing: 0.12em; }
+  .a-vital-value { @apply text-[17px] font-bold; }
+
+  /* ----- tab bar ----- */
+  .a-tabbar {
+    background: #dfe3e8;
+    border-bottom: 1px solid var(--bd);
+    @apply flex px-2.5 overflow-x-auto;
+  }
+  .a-tab {
+    color: var(--mut);
+    border-right: 1px solid var(--bd);
+    @apply flex items-center gap-1.5 px-3 py-2 text-xs font-semibold whitespace-nowrap cursor-pointer bg-transparent;
+    border-bottom: 2px solid transparent;
+    transition: color 0.12s, background 0.12s;
+  }
+  .a-tab:first-child { border-left: 1px solid var(--bd); }
+  .a-tab:hover { color: var(--ink); background: #e9ecf0; }
+  .a-tab-num { @apply text-[10px] opacity-60; }
+  .a-tab--active {
+    color: var(--acc);
+    background: #fff;
+    border-bottom-color: var(--acc);
+  }
+
+  /* ----- panel scroll area ----- */
+  .a-panels { @apply flex-1 overflow-auto p-3.5; }
+  .a-screen { @apply mx-auto; max-width: 1360px; }
+  .a-grid12 { @apply grid gap-3; grid-template-columns: repeat(12, 1fr); }
+
+  /* ----- section card ----- */
+  .a-card {
+    background: #fff;
+    border: 1px solid #575d66;
+    border-radius: 3px;
+    overflow: hidden;
+    @apply flex flex-col min-w-0;
+  }
+  .a-card-head {
+    background: var(--hdr);
+    color: #eef0f2;
+    letter-spacing: 0.05em;
+    @apply flex items-center justify-between gap-2 text-[11.5px] font-semibold uppercase px-3 py-1.5;
+  }
+  .a-card-head-title { @apply flex items-center gap-2; }
+  .a-card-head-right { @apply text-[10px] font-medium; color: #aab2bd; }
+  .a-card-head--light {
+    background: #f4f6f8;
+    color: #454c56;
+    border-bottom: 1px solid var(--bd);
+  }
+  .a-dot { @apply inline-block; width: 6px; height: 6px; border-radius: 50%; }
+  .a-dot--acc { background: var(--acc); }
+  .a-dot--blue { background: var(--blue); }
+  .a-dot--red { background: var(--red); }
+  .a-card-body { @apply p-2.5; }
+
+  /* ----- field labels / muted text ----- */
+  .a-flabel { color: var(--mut); letter-spacing: 0.04em; @apply text-[10px] font-semibold uppercase; }
+  .a-muted { color: var(--mut); }
+
+  /* ----- editable inputs ----- */
+  /* Las celdas editables leen su fondo de --cell (lo fija la fila zebra);
+     sin zebra caen al gris base --edit. Las protegidas quedan blancas. */
+  .a-input {
+    background: var(--cell, var(--edit));
+    color: var(--ink);
+    border: 1px solid var(--bd);
+    border-radius: 2px;
+    @apply h-[22px] w-full px-1.5 text-center text-[12.5px];
+  }
+  .a-input--left { @apply text-left px-2; }
+  .a-input--special { background: #fdf8f2; border-color: #e7d7c6; }
+  .a-input:focus {
+    outline: none;
+    border-color: var(--acc);
+    box-shadow: 0 0 0 2px rgba(224, 115, 42, 0.18);
+  }
+  .a-input:disabled { background: transparent; color: var(--mut); border-color: #d5d9df; @apply cursor-not-allowed; }
+  .a-textarea {
+    border: none;
+    resize: vertical;
+    background: var(--cell, var(--edit));
+    color: #363c45;
+    line-height: 1.5;
+    @apply w-full p-2.5 text-[12.5px];
+    font-family: inherit;
+  }
+  .a-textarea:focus { outline: none; box-shadow: inset 0 0 0 2px rgba(224, 115, 42, 0.18); }
+  .a-checkbox {
+    accent-color: var(--acc);
+    @apply w-[15px] h-[15px] cursor-pointer;
+  }
+  .a-checkbox:disabled { @apply cursor-not-allowed opacity-60; }
+
+  /* ----- derived (read-only) values ----- */
+  .a-derived { @apply font-semibold italic; }
+  .a-tipv { border-bottom: 1px dashed #aab2bd; @apply cursor-help; }
+
+  /* ----- pills ----- */
+  .a-pill {
+    background: var(--fld);
+    border: 1px solid var(--bd);
+    border-radius: 20px;
+    @apply text-[11px] px-2.5 py-0.5 inline-flex items-center gap-1;
+  }
+
+  /* ----- headline stat card ----- */
+  .a-stat { @apply px-3 py-2.5; }
+  .a-stat-value { @apply text-2xl font-bold; }
+
+  /* ----- generic table rows (grid based, Excel-like) ----- */
+  .a-thead {
+    background: var(--hdr);
+    border-bottom: 1px solid #575d66;
+    color: #eef0f2;
+    letter-spacing: 0.04em;
+    @apply grid text-[10px] font-semibold uppercase;
+  }
+  .a-thead > div { @apply px-2 py-1.5; }
+  .a-thead > div + div { border-left: 1px solid #3c424b; }
+  .a-trow { @apply grid items-stretch; border-bottom: 1px solid var(--bd); }
+  .a-trow > div { @apply flex items-center min-w-0; }
+  .a-trow > div + div { border-left: 1px solid var(--bd); }
+  .a-trow > div.text-center { justify-content: center; }
+  .a-trow:hover { background: #e9eef5; }
+  /* Zebra opt-in (tablas largas estilo Excel): filas alternas grises y sus
+     celdas editables un tono más oscuras vía --cell. `of .a-trow` ignora
+     los hermanos a-thead/a-tfoot al contar. */
+  .a-zebra .a-trow:nth-child(even of .a-trow) {
+    background: var(--edit);
+    --cell: var(--edit-alt);
+  }
+  .a-zebra .a-trow:nth-child(even of .a-trow):hover { background: #e2e8f0; }
+  .a-tfoot { background: #e4e8ee; @apply grid items-center; }
+  .a-tfoot > div + div { border-left: 1px solid var(--bd); }
+
+  /* ----- vertical side labels (Excel gutter) ----- */
+  .a-vlabel {
+    flex: 0 0 22px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    background: var(--hdr);
+    color: #eef0f2;
+    letter-spacing: 0.1em;
+    overflow: hidden;
+    @apply flex items-center justify-center text-[9.5px] font-bold uppercase py-1;
+  }
+  .a-vlabel--muted {
+    background: #eef1f5;
+    color: var(--mut);
+  }
+
+  /* ----- PDs tab: Excel-like spend tables ----- */
+  .a-pd-gutter {
+    flex: 0 0 22px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    background: #eef1f5;
+    color: var(--mut);
+    letter-spacing: 0.08em;
+    overflow: hidden;
+    @apply flex items-center justify-center text-[9px] font-semibold uppercase py-1;
+  }
+  .a-pd-cost {
+    background: var(--fld);
+    color: var(--mut);
+    border-left: 1px solid #e3e7ec;
+    @apply flex items-center justify-center self-stretch text-center text-[11px];
+  }
+  .a-pd-chartag {
+    background: var(--fld);
+    border: 1px solid var(--bd);
+    border-radius: 3px;
+    color: var(--mut);
+    padding: 0 3px;
+    flex: 0 0 auto;
+    @apply text-[8.5px] font-semibold;
+  }
+
+  /* color helpers */
+  .a-acc { color: var(--acc); }
+  .a-blue { color: var(--blue); }
+  .a-red { color: var(--red); }
+}
+
+/* ============================================================
+   Calculation tooltip — rendered via a portal to document.body,
+   so it lives outside .anima-sheet's overflow:auto clipping.
+   ============================================================ */
+.a-tip {
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+  max-width: 280px;
+  background: #fff;
+  border: 1px solid #d9dde2;
+  border-radius: 8px;
+  box-shadow: 0 8px 28px rgba(20, 25, 35, 0.18);
+  font-family: Inter, system-ui, sans-serif;
+  font-variant-numeric: tabular-nums;
+  animation: a-tip-in 0.12s ease-out;
+}
+@keyframes a-tip-in {
+  from { opacity: 0; transform: translateY(3px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.a-tip-title {
+  background: #2b2f36;
+  color: #eef0f2;
+  letter-spacing: 0.07em;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 6px 11px;
+  border-radius: 7px 7px 0 0;
+}
+.a-tip-body { padding: 7px 11px; }
+.a-tip-row { display: flex; justify-content: space-between; gap: 18px; padding: 3px 0; font-size: 11.5px; }
+.a-tip-row > span:first-child { color: #737a85; }
+.a-tip-row > span:last-child { font-weight: 600; color: #1c2128; }
+.a-tip-total {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 6px 0 1px;
+  margin-top: 3px;
+  border-top: 1px solid #e6e9ed;
+  font-size: 12.5px;
+}
+.a-tip-total > span:first-child { color: #737a85; font-weight: 600; }
+.a-tip-total > span:last-child { color: #e0732a; font-weight: 700; }
+
+.animabfv2.sheet.actor {
+  .react-mount {
+    @apply h-full overflow-y-auto;
+  }
+}
+
+/* ============================================================
+   Item sheet layout
+   ============================================================ */
+.a-item-sheet {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.a-item-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--bd, #d9dde2);
+  background: #f7f8fa;
+}
+
+.a-item-img {
+  border-radius: 6px;
+  border: 1px solid #d9dde2;
+  object-fit: cover;
+}
+
+.a-item-header-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.a-item-name {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.a-item-header-tags {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.a-item-equipped-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  color: #737a85;
+  cursor: pointer;
+}
+
+.a-item-tabbar {
+  display: flex;
+  gap: 0;
+  border-bottom: 2px solid #d9dde2;
+  background: #f0f2f5;
+  padding: 0 8px;
+}
+
+.a-item-tabbar .a-tab {
+  padding: 6px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: #737a85;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.a-item-tabbar .a-tab:hover {
+  color: #1c2128;
+  background: #e9ecf0;
+}
+
+.a-item-tabbar .a-tab--active {
+  color: #e0732a;
+  border-bottom-color: #e0732a;
+}
+
+.a-item-panels {
+  flex: 1;
+  overflow: auto;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.a-item-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 8px;
+}
+
+.a-item-grid--7 {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.a-item-equipped {
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+.a-item-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 10px;
+}
+
+.a-item-summary-pill {
+  display: flex;
+  align-items: center;
+}
+
+/* ============================================================
+   Item modifier editor (system.modifiers)
+   ============================================================ */
+.a-modifiers-editor {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.a-modifiers-editor h3 {
+  margin: 0 0 6px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.a-modifiers-empty {
+  font-size: 11px;
+  color: #737a85;
+  margin: 0 0 6px;
+}
+
+.a-modifier-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.a-modifier-row select {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 24px;
+  font-size: 12px;
+}
+
+.a-modifier-row input[type="number"] {
+  width: 56px;
+  height: 24px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.a-modifier-row button {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  color: #d23b3b;
+  border: 1px solid #d9dde2;
+  border-radius: 4px;
+  background: #f7f8fa;
+}
+
+.a-modifier-add {
+  margin-top: 6px;
+  padding: 4px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  border: 1px dashed #9aa1ab;
+  border-radius: 4px;
+  background: #f7f8fa;
+  color: #4a5059;
+}
+
+.a-modifier-add:hover {
+  border-color: #e0732a;
+  color: #e0732a;
+}

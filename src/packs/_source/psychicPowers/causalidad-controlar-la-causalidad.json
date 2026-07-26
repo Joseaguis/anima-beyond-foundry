@@ -1,0 +1,64 @@
+{
+  "name": "Controlar la causalidad",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Causalidad",
+    "powerLevel": 3,
+    "action": "active",
+    "maintainable": false,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 16"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 12"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Sucesos menores posibles"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Sucesos medios no habituales"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Sucesos mayores extraños"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Sucesos increíbles"
+      }
+    ],
+    "effect": ""
+  }
+}

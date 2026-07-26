@@ -1,0 +1,20 @@
+{
+  "name": "Extrusión de presencia",
+  "type": "kiAbility",
+  "img": "icons/magic/defensive/shield-barrier-glowing-triangle-magenta.webp",
+  "system": {
+    "description": {
+      "value": "<p>Concentra el Ki como aura invisible: toca energía pura e intangibles y puede dañar seres sobrenaturales (hasta el doble de su Presencia) y defenderse con parada.</p>",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "rules": [],
+    "mkCost": 10,
+    "subtype": "kiPower",
+    "parent": "Uso del Ki",
+    "branch": "Extrusión de presencia",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

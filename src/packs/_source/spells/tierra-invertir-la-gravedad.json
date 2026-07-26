@@ -1,0 +1,48 @@
+{
+  "name": "Invertir la gravedad",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Invierte la gravedad de una zona. Todo lo que se encuentre en el interior del área afectada, empezará a \"caer\" hacia el cielo hasta la distancia máxima que determine el conjuro. El lanzador puede fijar un límite, como afectar sólo a lo que se encuentre dentro de una construcción. Las cosas que se encuentren fijadas al suelo no \"caerán\". Un individuo puede quedarse \"colgando\" si puede agarrarse. Puede superarse una RM para evitar completamente los efectos.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 66,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Tierra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Invierte la gravedad de una zona. Todo lo que se encuentre en el interior del área afectada, empezará a \"caer\" hacia el cielo hasta la distancia máxima que determine el conjuro. El lanzador puede fijar un límite, como afectar sólo a lo que se encuentre dentro de una construcción. Las cosas que se encuentren fijadas al suelo no \"caerán\". Un individuo puede quedarse \"colgando\" si puede agarrarse. Puede superarse una RM para evitar completamente los efectos.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 40,
+        "effect": "25 metros de radio / 50 de altura / 120 RM"
+      },
+      "intermediate": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 50,
+        "effect": "50 metros de radio / 100 de altura / 140 RM"
+      },
+      "advanced": {
+        "zeonCost": 280,
+        "intRequired": 14,
+        "maintenanceCost": 60,
+        "effect": "100 metros de radio / 200 de altura / 160 RM"
+      },
+      "arcane": {
+        "zeonCost": 320,
+        "intRequired": 16,
+        "maintenanceCost": 65,
+        "effect": "150 metros de radio / 300 de altura / 180 RM"
+      }
+    }
+  }
+}

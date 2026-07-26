@@ -1,0 +1,48 @@
+{
+  "name": "Barrera de piedra",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Levanta una barrera que permite defenderse de cualquier ataque que cause daño, incluso los basados en Energía. No obstante, es incapaz de detener los efectos anímicos, o aquellos que únicamente obliguen a realizar una RM o RP.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 20,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Tierra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "defense",
+    "effect": "Levanta una barrera que permite defenderse de cualquier ataque que cause daño, incluso los basados en Energía. No obstante, es incapaz de detener los efectos anímicos, o aquellos que únicamente obliguen a realizar una RM o RP.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "Barrera de daño 60 / 600 puntos de resistencia"
+      },
+      "intermediate": {
+        "zeonCost": 160,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "Barrera de daño 100 / 1.600 puntos de resistencia"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "Barrera de daño 150 / 3.000 puntos de resistencia"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "Barrera de daño 200 / 5.000 Puntos de Resistencia"
+      }
+    }
+  }
+}

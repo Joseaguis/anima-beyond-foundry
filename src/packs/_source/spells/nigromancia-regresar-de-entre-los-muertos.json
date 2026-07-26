@@ -1,0 +1,48 @@
+{
+  "name": "Regresar de entre los muertos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Devuelve al mundo el espíritu de una criatura difunta, incluso si ha regresado al flujo de almas o su esencia ha sido dispersada. El ser vuelve como no muerto, pero conservando su alma y su esencia. Si el cuerpo del fallecido aún sigue existiendo, regresará a él. Puede encarnar uno nuevo o convertirse en un espectro. El tiempo que haya transcurrido entre la muerte y su regreso condicionan el conjuro. No es posible resucitar un alma reencarnada o destruida.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 98,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Devuelve al mundo el espíritu de una criatura difunta, incluso si ha regresado al flujo de almas o su esencia ha sido dispersada. El ser vuelve como no muerto, pero conservando su alma y su esencia. Si el cuerpo del fallecido aún sigue existiendo, regresará a él. Puede encarnar uno nuevo o convertirse en un espectro. El tiempo que haya transcurrido entre la muerte y su regreso condicionan el conjuro. No es posible resucitar un alma reencarnada o destruida.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 400,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Nivel 4 máximo / Un mes como máximo desde su muerte"
+      },
+      "intermediate": {
+        "zeonCost": 800,
+        "intRequired": 17,
+        "maintenanceCost": 0,
+        "effect": "Nivel 8 máximo / Un año como máximo desde su muerte"
+      },
+      "advanced": {
+        "zeonCost": 1600,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "Nivel 12 máximo / Una decada como máximo desde su muerte"
+      },
+      "arcane": {
+        "zeonCost": 3200,
+        "intRequired": 19,
+        "maintenanceCost": 0,
+        "effect": "Nivel 16 máximo / Un siglo como máximo desde su muerte"
+      }
+    }
+  }
+}

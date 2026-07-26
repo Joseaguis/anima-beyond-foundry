@@ -1,0 +1,48 @@
+{
+  "name": "Engañar a la muerte",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Se engaña a la muerte. Mientras se encuentre activo, el individuo afectado por él no morirá de ningún modo, puesto que el flujo de almas ignora su presencia y será incapaz dereclamarlo. Aunque su espíritu no saldrá del cuerpo, su forma física puede ser destrozada, y el personaje seguirá sufriendo cualquier efecto perjudicial que le produzca el daño. Este conjuro no protege de un efecto que destruya el alma.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 92,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Ilusión",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Se engaña a la muerte. Mientras se encuentre activo, el individuo afectado por él no morirá de ningún modo, puesto que el flujo de almas ignora su presencia y será incapaz dereclamarlo. Aunque su espíritu no saldrá del cuerpo, su forma física puede ser destrozada, y el personaje seguirá sufriendo cualquier efecto perjudicial que le produzca el daño. Este conjuro no protege de un efecto que destruya el alma.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 500,
+        "intRequired": 13,
+        "maintenanceCost": 100,
+        "effect": "Nivel 5."
+      },
+      "intermediate": {
+        "zeonCost": 800,
+        "intRequired": 15,
+        "maintenanceCost": 160,
+        "effect": "Nivel 10."
+      },
+      "advanced": {
+        "zeonCost": 1200,
+        "intRequired": 17,
+        "maintenanceCost": 240,
+        "effect": "Nivel 15."
+      },
+      "arcane": {
+        "zeonCost": 1500,
+        "intRequired": 19,
+        "maintenanceCost": 300,
+        "effect": "Nivel 20."
+      }
+    }
+  }
+}

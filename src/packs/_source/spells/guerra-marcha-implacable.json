@@ -1,0 +1,48 @@
+{
+  "name": "Marcha implacable",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este hechizo permite a los compañeros del brujo marchar de forma incesante, resistiendo la fatiga y la furia de los elementos. A efectos de juego, proporciona a todos los aliados dentro del área de efecto del conjuro las Habilidades del Ki: Uso de la Energía Necesaria y Eliminación de Necesidades.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 54,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Guerra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este hechizo permite a los compañeros del brujo marchar de forma incesante, resistiendo la fatiga y la furia de los elementos. A efectos de juego, proporciona a todos los aliados dentro del área de efecto del conjuro las Habilidades del Ki: Uso de la Energía Necesaria y Eliminación de Necesidades.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 150,
+        "intRequired": 6,
+        "maintenanceCost": 30,
+        "effect": "10m radio"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 9,
+        "maintenanceCost": 40,
+        "effect": "50m radio"
+      },
+      "advanced": {
+        "zeonCost": 250,
+        "intRequired": 12,
+        "maintenanceCost": 50,
+        "effect": "100m radio"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 100,
+        "effect": "500m radio"
+      }
+    }
+  }
+}

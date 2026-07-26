@@ -1,0 +1,58 @@
+{
+  "name": "Feuer",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Ignis",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "aumento-de-dano",
+        "role": "primary",
+        "options": [
+          "+25"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-elemental",
+        "role": "secondary",
+        "options": [
+          "Fuego"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 20,
+    "bookCost": "VOL 5 (1) POD 1 FUE 3 (1)",
+    "bookDistribution": {
+      "wp": {
+        "activation": 5,
+        "upkeep": 1
+      },
+      "pow": {
+        "activation": 1,
+        "upkeep": 0
+      },
+      "str": {
+        "activation": 3,
+        "upkeep": 1
+      }
+    }
+  }
+}

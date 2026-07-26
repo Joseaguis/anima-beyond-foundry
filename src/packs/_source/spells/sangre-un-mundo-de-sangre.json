@@ -1,0 +1,48 @@
+{
+  "name": "Un mundo de sangre",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El hechicero obtiene un control absoluto sobre toda la sangre que se encuentre dentro del radio de acción del sortilegio. Cualquier individuo que se vea afectado por el conjuro debe superar un control de RM o RF para no verse controlado por el brujo como una marioneta, o sufrir un daño equivalente al doble del nivel de fracaso. Puede usar la sangre como medio de ataque o defensa (creando cuchillas, espinas o escudos), con su Proyección Mágica.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 94,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Sangre",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "El hechicero obtiene un control absoluto sobre toda la sangre que se encuentre dentro del radio de acción del sortilegio. Cualquier individuo que se vea afectado por el conjuro debe superar un control de RM o RF para no verse controlado por el brujo como una marioneta, o sufrir un daño equivalente al doble del nivel de fracaso. Puede usar la sangre como medio de ataque o defensa (creando cuchillas, espinas o escudos), con su Proyección Mágica.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 280,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 120 / Daño 60 / 500 Puntos de Resistencia"
+      },
+      "intermediate": {
+        "zeonCost": 320,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 140 / Daño 90 / 1.200 Puntos de Resistencia"
+      },
+      "advanced": {
+        "zeonCost": 360,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 160 / Daño 120 / 2.400 Puntos de Resistencia"
+      },
+      "arcane": {
+        "zeonCost": 400,
+        "intRequired": 17,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 180 / Daño 150 / 3.600 Puntos de Resistencia"
+      }
+    }
+  }
+}

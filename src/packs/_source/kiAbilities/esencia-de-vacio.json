@@ -1,0 +1,20 @@
+{
+  "name": "Esencia de vacío",
+  "type": "kiAbility",
+  "img": "icons/magic/death/skull-energy-light-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Ignora penalizadores por dolor o cansancio y los negativos de Críticos que no impliquen carencias físicas reales.</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 20,
+    "subtype": "nemesisPower",
+    "parent": "Cuerpo de vacío",
+    "branch": "Némesis",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

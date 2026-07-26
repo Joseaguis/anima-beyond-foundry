@@ -1,0 +1,58 @@
+{
+  "name": "Tajo carmesí",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Basis",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+40"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "destruir-armadura",
+        "role": "secondary",
+        "options": [
+          "-4 TA"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 20,
+    "bookCost": "DES 4 FUE 4 CON 4",
+    "bookDistribution": {
+      "dex": {
+        "activation": 4,
+        "upkeep": 0
+      },
+      "str": {
+        "activation": 4,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 4,
+        "upkeep": 0
+      }
+    }
+  }
+}

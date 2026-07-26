@@ -1,0 +1,64 @@
+{
+  "name": "Reestructuracción atómica",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Telequinesis",
+    "powerLevel": 3,
+    "action": "active",
+    "maintainable": false,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 24"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 20"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 16"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 12"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "140 RF / 100 Kg"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "160 RF / 10 toneladas"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "200 RF / 100 toneladas"
+      }
+    ],
+    "effect": ""
+  }
+}

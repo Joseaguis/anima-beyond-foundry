@@ -1,0 +1,48 @@
+{
+  "name": "Conversación agradable",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite percibir los pensamientos superficiales e intereses más comunes de un individuo para poder mantener una conversación que sea agradable o entretenida para él. El afectado puede realizar una tirada de RM o RP. En caso de fallar el mago obtiene un +200 a sus tiradas de estilo y persuasión destinadas a embaucar al objetivo. Para que el conjuro funcione se debe estar conversando mas de medio minuto y acaba cuando finalize la conversación.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 44,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Nobleza",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Permite percibir los pensamientos superficiales e intereses más comunes de un individuo para poder mantener una conversación que sea agradable o entretenida para él. El afectado puede realizar una tirada de RM o RP. En caso de fallar el mago obtiene un +200 a sus tiradas de estilo y persuasión destinadas a embaucar al objetivo. Para que el conjuro funcione se debe estar conversando mas de medio minuto y acaba cuando finalize la conversación.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 7,
+        "maintenanceCost": 0,
+        "effect": "120 de RM o RP"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "160 de RM o RP"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "200 de RM o RP"
+      },
+      "arcane": {
+        "zeonCost": 140,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "240 de RM o RP"
+      }
+    }
+  }
+}

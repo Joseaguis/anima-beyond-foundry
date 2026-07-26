@@ -1,0 +1,99 @@
+{
+  "name": "Raikoudo, El Camino Del Rayo",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Arashido, El Camino De Las Tormentas",
+    "level": 3,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-a-distancia",
+        "role": "secondary",
+        "options": [
+          "Proyección",
+          "Estela de Destrucción"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-elemental",
+        "role": "secondary",
+        "options": [
+          "Aire"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "interrupcion",
+        "role": "secondary",
+        "options": [
+          "RF = Daño",
+          "Interrumpe Ki",
+          "Interrumpe Magia",
+          "Interrumpe Psíquica"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "sobrecarga",
+        "option": "Espera de 20 asaltos"
+      },
+      {
+        "disadvantage": "sin-defensa",
+        "option": ""
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 95,
+    "bookCost": "POD 8 VOL 8 CON 8 DES 9 FUE 9",
+    "bookDistribution": {
+      "pow": {
+        "activation": 8,
+        "upkeep": 0
+      },
+      "wp": {
+        "activation": 8,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 8,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 9,
+        "upkeep": 0
+      },
+      "str": {
+        "activation": 9,
+        "upkeep": 0
+      }
+    }
+  }
+}

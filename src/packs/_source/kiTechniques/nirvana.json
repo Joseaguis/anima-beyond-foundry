@@ -1,0 +1,78 @@
+{
+  "name": "Nirvana",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Sattyagraha",
+    "level": 3,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-parada",
+        "role": "primary",
+        "options": [
+          "+175"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "escudo-de-energia",
+        "role": "secondary",
+        "options": [
+          "800 PV"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "reflectar-el-ataque",
+        "role": "secondary",
+        "options": [],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 95,
+    "bookCost": "DES 11 AGI 11 POD 11 VOL 11 CON 6 FUE 6",
+    "bookDistribution": {
+      "dex": {
+        "activation": 11,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 11,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 11,
+        "upkeep": 0
+      },
+      "wp": {
+        "activation": 11,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 6,
+        "upkeep": 0
+      },
+      "str": {
+        "activation": 6,
+        "upkeep": 0
+      }
+    }
+  }
+}

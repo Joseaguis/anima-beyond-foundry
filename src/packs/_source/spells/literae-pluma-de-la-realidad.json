@@ -1,0 +1,48 @@
+{
+  "name": "Pluma de la realidad",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea una pluma sobrenatural que escribe sobre cualquier superficie sin la necesidad de tinta. Usándola durante el lanzamiento de un conjuro de la sub-vía Literae, el hechicero puede potenciar monumentalmente los efectos de dicho sortilegio, haciendo que el coste de Zeon requerido se reduzca a la mitad. Por ejemplo, un conjuro de Misiva en grado base pasaría a costar 40 en lugar de 80.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 4,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Literae",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea una pluma sobrenatural que escribe sobre cualquier superficie sin la necesidad de tinta. Usándola durante el lanzamiento de un conjuro de la sub-vía Literae, el hechicero puede potenciar monumentalmente los efectos de dicho sortilegio, haciendo que el coste de Zeon requerido se reduzca a la mitad. Por ejemplo, un conjuro de Misiva en grado base pasaría a costar 40 en lugar de 80.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 5,
+        "maintenanceCost": 5,
+        "effect": "Afecta a conjuros Literae de grado base."
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "Afecta a conjuros Literae de grado intermedio."
+      },
+      "advanced": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "Afecta a conjuros Literae de grado avanzado."
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "Afecta a conjuros Literae de grado arcano."
+      }
+    }
+  }
+}

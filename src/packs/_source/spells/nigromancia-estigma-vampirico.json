@@ -1,0 +1,48 @@
+{
+  "name": "Estigma vampírico",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El personaje sobre el que se lance este conjuro obtiene la capacidad de absorber, automáticamente, un porcentaje del daño que produzca personalmente a sus adversarios. Funciona tanto con ataques físicos como con conjuros de daño directo o poderes equivalentes. En el caso de los seres con acumulación, la cantidad absorbida se divide por el múltiplo de acumulación de la criatura.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 50,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El personaje sobre el que se lance este conjuro obtiene la capacidad de absorber, automáticamente, un porcentaje del daño que produzca personalmente a sus adversarios. Funciona tanto con ataques físicos como con conjuros de daño directo o poderes equivalentes. En el caso de los seres con acumulación, la cantidad absorbida se divide por el múltiplo de acumulación de la criatura.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 140,
+        "intRequired": 9,
+        "maintenanceCost": 15,
+        "effect": "20% de absorción"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 11,
+        "maintenanceCost": 20,
+        "effect": "40% de absorción"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 13,
+        "maintenanceCost": 25,
+        "effect": "60% de absorción"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "100% de absorción"
+      }
+    }
+  }
+}

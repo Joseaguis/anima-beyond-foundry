@@ -1,0 +1,20 @@
+{
+  "name": "Extensión del aura al arma",
+  "type": "kiAbility",
+  "img": "icons/magic/fire/blast-jet-stream-fire-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Extiende la energía al arma: puede dañar energía, +10 al Daño base, +10 a Resistencia y +5 a rotura del arma.</p>",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "rules": [],
+    "mkCost": 10,
+    "subtype": "kiPower",
+    "parent": "Extrusión de presencia",
+    "branch": "Extrusión de presencia",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

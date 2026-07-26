@@ -1,0 +1,48 @@
+{
+  "name": "Destrucción de sombras",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Destruye las sombras existentes alrededor del hechicero. Si se lanza sobre seres basados naturalmente en oscuridad, estos deberán superar una RM o perderán una cantidad equivalente al doble de su nivel de fracaso en puntos de vida (por diez, si poseen acumulación de daño). Mientras se mantenga el conjuro, las entidades afectadas deberán realizar un nuevo control de RM cada asalto</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 18,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Luz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Destruye las sombras existentes alrededor del hechicero. Si se lanza sobre seres basados naturalmente en oscuridad, estos deberán superar una RM o perderán una cantidad equivalente al doble de su nivel de fracaso en puntos de vida (por diez, si poseen acumulación de daño). Mientras se mantenga el conjuro, las entidades afectadas deberán realizar un nuevo control de RM cada asalto",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "10 metros de radio / 140 RM."
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "100 metros de radio / 180 RM"
+      },
+      "advanced": {
+        "zeonCost": 150,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "250 metros de radio / 220 RM."
+      },
+      "arcane": {
+        "zeonCost": 250,
+        "intRequired": 15,
+        "maintenanceCost": 25,
+        "effect": "500 metros de radio / 280 RM"
+      }
+    }
+  }
+}

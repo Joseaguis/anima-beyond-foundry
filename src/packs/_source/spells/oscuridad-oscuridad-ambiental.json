@@ -1,0 +1,48 @@
+{
+  "name": "Oscuridad ambiental",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea un ambiente místico que nubla los sentidos de cualquiera que se encuentre en su interior. La Oscuridad Ambiental aumenta en dos grados el nivel de dificultad de cualquier control perceptivo que se realice dentro, incluyendo detección por Ki o medios mágicos. No se puede designar blancos en su interior, y la zona permanece inmóvil en el mismo lugar en el que fue lanzada. No tiene control de RM posible.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 26,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Oscuridad",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea un ambiente místico que nubla los sentidos de cualquiera que se encuentre en su interior. La Oscuridad Ambiental aumenta en dos grados el nivel de dificultad de cualquier control perceptivo que se realice dentro, incluyendo detección por Ki o medios mágicos. No se puede designar blancos en su interior, y la zona permanece inmóvil en el mismo lugar en el que fue lanzada. No tiene control de RM posible.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Radio de 20 metros"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "Radio de 250 metros"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "Radio de 500 metros"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "Radio de 1 kilómetro"
+      }
+    }
+  }
+}

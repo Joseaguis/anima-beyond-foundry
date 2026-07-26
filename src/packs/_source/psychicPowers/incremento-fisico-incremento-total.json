@@ -1,0 +1,64 @@
+{
+  "name": "Incremento total",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Incremento Físico",
+    "powerLevel": 3,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "absurd",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 16"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 12"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Características físicas +1"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Características físicas +2"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Características físicas +4"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Características físicas +6"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Características físicas +8"
+      }
+    ],
+    "effect": ""
+  }
+}

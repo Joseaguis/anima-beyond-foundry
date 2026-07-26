@@ -1,0 +1,48 @@
+{
+  "name": "Huracán",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea un huracan. Afectados superar un control contra Fuerza 12, o ser arrastrado por el viento. Construcciones con barrera de daño menos de 60 se destruyen, hasta 120, 10 puntos de daño por turno, con más de 120 no afectadas. Los cuerpos arrastrados quedarán en el aire y al caer no más de 100 metros. Quien pase el control, no tendrá que volver a tirar mientras no se mueva, pero deberá tirar por turno que se mueva por encima de movimiento pasivo.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 72,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Aire",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea un huracan. Afectados superar un control contra Fuerza 12, o ser arrastrado por el viento. Construcciones con barrera de daño menos de 60 se destruyen, hasta 120, 10 puntos de daño por turno, con más de 120 no afectadas. Los cuerpos arrastrados quedarán en el aire y al caer no más de 100 metros. Quien pase el control, no tendrá que volver a tirar mientras no se mueva, pero deberá tirar por turno que se mueva por encima de movimiento pasivo.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "500 metros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "1 kilometros de radio"
+      },
+      "advanced": {
+        "zeonCost": 450,
+        "intRequired": 14,
+        "maintenanceCost": 20,
+        "effect": "2 kilometros de radio"
+      },
+      "arcane": {
+        "zeonCost": 600,
+        "intRequired": 16,
+        "maintenanceCost": 25,
+        "effect": "5 kilometros de radio / el control de fuerza es contra 14"
+      }
+    }
+  }
+}

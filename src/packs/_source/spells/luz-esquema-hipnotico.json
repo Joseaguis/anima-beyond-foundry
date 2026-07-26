@@ -1,0 +1,48 @@
+{
+  "name": "Esquema hipnótico",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Forma una marca o un espectáculo de luces que fascina y atonta a los que lo vean. Quien lo mire y falle la Resistencia no podrá hacer sino seguir contemplándolo absorto, y mientras se encuentren afectados por el conjuro, sólo podrán realizar acciones pasivas. Cada vez que reciban un ataque tendrán una nueva oportunidad de superar la Resistencia. La condición para ser afectado es mirar directamente al esquema hipnótico.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 70,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Luz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Forma una marca o un espectáculo de luces que fascina y atonta a los que lo vean. Quien lo mire y falle la Resistencia no podrá hacer sino seguir contemplándolo absorto, y mientras se encuentren afectados por el conjuro, sólo podrán realizar acciones pasivas. Cada vez que reciban un ataque tendrán una nueva oportunidad de superar la Resistencia. La condición para ser afectado es mirar directamente al esquema hipnótico.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 140,
+        "intRequired": 10,
+        "maintenanceCost": 5,
+        "effect": "Visible en 1 kilómetro de radio / RM o RP 120"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "Visible en 5 kilómetros de radio / RM o RP 150"
+      },
+      "advanced": {
+        "zeonCost": 280,
+        "intRequired": 14,
+        "maintenanceCost": 10,
+        "effect": "Visible en 15 kilómetros de radio / RM o RP 180."
+      },
+      "arcane": {
+        "zeonCost": 360,
+        "intRequired": 16,
+        "maintenanceCost": 15,
+        "effect": "Visible en 25 kilómetros de radio / RM o RP 220"
+      }
+    }
+  }
+}

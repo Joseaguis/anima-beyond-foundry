@@ -1,0 +1,48 @@
+{
+  "name": "Conjuro natural",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Otorga la capacidad de lanzar sortilegios tantas veces como desee como si fueran conjuros innatos, sin que tengan coste zeónico. El mago puede ejecutar innatamente uno de dichos hechizos cada asalto. En el momento del lanzamiento de este conjuro, el brujo debe ejecutar todos los sortilegios que pretende preparar gastando el Zeon con el que pretende usarlos. Sólo es posible mantener activo un conjuro natural a la vez</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 82,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Otorga la capacidad de lanzar sortilegios tantas veces como desee como si fueran conjuros innatos, sin que tengan coste zeónico. El mago puede ejecutar innatamente uno de dichos hechizos cada asalto. En el momento del lanzamiento de este conjuro, el brujo debe ejecutar todos los sortilegios que pretende preparar gastando el Zeon con el que pretende usarlos. Sólo es posible mantener activo un conjuro natural a la vez",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 350,
+        "intRequired": 10,
+        "maintenanceCost": 70,
+        "effect": "Valor zeónico máximo 100"
+      },
+      "intermediate": {
+        "zeonCost": 420,
+        "intRequired": 13,
+        "maintenanceCost": 85,
+        "effect": "Valor zeónico máximo 140"
+      },
+      "advanced": {
+        "zeonCost": 480,
+        "intRequired": 15,
+        "maintenanceCost": 100,
+        "effect": "Valor zeónico máximo 180"
+      },
+      "arcane": {
+        "zeonCost": 540,
+        "intRequired": 17,
+        "maintenanceCost": 110,
+        "effect": "Valor zeónico máximo 220"
+      }
+    }
+  }
+}

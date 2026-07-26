@@ -1,0 +1,20 @@
+{
+  "name": "Cambio superior",
+  "type": "kiAbility",
+  "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Dominio absoluto del cambio: formas muy distintas (hasta tamaño Grande o mitad de altura, formas no humanas simples). Coste 20 Ki + 2 por minuto.</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 20,
+    "subtype": "kiPower",
+    "parent": "Cambio físico",
+    "branch": "Control del Ki",
+    "kiCost": 20,
+    "kiMaintenance": 2,
+    "action": "active"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Festín De Sangre",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "A’Arab Zaraq",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "potenciar-critico",
+        "role": "primary",
+        "options": [
+          "+50",
+          "Crítico Automático"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 25,
+    "bookCost": "FUE 8 (2) CON 8 (3) POD 8 (3)",
+    "bookDistribution": {
+      "str": {
+        "activation": 8,
+        "upkeep": 2
+      },
+      "con": {
+        "activation": 8,
+        "upkeep": 3
+      },
+      "pow": {
+        "activation": 8,
+        "upkeep": 3
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Esencia de luz",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite al lanzador o el objetivo designado por este entrar en completo letargo, mientras su cuerpo se hace uno con la luz. La entidad abandona el mundo y asciende a la red de almas para nutrirse de sus energías. Apartado y desconocedor de todo lo que sucede en el exterior, multiplica por 10 su regeneración zeónica y cura sus heridas con Regeneración 16. Cuanto tiempo puede permanecer apartado del mundo es determinado por el grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 96,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Luz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Permite al lanzador o el objetivo designado por este entrar en completo letargo, mientras su cuerpo se hace uno con la luz. La entidad abandona el mundo y asciende a la red de almas para nutrirse de sus energías. Apartado y desconocedor de todo lo que sucede en el exterior, multiplica por 10 su regeneración zeónica y cura sus heridas con Regeneración 16. Cuanto tiempo puede permanecer apartado del mundo es determinado por el grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Un día"
+      },
+      "intermediate": {
+        "zeonCost": 400,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "Una semana"
+      },
+      "advanced": {
+        "zeonCost": 600,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Un mes"
+      },
+      "arcane": {
+        "zeonCost": 800,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "Un año"
+      }
+    }
+  }
+}

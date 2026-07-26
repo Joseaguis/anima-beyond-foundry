@@ -1,0 +1,48 @@
+{
+  "name": "Estancar el tiempo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este hechizo memoriza el estado y condición actual de todo cuanto se encuentra en su radio de acción, pero sólo puede retrasar los efectos de lo sucedido, por lo que todo perjuicio que un individuo o cosa haya sufrido durante el lapso de tiempo estancado aparecerá de inmediato en cuanto el conjuro finalice o salgan de su zona de influencia.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 34,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Tiempo",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Este hechizo memoriza el estado y condición actual de todo cuanto se encuentra en su radio de acción, pero sólo puede retrasar los efectos de lo sucedido, por lo que todo perjuicio que un individuo o cosa haya sufrido durante el lapso de tiempo estancado aparecerá de inmediato en cuanto el conjuro finalice o salgan de su zona de influencia.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 150,
+        "intRequired": 8,
+        "maintenanceCost": 15,
+        "effect": "5m"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 11,
+        "maintenanceCost": 20,
+        "effect": "10m"
+      },
+      "advanced": {
+        "zeonCost": 280,
+        "intRequired": 13,
+        "maintenanceCost": 30,
+        "effect": "25m"
+      },
+      "arcane": {
+        "zeonCost": 380,
+        "intRequired": 15,
+        "maintenanceCost": 40,
+        "effect": "50m"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Anulación de magia",
+  "type": "kiAbility",
+  "img": "icons/magic/unholy/orb-swirling-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>Aura que resta Zeon a los conjuros del radio (Tabla 12); si baja del valor base, se anulan. 2 Ki/asalto (5 sobre un blanco).</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 30,
+    "subtype": "nemesisPower",
+    "parent": "Uso del Némesis",
+    "branch": "Némesis",
+    "kiCost": 2,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

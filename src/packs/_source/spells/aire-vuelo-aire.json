@@ -1,0 +1,48 @@
+{
+  "name": "Vuelo (Aire)",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Otorga al afectado la capacidad de moverse con un Tipo de Vuelo místico determinado por el grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 30,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Aire",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Otorga al afectado la capacidad de moverse con un Tipo de Vuelo místico determinado por el grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 15,
+        "effect": "tipo vuelo 4"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "tipo vuelo 8"
+      },
+      "advanced": {
+        "zeonCost": 150,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "tipo vuelo 12"
+      },
+      "arcane": {
+        "zeonCost": 240,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "tipo vuelo 15"
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Crear orden",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Causalidad",
+    "powerLevel": 3,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "absurd",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 12"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "50 m"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "500 m"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "-10 ACT / -20 Conv. / 1 km"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "-20 ACT / -40 Conv. / 2 km"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "-40 ACT / -80 Conv. / 5 km"
+      }
+    ],
+    "effect": ""
+  }
+}

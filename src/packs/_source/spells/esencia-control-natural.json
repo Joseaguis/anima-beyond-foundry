@@ -1,0 +1,48 @@
+{
+  "name": "Control natural",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Se obtiene el dominio de un miembro de una raza natural con Gnosis 0, animales, plantas o seres humanos normales. Podrá transmitir órdenes por la conexión que se crea. Para resistir el hechizo, es necesario superar RM. El individuo subyugado tendrá derecho a un control por día, y cada vez que reciba una orden totalmente contraria a su naturaleza. Ante una petición que ponga su vida en peligro, o le obligue a matar a alguien querido, podrá sumar +20 a RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 56,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Se obtiene el dominio de un miembro de una raza natural con Gnosis 0, animales, plantas o seres humanos normales. Podrá transmitir órdenes por la conexión que se crea. Para resistir el hechizo, es necesario superar RM. El individuo subyugado tendrá derecho a un control por día, y cada vez que reciba una orden totalmente contraria a su naturaleza. Ante una petición que ponga su vida en peligro, o le obligue a matar a alguien querido, podrá sumar +20 a RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 8,
+        "maintenanceCost": 20,
+        "effect": "RM 80"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 40,
+        "effect": "RM 120"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 50,
+        "effect": "RM 150"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 60,
+        "effect": "RM 180"
+      }
+    }
+  }
+}

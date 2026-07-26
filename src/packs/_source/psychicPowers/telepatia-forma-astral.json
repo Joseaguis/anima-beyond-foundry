@@ -1,0 +1,64 @@
+{
+  "name": "Forma astral",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Telepatía",
+    "powerLevel": 2,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "veryHard",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Hasta 10 km de distancia"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Hasta 100 km de distancia"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Hasta 500 km de distancia"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Hasta 1000 km de distancia"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Hasta 5000 km de distancia"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Cualquier distancia"
+      }
+    ],
+    "effect": ""
+  }
+}

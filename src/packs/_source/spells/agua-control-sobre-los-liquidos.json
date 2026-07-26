@@ -1,0 +1,48 @@
+{
+  "name": "Control sobre los líquidos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El mago puede alterar forma, naturaleza, movimiento y solidez de una masa de liquido. Contra un elemental de agua, lo domina si no pasa RM. Es capaz de manejar sangre de los vivos, afectados aplican un bono de +40 a su RM o RF (se puede tirar cada 5 turnos). Al manejar sangre produce por asalto negativo a acción y un daño equivalente a la mitad del nivel de fracaso. Los elementales, control al día o si reciben una orden completamente opuesta a su naturaleza.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 22,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Agua",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "El mago puede alterar forma, naturaleza, movimiento y solidez de una masa de liquido. Contra un elemental de agua, lo domina si no pasa RM. Es capaz de manejar sangre de los vivos, afectados aplican un bono de +40 a su RM o RF (se puede tirar cada 5 turnos). Al manejar sangre produce por asalto negativo a acción y un daño equivalente a la mitad del nivel de fracaso. Los elementales, control al día o si reciben una orden completamente opuesta a su naturaleza.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "RM o RF 100 / 5 litros."
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "RM o RF 120 / 50 litros."
+      },
+      "advanced": {
+        "zeonCost": 150,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "RM o RF 140 / 500 litros."
+      },
+      "arcane": {
+        "zeonCost": 220,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "RM o RF 180 / 5.000 litros."
+      }
+    }
+  }
+}

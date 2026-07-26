@@ -1,0 +1,64 @@
+{
+  "name": "Telequinesis orgánica",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Telequinesis",
+    "powerLevel": 2,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "hard",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "100 Kg / Tipo vuelo 4 / 100 RF"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "250 Kg / Tipo vuelo 6 / 120 RF"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "500 Kg / Tipo vuelo 8 / 140 RF"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "1 Tn / Tipo vuelo 10 / 160 RF"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "2,5 Tn / Tipo vuelo 12 / 180 RF"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "5 Tn / Tipo vuelo 14 /  200 RF"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "10 Tn / Tipo vuelo 16 / 220 RF"
+      }
+    ],
+    "effect": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Desplazar sentidos",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Hipersensibilidad",
+    "powerLevel": 2,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "medium",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "1 m"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "5 m"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "10 m"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "25 m"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "50 m"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "100 m"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "250 m"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "500 m"
+      }
+    ],
+    "effect": ""
+  }
+}

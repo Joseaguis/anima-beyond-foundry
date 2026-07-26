@@ -1,0 +1,48 @@
+{
+  "name": "Producir daño",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Produce automáticamente una herida al objetivo. De no superar la RM, el individuo afectado recibe directamente el daño indicado. Las criaturas de acumulación multiplican esta cantidad por su múltiplo de acumulación.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 30,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Produce automáticamente una herida al objetivo. De no superar la RM, el individuo afectado recibe directamente el daño indicado. Las criaturas de acumulación multiplican esta cantidad por su múltiplo de acumulación.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "50 puntos de daño / 120 RM"
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "100 puntos de daño / 140 RM"
+      },
+      "advanced": {
+        "zeonCost": 180,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "180 puntos de daño / 160 RM"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "250 puntos de daño / 200 RM"
+      }
+    }
+  }
+}

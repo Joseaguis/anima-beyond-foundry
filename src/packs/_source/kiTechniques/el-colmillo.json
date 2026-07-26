@@ -1,0 +1,72 @@
+{
+  "name": "El colmillo",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "El Dragón",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "destruir-armadura",
+        "role": "primary",
+        "options": [
+          "-6 TA"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "maniobras-de-combate-y-apuntar",
+        "role": "secondary",
+        "options": [
+          "-50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "secondary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 45,
+    "bookCost": "DES 5 CON 8 AGI 6 FUE 3",
+    "bookDistribution": {
+      "dex": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 8,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 6,
+        "upkeep": 0
+      },
+      "str": {
+        "activation": 3,
+        "upkeep": 0
+      }
+    }
+  }
+}

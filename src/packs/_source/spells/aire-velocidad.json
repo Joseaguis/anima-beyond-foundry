@@ -1,0 +1,48 @@
+{
+  "name": "Velocidad",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Incrementa de un modo increíble la velocidad de desplazamiento de los individuos afectados. A efectos de juego, dobla la cantidad de metros por asalto que un personaje puede moverse gracias a su Tipo de movimiento. Puede afectar a tantos blancos como desee el brujo, siempre que la suma de sus presencias no supere lo que determine el grado del conjuro</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 42,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Aire",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Incrementa de un modo increíble la velocidad de desplazamiento de los individuos afectados. A efectos de juego, dobla la cantidad de metros por asalto que un personaje puede moverse gracias a su Tipo de movimiento. Puede afectar a tantos blancos como desee el brujo, siempre que la suma de sus presencias no supere lo que determine el grado del conjuro",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "presencia maxima 50"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "presencia maxima 80"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "presencia maxima 120"
+      },
+      "arcane": {
+        "zeonCost": 140,
+        "intRequired": 14,
+        "maintenanceCost": 15,
+        "effect": "presencia maxima 160"
+      }
+    }
+  }
+}

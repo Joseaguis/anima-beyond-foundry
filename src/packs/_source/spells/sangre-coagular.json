@@ -1,0 +1,48 @@
+{
+  "name": "Coagular",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Restaña las heridas mágicamente, impidiendo la pérdida de sangre y cerrando las heridas. Sólo es posible afectar a alguien una vez al día con este conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 14,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Sangre",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Restaña las heridas mágicamente, impidiendo la pérdida de sangre y cerrando las heridas. Sólo es posible afectar a alguien una vez al día con este conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "Elimina automáticamente cualquier desangramiento."
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "Recupera un 20% de los PV perdidos por cortes o hemorragias."
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Recupera un 40% de los Puntos de Vida perdidos por cortes o hemorragias."
+      },
+      "arcane": {
+        "zeonCost": 160,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "Recupera un 60% de los Puntos de Vida perdidos por cortes o hemorragias."
+      }
+    }
+  }
+}

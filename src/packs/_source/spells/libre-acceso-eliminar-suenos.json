@@ -1,0 +1,48 @@
+{
+  "name": "Eliminar sueños",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Suprime la capacidad de soñar de un individuo. En caso de que sea lanzado sobre un individuo que se encuentre en la Vigilia, este será expulsado de inmediato al mundo real. El objetivo del conjuro puede resistirse superando una RM, aunque en caso de fallarla, sólo podrá repetir el control una vez al día</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 32,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Suprime la capacidad de soñar de un individuo. En caso de que sea lanzado sobre un individuo que se encuentre en la Vigilia, este será expulsado de inmediato al mundo real. El objetivo del conjuro puede resistirse superando una RM, aunque en caso de fallarla, sólo podrá repetir el control una vez al día",
+    "closedPaths": "Luz,Oscuridad",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "RM 160"
+      },
+      "advanced": {
+        "zeonCost": 150,
+        "intRequired": 11,
+        "maintenanceCost": 15,
+        "effect": "RM 200"
+      },
+      "arcane": {
+        "zeonCost": 200,
+        "intRequired": 14,
+        "maintenanceCost": 15,
+        "effect": "RM 240"
+      }
+    }
+  }
+}

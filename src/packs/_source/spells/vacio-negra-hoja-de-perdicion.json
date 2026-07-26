@@ -1,0 +1,48 @@
+{
+  "name": "Negra hoja de perdición",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea un arma que atacar en Filo con la Proyección Mágica del mago o con su Habilidad de Ataque e ignora toda clase de Armadura. El mago puede mantener activa la hoja para realizar nuevos ataques en asaltos posteriores, pero debe de realizar un control de Voluntad contra 12. Cada vez que consiga supera el control incrementa un punto su dificultad en el siguiente turno. Si llegase a fallarlo, la espada se vuelve contra el brujo, atacándole con su habilidad plena.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 44,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Vacío",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "Crea un arma que atacar en Filo con la Proyección Mágica del mago o con su Habilidad de Ataque e ignora toda clase de Armadura. El mago puede mantener activa la hoja para realizar nuevos ataques en asaltos posteriores, pero debe de realizar un control de Voluntad contra 12. Cada vez que consiga supera el control incrementa un punto su dificultad en el siguiente turno. Si llegase a fallarlo, la espada se vuelve contra el brujo, atacándole con su habilidad plena.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Daño 80"
+      },
+      "intermediate": {
+        "zeonCost": 150,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "Daño 120."
+      },
+      "advanced": {
+        "zeonCost": 200,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "Daño 160."
+      },
+      "arcane": {
+        "zeonCost": 250,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "Daño 200."
+      }
+    }
+  }
+}

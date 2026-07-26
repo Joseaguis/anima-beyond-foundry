@@ -1,0 +1,48 @@
+{
+  "name": "Creación mineral",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El hechicero puede utilizar este conjuro para crear cualquier cosa que desee, siempre y cuando esté compuesta por minerales o metales. El objeto creado debe aparecer ubicado de forma lógica, según su naturaleza. Es decir, no se puede crear una pequeña montaña en mitad del aire.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 70,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Tierra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El hechicero puede utilizar este conjuro para crear cualquier cosa que desee, siempre y cuando esté compuesta por minerales o metales. El objeto creado debe aparecer ubicado de forma lógica, según su naturaleza. Es decir, no se puede crear una pequeña montaña en mitad del aire.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 8,
+        "maintenanceCost": 15,
+        "effect": "Presencia Máxima 40"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 20,
+        "effect": "Presencia Máxima 70"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "Presencia Máxima 100"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "Presencia Máxima 140"
+      }
+    }
+  }
+}

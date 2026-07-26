@@ -1,0 +1,78 @@
+{
+  "name": "Mille Pétales De Rose, Mil Pétalos De Rosa",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Le Rose Du Sang",
+    "level": 3,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-con-area",
+        "role": "primary",
+        "options": [
+          "100 metros de radio",
+          "Elección de Blanco"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-adicional",
+        "role": "secondary",
+        "options": [
+          "+2"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-indirecto",
+        "role": "secondary",
+        "options": [
+          "Nv 3"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "tecnica-mantenida",
+        "option": "Le Pétale"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 90,
+    "bookCost": "AGI 12 CON 12 DES 8 POD 12",
+    "bookDistribution": {
+      "agi": {
+        "activation": 12,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 12,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 8,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 12,
+        "upkeep": 0
+      }
+    }
+  }
+}

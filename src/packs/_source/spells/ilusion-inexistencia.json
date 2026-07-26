@@ -1,0 +1,48 @@
+{
+  "name": "Inexistencia",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El objetivo no podrá percibirse per sentidos naturales, aunque sigue siendo material y físico. Tampoco deja rastros o huellas.Solo es percibido por detecciones sobrenaturales; ya sea mágica, psíquica o de Ki. Cualquiera que pueda sentirle mediante algún sentido natural debe superar una RM. Si la falla, sólo tendrá la oportunidad de repetirlo cada vez que tenga una causa para pensar que hay alguien a su alrededor.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 90,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Ilusión",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "El objetivo no podrá percibirse per sentidos naturales, aunque sigue siendo material y físico. Tampoco deja rastros o huellas.Solo es percibido por detecciones sobrenaturales; ya sea mágica, psíquica o de Ki. Cualquiera que pueda sentirle mediante algún sentido natural debe superar una RM. Si la falla, sólo tendrá la oportunidad de repetirlo cada vez que tenga una causa para pensar que hay alguien a su alrededor.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 11,
+        "maintenanceCost": 25,
+        "effect": "RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 300,
+        "intRequired": 13,
+        "maintenanceCost": 30,
+        "effect": "RM 140"
+      },
+      "advanced": {
+        "zeonCost": 400,
+        "intRequired": 15,
+        "maintenanceCost": 40,
+        "effect": "RM 160"
+      },
+      "arcane": {
+        "zeonCost": 500,
+        "intRequired": 17,
+        "maintenanceCost": 50,
+        "effect": "RM 180"
+      }
+    }
+  }
+}

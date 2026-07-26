@@ -1,0 +1,48 @@
+{
+  "name": "Mover objetos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro mueve artefactos inorgánicos sin la necesidad de que exista contacto físico con ellos, otorgándoles un Tipo de Vuelo 10. El peso máximo es determinado por el grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 2,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este conjuro mueve artefactos inorgánicos sin la necesidad de que exista contacto físico con ellos, otorgándoles un Tipo de Vuelo 10. El peso máximo es determinado por el grado del conjuro.",
+    "closedPaths": "Destrucción,Tierra",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 5,
+        "maintenanceCost": 5,
+        "effect": "10 kilogramos"
+      },
+      "intermediate": {
+        "zeonCost": 70,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "50 kilogramos"
+      },
+      "advanced": {
+        "zeonCost": 90,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "100 kilogramos"
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "150 kilogramos"
+      }
+    }
+  }
+}

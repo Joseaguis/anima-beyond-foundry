@@ -1,0 +1,48 @@
+{
+  "name": "Yuki",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Hyousetsu Jigoku",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-esquiva",
+        "role": "primary",
+        "options": [
+          "+75"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 30,
+    "bookCost": "AGI 5 (1) DES 5 (1) POD 6 (2)",
+    "bookDistribution": {
+      "agi": {
+        "activation": 5,
+        "upkeep": 1
+      },
+      "dex": {
+        "activation": 5,
+        "upkeep": 1
+      },
+      "pow": {
+        "activation": 6,
+        "upkeep": 2
+      }
+    }
+  }
+}

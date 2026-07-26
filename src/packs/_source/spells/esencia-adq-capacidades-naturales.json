@@ -1,0 +1,48 @@
+{
+  "name": "Adq. capacidades naturales",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Da PD adicionales al personaje, para habilidades secundarias, habilidades esenciales o poderes de la Creación de Seres. Sólo pueden escogerse secundarias de los campos físicos de Agilidad, Percepción y Fuerza, y poderes especiales con Gnosis 0. No puede aumentarse habilidades primarias, ni adquirir capacidades sobrenaturales. Estos cambios afectarán temporalmente a la forma física del personaje. Los efectos de este conjuro no se superponen.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 36,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Da PD adicionales al personaje, para habilidades secundarias, habilidades esenciales o poderes de la Creación de Seres. Sólo pueden escogerse secundarias de los campos físicos de Agilidad, Percepción y Fuerza, y poderes especiales con Gnosis 0. No puede aumentarse habilidades primarias, ni adquirir capacidades sobrenaturales. Estos cambios afectarán temporalmente a la forma física del personaje. Los efectos de este conjuro no se superponen.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 7,
+        "maintenanceCost": 25,
+        "effect": "50 PD"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 40,
+        "effect": "100 PD"
+      },
+      "advanced": {
+        "zeonCost": 280,
+        "intRequired": 13,
+        "maintenanceCost": 60,
+        "effect": "150 PD"
+      },
+      "arcane": {
+        "zeonCost": 360,
+        "intRequired": 15,
+        "maintenanceCost": 80,
+        "effect": "200 PD"
+      }
+    }
+  }
+}

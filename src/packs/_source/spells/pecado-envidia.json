@@ -1,0 +1,48 @@
+{
+  "name": "Envidia",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Si el objetivo falla la RM determinada por el Grado del conjuro, sufrirá todo lo que el hechicero sufra, tanto positivo como negativo. Por ejemplo, si dañan al lanzador el personaje afectado también sufrirá el mismo daño, o si el brujo recibe cualquier efecto místico, de la naturaleza que sea, también será traspasado.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 84,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Pecado",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Si el objetivo falla la RM determinada por el Grado del conjuro, sufrirá todo lo que el hechicero sufra, tanto positivo como negativo. Por ejemplo, si dañan al lanzador el personaje afectado también sufrirá el mismo daño, o si el brujo recibe cualquier efecto místico, de la naturaleza que sea, también será traspasado.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 9,
+        "maintenanceCost": 5,
+        "effect": "RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 150,
+        "intRequired": 11,
+        "maintenanceCost": 5,
+        "effect": "RM 140"
+      },
+      "advanced": {
+        "zeonCost": 200,
+        "intRequired": 13,
+        "maintenanceCost": 10,
+        "effect": "RM 160"
+      },
+      "arcane": {
+        "zeonCost": 250,
+        "intRequired": 15,
+        "maintenanceCost": 10,
+        "effect": "RM 180"
+      }
+    }
+  }
+}

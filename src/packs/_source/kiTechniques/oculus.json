@@ -1,0 +1,48 @@
+{
+  "name": "Oculus",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Obscuritas",
+    "level": 1,
+    "combinable": true,
+    "effects": [
+      {
+        "effect": "maniobras-de-combate-y-apuntar",
+        "role": "primary",
+        "options": [
+          "-50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 20,
+    "bookCost": "AGI 3 DES 3 CON 3",
+    "bookDistribution": {
+      "agi": {
+        "activation": 3,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 3,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 3,
+        "upkeep": 0
+      }
+    }
+  }
+}

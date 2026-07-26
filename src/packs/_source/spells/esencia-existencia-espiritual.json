@@ -1,0 +1,48 @@
+{
+  "name": "Existencia espiritual",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite trascencer a un estado espiritual, abandonando su cuerpo. Será un ser espiritual de Gnosis 25. Obtendrá PD, para gastar en Habilidades Naturales o Poderes de Creación de Seres. Puede escoger PD en desventajas para puntos adicionales. El mago suma automáticamente un nivel (por las ventajas que otorga convertirse en un ente espiritual), más otro por cada 100 PD que obtenga sin desventajas. Sólo funciona sobre seres naturales o entre mundos.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 80,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Permite trascencer a un estado espiritual, abandonando su cuerpo. Será un ser espiritual de Gnosis 25. Obtendrá PD, para gastar en Habilidades Naturales o Poderes de Creación de Seres. Puede escoger PD en desventajas para puntos adicionales. El mago suma automáticamente un nivel (por las ventajas que otorga convertirse en un ente espiritual), más otro por cada 100 PD que obtenga sin desventajas. Sólo funciona sobre seres naturales o entre mundos.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Hasta 100 PD opcionales en desventajas"
+      },
+      "intermediate": {
+        "zeonCost": 500,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "+100 PD / hasta 100 PD opcionales en desventajas"
+      },
+      "advanced": {
+        "zeonCost": 1000,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "+200 PD / hasta 200 PD opcionales en desventajas"
+      },
+      "arcane": {
+        "zeonCost": 2500,
+        "intRequired": 17,
+        "maintenanceCost": 0,
+        "effect": "+300 PD / hasta 200 PD opcionales en desventajas"
+      }
+    }
+  }
+}

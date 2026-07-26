@@ -1,0 +1,48 @@
+{
+  "name": "Reconstruir",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Restaura un objeto inorgánico hasta su forma original, a partir de las piezas o componentes que queden de él. Nótese que es necesario tener todos sus fragmentos o la materia prima necesaria para que la reconstrucción sea completa o, en caso contrario, sólo se reparará parcialmente.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 6,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Restaura un objeto inorgánico hasta su forma original, a partir de las piezas o componentes que queden de él. Nótese que es necesario tener todos sus fragmentos o la materia prima necesaria para que la reconstrucción sea completa o, en caso contrario, sólo se reparará parcialmente.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 5,
+        "maintenanceCost": 0,
+        "effect": "Pres. max. afectable 20"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "Pres. max. afectable 60"
+      },
+      "advanced": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Pres. max. Afec. 100"
+      },
+      "arcane": {
+        "zeonCost": 280,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Pres. max. Afect. 120"
+      }
+    }
+  }
+}

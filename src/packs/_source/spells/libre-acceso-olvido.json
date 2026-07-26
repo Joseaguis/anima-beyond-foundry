@@ -1,0 +1,48 @@
+{
+  "name": "Olvido",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Afecta a la memoria de un sujeto, haciéndole olvidar todo lo que desee. Si los recuerdos están muy arraigados en el afectado, podrá aplicar un bono de +40 a su tirada de RM o RP. A pesar de no tener mantenimiento, el blanco tendrá una oportunidad de volver a realizar un control de Resistencia si encuentra algo que pueda hacerle recordar. Este conjuro no afecta a las habilidades del personaje, sólo a la memoria consciente.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 62,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Afecta a la memoria de un sujeto, haciéndole olvidar todo lo que desee. Si los recuerdos están muy arraigados en el afectado, podrá aplicar un bono de +40 a su tirada de RM o RP. A pesar de no tener mantenimiento, el blanco tendrá una oportunidad de volver a realizar un control de Resistencia si encuentra algo que pueda hacerle recordar. Este conjuro no afecta a las habilidades del personaje, sólo a la memoria consciente.",
+    "closedPaths": "Esencia",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 120"
+      },
+      "intermediate": {
+        "zeonCost": 160,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 140"
+      },
+      "advanced": {
+        "zeonCost": 200,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 160"
+      },
+      "arcane": {
+        "zeonCost": 240,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 180"
+      }
+    }
+  }
+}

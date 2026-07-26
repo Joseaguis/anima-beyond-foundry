@@ -1,0 +1,64 @@
+{
+  "name": "Creación de energía",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Energía",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "hard",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "1 m cúbico"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "2 m cúbicos"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "3 m cúbicos"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "4 m cúbicos"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "5 m cúbicos"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "10 m cúbicos"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "20 m cúbicos"
+      }
+    ],
+    "effect": ""
+  }
+}

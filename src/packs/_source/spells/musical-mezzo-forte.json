@@ -1,0 +1,48 @@
+{
+  "name": "Mezzo forte",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Creando una nota musical discordante, el brujo desencadena una destructiva onda de sonido que destroza cualquier cosa sólida con la que se ponga en contacto. El ataque tiene daño base muy bajo pero, en caso de causar daño, el defensor debe realizar un control de RF contra una dificultad igual a 10 veces la perdida de puntos de vida recibida (hasta un máximo de 240) o sufrir un daño adicional equivalente al nivel de fracaso.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 34,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Musical",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "Creando una nota musical discordante, el brujo desencadena una destructiva onda de sonido que destroza cualquier cosa sólida con la que se ponga en contacto. El ataque tiene daño base muy bajo pero, en caso de causar daño, el defensor debe realizar un control de RF contra una dificultad igual a 10 veces la perdida de puntos de vida recibida (hasta un máximo de 240) o sufrir un daño adicional equivalente al nivel de fracaso.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 7,
+        "maintenanceCost": 0,
+        "effect": "Daño 10"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "Daño 20"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "Daño 30"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "Daño 40"
+      }
+    }
+  }
+}

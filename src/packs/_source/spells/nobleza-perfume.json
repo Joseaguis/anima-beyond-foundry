@@ -1,0 +1,48 @@
+{
+  "name": "Perfume",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro modifica el olor corporal del blanco designado por el hechicero, transformandolo en un fragante aroma, suave y agradable al olfato, que evoca placenteras sensaciones a quienes lo aspiran en un área determinada por le grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 14,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Nobleza",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este conjuro modifica el olor corporal del blanco designado por el hechicero, transformandolo en un fragante aroma, suave y agradable al olfato, que evoca placenteras sensaciones a quienes lo aspiran en un área determinada por le grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 5,
+        "maintenanceCost": 5,
+        "effect": "Las habilidades descritas/ 20 metros radio"
+      },
+      "intermediate": {
+        "zeonCost": 60,
+        "intRequired": 8,
+        "maintenanceCost": 5,
+        "effect": "Incrementa un grado la dif alcanzada por Estilo/ 30 metros radio"
+      },
+      "advanced": {
+        "zeonCost": 90,
+        "intRequired": 10,
+        "maintenanceCost": 5,
+        "effect": "Incrementa dos grados el nivel de dificultad alcanzado/ 40m radio"
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "Quien huela el perfume durante +5 asaltos, RM 100 o fascinación/ 50m de radio"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Aumentar car. mentales",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Aumenta una de las cuatro características mentales de un personaje: Inteligencia, Poder, Voluntad y Percepción. En el caso de que el atributo se incremente por encima de 12, el índice de progresión se reduce a la mitad. El aumento de Inteligencia no permite al brujo incrementar el potencial máximo de sus hechizos. Uno de estos conjuros tan sólo puede afectar a una característica concreta a la vez</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 62,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Aumenta una de las cuatro características mentales de un personaje: Inteligencia, Poder, Voluntad y Percepción. En el caso de que el atributo se incremente por encima de 12, el índice de progresión se reduce a la mitad. El aumento de Inteligencia no permite al brujo incrementar el potencial máximo de sus hechizos. Uno de estos conjuros tan sólo puede afectar a una característica concreta a la vez",
+    "closedPaths": "Destrucción",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "+1 a la característica"
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 11,
+        "maintenanceCost": 15,
+        "effect": "+3 a la característica"
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 14,
+        "maintenanceCost": 15,
+        "effect": "+5 a la característica"
+      },
+      "arcane": {
+        "zeonCost": 160,
+        "intRequired": 16,
+        "maintenanceCost": 20,
+        "effect": "+7 a la característica"
+      }
+    }
+  }
+}

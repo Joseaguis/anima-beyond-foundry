@@ -1,0 +1,48 @@
+{
+  "name": "Deshacer",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Destruye kilogramos de cualquier material inorgánico, siempre que no supere una Resistencia</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 42,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Destruye kilogramos de cualquier material inorgánico, siempre que no supere una Resistencia",
+    "closedPaths": "Creación",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "50 kilos / Resistencia 80"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "100 kilos / Resistencia 100"
+      },
+      "advanced": {
+        "zeonCost": 180,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "250 kilos / Resistencia 100"
+      },
+      "arcane": {
+        "zeonCost": 240,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "500 kilos / Resistencia 140"
+      }
+    }
+  }
+}

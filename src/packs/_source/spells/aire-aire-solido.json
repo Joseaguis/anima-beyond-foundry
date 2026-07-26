@@ -1,0 +1,48 @@
+{
+  "name": "Aire sólido",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El brujo puede elegir qué forma darle y dónde ubicarla. El aire sólido sólo puede ser dañado con armas capaces de afectar energía, y cada 5 metros de material resiste 150 puntos de daño. No puede verse salvo con control de Advertir 320, o Buscar a 240. Se puede utilizarse para rodear a personas e impedirles moverse. En este caso es posible realizar un ataque con reglas de Presa, si penalizador para el mago. El aire posee Fuerza 14, afectando a todos en el area.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 76,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Aire",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El brujo puede elegir qué forma darle y dónde ubicarla. El aire sólido sólo puede ser dañado con armas capaces de afectar energía, y cada 5 metros de material resiste 150 puntos de daño. No puede verse salvo con control de Advertir 320, o Buscar a 240. Se puede utilizarse para rodear a personas e impedirles moverse. En este caso es posible realizar un ataque con reglas de Presa, si penalizador para el mago. El aire posee Fuerza 14, afectando a todos en el area.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 140,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "25 metros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 11,
+        "maintenanceCost": 10,
+        "effect": "150 metros de radio"
+      },
+      "advanced": {
+        "zeonCost": 260,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "300 metros de radio"
+      },
+      "arcane": {
+        "zeonCost": 350,
+        "intRequired": 16,
+        "maintenanceCost": 25,
+        "effect": "500 metros de radio / si se usa para apresar, tiene fuerza 16"
+      }
+    }
+  }
+}

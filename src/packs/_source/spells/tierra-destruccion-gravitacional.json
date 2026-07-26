@@ -1,0 +1,48 @@
+{
+  "name": "Destrucción gravitacional",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea una cúpula de alta presión. Un ser dentro, debe superar RF a 180 cada turno, o sufrir un daño equivalente a la mitad del nivel de fracaso. Por punto de TA en Contundentes +5 a la tirada de RF. La cúpula permanece estática donde se lanza, para salir superar control de Fuerza 16. Afecta a los seres inmateriales, pero aplican un bono de +40 a controles de resistencia, y +6 a los de fuerza. No hay seleccion de blancos, sólo el lanzador es inmune a sus efectos.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 80,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Tierra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Crea una cúpula de alta presión. Un ser dentro, debe superar RF a 180 cada turno, o sufrir un daño equivalente a la mitad del nivel de fracaso. Por punto de TA en Contundentes +5 a la tirada de RF. La cúpula permanece estática donde se lanza, para salir superar control de Fuerza 16. Afecta a los seres inmateriales, pero aplican un bono de +40 a controles de resistencia, y +6 a los de fuerza. No hay seleccion de blancos, sólo el lanzador es inmune a sus efectos.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "20 metros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 250,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "50 metros de radio"
+      },
+      "advanced": {
+        "zeonCost": 320,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "100 metros de radio"
+      },
+      "arcane": {
+        "zeonCost": 400,
+        "intRequired": 17,
+        "maintenanceCost": 40,
+        "effect": "150 metros de radio"
+      }
+    }
+  }
+}

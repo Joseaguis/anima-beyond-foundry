@@ -1,0 +1,64 @@
+{
+  "name": "Nova",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Piroquinesis",
+    "powerLevel": 3,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "hard",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 16"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 12"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "10 Puntos de vida"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "20 Puntos de vida"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "30 Puntos de vida"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "40 Puntos de vida"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "60 Puntos de vida"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "80 Puntos de vida"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "120 Puntos de vida"
+      }
+    ],
+    "effect": ""
+  }
+}

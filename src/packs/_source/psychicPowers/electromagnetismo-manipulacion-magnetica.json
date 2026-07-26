@@ -1,0 +1,64 @@
+{
+  "name": "Manipulación magnética",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Electromagnetismo",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "hard",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "1 kg"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "5 kg"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "10 kg"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "25 kg"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "50 kg"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "100 kg"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "500 kg"
+      }
+    ],
+    "effect": ""
+  }
+}

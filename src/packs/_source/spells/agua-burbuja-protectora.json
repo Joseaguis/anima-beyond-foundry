@@ -1,0 +1,48 @@
+{
+  "name": "Burbuja protectora",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Levanta una burbuja de energía mágica que funciona a modo de escudo contra cualquier clase de ataque. La barrera no sufre perjuicio alguno si detiene ataques con un daño base igual o inferior a lo que indique el grado del conjuro, pero los impactos con un daño base superior la rompen automáticamente.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 16,
+    "actionType": "passive",
+    "maintenanceType": "sustained",
+    "magicPath": "Agua",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "defense",
+    "effect": "Levanta una burbuja de energía mágica que funciona a modo de escudo contra cualquier clase de ataque. La barrera no sufre perjuicio alguno si detiene ataques con un daño base igual o inferior a lo que indique el grado del conjuro, pero los impactos con un daño base superior la rompen automáticamente.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Hasta Daño base 40."
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 5,
+        "effect": "Hasta Daño base 90."
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "Hasta Daño base 120."
+      },
+      "arcane": {
+        "zeonCost": 220,
+        "intRequired": 15,
+        "maintenanceCost": 10,
+        "effect": "Hasta Daño base 160."
+      }
+    }
+  }
+}

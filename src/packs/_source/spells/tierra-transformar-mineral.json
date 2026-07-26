@@ -1,0 +1,48 @@
+{
+  "name": "Transformar mineral",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Transmuta un mineral determinado en otro diferente. Puede convertirse, por ejemplo, una roca en oro. El peso resultante puede variar dependiendo de aquello en lo que se transforme y de su presencia.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 12,
+    "actionType": "passive",
+    "maintenanceType": "sustained",
+    "magicPath": "Tierra",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Transmuta un mineral determinado en otro diferente. Puede convertirse, por ejemplo, una roca en oro. El peso resultante puede variar dependiendo de aquello en lo que se transforme y de su presencia.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "Presencia máxima 30 / hasta 10 kilos de masa"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 5,
+        "effect": "Presencia máxima 50 / hasta 50 kilos de masa"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 11,
+        "maintenanceCost": 5,
+        "effect": "Presencia máxima 70 / hasta 100 kilos de masa"
+      },
+      "arcane": {
+        "zeonCost": 160,
+        "intRequired": 13,
+        "maintenanceCost": 10,
+        "effect": "Presencia máxima 90 / hasta 250 kilos de masa"
+      }
+    }
+  }
+}

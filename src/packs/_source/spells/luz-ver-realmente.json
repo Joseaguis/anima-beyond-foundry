@@ -1,0 +1,48 @@
+{
+  "name": "Ver realmente",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite al afectado por el conjuro percibir las fuerzas sobrenaturales que son invisibles para el ojo humano; podrá ver magia, matrices psíquicas y seres invisibles o espirituales. Aunque no funciona contra conjuros ilusorios, ya que afectan a la mente y no a la vista, cualquiera que utilice Ver Realmente contra Ilusiónes visuales podrá aplicar un bono a su RM, puesto que le resulta más fácil darse cuenta de su falsedad.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 60,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Luz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Permite al afectado por el conjuro percibir las fuerzas sobrenaturales que son invisibles para el ojo humano; podrá ver magia, matrices psíquicas y seres invisibles o espirituales. Aunque no funciona contra conjuros ilusorios, ya que afectan a la mente y no a la vista, cualquiera que utilice Ver Realmente contra Ilusiónes visuales podrá aplicar un bono a su RM, puesto que le resulta más fácil darse cuenta de su falsedad.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "Verá magia, matrices psíquicas y seres invisibles / +50 RM contra Ilusiónes."
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "Como en Base, pero permite ver también seres espirituales"
+      },
+      "advanced": {
+        "zeonCost": 180,
+        "intRequired": 14,
+        "maintenanceCost": 15,
+        "effect": "Como en Intermedio, pero obtiene un +75 RM contra Ilusiónes."
+      },
+      "arcane": {
+        "zeonCost": 250,
+        "intRequired": 16,
+        "maintenanceCost": 25,
+        "effect": "Como avanzado, pero obtiene un +100 RM contra Ilusiónes"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Ego",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Obscuritas",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "espejismo",
+        "role": "primary",
+        "options": [
+          "Indetección Inhumano (320)",
+          "Ilusión Fantasmal RP 180"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 40,
+    "bookCost": "VOL 5 POD 5 AGI 5",
+    "bookDistribution": {
+      "wp": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 5,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 5,
+        "upkeep": 0
+      }
+    }
+  }
+}

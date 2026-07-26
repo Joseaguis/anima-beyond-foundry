@@ -1,0 +1,48 @@
+{
+  "name": "Fijar ilusión",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Fija una ilusión a la realidad de forma permanente. A efectos de juego añade puntos de Zeon al mantenimiento de un conjuro de la vía de ilusión. Ten en cuenta que esta cantidad no se suma al poder del hechizo, sino que añade Zeon sólo para pagar su mantenimiento. No puede utilizarse sobe conjuros de Libre Acceso, incluso si pertenecen a la vía de ilusión.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 82,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Ilusión",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Fija una ilusión a la realidad de forma permanente. A efectos de juego añade puntos de Zeon al mantenimiento de un conjuro de la vía de ilusión. Ten en cuenta que esta cantidad no se suma al poder del hechizo, sino que añade Zeon sólo para pagar su mantenimiento. No puede utilizarse sobe conjuros de Libre Acceso, incluso si pertenecen a la vía de ilusión.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "+ 1.000 puntos de Zeón al mantenimiento."
+      },
+      "intermediate": {
+        "zeonCost": 360,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "+ 1.500 puntos de Zeón al mantenimiento."
+      },
+      "advanced": {
+        "zeonCost": 450,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "+ 3.000 puntos de Zeón al mantenimiento."
+      },
+      "arcane": {
+        "zeonCost": 600,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "+ 5.000 puntos de Zeón al mantenimiento."
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Crear emociones",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Introduce algún tipo de sentimiento o emoción en el individuo designado por el hechicero que falle una RM o RP contra la dificultad del conjuro. El afectado puede hacer un nuevo control cada día que transcurra, o cuando tenga una seria sospecha de que está siendo influido sobrenaturalmente</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 62,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Introduce algún tipo de sentimiento o emoción en el individuo designado por el hechicero que falle una RM o RP contra la dificultad del conjuro. El afectado puede hacer un nuevo control cada día que transcurra, o cuando tenga una seria sospecha de que está siendo influido sobrenaturalmente",
+    "closedPaths": "Ilusión",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 8,
+        "maintenanceCost": 15,
+        "effect": "RM o RP 120"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 11,
+        "maintenanceCost": 20,
+        "effect": "RM o RP 140"
+      },
+      "advanced": {
+        "zeonCost": 220,
+        "intRequired": 13,
+        "maintenanceCost": 25,
+        "effect": "RM o RP 160"
+      },
+      "arcane": {
+        "zeonCost": 280,
+        "intRequired": 16,
+        "maintenanceCost": 30,
+        "effect": "RM o RP 180"
+      }
+    }
+  }
+}

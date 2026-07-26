@@ -1,0 +1,1252 @@
+{
+  ".claude/settings.json": {
+    "mtime": 1782063051.3540716,
+    "ast_hash": "7bf81dca0376bde3a32244b82bc7cbc0",
+    "semantic_hash": "7bf81dca0376bde3a32244b82bc7cbc0"
+  },
+  "package.json": {
+    "mtime": 1783631318.614289,
+    "ast_hash": "6368e01149bbc3ce50888570c571d2e8",
+    "semantic_hash": ""
+  },
+  "scripts/build-packs.ts": {
+    "mtime": 1783152769.003325,
+    "ast_hash": "41706af05a1873830113f035bfc448c1",
+    "semantic_hash": ""
+  },
+  "src/components/character/CharacterInfo.tsx": {
+    "mtime": 1783105768.8804293,
+    "ast_hash": "3081f5ff2b2aad4b173c5f969687d07a",
+    "semantic_hash": ""
+  },
+  "src/components/character/CharacterSheetApp.tsx": {
+    "mtime": 1783121876.2019067,
+    "ast_hash": "8e99287f4fc5870df7ad835689cf1994",
+    "semantic_hash": ""
+  },
+  "src/components/character/Characteristics.tsx": {
+    "mtime": 1782168113.096966,
+    "ast_hash": "04354ed618caa8a88bd9182ec9c5fb8a",
+    "semantic_hash": "04354ed618caa8a88bd9182ec9c5fb8a"
+  },
+  "src/components/character/CombatStats.tsx": {
+    "mtime": 1782077525.984206,
+    "ast_hash": "6e277c05cf05ddd4c6b07fe7e1fc47f7",
+    "semantic_hash": "6e277c05cf05ddd4c6b07fe7e1fc47f7"
+  },
+  "src/components/character/DerivedStats.tsx": {
+    "mtime": 1782298643.897896,
+    "ast_hash": "07f5e8ead1270840069b1a3b57882ccc",
+    "semantic_hash": "07f5e8ead1270840069b1a3b57882ccc"
+  },
+  "src/components/character/SupernaturalStats.tsx": {
+    "mtime": 1784132315.0122173,
+    "ast_hash": "e2ffeed43867dd99577b19c8596992c1",
+    "semantic_hash": ""
+  },
+  "src/components/character/VitalsStrip.tsx": {
+    "mtime": 1783121649.7901778,
+    "ast_hash": "0474ee3d9e35c7580e3d4ec6768ff980",
+    "semantic_hash": ""
+  },
+  "src/components/character/tabs/CombateTab.tsx": {
+    "mtime": 1782420654.6039605,
+    "ast_hash": "e4855d0cd26e4f1d3d0c635e16f2972c",
+    "semantic_hash": "e4855d0cd26e4f1d3d0c635e16f2972c"
+  },
+  "src/components/character/tabs/GeneralTab.tsx": {
+    "mtime": 1782318154.0563526,
+    "ast_hash": "10319ebb2b6a6b2291997d9a986df892",
+    "semantic_hash": "10319ebb2b6a6b2291997d9a986df892"
+  },
+  "src/components/character/tabs/KiTab.tsx": {
+    "mtime": 1784211741.135839,
+    "ast_hash": "58053798ae10e347afe5be33c9d9bce7",
+    "semantic_hash": ""
+  },
+  "src/components/character/tabs/MetamagiaTab.tsx": {
+    "mtime": 1784211987.7756958,
+    "ast_hash": "dfaf685b41ba251e9cbea2ea50ed1c8a",
+    "semantic_hash": ""
+  },
+  "src/components/character/tabs/MisticosTab.tsx": {
+    "mtime": 1784210663.3671303,
+    "ast_hash": "4616bd35e57be3adf190a56e7fb5831e",
+    "semantic_hash": ""
+  },
+  "src/components/character/tabs/PDsTab.tsx": {
+    "mtime": 1784150708.5471117,
+    "ast_hash": "3d5b1817e41ccfcb458c603060fdebbe",
+    "semantic_hash": ""
+  },
+  "src/components/character/tabs/PrincipalTab.tsx": {
+    "mtime": 1784129164.6359985,
+    "ast_hash": "bfe80b0e60efd7a8f389ef6d9fb41216",
+    "semantic_hash": ""
+  },
+  "src/components/character/tabs/PsiquicosTab.tsx": {
+    "mtime": 1782318328.2364974,
+    "ast_hash": "cf188c6b9ec8974cce9c6eac72adb4eb",
+    "semantic_hash": "cf188c6b9ec8974cce9c6eac72adb4eb"
+  },
+  "src/components/character/tabs/StubPanel.tsx": {
+    "mtime": 1782318311.3749616,
+    "ast_hash": "63a589ccb72ea51bb02088afed176b92",
+    "semantic_hash": "63a589ccb72ea51bb02088afed176b92"
+  },
+  "src/components/character/tabs/TabNavigation.tsx": {
+    "mtime": 1782318004.1255622,
+    "ast_hash": "cc463c21eebaf606367147dcced399e8",
+    "semantic_hash": "cc463c21eebaf606367147dcced399e8"
+  },
+  "src/components/character/tabs/TecnicasTab.tsx": {
+    "mtime": 1784210705.3165047,
+    "ast_hash": "3e9afe77eed6c18922d8b6f0d29bb746",
+    "semantic_hash": ""
+  },
+  "src/components/character/tabs/types.ts": {
+    "mtime": 1782420545.258178,
+    "ast_hash": "687e6b03ce2433da97e87ae9ed5483ce",
+    "semantic_hash": "687e6b03ce2433da97e87ae9ed5483ce"
+  },
+  "src/components/character/ui/CalcTooltip.tsx": {
+    "mtime": 1782317976.6927843,
+    "ast_hash": "c1002d570ea4506bab7f5ffd2b077107",
+    "semantic_hash": "c1002d570ea4506bab7f5ffd2b077107"
+  },
+  "src/components/character/ui/CompendiumPicker.tsx": {
+    "mtime": 1782420586.2112646,
+    "ast_hash": "bb18093c8a923114d5e4b2a7552b18c7",
+    "semantic_hash": "bb18093c8a923114d5e4b2a7552b18c7"
+  },
+  "src/components/character/ui/ItemList.tsx": {
+    "mtime": 1782420628.307513,
+    "ast_hash": "5fdcd9269ffc85b595e3920bb1a529fc",
+    "semantic_hash": "5fdcd9269ffc85b595e3920bb1a529fc"
+  },
+  "src/components/character/ui/SectionCard.tsx": {
+    "mtime": 1782317891.484114,
+    "ast_hash": "267d365777a437fe5f56be4bd43692db",
+    "semantic_hash": "267d365777a437fe5f56be4bd43692db"
+  },
+  "src/components/character/ui/fields.tsx": {
+    "mtime": 1782321336.4017706,
+    "ast_hash": "4cc96b3e1c9495126a5469b9b206b8a2",
+    "semantic_hash": "4cc96b3e1c9495126a5469b9b206b8a2"
+  },
+  "src/components/item/ItemSheetApp.tsx": {
+    "mtime": 1782647954.1637585,
+    "ast_hash": "124deac473121a12a2766d5829aacff8",
+    "semantic_hash": "124deac473121a12a2766d5829aacff8"
+  },
+  "src/components/item/ModifiersEditor.tsx": {
+    "mtime": 1783156264.577597,
+    "ast_hash": "d1ea5f6b616c148a9dcc38db986f5636",
+    "semantic_hash": ""
+  },
+  "src/components/item/itemTabs.ts": {
+    "mtime": 1782647932.823293,
+    "ast_hash": "c14f9e7ae498845d291148028672ec35",
+    "semantic_hash": "c14f9e7ae498845d291148028672ec35"
+  },
+  "src/components/item/tabs/ArmorProtectionTab.tsx": {
+    "mtime": 1783156109.289471,
+    "ast_hash": "449f02059d0b402af3c5d703ce7c062d",
+    "semantic_hash": ""
+  },
+  "src/components/item/tabs/CategoryTab.tsx": {
+    "mtime": 1784128333.6326952,
+    "ast_hash": "7c8577d666acd71f136cfaece3cbf0a4",
+    "semantic_hash": ""
+  },
+  "src/components/item/tabs/CombatStyleTab.tsx": {
+    "mtime": 1782647865.0874481,
+    "ast_hash": "46752c7ec457808e4c0dbfce85a1d024",
+    "semantic_hash": "46752c7ec457808e4c0dbfce85a1d024"
+  },
+  "src/components/item/tabs/DescriptionTab.tsx": {
+    "mtime": 1782647785.711172,
+    "ast_hash": "5fdee167eaa4e7a4462a5d3e4710e649",
+    "semantic_hash": "5fdee167eaa4e7a4462a5d3e4710e649"
+  },
+  "src/components/item/tabs/KiAbilityTab.tsx": {
+    "mtime": 1782647878.3144617,
+    "ast_hash": "a9b0078f932e1d55fa0f639ad5058fcf",
+    "semantic_hash": "a9b0078f932e1d55fa0f639ad5058fcf"
+  },
+  "src/components/item/tabs/MagicPathTab.tsx": {
+    "mtime": 1782647889.8583195,
+    "ast_hash": "827831fc06f5a8ac3fcf1b75afac192e",
+    "semantic_hash": "827831fc06f5a8ac3fcf1b75afac192e"
+  },
+  "src/components/item/tabs/ModifiersTab.tsx": {
+    "mtime": 1783105293.3659587,
+    "ast_hash": "7ad8b8c2467420a4296d9c8e7ace78af",
+    "semantic_hash": ""
+  },
+  "src/components/item/tabs/MonsterAbilityTab.tsx": {
+    "mtime": 1782647894.0083234,
+    "ast_hash": "fe83ef306ccd2f07aa09d2002ea9e970",
+    "semantic_hash": "fe83ef306ccd2f07aa09d2002ea9e970"
+  },
+  "src/components/item/tabs/PhysicalTab.tsx": {
+    "mtime": 1782647794.1938787,
+    "ast_hash": "ab0e08f3bbf26434b0d1811a63624081",
+    "semantic_hash": "ab0e08f3bbf26434b0d1811a63624081"
+  },
+  "src/components/item/tabs/SpellTab.tsx": {
+    "mtime": 1784132229.5846188,
+    "ast_hash": "91f9437bd9dbd88afa50585ab3e7121d",
+    "semantic_hash": ""
+  },
+  "src/components/item/tabs/SummaryTab.tsx": {
+    "mtime": 1782647810.3809779,
+    "ast_hash": "27dd3dded72fa17310f8b15ed5718ff4",
+    "semantic_hash": "27dd3dded72fa17310f8b15ed5718ff4"
+  },
+  "src/components/item/tabs/TraitTab.tsx": {
+    "mtime": 1782647884.4182365,
+    "ast_hash": "f3d7bcfd25bc93669df0ab2abf5f88f5",
+    "semantic_hash": "f3d7bcfd25bc93669df0ab2abf5f88f5"
+  },
+  "src/components/item/tabs/WeaponCombatTab.tsx": {
+    "mtime": 1782647836.823485,
+    "ast_hash": "d56eb3315170a68bc0703820b1406679",
+    "semantic_hash": "d56eb3315170a68bc0703820b1406679"
+  },
+  "src/components/item/types.ts": {
+    "mtime": 1782647776.885471,
+    "ast_hash": "21f3b35336082c4fcd757f65137e52c9",
+    "semantic_hash": "21f3b35336082c4fcd757f65137e52c9"
+  },
+  "src/data/secondaryAbilities.ts": {
+    "mtime": 1783360335.0334425,
+    "ast_hash": "db64492c6ccb1974d86c684fa89b1294",
+    "semantic_hash": ""
+  },
+  "src/foundry.d.ts": {
+    "mtime": 1783629630.9626782,
+    "ast_hash": "49996417779f856e78ca0e1f5f0d3272",
+    "semantic_hash": ""
+  },
+  "src/lang/en.json": {
+    "mtime": 1784147957.936439,
+    "ast_hash": "9f7de9acb6d496d4b25eaed85da5995e",
+    "semantic_hash": ""
+  },
+  "src/lang/es.json": {
+    "mtime": 1784147943.6440573,
+    "ast_hash": "ec6ee161269af9a9651b02f38ca3fe2c",
+    "semantic_hash": ""
+  },
+  "src/main.ts": {
+    "mtime": 1784147887.7580326,
+    "ast_hash": "39dad5817d092b94732883409f20446c",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/categories/acrobaticWarrior.json": {
+    "mtime": 1783288317.274441,
+    "ast_hash": "28372f0e917a223a6f2fe85a9cc5319a",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/categories/assassin.json": {
+    "mtime": 1783288317.2931993,
+    "ast_hash": "5c83e3c897df77e626aca705fb8c1a92",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/categories/darkPaladin.json": {
+    "mtime": 1783288317.2792563,
+    "ast_hash": "aef6877abf9e2ae7a17f69d142d8383d",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/categories/freelancer.json": {
+    "mtime": 1784128315.7329428,
+    "ast_hash": "4b4747abc3a6c82f64bb1a4054e3e9c3",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/categories/illusionist.json": {
+    "mtime": 1783288317.2987752,
+    "ast_hash": "180b6530cb75cadf7f34d23abfafc009",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/categories/mentalist.json": {
+    "mtime": 1783288317.3053093,
+    "ast_hash": "de150404b5ee90d39a866b9974124d52",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/categories/paladin.json": {
+    "mtime": 1783288317.2771776,
+    "ast_hash": "8bcd8012c373915b08675d944297faca",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/categories/ranger.json": {
+    "mtime": 1783288317.2861564,
+    "ast_hash": "821bbb39e0aa01c55b07dcaea2768c42",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/categories/shadow.json": {
+    "mtime": 1783288317.2891927,
+    "ast_hash": "d60ac89f2d68acfee42dec2ce1b221d0",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/categories/summoner.json": {
+    "mtime": 1783288317.301775,
+    "ast_hash": "96749f40fffb9ec61ceeba1743b1e56c",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/categories/tao.json": {
+    "mtime": 1783288317.2855074,
+    "ast_hash": "e728e5b921e421543627af75fc098a8e",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/categories/technician.json": {
+    "mtime": 1783288317.283313,
+    "ast_hash": "ce0d905c6f24f9927fe9b888753b67a2",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/categories/thief.json": {
+    "mtime": 1783288317.2912,
+    "ast_hash": "606c31d6a726434d665984d8c122d2f4",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/categories/warlock.json": {
+    "mtime": 1783288317.2972658,
+    "ast_hash": "4366a78f82dc322f4379c94cfac47e12",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/categories/warrior.json": {
+    "mtime": 1783288317.2710454,
+    "ast_hash": "ec8ed9a44d1e080aecc443b445d01952",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/categories/warriorMentalist.json": {
+    "mtime": 1783288317.3080664,
+    "ast_hash": "85a0ba1860b725d090801d1584994d3f",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/categories/warriorSummoner.json": {
+    "mtime": 1783288317.3037748,
+    "ast_hash": "e9440b593216568b4fa4723123a727d9",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/categories/weaponsmaster.json": {
+    "mtime": 1783288317.281258,
+    "ast_hash": "1b15cfb72a2da2ca2630e467f26cda9c",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/categories/wizard.json": {
+    "mtime": 1783288317.2951632,
+    "ast_hash": "bb8029267651d412dbf90a31ff4ea671",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/categories/wizardMentalist.json": {
+    "mtime": 1783288317.3007748,
+    "ast_hash": "2b93acb60d5d65de735af80751e7fcbd",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/magicPaths/fire-path.json": {
+    "mtime": 1782420386.2249286,
+    "ast_hash": "4adb3ceb6983a1491d7e91259ef4faf4",
+    "semantic_hash": "4adb3ceb6983a1491d7e91259ef4faf4"
+  },
+  "src/packs/_source/magicPaths/precise-casting.json": {
+    "mtime": 1782420389.5525398,
+    "ast_hash": "adf1437c02d273e26e7d0fb3beea9dbc",
+    "semantic_hash": "adf1437c02d273e26e7d0fb3beea9dbc"
+  },
+  "src/packs/_source/spells/fireball.json": {
+    "mtime": 1784132179.8945403,
+    "ast_hash": "50cc4d9692f2964a9cb35674691b7852",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/traits/gift.json": {
+    "mtime": 1782420396.1310396,
+    "ast_hash": "27e9645191dbc47502350837d2d04080",
+    "semantic_hash": "27e9645191dbc47502350837d2d04080"
+  },
+  "src/packs/_source/weapons/long-sword.json": {
+    "mtime": 1782420399.7238398,
+    "ast_hash": "11452106531e1bbb4ce094c8cf84367b",
+    "semantic_hash": "11452106531e1bbb4ce094c8cf84367b"
+  },
+  "src/sheets/ReactItemSheet.ts": {
+    "mtime": 1783121848.7256033,
+    "ast_hash": "5b6929ddffd5a8536dc3ac2741b73825",
+    "semantic_hash": ""
+  },
+  "src/sheets/ReactSheet.ts": {
+    "mtime": 1784211633.1561527,
+    "ast_hash": "4c11fbf0bfe074c44ff82b9673b991c3",
+    "semantic_hash": ""
+  },
+  "src/sheets/actor/CharacterSheet.ts": {
+    "mtime": 1782168399.1845305,
+    "ast_hash": "7cc5696c26b1b60b26ca3fa73c25f3dd",
+    "semantic_hash": "7cc5696c26b1b60b26ca3fa73c25f3dd"
+  },
+  "src/sheets/item/ItemSheet.ts": {
+    "mtime": 1782417637.2288365,
+    "ast_hash": "6ccd13804f25fd13d4ab53daeccc95c3",
+    "semantic_hash": "6ccd13804f25fd13d4ab53daeccc95c3"
+  },
+  "src/system.json": {
+    "mtime": 1784147922.248292,
+    "ast_hash": "99f018f8b2067eec8a818254c4ae960e",
+    "semantic_hash": ""
+  },
+  "tsconfig.json": {
+    "mtime": 1783629596.3001244,
+    "ast_hash": "482f540d78e595d9f9a38845bc84d242",
+    "semantic_hash": ""
+  },
+  "vite.config.ts": {
+    "mtime": 1783121898.6529257,
+    "ast_hash": "f6898b9ae268eb0781a4272fbf5dac63",
+    "semantic_hash": ""
+  },
+  ".github/copilot-instructions.md": {
+    "mtime": 1782072553.4596999,
+    "ast_hash": "2b23503628bf2ec71d067a85ca8948ab",
+    "semantic_hash": "2b23503628bf2ec71d067a85ca8948ab"
+  },
+  "CLAUDE.md": {
+    "mtime": 1784127266.5091696,
+    "ast_hash": "81e7330598536f0a95ae0b9fd1cd0864",
+    "semantic_hash": ""
+  },
+  "src/actors/character/model.ts": {
+    "mtime": 1784211649.2710168,
+    "ast_hash": "514c03a03dc0e38f6a0ba926a9ceddac",
+    "semantic_hash": ""
+  },
+  "src/actors/creature/data.ts": {
+    "mtime": 1783105622.0592062,
+    "ast_hash": "d2ac76f9fea16df82b20e3350f5aede7",
+    "semantic_hash": ""
+  },
+  "src/actors/creature/model.ts": {
+    "mtime": 1784147814.610695,
+    "ast_hash": "ec270243d282666f087ac095049f9147",
+    "semantic_hash": ""
+  },
+  "src/actors/creature/prep/characteristics.ts": {
+    "mtime": 1783105530.6676874,
+    "ast_hash": "da2bfc36d212a211a154bef43779aef3",
+    "semantic_hash": ""
+  },
+  "src/actors/creature/prep/combat.ts": {
+    "mtime": 1783360298.5880196,
+    "ast_hash": "57404d75f9557bf7a037f57a6fbe1849",
+    "semantic_hash": ""
+  },
+  "src/actors/creature/prep/secondaries.ts": {
+    "mtime": 1784128923.4751315,
+    "ast_hash": "ce1018ba2977f4ac259686d238828e9a",
+    "semantic_hash": ""
+  },
+  "src/actors/creature/prep/supernatural.ts": {
+    "mtime": 1784227065.8315275,
+    "ast_hash": "e7bdc74f4eef5bd1e35defe68258231d",
+    "semantic_hash": ""
+  },
+  "src/actors/creature/prep/types.ts": {
+    "mtime": 1784131744.3680027,
+    "ast_hash": "2edb1d7941211b3049343241d0cafba0",
+    "semantic_hash": ""
+  },
+  "src/actors/creature/prep/vitals.ts": {
+    "mtime": 1783360288.9383461,
+    "ast_hash": "1349c3d8da05d313a2ac406c83f5e3d7",
+    "semantic_hash": ""
+  },
+  "src/actors/creature/tables.ts": {
+    "mtime": 1784227090.6888194,
+    "ast_hash": "1e32b1ba9d05e8526717c92e6bba0f0b",
+    "semantic_hash": ""
+  },
+  "src/actors/index.ts": {
+    "mtime": 1783121623.631551,
+    "ast_hash": "c75d7f062a8e729f9c2e81fddfaf5a5f",
+    "semantic_hash": ""
+  },
+  "src/actors/npc/model.ts": {
+    "mtime": 1783288942.3405156,
+    "ast_hash": "4e8156333149ba0290c12b523a22a44e",
+    "semantic_hash": ""
+  },
+  "src/components/npc/NpcSheetApp.tsx": {
+    "mtime": 1783121569.8295505,
+    "ast_hash": "709a5ccd28c754823494d496786dfab7",
+    "semantic_hash": ""
+  },
+  "src/data/races.ts": {
+    "mtime": 1783105747.955846,
+    "ast_hash": "6a40d37d135fa4831667d11ce253aace",
+    "semantic_hash": ""
+  },
+  "src/documents/actor.ts": {
+    "mtime": 1783288974.1876075,
+    "ast_hash": "080f1bb9940a333d7159c1974525f6d7",
+    "semantic_hash": ""
+  },
+  "src/documents/index.ts": {
+    "mtime": 1783104684.5398917,
+    "ast_hash": "93e1008a5ad218c6382cf53a67331974",
+    "semantic_hash": ""
+  },
+  "src/documents/item.ts": {
+    "mtime": 1783105249.16595,
+    "ast_hash": "bbc716407086c9141be7bb1f2baf0b4d",
+    "semantic_hash": ""
+  },
+  "src/items/armor/model.ts": {
+    "mtime": 1783155951.8750243,
+    "ast_hash": "9eb338e28550210396b059081874dc22",
+    "semantic_hash": ""
+  },
+  "src/items/base/data.ts": {
+    "mtime": 1783122052.9307072,
+    "ast_hash": "0521a32747fd192cfefe542421ff0bb1",
+    "semantic_hash": ""
+  },
+  "src/items/base/model.ts": {
+    "mtime": 1783105204.5205958,
+    "ast_hash": "ff03963f7c7aa6f5fae1e71552befa1a",
+    "semantic_hash": ""
+  },
+  "src/items/category/model.ts": {
+    "mtime": 1784128312.3722458,
+    "ast_hash": "848a74ed99180af3c5555ba36832c7da",
+    "semantic_hash": ""
+  },
+  "src/items/combat-style/model.ts": {
+    "mtime": 1783122034.3634732,
+    "ast_hash": "ec40135369fd1faab331174ce231f664",
+    "semantic_hash": ""
+  },
+  "src/items/index.ts": {
+    "mtime": 1784227101.9825754,
+    "ast_hash": "8599c6287c96ebeeac9b95a34651706d",
+    "semantic_hash": ""
+  },
+  "src/items/magic-path/model.ts": {
+    "mtime": 1784132069.9191628,
+    "ast_hash": "4b5e42a54c8a6b6ec92369fd215ceeec",
+    "semantic_hash": ""
+  },
+  "src/items/monster-ability/model.ts": {
+    "mtime": 1783122034.879334,
+    "ast_hash": "12923cda8c79ecd3c45fb18fa4e9beeb",
+    "semantic_hash": ""
+  },
+  "src/items/physical/model.ts": {
+    "mtime": 1783104851.1181538,
+    "ast_hash": "dd754ba158d0141cbcdaabf060130057",
+    "semantic_hash": ""
+  },
+  "src/items/spell/model.ts": {
+    "mtime": 1784132164.5204196,
+    "ast_hash": "ecbf5499353c8be2c7675df408377ca4",
+    "semantic_hash": ""
+  },
+  "src/items/trait/model.ts": {
+    "mtime": 1783122035.2455785,
+    "ast_hash": "8d01430a3b2766f28952c4b482a894b3",
+    "semantic_hash": ""
+  },
+  "src/items/weapon-table/model.ts": {
+    "mtime": 1783104887.5548742,
+    "ast_hash": "d41b5f167ad59b136826ca53fa27a59f",
+    "semantic_hash": ""
+  },
+  "src/items/weapon/model.ts": {
+    "mtime": 1783157306.6833024,
+    "ast_hash": "40b7560897f80bd818781374bb3d74dc",
+    "semantic_hash": ""
+  },
+  "src/rules/index.ts": {
+    "mtime": 1784128391.093803,
+    "ast_hash": "11491c2911bb794afea71996d7b020df",
+    "semantic_hash": ""
+  },
+  "src/rules/modifier.ts": {
+    "mtime": 1783105138.8639903,
+    "ast_hash": "f7dad19f32f3340aaeee61839c16cc14",
+    "semantic_hash": ""
+  },
+  "src/rules/predicate.ts": {
+    "mtime": 1783105144.4461236,
+    "ast_hash": "bb657a7f095d5a0d4a6513d8a8022626",
+    "semantic_hash": ""
+  },
+  "src/rules/rule-element/base.ts": {
+    "mtime": 1783105171.0081913,
+    "ast_hash": "b610488cc30d4f973a4607e802e7c451",
+    "semantic_hash": ""
+  },
+  "src/rules/rule-element/flat-modifier.ts": {
+    "mtime": 1783105175.8880858,
+    "ast_hash": "6cb7cb80f01cdc3bf1b5f55867b0853f",
+    "semantic_hash": ""
+  },
+  "src/rules/synthetics.ts": {
+    "mtime": 1784128379.9829009,
+    "ast_hash": "9b83e84adc65ed8c1ee605aa1e4b1112",
+    "semantic_hash": ""
+  },
+  "src/rules/targets.ts": {
+    "mtime": 1784131957.5871367,
+    "ast_hash": "605e842fde05b6ab5078d40b148d3552",
+    "semantic_hash": ""
+  },
+  "src/sheets/actor/NpcSheet.ts": {
+    "mtime": 1783121588.2193587,
+    "ast_hash": "3d388cd861ba5497fd5d1533a21cbddb",
+    "semantic_hash": ""
+  },
+  "src/sheets/react/mixin.ts": {
+    "mtime": 1783121757.6911283,
+    "ast_hash": "307cd11334519c493b34a5a4f6cb21a2",
+    "semantic_hash": ""
+  },
+  "src/sheets/react/types.ts": {
+    "mtime": 1784211622.3525546,
+    "ast_hash": "df401c97ac06651d5e27acf2d3b5c960",
+    "semantic_hash": ""
+  },
+  "src/statistics/statistic.ts": {
+    "mtime": 1783105627.652309,
+    "ast_hash": "3eda858059de3c584d6083aea78bd4f9",
+    "semantic_hash": ""
+  },
+  "src/types/config.d.ts": {
+    "mtime": 1784147899.0818782,
+    "ast_hash": "8b9133e844db40f839eab2625c974005",
+    "semantic_hash": ""
+  },
+  "tests/modifier.test.ts": {
+    "mtime": 1783105928.9676318,
+    "ast_hash": "0c9222b4fdcf268302c6d13c2e382bee",
+    "semantic_hash": ""
+  },
+  "tests/npc-prep.test.ts": {
+    "mtime": 1784128817.9827285,
+    "ast_hash": "87ea9cbb9f49363479aa441935131d69",
+    "semantic_hash": ""
+  },
+  "tests/predicate.test.ts": {
+    "mtime": 1783105931.0773897,
+    "ast_hash": "d2c701d6fa7334238f9ed77049761e7a",
+    "semantic_hash": ""
+  },
+  "tests/prep-pipeline.test.ts": {
+    "mtime": 1784227134.7248352,
+    "ast_hash": "98d1e24f32bbf40e1f9241e3bd8ff9ab",
+    "semantic_hash": ""
+  },
+  "tests/tables.test.ts": {
+    "mtime": 1783360403.8919535,
+    "ast_hash": "85e565133b2dabee17860395c0eb02aa",
+    "semantic_hash": ""
+  },
+  "docs/reglas/README.md": {
+    "mtime": 1783360642.866613,
+    "ast_hash": "a7c0458c7122312a41e836ee9cb07e58",
+    "semantic_hash": ""
+  },
+  "docs/reglas/armaduras.md": {
+    "mtime": 1783157510.432234,
+    "ast_hash": "d7a024685f343a89cf49cf9fdadbaf5d",
+    "semantic_hash": ""
+  },
+  "docs/reglas/armas-y-combate.md": {
+    "mtime": 1783360721.448093,
+    "ast_hash": "950b9c6a038d65e975e15e6704b15ea1",
+    "semantic_hash": ""
+  },
+  "docs/reglas/modificadores.md": {
+    "mtime": 1783157591.3655758,
+    "ast_hash": "5d0bcc67799fe52d4450d2adc2f3ae28",
+    "semantic_hash": ""
+  },
+  "src/actors/creature/prep/equipment.ts": {
+    "mtime": 1783360304.6476297,
+    "ast_hash": "7839eae5a005fed20125a4d8198c76d0",
+    "semantic_hash": ""
+  },
+  "tests/equipment-prep.test.ts": {
+    "mtime": 1784128792.1166904,
+    "ast_hash": "4954886ee435c9e1f2f840f76d959229",
+    "semantic_hash": ""
+  },
+  "src/actors/creature/prep/state.ts": {
+    "mtime": 1783157210.6890895,
+    "ast_hash": "1f1ec27c3eed4613c497df0d4712f950",
+    "semantic_hash": ""
+  },
+  ".claude/settings.local.json": {
+    "mtime": 1783287583.942816,
+    "ast_hash": "97bd8a36e7b7cb6486d68e84c9193d37",
+    "semantic_hash": ""
+  },
+  "src/actors/character/migration.ts": {
+    "mtime": 1784150588.7536254,
+    "ast_hash": "8cd62caf72f0c89d8ea0aba7094a4ebb",
+    "semantic_hash": ""
+  },
+  "src/actors/creature/prep/development.ts": {
+    "mtime": 1784150563.322875,
+    "ast_hash": "a655b4bc89ec29f74a5c139d90a6ddc8",
+    "semantic_hash": ""
+  },
+  "tests/character-migration.test.ts": {
+    "mtime": 1784151101.2738776,
+    "ast_hash": "17ac57508f9b6f1527e38a1c5e395510",
+    "semantic_hash": ""
+  },
+  "tests/multi-category.test.ts": {
+    "mtime": 1784151123.267766,
+    "ast_hash": "fbd5cf905eaa243f0ccf0d1a9d05f6c0",
+    "semantic_hash": ""
+  },
+  "docs/registro-sistemas.md": {
+    "mtime": 1784148250.9589667,
+    "ast_hash": "3d63521008e47327a77b1a7e5b92568b",
+    "semantic_hash": ""
+  },
+  "docs/reglas/desarrollo-pds.md": {
+    "mtime": 1784129428.0000887,
+    "ast_hash": "f0f06e9c36d7d31ffa817b3e82181d09",
+    "semantic_hash": ""
+  },
+  "docs/reglas/ki.md": {
+    "mtime": 1784151860.0712714,
+    "ast_hash": "db9de4a270f528659ce511842f0b6d05",
+    "semantic_hash": ""
+  },
+  "docs/reglas/magia.md": {
+    "mtime": 1784132666.6193893,
+    "ast_hash": "bd5f1cfd1e21c0aca399ffb3244ece4e",
+    "semantic_hash": ""
+  },
+  "docs/reglas/mantenimiento.md": {
+    "mtime": 1783268564.3007681,
+    "ast_hash": "b3c6c8223df053585fc1df913c66710e",
+    "semantic_hash": ""
+  },
+  "docs/reglas/psiquica.md": {
+    "mtime": 1784148210.9221704,
+    "ast_hash": "feec3fd0a0f91932259bd24d06cf1742",
+    "semantic_hash": ""
+  },
+  "src/items/category/data.ts": {
+    "mtime": 1784128314.4663262,
+    "ast_hash": "b12357ae7eb41c9741d2aa5c011cb227",
+    "semantic_hash": ""
+  },
+  "tests/ficha-test01.test.ts": {
+    "mtime": 1784150769.422583,
+    "ast_hash": "7074d521b98c0efc0528020bc5152c51",
+    "semantic_hash": ""
+  },
+  "docs/reglas/secundarias.md": {
+    "mtime": 1784129425.272648,
+    "ast_hash": "ce1b7ecc720f776fe44a18794d520264",
+    "semantic_hash": ""
+  },
+  "sandbox/App.tsx": {
+    "mtime": 1783631542.34393,
+    "ast_hash": "fc5012ef38f4d90b229454e1cc9b8cbe",
+    "semantic_hash": ""
+  },
+  "sandbox/fixtures.ts": {
+    "mtime": 1784128504.9982345,
+    "ast_hash": "022ac23e481601b72142f37d837afbf2",
+    "semantic_hash": ""
+  },
+  "sandbox/foundry-shim.ts": {
+    "mtime": 1783631121.792467,
+    "ast_hash": "e09232a66c530051c777a070e505223c",
+    "semantic_hash": ""
+  },
+  "sandbox/main.tsx": {
+    "mtime": 1783631307.056991,
+    "ast_hash": "d4d3ae36badbc81f5310417dfc148ccc",
+    "semantic_hash": ""
+  },
+  "sandbox/mock-documents.ts": {
+    "mtime": 1784147936.4108813,
+    "ast_hash": "bb885923204cf0abec8d7da6941d8697",
+    "semantic_hash": ""
+  },
+  "sandbox/packs.ts": {
+    "mtime": 1784212084.8130047,
+    "ast_hash": "015511dd0148fffc8a1f60c58b97bfbf",
+    "semantic_hash": ""
+  },
+  "tests/sandbox-smoke.test.ts": {
+    "mtime": 1783631461.8685417,
+    "ast_hash": "7742922d03e565e631a5fd5589f231dc",
+    "semantic_hash": ""
+  },
+  "vite.sandbox.config.ts": {
+    "mtime": 1783631317.009468,
+    "ast_hash": "39d7e39a32b803e86070c799b310daca",
+    "semantic_hash": ""
+  },
+  "sandbox/index.html": {
+    "mtime": 1783631308.7192998,
+    "ast_hash": "e188014172401e7f6b631633505ec42a",
+    "semantic_hash": ""
+  },
+  "sandbox/README.md": {
+    "mtime": 1783631523.159715,
+    "ast_hash": "8bd89d069d618fb520a52f3ffbe15bd3",
+    "semantic_hash": ""
+  },
+  "src/components/character/SpecialRulesSection.tsx": {
+    "mtime": 1784129138.8405926,
+    "ast_hash": "e21d0f127976d503519d78a1f2b9fece",
+    "semantic_hash": ""
+  },
+  "src/rules/special-rules.ts": {
+    "mtime": 1784128387.987591,
+    "ast_hash": "3dfd7efe37bff53268e622076fda100b",
+    "semantic_hash": ""
+  },
+  "tests/secondary-improvement.test.ts": {
+    "mtime": 1784128909.675277,
+    "ast_hash": "0326686991959e4fe2b7f28839330f8f",
+    "semantic_hash": ""
+  },
+  "tests/mysticism.test.ts": {
+    "mtime": 1784132462.9902976,
+    "ast_hash": "1e8c70d88f9b2c9944f4c21d55695c91",
+    "semantic_hash": ""
+  },
+  "src/items/mental-pattern/model.ts": {
+    "mtime": 1784147859.0390134,
+    "ast_hash": "cabb0b8476869bc2e1095e9be6d2065d",
+    "semantic_hash": ""
+  },
+  "src/items/psychic-discipline/model.ts": {
+    "mtime": 1784147834.974773,
+    "ast_hash": "2f42d3b09c78dac88abbf9bda33f5a4c",
+    "semantic_hash": ""
+  },
+  "src/items/psychic-power/model.ts": {
+    "mtime": 1784147849.4360893,
+    "ast_hash": "e43b6dddd63aeb05716e0b4c659feac6",
+    "semantic_hash": ""
+  },
+  "tests/psychic.test.ts": {
+    "mtime": 1784148042.919469,
+    "ast_hash": "ca212519ca7a258b85803975446aaaaf",
+    "semantic_hash": ""
+  },
+  "src/components/character/ui/SummonsList.tsx": {
+    "mtime": 1784210615.0975592,
+    "ast_hash": "46fca094660694aaf77251ecfb3b4b05",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/absorcion-de-energia.json": {
+    "mtime": 1784151751.929449,
+    "ast_hash": "45c8a9ef42c13cf333491ade6d3aac4d",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/alcance-incrementado.json": {
+    "mtime": 1784151751.9093993,
+    "ast_hash": "a6a74229840d68e55726dbd97037cf1f",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/anulacion-de-ki-mayor.json": {
+    "mtime": 1784151752.095049,
+    "ast_hash": "e1ed8c1be8c130eff0d35cfdd5a2d603",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/anulacion-de-ki.json": {
+    "mtime": 1784151752.0915148,
+    "ast_hash": "c83e5c3f98b0bcaaeb1c03f3ac5b0f07",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/anulacion-de-lazos.json": {
+    "mtime": 1784151752.1376374,
+    "ast_hash": "7fcb0fdf50ec67a3277b45715ff6a281",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/anulacion-de-magia-mayor.json": {
+    "mtime": 1784151752.112079,
+    "ast_hash": "5dfd5f4af0e84d40404a28bfdee78b80",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/anulacion-de-magia.json": {
+    "mtime": 1784151752.097548,
+    "ast_hash": "b644ff767d5d905adea1b0f324001f09",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/anulacion-de-matrices-mayor.json": {
+    "mtime": 1784151752.1306238,
+    "ast_hash": "4d8d9819e8c2d08e1b66aa9dd524951c",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/anulacion-de-matrices.json": {
+    "mtime": 1784151752.1175902,
+    "ast_hash": "188cb12eb7c20f8b729ce81de352dc0b",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/armadura-de-energia.json": {
+    "mtime": 1784151751.8772323,
+    "ast_hash": "9d43d4dbc1b8ef443ea880bdd37c67a3",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/armadura-de-vacio.json": {
+    "mtime": 1784151752.0809534,
+    "ast_hash": "b258b20c59154b6d4ed0b226f16c8560",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/ataque-elemental.json": {
+    "mtime": 1784151751.8973536,
+    "ast_hash": "20561f6a63738d499a82fa7d6e12f8d7",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/aumento-de-caracteristicas.json": {
+    "mtime": 1784151752.0473032,
+    "ast_hash": "774652db68e5cbd7fa0fbaa2db35863e",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/aura-de-combate.json": {
+    "mtime": 1784151751.7592735,
+    "ast_hash": "ed134509b13af959a7d572ee28f36bee",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/aura-de-ocultacion.json": {
+    "mtime": 1784151752.0033054,
+    "ast_hash": "1c23f948aefeedeaca180f4a2f8e60e0",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/aura-de-vacio.json": {
+    "mtime": 1784151752.1854005,
+    "ast_hash": "0e8707816b08146efd80155064bb0b13",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/cambio-fisico.json": {
+    "mtime": 1784151751.7687948,
+    "ast_hash": "c0125389d3bd9d6706312a75a3cce13f",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/cambio-superior.json": {
+    "mtime": 1784151751.7757473,
+    "ast_hash": "7d430f8be269ca0d654694b85fcd8593",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/control-de-la-edad.json": {
+    "mtime": 1784151751.8163698,
+    "ast_hash": "34b62e4b37614be0bbbe4d47b891a46a",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/control-del-ki.json": {
+    "mtime": 1784151751.69411,
+    "ast_hash": "1d0188ca5cd74d561d96ca3cf667d640",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/cuerpo-de-vacio.json": {
+    "mtime": 1784151752.1471663,
+    "ast_hash": "3c759cc1ed57d87168e9d6ab8dfb4b96",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/curacion-por-ki.json": {
+    "mtime": 1784151751.9495122,
+    "ast_hash": "81bcb81a4a0f4f4344606b63ac48e200",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/curacion-superior.json": {
+    "mtime": 1784151751.9600315,
+    "ast_hash": "1d38e469704fbd626fe6038d9399ec90",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/dano-incrementado.json": {
+    "mtime": 1784151751.9043832,
+    "ast_hash": "599b5a0659c62e9ae38cf52326e4e9fb",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/destruccion-por-ki.json": {
+    "mtime": 1784151751.9249377,
+    "ast_hash": "5aa6c32250db83ef41712cab9a251cc2",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/deteccion-del-ki.json": {
+    "mtime": 1784151751.719042,
+    "ast_hash": "1e56b8057b26db851d45d4645d875d7e",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/dominio-fisico.json": {
+    "mtime": 1784151751.7647853,
+    "ast_hash": "f01b13ab23f2ffc28f7ca101e8b2661b",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/eliminacion-de-necesidades.json": {
+    "mtime": 1784151752.0123255,
+    "ast_hash": "d5e62f774a296479d9894871d905984a",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/eliminacion-de-penalizadores.json": {
+    "mtime": 1784151752.03125,
+    "ast_hash": "882d16d1a51f4c85d735112ac7871eca",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/eliminacion-de-peso.json": {
+    "mtime": 1784151751.8492215,
+    "ast_hash": "a81ed591a7e9c6689c79c8d9c1f4a189",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/erudicion.json": {
+    "mtime": 1784151751.7386217,
+    "ast_hash": "fc564c689dd1a363096930b003bc57ef",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/escudo-fisico.json": {
+    "mtime": 1784151751.9349663,
+    "ast_hash": "5a703d9f97bcc30421054aa7ebd961bb",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/esencia-de-vacio.json": {
+    "mtime": 1784151752.1642017,
+    "ast_hash": "9e62811338ec2948705ef09c9f583221",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/estabilizar.json": {
+    "mtime": 1784151751.9725792,
+    "ast_hash": "56e8a361c3753c83f6eaf5d2cde3319d",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/extension-del-aura-al-arma.json": {
+    "mtime": 1784151751.8837695,
+    "ast_hash": "0ff62456803d71d487df319cf9cd86ea",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/extrusion-de-presencia.json": {
+    "mtime": 1784151751.874233,
+    "ast_hash": "12970d5bb60cd16af5c3085c28573085",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/extrusion-de-vacio.json": {
+    "mtime": 1784151752.1421561,
+    "ast_hash": "c2baa3eed3168d92fa0316dc2db4e48d",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/falsa-muerte.json": {
+    "mtime": 1784151752.007306,
+    "ast_hash": "d598c9be8e5b74ba3f4e38e45ca049c7",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/forma-de-vacio.json": {
+    "mtime": 1784151752.1737294,
+    "ast_hash": "fb4f281aaf05f5ae99024d0fe17ab90d",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/forzar-tecnicas.json": {
+    "mtime": 1784151751.8267255,
+    "ast_hash": "034f01e9349b10ee94d0cc2f20204c76",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/imitacion-de-tecnicas.json": {
+    "mtime": 1784151751.822715,
+    "ast_hash": "2cacb4de54d21122faf96dc5fadc39d7",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/incremento-superior.json": {
+    "mtime": 1784151752.0508149,
+    "ast_hash": "42af179da6a84fe3b2076b6039e6da9f",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/indeteccion.json": {
+    "mtime": 1784151752.189949,
+    "ast_hash": "9ac9b9197cab3fd9e278c17eb26c9900",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/inhumanidad-nemesis.json": {
+    "mtime": 1784151752.2034996,
+    "ast_hash": "8382c8c3b02ac094cf40594d2b5ebbd5",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/inhumanidad.json": {
+    "mtime": 1784151752.0543578,
+    "ast_hash": "aa3ea3997d3022b2ded13d696c7560a8",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/inmunidad-elemental-electricidad.json": {
+    "mtime": 1784151752.0274255,
+    "ast_hash": "8bbda3ba5ca9ef4cfb5d51aeaf2dde51",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/inmunidad-elemental-frio.json": {
+    "mtime": 1784151752.0219162,
+    "ast_hash": "55501d6e98acc2910d19d9e2dc86d999",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/inmunidad-elemental-fuego.json": {
+    "mtime": 1784151752.0173988,
+    "ast_hash": "b6b5490406d8f923b694d60bae29e831",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/levitacion.json": {
+    "mtime": 1784151751.861193,
+    "ast_hash": "dbe51dd68b350d4220a3c1852f378d65",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/magnitud-arcana.json": {
+    "mtime": 1784151751.8128626,
+    "ast_hash": "55c8317937b550e180e17be74b7a5c85",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/magnitud.json": {
+    "mtime": 1784151751.8088596,
+    "ast_hash": "b27194fbf2f33d2cfb040317e25abffb",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/movimiento-de-objetos.json": {
+    "mtime": 1784151751.86422,
+    "ast_hash": "4c0cc569efe8e6dcee60605dbcd29e49",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/movimiento-de-vacio.json": {
+    "mtime": 1784151752.1601639,
+    "ast_hash": "9d9833c4ec66936f8eea173d40314695",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/multiplicacion-de-cuerpos-arcana.json": {
+    "mtime": 1784151751.8018122,
+    "ast_hash": "dc14728e7d7885d3fd954bcba14836ad",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/multiplicacion-de-cuerpos-mayor.json": {
+    "mtime": 1784151751.797302,
+    "ast_hash": "c0c667bdfc310a45be1303fce2385b50",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/multiplicacion-de-cuerpos.json": {
+    "mtime": 1784151751.7912915,
+    "ast_hash": "c863125d0047804a66f5f9d125b7a9d8",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/noht.json": {
+    "mtime": 1784151752.084961,
+    "ast_hash": "74917bbb17375e8b5e1cd8d7e7f82c11",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/ocultacion-del-ki.json": {
+    "mtime": 1784151751.9997938,
+    "ast_hash": "945cc8ccf757dca4814d14866299cb4e",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/recuperacion.json": {
+    "mtime": 1784151752.036271,
+    "ast_hash": "5bd284cae13cae8f77d5fe36b0402aee",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/restituir-a-otros.json": {
+    "mtime": 1784151752.0397825,
+    "ast_hash": "125b85a763fa914682ffd0be1f792b42",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/sacrificio-vital.json": {
+    "mtime": 1784151751.979186,
+    "ast_hash": "b1f0a7dd6ddf359361436b114d48f786",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/sin-necesidades.json": {
+    "mtime": 1784151752.1531851,
+    "ast_hash": "5732a163740b551305e104ceb4a06300",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/tecnicas-de-combate-improvisadas.json": {
+    "mtime": 1784151751.8392591,
+    "ast_hash": "32bd786a2b455a0c639f5e4f4da28cec",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/transmision-del-ki.json": {
+    "mtime": 1784151751.9384725,
+    "ast_hash": "3b01de38b362749f5435e6bff050093f",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/uno-con-la-nada.json": {
+    "mtime": 1784151752.1772285,
+    "ast_hash": "6597e78033af907d829fb92b11717dcc",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/uso-de-la-energia-necesaria.json": {
+    "mtime": 1784151751.9967463,
+    "ast_hash": "154e1af96c5d164d5e77ee2495e3183a",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/uso-del-ki.json": {
+    "mtime": 1784151751.679529,
+    "ast_hash": "177adb8ddcfefb9b3ded328c17f4718c",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/uso-del-nemesis.json": {
+    "mtime": 1784151752.071403,
+    "ast_hash": "73f0e45c6a3c83d9c42f01f0e7296b6e",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/velocidad-incrementada.json": {
+    "mtime": 1784151751.9213653,
+    "ast_hash": "ff073dfc66f459ad503cd8f1fbb28a23",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/vuelo.json": {
+    "mtime": 1784151751.8682225,
+    "ast_hash": "a13ffc7a2b0cf16231b155404e84689b",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/zen-nemesis.json": {
+    "mtime": 1784151752.216038,
+    "ast_hash": "388f14843f5ba3e613ee90a67cd968c4",
+    "semantic_hash": ""
+  },
+  "src/packs/_source/kiAbilities/zen.json": {
+    "mtime": 1784151752.068393,
+    "ast_hash": "4262684ab6964a78188bc5f6d5e4cdcd",
+    "semantic_hash": ""
+  },
+  "tests/ki.test.ts": {
+    "mtime": 1784227122.8401256,
+    "ast_hash": "705ccb8ba5257dd1ca2cabdea8ee2897",
+    "semantic_hash": ""
+  },
+  "src/components/character/data/metamagiaGraph.ts": {
+    "mtime": 1784211926.5026107,
+    "ast_hash": "8d280ebf7d0ef4e75498c7ead941472c",
+    "semantic_hash": ""
+  },
+  "src/components/character/ui/MetamagiaGraph.tsx": {
+    "mtime": 1784211964.4707847,
+    "ast_hash": "efa14fdb604745be0ffc07b1779cec72",
+    "semantic_hash": ""
+  },
+  "src/components/character/ui/PowerTree.tsx": {
+    "mtime": 1784211704.0540645,
+    "ast_hash": "0e6622d95f8a08786bf4fac2d2ef4783",
+    "semantic_hash": ""
+  },
+  "src/domains/ki/data.ts": {
+    "mtime": 1784226973.9730642,
+    "ast_hash": "f0655aa30f5833fc2d2d1bff057b1a37",
+    "semantic_hash": ""
+  },
+  "src/domains/ki/item.ts": {
+    "mtime": 1784227014.2031589,
+    "ast_hash": "87308bb7f568b0d3d0129afb3cc76486",
+    "semantic_hash": ""
+  },
+  "src/domains/ki/prepare.ts": {
+    "mtime": 1784226997.5543692,
+    "ast_hash": "752842de2abfd6544025b021f633b455",
+    "semantic_hash": ""
+  },
+  "src/domains/ki/tables.ts": {
+    "mtime": 1784227100.096647,
+    "ast_hash": "c91b74e7bbc77bd396c5b77357cc378f",
+    "semantic_hash": ""
+  }
+}

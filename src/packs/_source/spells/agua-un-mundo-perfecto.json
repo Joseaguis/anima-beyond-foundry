@@ -1,0 +1,48 @@
+{
+  "name": "Un mundo perfecto",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este hechizo congela toda la realidad, deteniendo completamente el paso del tiempo. Mientras duren sus efectos, la existencia permanece paralizada; únicamente el lanzador podrá moverse y alterar su entorno libremente (aunque será incapaz de regenerar Zeon). Las entidades afectadas pueden evitar las consecuencias del hechizo superando una RM, pero únicamente si poseen un Gnosis mayor de 35 o 20 puntos por encima de su Natura.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 100,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Agua",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Este hechizo congela toda la realidad, deteniendo completamente el paso del tiempo. Mientras duren sus efectos, la existencia permanece paralizada; únicamente el lanzador podrá moverse y alterar su entorno libremente (aunque será incapaz de regenerar Zeon). Las entidades afectadas pueden evitar las consecuencias del hechizo superando una RM, pero únicamente si poseen un Gnosis mayor de 35 o 20 puntos por encima de su Natura.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 450,
+        "intRequired": 12,
+        "maintenanceCost": 90,
+        "effect": "RM 120."
+      },
+      "intermediate": {
+        "zeonCost": 800,
+        "intRequired": 15,
+        "maintenanceCost": 115,
+        "effect": "RM 180."
+      },
+      "advanced": {
+        "zeonCost": 1200,
+        "intRequired": 17,
+        "maintenanceCost": 130,
+        "effect": "RM 220."
+      },
+      "arcane": {
+        "zeonCost": 1600,
+        "intRequired": 20,
+        "maintenanceCost": 145,
+        "effect": "RM 260."
+      }
+    }
+  }
+}

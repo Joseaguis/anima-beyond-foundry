@@ -1,0 +1,64 @@
+{
+  "name": "Incremento de reacción",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Incremento Físico",
+    "powerLevel": 2,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "hard",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Turno +20"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Turno +40"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Turno +60"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "Turno +80"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "Turno +120"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "Turno +160"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "Turno +200"
+      }
+    ],
+    "effect": ""
+  }
+}

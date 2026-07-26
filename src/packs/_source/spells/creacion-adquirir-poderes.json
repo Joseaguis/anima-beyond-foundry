@@ -1,0 +1,48 @@
+{
+  "name": "Adquirir poderes",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Concede al mago, o a alguien, habilidades sobrenaturales. Otorga PD adicionales para obtener poderes detallados en el Capítulo 26, como si tuviera Gnosis 25. Esto afectará temporalmente a su forma física. Si obtiene Vuelo Natural, lo más lógico sería que estuviese dotado de unas enormes alas. Los beneficios de este conjuro no se superponen, y sólo puede afectar uno por sujeto.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 50,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Concede al mago, o a alguien, habilidades sobrenaturales. Otorga PD adicionales para obtener poderes detallados en el Capítulo 26, como si tuviera Gnosis 25. Esto afectará temporalmente a su forma física. Si obtiene Vuelo Natural, lo más lógico sería que estuviese dotado de unas enormes alas. Los beneficios de este conjuro no se superponen, y sólo puede afectar uno por sujeto.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 7,
+        "maintenanceCost": 20,
+        "effect": "100 PD"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 40,
+        "effect": "200 PD"
+      },
+      "advanced": {
+        "zeonCost": 300,
+        "intRequired": 13,
+        "maintenanceCost": 50,
+        "effect": "300 PD"
+      },
+      "arcane": {
+        "zeonCost": 400,
+        "intRequired": 16,
+        "maintenanceCost": 60,
+        "effect": "400 PD / Gnosis 30"
+      }
+    }
+  }
+}

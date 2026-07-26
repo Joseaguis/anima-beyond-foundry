@@ -1,0 +1,48 @@
+{
+  "name": "Conocimiento temporal",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El personaje puede percibir sobrenaturalmente el paso del tiempo.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 4,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Tiempo",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El personaje puede percibir sobrenaturalmente el paso del tiempo.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 30,
+        "intRequired": 5,
+        "maintenanceCost": 0,
+        "effect": "Permite percibir sobrenaturalmente la hora y la fecha."
+      },
+      "intermediate": {
+        "zeonCost": 50,
+        "intRequired": 7,
+        "maintenanceCost": 0,
+        "effect": "Siente las milésimas de segundo, y toda alternación del fluir del tiempo."
+      },
+      "advanced": {
+        "zeonCost": 70,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Ell personaje puede fijar una alarma, que sonará cuando lo desee."
+      },
+      "arcane": {
+        "zeonCost": 90,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Ell lanzador puede calcular el tiempo que va a tardar algo en concluir."
+      }
+    }
+  }
+}

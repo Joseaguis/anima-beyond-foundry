@@ -1,0 +1,48 @@
+{
+  "name": "Protección mágica",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Otorga una armadura contra todos los tipos de ataques, salvo energía. Puede combinarse con cualquier otra protección como capa adicional, pero no causa penalizadores especiales al turno</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 22,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Otorga una armadura contra todos los tipos de ataques, salvo energía. Puede combinarse con cualquier otra protección como capa adicional, pero no causa penalizadores especiales al turno",
+    "closedPaths": "Destrucción",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "TA 2"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "TA 4"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "TA 6"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "TA 8"
+      }
+    }
+  }
+}

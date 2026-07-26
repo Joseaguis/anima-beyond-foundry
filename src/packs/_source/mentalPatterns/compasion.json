@@ -1,0 +1,16 @@
+{
+  "name": "Compasión",
+  "type": "mentalPattern",
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este Patrón representa a aquellos individuos que se preocupan más de los demás que de sí mismos, por lo que su mente funciona mejor cuando está ayudando a la gente. El mentalista está siempre poniéndose en la piel de otras personas, incluso de sus enemigos, y no puede evitar preocuparse y empatizar con quienes le rodean. Le repugna causar daño a otros y lo evita siempre que puede.</p><p><em>Sus matrices son redondeadas y de colores cálidos.</em></p>",
+      "chat": ""
+    },
+    "source": "Arcana Exxet",
+    "rules": [],
+    "effect": "Bonos: al usar sus poderes para ayudar a otros incrementa automáticamente un grado el nivel de dificultad alcanzado (siempre que no haya obtenido un resultado de Fatiga). Además, no aplica ningún penalizador a su Proyección Psíquica por cubrir a otros con sus escudos.\nPenalizadores: cualquier intento de causar daño a otro ser vivo le produce −20 a toda acción. Debe superar un control de Voluntad de dificultad 18 para tratar de matar a alguien; de no superarlo, si un ataque produjera la muerte de alguien falla automáticamente, pues el mentalista ha desviado el golpe inconscientemente.\nPatrones Mentales Opuestos: Psicopatía.\nCoste: 30 PD / 40 PD. Coste de Cancelación: 10 PD.",
+    "dpCost": 30,
+    "modifier": "+1 grado al ayudar / −20 al dañar"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Crear música",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea una melodía audible para todos aquellos que se encuentren en el radio de acción del hechizo. La calidad musical de la composición será realizada con el equivalente a una habilidad final en Música determinada por el grado del conjuro. Sólo puede reproducir temas que el lanzador conozca, aunque sea de un modo vago.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 2,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea una melodía audible para todos aquellos que se encuentren en el radio de acción del hechizo. La calidad musical de la composición será realizada con el equivalente a una habilidad final en Música determinada por el grado del conjuro. Sólo puede reproducir temas que el lanzador conozca, aunque sea de un modo vago.",
+    "closedPaths": "Destrucción",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 5,
+        "maintenanceCost": 5,
+        "effect": "10 metros de radio / 80 en Música"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 5,
+        "effect": "50 metros de radio / 120 en Música"
+      },
+      "advanced": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 5,
+        "effect": "150 metros de radio / 180 en Música"
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "250 metros de radio / 240 en Música"
+      }
+    }
+  }
+}

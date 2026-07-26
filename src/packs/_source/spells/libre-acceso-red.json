@@ -1,0 +1,48 @@
+{
+  "name": "Red",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este sortilegio crea unas fibras mágicas de gran densidad, que actúan como una red muy pegajosa. Sus usos quedan a disposición del hechicero: bloquear una zona, lanzarla directamente sobre individuos… Presa con Fuerza 10 a cualquier individuo que la toque y aguanta como un ser con acumulación empleando TA 4. Al ser una sustancia de naturaleza mística, será dañada únicamente por ataques sobrenaturales o calor</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 22,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este sortilegio crea unas fibras mágicas de gran densidad, que actúan como una red muy pegajosa. Sus usos quedan a disposición del hechicero: bloquear una zona, lanzarla directamente sobre individuos… Presa con Fuerza 10 a cualquier individuo que la toque y aguanta como un ser con acumulación empleando TA 4. Al ser una sustancia de naturaleza mística, será dañada únicamente por ataques sobrenaturales o calor",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "3 metros cuadrados / 500 Puntos de vida"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 5,
+        "effect": "6 metros cuadrados / 750 Puntos de vida"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "9 metros cuadrados / 1.000 Puntos de vida"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 10,
+        "effect": "12 metros cuadrados / 1.500 Puntos de vida / Presa con Fuerza 12"
+      }
+    }
+  }
+}

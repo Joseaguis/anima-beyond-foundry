@@ -1,0 +1,48 @@
+{
+  "name": "Estancar conjuro",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite almacenar un segundo conjuro en un objeto. Se lanza con el otro hechizo, de modo que el segundo sortilegio, en lugar de funcionar con normalidad, quedará en el interior de algo. El conjuro estancado podrá activarse, otro mago que introduzca en el contenedor el coste zeónico exacto conque fue lanzado. El mago que posea el objeto tendrá el control del conjuro. El hechizo estancado podrá volver a ser usado mientras se vuelva a pagar el coste de Zeon.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 72,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Permite almacenar un segundo conjuro en un objeto. Se lanza con el otro hechizo, de modo que el segundo sortilegio, en lugar de funcionar con normalidad, quedará en el interior de algo. El conjuro estancado podrá activarse, otro mago que introduzca en el contenedor el coste zeónico exacto conque fue lanzado. El mago que posea el objeto tendrá el control del conjuro. El hechizo estancado podrá volver a ser usado mientras se vuelva a pagar el coste de Zeon.",
+    "closedPaths": "Aire",
+    "grades": {
+      "base": {
+        "zeonCost": 150,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "Zeón máximo 80"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "Zeón máximo 120"
+      },
+      "advanced": {
+        "zeonCost": 250,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "Zeón máximo 180"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Zeón máximo 240"
+      }
+    }
+  }
+}

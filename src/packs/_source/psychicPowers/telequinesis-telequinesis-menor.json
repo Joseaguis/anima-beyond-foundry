@@ -1,0 +1,64 @@
+{
+  "name": "Telequinesis menor",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Telequinesis",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "easy",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 1"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "1 Kg / Tipo de vuelo 4"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "2 Kg / Tipo de vuelo 6"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "5 Kg / Tipo de vuelo 8"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "10 Kg / Tipo de vuelo 10"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "20 Kg / Tipo de vuelo 12"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "40 Kg / Tipo de vuelo 14"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "100 Kg / Tipo de vuelo 16"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "200 Kg / Tipo de vuelo 18"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "500 Kg / Tipo de vuelo 20"
+      }
+    ],
+    "effect": ""
+  }
+}

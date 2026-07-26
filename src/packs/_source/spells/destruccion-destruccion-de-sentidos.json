@@ -1,0 +1,48 @@
+{
+  "name": "Destrucción de sentidos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Arrebata los sentidos de un individuo que no supere la RM. El brujo es quien decide qué sentidos son afectados.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 32,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Arrebata los sentidos de un individuo que no supere la RM. El brujo es quien decide qué sentidos son afectados.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 8,
+        "maintenanceCost": 5,
+        "effect": "100 RM"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "120 RM"
+      },
+      "advanced": {
+        "zeonCost": 200,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "140 RM"
+      },
+      "arcane": {
+        "zeonCost": 280,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "180 RM"
+      }
+    }
+  }
+}

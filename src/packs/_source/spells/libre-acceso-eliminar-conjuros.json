@@ -1,0 +1,48 @@
+{
+  "name": "Eliminar conjuros",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Destruye un conjuro activo cuyo valor zeónico no supere el indicado por el grado del conjuro</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 32,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Destruye un conjuro activo cuyo valor zeónico no supere el indicado por el grado del conjuro",
+    "closedPaths": "Creación",
+    "grades": {
+      "base": {
+        "zeonCost": 150,
+        "intRequired": 7,
+        "maintenanceCost": 0,
+        "effect": "Valor zeónico máximo 60"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Valor zeónico máximo 80"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Valor zeónico máximo 100"
+      },
+      "arcane": {
+        "zeonCost": 280,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "Valor zeónico máximo 120"
+      }
+    }
+  }
+}

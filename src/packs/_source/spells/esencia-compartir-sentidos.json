@@ -1,0 +1,48 @@
+{
+  "name": "Compartir sentidos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Conecta los sentidos del hechicero con los de otros individuos y viceversa, permitiéndoles ver y escuchar lo que otros perciban. Si el brujo lo desea, es capaz de negar el acceso a sus propios sentidos. Para resistirse, debe superarse una RM o RP. Cualquier afectado tiene derecho a una nueva resistencia cada hora. Puede afectar a varios individuos a la vez, siempre que la suma de sus Presencias (sin contar la del hechicero) no supere el máximo indicado por el conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 22,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Conecta los sentidos del hechicero con los de otros individuos y viceversa, permitiéndoles ver y escuchar lo que otros perciban. Si el brujo lo desea, es capaz de negar el acceso a sus propios sentidos. Para resistirse, debe superarse una RM o RP. Cualquier afectado tiene derecho a una nueva resistencia cada hora. Puede afectar a varios individuos a la vez, siempre que la suma de sus Presencias (sin contar la del hechicero) no supere el máximo indicado por el conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "Presencia máxima 100 / RM o RP 100 / 1 kilómetro de distancia máxima"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "Presencia máxima 160 / RM o RP 160 / 10 kilómetros de distancia máxima."
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "Presencia máxima 200 / RM o RP 190 / 50 kilómetros de distancia máxima"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "Presencia máxima 240 / RM o RP 220 / 150 kilómetros de distancia máxima"
+      }
+    }
+  }
+}

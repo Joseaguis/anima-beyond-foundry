@@ -1,0 +1,20 @@
+{
+  "name": "Técnicas de combate improvisadas",
+  "type": "kiAbility",
+  "img": "icons/magic/fire/blast-jet-stream-fire-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Da acceso a la Tabla de creación de Técnicas improvisadas (Dominus Exxet cap. 5).</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 50,
+    "subtype": "kiPower",
+    "parent": "Uso del Ki",
+    "branch": "Uso del Ki",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

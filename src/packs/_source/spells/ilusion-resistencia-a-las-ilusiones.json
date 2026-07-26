@@ -1,0 +1,48 @@
+{
+  "name": "Resistencia a las ilusiones",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Aumenta la Resistencia mágica de un sujeto contra los efectos ilusorios. El conjuro otorga un bonificador a todos a RM contra cualquier conjuro de la via ilusión (o conjuros de naturaleza similar). Los efectos de este hechizo no se superponen, y solo se puede afectar con él una vez a cada sujeto.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 42,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Ilusión",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Aumenta la Resistencia mágica de un sujeto contra los efectos ilusorios. El conjuro otorga un bonificador a todos a RM contra cualquier conjuro de la via ilusión (o conjuros de naturaleza similar). Los efectos de este hechizo no se superponen, y solo se puede afectar con él una vez a cada sujeto.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 7,
+        "maintenanceCost": 10,
+        "effect": "+20 al RM"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "+40 al RM"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "+60 al RM"
+      },
+      "arcane": {
+        "zeonCost": 140,
+        "intRequired": 14,
+        "maintenanceCost": 15,
+        "effect": "+80 al RM"
+      }
+    }
+  }
+}

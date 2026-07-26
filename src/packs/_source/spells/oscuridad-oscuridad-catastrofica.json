@@ -1,0 +1,48 @@
+{
+  "name": "Oscuridad catastrófica",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Proyecta una descarga de energía basada en oscuridad. Ataca en la TA de Energía.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 72,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Oscuridad",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "attack",
+    "effect": "Proyecta una descarga de energía basada en oscuridad. Ataca en la TA de Energía.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 140,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Daño 120 / 25 metros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Daño 150 / 100 metros de radio"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "Daño 200 / 150 metros de radio"
+      },
+      "arcane": {
+        "zeonCost": 350,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Daño 250 / 250 metros de radio"
+      }
+    }
+  }
+}

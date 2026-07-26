@@ -1,0 +1,48 @@
+{
+  "name": "Susurros del otro lado",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Provoca la aparición de voces susurrantes en un área determinada, sonidos que inundan el corazón de sus víctimas de un miedo primordial. Cualquier persona dentro del radio de acción del conjuro que escuche más de cinco asaltos las voces debe superar automáticamente un control de RM o RP contra la dificultad determinada por el grado del conjuro o quedará sometido al estado de miedo.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 24,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Umbral",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Provoca la aparición de voces susurrantes en un área determinada, sonidos que inundan el corazón de sus víctimas de un miedo primordial. Cualquier persona dentro del radio de acción del conjuro que escuche más de cinco asaltos las voces debe superar automáticamente un control de RM o RP contra la dificultad determinada por el grado del conjuro o quedará sometido al estado de miedo.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "RM o RP 80 / 10 metros de radio."
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 9,
+        "maintenanceCost": 5,
+        "effect": "RM o RP 100 / 25 metros de radio."
+      },
+      "advanced": {
+        "zeonCost": 160,
+        "intRequired": 12,
+        "maintenanceCost": 10,
+        "effect": "RM o RP 120 / 50 metros de radio."
+      },
+      "arcane": {
+        "zeonCost": 200,
+        "intRequired": 15,
+        "maintenanceCost": 10,
+        "effect": "RM o RP 140 / 100 metros de radio."
+      }
+    }
+  }
+}

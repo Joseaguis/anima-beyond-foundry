@@ -1,0 +1,48 @@
+{
+  "name": "Dominio de la vida",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El mago controla parte de la esencia del mundo, obteniendo el dominio de todos los Seres Naturales a su alrededor. Podrá transmitir órdenes directamente por la conexión mística, sin la necesidad de estar junto a ellos. Para resistirse, es necesario superar una RM. Los afectados tendrán derecho a una nueva Resistencia por día, y en cada ocasión en la que las órdenes recibidas vayan completamente en contra de su comportamiento.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 92,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Esencia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "El mago controla parte de la esencia del mundo, obteniendo el dominio de todos los Seres Naturales a su alrededor. Podrá transmitir órdenes directamente por la conexión mística, sin la necesidad de estar junto a ellos. Para resistirse, es necesario superar una RM. Los afectados tendrán derecho a una nueva Resistencia por día, y en cada ocasión en la que las órdenes recibidas vayan completamente en contra de su comportamiento.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 300,
+        "intRequired": 10,
+        "maintenanceCost": 60,
+        "effect": "RM 100 / 100 kilómetros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 500,
+        "intRequired": 13,
+        "maintenanceCost": 75,
+        "effect": "RM 130 / 500 kilómetros de radio"
+      },
+      "advanced": {
+        "zeonCost": 750,
+        "intRequired": 15,
+        "maintenanceCost": 85,
+        "effect": "RM 160 / 1.500 kilómetros de radio"
+      },
+      "arcane": {
+        "zeonCost": 1000,
+        "intRequired": 18,
+        "maintenanceCost": 100,
+        "effect": "RM 200 / 2.500 kilómetros de radio"
+      }
+    }
+  }
+}

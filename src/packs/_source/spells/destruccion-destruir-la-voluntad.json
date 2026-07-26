@@ -1,0 +1,48 @@
+{
+  "name": "Destruir la voluntad",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro afecta a un área dentro de la cual, todo individuo que no supere una RM perderá automáticamente la capacidad de tomar decisiones. Mientras una persona esté bajo los efectos de este sortilegio, no podrá emprender ninguna acción activa, salvo caso de necesidad institntiva.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 66,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Este conjuro afecta a un área dentro de la cual, todo individuo que no supere una RM perderá automáticamente la capacidad de tomar decisiones. Mientras una persona esté bajo los efectos de este sortilegio, no podrá emprender ninguna acción activa, salvo caso de necesidad institntiva.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 160,
+        "intRequired": 8,
+        "maintenanceCost": 20,
+        "effect": "RM 120 / 10 metros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 20,
+        "effect": "RM 140 / 25 metros de radio"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 13,
+        "maintenanceCost": 25,
+        "effect": "RM 160 / 50 metros de radio"
+      },
+      "arcane": {
+        "zeonCost": 280,
+        "intRequired": 16,
+        "maintenanceCost": 30,
+        "effect": "RM 180 / 100 metros de radio"
+      }
+    }
+  }
+}

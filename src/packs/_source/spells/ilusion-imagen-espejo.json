@@ -1,0 +1,48 @@
+{
+  "name": "Imagen espejo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Realiza copias de un blanco determinado. Se trata sólo de imágenes ilusorias, que no podrán estar separadas a más de 10 metros de distancia entre ellas. Como si se tratase de espejos, realizarán los mismos movimientos que el blanco del conjuro. Si algona de ellas es alcanzada por algún impacto que dañe energía, será inmediatamente destruida. Para ver la ilusión, es necesario pasar una RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 30,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Ilusión",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Realiza copias de un blanco determinado. Se trata sólo de imágenes ilusorias, que no podrán estar separadas a más de 10 metros de distancia entre ellas. Como si se tratase de espejos, realizarán los mismos movimientos que el blanco del conjuro. Si algona de ellas es alcanzada por algún impacto que dañe energía, será inmediatamente destruida. Para ver la ilusión, es necesario pasar una RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "RM 120 / 5 imágenes."
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "RM 140 / 10 imágenes."
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "RM 160 / 20 imágenes."
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 14,
+        "maintenanceCost": 15,
+        "effect": "RM 180 / 50 imágenes."
+      }
+    }
+  }
+}

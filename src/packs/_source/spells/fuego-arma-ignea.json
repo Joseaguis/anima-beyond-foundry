@@ -1,0 +1,48 @@
+{
+  "name": "Arma ígnea",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Imbuye de llamas un arma, haciendo que ataque en la TA de calor como crítico primario. El fuego será tan potente que aumentará el daño base del ataque, sin afectar en absoluto a la resistencia del arma</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 26,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Fuego",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Imbuye de llamas un arma, haciendo que ataque en la TA de calor como crítico primario. El fuego será tan potente que aumentará el daño base del ataque, sin afectar en absoluto a la resistencia del arma",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 50,
+        "intRequired": 6,
+        "maintenanceCost": 5,
+        "effect": "+10 daño base"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "+20 daño base"
+      },
+      "advanced": {
+        "zeonCost": 100,
+        "intRequired": 11,
+        "maintenanceCost": 10,
+        "effect": "+30 daño base"
+      },
+      "arcane": {
+        "zeonCost": 120,
+        "intRequired": 14,
+        "maintenanceCost": 15,
+        "effect": "+40 daño base"
+      }
+    }
+  }
+}

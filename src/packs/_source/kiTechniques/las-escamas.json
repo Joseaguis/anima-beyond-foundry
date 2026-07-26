@@ -1,0 +1,48 @@
+{
+  "name": "Las escamas",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "El Dragón",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "defensas-adicionales",
+        "role": "primary",
+        "options": [
+          "+6"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 20,
+    "bookCost": "DES 3 CON 3 AGI 1",
+    "bookDistribution": {
+      "dex": {
+        "activation": 3,
+        "upkeep": 0
+      },
+      "con": {
+        "activation": 3,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 1,
+        "upkeep": 0
+      }
+    }
+  }
+}

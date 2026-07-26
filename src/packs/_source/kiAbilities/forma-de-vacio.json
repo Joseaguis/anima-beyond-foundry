@@ -1,0 +1,20 @@
+{
+  "name": "Forma de vacío",
+  "type": "kiAbility",
+  "img": "icons/magic/death/skull-energy-light-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Sustituye su forma por energía del Némesis: intangible, sólo lo daña/detiene lo que afecta a Energía. 1 Ki para activar + 1 cada 5 asaltos. Requiere también Cuerpo de vacío.</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 30,
+    "subtype": "nemesisPower",
+    "parent": "Extrusión de vacío",
+    "branch": "Némesis",
+    "kiCost": 1,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

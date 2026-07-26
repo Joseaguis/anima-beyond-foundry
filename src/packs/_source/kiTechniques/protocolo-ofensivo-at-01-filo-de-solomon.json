@@ -1,0 +1,73 @@
+{
+  "name": "Protocolo Ofensivo At-01: Filo De Sólomon",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Legado De Sólomon",
+    "level": 1,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-adicional-limitado",
+        "role": "primary",
+        "options": [
+          "+1"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-predeterminado",
+        "role": "secondary",
+        "options": [
+          "Casi Imposible (240)"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-a-distancia",
+        "role": "secondary",
+        "options": [
+          "5 metros"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "requerimiento",
+        "option": "Sangre antigua"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 35,
+    "bookCost": "DES 7 AGI 7 POD 7",
+    "bookDistribution": {
+      "dex": {
+        "activation": 7,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 7,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 7,
+        "upkeep": 0
+      }
+    }
+  }
+}

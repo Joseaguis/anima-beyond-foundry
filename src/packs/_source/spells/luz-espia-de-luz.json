@@ -1,0 +1,48 @@
+{
+  "name": "Espía de luz",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crea pequeña luz con un Tipo de vuelo 14. A través de ella el mago puede ver y escuchar , pero al hacerlo((elegir cada turno si hacerlo), sólo podrá percibir  a través del espía. El espía emplea sus habilidades de Advertir y Buscar, y serán estas las que utilice el mago. El espía esquiva usando la Proyección Mágica del mago. Sólo es dañado con ataques sobrenaturales. distancia máxima de sepación espía-hechicero es determinada por el grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 36,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Luz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Crea pequeña luz con un Tipo de vuelo 14. A través de ella el mago puede ver y escuchar , pero al hacerlo((elegir cada turno si hacerlo), sólo podrá percibir  a través del espía. El espía emplea sus habilidades de Advertir y Buscar, y serán estas las que utilice el mago. El espía esquiva usando la Proyección Mágica del mago. Sólo es dañado con ataques sobrenaturales. distancia máxima de sepación espía-hechicero es determinada por el grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 6,
+        "maintenanceCost": 20,
+        "effect": "100 en Advertir y Buscar / 1 Kilómetro de distancia máxima"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 9,
+        "maintenanceCost": 40,
+        "effect": "150 en Advertir y Buscar / 10 Kilómetros de distancia máxima."
+      },
+      "advanced": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 60,
+        "effect": "200 en Advertir y Buscar / 50 Kilómetros de distancia máxima."
+      },
+      "arcane": {
+        "zeonCost": 400,
+        "intRequired": 15,
+        "maintenanceCost": 80,
+        "effect": "250 en Advertir y Buscar / 500 Kilómetros de distancia máxima"
+      }
+    }
+  }
+}

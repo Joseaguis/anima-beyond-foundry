@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"/c/Users/JoseManuelAguilar/.claude/projects/c--Users-JoseManuelAguilar-Documents-Codigo-repos-AnimeBeyondFantasyRol-anima-beyond-foundry\" && grep -o '\"summary\":\"[^\"]*' 223c0123-e29b-4364-8cd5-abff182cc412.jsonl | head -5; echo ---; grep -o '\"summary\":\"[^\"]*' 854c0494-f93b-4eb7-8698-000f648c5a1c.jsonl | head -5; echo ---; grep -o 'plan[^\"]*\\\\.md' 223c0123-e29b-4364-8cd5-abff182cc412.jsonl | sort -u | head -10)",
+      "Read(//c/Users/JoseManuelAguilar/.claude/projects/c--Users-JoseManuelAguilar-Documents-Codigo-repos-AnimeBeyondFantasyRol-anima-beyond-foundry/**)",
+      "Read(//c/Users/JoseManuelAguilar/Documents/Codigo/repos/AnimeBeyondFantasyRol/anime-beyond-fantasy-docs/docs/pdfs/**)",
+      "Bash(pdftotext -layout -f 46 -l 46 \"Dominus Exxet - Los dominios del ki.pdf\" -)",
+      "Bash(pdftotext -enc UTF-8 -layout -f 103 -l 104 \"Arcana Exxet.pdf\" -)",
+      "Bash(pdftotext -enc UTF-8 -layout -f 230 -l 231 \"Core exxet.pdf\" -)",
+      "Read(//c/Users/JoseManuelAguilar/Documents/Codigo/repos/AnimeBeyondFantasyRol/anime-beyond-fantasy-docs/graphify-out/converted/**)",
+      "Bash(awk -F'|' 'NR>=5814 && NR<=5952 {d=$7; gsub\\(/^ +| +$/,\"\",d\\); p=$6; gsub\\(/^ +| +$/,\"\",p\\); if\\(p ~ /^>/\\) print \"SECTION: \"p; else if\\(d!=\"\"\\) cnt[d]++} END{for\\(k in cnt\\) print k\": \"cnt[k]}' \"Ficha Anima v8.7.0_cedf0a51.md\")",
+      "Bash(pdftotext -enc UTF-8 -f 213 -l 215 \"Core exxet.pdf\" -)"
+    ]
+  }
+}

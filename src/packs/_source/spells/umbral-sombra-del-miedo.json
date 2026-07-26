@@ -1,0 +1,48 @@
+{
+  "name": "Sombra del miedo",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro afecta una zona de terreno, volviéndola lúgubre y tenebrosa a la vista de los demás. Es importante puntualizar que diferentes personas pueden percibir la misma zona de un modo distinto, dependiendo de lo que estos consideren un lugar lúgubre.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 14,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Umbral",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este conjuro afecta una zona de terreno, volviéndola lúgubre y tenebrosa a la vista de los demás. Es importante puntualizar que diferentes personas pueden percibir la misma zona de un modo distinto, dependiendo de lo que estos consideren un lugar lúgubre.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "50 metros de radio."
+      },
+      "intermediate": {
+        "zeonCost": 70,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "250 metros de radio."
+      },
+      "advanced": {
+        "zeonCost": 100,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "500 metros de radio."
+      },
+      "arcane": {
+        "zeonCost": 130,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "1 kilómetro de radio."
+      }
+    }
+  }
+}

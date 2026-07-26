@@ -1,0 +1,93 @@
+{
+  "name": "Erupción Volcánica",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Maestro De Catástrofes",
+    "level": 3,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-con-area",
+        "role": "primary",
+        "options": [
+          "50 metros de radio"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "potenciar-critico",
+        "role": "secondary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "aumento-de-dano",
+        "role": "secondary",
+        "options": [
+          "+50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-elemental",
+        "role": "secondary",
+        "options": [
+          "Fuego"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-indirecto",
+        "role": "secondary",
+        "options": [
+          "Nv 3"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "condicion",
+        "option": "Terreno Determinado: Tierra"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 110,
+    "bookCost": "FUE 20 (6) POD 19 (5) VOL 17 (5)",
+    "bookDistribution": {
+      "str": {
+        "activation": 20,
+        "upkeep": 6
+      },
+      "pow": {
+        "activation": 19,
+        "upkeep": 5
+      },
+      "wp": {
+        "activation": 17,
+        "upkeep": 5
+      }
+    }
+  }
+}

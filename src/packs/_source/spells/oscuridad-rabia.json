@@ -1,0 +1,48 @@
+{
+  "name": "Rabia",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Provoca el estado de Ira sobre los objetivos del conjuro, haciendo que estos no controlen sus acciones y ataquen al individuo más cercano a ellos. Mientras alguien se vea influido por sus efectos, aplicará un bono de +10 a su habilidad ofensiva y un –30 al resto de sus controles.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 38,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Oscuridad",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Provoca el estado de Ira sobre los objetivos del conjuro, haciendo que estos no controlen sus acciones y ataquen al individuo más cercano a ellos. Mientras alguien se vea influido por sus efectos, aplicará un bono de +10 a su habilidad ofensiva y un –30 al resto de sus controles.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 60,
+        "intRequired": 6,
+        "maintenanceCost": 10,
+        "effect": "5 metros de radio / RM 80"
+      },
+      "intermediate": {
+        "zeonCost": 90,
+        "intRequired": 9,
+        "maintenanceCost": 10,
+        "effect": "20 metros de radio / RM 100"
+      },
+      "advanced": {
+        "zeonCost": 150,
+        "intRequired": 12,
+        "maintenanceCost": 15,
+        "effect": "50 metros de radio / RM 120"
+      },
+      "arcane": {
+        "zeonCost": 200,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "100 metros de radio / RM 140"
+      }
+    }
+  }
+}

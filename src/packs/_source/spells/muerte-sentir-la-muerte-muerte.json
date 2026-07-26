@@ -1,0 +1,48 @@
+{
+  "name": "Sentir la muerte (Muerte)",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El lanzador es capaz de presentir la muerte en las cercanías.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 54,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Muerte",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El lanzador es capaz de presentir la muerte en las cercanías.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 7,
+        "maintenanceCost": 10,
+        "effect": "En 100 m detecta muertes hace < 1 hora, o moribundo morirá < 1 minuto"
+      },
+      "intermediate": {
+        "zeonCost": 100,
+        "intRequired": 10,
+        "maintenanceCost": 10,
+        "effect": "150 m, muertes hace < 6 horas, o si alguien  va a morir en diez minutos."
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "Percibe tiempo de vida de una persona, y si alguien ha muerto en la zona"
+      },
+      "arcane": {
+        "zeonCost": 150,
+        "intRequired": 15,
+        "maintenanceCost": 15,
+        "effect": "Percibe las causas de muertes pasadas y futuras"
+      }
+    }
+  }
+}

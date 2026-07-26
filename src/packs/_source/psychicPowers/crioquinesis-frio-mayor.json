@@ -1,0 +1,64 @@
+{
+  "name": "Frío mayor",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Crioquinesis",
+    "powerLevel": 3,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "almostImpossible",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 20"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 16"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 12"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "30 intensidades"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "40 intensidades"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "50 intensidades"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "60 intensidades"
+      }
+    ],
+    "effect": ""
+  }
+}

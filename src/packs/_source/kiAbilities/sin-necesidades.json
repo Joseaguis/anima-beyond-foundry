@@ -1,0 +1,20 @@
+{
+  "name": "Sin necesidades",
+  "type": "kiAbility",
+  "img": "icons/magic/death/skull-energy-light-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Carece de cualquier necesidad física (comer, dormir), salvo ansias psicológicas por adicciones.</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 10,
+    "subtype": "nemesisPower",
+    "parent": "Cuerpo de vacío",
+    "branch": "Némesis",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

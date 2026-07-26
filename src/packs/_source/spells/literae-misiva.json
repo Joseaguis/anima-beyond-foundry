@@ -1,0 +1,48 @@
+{
+  "name": "Misiva",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Tras escribir una carta es posible utilizar este hechizo para enviar su contenido a un individuo a quien el hechicero conozca personalmente. Puede traspasar estructuras encantadas e menor poder siempre y cuando haya suficiente espacio para, por ejemplo “colar” la carta por debajo de la puerta.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 14,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Literae",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Tras escribir una carta es posible utilizar este hechizo para enviar su contenido a un individuo a quien el hechicero conozca personalmente. Puede traspasar estructuras encantadas e menor poder siempre y cuando haya suficiente espacio para, por ejemplo “colar” la carta por debajo de la puerta.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "10 kilómetros"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "100 kilómetros"
+      },
+      "advanced": {
+        "zeonCost": 200,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "1000 kilómetros"
+      },
+      "arcane": {
+        "zeonCost": 280,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "Cualquier Lugar"
+      }
+    }
+  }
+}

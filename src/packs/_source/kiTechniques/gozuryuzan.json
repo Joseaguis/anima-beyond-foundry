@@ -1,0 +1,49 @@
+{
+  "name": "Gozuryuzan",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "La Vía De Meizo",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "ataque-adicional-limitado",
+        "role": "primary",
+        "options": [
+          "+4",
+          "Ataque Contínuo"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 50,
+    "bookCost": "DES 9 AGI 9 POD 9",
+    "bookDistribution": {
+      "dex": {
+        "activation": 9,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 9,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 9,
+        "upkeep": 0
+      }
+    }
+  }
+}

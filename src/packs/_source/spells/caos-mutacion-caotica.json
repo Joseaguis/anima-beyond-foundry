@@ -1,0 +1,48 @@
+{
+  "name": "Mutación caótica",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El hechicero o el individuo que éste determine consigue PD adicionales para obtener Poderes de monstruo como si fuera un Ser Entre Mundos con Gnosis 25. No obstante, únicamente puede elegir gastar voluntariamente la mitad de dichos PD, mientras que la otra mitad serán determinados al azar por el Director de Juego. Por regla general, los poderes que provoca este conjuro siempre dejan visibles cambios físicos.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 74,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Caos",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El hechicero o el individuo que éste determine consigue PD adicionales para obtener Poderes de monstruo como si fuera un Ser Entre Mundos con Gnosis 25. No obstante, únicamente puede elegir gastar voluntariamente la mitad de dichos PD, mientras que la otra mitad serán determinados al azar por el Director de Juego. Por regla general, los poderes que provoca este conjuro siempre dejan visibles cambios físicos.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "100 PD / 100 RM"
+      },
+      "intermediate": {
+        "zeonCost": 400,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "200 PD / 120 RM"
+      },
+      "advanced": {
+        "zeonCost": 800,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "300 PD / 140 RM"
+      },
+      "arcane": {
+        "zeonCost": 1200,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "400 PD / Gnosis 30 / 160 RM"
+      }
+    }
+  }
+}

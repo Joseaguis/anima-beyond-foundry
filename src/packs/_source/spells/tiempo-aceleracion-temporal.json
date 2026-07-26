@@ -1,0 +1,48 @@
+{
+  "name": "Aceleración temporal",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El brujo acelera su esencia ante el fluir del tiempo. Mientras que él percibe el mundo a cámara lenta, el resto sólo ve un borrón en movimiento. A efectos de juego, otorga diferentes bonos al lanzador o al individuo designado por este indicados por el Grado del Conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 14,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Tiempo",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El brujo acelera su esencia ante el fluir del tiempo. Mientras que él percibe el mundo a cámara lenta, el resto sólo ve un borrón en movimiento. A efectos de juego, otorga diferentes bonos al lanzador o al individuo designado por este indicados por el Grado del Conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 7,
+        "maintenanceCost": 10,
+        "effect": "+1 Tipo de Movimiento / +20 Turno / +10 Toda Acción"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 10,
+        "maintenanceCost": 15,
+        "effect": "+2 Tipo de Movimiento / +30 Turno / +15 Toda Acción"
+      },
+      "advanced": {
+        "zeonCost": 180,
+        "intRequired": 12,
+        "maintenanceCost": 20,
+        "effect": "+2 Tipo de Movimiento / +40 Turno / +20 Toda Acción"
+      },
+      "arcane": {
+        "zeonCost": 240,
+        "intRequired": 15,
+        "maintenanceCost": 25,
+        "effect": "+3 Tipo de Movimiento / +50 Turno / +25 Toda Acción"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Equilibrio interior",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El hechicero o el objetivo designado por éste alcanza un nivel de paz interior que le hace inmune cualquier efecto que pueda desequilibrar su estado de ánimo.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 14,
+    "actionType": "passive",
+    "maintenanceType": "daily",
+    "magicPath": "Paz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El hechicero o el objetivo designado por éste alcanza un nivel de paz interior que le hace inmune cualquier efecto que pueda desequilibrar su estado de ánimo.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 120,
+        "intRequired": 6,
+        "maintenanceCost": 15,
+        "effect": "El PJ se vuelve inmune a los estados psicológicos negativos"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 20,
+        "effect": "Obtiene un +40 a sus Resistencias contra efectos desequilibrantes"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 25,
+        "effect": "Como Grado Intermedio pero el Bono es de +80"
+      },
+      "arcane": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "Bloquea todo efecto que altere negativamente la conducta"
+      }
+    }
+  }
+}

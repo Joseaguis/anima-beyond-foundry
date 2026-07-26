@@ -1,0 +1,64 @@
+{
+  "name": "Crear caos",
+  "type": "psychicPower",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "discipline": "Causalidad",
+    "powerLevel": 1,
+    "action": "active",
+    "maintainable": true,
+    "isMatrix": false,
+    "masteryCost": 1,
+    "fortifyCvs": 0,
+    "maintenanceDifficulty": "absurd",
+    "grades": [
+      {
+        "difficulty": "Rutinario",
+        "effect": "Fatiga 12"
+      },
+      {
+        "difficulty": "Fácil",
+        "effect": "Fatiga 8"
+      },
+      {
+        "difficulty": "Medio",
+        "effect": "Fatiga 6"
+      },
+      {
+        "difficulty": "Difícil",
+        "effect": "Fatiga 4"
+      },
+      {
+        "difficulty": "Muy difícil",
+        "effect": "Fatiga 2"
+      },
+      {
+        "difficulty": "Absurdo",
+        "effect": "50 m"
+      },
+      {
+        "difficulty": "Casi imposible",
+        "effect": "500 m"
+      },
+      {
+        "difficulty": "Imposible",
+        "effect": "1 km"
+      },
+      {
+        "difficulty": "Inhumano",
+        "effect": "2 km"
+      },
+      {
+        "difficulty": "Zen",
+        "effect": "5 km"
+      }
+    ],
+    "effect": ""
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Muerte",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El brujo es capaz de producir la muerte de un ser, separando su alma y su cuerpo. El poder de este conjuro es tan grande que puede incluso matar a seres espirituales y a criaturas nigrománticas, convirtiéndolos en simples almas muertas o destruyéndolos.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 72,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "El brujo es capaz de producir la muerte de un ser, separando su alma y su cuerpo. El poder de este conjuro es tan grande que puede incluso matar a seres espirituales y a criaturas nigrománticas, convirtiéndolos en simples almas muertas o destruyéndolos.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 120"
+      },
+      "intermediate": {
+        "zeonCost": 250,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 140"
+      },
+      "advanced": {
+        "zeonCost": 300,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 160"
+      },
+      "arcane": {
+        "zeonCost": 350,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "RM o RF 180"
+      }
+    }
+  }
+}

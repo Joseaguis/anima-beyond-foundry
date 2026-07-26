@@ -1,0 +1,48 @@
+{
+  "name": "Plaga",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro debe de lanzarse sobre un sujeto o un lugar que esté infectado con una enfermedad. Al hacerlo, extiende la infección de manera automática sobre todos los individuos que se encuentren en el radio. Estas personas tendrán derecho a una RE contra la enfermedad expandida, para evitar el contagio. La condición para ser afectado será encontrarse, simplemente, en el área del conjuro</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 62,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "automatic",
+    "effect": "Este conjuro debe de lanzarse sobre un sujeto o un lugar que esté infectado con una enfermedad. Al hacerlo, extiende la infección de manera automática sobre todos los individuos que se encuentren en el radio. Estas personas tendrán derecho a una RE contra la enfermedad expandida, para evitar el contagio. La condición para ser afectado será encontrarse, simplemente, en el área del conjuro",
+    "closedPaths": "Ilusión",
+    "grades": {
+      "base": {
+        "zeonCost": 140,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "1 Kilómetro de radio / Nivel máximo de enfermedad 20"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 11,
+        "maintenanceCost": 0,
+        "effect": "5 Kilómetros de radio / Nivel máximo de enfermedad 40"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "10 Kilómetros de radio / Nivel máximo de enfermedad 60"
+      },
+      "arcane": {
+        "zeonCost": 280,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "25 Km de radio / Nivel máximo de enfermedad 80 / La RE es más 10 puntos"
+      }
+    }
+  }
+}

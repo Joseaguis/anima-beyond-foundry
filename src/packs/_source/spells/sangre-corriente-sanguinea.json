@@ -1,0 +1,48 @@
+{
+  "name": "Corriente sanguínea",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Incrementa la velocidad del torrente sanguíneo del hechicero y aquellos aliados que designe, incrementado notablemente sus capacidades. Sin embargo, la presión a la que se somete el corazón de los beneficiarios del hechizo les provoca daños internos que pueden llegar a matarlos si se mantiene demasiado tiempo.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 84,
+    "actionType": "passive",
+    "maintenanceType": "sustained",
+    "magicPath": "Sangre",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Incrementa la velocidad del torrente sanguíneo del hechicero y aquellos aliados que designe, incrementado notablemente sus capacidades. Sin embargo, la presión a la que se somete el corazón de los beneficiarios del hechizo les provoca daños internos que pueden llegar a matarlos si se mantiene demasiado tiempo.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 40,
+        "effect": "Da +10 a Toda Acción / -5 PV por Turno"
+      },
+      "intermediate": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 50,
+        "effect": "Da +20 a Toda Acción / -15 PV por Turno"
+      },
+      "advanced": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 60,
+        "effect": "Da +40 a Toda Acción / -30 PV por Turno"
+      },
+      "arcane": {
+        "zeonCost": 340,
+        "intRequired": 17,
+        "maintenanceCost": 70,
+        "effect": "Da +60 a Toda Acción / -50 PV por Turno"
+      }
+    }
+  }
+}

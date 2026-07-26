@@ -1,0 +1,64 @@
+{
+  "name": "Manipura",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Sattyagraha",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "habilidad-de-ataque",
+        "role": "primary",
+        "options": [
+          "+75"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "estados-sobrenaturales",
+        "role": "secondary",
+        "options": [
+          "RF 160",
+          "Estado añadido: Paralización Total"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "dano-reducido",
+        "option": "Ningún daño"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 55,
+    "bookCost": "DES 15 AGI 14 POD 15",
+    "bookDistribution": {
+      "dex": {
+        "activation": 15,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 14,
+        "upkeep": 0
+      },
+      "pow": {
+        "activation": 15,
+        "upkeep": 0
+      }
+    }
+  }
+}

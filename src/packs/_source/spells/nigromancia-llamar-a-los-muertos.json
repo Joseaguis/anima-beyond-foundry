@@ -1,0 +1,48 @@
+{
+  "name": "Llamar a los muertos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro atrae hasta el nigromante las almas de personas fallecidas o de espectros. El brujo es quien elige a qué espíritu llama, aunque en el caso de que este no pueda responderle, es posible que se presente alguna otra alma en su lugar. Llamar a los Muertos sólo funciona con espíritus que permanecen atados al mundo o con criaturas espectrales, por lo que no tiene poder sobre almas que ya hayan transmigrado.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 58,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este conjuro atrae hasta el nigromante las almas de personas fallecidas o de espectros. El brujo es quien elige a qué espíritu llama, aunque en el caso de que este no pueda responderle, es posible que se presente alguna otra alma en su lugar. Llamar a los Muertos sólo funciona con espíritus que permanecen atados al mundo o con criaturas espectrales, por lo que no tiene poder sobre almas que ya hayan transmigrado.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "Nivel máximo 3"
+      },
+      "intermediate": {
+        "zeonCost": 140,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Nivel máximo 6"
+      },
+      "advanced": {
+        "zeonCost": 160,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "Nivel máximo 9"
+      },
+      "arcane": {
+        "zeonCost": 180,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "Nivel máximo 12"
+      }
+    }
+  }
+}

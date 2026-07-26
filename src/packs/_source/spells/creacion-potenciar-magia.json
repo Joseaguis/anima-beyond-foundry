@@ -1,0 +1,48 @@
+{
+  "name": "Potenciar magia",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Potencia otro hechizo al que se le vincule. Otorga al sortilegio las siguientes ventajas: +20 a su RM, +50% de daño / resistencia al daño adicional (redondeado hacia arriba en grupos de 5) y +20% a cualquier valor numérico de diferente naturaleza (Presencia, intensidades, distancia, radio de efecto, incrementos o elementos similares), salvo los valores relacionados con el Gnosis.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 68,
+    "actionType": "passive",
+    "maintenanceType": "sustained",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Potencia otro hechizo al que se le vincule. Otorga al sortilegio las siguientes ventajas: +20 a su RM, +50% de daño / resistencia al daño adicional (redondeado hacia arriba en grupos de 5) y +20% a cualquier valor numérico de diferente naturaleza (Presencia, intensidades, distancia, radio de efecto, incrementos o elementos similares), salvo los valores relacionados con el Gnosis.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "Afecta la los conjuros de Grado Base"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 12,
+        "maintenanceCost": 20,
+        "effect": "Afecta la los conjuros de Grado Intermedio"
+      },
+      "advanced": {
+        "zeonCost": 300,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "Afecta la los conjuros de Grado Avanzado"
+      },
+      "arcane": {
+        "zeonCost": 400,
+        "intRequired": 18,
+        "maintenanceCost": 40,
+        "effect": "Afecta la los conjuros de Grado Arcano"
+      }
+    }
+  }
+}

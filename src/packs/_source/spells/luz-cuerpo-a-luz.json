@@ -1,0 +1,48 @@
+{
+  "name": "Cuerpo a luz",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El cuerpo designado por el hechicero se transformará en pura energía luminosa, volviéndose intangible ante todas las materias y ataques no basados en energía. Mientras se encuentre en este estado, el sujeto ganará un bono en sus habilidades secundarias de Advertir y Buscar, así como a sus Resistencias contra efectos basados en Luz. En este estado, cualquier daño causado por Oscuridad se doblará</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 52,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Luz",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El cuerpo designado por el hechicero se transformará en pura energía luminosa, volviéndose intangible ante todas las materias y ataques no basados en energía. Mientras se encuentre en este estado, el sujeto ganará un bono en sus habilidades secundarias de Advertir y Buscar, así como a sus Resistencias contra efectos basados en Luz. En este estado, cualquier daño causado por Oscuridad se doblará",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 8,
+        "maintenanceCost": 10,
+        "effect": "+50 en Advertir y Buscar / +20 a sus Resistencias"
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 11,
+        "maintenanceCost": 15,
+        "effect": "+60 en Advertir y Buscar / +30 a sus Resistencias"
+      },
+      "advanced": {
+        "zeonCost": 140,
+        "intRequired": 13,
+        "maintenanceCost": 15,
+        "effect": "el bono será  contra todo efecto sobrenatural que no sea oscuridad"
+      },
+      "arcane": {
+        "zeonCost": 160,
+        "intRequired": 16,
+        "maintenanceCost": 20,
+        "effect": "Como arriba, pero no sufre doble daño por ataques basado en oscuridad"
+      }
+    }
+  }
+}

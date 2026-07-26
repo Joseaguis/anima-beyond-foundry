@@ -1,0 +1,48 @@
+{
+  "name": "Retroevolucionar",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este sortilegio afecta la esencia de un objetivo, haciendo que su \"existencia\" retroceda en el tiempo. De ese modo, un anciano volvería a ser joven o un hombre adulto podría llegar a convertirse en un simple niño (o incluso un bebe). El tiempo retrocedido se borra de la vida del individuo, pudiendo llegar a alterar incluso su nivel.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 54,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Tiempo",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Este sortilegio afecta la esencia de un objetivo, haciendo que su \"existencia\" retroceda en el tiempo. De ese modo, un anciano volvería a ser joven o un hombre adulto podría llegar a convertirse en un simple niño (o incluso un bebe). El tiempo retrocedido se borra de la vida del individuo, pudiendo llegar a alterar incluso su nivel.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 250,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "120RM / Retrocede hasta 1 día"
+      },
+      "intermediate": {
+        "zeonCost": 350,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "140RM / Retrocede hasta 1 semana"
+      },
+      "advanced": {
+        "zeonCost": 450,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "160RM / Retrocede hasta 1 año"
+      },
+      "arcane": {
+        "zeonCost": 600,
+        "intRequired": 17,
+        "maintenanceCost": 0,
+        "effect": "180RM / Retrocede hasta 1 década"
+      }
+    }
+  }
+}

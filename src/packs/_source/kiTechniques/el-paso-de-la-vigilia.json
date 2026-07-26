@@ -1,0 +1,49 @@
+{
+  "name": "El Paso De La Vigilia",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Hypnos Requiem",
+    "level": 1,
+    "combinable": true,
+    "effects": [
+      {
+        "effect": "transporte-automatico",
+        "role": "primary",
+        "options": [
+          "20 metros"
+        ],
+        "duration": "maintained",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "atadura-elemental",
+        "option": "Oscuridad"
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 25,
+    "bookCost": "DES 5 (1) POD 5 (1)",
+    "bookDistribution": {
+      "dex": {
+        "activation": 5,
+        "upkeep": 1
+      },
+      "pow": {
+        "activation": 5,
+        "upkeep": 1
+      }
+    }
+  }
+}

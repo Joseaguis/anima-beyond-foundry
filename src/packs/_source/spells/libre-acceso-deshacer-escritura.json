@@ -1,0 +1,48 @@
+{
+  "name": "Deshacer escritura",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El conjuro hace desaparecer cierta cantidad de caracteres de texto sobre un objeto o superficie. No destruye la materia sobre la que se haya escrito, sino que elimina las letras o caracteres. Por ejemplo, en una hoja de papel desaparecería la tinta, mientras que en un grabado se rellenaría la piedra.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 2,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El conjuro hace desaparecer cierta cantidad de caracteres de texto sobre un objeto o superficie. No destruye la materia sobre la que se haya escrito, sino que elimina las letras o caracteres. Por ejemplo, en una hoja de papel desaparecería la tinta, mientras que en un grabado se rellenaría la piedra.",
+    "closedPaths": "Creación",
+    "grades": {
+      "base": {
+        "zeonCost": 40,
+        "intRequired": 5,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima del objeto 30 / Hace desaparecer 500 caracteres"
+      },
+      "intermediate": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima del objeto 60 / Hace desaparecer 5.000 caracteres"
+      },
+      "advanced": {
+        "zeonCost": 120,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima del objeto 90 / Hace desaparecer 50.000 caracteres"
+      },
+      "arcane": {
+        "zeonCost": 160,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima del objeto 120 / Hace desaparecer 250.000 caracteres"
+      }
+    }
+  }
+}

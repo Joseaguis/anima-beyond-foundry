@@ -1,0 +1,48 @@
+{
+  "name": "Secar",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este conjuro seca inmediatamente cualquier cuerpo mojado que se encuentre dentro de un radio. Puede utilizarse para dañar cualquier tipo de elemental de agua, causándole un daño igual al doble de lo que no supere una RM o RF. Si se usa contra seres vivos que poseen organismos basados en agua (lo que incluye también seres humanos), sus efectos pueden ser también muy perjudiciales, aunque el daño se reduce a solo la mitad del nivel de fracaso.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 46,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Fuego",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este conjuro seca inmediatamente cualquier cuerpo mojado que se encuentre dentro de un radio. Puede utilizarse para dañar cualquier tipo de elemental de agua, causándole un daño igual al doble de lo que no supere una RM o RF. Si se usa contra seres vivos que poseen organismos basados en agua (lo que incluye también seres humanos), sus efectos pueden ser también muy perjudiciales, aunque el daño se reduce a solo la mitad del nivel de fracaso.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "5 metros de radio/ RM o RF 100"
+      },
+      "intermediate": {
+        "zeonCost": 120,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "15 metros de radio / RM o RF 120"
+      },
+      "advanced": {
+        "zeonCost": 180,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "25 metros de radio / RM o RF 140"
+      },
+      "arcane": {
+        "zeonCost": 240,
+        "intRequired": 14,
+        "maintenanceCost": 0,
+        "effect": "35 metros de radio / RM o RF 160"
+      }
+    }
+  }
+}

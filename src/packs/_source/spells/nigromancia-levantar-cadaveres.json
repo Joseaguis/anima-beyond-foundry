@@ -1,0 +1,48 @@
+{
+  "name": "Levantar cadáveres",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Se puede animar cadáveres y convertirlos en zombis o esqueletos bajo su control. No conservan nada de su vida, pero si capacidades básicas, armas naturales. El poder y resistencia del ser varía dependiendo de su cuerpo. Puede animar entre una o varias criaturas hasta un valor de presencia, siempre que ninguno de los no muertos levantados supere el nivel que determina el grado del conjuro.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 28,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Nigromancia",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Se puede animar cadáveres y convertirlos en zombis o esqueletos bajo su control. No conservan nada de su vida, pero si capacidades básicas, armas naturales. El poder y resistencia del ser varía dependiendo de su cuerpo. Puede animar entre una o varias criaturas hasta un valor de presencia, siempre que ninguno de los no muertos levantados supere el nivel que determina el grado del conjuro.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 7,
+        "maintenanceCost": 10,
+        "effect": "100 puntos de presencia (Nivel máximo 0)"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 10,
+        "maintenanceCost": 20,
+        "effect": "300 puntos de presencia (Nivel máximo 1)"
+      },
+      "advanced": {
+        "zeonCost": 300,
+        "intRequired": 13,
+        "maintenanceCost": 25,
+        "effect": "600 puntos de presencia (Nivel máximo 2)"
+      },
+      "arcane": {
+        "zeonCost": 450,
+        "intRequired": 15,
+        "maintenanceCost": 30,
+        "effect": "1.000 puntos de presencia (Nivel máximo 3)"
+      }
+    }
+  }
+}

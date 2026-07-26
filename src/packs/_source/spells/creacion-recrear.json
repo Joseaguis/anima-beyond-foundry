@@ -1,0 +1,48 @@
+{
+  "name": "Recrear",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Restaura pérdidas sufridas por  un individuo u objeto. Puede elegir qué partes recrea.Un ser herido o una construcción destrozada recupera todo daño o negativo. Tambien deshace efectos de habilidades sobrenaturales, restaura recuerdos, o PD. Afecta carencias sufridas de modo artificial, no una evolución natural o positiva. No tiene efecto en almas fallecidas. El daño hecho por ser de Gnosis 15 puntos mayor, reduce la presencia afectable a la mitad.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 76,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Creación",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Restaura pérdidas sufridas por  un individuo u objeto. Puede elegir qué partes recrea.Un ser herido o una construcción destrozada recupera todo daño o negativo. Tambien deshace efectos de habilidades sobrenaturales, restaura recuerdos, o PD. Afecta carencias sufridas de modo artificial, no una evolución natural o positiva. No tiene efecto en almas fallecidas. El daño hecho por ser de Gnosis 15 puntos mayor, reduce la presencia afectable a la mitad.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 300,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 60"
+      },
+      "intermediate": {
+        "zeonCost": 500,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 120"
+      },
+      "advanced": {
+        "zeonCost": 750,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 180"
+      },
+      "arcane": {
+        "zeonCost": 1500,
+        "intRequired": 18,
+        "maintenanceCost": 0,
+        "effect": "Presencia máxima 240"
+      }
+    }
+  }
+}

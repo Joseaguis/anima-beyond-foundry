@@ -1,0 +1,48 @@
+{
+  "name": "Desatar vínculos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Deshace los lazos que los convocadores tienen sobre sus criaturas. Puede usarse sobre el ser o sobre el convocador, pero siempre será el creador del vínculo el que deba superar el control de resistencia. De emplearse sobre el ser, sólo destruirá el lazo que le afecta a él. Pero si se lanza sobre el convocador, el hechizo romperá un vínculo de control o atadura adicional por cada diez puntos por los que no supere la RM. Los familiares aplican un +40 al control.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 38,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Destrucción",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Deshace los lazos que los convocadores tienen sobre sus criaturas. Puede usarse sobre el ser o sobre el convocador, pero siempre será el creador del vínculo el que deba superar el control de resistencia. De emplearse sobre el ser, sólo destruirá el lazo que le afecta a él. Pero si se lanza sobre el convocador, el hechizo romperá un vínculo de control o atadura adicional por cada diez puntos por los que no supere la RM. Los familiares aplican un +40 al control.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 100,
+        "intRequired": 8,
+        "maintenanceCost": 0,
+        "effect": "120 RM"
+      },
+      "intermediate": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 0,
+        "effect": "140 RM"
+      },
+      "advanced": {
+        "zeonCost": 300,
+        "intRequired": 13,
+        "maintenanceCost": 0,
+        "effect": "160 RM"
+      },
+      "arcane": {
+        "zeonCost": 500,
+        "intRequired": 16,
+        "maintenanceCost": 0,
+        "effect": "200 RM"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Destruir sentimientos positivos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Destruye temporalmente cualquier sentimiento positivo, como paz interior, calma o alegría, que se encuentre en un radio respecto al hechicero. Si desea resistirse, ha de superarse una RM o RP.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 40,
+    "actionType": "active",
+    "maintenanceType": "none",
+    "magicPath": "Oscuridad",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "spiritual",
+    "effect": "Destruye temporalmente cualquier sentimiento positivo, como paz interior, calma o alegría, que se encuentre en un radio respecto al hechicero. Si desea resistirse, ha de superarse una RM o RP.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 80,
+        "intRequired": 6,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 100 / 100 metros de radio"
+      },
+      "intermediate": {
+        "zeonCost": 180,
+        "intRequired": 9,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 150 / 500 metros de radio"
+      },
+      "advanced": {
+        "zeonCost": 240,
+        "intRequired": 12,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 180 / 1 kilómetro de radio"
+      },
+      "arcane": {
+        "zeonCost": 350,
+        "intRequired": 15,
+        "maintenanceCost": 0,
+        "effect": "RM o RP 220 / 5 Kilómetros de radio"
+      }
+    }
+  }
+}

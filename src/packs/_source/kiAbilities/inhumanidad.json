@@ -1,0 +1,20 @@
+{
+  "name": "Inhumanidad",
+  "type": "kiAbility",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Permite alcanzar el nivel Inhumano en la Tabla de dificultades y exprimir al máximo las Características.</p>",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "rules": [],
+    "mkCost": 30,
+    "subtype": "kiPower",
+    "parent": "Uso del Ki",
+    "branch": "Uso del Ki",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

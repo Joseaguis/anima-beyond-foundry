@@ -1,0 +1,20 @@
+{
+  "name": "Eliminación de penalizadores",
+  "type": "kiAbility",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Reduce a la mitad los penalizadores por cansancio o críticos (no por amputaciones ni por medios mágicos/psíquicos).</p>",
+      "chat": ""
+    },
+    "source": "Core Exxet",
+    "rules": [],
+    "mkCost": 20,
+    "subtype": "kiPower",
+    "parent": "Uso de la energía necesaria",
+    "branch": "Uso de la energía necesaria",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

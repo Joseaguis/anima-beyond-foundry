@@ -1,0 +1,81 @@
+{
+  "name": "Sniper Shot",
+  "type": "kiTechnique",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "tree": "Gunhell",
+    "level": 2,
+    "combinable": false,
+    "effects": [
+      {
+        "effect": "maniobras-de-combate-y-apuntar",
+        "role": "primary",
+        "options": [
+          "-50"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "ataque-a-distancia",
+        "role": "secondary",
+        "options": [
+          "1 kilómetro"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      },
+      {
+        "effect": "multiplicador-al-dano",
+        "role": "secondary",
+        "options": [
+          "x2"
+        ],
+        "duration": "none",
+        "distribution": {},
+        "upkeepDistribution": {}
+      }
+    ],
+    "disadvantages": [
+      {
+        "disadvantage": "tecnica-mantenida",
+        "option": "Gunslinger"
+      },
+      {
+        "disadvantage": "predeterminacion",
+        "option": ""
+      }
+    ],
+    "kiReduction": {},
+    "kiIncrease": 0,
+    "freeDistribution": {},
+    "bookCm": 65,
+    "bookCost": "POD 10 DES 10 AGI 10 FUE 5",
+    "bookDistribution": {
+      "pow": {
+        "activation": 10,
+        "upkeep": 0
+      },
+      "dex": {
+        "activation": 10,
+        "upkeep": 0
+      },
+      "agi": {
+        "activation": 10,
+        "upkeep": 0
+      },
+      "str": {
+        "activation": 5,
+        "upkeep": 0
+      }
+    }
+  }
+}

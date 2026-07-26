@@ -1,0 +1,48 @@
+{
+  "name": "Magia innata",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este hechizo incrementa exponencialmente el potencial mágico ambiental, aumentando la capacidad de los brujos para dominar innatamente su magia. En reglas de juego, encanta una zona estática dentro de la cual los conjuros innatos tienen un potencial adicional de lo que indique el ACT del brujo. El lanzador posee la capacidad de elegir si este incremento favorece a todo el mundo, o si sólo él se beneficia de sus efectos</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 92,
+    "actionType": "active",
+    "maintenanceType": "daily",
+    "magicPath": "Libre acceso",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "Este hechizo incrementa exponencialmente el potencial mágico ambiental, aumentando la capacidad de los brujos para dominar innatamente su magia. En reglas de juego, encanta una zona estática dentro de la cual los conjuros innatos tienen un potencial adicional de lo que indique el ACT del brujo. El lanzador posee la capacidad de elegir si este incremento favorece a todo el mundo, o si sólo él se beneficia de sus efectos",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 200,
+        "intRequired": 10,
+        "maintenanceCost": 50,
+        "effect": "25 metros de radio / +10 al valor zeónico de la magia innata"
+      },
+      "intermediate": {
+        "zeonCost": 300,
+        "intRequired": 12,
+        "maintenanceCost": 60,
+        "effect": "100 metros de radio/ +20 al valor zeónico de la magia innata"
+      },
+      "advanced": {
+        "zeonCost": 400,
+        "intRequired": 14,
+        "maintenanceCost": 70,
+        "effect": "250 metros de radio / +30 al valor zeónico de la magia innata"
+      },
+      "arcane": {
+        "zeonCost": 500,
+        "intRequired": 16,
+        "maintenanceCost": 80,
+        "effect": "500 metros de radio / +40 al valor zeónico de la magia innata"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Zen (Némesis)",
+  "type": "kiAbility",
+  "img": "icons/magic/death/skull-energy-light-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Como Inhumanidad (Némesis) pero alcanza la dificultad Zen en controles y habilidades.</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 40,
+    "subtype": "nemesisPower",
+    "parent": "Inhumanidad (Némesis)",
+    "branch": "Némesis",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}

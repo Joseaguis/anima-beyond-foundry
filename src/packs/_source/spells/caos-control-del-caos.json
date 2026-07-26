@@ -1,0 +1,48 @@
+{
+  "name": "Control del caos",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>El hechicero tiene la capacidad de doblegar la naturaleza del caos a su antojo, pudiendo usarlo para obtener los resultados que desee. De ese modo, puede hacer desde cosas tan simples como que una silla se rompa hasta que el espacio se pliegue creando portales. El brujo obtiene los poderes Gnosticos Influir en la Realidad y Auspice. En el caso de que un ser basado en caos se encuentre en presencia del hechicero, este puede dominarlo si no supera una RM.</p>",
+      "chat": ""
+    },
+    "source": "Excel: Ficha Anima v8.7.0",
+    "rules": [],
+    "spellLevel": 84,
+    "actionType": "active",
+    "maintenanceType": "sustained",
+    "magicPath": "Caos",
+    "damageType": "",
+    "resistanceType": "none",
+    "spellType": "effect",
+    "effect": "El hechicero tiene la capacidad de doblegar la naturaleza del caos a su antojo, pudiendo usarlo para obtener los resultados que desee. De ese modo, puede hacer desde cosas tan simples como que una silla se rompa hasta que el espacio se pliegue creando portales. El brujo obtiene los poderes Gnosticos Influir en la Realidad y Auspice. En el caso de que un ser basado en caos se encuentre en presencia del hechicero, este puede dominarlo si no supera una RM.",
+    "closedPaths": "",
+    "grades": {
+      "base": {
+        "zeonCost": 300,
+        "intRequired": 11,
+        "maintenanceCost": 50,
+        "effect": "Hasta Gnosis 30 / RM 120"
+      },
+      "intermediate": {
+        "zeonCost": 500,
+        "intRequired": 13,
+        "maintenanceCost": 60,
+        "effect": "Hasta Gnosis 35 / RM 160."
+      },
+      "advanced": {
+        "zeonCost": 800,
+        "intRequired": 15,
+        "maintenanceCost": 67,
+        "effect": "Hasta Gnosis 40 / RM 200"
+      },
+      "arcane": {
+        "zeonCost": 1200,
+        "intRequired": 17,
+        "maintenanceCost": 75,
+        "effect": "Hasta Gnosis 45 / RM 260"
+      }
+    }
+  }
+}

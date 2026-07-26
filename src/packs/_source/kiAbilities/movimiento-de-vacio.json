@@ -1,0 +1,20 @@
+{
+  "name": "Movimiento de vacío",
+  "type": "kiAbility",
+  "img": "icons/magic/death/skull-energy-light-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Usa POD en lugar de AGI para el Tipo de Movimiento y no requiere Inhumanidad/Zen para superar Movimiento 10; sin -80 a Sigilo al correr.</p>",
+      "chat": ""
+    },
+    "source": "Dominus Exxet",
+    "rules": [],
+    "mkCost": 20,
+    "subtype": "nemesisPower",
+    "parent": "Cuerpo de vacío",
+    "branch": "Némesis",
+    "kiCost": 0,
+    "kiMaintenance": 0,
+    "action": "active"
+  }
+}
