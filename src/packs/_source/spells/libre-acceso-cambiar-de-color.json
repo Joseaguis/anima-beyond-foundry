@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Este conjuro cambia el color de una materia, objeto o incluso persona cuya presencia no sea superior a lo que determina el grado del conjuro. Para resistirse, hace falta superar una RM. Alguien afectado no tiene derecho a una nueva resistencia mientras el conjuro se mantenga.",
@@ -23,25 +24,37 @@
         "zeonCost": 30,
         "intRequired": 5,
         "maintenanceCost": 5,
-        "effect": "Presencia máxima 40 / RM 100"
+        "effect": "Presencia máxima 40 / RM 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 5,
-        "effect": "Presencia máxima 60 / RM 120"
+        "effect": "Presencia máxima 60 / RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 5,
-        "effect": "Presencia máxima 80 / RM 140"
+        "effect": "Presencia máxima 80 / RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 10,
-        "effect": "Presencia máxima 100 / RM 160"
+        "effect": "Presencia máxima 100 / RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Esencia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Crea una zona dentro de la cual todo ser vivo regenera sus heridas y se revitaliza. El conjuro otorga Regeneración 16 a todas las criaturas vivientes que se encuentren dentro del radio designado.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 7,
         "maintenanceCost": 10,
-        "effect": "50 metros de radio"
+        "effect": "50 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "200 metros de radio"
+        "effect": "200 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "500 metros de radio"
+        "effect": "500 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "1 kilómetro de radio"
+        "effect": "1 kilómetro de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

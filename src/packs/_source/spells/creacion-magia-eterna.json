@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Creación",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Disminuye el coste del mantenimiento de otro conjuro o incluso lo hace desaparecer, dependiendo de si influye o no a un mantenimiento diario. Si es diario deja de ser necesario mantenerlo. El sortilegio sigue siendo controlado por su lanzador. Si el mantenimiento es por asalto, se convierte en Diario. Magia Eterna sólo influye en hechizos que tengan un nivel de vía inferior a 80.",
@@ -23,25 +24,37 @@
         "zeonCost": 600,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Afecta a un conjuro de Grado Base"
+        "effect": "Afecta a un conjuro de Grado Base",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 1000,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "Afecta a un conjuro de Grado Intermedio"
+        "effect": "Afecta a un conjuro de Grado Intermedio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 2500,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "Afecta a un conjuro de Grado Avanzado"
+        "effect": "Afecta a un conjuro de Grado Avanzado",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 5000,
         "intRequired": 18,
         "maintenanceCost": 0,
-        "effect": "Afecta a un conjuro de Grado Arcano"
+        "effect": "Afecta a un conjuro de Grado Arcano",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

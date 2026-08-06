@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Nigromancia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "La entidad no muerta blanco de este hechizo se alimenta de su energía, adquiriendo temporalmente nuevos poderes y habilidades. Un no muerto obtiene PD adicionales para obtener Poderes Especiales detallados en el Capítulo 26, como si se tratase de una criatura con Gnosis 25. No puede usarse sobre seres vivos. Los efectos de este hechizo no se superponen, y sólo puede afectar uno de ellos a la vez a un mismo sujeto.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "100 PD"
+        "effect": "100 PD",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 11,
         "maintenanceCost": 20,
-        "effect": "200 PD"
+        "effect": "200 PD",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 300,
         "intRequired": 13,
         "maintenanceCost": 30,
-        "effect": "300 PD"
+        "effect": "300 PD",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 400,
         "intRequired": 16,
         "maintenanceCost": 40,
-        "effect": "400 PD"
+        "effect": "400 PD",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

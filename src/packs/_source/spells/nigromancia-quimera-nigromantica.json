@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Nigromancia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Se crea una criatura no muerta sometida al mago desarrollada como Ser Entre Mundos de Gnosis 25. No se puede crear a la criatura de la nada, hay que reunir partes de cadáveres con los que darle forma. Para otorgarle cualquier poder o habilidad esencial que desee, ha de conseguir cuerpos de seres que los tuvieran. Puesto que la existencia de la quimera se encuentra directamente atada al mago, para calcular su nivel máximo es igual que el conjuro Crear Ser.",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 9,
         "maintenanceCost": 50,
-        "effect": "Nivel 2"
+        "effect": "Nivel 2",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 360,
         "intRequired": 12,
         "maintenanceCost": 80,
-        "effect": "Nivel 6"
+        "effect": "Nivel 6",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 500,
         "intRequired": 15,
         "maintenanceCost": 100,
-        "effect": "Nivel 10"
+        "effect": "Nivel 10",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 800,
         "intRequired": 17,
         "maintenanceCost": 160,
-        "effect": "Nivel 13"
+        "effect": "Nivel 13",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

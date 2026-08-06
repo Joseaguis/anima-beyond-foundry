@@ -19,6 +19,8 @@ import {
   MonsterAbilityModel,
 } from "./items";
 import { ItemSheet } from "./sheets/item/ItemSheet";
+import { AnimaRoll } from "./system/dice/AnimaRoll";
+import { registerChatListeners } from "./system/chat/listeners";
 import "./styles/main.css";
 
 Hooks.once("init", () => {
@@ -26,6 +28,10 @@ Hooks.once("init", () => {
 
   CONFIG.Actor.documentClass = AnimaActor;
   CONFIG.Item.documentClass = AnimaItem;
+
+  // Required for `Roll.fromData` to rebuild our subclass when a chat message is
+  // loaded from the database, which is what keeps old cards readable.
+  CONFIG.Dice.rolls.push(AnimaRoll);
 
   CONFIG.Actor.dataModels.character = CharacterModel;
   CONFIG.Actor.dataModels.npc = NpcModel;
@@ -65,6 +71,8 @@ Hooks.once("init", () => {
     makeDefault: true,
     label: "ANIMA.SheetItem",
   });
+
+  registerChatListeners();
 
   console.log("AnimaBFv2 | System initialized");
 });

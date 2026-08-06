@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Oscuridad",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "defense",
     "effect": "Forma una barrera de energía, que protege frente a cualquier fuente de ataque. El escudo sólo puede ser dañado por ataques de naturaleza sobrenatural, aunque los impactos basados en luz causarán doble daño sobre él",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "El escudo tiene 300 puntos de Resistencia"
+        "effect": "El escudo tiene 300 puntos de Resistencia",
+        "damage": 0,
+        "shieldPoints": 300,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 8,
         "maintenanceCost": 15,
-        "effect": "El escudo tiene 1.000 puntos de Resistencia"
+        "effect": "El escudo tiene 1.000 puntos de Resistencia",
+        "damage": 0,
+        "shieldPoints": 1000,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 180,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "El escudo tiene 1.800 puntos de Resistencia"
+        "effect": "El escudo tiene 1.800 puntos de Resistencia",
+        "damage": 0,
+        "shieldPoints": 1800,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 250,
         "intRequired": 14,
         "maintenanceCost": 25,
-        "effect": "El escudo tiene 3.000 puntos de Resistencia"
+        "effect": "El escudo tiene 3.000 puntos de Resistencia",
+        "damage": 0,
+        "shieldPoints": 3000,
+        "damageBarrier": 0
       }
     }
   }

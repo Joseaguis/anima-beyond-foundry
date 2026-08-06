@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Fuego",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Se crea una tormenta de llamas. Los seres en ella sufren, cada asalto, un ataque automático en la TA de calor contra una habilidad determinada por el grado del conjuro y un daño base de 100 puntos. No se podrán designar blancos dentro del area, pudiendo afectar al propio lanzador. La condición para recibir el ataque será estar dentro de la tormenta en el asalto posterior. El hechizo siempre permanece estático en el lugar donde fue conjurado.",
@@ -23,25 +24,37 @@
         "zeonCost": 150,
         "intRequired": 8,
         "maintenanceCost": 15,
-        "effect": "25 metros de radio/ HA Absurdo (180)"
+        "effect": "25 metros de radio/ HA Absurdo (180)",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "150 metros de radio/ HA CIM (240)"
+        "effect": "150 metros de radio/ HA CIM (240)",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "200 metros de radio/ HA IMP (280)"
+        "effect": "200 metros de radio/ HA IMP (280)",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 280,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "250 metros de radio/ HA INH (320)"
+        "effect": "250 metros de radio/ HA INH (320)",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

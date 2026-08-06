@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Guerra",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este hechizo permite a los compañeros del brujo marchar de forma incesante, resistiendo la fatiga y la furia de los elementos. A efectos de juego, proporciona a todos los aliados dentro del área de efecto del conjuro las Habilidades del Ki: Uso de la Energía Necesaria y Eliminación de Necesidades.",
@@ -23,25 +24,37 @@
         "zeonCost": 150,
         "intRequired": 6,
         "maintenanceCost": 30,
-        "effect": "10m radio"
+        "effect": "10m radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 9,
         "maintenanceCost": 40,
-        "effect": "50m radio"
+        "effect": "50m radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 250,
         "intRequired": 12,
         "maintenanceCost": 50,
-        "effect": "100m radio"
+        "effect": "100m radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 100,
-        "effect": "500m radio"
+        "effect": "500m radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

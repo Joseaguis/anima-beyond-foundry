@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Aire",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Mueve fuentes mágicas de un conjuro activo de un sitio a otro. Puede trasladar cualquier conjuro mantenido. Distancia máxima determinadas por reglas de Proyección Mágica. Si lo que se traslada es un conjuro Anímico de un sujeto a otro, se tratará a todos los efectos del mismo modo que si acabase de ser lanzado por el hechicero, permitiendo al nuevo blanco defenderse de él y realizar un control de Resistencia con normalidad",
@@ -23,25 +24,37 @@
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "conjuros de hasta 100 puntos de zeon"
+        "effect": "conjuros de hasta 100 puntos de zeon",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 270,
         "intRequired": 11,
         "maintenanceCost": 30,
-        "effect": "conjuros de hasta 200 puntos de zeon"
+        "effect": "conjuros de hasta 200 puntos de zeon",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 360,
         "intRequired": 13,
         "maintenanceCost": 40,
-        "effect": "conjuros de hasta 300 puntos de zeon"
+        "effect": "conjuros de hasta 300 puntos de zeon",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 450,
         "intRequired": 16,
         "maintenanceCost": 45,
-        "effect": "conjuros de hasta 400 puntos de zeon"
+        "effect": "conjuros de hasta 400 puntos de zeon",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

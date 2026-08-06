@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Luz",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Hace recuperar puntos de vida al sujeto sobre el que se lance. Este conjuro no permite restaurar miembros cercenados o pérdidas permanentes, ni tampoco elimina los penalizadores causados por los críticos",
@@ -23,25 +24,37 @@
         "zeonCost": 70,
         "intRequired": 7,
         "maintenanceCost": 0,
-        "effect": "40 Puntos de Vida."
+        "effect": "40 Puntos de Vida.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "80 Puntos de Vida"
+        "effect": "80 Puntos de Vida",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 150,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "120 Puntos de Vida"
+        "effect": "120 Puntos de Vida",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 200,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "250 Puntos de Vida"
+        "effect": "250 Puntos de Vida",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

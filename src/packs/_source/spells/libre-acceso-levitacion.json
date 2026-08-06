@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El blanco de este conjuro podrá elevarse o descender verticalmente a voluntad por el aire, aunque no hacer movimientos horizontales",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "Tipo de vuelo 4"
+        "effect": "Tipo de vuelo 4",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "Tipo de vuelo 6"
+        "effect": "Tipo de vuelo 6",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 100,
         "intRequired": 11,
         "maintenanceCost": 10,
-        "effect": "Tipo de vuelo 8"
+        "effect": "Tipo de vuelo 8",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 13,
         "maintenanceCost": 15,
-        "effect": "Tipo de vuelo 10"
+        "effect": "Tipo de vuelo 10",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

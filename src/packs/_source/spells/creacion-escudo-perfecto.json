@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Creación",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "defense",
     "effect": "Forma una barrera de energía que protege frente a cualquier fuente de ataque. Si no es destruido al finalizar el asalto, recupera automáticamente todos sus puntos de vida perdidos.",
@@ -23,25 +24,37 @@
         "zeonCost": 150,
         "intRequired": 8,
         "maintenanceCost": 15,
-        "effect": "Aguanta 100 puntos de daño"
+        "effect": "Aguanta 100 puntos de daño",
+        "damage": 0,
+        "shieldPoints": 100,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "Aguanta 250 puntos de daño"
+        "effect": "Aguanta 250 puntos de daño",
+        "damage": 0,
+        "shieldPoints": 250,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 300,
         "intRequired": 13,
         "maintenanceCost": 30,
-        "effect": "Aguanta 500 puntos de daño"
+        "effect": "Aguanta 500 puntos de daño",
+        "damage": 0,
+        "shieldPoints": 500,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 400,
         "intRequired": 16,
         "maintenanceCost": 40,
-        "effect": "Aguanta 1.000 puntos de daño"
+        "effect": "Aguanta 1.000 puntos de daño",
+        "damage": 0,
+        "shieldPoints": 1000,
+        "damageBarrier": 0
       }
     }
   }

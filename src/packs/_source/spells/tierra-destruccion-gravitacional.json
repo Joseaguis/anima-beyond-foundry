@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Tierra",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Crea una cúpula de alta presión. Un ser dentro, debe superar RF a 180 cada turno, o sufrir un daño equivalente a la mitad del nivel de fracaso. Por punto de TA en Contundentes +5 a la tirada de RF. La cúpula permanece estática donde se lanza, para salir superar control de Fuerza 16. Afecta a los seres inmateriales, pero aplican un bono de +40 a controles de resistencia, y +6 a los de fuerza. No hay seleccion de blancos, sólo el lanzador es inmune a sus efectos.",
@@ -23,25 +24,37 @@
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "20 metros de radio"
+        "effect": "20 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 250,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "50 metros de radio"
+        "effect": "50 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 320,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "100 metros de radio"
+        "effect": "100 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 400,
         "intRequired": 17,
         "maintenanceCost": 40,
-        "effect": "150 metros de radio"
+        "effect": "150 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

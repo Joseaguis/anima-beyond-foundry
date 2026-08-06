@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Vacío",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Cubre al hechicero con un aura de vacío que le protege de los efectos de los ataques sobrenaturales, proporcionándole una TA de Energía a la vez que devora cualquier hechizo o poder psíquico de valor inferior al indicado. Lamentablemente, este conjuro no discrimina entre poderes amigos o enemigos, y los devora todos sin distinción. La capa de vacío es invisible, aunque todo lo que rodea al hechicero parece verse mas tenue y apagado.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 6,
         "maintenanceCost": 15,
-        "effect": "TA 4 / Valor Zeónico 60 / Potencial Psíquico 80."
+        "effect": "TA 4 / Valor Zeónico 60 / Potencial Psíquico 80.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "TA 6 / Valor Zeónico 90/ Potencial Psíquico 120."
+        "effect": "TA 6 / Valor Zeónico 90/ Potencial Psíquico 120.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "TA 8 / Valor Zeónico 120/ Potencial Psíquico 140."
+        "effect": "TA 8 / Valor Zeónico 120/ Potencial Psíquico 140.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 350,
         "intRequired": 15,
         "maintenanceCost": 35,
-        "effect": "TA 10 / Valor Zeónico 160/ Potencial Psíquico 180."
+        "effect": "TA 10 / Valor Zeónico 160/ Potencial Psíquico 180.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

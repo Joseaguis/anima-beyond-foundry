@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Oscuridad",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Forma una cúpula de oscuridad absoluta. Todo aquel que se encuentre en su interior, excepto el hechicero, se verá sometido a las reglas de Ceguera. Para poder ver a través de esta oscuridad, ya sea desde dentro o fuera de la cúpula, es necesario superar una dificultad de Imposible en Advertir o de Absurdo en Buscar. No se puede designar blancos en el interior del área",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 6,
         "maintenanceCost": 10,
-        "effect": "Radio 25 metros"
+        "effect": "Radio 25 metros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "Radio 250 metros"
+        "effect": "Radio 250 metros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "Radio 500 metros/ La oscuridad se considera sobrenatural"
+        "effect": "Radio 500 metros/ La oscuridad se considera sobrenatural",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "Radio 1 kilómetro / La oscuridad se considera sobrenatural"
+        "effect": "Radio 1 kilómetro / La oscuridad se considera sobrenatural",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

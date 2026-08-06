@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Sangre",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Cambia la temperatura corporal de los objetivos del conjuro, permitiendo regularla de forma acorde a las condiciones externas. Así, no se verán afectados por la meteorología adversa, pudiendo sobrevivir en yermos gélidos o desiertos ardientes. Puede afectar a tantos blancos como se desee, siempre y cuando la suma de sus presencias no supere lo que determine el Grado del conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "Pres. máxima 60"
+        "effect": "Pres. máxima 60",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "Pres. máxima 100"
+        "effect": "Pres. máxima 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "Pres. máxima 180"
+        "effect": "Pres. máxima 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "Pres. máxima 300"
+        "effect": "Pres. máxima 300",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

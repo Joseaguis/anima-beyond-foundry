@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Oscuridad",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "detection",
     "effect": "Al lanzar este conjuro sobre una zona, el hechicero crea un área mística que impide que se pueda detectar nada de lo que se encuentra en el interior. Todo lo que hay dentro de la zona incrementa su RM contra detecciones y cualquier habilidad de Detección del Ki, Valoración mágica o habilidad psíquica de detección que se utilice en ella, sufre un penalizador a su resultado final. La zona afectada permanece estática en el lugar donde fue lanzada",
@@ -23,25 +24,37 @@
         "zeonCost": 140,
         "intRequired": 6,
         "maintenanceCost": 10,
-        "effect": "20 metros de radio, RM +100, -140 a Habilidades de detección."
+        "effect": "20 metros de radio, RM +100, -140 a Habilidades de detección.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "50 metros de radio, RM +150, -180 a Habilidades de detección."
+        "effect": "50 metros de radio, RM +150, -180 a Habilidades de detección.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "250 metros de radio, RM +200, -240 a Habilidades de detección"
+        "effect": "250 metros de radio, RM +200, -240 a Habilidades de detección",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 15,
-        "effect": "500 metros de radio, RM +300, -320 a Habilidades de detección"
+        "effect": "500 metros de radio, RM +300, -320 a Habilidades de detección",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

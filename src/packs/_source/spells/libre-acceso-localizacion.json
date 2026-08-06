@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "detection",
     "effect": "Localización permite encontrar una persona, objeto o lugar, y conocer su ubicación exacta en ese momento. El brujo puede buscar cualquier cosa concreta, pero no cualidades subjetivas, como por ejemplo localizar a la persona que ha matado a su hermano si no sabe quién es exactamente. Para evitar ser encontrados, las personas u objetos deberán superar una RM. Los lugares de gran tamaño aplicarán un penalizador de –40 a dicha tirada",
@@ -23,25 +24,37 @@
         "zeonCost": 300,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "100 kilómetros / RM 120"
+        "effect": "100 kilómetros / RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 360,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "1.000 kilómetros / RM 140"
+        "effect": "1.000 kilómetros / RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 420,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "10.000 kilómetros / RM 180"
+        "effect": "10.000 kilómetros / RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 480,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "Cualquier distancia / RM 220"
+        "effect": "Cualquier distancia / RM 220",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

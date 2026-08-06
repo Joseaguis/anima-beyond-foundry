@@ -117,6 +117,10 @@ falla el control por más de 80, muere irremediablemente).
 Este es el mecanismo de "poder psíquico mantenido" (equivalente psíquico del
 mantenimiento de conjuros):
 
+- Los **escudos psíquicos** funcionan igual que los mágicos, con el aguante escrito
+  en `PV`: ver [tiradas.md](tiradas.md#escudos-sobrenaturales). El escudo
+  telequinético tiene además su propia regla — conserva los puntos con que se creó
+  pero pierde 5 por asalto (Core p. 212).
 - Algunos poderes **pueden ser mantenidos** (volar, lazos mentales, escudos...). Para
   mantener un poder durante varios asaltos **sin tirar cada vez** hacen falta
   **innatos**: la capacidad de atar subconscientemente un poder a la voluntad.

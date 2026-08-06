@@ -17,46 +17,77 @@
     "masteryCost": 1,
     "fortifyCvs": 0,
     "maintenanceDifficulty": "easy",
+    "damageType": "",
     "grades": [
       {
         "difficulty": "Rutinario",
-        "effect": "Fatiga 1"
+        "effect": "Fatiga 1",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Fácil",
-        "effect": "Una hora"
+        "effect": "Una hora",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Medio",
-        "effect": "Seis horas"
+        "effect": "Seis horas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Difícil",
-        "effect": "Un día"
+        "effect": "Un día",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Muy difícil",
-        "effect": "Tres días"
+        "effect": "Tres días",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Absurdo",
-        "effect": "Una semana"
+        "effect": "Una semana",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Casi imposible",
-        "effect": "Un mes"
+        "effect": "Un mes",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Imposible",
-        "effect": "Un año"
+        "effect": "Un año",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Inhumano",
-        "effect": "Una década"
+        "effect": "Una década",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Zen",
-        "effect": "Un siglo"
+        "effect": "Un siglo",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     ],
     "effect": ""

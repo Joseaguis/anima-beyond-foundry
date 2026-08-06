@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Ilusión",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Forma un sonido ilusorio, que el hechicero compondrá con completa libertad. Podría crear, por ejemplo, voces humanas o el ruido de un arroyo. El conjuro afectará a aquellos sujetos que no superen una RM. El hechicero puede elegir quién escucha el sonido dentro del área y quién no.",
@@ -23,25 +24,37 @@
         "zeonCost": 30,
         "intRequired": 5,
         "maintenanceCost": 5,
-        "effect": "RM 100 / radio de 20 metros"
+        "effect": "RM 100 / radio de 20 metros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 50,
         "intRequired": 8,
         "maintenanceCost": 5,
-        "effect": "RM 120 / radio de 50 metros"
+        "effect": "RM 120 / radio de 50 metros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 90,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "RM 140 / radio de 100 metros"
+        "effect": "RM 140 / radio de 100 metros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 10,
-        "effect": "RM 160 / radio de 250 metros"
+        "effect": "RM 160 / radio de 250 metros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

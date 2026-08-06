@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Pecado",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Cualquier persona incrementa automáticamente sus habilidades, obteniendo bonos especiales determinados por el Grado del conjuro. No obstante, será incapaz de usar Técnicas de Ki o Magnus, Poderes Psíquicos de Nivel 2 o 3, o Conjuros de Nivel superior a 40. Para resistirse a sus efectos, es necesario superar una RM contra la dificultad determinada por el Grado del conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 7,
         "maintenanceCost": 5,
-        "effect": "RM 120 / +10 a Toda Acción / +50 Estilo"
+        "effect": "RM 120 / +10 a Toda Acción / +50 Estilo",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 9,
         "maintenanceCost": 5,
-        "effect": "RM 140 / +20 a Toda Acción / +100 Estilo"
+        "effect": "RM 140 / +20 a Toda Acción / +100 Estilo",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 11,
         "maintenanceCost": 10,
-        "effect": "RM 160 / +20 a Toda Acción / +150 Estilo / +100 Resistir el Dolor"
+        "effect": "RM 160 / +20 a Toda Acción / +150 Estilo / +100 Resistir el Dolor",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 13,
         "maintenanceCost": 10,
-        "effect": "RM 180 / +30 a Toda Acción / +200 Estilo / +150 Resistir el Dolor"
+        "effect": "RM 180 / +30 a Toda Acción / +200 Estilo / +150 Resistir el Dolor",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

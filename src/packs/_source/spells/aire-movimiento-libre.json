@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Aire",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Otorga al blanco del conjuro la habilidad de moverse libremente por cualquier tipo de superficie, ignorando completamente las leyes de la gravedad. De este modo, un individuo podrá caminar por encima del agua o correr sin problemas por paredes y techos. Puede afectar a tantos blancos como desee el brujo, siempre que la suma de sus presencias no supere lo que determine el grado del conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "Presencia maxima 80"
+        "effect": "Presencia maxima 80",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "Presencia maxima 120"
+        "effect": "Presencia maxima 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 110,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "presencia maxima 160"
+        "effect": "presencia maxima 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "Presencia maxima 240"
+        "effect": "Presencia maxima 240",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

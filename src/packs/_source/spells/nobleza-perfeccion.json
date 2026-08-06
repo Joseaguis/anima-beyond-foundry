@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Nobleza",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El blanco del conjuro altera su complexión física adquiriendo automáticamente una apariencia perfecta.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 9,
         "maintenanceCost": 15,
-        "effect": "Apariencia 10 y bono de +100 a Estilo, Persuasión, Intimidar y Liderazgo."
+        "effect": "Apariencia 10 y bono de +100 a Estilo, Persuasión, Intimidar y Liderazgo.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 150,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "+3 al nivel de regeneración base."
+        "effect": "+3 al nivel de regeneración base.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 200,
         "intRequired": 14,
         "maintenanceCost": 20,
-        "effect": "El bono aumenta a +200"
+        "effect": "El bono aumenta a +200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 250,
         "intRequired": 16,
         "maintenanceCost": 25,
-        "effect": "+1 a todos los atributos."
+        "effect": "+1 a todos los atributos.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

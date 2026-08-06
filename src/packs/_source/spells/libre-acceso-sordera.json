@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Los sujetos dentro del radio del conjuro que fallen la RM perderán el sentido del oído",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 5,
-        "effect": "Radio de 5 metros / RM 120"
+        "effect": "Radio de 5 metros / RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 5,
-        "effect": "Radio de 25 metros / RM 140"
+        "effect": "Radio de 25 metros / RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 13,
         "maintenanceCost": 10,
-        "effect": "Radio de 50 metros / RM 160"
+        "effect": "Radio de 50 metros / RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 140,
         "intRequired": 15,
         "maintenanceCost": 10,
-        "effect": "Radio de 100 metros / RM 180"
+        "effect": "Radio de 100 metros / RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

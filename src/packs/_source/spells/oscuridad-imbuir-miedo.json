@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Oscuridad",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Provoca, temporalmente, el estado de Miedo a todos los sujetos que se encuentren alrededor del lanzador. El hechicero decidirá cuál es la fuente que origina el miedo a los afectados",
@@ -23,25 +24,37 @@
         "zeonCost": 40,
         "intRequired": 5,
         "maintenanceCost": 0,
-        "effect": "RM o RP 80 / 10 metros de radio."
+        "effect": "RM o RP 80 / 10 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "RM o RP 100 / 50 metros de radio"
+        "effect": "RM o RP 100 / 50 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 140,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "RM o RP 120 / 100 metros de radio"
+        "effect": "RM o RP 120 / 100 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 180,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "RM o RP 140 / 250 metros de radio"
+        "effect": "RM o RP 140 / 250 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

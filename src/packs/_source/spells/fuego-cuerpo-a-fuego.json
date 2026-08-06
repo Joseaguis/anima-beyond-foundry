@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Fuego",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El objetivo se transforma en llamas, volviéndose inmune a ataques no basado en energía, frió o agua. Todo aquello capaz de mitigar el fuego (arena, espuma) producirá también daño. Quien se ponga en contacto con las llamas, superar una RF contra el doble de su presencia o perder puntos de vida equivalente a la mitad del nivel de fracaso (si el afectado tiene TA contra calor obtiene un bono de +5 a esta tirada)",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "Las habilidades descritas"
+        "effect": "Las habilidades descritas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 11,
         "maintenanceCost": 15,
-        "effect": "Se gana +30 a sus Resistencias contra efectos basados en calor"
+        "effect": "Se gana +30 a sus Resistencias contra efectos basados en calor",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 140,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "Idem arriba, el sujeto puede pasar por donde pueda pasar el fuego"
+        "effect": "Idem arriba, el sujeto puede pasar por donde pueda pasar el fuego",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 160,
         "intRequired": 16,
         "maintenanceCost": 20,
-        "effect": "Idem arriba, los ataques de frío o agua no sobrenatural no causan daño"
+        "effect": "Idem arriba, los ataques de frío o agua no sobrenatural no causan daño",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

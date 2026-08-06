@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Agua",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Manifiesta un reflejo de un ser. Es idéntica al objetivo, salvo que es espiritual, visible e inmune a cualquier ataque no basado en energía. Si la criatura tiene poderes que dependen de Gnosis mayor a 20, no son copiadas. El reflejo obedece órdenes del mago, pero sólo puede manifestarse mientras este el sujeto a partir del cual se ha formado. Solo puede usarse sobre una persona a la vez. Si el sujeto se resiste, superar RM. El mago no puede copiarse.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "RM 140 / Copia entidades de hasta Nivel 3."
+        "effect": "RM 140 / Copia entidades de hasta Nivel 3.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 280,
         "intRequired": 12,
         "maintenanceCost": 30,
-        "effect": "RM 160 / Copia entidades de hasta Nivel 5."
+        "effect": "RM 160 / Copia entidades de hasta Nivel 5.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 320,
         "intRequired": 14,
         "maintenanceCost": 35,
-        "effect": "RM 180 / Copia entidades de hasta Nivel 8 / Imita poderes de hasta Gnosis 25."
+        "effect": "RM 180 / Copia entidades de hasta Nivel 8 / Imita poderes de hasta Gnosis 25.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 400,
         "intRequired": 16,
         "maintenanceCost": 40,
-        "effect": "RM 200 / Copia entidades de hasta Nivel 12 / Imita poderes de hasta Gnosis 30."
+        "effect": "RM 200 / Copia entidades de hasta Nivel 12 / Imita poderes de hasta Gnosis 30.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

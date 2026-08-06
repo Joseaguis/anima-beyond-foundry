@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Fuego",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Crea intensidades de fuego. Mientras se mantenga el conjuro, la llama seguirá ardiendo incluso sin nada que consumir. Si se prende en algo inflamable, arderá naturalmente tras finalizar el hechizo.",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 10,
         "maintenanceCost": 25,
-        "effect": "15 intensidades"
+        "effect": "15 intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 300,
         "intRequired": 12,
         "maintenanceCost": 30,
-        "effect": "25 intensidades"
+        "effect": "25 intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 350,
         "intRequired": 14,
         "maintenanceCost": 30,
-        "effect": "35 intensidades"
+        "effect": "35 intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 400,
         "intRequired": 18,
         "maintenanceCost": 35,
-        "effect": "45 intensidades"
+        "effect": "45 intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

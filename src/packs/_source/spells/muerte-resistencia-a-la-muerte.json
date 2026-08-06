@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Muerte",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Protege contra cualquier efecto que pueda provocar la muerte de manera automática, otorgando un bono a todas las resistencias del objetivo.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 10,
-        "effect": "+20 a resistencias"
+        "effect": "+20 a resistencias",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "+40 a resistencias"
+        "effect": "+40 a resistencias",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "+60 a resistencias"
+        "effect": "+60 a resistencias",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 140,
         "intRequired": 14,
         "maintenanceCost": 15,
-        "effect": "+80 a resistencias"
+        "effect": "+80 a resistencias",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

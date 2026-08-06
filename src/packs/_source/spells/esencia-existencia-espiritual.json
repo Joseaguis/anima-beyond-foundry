@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Esencia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Permite trascencer a un estado espiritual, abandonando su cuerpo. Será un ser espiritual de Gnosis 25. Obtendrá PD, para gastar en Habilidades Naturales o Poderes de Creación de Seres. Puede escoger PD en desventajas para puntos adicionales. El mago suma automáticamente un nivel (por las ventajas que otorga convertirse en un ente espiritual), más otro por cada 100 PD que obtenga sin desventajas. Sólo funciona sobre seres naturales o entre mundos.",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Hasta 100 PD opcionales en desventajas"
+        "effect": "Hasta 100 PD opcionales en desventajas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 500,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "+100 PD / hasta 100 PD opcionales en desventajas"
+        "effect": "+100 PD / hasta 100 PD opcionales en desventajas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 1000,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "+200 PD / hasta 200 PD opcionales en desventajas"
+        "effect": "+200 PD / hasta 200 PD opcionales en desventajas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 2500,
         "intRequired": 17,
         "maintenanceCost": 0,
-        "effect": "+300 PD / hasta 200 PD opcionales en desventajas"
+        "effect": "+300 PD / hasta 200 PD opcionales en desventajas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

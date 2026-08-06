@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Agua",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este hechizo hiela los sentimientos de una persona, otorgándole inmunidad psicológica contra todos los estados emocionales.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "Afecta a estados naturales."
+        "effect": "Afecta a estados naturales.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 5,
-        "effect": "Como en grado base, pero el afectado deja de sentir también dolor."
+        "effect": "Como en grado base, pero el afectado deja de sentir también dolor.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 10,
-        "effect": "Como en Intermedio, pero también afecta a todos los estados sobrenaturales."
+        "effect": "Como en Intermedio, pero también afecta a todos los estados sobrenaturales.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 15,
         "maintenanceCost": 10,
-        "effect": "Como en Avanzado, pero el mago puede elegir qué sentimientos congelar."
+        "effect": "Como en Avanzado, pero el mago puede elegir qué sentimientos congelar.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

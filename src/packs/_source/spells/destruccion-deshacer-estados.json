@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Destrucción",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Deshace inmediatamente cualquiera de los estados descritos en el Capítulo 14 del manual básico, u otros equivalentes. Podrá afectar a tantos individuos como se desee, siempre y cuando la suma de sus presencias no sea superior a la determinada por el conjuro. No puede deshacer los penalizadores a toda acción provocados por un crítico. Si desea resistirse, debe superarse la RM.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 7,
         "maintenanceCost": 0,
-        "effect": "120 RM / Presencia máxima 120"
+        "effect": "120 RM / Presencia máxima 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "140 RM / Presencia máxima 200"
+        "effect": "140 RM / Presencia máxima 200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "160 RM / Presencia máxima 300"
+        "effect": "160 RM / Presencia máxima 300",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "200 RM / Presencia máxima 400"
+        "effect": "200 RM / Presencia máxima 400",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

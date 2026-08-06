@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Literae",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Crea una pluma sobrenatural que escribe sobre cualquier superficie sin la necesidad de tinta. Usándola durante el lanzamiento de un conjuro de la sub-vía Literae, el hechicero puede potenciar monumentalmente los efectos de dicho sortilegio, haciendo que el coste de Zeon requerido se reduzca a la mitad. Por ejemplo, un conjuro de Misiva en grado base pasaría a costar 40 en lugar de 80.",
@@ -23,25 +24,37 @@
         "zeonCost": 30,
         "intRequired": 5,
         "maintenanceCost": 5,
-        "effect": "Afecta a conjuros Literae de grado base."
+        "effect": "Afecta a conjuros Literae de grado base.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "Afecta a conjuros Literae de grado intermedio."
+        "effect": "Afecta a conjuros Literae de grado intermedio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "Afecta a conjuros Literae de grado avanzado."
+        "effect": "Afecta a conjuros Literae de grado avanzado.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "Afecta a conjuros Literae de grado arcano."
+        "effect": "Afecta a conjuros Literae de grado arcano.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

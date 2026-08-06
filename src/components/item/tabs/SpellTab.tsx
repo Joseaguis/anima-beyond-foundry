@@ -40,6 +40,18 @@ const SPELL_GRADES = [
   { key: "arcane", label: "Arcano" },
 ];
 
+/** The TA an attack spell resolves against (Core p. 86); "" for the rest. */
+const AT_TYPES = [
+  { value: "", label: "—" },
+  { value: "fil", label: "Filo" },
+  { value: "con", label: "Contundente" },
+  { value: "pen", label: "Penetrante" },
+  { value: "cal", label: "Calor" },
+  { value: "fri", label: "Frío" },
+  { value: "ele", label: "Electricidad" },
+  { value: "ene", label: "Energía" },
+];
+
 export function SpellTab({ itemUuid, system, isEditable, onUpdate }: ItemTabProps) {
   const loc = (k: string) => game.i18n.localize(k);
 
@@ -70,6 +82,20 @@ export function SpellTab({ itemUuid, system, isEditable, onUpdate }: ItemTabProp
                 </Field>
                 <Field label={loc("ANIMA.ItemMaintenanceCost")}>
                   <NumberField system={system} path={`grades.${g.key}.maintenanceCost`} isEditable={isEditable} onUpdate={onUpdate} min={0} />
+                </Field>
+              </div>
+              {/* Cifras que consume el motor de tiradas. El extractor rellena
+                  daño y aguante leyendo el texto del grado; la barrera se pone
+                  a mano, porque adivinarla haría inmune a un escudo. */}
+              <div className="flex gap-1">
+                <Field label={loc("ANIMA.ItemSpellDamage")}>
+                  <NumberField system={system} path={`grades.${g.key}.damage`} isEditable={isEditable} onUpdate={onUpdate} min={0} />
+                </Field>
+                <Field label={loc("ANIMA.ItemShieldPoints")}>
+                  <NumberField system={system} path={`grades.${g.key}.shieldPoints`} isEditable={isEditable} onUpdate={onUpdate} min={0} />
+                </Field>
+                <Field label={loc("ANIMA.ItemDamageBarrier")}>
+                  <NumberField system={system} path={`grades.${g.key}.damageBarrier`} isEditable={isEditable} onUpdate={onUpdate} min={0} />
                 </Field>
               </div>
               <Field label={loc("ANIMA.ItemEffect")}>
@@ -110,7 +136,13 @@ export function SpellTab({ itemUuid, system, isEditable, onUpdate }: ItemTabProp
             </select>
           </Field>
           <Field label={loc("ANIMA.ItemDamageType")}>
-            <TextField system={system} path="damageType" isEditable={isEditable} onUpdate={onUpdate} />
+            <select className="a-input" value={system.damageType ?? ""} disabled={!isEditable}
+              onChange={(e) => onUpdate("system.damageType", e.target.value)}>
+              {AT_TYPES.map((t) => <option key={t.value} value={t.value}>{t.label}</option>)}
+            </select>
+          </Field>
+          <Field label={loc("ANIMA.ItemAtPiercing")}>
+            <NumberField system={system} path="atPiercing" isEditable={isEditable} onUpdate={onUpdate} min={0} />
           </Field>
           <Field label={loc("ANIMA.ItemResistanceType")}>
             <select className="a-input" value={system.resistanceType ?? "none"} disabled={!isEditable}

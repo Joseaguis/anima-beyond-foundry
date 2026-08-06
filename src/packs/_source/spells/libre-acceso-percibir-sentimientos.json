@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "detection",
     "effect": "Detecta un sentimiento determinado en aquellos individuos que se encuentren en un radio cercano al brujo. El hechicero debe elegir qué emoción desea percibir. Los sujetos afectados podrán escudarse superando una RM o RP",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 7,
         "maintenanceCost": 5,
-        "effect": "50 metros de radio / RM o RP 120"
+        "effect": "50 metros de radio / RM o RP 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 10,
         "maintenanceCost": 5,
-        "effect": "100 metros de radio / RM o RP 140"
+        "effect": "100 metros de radio / RM o RP 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 13,
         "maintenanceCost": 10,
-        "effect": "250 metros de radio / RM o RP 160"
+        "effect": "250 metros de radio / RM o RP 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 16,
         "maintenanceCost": 10,
-        "effect": "500 metros de radio / RM o RP 180"
+        "effect": "500 metros de radio / RM o RP 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

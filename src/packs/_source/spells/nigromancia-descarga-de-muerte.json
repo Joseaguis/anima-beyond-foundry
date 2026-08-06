@@ -13,7 +13,8 @@
     "actionType": "active",
     "maintenanceType": "none",
     "magicPath": "Nigromancia",
-    "damageType": "",
+    "damageType": "ene",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "attack",
     "effect": "Proyecta una potente descarga nigromántica. El ataque se realiza en la TA de energía.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "Daño 80"
+        "effect": "Daño 80",
+        "damage": 80,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "Daño 100"
+        "effect": "Daño 100",
+        "damage": 100,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Daño 140"
+        "effect": "Daño 140",
+        "damage": 140,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "Daño 180"
+        "effect": "Daño 180",
+        "damage": 180,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

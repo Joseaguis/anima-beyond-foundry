@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Tierra",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Incrementa la masa de la atmósfera de una zona determinada, aumentando con ello la fuerza de gravedad y, por lo tanto, el peso de todo lo que se halle en su interior. A efectos de juego, aumenta el peso de todo lo que determine el hechicero dentro del área de conjuro, que permanecerá estática en el lugar donde se haya lanzado.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "Dobla el peso / 100 metros de radio"
+        "effect": "Dobla el peso / 100 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "Triplica el peso / 200 metros de radio"
+        "effect": "Triplica el peso / 200 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 280,
         "intRequired": 14,
         "maintenanceCost": 30,
-        "effect": "Quintuplica el peso / 300 metros de radio"
+        "effect": "Quintuplica el peso / 300 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 320,
         "intRequired": 16,
         "maintenanceCost": 35,
-        "effect": "Decuplica el peso / 400 metros de radio"
+        "effect": "Decuplica el peso / 400 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

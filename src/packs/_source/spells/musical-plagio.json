@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Musical",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Proporciona al mago la capacidad artística necesaria para efectuar una interpretación de algún tipo de composición musical, ya sea tocando un instrumento o cantando. El hechicero deberá conocer o haber escuchado, aunque sea de forma incompleta, la pieza que desea representar. Al hacerlo, el personaje tiene el equivalente a una habilidad de Música determinado por el grado del conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "120 Música"
+        "effect": "120 Música",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 70,
         "intRequired": 8,
         "maintenanceCost": 5,
-        "effect": "180 Música"
+        "effect": "180 Música",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 80,
         "intRequired": 10,
         "maintenanceCost": 5,
-        "effect": "240 Música"
+        "effect": "240 Música",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 10,
-        "effect": "280 Música"
+        "effect": "280 Música",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

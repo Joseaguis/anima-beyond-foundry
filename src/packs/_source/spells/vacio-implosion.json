@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Vacío",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "attack",
     "effect": "Este terrorífico conjuro crea un punto de vacío en el interior de algo que atrae toda la masa del mismo a su interior, provocando que su estructura implosione y desaparezca completamente. Al absorber la carne, huesos y órganos, en caso de causar daño provoca además un crítico automático con un bonificador determinado por el grado del conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "Daño 200 / Crítico +20."
+        "effect": "Daño 200 / Crítico +20.",
+        "damage": 200,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 500,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "Daño 400 / Crítico +40."
+        "effect": "Daño 400 / Crítico +40.",
+        "damage": 400,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 750,
         "intRequired": 18,
         "maintenanceCost": 0,
-        "effect": "Daño 500 / Crítico +60."
+        "effect": "Daño 500 / Crítico +60.",
+        "damage": 500,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 1000,
         "intRequired": 20,
         "maintenanceCost": 0,
-        "effect": "Daño 800 / Crítico +100."
+        "effect": "Daño 800 / Crítico +100.",
+        "damage": 800,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

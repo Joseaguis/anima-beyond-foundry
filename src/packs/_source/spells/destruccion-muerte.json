@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Destrucción",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "El brujo es capaz de producir la muerte de un ser, separando su alma y su cuerpo. El poder de este conjuro es tan grande que puede incluso matar a seres espirituales y a criaturas nigrománticas, convirtiéndolos en simples almas muertas o destruyéndolos.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "RM o RF 120"
+        "effect": "RM o RF 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 250,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "RM o RF 140"
+        "effect": "RM o RF 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 300,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "RM o RF 160"
+        "effect": "RM o RF 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 350,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "RM o RF 180"
+        "effect": "RM o RF 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

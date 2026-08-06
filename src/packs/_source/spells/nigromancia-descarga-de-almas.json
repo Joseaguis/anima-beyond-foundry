@@ -13,7 +13,8 @@
     "actionType": "active",
     "maintenanceType": "none",
     "magicPath": "Nigromancia",
-    "damageType": "",
+    "damageType": "ene",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "attack",
     "effect": "Proyecta una descarga de energía mágica compuesta por almas marchitas. Este conjuro ataca en Energía. Sólo afecta a seres con alma, por lo que ignora los cuerpos físicos sin vida, como paredes o golems. Dada la naturaleza de la descarga, únicamente aquellos con la capacidad de ver espíritus son capaces de percibirla.",
@@ -23,25 +24,37 @@
         "zeonCost": 140,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "Daño 100"
+        "effect": "Daño 100",
+        "damage": 100,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 260,
         "intRequired": 11,
         "maintenanceCost": 0,
-        "effect": "Daño 200"
+        "effect": "Daño 200",
+        "damage": 200,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 380,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "Daño 300"
+        "effect": "Daño 300",
+        "damage": 300,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 500,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "Daño 400"
+        "effect": "Daño 400",
+        "damage": 400,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

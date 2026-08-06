@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Fuego",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Proporciona un bonificador a la tirada para calcular el Nivel de Crítico que haya provocado un ataque determinado. A pesar de ser un conjuro pasivo deberá usarse antes de que se lancen los dados.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "+20 al nivel de Crítico"
+        "effect": "+20 al nivel de Crítico",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "+40 al nivel de Crítico"
+        "effect": "+40 al nivel de Crítico",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "+60 al nivel de Crítico"
+        "effect": "+60 al nivel de Crítico",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "+80 al nivel de Crítico"
+        "effect": "+80 al nivel de Crítico",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

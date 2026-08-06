@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Luz",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "detection",
     "effect": "El brujo percibe a seres que entren dentro del área si no superan una RM. La Zona de Detección no dará más información que el número de individuos que haya dentro y su localización. También percibirá otros hechizos de Detección que traten de entrar en ella, siempre que el mago que los lanza no supere la RM de la Zona (sin importar dónde se encuentre). Este conjuro permanece estático en el lugar donde fue lanzado",
@@ -23,25 +24,37 @@
         "zeonCost": 140,
         "intRequired": 7,
         "maintenanceCost": 10,
-        "effect": "RM 180 / 20 metros de radio"
+        "effect": "RM 180 / 20 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "RM 240 / 80 metros de radio"
+        "effect": "RM 240 / 80 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 280,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "RM 280 / 150 metros de radio"
+        "effect": "RM 280 / 150 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 360,
         "intRequired": 15,
         "maintenanceCost": 15,
-        "effect": "RM 340 / 250 metros de rad"
+        "effect": "RM 340 / 250 metros de rad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

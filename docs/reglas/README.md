@@ -13,6 +13,7 @@ o el Excel. **Ante cualquier discrepancia, la fuente de verdad es:**
 
 | Documento | Contenido |
 | --- | --- |
+| [tiradas.md](tiradas.md) | Mecánica base: D100 y D10, tirada abierta, pifia, maestría, resistencias, características y Resultado del Asalto |
 | [desarrollo-pds.md](desarrollo-pds.md) | PD totales por nivel, multi-categoría, costes por categoría, cambio de categoría y límites por reserva |
 | [secundarias.md](secundarias.md) | Fórmula del total, −30 sin entrenar, mejora natural (Bon./Hab.), habilidades custom |
 | [modificadores.md](modificadores.md) | Tipos de modificadores, qué se acumula (stackea) y qué no |

@@ -1,7 +1,8 @@
 import { useState, type ReactNode } from "react";
 import { SectionCard } from "./SectionCard";
 import { CompendiumPicker } from "./CompendiumPicker";
-import type { AnimaItem, ItemOps } from "../../../sheets/ReactSheet";
+import { Rollable } from "./Rollable";
+import type { AnimaItem, ItemOps, RollOps } from "../../../sheets/ReactSheet";
 
 export interface ItemColumn {
   label: ReactNode;
@@ -28,6 +29,12 @@ interface ItemListProps {
   style?: React.CSSProperties;
   /** Optional footer row (e.g. cost totals), rendered after the rows. */
   footer?: ReactNode;
+  /**
+   * Makes the name column roll. Return the statistic slug for an item, or
+   * undefined to leave that row inert (e.g. a passive power).
+   */
+  rollSlugFor?: (item: AnimaItem) => string | undefined;
+  rollOps?: RollOps;
 }
 
 /**
@@ -47,6 +54,8 @@ export function ItemList({
   addLabel = "+ Añadir",
   style,
   footer,
+  rollSlugFor,
+  rollOps,
 }: ItemListProps) {
   const [picking, setPicking] = useState(false);
   const { onItemEdit, onItemDelete } = itemOps;
@@ -58,7 +67,15 @@ export function ItemList({
   const nameCol: ItemColumn = {
     label: "Nombre",
     width: "1.6fr",
-    render: (i) => i.name,
+    render: (i) => {
+      const slug = rollSlugFor?.(i);
+      if (!slug) return i.name;
+      return (
+        <Rollable slug={slug} onRoll={rollOps?.onRoll} rollable={rollOps?.rollable}>
+          {i.name}
+        </Rollable>
+      );
+    },
   };
   const cols = [nameCol, ...columns];
   const gridCols = [...cols.map((c) => c.width ?? "1fr"), "58px"].join(" ");

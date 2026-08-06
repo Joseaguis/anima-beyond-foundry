@@ -13,7 +13,8 @@
     "actionType": "active",
     "maintenanceType": "sustained",
     "magicPath": "Vacío",
-    "damageType": "",
+    "damageType": "ene",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "attack",
     "effect": "Cubre al hechicero de una energía sobrenatural que repele los efectos del vacío. Cualquier conjuro o poder relacionado con la nada no tiene efecto sobre él ni puede causarle daño.",
@@ -23,25 +24,37 @@
         "zeonCost": 140,
         "intRequired": 10,
         "maintenanceCost": 15,
-        "effect": "Protege contra conjuros de esta sub-vía."
+        "effect": "Protege contra conjuros de esta sub-vía.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 12,
         "maintenanceCost": 20,
-        "effect": "El personaje es  inmune a los efectos y ataques de seres basados en el vacío."
+        "effect": "El personaje es  inmune a los efectos y ataques de seres basados en el vacío.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 280,
         "intRequired": 14,
         "maintenanceCost": 30,
-        "effect": "Inmune a cualquier efecto relaciona con el vacío, salvo la nada primordial."
+        "effect": "Inmune a cualquier efecto relaciona con el vacío, salvo la nada primordial.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 400,
         "intRequired": 16,
         "maintenanceCost": 40,
-        "effect": "El personaje es capaz de sobrevivir incluso en la nada primordial."
+        "effect": "El personaje es capaz de sobrevivir incluso en la nada primordial.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

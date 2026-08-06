@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "El hechicero puede transformar intensidades de cualquier tipo de energía elemental en otro, como convertir fuego en electricidad. Si estas intensidades son mágicas o tienen presencia propia, podrán resistirse superando una RM. Este conjuro no causa daños a los seres elementales, pero sí altera su naturaleza",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "10 intensidades / RM 120"
+        "effect": "10 intensidades / RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 160,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "15 intensidades / RM 140"
+        "effect": "15 intensidades / RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 200,
         "intRequired": 12,
         "maintenanceCost": 20,
-        "effect": "20 intensidades / RM 160"
+        "effect": "20 intensidades / RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 240,
         "intRequired": 14,
         "maintenanceCost": 25,
-        "effect": "25 intensidades / RM 180"
+        "effect": "25 intensidades / RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

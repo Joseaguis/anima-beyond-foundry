@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Destrucción",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Encanta un objeto o lugar, creando a su alrededor un aura de magia que destruye todo lo que se pone en contacto con ella. Cualquiera que la toque deberá superar una RM, o perderá una cantidad de puntos de vida equivalente a su nivel de fracaso. Los efectos del hechizo se aplican incluso sobre el lanzador.",
@@ -23,25 +24,37 @@
         "zeonCost": 150,
         "intRequired": 8,
         "maintenanceCost": 15,
-        "effect": "RM 80 / Presencia máxima 60 / 1 metro de diámetro"
+        "effect": "RM 80 / Presencia máxima 60 / 1 metro de diámetro",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "RM 100 / Presencia máxima 90 / 5 metros de diámetro"
+        "effect": "RM 100 / Presencia máxima 90 / 5 metros de diámetro",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 250,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "RM 120 / Presencia máxima 120 / 15 metros de diámetro"
+        "effect": "RM 120 / Presencia máxima 120 / 15 metros de diámetro",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 350,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "RM 150 / Presencia máxima 150 / 25 metros de diámetro"
+        "effect": "RM 150 / Presencia máxima 150 / 25 metros de diámetro",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Tiempo",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El personaje puede percibir sobrenaturalmente el paso del tiempo.",
@@ -23,25 +24,37 @@
         "zeonCost": 30,
         "intRequired": 5,
         "maintenanceCost": 0,
-        "effect": "Permite percibir sobrenaturalmente la hora y la fecha."
+        "effect": "Permite percibir sobrenaturalmente la hora y la fecha.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 50,
         "intRequired": 7,
         "maintenanceCost": 0,
-        "effect": "Siente las milésimas de segundo, y toda alternación del fluir del tiempo."
+        "effect": "Siente las milésimas de segundo, y toda alternación del fluir del tiempo.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 70,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Ell personaje puede fijar una alarma, que sonará cuando lo desee."
+        "effect": "Ell personaje puede fijar una alarma, que sonará cuando lo desee.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 90,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Ell lanzador puede calcular el tiempo que va a tardar algo en concluir."
+        "effect": "Ell lanzador puede calcular el tiempo que va a tardar algo en concluir.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

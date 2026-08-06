@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Sangre",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Este terrorífico conjuro provoca que la sangre del corazón de un objetivo se expanda y lo reviente desde dentro a causa de la presión. Si el personaje falla el control por más de 40 puntos muere de manera automática, mientras que si el nivel de fracaso no es superior a 40, recibe el daño determinado en la descripción del Grado del conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 280,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "RM o RF 140 / Daño 50"
+        "effect": "RM o RF 140 / Daño 50",
+        "damage": 50,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 320,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "RM o RF 180 / Daño 100"
+        "effect": "RM o RF 180 / Daño 100",
+        "damage": 100,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 360,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "RM o RF 220 / Daño 150"
+        "effect": "RM o RF 220 / Daño 150",
+        "damage": 150,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 400,
         "intRequired": 17,
         "maintenanceCost": 0,
-        "effect": "RM o RF 260 / Daño 200"
+        "effect": "RM o RF 260 / Daño 200",
+        "damage": 200,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

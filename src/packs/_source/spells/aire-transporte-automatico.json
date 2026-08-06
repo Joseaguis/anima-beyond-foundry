@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Aire",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El mago, u objetivo, es teletransportado a un lugar que vea o conozca. El conjuro puede pasar a través de objetos físicos, si no se encuentren basados en energía o sean de carácter sobrenatural. En caso de que el conjuro se use para teletransportar a alguien a una posición innatural (como por ejemplo, a 50 metros de altura en el aire), el blanco puede aplicar un +40 a su RM. Se puede afectar a varios, siempre que la suma de presencias no supere el grado del conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "50 metros / presencia maxima 60"
+        "effect": "50 metros / presencia maxima 60",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "250 metros / presencia maxima 90"
+        "effect": "250 metros / presencia maxima 90",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "400 metros / presencia maxima 120"
+        "effect": "400 metros / presencia maxima 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "1 kilometro / presencia maxima 150"
+        "effect": "1 kilometro / presencia maxima 150",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

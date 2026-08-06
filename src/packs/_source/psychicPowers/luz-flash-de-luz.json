@@ -17,46 +17,77 @@
     "masteryCost": 1,
     "fortifyCvs": 0,
     "maintenanceDifficulty": "",
+    "damageType": "",
     "grades": [
       {
         "difficulty": "Rutinario",
-        "effect": "Fatiga 2"
+        "effect": "Fatiga 2",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Fácil",
-        "effect": "Fatiga 1"
+        "effect": "Fatiga 1",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Medio",
-        "effect": "5 m de radio / RF 80"
+        "effect": "5 m de radio / RF 80",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Difícil",
-        "effect": "10 m de radio / RF 100"
+        "effect": "10 m de radio / RF 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Muy difícil",
-        "effect": "15 m de radio / RF 120"
+        "effect": "15 m de radio / RF 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Absurdo",
-        "effect": "25 m de radio / RF 140"
+        "effect": "25 m de radio / RF 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Casi imposible",
-        "effect": "50 m de radio / RF 160"
+        "effect": "50 m de radio / RF 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Imposible",
-        "effect": "75 m de radio / RF 180"
+        "effect": "75 m de radio / RF 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Inhumano",
-        "effect": "100 m de radio / RF 200"
+        "effect": "100 m de radio / RF 200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Zen",
-        "effect": "150 m de radio / RF 220"
+        "effect": "150 m de radio / RF 220",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     ],
     "effect": ""

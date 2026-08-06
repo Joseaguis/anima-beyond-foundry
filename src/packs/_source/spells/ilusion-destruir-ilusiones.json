@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Ilusión",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Destruye un conjruo activo que pertenezca a la vía de ilusión.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 7,
         "maintenanceCost": 0,
-        "effect": "Zeón máximo 80."
+        "effect": "Zeón máximo 80.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Zeón máximo 140."
+        "effect": "Zeón máximo 140.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 300,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Zeón máximo 200."
+        "effect": "Zeón máximo 200.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 500,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "Zeón máximo 300."
+        "effect": "Zeón máximo 300.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

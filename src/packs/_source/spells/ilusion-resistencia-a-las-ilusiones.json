@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Ilusión",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Aumenta la Resistencia mágica de un sujeto contra los efectos ilusorios. El conjuro otorga un bonificador a todos a RM contra cualquier conjuro de la via ilusión (o conjuros de naturaleza similar). Los efectos de este hechizo no se superponen, y solo se puede afectar con él una vez a cada sujeto.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 7,
         "maintenanceCost": 10,
-        "effect": "+20 al RM"
+        "effect": "+20 al RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "+40 al RM"
+        "effect": "+40 al RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "+60 al RM"
+        "effect": "+60 al RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 140,
         "intRequired": 14,
         "maintenanceCost": 15,
-        "effect": "+80 al RM"
+        "effect": "+80 al RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

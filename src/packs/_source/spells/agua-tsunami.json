@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Agua",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "1 kilómetro de longitud."
+        "effect": "1 kilómetro de longitud.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 350,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "10 kilómetros de longitud."
+        "effect": "10 kilómetros de longitud.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 450,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "20 kilómetros de longitud."
+        "effect": "20 kilómetros de longitud.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 550,
         "intRequired": 17,
         "maintenanceCost": 0,
-        "effect": ""
+        "effect": "",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

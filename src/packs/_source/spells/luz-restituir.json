@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Luz",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este conjuro restituye los penalizadores que se apliquen sobre un individuo determinado. Los negativos restituidos podrán haber sido causados por cansancio, hambre, daños físicos o incluso conjuros, aunque no por carencias físicas, como la pérdida de un miembro u otra parte del cuerpo. La restitución recuperará, además, cierta cantidad de de puntos de Cansancio gastados.",
@@ -23,25 +24,37 @@
         "zeonCost": 150,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "Elimina un -40 a toda acción y restituye 2 puntos de Cansancio"
+        "effect": "Elimina un -40 a toda acción y restituye 2 puntos de Cansancio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Elimina un -80 a toda acción y restituye 5 puntos de Cansancio"
+        "effect": "Elimina un -80 a toda acción y restituye 5 puntos de Cansancio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 250,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Elimina un -120 a toda acción y restituye 10 puntos de Cansancio"
+        "effect": "Elimina un -120 a toda acción y restituye 10 puntos de Cansancio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "Restituye cualquier penalizador y cantidad de Puntos de Cansancio"
+        "effect": "Restituye cualquier penalizador y cantidad de Puntos de Cansancio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

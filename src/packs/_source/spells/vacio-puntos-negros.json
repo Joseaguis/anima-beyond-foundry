@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Vacío",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Cualquiera que entre en el área designada debe superar cada asalto un control de Atletismo, Acrobacias o Defensa, o de lo contrario chocará con unos de puntos negros. Si se diera el caso, el personaje debe de superar un control de RF o RM o sufrir un daño y una pérdida de puntos de Ki equivalente a la mitad del nivel de fracaso, así como una pérdida de Zeon equivalente al nivel de fracaso pleno. No es posible designar blancos en el interior del sortilegio.",
@@ -23,25 +24,37 @@
         "zeonCost": 150,
         "intRequired": 8,
         "maintenanceCost": 15,
-        "effect": "Dificultad 120 / 10 metros de radio / RM o RF 120."
+        "effect": "Dificultad 120 / 10 metros de radio / RM o RF 120.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 250,
         "intRequired": 10,
         "maintenanceCost": 25,
-        "effect": "Dificultad 140 / 20 metros de radio / RM o RF 140."
+        "effect": "Dificultad 140 / 20 metros de radio / RM o RF 140.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 350,
         "intRequired": 12,
         "maintenanceCost": 35,
-        "effect": "Dificultad 180 / 50 metros de radio / RM o RF 160"
+        "effect": "Dificultad 180 / 50 metros de radio / RM o RF 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 500,
         "intRequired": 15,
         "maintenanceCost": 50,
-        "effect": "Dificultad 240 / 100 metros de radio / RM o RF 180."
+        "effect": "Dificultad 240 / 100 metros de radio / RM o RF 180.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

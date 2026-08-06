@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Nobleza",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Cualquiera que se encuentre en un área de 5 metros alrededor del mago deberá realizar una tirada de RM o RP, o se sentirán a impelidos a complacerle. Este conjuro no tiene efecto con personas que conozcan al hechicero o sean abiertamente hostiles. Los hechizados pueden repetir la tirada de resistencia cuando el lanzado haga una acción tan contraria a la razón que estos puedan replantearse su sumisión hacia él.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 7,
         "maintenanceCost": 10,
-        "effect": "120 de RM o RP"
+        "effect": "120 de RM o RP",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "160 de RM o RP"
+        "effect": "160 de RM o RP",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "200 de RM o RP"
+        "effect": "200 de RM o RP",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 14,
         "maintenanceCost": 15,
-        "effect": "240 de RM o RP"
+        "effect": "240 de RM o RP",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

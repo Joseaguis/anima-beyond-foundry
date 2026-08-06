@@ -3,7 +3,8 @@ import { defaultCategoryData, type CategoryData, type PrepContext, type PrepMode
 import { stackTotal, specialRuleFlagValue, type SpecialRuleEntry } from "../../rules";
 import type { AnimaActor } from "../../documents/actor";
 
-const { SchemaField, NumberField, StringField, TypedObjectField } = foundry.data.fields;
+const { SchemaField, NumberField, StringField, TypedObjectField, ArrayField, BooleanField } =
+  foundry.data.fields;
 
 export function creatureSchema() {
   return {
@@ -56,6 +57,30 @@ export function creatureSchema() {
       allActions: new NumberField({ required: true, initial: 0, integer: true }),
       physicalActions: new NumberField({ required: true, initial: 0, integer: true }),
     }),
+    // Supernatural shields currently standing (Core pp. 97-98). Magic, psychic
+    // and ki all raise the same kind of thing — a pool of resistance points
+    // that stands in for a parry or a dodge — so they share one list here on
+    // the creature rather than one per domain.
+    shields: new ArrayField(
+      new SchemaField({
+        id: new StringField({ required: true, initial: "" }),
+        name: new StringField({ required: true, initial: "" }),
+        origin: new StringField({ required: true, initial: "magic" }),
+        /** Spell or power that raised it, for the sheet's link back. */
+        itemId: new StringField({ required: true, initial: "" }),
+        grade: new StringField({ required: true, initial: "" }),
+        points: new NumberField({ required: true, initial: 0, integer: true, min: 0 }),
+        maxPoints: new NumberField({ required: true, initial: 0, integer: true, min: 0 }),
+        /** Attacks under this never wear it down (Core p. 236). */
+        damageBarrier: new NumberField({ required: true, initial: 0, integer: true, min: 0 }),
+        /** The telekinetic shield loses 5 points a round on its own (p. 212). */
+        decayPerRound: new NumberField({ required: true, initial: 0, integer: true, min: 0 }),
+        /** Kept after breaking so the card can still be read; hidden in the UI. */
+        broken: new BooleanField({ required: true, initial: false }),
+        note: new StringField({ required: true, initial: "" }),
+      }),
+      { required: true, initial: [] },
+    ),
     // Active special rules (house rules), keyed by catalog key (see
     // rules/special-rules). Presence of a key means the rule is active;
     // `value` only matters for rules with a numeric parameter.

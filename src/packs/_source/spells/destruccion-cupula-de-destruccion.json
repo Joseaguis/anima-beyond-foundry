@@ -13,7 +13,8 @@
     "actionType": "active",
     "maintenanceType": "none",
     "magicPath": "Destrucción",
-    "damageType": "",
+    "damageType": "ene",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "attack",
     "effect": "Desencadena una cúpula de energía sobrenatural, que estalla en un área. El ataque se realiza en la TA de Energía, y no es posible seleccionar blancos.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 7,
         "maintenanceCost": 0,
-        "effect": "10 metros de radio / Daño 80"
+        "effect": "10 metros de radio / Daño 80",
+        "damage": 80,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "50 metros de radio / Daño 120"
+        "effect": "50 metros de radio / Daño 120",
+        "damage": 120,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "100 metros de radio / Daño 160"
+        "effect": "100 metros de radio / Daño 160",
+        "damage": 160,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "150 metros de radio / Daño 200"
+        "effect": "150 metros de radio / Daño 200",
+        "damage": 200,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Sueños",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "detection",
     "effect": "Mediante este conjuro el hechicero es capaz de localizar las energías oníricas de todos los seres que estén soñando cerca de él. Además, mediante la energía que desprenden podrá saber si están teniendo Sueños plácidos o por el contrario, terribles pesadillas. Para resistirse a la detección, los durmientes deben superar una RM.",
@@ -23,25 +24,37 @@
         "zeonCost": 40,
         "intRequired": 5,
         "maintenanceCost": 0,
-        "effect": "50 metros / RM 120"
+        "effect": "50 metros / RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 60,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "150 metros / RM 160"
+        "effect": "150 metros / RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 80,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "200 metros / RM 200"
+        "effect": "200 metros / RM 200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 100,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "500 metros / RM 240"
+        "effect": "500 metros / RM 240",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

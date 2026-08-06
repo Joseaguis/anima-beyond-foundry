@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este hechizo incrementa exponencialmente el potencial mágico ambiental, aumentando la capacidad de los brujos para dominar innatamente su magia. En reglas de juego, encanta una zona estática dentro de la cual los conjuros innatos tienen un potencial adicional de lo que indique el ACT del brujo. El lanzador posee la capacidad de elegir si este incremento favorece a todo el mundo, o si sólo él se beneficia de sus efectos",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 50,
-        "effect": "25 metros de radio / +10 al valor zeónico de la magia innata"
+        "effect": "25 metros de radio / +10 al valor zeónico de la magia innata",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 300,
         "intRequired": 12,
         "maintenanceCost": 60,
-        "effect": "100 metros de radio/ +20 al valor zeónico de la magia innata"
+        "effect": "100 metros de radio/ +20 al valor zeónico de la magia innata",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 400,
         "intRequired": 14,
         "maintenanceCost": 70,
-        "effect": "250 metros de radio / +30 al valor zeónico de la magia innata"
+        "effect": "250 metros de radio / +30 al valor zeónico de la magia innata",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 500,
         "intRequired": 16,
         "maintenanceCost": 80,
-        "effect": "500 metros de radio / +40 al valor zeónico de la magia innata"
+        "effect": "500 metros de radio / +40 al valor zeónico de la magia innata",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Permite al hechicero moldear la forma de la materia inorgánica, transmutando un objeto en otro similar de idéntica presencia. Por ejemplo, es posible convertir un arpón en una lanza, ya que ambos tienen una forma similar y la misma presencia, pero no en un mandoble, ya que su presencia es mayor y sus formas difieren considerablemente",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 9,
         "maintenanceCost": 5,
-        "effect": "Presencia máxima 30."
+        "effect": "Presencia máxima 30.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 160,
         "intRequired": 11,
         "maintenanceCost": 10,
-        "effect": "Presencia máxima 50."
+        "effect": "Presencia máxima 50.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 14,
         "maintenanceCost": 15,
-        "effect": "Presencia máxima 70."
+        "effect": "Presencia máxima 70.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 320,
         "intRequired": 16,
         "maintenanceCost": 20,
-        "effect": "Presencia máxima 100."
+        "effect": "Presencia máxima 100.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

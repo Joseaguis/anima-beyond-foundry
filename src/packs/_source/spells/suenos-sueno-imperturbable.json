@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Sueños",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este hechizo protege a un personaje de ser asaltado por conjuros o efectos de cualquier tipo relacionado con los Sueños, otorgándole un bono a la RM y RP contra tales menesteres. De igual forma, este conjuro evita que el personaje sea transportado involuntariamente hasta la vigilia, otorgándole el mismo bono a sus resistencias en caso de que alguien trate de forzarle a ir en contra de su voluntad.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 5,
         "maintenanceCost": 5,
-        "effect": "+40 RM o RP."
+        "effect": "+40 RM o RP.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 5,
-        "effect": "+60 RM o RP."
+        "effect": "+60 RM o RP.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 5,
-        "effect": "+80 RM o RP."
+        "effect": "+80 RM o RP.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 10,
-        "effect": "+100 RM o RP."
+        "effect": "+100 RM o RP.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

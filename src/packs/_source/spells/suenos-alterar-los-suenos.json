@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Sueños",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Mediante este conjuro el hechicero tiene la capacidad de alterar los Sueños (ya sean tranquilos o pesadillas) que tengan todas las personas que estén dentro del radio de acción. Este conjuro solo funciona si el hechicero está “fuera” del Sueños, y no permite usarlo si está introducido en el propio Sueños o en la vigilia. Este hechizo solo afecta a personas que estén durmiendo en esos momentos y desaparece en el instante en que despiertan.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 7,
         "maintenanceCost": 10,
-        "effect": "RM 100 / 50 metros de radio."
+        "effect": "RM 100 / 50 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "RM 120 / 150 metros de radio."
+        "effect": "RM 120 / 150 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 11,
         "maintenanceCost": 10,
-        "effect": "RM 140 / 250 metros de radio."
+        "effect": "RM 140 / 250 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 140,
         "intRequired": 13,
         "maintenanceCost": 15,
-        "effect": "RM 160 / 500 metros de radio."
+        "effect": "RM 160 / 500 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { NumberField, DerivedValue } from "../../ui/fields";
+import { Rollable } from "../../ui/Rollable";
 import type { TabProps } from "../types";
 
 /**
@@ -57,6 +58,8 @@ function ValueStrip({
   damage,
   name,
   tips,
+  slugs,
+  rollOps,
 }: {
   turn: number;
   attack: number;
@@ -66,14 +69,26 @@ function ValueStrip({
   damage: number;
   name: string;
   tips?: { attack?: string; defense?: string; damage?: string };
+  /** Statistic slugs behind the header cells; omit to leave them inert. */
+  slugs?: { attack?: string; defense?: string };
+  rollOps?: TabProps["rollOps"];
 }) {
   const big = "text-center justify-center py-1 text-[17px] font-bold";
+  // The Excel layout has no room for buttons, so the column headers roll.
+  const head = (label: string, slug?: string, title?: string) =>
+    slug ? (
+      <Rollable slug={slug} onRoll={rollOps?.onRoll} rollable={rollOps?.rollable} title={title}>
+        {label}
+      </Rollable>
+    ) : (
+      label
+    );
   return (
     <>
       <div className="a-thead" style={VALUE_GRID}>
         <div className="text-center">Turno</div>
-        <div className="text-center">At.</div>
-        <div className="text-center">Defensa</div>
+        <div className="text-center">{head("At.", slugs?.attack, `Ataque con ${name}`)}</div>
+        <div className="text-center">{head("Defensa", slugs?.defense, `Defensa con ${name}`)}</div>
         <div className="text-center">Daño</div>
       </div>
       <div className="grid" style={{ ...VALUE_GRID, ...ROW_SEP }}>
@@ -146,7 +161,12 @@ function Label({ children }: { children: ReactNode }) {
 }
 
 /** Bloque cabecera "Desarmado" + bonos de equipo editables (caja del Excel). */
-function UnarmedBlock({ system, isEditable, onUpdate }: Pick<TabProps, "system" | "isEditable" | "onUpdate">) {
+function UnarmedBlock({
+  system,
+  isEditable,
+  onUpdate,
+  rollOps,
+}: Pick<TabProps, "system" | "isEditable" | "onUpdate" | "rollOps">) {
   const equipment = system.equipment ?? {};
   const unarmed = equipment.unarmed ?? {};
   const dodge = equipment.dodge ?? system.combat?.dodge?.final ?? 0;
@@ -185,6 +205,8 @@ function UnarmedBlock({ system, isEditable, onUpdate }: Pick<TabProps, "system" 
           defense: `Defensa desarmado|Mejor entre parada (${parry}) y esquiva (${dodge})=${defense}|=${defense}`,
           damage: `Daño desarmado|10 + FUE + mods=${unarmed.finalDamage ?? 0}|=${unarmed.finalDamage ?? 0}`,
         }}
+        slugs={{ attack: "strike.unarmed", defense: dodge >= parry ? "dodge" : "parry" }}
+        rollOps={rollOps}
       />
       <CritStrip
         crit1={unarmed.critical ?? "CON"}
@@ -213,6 +235,7 @@ function WeaponBlock({
   ammoItems,
   isEditable,
   itemOps,
+  rollOps,
 }: {
   n: number;
   weapon: any;
@@ -220,6 +243,7 @@ function WeaponBlock({
   ammoItems: TabProps["items"];
   isEditable: boolean;
   itemOps: TabProps["itemOps"];
+  rollOps?: TabProps["rollOps"];
 }) {
   const w = weapon;
   const parry = w.parry ?? 0;
@@ -258,6 +282,12 @@ function WeaponBlock({
           defense: `Defensa con ${w.name}|Mejor entre parada (${parry}) y esquiva (${dodge})=${defense}|=${defense}`,
           damage: `Daño con ${w.name}|Base escalada + FUE + calidad + mods=${w.finalDamage ?? 0}|=${w.finalDamage ?? 0}`,
         }}
+        slugs={{
+          attack: `strike.${w.id}`,
+          // Parrying uses the weapon's own HP; dodging is weapon-independent.
+          defense: dodge >= parry ? "dodge" : `parry.${w.id}`,
+        }}
+        rollOps={rollOps}
       />
       <CritStrip
         crit1={w.primaryType || "—"}
@@ -319,7 +349,8 @@ export function WeaponBlocks({
   isEditable,
   onUpdate,
   itemOps,
-}: Pick<TabProps, "system" | "items" | "isEditable" | "onUpdate" | "itemOps">) {
+  rollOps,
+}: Pick<TabProps, "system" | "items" | "isEditable" | "onUpdate" | "itemOps" | "rollOps">) {
   const equipment = system.equipment ?? {};
   const dodge = equipment.dodge ?? system.combat?.dodge?.final ?? 0;
   const weapons: any[] = equipment.weapons ?? [];
@@ -337,7 +368,12 @@ export function WeaponBlocks({
       className="grid gap-3 items-start"
       style={{ gridColumn: "span 12", gridTemplateColumns: "repeat(2, minmax(0, 1fr))" }}
     >
-      <UnarmedBlock system={system} isEditable={isEditable} onUpdate={onUpdate} />
+      <UnarmedBlock
+        system={system}
+        isEditable={isEditable}
+        onUpdate={onUpdate}
+        rollOps={rollOps}
+      />
       {sorted.map((w, i) => (
         <WeaponBlock
           key={`${w.id || w.name}-${i}`}
@@ -347,6 +383,7 @@ export function WeaponBlocks({
           ammoItems={ammoItems}
           isEditable={isEditable}
           itemOps={itemOps}
+          rollOps={rollOps}
         />
       ))}
     </div>

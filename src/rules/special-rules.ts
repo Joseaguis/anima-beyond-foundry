@@ -26,9 +26,24 @@ export const SPECIAL_RULES: Record<string, SpecialRuleDef> = {
     hintKey: "ANIMA.RuleSoftCapHint",
     hasValue: false,
   },
-  // Future catalog entries (design placeholders, not implemented yet):
-  // extraCreationPoints { hasValue: true }, openRollRange { hasValue: true },
-  // fumbleRange { hasValue: true }.
+  // Open Rolls trigger this many points earlier: 5 means they open on 85+.
+  // Read by `system/statistic/house-rules.ts` when a check is rolled.
+  openRollRange: {
+    key: "openRollRange",
+    labelKey: "ANIMA.RuleOpenRollRange",
+    hintKey: "ANIMA.RuleOpenRollRangeHint",
+    hasValue: true,
+  },
+  // Shifts the fumble range: −1 for a lucky character (fumbles on 1-2), +2 for
+  // an unlucky one (1-5). Stacks with mastery, which removes another grade.
+  fumbleRange: {
+    key: "fumbleRange",
+    labelKey: "ANIMA.RuleFumbleRange",
+    hintKey: "ANIMA.RuleFumbleRangeHint",
+    hasValue: true,
+  },
+  // Future catalog entry (design placeholder, not implemented yet):
+  // extraCreationPoints { hasValue: true }.
 };
 
 /** A persisted special-rule entry on the actor. */

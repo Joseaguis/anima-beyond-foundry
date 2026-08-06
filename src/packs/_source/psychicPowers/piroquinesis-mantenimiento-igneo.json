@@ -17,46 +17,77 @@
     "masteryCost": 1,
     "fortifyCvs": 0,
     "maintenanceDifficulty": "hard",
+    "damageType": "",
     "grades": [
       {
         "difficulty": "Rutinario",
-        "effect": "Fatiga 4"
+        "effect": "Fatiga 4",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Fácil",
-        "effect": "Fatiga 2"
+        "effect": "Fatiga 2",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Medio",
-        "effect": "Fatiga 1"
+        "effect": "Fatiga 1",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Difícil",
-        "effect": "5 intensidades"
+        "effect": "5 intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Muy difícil",
-        "effect": "10 intensidades"
+        "effect": "10 intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Absurdo",
-        "effect": "15 intensidades"
+        "effect": "15 intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Casi imposible",
-        "effect": "20 intensidades"
+        "effect": "20 intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Imposible",
-        "effect": "30 intensidades"
+        "effect": "30 intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Inhumano",
-        "effect": "40 intensidades"
+        "effect": "40 intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Zen",
-        "effect": "50 intensidades"
+        "effect": "50 intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     ],
     "effect": ""

@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Tiempo",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Este conjuro afecta a un individuo o cosa haciendo que dé un salto temporal al futuro. A efectos de juego, el blanco del conjuro desaparece de donde está, apareciendo en el mismo sitio cierto periodo de tiempo después. El lanzador es quien elige cuanto tiempo adelanta el afectado. No obstante, hay un límite a sus efectos; existen ciertos momentos en la historia que marcan acontecimientos tan importantes existencialmente que son imposibles de evitar.",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 11,
         "maintenanceCost": 0,
-        "effect": "Hasta 10 minutos / 120RM"
+        "effect": "Hasta 10 minutos / 120RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 350,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "Hasta 1 día / 160RM"
+        "effect": "Hasta 1 día / 160RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 450,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "Hasta 1 mes / 200RM"
+        "effect": "Hasta 1 mes / 200RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 600,
         "intRequired": 18,
         "maintenanceCost": 0,
-        "effect": "Hasta 1 año / 240RM"
+        "effect": "Hasta 1 año / 240RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

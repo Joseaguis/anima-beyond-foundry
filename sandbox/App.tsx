@@ -13,6 +13,7 @@ import { MockActor, MockItem } from "./mock-documents";
 import { characterFixture, npcFixture } from "./fixtures";
 import * as packs from "./packs";
 import { sandboxChat, type SandboxMessage } from "./foundry-shim";
+import { buildRollOps } from "./roll-bridge";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
@@ -55,6 +56,7 @@ function buildSheetProps(actor: MockActor, openItem: (actor: MockActor, id: stri
     onItemDelete: (id) => actor.deleteItem(id),
     getCompendiumItems: async (type, subtype) => packs.getCompendiumItems(type, subtype),
     onItemAddFromCompendium: (uuid) => actor.addItemFromSource(packs.cloneSource(uuid)),
+    ...buildRollOps(actor),
   };
 }
 
@@ -116,7 +118,12 @@ function ChatToasts() {
       {messages.map((m: SandboxMessage) => (
         <div key={m.id} className={`sb-toast sb-toast-${m.kind}`}>
           <strong>{m.title}</strong>
-          <span>{m.body}</span>
+          {m.html ? (
+            // Sandbox-only: the HTML comes from our own card renderer.
+            <div dangerouslySetInnerHTML={{ __html: m.html }} />
+          ) : (
+            <span>{m.body}</span>
+          )}
         </div>
       ))}
     </div>

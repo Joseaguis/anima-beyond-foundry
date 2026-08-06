@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Tierra",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Invierte la gravedad de una zona. Todo lo que se encuentre en el interior del área afectada, empezará a \"caer\" hacia el cielo hasta la distancia máxima que determine el conjuro. El lanzador puede fijar un límite, como afectar sólo a lo que se encuentre dentro de una construcción. Las cosas que se encuentren fijadas al suelo no \"caerán\". Un individuo puede quedarse \"colgando\" si puede agarrarse. Puede superarse una RM para evitar completamente los efectos.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 40,
-        "effect": "25 metros de radio / 50 de altura / 120 RM"
+        "effect": "25 metros de radio / 50 de altura / 120 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 50,
-        "effect": "50 metros de radio / 100 de altura / 140 RM"
+        "effect": "50 metros de radio / 100 de altura / 140 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 280,
         "intRequired": 14,
         "maintenanceCost": 60,
-        "effect": "100 metros de radio / 200 de altura / 160 RM"
+        "effect": "100 metros de radio / 200 de altura / 160 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 320,
         "intRequired": 16,
         "maintenanceCost": 65,
-        "effect": "150 metros de radio / 300 de altura / 180 RM"
+        "effect": "150 metros de radio / 300 de altura / 180 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

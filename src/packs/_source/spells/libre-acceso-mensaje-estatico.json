@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Marca un lugar u objeto con un mensaje escrito. El hechicero podrá hacer que aparezca y desaparezca a voluntad, incluso si no está presente (aunque no por ello sabe si hay alguien allí para leerlo).",
@@ -23,25 +24,37 @@
         "zeonCost": 30,
         "intRequired": 5,
         "maintenanceCost": 5,
-        "effect": "Máximo de 50 palabras"
+        "effect": "Máximo de 50 palabras",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 70,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "Máximo de 150 palabras"
+        "effect": "Máximo de 150 palabras",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 10,
         "maintenanceCost": 15,
-        "effect": "Máximo de 250 palabras"
+        "effect": "Máximo de 250 palabras",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 180,
         "intRequired": 12,
         "maintenanceCost": 20,
-        "effect": "Máximo de 500 palabras"
+        "effect": "Máximo de 500 palabras",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

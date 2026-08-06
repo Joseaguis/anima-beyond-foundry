@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Pecado",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Un individuo afectado por este sortilegio se torna intrínsecamente malvado, perdiendo cualquier concepto de moralidad. El personaje adquirirá una maldad extrema automáticamente. Una persona realmente pura, sin concepto alguno de la maldad, es inmune a este conjuro. Para resistirse a sus efectos es necesario superar un control de RM contra la dificultad determinada por el Grado del conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "RM 120"
+        "effect": "RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "RM 140"
+        "effect": "RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 260,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "RM 160"
+        "effect": "RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 320,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "RM 180"
+        "effect": "RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

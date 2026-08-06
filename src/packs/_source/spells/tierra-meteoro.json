@@ -13,7 +13,8 @@
     "actionType": "active",
     "maintenanceType": "none",
     "magicPath": "Tierra",
-    "damageType": "",
+    "damageType": "con",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "attack",
     "effect": "Controla uno o varios meteoros, y los arroja desde los cielos. Cada asteroide tarda entre 1 y 10 turnos, que se determinan lanzando 1d10 por cada uno. Tienen daño base de 200 en 10 metros de radio, en la TA de Contundentes o Calor. Lo que se encuentre en una zona de 50 metros alrededor del impacto, sufre la onda expansiva, que tiene daño base 60, y produce un impacto de Fuerza 14. Este conjuro no tiene efecto si es lanzado en interiores.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "1 meteoro"
+        "effect": "1 meteoro",
+        "damage": 200,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 250,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "5 meteoros"
+        "effect": "5 meteoros",
+        "damage": 200,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 350,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "10 meteoros"
+        "effect": "10 meteoros",
+        "damage": 200,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 450,
         "intRequired": 17,
         "maintenanceCost": 0,
-        "effect": "15 meteoros"
+        "effect": "15 meteoros",
+        "damage": 200,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

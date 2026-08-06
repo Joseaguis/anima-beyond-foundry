@@ -188,6 +188,8 @@ export interface SandboxMessage {
   kind: "roll" | "info" | "warn" | "error";
   title: string;
   body: string;
+  /** Rendered instead of `body` when set — used to preview real chat cards. */
+  html?: string;
 }
 
 type ChatListener = (messages: SandboxMessage[]) => void;
@@ -197,15 +199,19 @@ let messages: SandboxMessage[] = [];
 const chatListeners = new Set<ChatListener>();
 
 export const sandboxChat = {
-  push(kind: SandboxMessage["kind"], title: string, body: string): void {
-    const message = { id: nextMessageId++, kind, title, body };
+  push(kind: SandboxMessage["kind"], title: string, body: string, html?: string): void {
+    const message = { id: nextMessageId++, kind, title, body, html };
     messages = [...messages, message];
     for (const listener of chatListeners) listener(messages);
-    // Toast-style expiry: keep the log short-lived.
-    setTimeout(() => {
-      messages = messages.filter((m) => m.id !== message.id);
-      for (const listener of chatListeners) listener(messages);
-    }, 6000);
+    // Toast-style expiry: keep the log short-lived. Cards get longer, since
+    // they carry a breakdown worth reading.
+    setTimeout(
+      () => {
+        messages = messages.filter((m) => m.id !== message.id);
+        for (const listener of chatListeners) listener(messages);
+      },
+      html ? 20000 : 6000,
+    );
   },
   subscribe(listener: ChatListener): () => void {
     chatListeners.add(listener);

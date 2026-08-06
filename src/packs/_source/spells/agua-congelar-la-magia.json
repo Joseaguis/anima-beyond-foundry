@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Agua",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Se congela la magia, paralizando un conjuro y anulando sus efectos. Mientras permanezca helado no desaparece, pero se queda estancado sin producir consecuencias, y tampoco requiere que se pague mantenimiento. Afecta a hechizos controlados por el mago como los lanzados por otros. Cuando congelar la magia deja de mantenerse, el conjuro estancado vuelve a ser efectivo. Ya que es pasivo, puede congelar hechizos que se usan en el mismo turno.",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 9,
         "maintenanceCost": 50,
-        "effect": "Valor zeónico máximo 150."
+        "effect": "Valor zeónico máximo 150.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 400,
         "intRequired": 12,
         "maintenanceCost": 75,
-        "effect": "Valor zeónico máximo 250."
+        "effect": "Valor zeónico máximo 250.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 550,
         "intRequired": 15,
         "maintenanceCost": 90,
-        "effect": "Valor zeónico máximo 300."
+        "effect": "Valor zeónico máximo 300.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 800,
         "intRequired": 18,
         "maintenanceCost": 100,
-        "effect": "Valor zeónico máximo 400."
+        "effect": "Valor zeónico máximo 400.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

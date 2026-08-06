@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Tierra",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Incrementa el peso de un cuerpo, ya sea orgánico o inorgánico",
@@ -23,25 +24,37 @@
         "zeonCost": 40,
         "intRequired": 5,
         "maintenanceCost": 5,
-        "effect": "+20 kilogramos"
+        "effect": "+20 kilogramos",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 8,
         "maintenanceCost": 25,
-        "effect": "+120 kilogramos"
+        "effect": "+120 kilogramos",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 30,
-        "effect": "+200 kilogramos"
+        "effect": "+200 kilogramos",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 320,
         "intRequired": 12,
         "maintenanceCost": 40,
-        "effect": "+300 kilogramos"
+        "effect": "+300 kilogramos",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

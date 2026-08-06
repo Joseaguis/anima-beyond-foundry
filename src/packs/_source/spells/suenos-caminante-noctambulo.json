@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Sueños",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El objetivo puede traer al mundo su yo onirico, la forma más habitual que toma su conciencia al soñar. Mientras su cuerpo físico duerme puede moverse por el mundo en forma de Sueños. Es invisible (salvo por quien pueda ver espíritus) y no hace ruido. Es intangible y no puede tocar nada material. Distancia máxima igual a grado de conjuro. Si recibe algún daño el conjuro se interrumpe.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 30,
-        "effect": "1 km de distancia máxima"
+        "effect": "1 km de distancia máxima",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 30,
-        "effect": "2km de distancia / el afectado puede tornarse visible a voluntad y hablar"
+        "effect": "2km de distancia / el afectado puede tornarse visible a voluntad y hablar",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 140,
         "intRequired": 14,
         "maintenanceCost": 40,
-        "effect": "5 km de distancia máxima / El mago puede alterar su aspecto físico a voluntad"
+        "effect": "5 km de distancia máxima / El mago puede alterar su aspecto físico a voluntad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 160,
         "intRequired": 16,
         "maintenanceCost": 40,
-        "effect": "Cualquier distancia / puede entrar en los Sueños de cualquiera, con RM de 150"
+        "effect": "Cualquier distancia / puede entrar en los Sueños de cualquiera, con RM de 150",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

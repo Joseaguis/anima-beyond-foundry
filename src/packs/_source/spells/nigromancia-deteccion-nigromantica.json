@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Nigromancia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "detection",
     "effect": "Permite al nigromante detectar la presencia de cualquier criatura viva o muerta que se encuentre cerca de él. Para resistirse a sus efectos, hay que superar una RM.",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "RM 120 / 20 metros de radio"
+        "effect": "RM 120 / 20 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "RM 160 / 50 metros de radio"
+        "effect": "RM 160 / 50 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 100,
         "intRequired": 11,
         "maintenanceCost": 10,
-        "effect": "RM 200 / 100 metros de radio"
+        "effect": "RM 200 / 100 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 13,
         "maintenanceCost": 15,
-        "effect": "RM 240 / 150 metros de radio"
+        "effect": "RM 240 / 150 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

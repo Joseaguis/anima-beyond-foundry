@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Oscuridad",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Crea un ambiente místico que nubla los sentidos de cualquiera que se encuentre en su interior. La Oscuridad Ambiental aumenta en dos grados el nivel de dificultad de cualquier control perceptivo que se realice dentro, incluyendo detección por Ki o medios mágicos. No se puede designar blancos en su interior, y la zona permanece inmóvil en el mismo lugar en el que fue lanzada. No tiene control de RM posible.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "Radio de 20 metros"
+        "effect": "Radio de 20 metros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "Radio de 250 metros"
+        "effect": "Radio de 250 metros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "Radio de 500 metros"
+        "effect": "Radio de 500 metros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 15,
-        "effect": "Radio de 1 kilómetro"
+        "effect": "Radio de 1 kilómetro",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

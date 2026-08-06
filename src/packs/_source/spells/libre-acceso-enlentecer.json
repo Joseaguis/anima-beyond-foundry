@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Disminuye la velocidad de reacción y movimiento del sujeto sobre el que se lance el conjuro, provocando un penalizador a su movimiento si no supera una RM",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "Menos 2 al Tipo de movimiento / RM 120"
+        "effect": "Menos 2 al Tipo de movimiento / RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "Menos 4 al Tipo de movimiento / RM 140"
+        "effect": "Menos 4 al Tipo de movimiento / RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "Menos 8 al Tipo de movimiento / RM 160"
+        "effect": "Menos 8 al Tipo de movimiento / RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 15,
         "maintenanceCost": 15,
-        "effect": "Menos 12 al Tipo de movimiento / RM 180"
+        "effect": "Menos 12 al Tipo de movimiento / RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

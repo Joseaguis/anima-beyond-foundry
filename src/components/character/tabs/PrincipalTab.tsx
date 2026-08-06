@@ -4,6 +4,7 @@ import { ItemList } from "../ui/ItemList";
 import { SideLabelTable } from "../ui/SideLabelTable";
 import { SecondarySkillsTable } from "../ui/SecondarySkillsTable";
 import { BreakdownRow } from "../ui/BreakdownRow";
+import { Rollable } from "../ui/Rollable";
 import type { TabProps } from "./types";
 
 const TRAIT_SUBTYPE_LABELS: Record<string, string> = {
@@ -65,7 +66,7 @@ function SpecialInline({
   );
 }
 
-export function PrincipalTab({ system, items, isEditable, onUpdate, itemOps }: TabProps) {
+export function PrincipalTab({ system, items, isEditable, onUpdate, itemOps, rollOps }: TabProps) {
   const lp = system.lifePoints ?? {};
   const fatigue = system.fatigue ?? {};
   const init = system.initiative ?? {};
@@ -123,7 +124,16 @@ export function PrincipalTab({ system, items, isEditable, onUpdate, itemOps }: T
               const c = system[key] ?? {};
               return (
                 <div key={key} className="a-trow" style={{ gridTemplateColumns: CHAR_GRID }}>
-                  <div className="px-2 py-0.5 font-bold text-xs">{label}</div>
+                  <div className="px-2 py-0.5 font-bold text-xs">
+                    <Rollable
+                      slug={`characteristic.${key}`}
+                      onRoll={rollOps?.onRoll}
+                      rollable={rollOps?.rollable}
+                      title={`Control de ${label} (1D10)`}
+                    >
+                      {label}
+                    </Rollable>
+                  </div>
                   <div className="px-1 py-0.5">
                     <NumberField
                       system={system}
@@ -403,7 +413,14 @@ export function PrincipalTab({ system, items, isEditable, onUpdate, itemOps }: T
             return (
               <div key={r.key} className="a-trow" style={{ gridTemplateColumns: RES_GRID }}>
                 <div className="px-2 py-0.5 font-bold text-xs" title={r.name}>
-                  {r.k}
+                  <Rollable
+                    slug={`resistance.${r.key}`}
+                    onRoll={rollOps?.onRoll}
+                    rollable={rollOps?.rollable}
+                    title={`Control de ${r.name}`}
+                  >
+                    {r.k}
+                  </Rollable>
                 </div>
                 <div className="text-center text-[12px]">{presence}</div>
                 <div className="text-center text-[12px] font-semibold">{sign(charMod)}</div>
@@ -493,7 +510,12 @@ export function PrincipalTab({ system, items, isEditable, onUpdate, itemOps }: T
       </div>
 
       {/* Columna derecha: Habilidades Secundarias (como en el Excel) */}
-      <SecondarySkillsTable system={system} style={{ gridColumn: "span 4" }} />
+      <SecondarySkillsTable
+        system={system}
+        style={{ gridColumn: "span 4" }}
+        onRoll={rollOps?.onRoll}
+        rollable={rollOps?.rollable}
+      />
     </div>
   );
 }

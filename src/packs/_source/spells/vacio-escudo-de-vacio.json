@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Vacío",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "defense",
     "effect": "Crea un escudo que detiene los ataques de forma convencional y que anula cualquier poder sobrenatural del que se defienda con éxito si el atacante no logra superar un control de Voluntad o Poder. De igual forma, cualquier objeto físico que logre parar el escudo debe superar una RF o será destruido de inmediato.",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "200 Puntos de Resistencia / Dificultad 14 / RF 100."
+        "effect": "200 Puntos de Resistencia / Dificultad 14 / RF 100.",
+        "damage": 0,
+        "shieldPoints": 200,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "300 Puntos de Resistencia / Dificultad 16 / RF 120."
+        "effect": "300 Puntos de Resistencia / Dificultad 16 / RF 120.",
+        "damage": 0,
+        "shieldPoints": 300,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "400 Puntos de Resistencia / Dificultad 18 / RF 140."
+        "effect": "400 Puntos de Resistencia / Dificultad 18 / RF 140.",
+        "damage": 0,
+        "shieldPoints": 400,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "500 Puntos de Resistencia / Dificultad 20 / RF 160."
+        "effect": "500 Puntos de Resistencia / Dificultad 20 / RF 160.",
+        "damage": 0,
+        "shieldPoints": 500,
+        "damageBarrier": 0
       }
     }
   }

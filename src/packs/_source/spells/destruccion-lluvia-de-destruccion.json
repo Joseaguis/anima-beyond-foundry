@@ -13,7 +13,8 @@
     "actionType": "active",
     "maintenanceType": "none",
     "magicPath": "Destrucción",
-    "damageType": "",
+    "damageType": "ene",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "attack",
     "effect": "Desencadena una tempestad de descargas selectivas en área que destrozan únicamente los blancos designados por el brujo. Este conjuro ataca en la TA de Energía.Adicionalmente, si consigue impactar a un blanco y provocarle daño, este deberá superar una RM o sufrir una perdida de puntos de vida equivalente al nivel de fracaso",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Daño 200 / RM 140 / 50 metros de radio"
+        "effect": "Daño 200 / RM 140 / 50 metros de radio",
+        "damage": 200,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 350,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "Daño 250 / RM 180 / 150 metros de radio"
+        "effect": "Daño 250 / RM 180 / 150 metros de radio",
+        "damage": 250,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 450,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "Daño 300 / RM 220 / 500 metros de radio"
+        "effect": "Daño 300 / RM 220 / 500 metros de radio",
+        "damage": 300,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 600,
         "intRequired": 17,
         "maintenanceCost": 0,
-        "effect": "Daño 400 / RM 260 / 1 kilómetro de radio"
+        "effect": "Daño 400 / RM 260 / 1 kilómetro de radio",
+        "damage": 400,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

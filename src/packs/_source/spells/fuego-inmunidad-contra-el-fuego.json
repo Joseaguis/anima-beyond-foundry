@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Fuego",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este conjuro permite al hechicero, o a las personas que designe, ser inmunes a intensidades de calor. En el caso de que se reciba un ataque basado en dicho elemento, cada intensidad a la que es inmune disminuye 5 puntos de daño base del ataque, otorgando un +5 a las Resistencias contra sus efectos",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "5 Intensidades de calor"
+        "effect": "5 Intensidades de calor",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 140,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "12 Intensidades de calor"
+        "effect": "12 Intensidades de calor",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "20 Intensidades de calor"
+        "effect": "20 Intensidades de calor",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 13,
         "maintenanceCost": 15,
-        "effect": "30 Intensidades de calor"
+        "effect": "30 Intensidades de calor",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

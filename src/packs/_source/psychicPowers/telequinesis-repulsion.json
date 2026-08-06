@@ -17,46 +17,77 @@
     "masteryCost": 1,
     "fortifyCvs": 0,
     "maintenanceDifficulty": "veryHard",
+    "damageType": "",
     "grades": [
       {
         "difficulty": "Rutinario",
-        "effect": "Fatiga 8"
+        "effect": "Fatiga 8",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Fácil",
-        "effect": "Fatiga 6"
+        "effect": "Fatiga 6",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Medio",
-        "effect": "Fatiga 4"
+        "effect": "Fatiga 4",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Difícil",
-        "effect": "Fatiga 2"
+        "effect": "Fatiga 2",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Muy difícil",
-        "effect": "Fuerza 6 /Línea de 2 m"
+        "effect": "Fuerza 6 /Línea de 2 m",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Absurdo",
-        "effect": "Fuerza 8 / Línea de 5 m"
+        "effect": "Fuerza 8 / Línea de 5 m",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Casi imposible",
-        "effect": "Fuerza 10 / Línea de 10 m"
+        "effect": "Fuerza 10 / Línea de 10 m",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Imposible",
-        "effect": "Fuerza 12 / Línea de 20 m"
+        "effect": "Fuerza 12 / Línea de 20 m",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Inhumano",
-        "effect": "Fuerza 14 / Línea de 50 m"
+        "effect": "Fuerza 14 / Línea de 50 m",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Zen",
-        "effect": "Fuerza 18 / Línea de 100 m"
+        "effect": "Fuerza 18 / Línea de 100 m",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     ],
     "effect": ""

@@ -17,46 +17,77 @@
     "masteryCost": 1,
     "fortifyCvs": 0,
     "maintenanceDifficulty": "easy",
+    "damageType": "",
     "grades": [
       {
         "difficulty": "Rutinario",
-        "effect": "Fatiga 1"
+        "effect": "Fatiga 1",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Fácil",
-        "effect": "10m / Ver matrices activas"
+        "effect": "10m / Ver matrices activas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Medio",
-        "effect": "25m / Detecta poder latente"
+        "effect": "25m / Detecta poder latente",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Difícil",
-        "effect": "50m / Reconocer poder"
+        "effect": "50m / Reconocer poder",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Muy difícil",
-        "effect": "100 m"
+        "effect": "100 m",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Absurdo",
-        "effect": "250m Detecta disciplinas"
+        "effect": "250m Detecta disciplinas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Casi imposible",
-        "effect": "500m Mide potencial"
+        "effect": "500m Mide potencial",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Imposible",
-        "effect": "1km Detecta los CV libres"
+        "effect": "1km Detecta los CV libres",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Inhumano",
-        "effect": "5km Poderes de otro psíquico"
+        "effect": "5km Poderes de otro psíquico",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Zen",
-        "effect": "100km"
+        "effect": "100km",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     ],
     "effect": ""

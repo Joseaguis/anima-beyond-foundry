@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Oscuridad",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Forma una coraza mística que otorga TA a su usuario contra todo tipo de ataque, en especial contra los basados en energía. Aunque cuenta como una armadura, no se aplican penalizadores al turno por emplear capas de protección adicionales",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "TA 2 en Energía y TA 1 en el resto"
+        "effect": "TA 2 en Energía y TA 1 en el resto",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "TA 5 en Energía y TA 2 en el resto"
+        "effect": "TA 5 en Energía y TA 2 en el resto",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "TA 8 en Energía y TA 4 en el resto"
+        "effect": "TA 8 en Energía y TA 4 en el resto",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 15,
         "maintenanceCost": 20,
-        "effect": "TA 12 en Energía y TA 6 en el resto"
+        "effect": "TA 12 en Energía y TA 6 en el resto",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

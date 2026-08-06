@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Luz",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Permite al lanzador o el objetivo designado por este entrar en completo letargo, mientras su cuerpo se hace uno con la luz. La entidad abandona el mundo y asciende a la red de almas para nutrirse de sus energías. Apartado y desconocedor de todo lo que sucede en el exterior, multiplica por 10 su regeneración zeónica y cura sus heridas con Regeneración 16. Cuanto tiempo puede permanecer apartado del mundo es determinado por el grado del conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Un día"
+        "effect": "Un día",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 400,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "Una semana"
+        "effect": "Una semana",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 600,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "Un mes"
+        "effect": "Un mes",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 800,
         "intRequired": 18,
         "maintenanceCost": 0,
-        "effect": "Un año"
+        "effect": "Un año",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

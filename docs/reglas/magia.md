@@ -128,6 +128,9 @@ invocaciones, Sheele) — solo consultado su índice, no volcado en detalle.
   tantos conjuros de ataque o anímicos como le permita el número de ataques de los
   luchadores; los escudos no se resienten por recibir golpes adicionales (los únicos
   penalizadores son los negativos a toda acción y la ceguera).
+- Cada grado de un conjuro trae ya su **daño** y sus **puntos de escudo** en el
+  modelo; el grado se elige en el diálogo de tirada. La mecánica de aguante,
+  rotura y barrera de daño está en [tiradas.md](tiradas.md#escudos-sobrenaturales).
 - **Desequilibrio ofensivo** (Core p. 117): se puede desplazar la Proyección hacia
   ataque o defensa en pasos de 10 puntos por nivel, hasta un máximo de ±30.
 - **Dificultades de la Proyección** (Recuadro X, Core p. 116): Rutinario → sobre sí

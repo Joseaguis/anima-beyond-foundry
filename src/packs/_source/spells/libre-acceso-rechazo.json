@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Encanta un cuerpo físico con energía mágica, produciendo un fuerte rechazo a cualquiera que lo toque. El conjuro provoca un impacto sobre todo aquel con el que se ponga en contacto. Como en todos los golpes similares, el DJ deberá considerar el daño que sufre el afectado, dependiendo de la diferencia con un control enfrentado de Agilidad o Fuerza, y los elementos que haya en el entorno.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 5,
-        "effect": "Presencia máxima 30 / Fuerza 8"
+        "effect": "Presencia máxima 30 / Fuerza 8",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 11,
         "maintenanceCost": 5,
-        "effect": "Presencia máxima 40 / Fuerza 10"
+        "effect": "Presencia máxima 40 / Fuerza 10",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 180,
         "intRequired": 13,
         "maintenanceCost": 10,
-        "effect": "Presencia máxima 50 / Fuerza 12"
+        "effect": "Presencia máxima 50 / Fuerza 12",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 220,
         "intRequired": 16,
         "maintenanceCost": 15,
-        "effect": "Presencia máxima 60 / Fuerza 14"
+        "effect": "Presencia máxima 60 / Fuerza 14",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

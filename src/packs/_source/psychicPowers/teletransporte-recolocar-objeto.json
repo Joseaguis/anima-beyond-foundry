@@ -17,46 +17,77 @@
     "masteryCost": 1,
     "fortifyCvs": 0,
     "maintenanceDifficulty": "",
+    "damageType": "",
     "grades": [
       {
         "difficulty": "Rutinario",
-        "effect": "Fatiga 2"
+        "effect": "Fatiga 2",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Fácil",
-        "effect": "Fatiga 1"
+        "effect": "Fatiga 1",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Medio",
-        "effect": "1 kg / 1 m / RF 60"
+        "effect": "1 kg / 1 m / RF 60",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Difícil",
-        "effect": "2 kg / 5 m / RF 80"
+        "effect": "2 kg / 5 m / RF 80",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Muy difícil",
-        "effect": "5 kg / 100 m / RF 100"
+        "effect": "5 kg / 100 m / RF 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Absurdo",
-        "effect": "10 kg / 500 m / RF 120"
+        "effect": "10 kg / 500 m / RF 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Casi imposible",
-        "effect": "25 kg / 1 km / RF 140"
+        "effect": "25 kg / 1 km / RF 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Imposible",
-        "effect": "50 kg / 2 km / RF 160"
+        "effect": "50 kg / 2 km / RF 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Inhumano",
-        "effect": "100 kg / 5 km / RF 180"
+        "effect": "100 kg / 5 km / RF 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Zen",
-        "effect": "500 kg / 10 km / RF 200"
+        "effect": "500 kg / 10 km / RF 200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     ],
     "effect": ""

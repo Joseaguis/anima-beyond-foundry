@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Creación",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Une dos seres, creando otro con características y habilidades de ambos. El mago elige qué capacidades predominarán,de cada uno. El dominio del cuerpo es del que gane un control enfrentado de Voluntad, pero se mantiene algo de personalidad del otro. Los cuerpos vuelven como eran al finalizar el conjuro. La muerte de la entidad conlleva la muerte de ambos . La suma de la presencia no puede ser mayor al limite. Es posible fusionar seres con objetos.",
@@ -23,25 +24,37 @@
         "zeonCost": 140,
         "intRequired": 7,
         "maintenanceCost": 15,
-        "effect": "Presencia máxima 80 / RM 80"
+        "effect": "Presencia máxima 80 / RM 80",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "Presencia máxima 100 / RM 120"
+        "effect": "Presencia máxima 100 / RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "Presencia máxima 150 / RM 140"
+        "effect": "Presencia máxima 150 / RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 350,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "Presencia máxima 200 / RM 180"
+        "effect": "Presencia máxima 200 / RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

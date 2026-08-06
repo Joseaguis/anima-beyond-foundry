@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Conocimiento",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El lanzador obtiene el conocimiento de lanzar un conjuro de una vía que no conoce siempre y cuando el hechizo sea del nivel estipulado por el conjuro. Una vez ejecutado Conocimiento Mágico, el brujo tiene un máximo de 5 asaltos para ejecutar el sortilegio elegido. Este conjuro no funciona con hechizos de la via contraria a la via en la que esté integrada esta subvía.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "Un conjuro de hasta nivel 20"
+        "effect": "Un conjuro de hasta nivel 20",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 150,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Un conjuro de hasta nivel 30"
+        "effect": "Un conjuro de hasta nivel 30",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 200,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Un conjuro de hasta nivel 40"
+        "effect": "Un conjuro de hasta nivel 40",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 250,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "Un conjuro de hasta nivel 50"
+        "effect": "Un conjuro de hasta nivel 50",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

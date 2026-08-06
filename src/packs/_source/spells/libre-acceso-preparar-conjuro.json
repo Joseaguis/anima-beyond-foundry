@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Introduce otro conjuro en un objeto o individuo, para lanzarlo posteriormente automáticamente. Quien tiene el conjuro decide como lanzarlo. Utiliza la Proyección Mágica del mago original, salvo si quien lo posee en la actualidad decide utilizar la suya propia. Una vez lanzado, el hechizo preparado desaparece. Sólo un conjuro lanzado por asalto. Un objeto o persona puede contener hasta 4 veces su presencia en valor zeónico.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "Zeon máximo del conjuro 100"
+        "effect": "Zeon máximo del conjuro 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 300,
         "intRequired": 12,
         "maintenanceCost": 30,
-        "effect": "Zeon máximo del conjuro 200"
+        "effect": "Zeon máximo del conjuro 200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 360,
         "intRequired": 14,
         "maintenanceCost": 40,
-        "effect": "Zeon máximo del conjuro 300"
+        "effect": "Zeon máximo del conjuro 300",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 420,
         "intRequired": 16,
         "maintenanceCost": 45,
-        "effect": "Zeon máximo del conjuro 400"
+        "effect": "Zeon máximo del conjuro 400",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

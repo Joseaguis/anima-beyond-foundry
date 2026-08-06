@@ -13,7 +13,8 @@
     "actionType": "active",
     "maintenanceType": "none",
     "magicPath": "Oscuridad",
-    "damageType": "",
+    "damageType": "ene",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "attack",
     "effect": "Proyecta una descarga de energía basada en oscuridad. Ataca en la TA de Energía.",
@@ -23,25 +24,37 @@
         "zeonCost": 140,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Daño 120 / 25 metros de radio"
+        "effect": "Daño 120 / 25 metros de radio",
+        "damage": 120,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Daño 150 / 100 metros de radio"
+        "effect": "Daño 150 / 100 metros de radio",
+        "damage": 150,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "Daño 200 / 150 metros de radio"
+        "effect": "Daño 200 / 150 metros de radio",
+        "damage": 200,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 350,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "Daño 250 / 250 metros de radio"
+        "effect": "Daño 250 / 250 metros de radio",
+        "damage": 250,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

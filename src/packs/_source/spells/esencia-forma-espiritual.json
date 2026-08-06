@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Esencia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Transforma la forma física de un individuo en materia espiritual. Mientras se encuentre en ese estado, aplicará las reglas descritas en el grado de conjuro como si se tratase de un ser espiritual (Cap. 26)",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "El mago se vuelve intangible."
+        "effect": "El mago se vuelve intangible.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 11,
         "maintenanceCost": 15,
-        "effect": "Como en grado base, pero también carece de necesidades físicas."
+        "effect": "Como en grado base, pero también carece de necesidades físicas.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 140,
         "intRequired": 13,
         "maintenanceCost": 15,
-        "effect": "Como en grado intermedio, pero obtiene invisibilidad espiritual"
+        "effect": "Como en grado intermedio, pero obtiene invisibilidad espiritual",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 160,
         "intRequired": 16,
         "maintenanceCost": 20,
-        "effect": "como avanzada, pero también obtiene el poder Interacción con el mundo."
+        "effect": "como avanzada, pero también obtiene el poder Interacción con el mundo.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

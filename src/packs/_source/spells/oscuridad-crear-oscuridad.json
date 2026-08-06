@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Oscuridad",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Oscurece completamente una zona. Todo lo que hay en su interior se percibe como en una noche cerrada y sin luna",
@@ -23,25 +24,37 @@
         "zeonCost": 20,
         "intRequired": 5,
         "maintenanceCost": 5,
-        "effect": "5 metros de radio"
+        "effect": "5 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 50,
         "intRequired": 8,
         "maintenanceCost": 5,
-        "effect": "25 metros de radio"
+        "effect": "25 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "100 metros de radio"
+        "effect": "100 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 200,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "500 metros de radio"
+        "effect": "500 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

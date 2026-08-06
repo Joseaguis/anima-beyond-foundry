@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Nigromancia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "detection",
     "effect": "El nigromante detecta, automáticamente, cualquier fallecimiento que ocurra en un radio a su alrededor. Este hechizo es también capaz de revelar criaturas no muertas, aunque estas tendrán derecho a una RM para evitar ser encontradas.",
@@ -23,25 +24,37 @@
         "zeonCost": 30,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "100 metros de radio / RM 120"
+        "effect": "100 metros de radio / RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 60,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "250 metros de radio / RM 140"
+        "effect": "250 metros de radio / RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 90,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "500 metros de radio / RM 160"
+        "effect": "500 metros de radio / RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "1 kilometro de radio / RM 180"
+        "effect": "1 kilometro de radio / RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

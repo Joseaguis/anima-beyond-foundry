@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Destrucción",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "El mago puede eliminar un parte de la existencia. El elemento descreado es borrado de la realidad. Nadie le recordará, y todos los sucesos en los que intervino se modificaran . Incluso volverán a la vida quienes hubieran perecido por su causa (salvo almas destruídas). Seres con Gnosis más de 40 o 20 por encima de su Natura son conscientes.Se realiza un control de RM para resistirse. Si afecta a varios, tira la mejor RM. No se pueden descrear elementos del pasado.",
@@ -23,25 +24,37 @@
         "zeonCost": 1000,
         "intRequired": 17,
         "maintenanceCost": 0,
-        "effect": "RM 140"
+        "effect": "RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 2500,
         "intRequired": 18,
         "maintenanceCost": 0,
-        "effect": "RM 160"
+        "effect": "RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 5000,
         "intRequired": 19,
         "maintenanceCost": 0,
-        "effect": "RM 200"
+        "effect": "RM 200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 10000,
         "intRequired": 20,
         "maintenanceCost": 0,
-        "effect": "RM 240"
+        "effect": "RM 240",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

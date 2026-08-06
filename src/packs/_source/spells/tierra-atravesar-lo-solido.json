@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Tierra",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Permite a uno o varios sujetos, atravesar cuerpos sólidos. No hace inmateriales a los blancos, viéndose influidos por los efectos de los elementos como el calor o el frío, pero pueden ignorar completamente cualquier cosa no basada en energía. De este modo, podrían atravesar voluntariamente una pared como si no existiera para ellos, o pasar a través de una espada normal sin sufrir daños. Es posible decidir qué cuerpos puede atravesar y cuáles no.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 7,
         "maintenanceCost": 5,
-        "effect": "Presencia máxima 100"
+        "effect": "Presencia máxima 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 5,
-        "effect": "Presencia máxima 140"
+        "effect": "Presencia máxima 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 10,
-        "effect": "Presencia máxima 180"
+        "effect": "Presencia máxima 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 140,
         "intRequired": 14,
         "maintenanceCost": 10,
-        "effect": "Presencia máxima 240"
+        "effect": "Presencia máxima 240",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

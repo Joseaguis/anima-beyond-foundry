@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Aire",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Aumenta la capacidad de reacción de un sujeto, otorgándole un bono a su turno. A partir de turno 200, este incremento se reduce a la mitad.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "+30 al turno"
+        "effect": "+30 al turno",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 5,
-        "effect": "+60 al turno"
+        "effect": "+60 al turno",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 10,
-        "effect": "+90 al turno"
+        "effect": "+90 al turno",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 15,
         "maintenanceCost": 15,
-        "effect": "+120 al turno"
+        "effect": "+120 al turno",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

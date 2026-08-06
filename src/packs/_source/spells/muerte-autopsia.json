@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Muerte",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Determina la causa de la muerte y el momento en el que ocurrió. No espeficica si el blanco del conjuro murió asesinado, ni tampoco el responsable, pero sí si alguien ha fallecido por contusión masiva, o el tipo de enfermedad que lo mató.",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 4,
         "maintenanceCost": 0,
-        "effect": "1 hora"
+        "effect": "1 hora",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "1 día"
+        "effect": "1 día",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "1 semana"
+        "effect": "1 semana",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "1 mes"
+        "effect": "1 mes",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Conocimiento",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El lanzador del conjuro obtiene conocimiento sobre la naturaleza de una creación. No otorga al lanzador conocimientos de cómo realizar tal cosa pero al menos le guía en que materia ha de buscar o que elementos ha de utilizar. Objetos de naturaleza elevada o especialmente complejos son inmunes a Categorizar",
@@ -23,25 +24,37 @@
         "zeonCost": 30,
         "intRequired": 5,
         "maintenanceCost": 0,
-        "effect": "Sabrá a qué campo de estudio pertenece (mecánica, herrería…) sin más datos."
+        "effect": "Sabrá a qué campo de estudio pertenece (mecánica, herrería…) sin más datos.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 60,
         "intRequired": 7,
         "maintenanceCost": 0,
-        "effect": "Obtiene información de los materiales de los que está compuesto."
+        "effect": "Obtiene información de los materiales de los que está compuesto.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "Obtiene una vaga idea de cómo funciona, aunque no para que sirve."
+        "effect": "Obtiene una vaga idea de cómo funciona, aunque no para que sirve.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 11,
         "maintenanceCost": 0,
-        "effect": "El lanzador obtiene una vaga idea de cómo se creó, aunque no podrá recrearlo."
+        "effect": "El lanzador obtiene una vaga idea de cómo se creó, aunque no podrá recrearlo.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

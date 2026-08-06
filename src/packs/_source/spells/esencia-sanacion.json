@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Esencia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Otorga la capacidad de regenerar a un ritmo vertiginoso las heridas de un individuo, curando los puntos de vida perdidos. No permite recuperar miembros cercenados o daños similares, ni tampoco elimina los penalizadores causados por los críticos, pero sí detiene cualquier tipo de desangramiento. En caso de ser lanzado sobre un ser con acumulación de daño, sólo recupera la mitad del valor porcentual indicado.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "20% puntos de vida"
+        "effect": "20% puntos de vida",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "40% puntos de vida"
+        "effect": "40% puntos de vida",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "60% puntos de vida"
+        "effect": "60% puntos de vida",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "80% puntos de vida"
+        "effect": "80% puntos de vida",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

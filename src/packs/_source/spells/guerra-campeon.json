@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Guerra",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Canaliza el espíritu combativo del grupo en uno de sus guerreros, creando como resultado un luchador implacable e invencible. El hechizo otorga diferentes bonos a las habilidades de combate, siempre y cuando combata junto a sus compañeros. Sólo un individuo por cada 10 que compongan un grupo de batalla puede ser afectado por este sortilegio.",
@@ -23,25 +24,37 @@
         "zeonCost": 140,
         "intRequired": 10,
         "maintenanceCost": 15,
-        "effect": "Da +10 a Toda Acción / +10 Daño / +10 Turno / +2 TA"
+        "effect": "Da +10 a Toda Acción / +10 Daño / +10 Turno / +2 TA",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "Da +10 a Toda Acción / +20 Daño / +20 Turno / +3 TA"
+        "effect": "Da +10 a Toda Acción / +20 Daño / +20 Turno / +3 TA",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 14,
         "maintenanceCost": 20,
-        "effect": "Da +20 a Toda Acción / +20 Daño / +20 Turno / +4 TA"
+        "effect": "Da +20 a Toda Acción / +20 Daño / +20 Turno / +4 TA",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 350,
         "intRequired": 16,
         "maintenanceCost": 30,
-        "effect": "Da +30 a Toda Acción / +30 Daño / +30 Turno / +5 TA"
+        "effect": "Da +30 a Toda Acción / +30 Daño / +30 Turno / +5 TA",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

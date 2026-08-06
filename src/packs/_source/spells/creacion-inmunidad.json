@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Creación",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este conjuro permite al hechicero, o a aquellas personas designadas por él, ser inmune a intensidades de un tipo concreto de energía, ya sea fuego, electricidad o frío. En el caso de que se reciba un ataque basado en el elemento respecto del que se es inmune, cada intensidad disminuye 5 puntos el daño base y otorga un +5 a las Resistencias contra sus efectos.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 6,
         "maintenanceCost": 10,
-        "effect": "5 Intensidades"
+        "effect": "5 Intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "15 Intensidades"
+        "effect": "15 Intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "25 Intensidades"
+        "effect": "25 Intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "35 Intensidades"
+        "effect": "35 Intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

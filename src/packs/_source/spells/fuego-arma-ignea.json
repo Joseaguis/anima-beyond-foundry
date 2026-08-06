@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Fuego",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Imbuye de llamas un arma, haciendo que ataque en la TA de calor como crítico primario. El fuego será tan potente que aumentará el daño base del ataque, sin afectar en absoluto a la resistencia del arma",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "+10 daño base"
+        "effect": "+10 daño base",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "+20 daño base"
+        "effect": "+20 daño base",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 100,
         "intRequired": 11,
         "maintenanceCost": 10,
-        "effect": "+30 daño base"
+        "effect": "+30 daño base",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 14,
         "maintenanceCost": 15,
-        "effect": "+40 daño base"
+        "effect": "+40 daño base",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

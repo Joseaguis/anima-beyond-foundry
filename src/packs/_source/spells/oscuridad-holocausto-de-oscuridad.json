@@ -13,7 +13,8 @@
     "actionType": "active",
     "maintenanceType": "none",
     "magicPath": "Oscuridad",
-    "damageType": "",
+    "damageType": "ene",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "attack",
     "effect": "Este poder arrasa todo, tanto en el mundo material como espiritual. Incluso las criaturas elementales de oscuridad son asimiladas. Una gran cúpula oscura que ataca en la TA de energía. Cualquier ser que reciba daño, por mínimo que sea, debe superar una RM de 160 o es unificado con la oscuridad y destruido en cuerpo y alma. No es posible designar blancos en el radio del conjuro, y afecta a todos por igual salvo al lanzador.",
@@ -23,25 +24,37 @@
         "zeonCost": 600,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "Daño 350 / 100 metros de radio"
+        "effect": "Daño 350 / 100 metros de radio",
+        "damage": 350,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 1000,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "Daño 500 / 100 kilómetros de radio"
+        "effect": "Daño 500 / 100 kilómetros de radio",
+        "damage": 500,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 2500,
         "intRequired": 18,
         "maintenanceCost": 0,
-        "effect": "Daño 800 / 10.000 kilómetros de radio"
+        "effect": "Daño 800 / 10.000 kilómetros de radio",
+        "damage": 800,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 10000,
         "intRequired": 20,
         "maintenanceCost": 0,
-        "effect": "Daño 1.000 / 1 ua de radio"
+        "effect": "Daño 1.000 / 1 ua de radio",
+        "damage": 1000,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

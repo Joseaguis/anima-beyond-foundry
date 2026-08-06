@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Guerra",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este grito provoca que los aliados del hechicero aumenten su espíritu combativo y se vuelvan inmunes a los efectos del Miedo o Dolor. A efectos de juego, se obtiene un Bono a Frialdad hasta que finalice el combate en el que se encuentran trabados o transcurran más de 10 min.",
@@ -23,25 +24,37 @@
         "zeonCost": 30,
         "intRequired": 5,
         "maintenanceCost": 0,
-        "effect": "Da +40 a Frialdad / 10m radio"
+        "effect": "Da +40 a Frialdad / 10m radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 60,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "Da +80 a Frialdad / 50m radio"
+        "effect": "Da +80 a Frialdad / 50m radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 90,
         "intRequired": 11,
         "maintenanceCost": 0,
-        "effect": "Da +120 a Frialdad / 250m radio"
+        "effect": "Da +120 a Frialdad / 250m radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "Da +180 a Frialdad / 500m radio"
+        "effect": "Da +180 a Frialdad / 500m radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

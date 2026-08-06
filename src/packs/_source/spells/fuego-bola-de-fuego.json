@@ -13,7 +13,8 @@
     "actionType": "active",
     "maintenanceType": "none",
     "magicPath": "Fuego",
-    "damageType": "",
+    "damageType": "cal",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "attack",
     "effect": "Proyecta un ataque ígneo que estalla en un área. No es posible seleccionar blancos en el interior de la explosión. Ataca en la TA de calor",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "Daño Base 50 / Área de 5 metros de radio"
+        "effect": "Daño Base 50 / Área de 5 metros de radio",
+        "damage": 50,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "Daño Base 100 / Área de 25 metros de radio"
+        "effect": "Daño Base 100 / Área de 25 metros de radio",
+        "damage": 100,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 160,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Daño Base 140 / Área de 80 metros de radio"
+        "effect": "Daño Base 140 / Área de 80 metros de radio",
+        "damage": 140,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 250,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "Daño Base 160 / Área de 150 metros de radio"
+        "effect": "Daño Base 160 / Área de 150 metros de radio",
+        "damage": 160,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

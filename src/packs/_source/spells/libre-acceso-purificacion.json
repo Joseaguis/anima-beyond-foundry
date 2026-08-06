@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Purifica un cuerpo eliminando cualquier elemento nocivo para el sistema, como venenos o toxinas. La purificación sólo afectará a los elementos de un cuerpo que resulten dañinos y que no pertenezcan a él. De este modo, el veneno que posee una serpiente no se verá alterado, dado que es algo natural para ella, pero podría eliminarse cuando se inocule en una víctima",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 7,
         "maintenanceCost": 0,
-        "effect": "Nivel máximo del veneno 30"
+        "effect": "Nivel máximo del veneno 30",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Nivel máximo del veneno 50"
+        "effect": "Nivel máximo del veneno 50",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Nivel máximo del veneno 70"
+        "effect": "Nivel máximo del veneno 70",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 140,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "Nivel máximo del veneno 90"
+        "effect": "Nivel máximo del veneno 90",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Sueños",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Este hechizo permite observar que está ocurriendo en los Sueños de un durmiente, tanto si son tranquilos como pesadillas. No es posible intervenir en ellos de ninguna manera, pero sí verlos detalladamente. Una persona puede resistirse superando un control de RM, pero si lo falla, solo tiene derecho a un nuevo control cada día, siempre y cuando sea consciente o sospeche que puede estar siendo afectado por un conjuro de estas características.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 10,
-        "effect": "RM 140"
+        "effect": "RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "RM 160"
+        "effect": "RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "RM 180"
+        "effect": "RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "RM 200 / el lanzador puede  manifestar una imagen  de los Sueños"
+        "effect": "RM 200 / el lanzador puede  manifestar una imagen  de los Sueños",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

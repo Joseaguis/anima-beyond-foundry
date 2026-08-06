@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Oscuridad",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El conjuro intercambia la esencia del lanzador por energía divina, modificando su espíritu por puro poder sobrenatural. Al hacerlo, el lanzador o el individuo designado por éste aumenta su Gnosis hasta una cantidad máxima determinada por el grado del conjuro",
@@ -23,25 +24,37 @@
         "zeonCost": 500,
         "intRequired": 14,
         "maintenanceCost": 30,
-        "effect": "Gnosis máximo 30"
+        "effect": "Gnosis máximo 30",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 1000,
         "intRequired": 16,
         "maintenanceCost": 40,
-        "effect": "Gnosis máximo 35"
+        "effect": "Gnosis máximo 35",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 2000,
         "intRequired": 18,
         "maintenanceCost": 45,
-        "effect": "Gnosis máximo 40"
+        "effect": "Gnosis máximo 40",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 5000,
         "intRequired": 20,
         "maintenanceCost": 50,
-        "effect": "Gnosis máximo 45."
+        "effect": "Gnosis máximo 45.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

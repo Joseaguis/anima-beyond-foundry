@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Destrucción",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Herir afecta a la condición física de un individuo, menoscabando su estado de salud en ese momento. Produce heridas y daños equivalentes a un porcentaje de sus puntos de vida actuales, no de su total. Para resistir este hechizo, debe de superase una RM.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "20% de Puntos de Vida / 120 RM"
+        "effect": "20% de Puntos de Vida / 120 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "40% de Puntos de Vida / 140 RM"
+        "effect": "40% de Puntos de Vida / 140 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 180,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "60% de Puntos de Vida / 160 RM"
+        "effect": "60% de Puntos de Vida / 160 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "80% de Puntos de Vida / 200 RM"
+        "effect": "80% de Puntos de Vida / 200 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

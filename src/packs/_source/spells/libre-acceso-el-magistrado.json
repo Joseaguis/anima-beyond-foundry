@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "El mago es juez dentro del area. Puede vetar acción activa de gente, evitando lo que no quiera. No es capaz de someter a nadie a su voluntad. La prohibición es una acción pasiva. El mago debe ser consciente de lo que desea vetar. Cada vez que se quiera hacer algo prohíbido superar RM. Si  alguien consigue superar RM, no se verá totalmente libre, ya que en el siguiente asalto volverá a someterse si no supera otro control. El área permanece estática.",
@@ -23,25 +24,37 @@
         "zeonCost": 450,
         "intRequired": 12,
         "maintenanceCost": 45,
-        "effect": "50 metros de radio / RM 140"
+        "effect": "50 metros de radio / RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 600,
         "intRequired": 14,
         "maintenanceCost": 60,
-        "effect": "100 metros de radio / RM 180"
+        "effect": "100 metros de radio / RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 800,
         "intRequired": 16,
         "maintenanceCost": 80,
-        "effect": "500 metros de radio / RM 220"
+        "effect": "500 metros de radio / RM 220",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 1000,
         "intRequired": 18,
         "maintenanceCost": 100,
-        "effect": "1 kilómetro de radio / RM 260"
+        "effect": "1 kilómetro de radio / RM 260",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

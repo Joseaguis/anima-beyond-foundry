@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Nobleza",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Transforma temporalmente las ropas del blanco del conjuro en otras de calidad exquisita con la capacidad de permanecer limpias y planchadas en todo momento. Las manchas y salpicaduras resbalarán por la tela y los desgarros se zurcirán mágicamente en cuestión de segundos.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "Las habilidades descritas"
+        "effect": "Las habilidades descritas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 5,
-        "effect": "Mientras lleve las ropas, bono de +50 a su habilidad de estilo."
+        "effect": "Mientras lleve las ropas, bono de +50 a su habilidad de estilo.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 11,
         "maintenanceCost": 5,
-        "effect": "Las ropas varían de forma y color dependiendo de la situación y el momento."
+        "effect": "Las ropas varían de forma y color dependiendo de la situación y el momento.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 13,
         "maintenanceCost": 10,
-        "effect": "Las ropas otorgan una TA 4 contra toda clase de ataque, y se reparan solas"
+        "effect": "Las ropas otorgan una TA 4 contra toda clase de ataque, y se reparan solas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

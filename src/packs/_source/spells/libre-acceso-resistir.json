@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Potencia una de las Resistencias de un sujeto. Sólo se mejora un único tipo, como la RM o RF; no en su totalidad",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 20,
-        "effect": "+20 a una Resistencia"
+        "effect": "+20 a una Resistencia",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 11,
         "maintenanceCost": 20,
-        "effect": "+40 a una Resistencia"
+        "effect": "+40 a una Resistencia",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 13,
         "maintenanceCost": 25,
-        "effect": "+60 a una Resistencia"
+        "effect": "+60 a una Resistencia",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 140,
         "intRequired": 16,
         "maintenanceCost": 30,
-        "effect": "+80 a una Resistencia"
+        "effect": "+80 a una Resistencia",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Nigromancia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Permite ver ciertas clases de seres espirituales invisibles al ojo humano.",
@@ -23,25 +24,37 @@
         "zeonCost": 30,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "Permite ver seres espectrales"
+        "effect": "Permite ver seres espectrales",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 60,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "Permite ver seres espectrales y almas que esperan El Llamamiento."
+        "effect": "Permite ver seres espectrales y almas que esperan El Llamamiento.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 90,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "Permite ver toda clase de ser espiritual"
+        "effect": "Permite ver toda clase de ser espiritual",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "Permite ver toda clase de ser espiritual o sobrenatural"
+        "effect": "Permite ver toda clase de ser espiritual o sobrenatural",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

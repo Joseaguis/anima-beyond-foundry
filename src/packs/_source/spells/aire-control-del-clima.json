@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Aire",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El hechicero obtiene un completo control sobre el clima en un radio de acción determinado por el grado del conjuro. Podrá modificar cualquier elemento meteorológico a su antojo, creando la situación climática que desee de manera gradual",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 9,
         "maintenanceCost": 50,
-        "effect": "5 kilometros"
+        "effect": "5 kilometros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 300,
         "intRequired": 12,
         "maintenanceCost": 60,
-        "effect": "25 kilometros"
+        "effect": "25 kilometros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 380,
         "intRequired": 14,
         "maintenanceCost": 80,
-        "effect": "100 kilometros"
+        "effect": "100 kilometros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 500,
         "intRequired": 16,
         "maintenanceCost": 100,
-        "effect": "1000 kilometros"
+        "effect": "1000 kilometros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

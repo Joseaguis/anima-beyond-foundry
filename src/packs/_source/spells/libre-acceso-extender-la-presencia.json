@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El mago puede separar su presencia de su cuerpo pudiendo actuar a distancia. Mientras esté separada el hechicero no podrá moverse, pero puede regresar a su cuerpo cuando quiera. La presencia puede tocar objetos físicos y atacar, pero es invisible; sólo se puede ver con el uso de detecciones de Ki, ver espíritus, o algún otro medio de ver cuerpos etéreos. La presencia es intangible y sólo podrá ser dañada por ataques basados en energía.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 7,
         "maintenanceCost": 10,
-        "effect": "5 metros"
+        "effect": "5 metros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 150,
         "intRequired": 10,
         "maintenanceCost": 15,
-        "effect": "25 metros"
+        "effect": "25 metros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 200,
         "intRequired": 12,
         "maintenanceCost": 20,
-        "effect": "50 metros"
+        "effect": "50 metros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 250,
         "intRequired": 15,
         "maintenanceCost": 25,
-        "effect": "100 metros / Crea copias de la presencia de los objetos que lleve encima"
+        "effect": "100 metros / Crea copias de la presencia de los objetos que lleve encima",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

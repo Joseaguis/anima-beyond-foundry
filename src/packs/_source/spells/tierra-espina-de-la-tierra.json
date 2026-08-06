@@ -13,7 +13,8 @@
     "actionType": "active",
     "maintenanceType": "none",
     "magicPath": "Tierra",
-    "damageType": "",
+    "damageType": "pen",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "attack",
     "effect": "Levanta afiladas aristas del suelo, que utiliza para atacar. Cada espina tiene daño base 60 y ataca en TA de Penetrantes. No afectan a seres inmateriales, ni sobre los que sólo pueden ser afectados por ataques basados en energía (salvo que las espinas se combinen con un conjuro de Encantar). Cada espina puede atacar a distintos blancos o al mismo. No puede usarse para realizar choque de conjuros, ni atacar a seres volando a más de 10 metros del suelo.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "2 espinas"
+        "effect": "2 espinas",
+        "damage": 60,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "4 espinas"
+        "effect": "4 espinas",
+        "damage": 60,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 150,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "6 espinas"
+        "effect": "6 espinas",
+        "damage": 60,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 200,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "8 espinas"
+        "effect": "8 espinas",
+        "damage": 60,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

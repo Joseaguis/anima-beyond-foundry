@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Invoca una masa de alimañas (sapos, lagartijas, avispas, insectos…) hasta el lugar que designe el hechicero. Su aparición no es automática, pero son atraídas de inmediato desde la zona más cercana a donde se encuentran. El sortilegio no otorga ningún control sobre los seres. El lanzador determina que clase de alimañas son las que atrae.",
@@ -23,25 +24,37 @@
         "zeonCost": 30,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "Atrae hasta a quinientos seres"
+        "effect": "Atrae hasta a quinientos seres",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 9,
         "maintenanceCost": 5,
-        "effect": "Atrae hasta diez mil seres"
+        "effect": "Atrae hasta diez mil seres",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 140,
         "intRequired": 11,
         "maintenanceCost": 10,
-        "effect": "Atrae hasta cien mil seres"
+        "effect": "Atrae hasta cien mil seres",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 180,
         "intRequired": 13,
         "maintenanceCost": 15,
-        "effect": "Atrae a varios millones de seres"
+        "effect": "Atrae a varios millones de seres",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

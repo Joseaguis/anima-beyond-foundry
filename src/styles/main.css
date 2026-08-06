@@ -695,3 +695,307 @@
   border-color: var(--acc);
   color: var(--acc);
 }
+
+/* ============================================================
+   Sistema de tiradas: elemento tirable, tarjeta de chat, diálogo.
+   La tarjeta vive fuera de .anima-sheet (el chat de Foundry es su
+   propio árbol), así que define sus propios tokens.
+   ============================================================ */
+
+/* Etiquetas que lanzan una tirada. No cambian la maquetación del Excel:
+   heredan tipografía y caja del texto que sustituyen. */
+.a-rollable {
+  font: inherit;
+  color: inherit;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  text-align: inherit;
+  border-bottom: 1px dotted transparent;
+}
+
+.a-rollable:hover {
+  color: var(--acc, #e0732a);
+  border-bottom-color: var(--acc, #e0732a);
+}
+
+/* ---------------------------------------------------- tarjeta de chat --- */
+
+.anima-card {
+  --card-bd: #b6bcc4;
+  --card-mut: #737a85;
+  --card-acc: #e0732a;
+  --card-red: #d23b3b;
+  --card-green: #2e8b57;
+  font-family: Inter, system-ui, sans-serif;
+  color: #1c2128;
+  border: 1px solid var(--card-bd);
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.anima-card__title {
+  margin: 0;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #eef0f2;
+  background: #17191d;
+  border-bottom: 2px solid var(--card-acc);
+}
+
+.anima-card.is-fumble .anima-card__title { border-bottom-color: var(--card-red); }
+.anima-card.is-success .anima-card__title { border-bottom-color: var(--card-green); }
+
+.anima-card__dice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  flex-wrap: wrap;
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--card-bd);
+  background: #f4f6f8;
+}
+
+.anima-card__die {
+  min-width: 26px;
+  padding: 1px 5px;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  border: 1px solid var(--card-bd);
+  border-radius: 3px;
+  background: #fff;
+}
+
+/* Los dados encadenados por una abierta y el que provoca la pifia se
+   distinguen de un vistazo: es lo primero que se mira en la tarjeta. */
+.anima-card__die--open { border-color: var(--card-acc); color: var(--card-acc); }
+.anima-card__die--max { border-color: var(--card-acc); background: #fdf2e8; }
+.anima-card__die--fumble { border-color: var(--card-red); color: var(--card-red); }
+.anima-card__plus { font-size: 11px; color: var(--card-mut); }
+.anima-card__dice--auto { font-size: 11px; font-style: italic; color: var(--card-mut); }
+
+.anima-card__breakdown { padding: 4px 8px; }
+
+.anima-card__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--card-mut);
+}
+
+.anima-card__row.is-modifier { color: #1c2128; }
+.anima-card__row.is-fumble { color: var(--card-red); }
+.anima-card__row.is-open { color: var(--card-acc); }
+
+.anima-card__total {
+  padding: 2px 8px 6px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
+
+.anima-card.is-fumble .anima-card__total { color: var(--card-red); }
+.anima-card.is-success .anima-card__total { color: var(--card-green); }
+
+.anima-card__outcome {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  justify-content: center;
+  padding: 0 8px 6px;
+}
+
+.anima-card__tag {
+  padding: 1px 6px;
+  font-size: 10.5px;
+  font-weight: 600;
+  border: 1px solid var(--card-bd);
+  border-radius: 10px;
+  background: #f4f6f8;
+}
+
+.anima-card__tag.is-fumble { border-color: var(--card-red); color: var(--card-red); }
+.anima-card__tag.is-success { border-color: var(--card-green); color: var(--card-green); }
+.anima-card__tag.is-failure { color: var(--card-mut); }
+.anima-card__tag.is-grade { border-color: var(--card-acc); color: var(--card-acc); }
+
+.anima-card__buttons,
+.anima-card__round {
+  padding: 6px 8px;
+  border-top: 1px solid var(--card-bd);
+  background: #f4f6f8;
+}
+
+.anima-card__buttons { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+.anima-card__hint { width: 100%; font-size: 10.5px; font-style: italic; color: var(--card-mut); }
+
+.anima-card__button {
+  padding: 2px 8px;
+  font-size: 11px;
+  cursor: pointer;
+  border: 1px solid var(--card-bd);
+  border-radius: 3px;
+  background: #fff;
+}
+
+.anima-card__button:hover { border-color: var(--card-acc); color: var(--card-acc); }
+
+.anima-card__button.is-damage {
+  width: 100%;
+  margin-top: 4px;
+  font-weight: 600;
+  border-color: var(--card-red);
+  color: var(--card-red);
+}
+
+.anima-card__round.is-hit { border-top-color: var(--card-red); }
+
+/* -------------------------------------------------------- diálogo ------- */
+
+.a-check-dialog { padding: 8px; font-size: 12px; }
+
+.a-check-dialog__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--bd, #b6bcc4);
+}
+
+.a-check-dialog__header h2 { margin: 0; font-size: 13px; font-weight: 700; }
+.a-check-dialog__total { font-size: 22px; font-weight: 700; }
+
+.a-check-dialog__modifiers { margin: 6px 0; padding: 0; list-style: none; }
+
+.a-check-dialog__modifiers li,
+.a-check-dialog__base {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 1px 0;
+}
+
+.a-check-dialog__base { font-weight: 600; }
+.a-check-dialog__modifiers li.is-off { opacity: 0.45; text-decoration: line-through; }
+.a-check-dialog__modifiers label { display: flex; align-items: center; gap: 5px; min-width: 0; }
+
+.a-check-dialog__adhoc,
+.a-check-dialog__ranges,
+.a-check-dialog__difficulty {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  padding: 6px 0;
+  border-top: 1px solid var(--bd, #b6bcc4);
+}
+
+.a-check-dialog__adhoc input[type="text"] { flex: 1; min-width: 0; }
+.a-check-dialog__adhoc input[type="number"],
+.a-check-dialog__ranges input,
+.a-check-dialog__difficulty input { width: 64px; }
+.a-check-dialog__ranges label,
+.a-check-dialog__difficulty label { display: flex; align-items: center; gap: 5px; }
+
+.a-check-dialog__grades { display: flex; flex-wrap: wrap; gap: 3px; }
+
+.a-check-dialog__grades button {
+  padding: 1px 5px;
+  font-size: 10px;
+  cursor: pointer;
+  border: 1px solid var(--bd, #b6bcc4);
+  border-radius: 3px;
+  background: #f7f8fa;
+}
+
+.a-check-dialog__grades button.is-active {
+  border-color: var(--acc, #e0732a);
+  color: var(--acc, #e0732a);
+}
+
+.a-check-dialog__footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 6px;
+  padding-top: 8px;
+  border-top: 1px solid var(--bd, #b6bcc4);
+}
+
+.a-check-dialog__footer button { padding: 3px 12px; cursor: pointer; }
+.a-check-dialog__footer .is-primary { font-weight: 600; }
+
+/* Escudos y lanzamiento de conjuros en la tarjeta de chat. */
+
+.anima-card__cast,
+.anima-card__shield {
+  padding: 4px 8px 6px;
+  border-top: 1px solid var(--card-bd, #b6bcc4);
+  background: #f9fafb;
+}
+
+.anima-card__cast .anima-card__buttons {
+  padding: 4px 0 0;
+  border-top: 0;
+  background: none;
+}
+
+.anima-card__shield.is-broken {
+  border-top-color: var(--card-red, #d23b3b);
+  background: #fdf3f3;
+}
+
+/* Selector de grado del diálogo: cada botón muestra a qué se compromete
+   (Zeón, y el daño o el aguante que produce ese grado). */
+.a-check-dialog__grades-pick {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4px;
+  padding: 6px 0;
+  border-top: 1px solid var(--bd, #b6bcc4);
+}
+
+.a-check-dialog__grades-pick button {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 3px 6px;
+  text-align: left;
+  cursor: pointer;
+  border: 1px solid var(--bd, #b6bcc4);
+  border-radius: 4px;
+  background: #f7f8fa;
+}
+
+.a-check-dialog__grades-pick button span {
+  font-size: 11.5px;
+  font-weight: 600;
+}
+
+.a-check-dialog__grades-pick button small {
+  font-size: 10px;
+  color: var(--mut, #737a85);
+}
+
+.a-check-dialog__grades-pick button.is-active {
+  border-color: var(--acc, #e0732a);
+  background: #fdf2e8;
+}
+
+.a-check-dialog__grades-pick button.is-active small {
+  color: var(--acc, #e0732a);
+}
+
+.a-check-dialog__header h2 small {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--mut, #737a85);
+}

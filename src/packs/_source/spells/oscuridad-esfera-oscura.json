@@ -13,7 +13,8 @@
     "actionType": "active",
     "maintenanceType": "sustained",
     "magicPath": "Oscuridad",
-    "damageType": "",
+    "damageType": "ene",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "attack",
     "effect": "Crea una esfera de oscuridad que ataca en TA de ENE. Se controla con la Proyección Mágica del mago hasta impactar, por lo que si un blanco esquiva, podrá seguir atacando en el turno siguiente. Únicamente cuando causa daño o es parada, la esfera desaparece. Si el mago abandona el control directo sobre ella, la esfera se moverá por si misma, atacando todos los asaltos al último blanco prefijado con su propia Proyección Mágica independiente de la del mago.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 6,
         "maintenanceCost": 15,
-        "effect": "Daño Base 100 / Proyección Mágica 150."
+        "effect": "Daño Base 100 / Proyección Mágica 150.",
+        "damage": 100,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "Daño Base de 120 / Proyección Mágica 180"
+        "effect": "Daño Base de 120 / Proyección Mágica 180",
+        "damage": 120,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "Daño Base de 160 / Proyección Mágica 210"
+        "effect": "Daño Base de 160 / Proyección Mágica 210",
+        "damage": 160,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "Daño Base de 200 / Proyección Mágica 240"
+        "effect": "Daño Base de 200 / Proyección Mágica 240",
+        "damage": 200,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

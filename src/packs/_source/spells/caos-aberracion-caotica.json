@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Caos",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Crea un engendro solidificando el caos, que se comportará de un modo impredecible (aunque por regla general, siempre violento). El lanzador solamente puede elegir gastar voluntariamente la mitad de los PD de la criatura, mientras que la otra mitad serán determinados al azar por el Director de Juego.No permite crear criaturas de un nivel superior al del hechicero, ya que estas se basan en la presencia espiritual del mismo.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "Nivel 2"
+        "effect": "Nivel 2",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Nivel 4"
+        "effect": "Nivel 4",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 300,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Nivel 8"
+        "effect": "Nivel 8",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 700,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "Nivel 12"
+        "effect": "Nivel 12",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

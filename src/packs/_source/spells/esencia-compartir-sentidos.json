@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Esencia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Conecta los sentidos del hechicero con los de otros individuos y viceversa, permitiéndoles ver y escuchar lo que otros perciban. Si el brujo lo desea, es capaz de negar el acceso a sus propios sentidos. Para resistirse, debe superarse una RM o RP. Cualquier afectado tiene derecho a una nueva resistencia cada hora. Puede afectar a varios individuos a la vez, siempre que la suma de sus Presencias (sin contar la del hechicero) no supere el máximo indicado por el conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 10,
-        "effect": "Presencia máxima 100 / RM o RP 100 / 1 kilómetro de distancia máxima"
+        "effect": "Presencia máxima 100 / RM o RP 100 / 1 kilómetro de distancia máxima",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "Presencia máxima 160 / RM o RP 160 / 10 kilómetros de distancia máxima."
+        "effect": "Presencia máxima 160 / RM o RP 160 / 10 kilómetros de distancia máxima.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "Presencia máxima 200 / RM o RP 190 / 50 kilómetros de distancia máxima"
+        "effect": "Presencia máxima 200 / RM o RP 190 / 50 kilómetros de distancia máxima",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "Presencia máxima 240 / RM o RP 220 / 150 kilómetros de distancia máxima"
+        "effect": "Presencia máxima 240 / RM o RP 220 / 150 kilómetros de distancia máxima",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

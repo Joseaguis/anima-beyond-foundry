@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Hace que cuerdas, cadenas o cualquier tipo de filamento, se anuden con una habilidad final en Trucos de Manos determinada por el grado del conjuro. Se puede ordenar que aten a un sujeto, el blanco se defendera contra un ataque de Habilidad final igual a Trucos de Manos del conjuro. La Fuerza de la sujeción dependerá del material. Una cuerda muy gruesa tendría una Fuerza 10, unas cadenas tendrian 12. Las cuerdas no son creadas por el hechizo.",
@@ -23,25 +24,37 @@
         "zeonCost": 40,
         "intRequired": 5,
         "maintenanceCost": 0,
-        "effect": "120 en Trucos de Manos"
+        "effect": "120 en Trucos de Manos",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "140 en Trucos de Manos"
+        "effect": "140 en Trucos de Manos",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "180 en Trucos de Manos"
+        "effect": "180 en Trucos de Manos",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 160,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "240 en Trucos de Manos"
+        "effect": "240 en Trucos de Manos",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

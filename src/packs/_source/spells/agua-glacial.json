@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Agua",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Como su nombre indica, crea una inmensa zona glacial alrededor del hechicero, sin importar en absoluto cuáles sean las condiciones climáticas del ambiente en el que se encuentra. Todo el entorno se cubrirá de inmediato de hielo y nieve, reduciendo la temperatura ambiental a varios grados bajo cero. Mientras el conjuro se mantenga, el frío no será afectado por los fenómenos atmosféricos naturales.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 40,
-        "effect": "1 Kilómetro de radio."
+        "effect": "1 Kilómetro de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 300,
         "intRequired": 12,
         "maintenanceCost": 60,
-        "effect": "3 Kilómetros de radio."
+        "effect": "3 Kilómetros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 400,
         "intRequired": 14,
         "maintenanceCost": 80,
-        "effect": "5 Kilómetros de radio."
+        "effect": "5 Kilómetros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 500,
         "intRequired": 16,
         "maintenanceCost": 100,
-        "effect": "10 Kilómetros de radio."
+        "effect": "10 Kilómetros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

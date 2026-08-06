@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Destruye automáticamente un objeto mágico. El hechicero puede elegir si destruir completamente el objeto o, por el contrario, despojarle simplemente de sus cualidades sobrenaturales",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Presencia máxima 80"
+        "effect": "Presencia máxima 80",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 250,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "Presencia máxima 100"
+        "effect": "Presencia máxima 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 320,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "Presencia máxima 120"
+        "effect": "Presencia máxima 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 400,
         "intRequired": 17,
         "maintenanceCost": 0,
-        "effect": "Presencia máxima 140"
+        "effect": "Presencia máxima 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

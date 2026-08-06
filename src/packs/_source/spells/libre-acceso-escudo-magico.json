@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "defense",
     "effect": "Crea un escudo mágico que protege al hechicero frente a cualquier tipo de ataque, incluyendo los de carácter sobrenatural",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 10,
-        "effect": "300 puntos de resistencia"
+        "effect": "300 puntos de resistencia",
+        "damage": 0,
+        "shieldPoints": 300,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "1.000 puntos de resistencia"
+        "effect": "1.000 puntos de resistencia",
+        "damage": 0,
+        "shieldPoints": 1000,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 180,
         "intRequired": 11,
         "maintenanceCost": 20,
-        "effect": "2.000 puntos de resistencia"
+        "effect": "2.000 puntos de resistencia",
+        "damage": 0,
+        "shieldPoints": 2000,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 240,
         "intRequired": 13,
         "maintenanceCost": 25,
-        "effect": "3.000 puntos de resistencia"
+        "effect": "3.000 puntos de resistencia",
+        "damage": 0,
+        "shieldPoints": 3000,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Los afectados por este conjuro podrán alcanzar la dificultad de Inhumano en cualquier campo o materia. Ten en cuenta que ello no quiere decir que las acciones realizadas por dichos sujetos sean automáticamente inhumanas, sino que podrán lograrlas si sus tiradas de habilidad o sus atributos se lo permiten.",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "Permite alcanzar Inhumanidad en una habilidad determinada"
+        "effect": "Permite alcanzar Inhumanidad en una habilidad determinada",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 9,
         "maintenanceCost": 5,
-        "effect": "Permite alcanzar Inhumanidad en cualquier habilidad"
+        "effect": "Permite alcanzar Inhumanidad en cualquier habilidad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 110,
         "intRequired": 11,
         "maintenanceCost": 10,
-        "effect": "Permite alcanzar Inhumanidad en cualquier habilidad y Zen en una habilidad"
+        "effect": "Permite alcanzar Inhumanidad en cualquier habilidad y Zen en una habilidad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 13,
         "maintenanceCost": 15,
-        "effect": "Permite alcanzar Zen en cualquier habilidad"
+        "effect": "Permite alcanzar Zen en cualquier habilidad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Aire",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este hechizo envuelve la esencia de su lanzador, haciendo que la magia fluya en él de un modo instintivo y manifestando automáticamente sus designios. Así pues, la magia y él responden como un solo ser ante cualquier acontecimiento. Mientras se mantenga, cualquier hechizo que ejecute el personaje se considerará una acción pasiva, incluidos los de Ataque y los Anímicos",
@@ -23,25 +24,37 @@
         "zeonCost": 300,
         "intRequired": 12,
         "maintenanceCost": 30,
-        "effect": "Afecta a conjuros de grado base"
+        "effect": "Afecta a conjuros de grado base",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 400,
         "intRequired": 12,
         "maintenanceCost": 40,
-        "effect": "Afecta a conjuros Automáticos de Grado Intermedio"
+        "effect": "Afecta a conjuros Automáticos de Grado Intermedio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 550,
         "intRequired": 14,
         "maintenanceCost": 55,
-        "effect": "Afecta a conjuros Automáticos de Grado Avanzado"
+        "effect": "Afecta a conjuros Automáticos de Grado Avanzado",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 800,
         "intRequired": 16,
         "maintenanceCost": 80,
-        "effect": "Afecta a conjuros Automáticos de Grado Arcano"
+        "effect": "Afecta a conjuros Automáticos de Grado Arcano",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Nigromancia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Permite absorber parte de la vida de otro ser, dañándolo a la vez que el mago se fortalece. El objetivo debe tirar RM o perderá una cantidad de puntos de vida equivalente al nivel de fracaso, los cuales curanrán al mago. Los seres de acumulación pierden cinco veces esa cantidad, pero el brujo, sólo recupera una quinta parte (es decir, si un ser con acumulación de daño falla el control por 20 puntos, perdería 100 PV, aunque el nigromante solo absorbería 20).",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "RM 100"
+        "effect": "RM 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 140,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "RM 140"
+        "effect": "RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 230,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "RM 180"
+        "effect": "RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 320,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "RM 240"
+        "effect": "RM 240",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

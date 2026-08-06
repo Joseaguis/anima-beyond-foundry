@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Pecado",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "El blanco del conjuro se convertirá en un imán para cualquiera que se sienta atraído por el sexo del blanco. Cualquiera que lo vea y no supere la RM se sentirá inmensamente atraído por el afectado, mientras que quien falle el control por más de 40 puntos sentirá una atracción obsesiva y enfermiza.. Cualquier individuo afectado puede repetir el control cada hora.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 7,
         "maintenanceCost": 5,
-        "effect": "RM 140"
+        "effect": "RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 9,
         "maintenanceCost": 5,
-        "effect": "RM 160"
+        "effect": "RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 11,
         "maintenanceCost": 10,
-        "effect": "RM 180"
+        "effect": "RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 13,
         "maintenanceCost": 10,
-        "effect": "RM 200"
+        "effect": "RM 200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

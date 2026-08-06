@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Literae",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Tras escribir una carta es posible utilizar este hechizo para enviar su contenido a un individuo a quien el hechicero conozca personalmente. Puede traspasar estructuras encantadas e menor poder siempre y cuando haya suficiente espacio para, por ejemplo “colar” la carta por debajo de la puerta.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "10 kilómetros"
+        "effect": "10 kilómetros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 140,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "100 kilómetros"
+        "effect": "100 kilómetros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 200,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "1000 kilómetros"
+        "effect": "1000 kilómetros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 280,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "Cualquier Lugar"
+        "effect": "Cualquier Lugar",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

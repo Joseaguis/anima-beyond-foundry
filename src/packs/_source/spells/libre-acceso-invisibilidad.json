@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este conjuro vuelve invisible uno o varios cuerpos designados por el hechicero. Un individuo puede percibir las alteraciones que produce un cuerpo invisible superando un control de Advertir o Buscar contra la Dificultad determinada por el grado del conjuro",
@@ -23,25 +24,37 @@
         "zeonCost": 160,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "Advertir contra Imposible y Buscar contra Absurdo"
+        "effect": "Advertir contra Imposible y Buscar contra Absurdo",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 11,
         "maintenanceCost": 20,
-        "effect": "Advertir contra Inhumano y Buscar contra Casi Imposible"
+        "effect": "Advertir contra Inhumano y Buscar contra Casi Imposible",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 13,
         "maintenanceCost": 25,
-        "effect": "Advertir contra Zen y Buscar contra Imposible"
+        "effect": "Advertir contra Zen y Buscar contra Imposible",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 280,
         "intRequired": 16,
         "maintenanceCost": 30,
-        "effect": "El blanco no puede ser percibido por el sentido de la vista"
+        "effect": "El blanco no puede ser percibido por el sentido de la vista",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

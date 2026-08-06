@@ -39,6 +39,8 @@ export function CharacterSheetApp({
   onItemDelete,
   getCompendiumItems,
   onItemAddFromCompendium,
+  onRoll,
+  rollable,
 }: ReactSheetProps) {
   // Tab state lives in React: it survives Foundry re-renders because the
   // React root persists across them (see ReactApplicationMixin).
@@ -54,6 +56,8 @@ export function CharacterSheetApp({
     onItemAddFromCompendium,
   };
 
+  const rollOps = { onRoll, rollable };
+
   return (
     <div className="anima-sheet">
       <VitalsStrip actor={actor} system={system} />
@@ -66,6 +70,7 @@ export function CharacterSheetApp({
           isEditable={isEditable}
           onUpdate={onUpdate}
           itemOps={itemOps}
+          rollOps={rollOps}
         />
       </section>
     </div>

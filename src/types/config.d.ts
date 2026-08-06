@@ -16,12 +16,21 @@ import type {
   MentalPatternModel,
   MonsterAbilityModel,
 } from "../items";
+import type { AnimaChatFlags } from "../system/chat/flags";
 
 declare module "fvtt-types/configuration" {
   // The sheet layer only runs after the "ready" hook, so type globals (game,
   // ui, canvas...) as fully initialized instead of forcing guards everywhere.
   interface AssumeHookRan {
     ready: never;
+  }
+
+  // Chat cards store the whole check under our system id, so the message can be
+  // re-rendered and completed by the defender later (see system/chat/flags.ts).
+  interface FlagConfig {
+    ChatMessage: {
+      animabfv2: AnimaChatFlags;
+    };
   }
 }
 

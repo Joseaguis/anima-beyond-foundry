@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Estanca un conjuro anímico activo en una persona, haciendo imposible que se libre de sus efectos. El conjuro se utiliza sobre un conjuro Anímico lanzado anteriormente sobre un individuo que falló la Resistencia. Hasta que el conjuro Anímico no deje de mantenerse o sea destruido, el sujeto pierde la capacidad de realizar una RM. No tiene efectos sobre hechizos sin mantenimiento, o aquellos que influyan sólo en un área determinada.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 11,
         "maintenanceCost": 0,
-        "effect": "Estanca un conjuro de grado base"
+        "effect": "Estanca un conjuro de grado base",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 360,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "Estanca un conjuro de grado intermedio"
+        "effect": "Estanca un conjuro de grado intermedio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 420,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "Estanca un conjuro de grado avanzado"
+        "effect": "Estanca un conjuro de grado avanzado",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 480,
         "intRequired": 17,
         "maintenanceCost": 0,
-        "effect": "Estanca un conjuro de grado arcano"
+        "effect": "Estanca un conjuro de grado arcano",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Destrucción",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Afecta directamente a la esencia de la magia y es capaz de disipar el poder de otro sortilegio activo, disminuyendo su grado y valor zeónico. Si el hechizo queda mermado hasta una cantidad menor que el coste de su grado base, desaparece.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "-50 al Zeon del Conjuro / Sólo afecta a conjuros de grado base"
+        "effect": "-50 al Zeon del Conjuro / Sólo afecta a conjuros de grado base",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 400,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "-150 al Zeon del Conjuro/ Afecta a conjuros hasta grado Intermedio"
+        "effect": "-150 al Zeon del Conjuro/ Afecta a conjuros hasta grado Intermedio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 600,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "-250 al Zeon del Conjuro/ Afecta a conjuros hasta grado Avanzado"
+        "effect": "-250 al Zeon del Conjuro/ Afecta a conjuros hasta grado Avanzado",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 700,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "-350 al Zeon del Conjuro/ Afecta a conjuros hasta grado arcano"
+        "effect": "-350 al Zeon del Conjuro/ Afecta a conjuros hasta grado arcano",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

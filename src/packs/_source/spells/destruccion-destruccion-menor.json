@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Destrucción",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Afecta a la esencia de un objeto sin vida, destruyéndolo completamente, siempre que su presencia no sea superior a lo permitido por el grado del conjuro",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "Presencia máxima 20"
+        "effect": "Presencia máxima 20",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "Presencia máxima 40"
+        "effect": "Presencia máxima 40",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 140,
         "intRequired": 11,
         "maintenanceCost": 0,
-        "effect": "Presencia máxima 60"
+        "effect": "Presencia máxima 60",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 180,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "Presencia máxima 80"
+        "effect": "Presencia máxima 80",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

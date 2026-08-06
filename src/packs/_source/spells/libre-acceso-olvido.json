@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Afecta a la memoria de un sujeto, haciéndole olvidar todo lo que desee. Si los recuerdos están muy arraigados en el afectado, podrá aplicar un bono de +40 a su tirada de RM o RP. A pesar de no tener mantenimiento, el blanco tendrá una oportunidad de volver a realizar un control de Resistencia si encuentra algo que pueda hacerle recordar. Este conjuro no afecta a las habilidades del personaje, sólo a la memoria consciente.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "RM o RP 120"
+        "effect": "RM o RP 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 160,
         "intRequired": 11,
         "maintenanceCost": 0,
-        "effect": "RM o RP 140"
+        "effect": "RM o RP 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 200,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "RM o RP 160"
+        "effect": "RM o RP 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 240,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "RM o RP 180"
+        "effect": "RM o RP 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

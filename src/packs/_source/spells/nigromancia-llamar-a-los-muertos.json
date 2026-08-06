@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Nigromancia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este conjuro atrae hasta el nigromante las almas de personas fallecidas o de espectros. El brujo es quien elige a qué espíritu llama, aunque en el caso de que este no pueda responderle, es posible que se presente alguna otra alma en su lugar. Llamar a los Muertos sólo funciona con espíritus que permanecen atados al mundo o con criaturas espectrales, por lo que no tiene poder sobre almas que ya hayan transmigrado.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "Nivel máximo 3"
+        "effect": "Nivel máximo 3",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 140,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Nivel máximo 6"
+        "effect": "Nivel máximo 6",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 160,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "Nivel máximo 9"
+        "effect": "Nivel máximo 9",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 180,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "Nivel máximo 12"
+        "effect": "Nivel máximo 12",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

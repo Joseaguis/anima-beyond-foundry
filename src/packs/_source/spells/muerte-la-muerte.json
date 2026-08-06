@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Muerte",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El brujo puede decidir a voluntad quien fallece en el radio de acción del conjuro. Como efecto automático, el lanzador puede elegir que cualquier ser vivo muera si no supera una RM o RF contra el valor determinado. Alguien que supere la resistencia una vez, no puede volver a ser afectado por este poder, si es lanzado por el mismo hechicero.",
@@ -23,25 +24,37 @@
         "zeonCost": 400,
         "intRequired": 12,
         "maintenanceCost": 40,
-        "effect": "500 m. de radio / RF o RM 80"
+        "effect": "500 m. de radio / RF o RM 80",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 750,
         "intRequired": 14,
         "maintenanceCost": 75,
-        "effect": "1 km. de radio / RF o RM 100"
+        "effect": "1 km. de radio / RF o RM 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 1200,
         "intRequired": 16,
         "maintenanceCost": 120,
-        "effect": "5 km. de radio / RF o RM 120"
+        "effect": "5 km. de radio / RF o RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 2000,
         "intRequired": 18,
         "maintenanceCost": 200,
-        "effect": "10 km. de radio / RF o RM 140"
+        "effect": "10 km. de radio / RF o RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

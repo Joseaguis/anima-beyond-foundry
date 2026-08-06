@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Tierra",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "El mago controla los atomos a su alrededor. Obtiene el dominio de toda la materia, orgánica o inorgánica, que no supere un control de RM o RF y se encuentre dentro del radio. No hay límite para lo que el brujo puede hacer con aquellos elementos que tiene controlados, desde alterar su forma, masa y apariencia, a hacerlo desaparecer por completo, dispersando sus átomos. Este conjuro sólo afecta a la materia física.",
@@ -23,25 +24,37 @@
         "zeonCost": 450,
         "intRequired": 12,
         "maintenanceCost": 45,
-        "effect": "RM o RF 140 / 100 metros de radio"
+        "effect": "RM o RF 140 / 100 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 800,
         "intRequired": 14,
         "maintenanceCost": 80,
-        "effect": "RM o RF 160 / 250 metros de radio"
+        "effect": "RM o RF 160 / 250 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 1200,
         "intRequired": 16,
         "maintenanceCost": 120,
-        "effect": "RM o RF 200 / 500 metros de radio"
+        "effect": "RM o RF 200 / 500 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 1600,
         "intRequired": 18,
         "maintenanceCost": 160,
-        "effect": "RM o RF 240 / 1 kilómetro de radio"
+        "effect": "RM o RF 240 / 1 kilómetro de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

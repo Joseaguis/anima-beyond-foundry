@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Creación",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Potencia otro hechizo al que se le vincule. Otorga al sortilegio las siguientes ventajas: +20 a su RM, +50% de daño / resistencia al daño adicional (redondeado hacia arriba en grupos de 5) y +20% a cualquier valor numérico de diferente naturaleza (Presencia, intensidades, distancia, radio de efecto, incrementos o elementos similares), salvo los valores relacionados con el Gnosis.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "Afecta la los conjuros de Grado Base"
+        "effect": "Afecta la los conjuros de Grado Base",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 12,
         "maintenanceCost": 20,
-        "effect": "Afecta la los conjuros de Grado Intermedio"
+        "effect": "Afecta la los conjuros de Grado Intermedio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "Afecta la los conjuros de Grado Avanzado"
+        "effect": "Afecta la los conjuros de Grado Avanzado",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 400,
         "intRequired": 18,
         "maintenanceCost": 40,
-        "effect": "Afecta la los conjuros de Grado Arcano"
+        "effect": "Afecta la los conjuros de Grado Arcano",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

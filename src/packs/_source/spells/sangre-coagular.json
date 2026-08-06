@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Sangre",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Restaña las heridas mágicamente, impidiendo la pérdida de sangre y cerrando las heridas. Sólo es posible afectar a alguien una vez al día con este conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 40,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "Elimina automáticamente cualquier desangramiento."
+        "effect": "Elimina automáticamente cualquier desangramiento.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "Recupera un 20% de los PV perdidos por cortes o hemorragias."
+        "effect": "Recupera un 20% de los PV perdidos por cortes o hemorragias.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Recupera un 40% de los Puntos de Vida perdidos por cortes o hemorragias."
+        "effect": "Recupera un 40% de los Puntos de Vida perdidos por cortes o hemorragias.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 160,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "Recupera un 60% de los Puntos de Vida perdidos por cortes o hemorragias."
+        "effect": "Recupera un 60% de los Puntos de Vida perdidos por cortes o hemorragias.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

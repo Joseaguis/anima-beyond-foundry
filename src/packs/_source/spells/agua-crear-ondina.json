@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Agua",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Crea una entidad de agua con apariencia de vida bajo el control absoluto del hechicero. El ente será desarrollado como un Ser Entre Mundos, usando los poderes y limitaciones de los elementales de agua del Capítulo 26. Para calcular su nivel máximo, se emplean las mismas reglas que en el conjuro Crear Ser de la vía de Creación.",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 10,
         "maintenanceCost": 50,
-        "effect": "Nivel 1."
+        "effect": "Nivel 1.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 350,
         "intRequired": 12,
         "maintenanceCost": 70,
-        "effect": "Nivel 3."
+        "effect": "Nivel 3.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 500,
         "intRequired": 14,
         "maintenanceCost": 100,
-        "effect": "Nivel 6."
+        "effect": "Nivel 6.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 700,
         "intRequired": 16,
         "maintenanceCost": 140,
-        "effect": "Nivel 10."
+        "effect": "Nivel 10.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

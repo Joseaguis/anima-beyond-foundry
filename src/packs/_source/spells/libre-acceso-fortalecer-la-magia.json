@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Potencia la magía del mago. Fortalece los conjuros contra efectos que pudieran ser perjudiciales. Añade puntos de Zeon “falsos” al valor zeónico de los conjuros que utilice. Este incremento no es real, por lo que estos puntos no otorgan ningún efecto añadido pero aumentan su potencial contra habilidades que afecten a hechizos.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 11,
         "maintenanceCost": 20,
-        "effect": "+50 al valor zeónico falso de los conjuros"
+        "effect": "+50 al valor zeónico falso de los conjuros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 360,
         "intRequired": 13,
         "maintenanceCost": 40,
-        "effect": "+100 al valor zeónico falso de los conjuros"
+        "effect": "+100 al valor zeónico falso de los conjuros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 480,
         "intRequired": 15,
         "maintenanceCost": 50,
-        "effect": "+150 al valor zeónico falso de los conjuros"
+        "effect": "+150 al valor zeónico falso de los conjuros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 600,
         "intRequired": 17,
         "maintenanceCost": 60,
-        "effect": "+250 al valor zeónico falso de los conjuros"
+        "effect": "+250 al valor zeónico falso de los conjuros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

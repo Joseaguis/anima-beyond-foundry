@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Creación",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Mediante el control de la magia, el brujo puede alterar la forma y naturaleza de un objeto inorgánico, convirtiéndolo en otro completamente distinto pero de poder espiritual similar. De este modo, permite transformar algo en otra cosa que tenga una presencia igual o inferior.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "Presencia máxima 20"
+        "effect": "Presencia máxima 20",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 8,
         "maintenanceCost": 5,
-        "effect": "Presencia máxima 30"
+        "effect": "Presencia máxima 30",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 10,
         "maintenanceCost": 5,
-        "effect": "Presencia máxima 40"
+        "effect": "Presencia máxima 40",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 12,
         "maintenanceCost": 10,
-        "effect": "Presencia máxima 50"
+        "effect": "Presencia máxima 50",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

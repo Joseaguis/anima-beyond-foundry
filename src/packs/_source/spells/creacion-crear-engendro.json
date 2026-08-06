@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Creación",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Crea un ser mágico con apariencia de vida bajo control del mago. Se crea como un Ser Entre Mundos con las reglas del Capítulo 26. Tendrá Gnosis 20. Sin importar el Grado, no se puede crear criaturas de un nivel superior al del mago. Los engendros no tienen la capacidad de recibir un alma, por lo que no es posible darles vida independiente mediante el conjuro de Otorgar Alma, ni transmigrar un espíritu en ellos.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "Nivel 2"
+        "effect": "Nivel 2",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 10,
         "maintenanceCost": 15,
-        "effect": "Nivel 4"
+        "effect": "Nivel 4",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 250,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "Nivel 8"
+        "effect": "Nivel 8",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 500,
         "intRequired": 15,
         "maintenanceCost": 50,
-        "effect": "Nivel 12"
+        "effect": "Nivel 12",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

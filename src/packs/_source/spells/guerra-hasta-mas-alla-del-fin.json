@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Guerra",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este hechizo lleva más allá del poder de los mortales el espíritu combativo de los aliados del brujo, permitiéndoles seguir adelante incluso en el umbral de la muerte. Todos sus aliados que se encuentren dentro del radio de acción del sortilegio duplican su aguante en puntos de vida negativos (en caso de usar las reglas opcionales Entre la Vida y la Muerte, aplican un +40 a sus controles de RF), y no sufren ningún negativo por combatir en dicho estado.",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 14,
         "maintenanceCost": 25,
-        "effect": "25m radio"
+        "effect": "25m radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 500,
         "intRequired": 16,
         "maintenanceCost": 50,
-        "effect": "50m radio"
+        "effect": "50m radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 750,
         "intRequired": 18,
         "maintenanceCost": 75,
-        "effect": "250m radio"
+        "effect": "250m radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 1000,
         "intRequired": 20,
         "maintenanceCost": 100,
-        "effect": "500m radio / Puede seguir luchando  hasta 2 asaltos después de muerto"
+        "effect": "500m radio / Puede seguir luchando  hasta 2 asaltos después de muerto",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

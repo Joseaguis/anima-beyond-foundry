@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Permite dominar la voluntad de cualquiera que no supere una RM o RP. El afectado sólo tiene derecho a un nuevo control cada vez que se le ordene realizar un acto que va completamente en contra de su naturaleza. Si la orden es excepcionalmente opuesta, puede aplicar un +20 a su tirada",
@@ -23,25 +24,37 @@
         "zeonCost": 160,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "RM o RP 100"
+        "effect": "RM o RP 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 11,
         "maintenanceCost": 20,
-        "effect": "RM o RP 120"
+        "effect": "RM o RP 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 13,
         "maintenanceCost": 25,
-        "effect": "RM o RP 140"
+        "effect": "RM o RP 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 280,
         "intRequired": 16,
         "maintenanceCost": 30,
-        "effect": "RM o RP 160"
+        "effect": "RM o RP 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

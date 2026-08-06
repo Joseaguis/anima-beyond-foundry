@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Oscuridad",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "defense",
     "effect": "Crea un escudo sobrenatural sombrío que posee además la habilidad de tragarse cualquier hechizo de Ataque que reciba. Para que el conjuro sea absorbido, es necesario primero lograr una parada con éxito contra la descarga, y en segundo lugar ganar un control de choque. El vacío permite absorber la mitad del Zeon del conjuro devorado. Es posible incluso que se trague ataques en área.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 6,
         "maintenanceCost": 10,
-        "effect": "Daño del choque 80 y 600 puntos de Resistencia"
+        "effect": "Daño del choque 80 y 600 puntos de Resistencia",
+        "damage": 80,
+        "shieldPoints": 600,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "Daño del choque 110 y 1200 puntos de Resistencia"
+        "effect": "Daño del choque 110 y 1200 puntos de Resistencia",
+        "damage": 110,
+        "shieldPoints": 1200,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "Daño del choque 140 y 1800 puntos de Resistencia"
+        "effect": "Daño del choque 140 y 1800 puntos de Resistencia",
+        "damage": 140,
+        "shieldPoints": 1800,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 15,
-        "effect": "Daño del choque 170 y 2200 puntos de Resistencia"
+        "effect": "Daño del choque 170 y 2200 puntos de Resistencia",
+        "damage": 170,
+        "shieldPoints": 2200,
+        "damageBarrier": 0
       }
     }
   }

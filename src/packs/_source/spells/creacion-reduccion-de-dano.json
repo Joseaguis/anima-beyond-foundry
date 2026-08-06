@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Creación",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "La magia de este conjuro afecta a la potencia de una agresión, disminuyendo la fuerza de su impacto. Al ser lanzado, reduce el daño base de un ataque. Si esta decrece hasta 0, la agresión no produce ningún efecto. Si, por ejemplo, se utiliza en grado base contra un ataque de daño 60, cuando este vaya a golpear se calculará como si tuviera sólo 20. Dos conjuros de reducción de daño no se superponen frente a una misma fuente de ataque.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "Menos 40 al daño del ataque"
+        "effect": "Menos 40 al daño del ataque",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Menos 60 al daño del ataque"
+        "effect": "Menos 60 al daño del ataque",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 160,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Menos 80 al daño del ataque"
+        "effect": "Menos 80 al daño del ataque",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 240,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "Menos 120 al daño del ataque"
+        "effect": "Menos 120 al daño del ataque",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

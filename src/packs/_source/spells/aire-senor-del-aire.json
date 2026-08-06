@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Aire",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "El mago controla cualquier aire y electricidad, sin importar las intensidades. Este dominio le permite también modificar el clima, como crear vendavales, tormentas o ventiscas de cualquier magnitud. Toda criatura basada en aire que se encuentre dentro del área, deberá superar una RM o será controlada. Si la pasan, ya no necesitan volver a realizar el control. Los afectados tienen derecho a una nueva tirada únicamente si alteran su Resistencia base",
@@ -23,25 +24,37 @@
         "zeonCost": 300,
         "intRequired": 10,
         "maintenanceCost": 30,
-        "effect": "100 kilometros de radio / 140 RM"
+        "effect": "100 kilometros de radio / 140 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 450,
         "intRequired": 12,
         "maintenanceCost": 45,
-        "effect": "1000 kilometros de radio / 180 RM"
+        "effect": "1000 kilometros de radio / 180 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 600,
         "intRequired": 14,
         "maintenanceCost": 60,
-        "effect": "10000 kilometros de radio / 200 RM"
+        "effect": "10000 kilometros de radio / 200 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 1000,
         "intRequired": 16,
         "maintenanceCost": 100,
-        "effect": "100000 kilometros de radio / 240 RM"
+        "effect": "100000 kilometros de radio / 240 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Esencia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "defense",
     "effect": "Crea una barrera espiritual para detener cualquier efecto que obligue a superar una RM o RP, aunque es inútil contra cualquier otro tipo de ataque o conjuro. Tampoco detiene ataques que provoquen daños con efectos añadidos, como Lluvia de Destrucción, por ejemplo. El escudo no tiene puntos de vida, porque no protege contra impactos que causen daños.",
@@ -23,25 +24,37 @@
         "zeonCost": 40,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "Hasta 140 de Resistencia"
+        "effect": "Hasta 140 de Resistencia",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 60,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "Hasta 160 de Resistencia"
+        "effect": "Hasta 160 de Resistencia",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 90,
         "intRequired": 12,
         "maintenanceCost": 10,
-        "effect": "Hasta 200 de Resistencia"
+        "effect": "Hasta 200 de Resistencia",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 15,
         "maintenanceCost": 15,
-        "effect": "Hasta 240 de Resistencia"
+        "effect": "Hasta 240 de Resistencia",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

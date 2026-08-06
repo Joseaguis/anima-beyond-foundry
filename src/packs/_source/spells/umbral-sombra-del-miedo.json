@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Umbral",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este conjuro afecta una zona de terreno, volviéndola lúgubre y tenebrosa a la vista de los demás. Es importante puntualizar que diferentes personas pueden percibir la misma zona de un modo distinto, dependiendo de lo que estos consideren un lugar lúgubre.",
@@ -23,25 +24,37 @@
         "zeonCost": 40,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "50 metros de radio."
+        "effect": "50 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 70,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "250 metros de radio."
+        "effect": "250 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 100,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "500 metros de radio."
+        "effect": "500 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 130,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "1 kilómetro de radio."
+        "effect": "1 kilómetro de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

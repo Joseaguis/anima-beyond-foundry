@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Aire",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El objetivo es transportado a distancia. Se puede pasar a través de cuerpos físicos si no se encuentran basados en energía. Puede afectar a tantos blancos siempre que la suma de sus presencias no supere lo que determine el grado del conjuro. El objetivo tiene que conocer o ver el lugar al que va a ser transportado si quiere poder hacerlo con precisión. En caso contrario, sólo se transportará a un lugar aproximado hacia la dirección que desee",
@@ -23,25 +24,37 @@
         "zeonCost": 180,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "presencia maxima 80 / 10 kilometros"
+        "effect": "presencia maxima 80 / 10 kilometros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 300,
         "intRequired": 11,
         "maintenanceCost": 0,
-        "effect": "presencia maxima 150 / 10000 kilometros"
+        "effect": "presencia maxima 150 / 10000 kilometros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 450,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "presencia maxima 240 / 100000 kilometros"
+        "effect": "presencia maxima 240 / 100000 kilometros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 600,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "presencia maxima 350 / cualquier distancia"
+        "effect": "presencia maxima 350 / cualquier distancia",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

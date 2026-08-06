@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Destrucción",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Arrasa la materia espiritual que se encuentre en el área determinada por el grado de conjuro, acabando con la existencia de todo aquel que no sea capaz de resistirse. Quien falle la RM morirá de inmediato.",
@@ -23,25 +24,37 @@
         "zeonCost": 500,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "RM 100 / 5 kilómetros de radio"
+        "effect": "RM 100 / 5 kilómetros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 800,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "RM 140 /50 kilómetros de radio"
+        "effect": "RM 140 /50 kilómetros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 1500,
         "intRequired": 17,
         "maintenanceCost": 0,
-        "effect": "RM 180 / 250 kilómetros de radio"
+        "effect": "RM 180 / 250 kilómetros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 2500,
         "intRequired": 19,
         "maintenanceCost": 0,
-        "effect": "RM 220 / 1.000 kilómetros de radio"
+        "effect": "RM 220 / 1.000 kilómetros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

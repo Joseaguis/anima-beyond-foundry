@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Creación",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Crea una criatura con apariencia de vida bajo el control del mago. Será un Ser Entre Mundos con Gnosis 25. Su existencia se encuentra atada al alma del mago y el número de seres que haya creado que dependan de él limitará su nivel máximo. Puede tener como tope el nivel de su creador, menos el número de entidades creadas. Si uno o varios seres tienen ya su nivel máximo y el brujo crea otro nuevo, los anteriores bajan un nivel.",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 9,
         "maintenanceCost": 50,
-        "effect": "Nivel 1"
+        "effect": "Nivel 1",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 400,
         "intRequired": 12,
         "maintenanceCost": 80,
-        "effect": "Nivel 5"
+        "effect": "Nivel 5",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 600,
         "intRequired": 15,
         "maintenanceCost": 120,
-        "effect": "Nivel 9"
+        "effect": "Nivel 9",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 1000,
         "intRequired": 17,
         "maintenanceCost": 200,
-        "effect": "Nivel 12"
+        "effect": "Nivel 12",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

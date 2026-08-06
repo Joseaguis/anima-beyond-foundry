@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Ilusión",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Forma una ilusión completa, que engaña a los cinco sentido de los afectados. El brujo podrá crear cualquier cosa inanimada. La ilusión será destruida si es alcanzada por ataques que dañen en energía. El conjuro afectará a cualquiera capaz de ver, oír o sentir la ilusión y que no supere una RM.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "120 RM."
+        "effect": "120 RM.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 5,
-        "effect": "160 RM."
+        "effect": "160 RM.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 10,
-        "effect": "200 RM."
+        "effect": "200 RM.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 10,
-        "effect": "240 RM."
+        "effect": "240 RM.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

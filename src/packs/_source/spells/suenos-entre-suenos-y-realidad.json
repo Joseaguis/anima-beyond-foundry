@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Sueños",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Permite al hechicero  fundir temporalmente en mundo real y la Vigilia. Los seres que entren en dicha zona seguirán siendo “de su lado”, por lo que si salen de la zona afectada lo seguirán haciendo “por su lado” (es decir, un ser de la Vigilia seguirá en su plano de existencia al cruzar el área afectada por el conjuro). No obstante, las criaturas que tienen poderes especiales en la Vigilia los mantendrán en dicha zona.",
@@ -23,25 +24,37 @@
         "zeonCost": 400,
         "intRequired": 13,
         "maintenanceCost": 80,
-        "effect": "100m de radio"
+        "effect": "100m de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 500,
         "intRequired": 15,
         "maintenanceCost": 100,
-        "effect": "500m de radio"
+        "effect": "500m de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 700,
         "intRequired": 17,
         "maintenanceCost": 140,
-        "effect": "1km de radio"
+        "effect": "1km de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 900,
         "intRequired": 19,
         "maintenanceCost": 180,
-        "effect": "3km de radio"
+        "effect": "3km de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

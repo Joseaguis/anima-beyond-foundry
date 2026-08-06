@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Aumenta el aguante de un ser vivo, otorgando un bonificador a la habilidad secundaria Resistir el Dolor",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 10,
-        "effect": "Más 50 a Resistir el dolor"
+        "effect": "Más 50 a Resistir el dolor",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "Más 100 a Resistir el dolor"
+        "effect": "Más 100 a Resistir el dolor",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 11,
         "maintenanceCost": 15,
-        "effect": "Más 150 a Resistir el dolor / Permite alcanzar Inhumanidad"
+        "effect": "Más 150 a Resistir el dolor / Permite alcanzar Inhumanidad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 14,
         "maintenanceCost": 15,
-        "effect": "Más 200 a Resistir el dolor / Permite alcanzar Zen"
+        "effect": "Más 200 a Resistir el dolor / Permite alcanzar Zen",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Agua",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Crea agua o un cuerpo líquido similar. En el caso de que el compuesto tenga una presencia superior al agua, el DJ tiene la capacidad de reducir como considere necesario su cantidad. Este conjuro no permite elaborar líquidos con capacidades místicas.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 6,
         "maintenanceCost": 10,
-        "effect": "50 litros de agua."
+        "effect": "50 litros de agua.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 140,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "500 litros de agua."
+        "effect": "500 litros de agua.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "5.000 litros de agua."
+        "effect": "5.000 litros de agua.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 350,
         "intRequired": 16,
         "maintenanceCost": 30,
-        "effect": "50.000 litros de agua."
+        "effect": "50.000 litros de agua.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

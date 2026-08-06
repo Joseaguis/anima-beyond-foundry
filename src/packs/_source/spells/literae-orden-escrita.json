@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Literae",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "La orden funcionará incluso si está oculta entre otras frases, aunque el personaje afectado obtiene entre un +20 y +60 al control si el mandato va directamente en contra de su naturaleza. Este conjuro puede repetirse de manera encadenada en varias ocasiones para crear una orden compleja, como “abre la puerta y luego olvida lo ocurrido”. El poder de las palabras pierde su poder después de haber imbuido a una persona con la orden.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "RM o RP 120"
+        "effect": "RM o RP 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 240,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "RM o RP 140"
+        "effect": "RM o RP 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 360,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "RM o RP 160"
+        "effect": "RM o RP 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 480,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "RM o RP 180"
+        "effect": "RM o RP 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

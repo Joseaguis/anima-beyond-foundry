@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Literae",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "El lanzador puede escribir cualquier desenlace que desee para la vida de una persona. La condición para verse afectado por este sortilegio es haber sido visto por el brujo al menos una vez y que este conozca su nombre verdadero. Para evitar sus efectos, tanto el blanco de Tragedia como cualquier persona involucrada han de superar la RM del sortilegio. De conseguirlo, se vuelven inmunes a este hechizo (lanzado por el mismo brujo) durante el resto de su vida.",
@@ -23,25 +24,37 @@
         "zeonCost": 500,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "RM 120"
+        "effect": "RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 900,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "RM 140"
+        "effect": "RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 1400,
         "intRequired": 17,
         "maintenanceCost": 0,
-        "effect": "RM 160"
+        "effect": "RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 2500,
         "intRequired": 19,
         "maintenanceCost": 0,
-        "effect": "RM 180"
+        "effect": "RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

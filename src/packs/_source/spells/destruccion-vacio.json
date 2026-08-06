@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Destrucción",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Esfera de vacío que absorbe materia física y espiritual. Se lanza en espacio abierto, y allí se queda. Tiene Fuerza 14, y quien fracase un control de características será atraído a un ritmo de 10 metros por punto. Cada turno en su interior se tira RM o perder puntos de Zeon igual al 2 veces nivel de fracaso, y RF o perderlos en Puntos de Vida. Alguien sin Zeon, pierde un punto permanente de Poder por cada 100 de Zeon. Si llega hasta cero, o muere, será engullido.",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "5 metros de radio / 50 metros de succión / 120 de RM y RF"
+        "effect": "5 metros de radio / 50 metros de succión / 120 de RM y RF",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 350,
         "intRequired": 14,
         "maintenanceCost": 40,
-        "effect": "15 metros de radio / 500 metros de succión / 160 de RM y RF"
+        "effect": "15 metros de radio / 500 metros de succión / 160 de RM y RF",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 500,
         "intRequired": 16,
         "maintenanceCost": 45,
-        "effect": "25 metros de radio / 1 kilómetro de succión / 200 de RM y RF"
+        "effect": "25 metros de radio / 1 kilómetro de succión / 200 de RM y RF",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 800,
         "intRequired": 18,
         "maintenanceCost": 55,
-        "effect": "50 metros de radio / 3 kilómetros de succión / 240 de RM y RF"
+        "effect": "50 metros de radio / 3 kilómetros de succión / 240 de RM y RF",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

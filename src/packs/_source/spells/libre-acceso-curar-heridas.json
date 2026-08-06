@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Sana cualquier clase de herida recuperando Puntos de Vida. Este tipo de curación no permite recobrar miembros perdidos o daños similares, pero sí evita los efectos del desangramiento",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "40 Puntos de vida"
+        "effect": "40 Puntos de vida",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 140,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "80 Puntos de vida"
+        "effect": "80 Puntos de vida",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 180,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "160 Puntos de vida"
+        "effect": "160 Puntos de vida",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 220,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "320 Puntos de vida"
+        "effect": "320 Puntos de vida",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

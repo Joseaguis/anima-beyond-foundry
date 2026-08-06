@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Destrucción",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Produce automáticamente una herida al objetivo. De no superar la RM, el individuo afectado recibe directamente el daño indicado. Las criaturas de acumulación multiplican esta cantidad por su múltiplo de acumulación.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "50 puntos de daño / 120 RM"
+        "effect": "50 puntos de daño / 120 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "100 puntos de daño / 140 RM"
+        "effect": "100 puntos de daño / 140 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 180,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "180 puntos de daño / 160 RM"
+        "effect": "180 puntos de daño / 160 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "250 puntos de daño / 200 RM"
+        "effect": "250 puntos de daño / 200 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Fusiona objetos, como armas, armaduras, con el objetivo. El objeto quedará oculto bajo alguna forma visible, como icatriz o tatuaje, hasta el que se extraiga. Mientras se encuentren ocultos, aquel que los porte no tendrá ningún penalizador por peso o por tamaño, tampoco sus beneficios. No se puede fusionar algo que exceda en más de diez veces el tamaño del contenedor. Separar un objeto del cuerpo, requiere un asalto completo.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 15,
-        "effect": "Presencia máxima 80"
+        "effect": "Presencia máxima 80",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "Presencia máxima 180"
+        "effect": "Presencia máxima 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "Presencia máxima 280"
+        "effect": "Presencia máxima 280",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "Presencia máxima 320"
+        "effect": "Presencia máxima 320",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

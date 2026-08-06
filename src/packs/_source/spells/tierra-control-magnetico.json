@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Tierra",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Controla campos magnéticos, manipula a distancia, cuerpos metálicos, con fuerza dada por el grado de conjuro. Produce un efecto automático sobre el metal y puede evitarse con un control enfrentado de Fuerza o Agilidad. esto es una acción activa, por lo que no puede emplearse como defensa. Si un cuerpo tiene metales solo en parte, o esta escudado con energía, el control tiene -4. Si se usa arma a distancia, se aplicaran las reglas de Telequinesis Menor.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 6,
         "maintenanceCost": 10,
-        "effect": "25 metros de radio / Fuerza 10"
+        "effect": "25 metros de radio / Fuerza 10",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "150 metros de radio / Fuerza 12"
+        "effect": "150 metros de radio / Fuerza 12",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "350 metros de radio / Fuerza 13"
+        "effect": "350 metros de radio / Fuerza 13",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 320,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "500 metros de radio / Fuerza 14"
+        "effect": "500 metros de radio / Fuerza 14",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

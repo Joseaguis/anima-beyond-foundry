@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Permite enviar imágenes y palabras al subconsciente de un durmiente. El conjuro no funciona como un sistema de comunicación, ya que el brujo no tendrá constancia de lo que el soñador diga o haga. El mensaje puede mandarse a cualquier sujeto que el hechicero designe, sin importar la distancia a la que esté. La condición para ser afectado por el conjuro es estar durmiendo, y ser el individuo elegido por el lanzador",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "Sueños vagos,poco claros,imágenes fragmentadas,frases inconexas y sonidos"
+        "effect": "Sueños vagos,poco claros,imágenes fragmentadas,frases inconexas y sonidos",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Los Sueños son vagos, pero permiten mostrar secuencias y lugares al soñador"
+        "effect": "Los Sueños son vagos, pero permiten mostrar secuencias y lugares al soñador",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Sueños claros con mensaje comprensible, imágenes ideadas por el mago"
+        "effect": "Sueños claros con mensaje comprensible, imágenes ideadas por el mago",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "Sueños claros, permitiendo al soñador preguntar o interactuar con lo que ve"
+        "effect": "Sueños claros, permitiendo al soñador preguntar o interactuar con lo que ve",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

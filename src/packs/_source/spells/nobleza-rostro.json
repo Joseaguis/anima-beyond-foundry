@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Nobleza",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Elimina las imperfecciones externas que puedan afectar al rostro del blanco del conjuro, cubriendo dichos defectos con una suave capa de maquillaje sobrenatural.",
@@ -23,25 +24,37 @@
         "zeonCost": 30,
         "intRequired": 5,
         "maintenanceCost": 5,
-        "effect": "Las habilidades descritas"
+        "effect": "Las habilidades descritas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 50,
         "intRequired": 8,
         "maintenanceCost": 5,
-        "effect": "El personaje incrementa un punto su apariencia (hasta un máximo de 9)"
+        "effect": "El personaje incrementa un punto su apariencia (hasta un máximo de 9)",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 80,
         "intRequired": 10,
         "maintenanceCost": 5,
-        "effect": "El personaje incrementa dos puntos su apariencia (hasta un máximo de 10)"
+        "effect": "El personaje incrementa dos puntos su apariencia (hasta un máximo de 10)",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 10,
-        "effect": "El personaje incrementa tres puntos su apariencia (hasta un máximo de 10)"
+        "effect": "El personaje incrementa tres puntos su apariencia (hasta un máximo de 10)",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

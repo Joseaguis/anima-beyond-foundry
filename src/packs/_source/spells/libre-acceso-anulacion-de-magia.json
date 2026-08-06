@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Anula los efectos de todos los conjuros (incluidos los del lanzador) que se encuentren en un radio alrededor del hechicero y cuyo valor zeónico no supere lo que determine el grado del conjuro. Ten en cuenta que no los destruye, sino simplemente neutraliza sus efectos mientras estén dentro del área",
@@ -23,25 +24,37 @@
         "zeonCost": 150,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "Valor zeónico máximo 60 / 10 metros de radio"
+        "effect": "Valor zeónico máximo 60 / 10 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "Valor zeónico máximo 100 / 25 metros de radio"
+        "effect": "Valor zeónico máximo 100 / 25 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "Valor zeónico máximo 140 / 50 metros de radio"
+        "effect": "Valor zeónico máximo 140 / 50 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 280,
         "intRequired": 14,
         "maintenanceCost": 15,
-        "effect": "Valor zeónico máximo 180 / 100 metros de radio"
+        "effect": "Valor zeónico máximo 180 / 100 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Oscuridad",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Permite dominar cualquier pesadilla de objetivo que no pase RM. El mago podra controlar el mundo onírico de un durmiente, modificándolo como si tuviera Gnosis 45. En el caso de que sea un buen Sueños, su Gnosis será sólo de 30. Los conjuros que el brujo lance únicamente gracias a dicho Gnosis (como por ejemplo, magia divina), no tienen efecto fuera de los límites espaciales del conjuro y sus efectos desaparecen en cuanto el mago sale del Sueños o de la Vigilia",
@@ -23,25 +24,37 @@
         "zeonCost": 300,
         "intRequired": 12,
         "maintenanceCost": 60,
-        "effect": "RM 140."
+        "effect": "RM 140.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 400,
         "intRequired": 14,
         "maintenanceCost": 65,
-        "effect": "RM 150 / En la Vigilia, obtiene Gnosis 40. En zona neutra, 30."
+        "effect": "RM 150 / En la Vigilia, obtiene Gnosis 40. En zona neutra, 30.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 500,
         "intRequired": 16,
         "maintenanceCost": 70,
-        "effect": "RM 160 / Como Intermedio, pero el Gnosis del brujo en zonas neutras es de 35."
+        "effect": "RM 160 / Como Intermedio, pero el Gnosis del brujo en zonas neutras es de 35.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 750,
         "intRequired": 18,
         "maintenanceCost": 80,
-        "effect": "RM 180 / Como Avanzado, sin límites espacial."
+        "effect": "RM 180 / Como Avanzado, sin límites espacial.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

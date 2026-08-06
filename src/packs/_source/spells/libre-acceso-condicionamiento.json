@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Afecta a otros conjuros del mago, estancándolos hasta darse una circunstancia. Debe lanzarse a la vez que los hechizos adicionales. El conjuro se activará automáticamente en el momento dé la circunstancia, incluso si el mago no es consciente. La acción del conjuro es activa o pasiva, dependiendo de este. Puede tener varios conjuros pero sin exceder el Zeon máximo determinado por Grado del conjuro. Sólo es posible mantener activo un condicionar a la vez.",
@@ -23,25 +24,37 @@
         "zeonCost": 300,
         "intRequired": 11,
         "maintenanceCost": 30,
-        "effect": "Zeón máximo 100"
+        "effect": "Zeón máximo 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 400,
         "intRequired": 13,
         "maintenanceCost": 40,
-        "effect": "Zeón máximo 150"
+        "effect": "Zeón máximo 150",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 500,
         "intRequired": 15,
         "maintenanceCost": 50,
-        "effect": "Zeón máximo 200"
+        "effect": "Zeón máximo 200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 600,
         "intRequired": 17,
         "maintenanceCost": 60,
-        "effect": "Zeón máximo 250"
+        "effect": "Zeón máximo 250",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

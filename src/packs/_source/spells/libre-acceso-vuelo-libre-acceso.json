@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Otorga al afectado la capacidad de moverse por el aire a voluntad",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 8,
         "maintenanceCost": 5,
-        "effect": "Tipo de Vuelo Místico 8"
+        "effect": "Tipo de Vuelo Místico 8",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 11,
         "maintenanceCost": 10,
-        "effect": "Tipo de Vuelo Místico 10"
+        "effect": "Tipo de Vuelo Místico 10",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 140,
         "intRequired": 13,
         "maintenanceCost": 10,
-        "effect": "Tipo de Vuelo Místico 12"
+        "effect": "Tipo de Vuelo Místico 12",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 160,
         "intRequired": 16,
         "maintenanceCost": 10,
-        "effect": "Tipo de Vuelo Místico 14"
+        "effect": "Tipo de Vuelo Místico 14",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

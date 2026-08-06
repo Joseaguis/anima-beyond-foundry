@@ -17,46 +17,77 @@
     "masteryCost": 1,
     "fortifyCvs": 0,
     "maintenanceDifficulty": "hard",
+    "damageType": "",
     "grades": [
       {
         "difficulty": "Rutinario",
-        "effect": "Fatiga 6"
+        "effect": "Fatiga 6",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Fácil",
-        "effect": "Fatiga 4"
+        "effect": "Fatiga 4",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Medio",
-        "effect": "Fatiga 2"
+        "effect": "Fatiga 2",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Difícil",
-        "effect": "600 PVs"
+        "effect": "600 PVs",
+        "damage": 0,
+        "shieldPoints": 600,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Muy difícil",
-        "effect": "800 PVs"
+        "effect": "800 PVs",
+        "damage": 0,
+        "shieldPoints": 800,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Absurdo",
-        "effect": "1200 PVs"
+        "effect": "1200 PVs",
+        "damage": 0,
+        "shieldPoints": 1200,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Casi imposible",
-        "effect": "1800 PVs"
+        "effect": "1800 PVs",
+        "damage": 0,
+        "shieldPoints": 1800,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Imposible",
-        "effect": "2500 PVs"
+        "effect": "2500 PVs",
+        "damage": 0,
+        "shieldPoints": 2500,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Inhumano",
-        "effect": "4000 PVs"
+        "effect": "4000 PVs",
+        "damage": 0,
+        "shieldPoints": 4000,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Zen",
-        "effect": "6000 PVs"
+        "effect": "6000 PVs",
+        "damage": 0,
+        "shieldPoints": 6000,
+        "damageBarrier": 0
       }
     ],
     "effect": ""

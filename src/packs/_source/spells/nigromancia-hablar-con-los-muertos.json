@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Nigromancia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Este hechizo confiere al nigromante la capacidad de comunicarse con almas y espíritus de seres muertos que se encuentren a su alrededor, incluso si no es consciente de su posición exacta. El nivel del espíritu es el que determina si este puede o no escucharle.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "Nivel 4"
+        "effect": "Nivel 4",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 5,
-        "effect": "Nivel 8"
+        "effect": "Nivel 8",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 5,
-        "effect": "Nivel 12"
+        "effect": "Nivel 12",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 15,
         "maintenanceCost": 5,
-        "effect": "Nivel 16"
+        "effect": "Nivel 16",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

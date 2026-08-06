@@ -260,6 +260,39 @@ export function getDifficultyForValue(value: number): DifficultyRow | undefined 
   return hit;
 }
 
+/**
+ * Tabla 1: Controles de Características (Core Exxet pág. 8). The four difficulty
+ * grades of the D10 checks — a scale of its own, unrelated to the ten-grade
+ * `DIFFICULTY_LEVELS` used by the D100 supernatural checks.
+ */
+export type CharacteristicDifficultyKey = "simple" | "normal" | "complex" | "extreme";
+
+export interface CharacteristicDifficultyRow {
+  key: CharacteristicDifficultyKey;
+  /** Value the check must reach. */
+  value: number;
+  label: string;
+}
+
+export const CHARACTERISTIC_DIFFICULTIES: readonly CharacteristicDifficultyRow[] = [
+  { key: "simple", value: 6, label: "Simple" },
+  { key: "normal", value: 10, label: "Normal" },
+  { key: "complex", value: 15, label: "Complejo" },
+  { key: "extreme", value: 20, label: "Extremo" },
+];
+
+/**
+ * Tabla 52: La pifia en turno (Core Exxet pág. 96). A fumble rolling initiative
+ * means acting last; no Fumble Level is calculated. This penalty only decides
+ * whether others surprise the character. Anything outside 1-3 has no penalty.
+ */
+export function getTurnFumblePenalty(natural: number): number {
+  if (natural === 1) return -125;
+  if (natural === 2) return -100;
+  if (natural === 3) return -75;
+  return 0;
+}
+
 /** Tabla 37: Num. de Acciones (Core Exxet pág. 81), indexed by DEX + AGI. */
 export function getActionsPerTurn(dexPlusAgi: number): number {
   if (dexPlusAgi >= 32) return 10;

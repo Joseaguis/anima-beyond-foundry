@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Nobleza",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Proporciona al lanzador la inspiración necesaria para efectuar una magistral interpretación de alguna forma de arte tradicional. Da al hechicero la habilidad secundaria base que pone a prueba (Música, Baile o Arte) o bien la mitad de dicho valor como bono a su propia habilidad.  Aunque no tenga mantenimiento el hechizo perdura el tiempo suficiente para realizar la interpretación siempre que no sea superior a un dia.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "120 de habilidad"
+        "effect": "120 de habilidad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "180 de habilidad"
+        "effect": "180 de habilidad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 11,
         "maintenanceCost": 0,
-        "effect": "240 de habilidad"
+        "effect": "240 de habilidad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "280 de habilidad"
+        "effect": "280 de habilidad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

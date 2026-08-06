@@ -110,7 +110,7 @@ const SUMMONING_SKILLS: { key: string; label: string; valueKey: string }[] = [
   { key: "banish", label: "Desconvocar", valueKey: "banish" },
 ];
 
-export function MisticosTab({ system, items, isEditable, onUpdate, itemOps }: TabProps) {
+export function MisticosTab({ system, items, isEditable, onUpdate, itemOps, rollOps }: TabProps) {
   const mg = system.magic ?? {};
   const summons: Summon[] = mg.summons ?? [];
   const activeSpells: ActiveSpell[] = mg.activeSpells ?? [];
@@ -300,6 +300,10 @@ export function MisticosTab({ system, items, isEditable, onUpdate, itemOps }: Ta
         addLabel="+ Conjuro"
         emptyLabel="Sin conjuros."
         style={{ gridColumn: "span 6" }}
+        // Pulsar el nombre tira la proyección mágica de ese conjuro. Los
+        // conjuros de efecto no la necesitan (Core p. 116).
+        rollSlugFor={(i: any) => (i.system?.spellType === "effect" ? undefined : `cast.${i.id}`)}
+        rollOps={rollOps}
         columns={[
           { label: "Nivel", width: "52px", render: (i: any) => i.system?.spellLevel ?? 0 },
           { label: "Zeón", width: "56px", render: (i: any) => i.system?.grades?.base?.zeonCost ?? 0 },

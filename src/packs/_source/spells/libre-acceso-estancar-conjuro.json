@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Permite almacenar un segundo conjuro en un objeto. Se lanza con el otro hechizo, de modo que el segundo sortilegio, en lugar de funcionar con normalidad, quedará en el interior de algo. El conjuro estancado podrá activarse, otro mago que introduzca en el contenedor el coste zeónico exacto conque fue lanzado. El mago que posea el objeto tendrá el control del conjuro. El hechizo estancado podrá volver a ser usado mientras se vuelva a pagar el coste de Zeon.",
@@ -23,25 +24,37 @@
         "zeonCost": 150,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "Zeón máximo 80"
+        "effect": "Zeón máximo 80",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 11,
         "maintenanceCost": 0,
-        "effect": "Zeón máximo 120"
+        "effect": "Zeón máximo 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 250,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "Zeón máximo 180"
+        "effect": "Zeón máximo 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "Zeón máximo 240"
+        "effect": "Zeón máximo 240",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

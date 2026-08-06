@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Umbral",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "El objetivo queda sumido en un Sueños eterno en el que constantemente será acosado por monstruosidades y otras criaturas innombrables que le darán caza hasta acabar con él. Este conjuro debe de ser lanzado sobre un individuo que está soñando. El blanco no podrá despertar hasta que no supere una RM o RP, y sólo tendrá derecho a un nuevo control cada vez que su mente considere que ha ganado a las pesadillas que le acechan.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 7,
         "maintenanceCost": 10,
-        "effect": "RM o RP 120."
+        "effect": "RM o RP 120.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 140,
         "intRequired": 10,
         "maintenanceCost": 15,
-        "effect": "RM o RP 160."
+        "effect": "RM o RP 160.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 180,
         "intRequired": 13,
         "maintenanceCost": 20,
-        "effect": "RM o RP 200."
+        "effect": "RM o RP 200.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 240,
         "intRequired": 15,
         "maintenanceCost": 25,
-        "effect": "RM o RP 240."
+        "effect": "RM o RP 240.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

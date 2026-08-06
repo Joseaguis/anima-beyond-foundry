@@ -7,7 +7,19 @@ import type { AnimaActor } from "../documents/actor";
 export type { CompendiumEntry, ItemOps } from "./react/types";
 export type { AnimaItemView as AnimaItem } from "./react/types";
 
-export interface ReactSheetProps extends ItemOps {
+/** How a component asks for a roll. Shift-click skips the modifiers dialog. */
+export interface RollOps {
+  /**
+   * Roll a statistic by slug (`secondary.acrobatics`, `resistance.rm`,
+   * `strike.<weaponId>`…). Unknown slugs are ignored with a console warning, so
+   * a sheet never breaks over a statistic the actor happens not to have.
+   */
+  onRoll: (slug: string, options?: { skipDialog?: boolean; difficulty?: number | null }) => Promise<void>;
+  /** Slugs the actor can actually roll, so buttons can hide when there is none. */
+  rollable: Set<string>;
+}
+
+export interface ReactSheetProps extends ItemOps, RollOps {
   actor: FoundryActor;
   system: Record<string, any>;
   items: AnimaItemView[];
@@ -45,6 +57,25 @@ export abstract class ReactSheet extends ReactApplicationMixin<
       isEditable: (this as unknown as { isEditable: boolean }).isEditable,
       onUpdate: (path, value) => actor.update({ [path]: value }).then(() => undefined),
       ...this.#buildItemOps(),
+      ...this.#buildRollOps(),
+    };
+  }
+
+  #buildRollOps(): RollOps {
+    const actor = this.animaActor;
+    return {
+      rollable: new Set(actor.statistics.keys()),
+      onRoll: async (slug, options) => {
+        const statistic = actor.getStatistic(slug);
+        if (!statistic) {
+          console.warn(`AnimaBFv2 | No statistic "${slug}" on actor "${actor.name}"`);
+          return;
+        }
+        await statistic.roll({
+          skipDialog: options?.skipDialog,
+          difficulty: options?.difficulty,
+        });
+      },
     };
   }
 

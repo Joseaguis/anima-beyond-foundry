@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Destrucción",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este hechizo estanca la capacidad de aprendizaje de un individuo, impidiéndole evolucionar o adquirir nuevos conocimientos. Mientras se encuentre bajo los efectos de la magia, no podrá adquirir puntos de experiencia, ni desarrollar ninguna de sus habilidades o poderes. Sólo es posible repetir la RM una vez al día.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 7,
         "maintenanceCost": 15,
-        "effect": "RM 120"
+        "effect": "RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "RM 160"
+        "effect": "RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 300,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "RM 200"
+        "effect": "RM 200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 500,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "RM 240"
+        "effect": "RM 240",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

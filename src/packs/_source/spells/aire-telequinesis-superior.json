@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Aire",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este conjuro permite al brujo mover a distancia cualquier cuerpo material, orgánico o inorgánico, sin la necesidad de que exista contacto físico con ellos y dotándoles de una velocidad equivalente a un Tipo de vuelo 10. Los seres vivos o criaturas de presencia sobrenatural excepcional podrán resistirse si superan una RM.",
@@ -23,25 +24,37 @@
         "zeonCost": 160,
         "intRequired": 10,
         "maintenanceCost": 35,
-        "effect": "RM 100 / 100 toneladas"
+        "effect": "RM 100 / 100 toneladas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 280,
         "intRequired": 12,
         "maintenanceCost": 40,
-        "effect": "RM 120 / 10000 toneladas"
+        "effect": "RM 120 / 10000 toneladas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 400,
         "intRequired": 14,
         "maintenanceCost": 50,
-        "effect": "RM 140 / 250000 toneladas"
+        "effect": "RM 140 / 250000 toneladas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 550,
         "intRequired": 16,
         "maintenanceCost": 60,
-        "effect": "RM 160 / 500000 toneladas"
+        "effect": "RM 160 / 500000 toneladas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

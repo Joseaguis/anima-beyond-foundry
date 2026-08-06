@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Tierra",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "defense",
     "effect": "El hechicero levanta un escudo capaz de repeler cualquier ataque que se realice en su contra empleando un medio metálico. La distorsión magnética impondrá un penalizador de -50 a la habilidad ofensiva del atacante. El escudo sólo puede ser perjudicado por ataques capaces de dañar energía. Esta barrera es inútil contra ataques inmateriales o anímicos.",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "300 puntos de resistencia"
+        "effect": "300 puntos de resistencia",
+        "damage": 0,
+        "shieldPoints": 300,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "600 puntos de resistencia"
+        "effect": "600 puntos de resistencia",
+        "damage": 0,
+        "shieldPoints": 600,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 11,
         "maintenanceCost": 10,
-        "effect": "900 puntos de resistencia"
+        "effect": "900 puntos de resistencia",
+        "damage": 0,
+        "shieldPoints": 900,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 160,
         "intRequired": 14,
         "maintenanceCost": 20,
-        "effect": "1.200 puntos de resistencia"
+        "effect": "1.200 puntos de resistencia",
+        "damage": 0,
+        "shieldPoints": 1200,
+        "damageBarrier": 0
       }
     }
   }

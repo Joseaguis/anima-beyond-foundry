@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Sangre",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Mientras se mantenga activo, el afectado incrementa el daño que sufra en una cantidad determinada por el Grado del conjuro. Para que Desangrar tenga efecto el daño resultante debe provenir de contusiones, hemorragias y cortes, mientras que las heridas provocadas por calor, frío o energía no se benefician de esta regla. Puede repetirse la RM cada vez que se reciba un impacto cuyo daño sea incrementado por este sortilegio.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 6,
         "maintenanceCost": 10,
-        "effect": "Incrementa el Daño Recibido un 50% / RM 120"
+        "effect": "Incrementa el Daño Recibido un 50% / RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 150,
         "intRequired": 9,
         "maintenanceCost": 15,
-        "effect": "Dobla el Daño Recibido / RM 140"
+        "effect": "Dobla el Daño Recibido / RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 200,
         "intRequired": 12,
         "maintenanceCost": 20,
-        "effect": "Triplica el Daño Recibido / RM 160"
+        "effect": "Triplica el Daño Recibido / RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 250,
         "intRequired": 15,
         "maintenanceCost": 25,
-        "effect": "Cuadruplica el Daño Recibido / RM 180"
+        "effect": "Cuadruplica el Daño Recibido / RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

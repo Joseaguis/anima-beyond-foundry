@@ -37,7 +37,9 @@ Aquí el estado se expresa solo en texto:
 | Características | Completo | — |
 | Habilidades secundarias (PJ) | Completo | — |
 | Combate — cálculo de estadísticas (HA/HP/Esquiva/daño/armadura) | Completo | [armas-y-combate.md](reglas/armas-y-combate.md), [armaduras.md](reglas/armaduras.md) |
-| Combate — resolución de tiradas/daño automático | No implementado | [armas-y-combate.md](reglas/armas-y-combate.md) |
+| Tiradas — D100/D10, abierta, pifia, maestría | Completo | [tiradas.md](reglas/tiradas.md) |
+| Escudos sobrenaturales (aguante, rotura, barrera) | Completo | [tiradas.md](reglas/tiradas.md) |
+| Combate — resolución de tiradas/daño automático | Completo (sin críticos) | [tiradas.md](reglas/tiradas.md), [armas-y-combate.md](reglas/armas-y-combate.md) |
 | Magia — fórmulas derivadas (Zeón/ACT/Proyección) | Completo | [magia.md](reglas/magia.md) |
 | Magia — hechizos y su mantenimiento en runtime | Solo ficha de datos | [magia.md](reglas/magia.md), [mantenimiento.md](reglas/mantenimiento.md) |
 | Ki — fórmulas derivadas (puntos, acumulación) | Completo | [ki.md](reglas/ki.md) |
@@ -82,9 +84,10 @@ tienen (`NpcModel` no llama `prepareSecondaries`).
 [src/rules/special-rules.ts](../src/rules/special-rules.ts) + persistencia por actor
 (`system.specialRules`, activable desde la sección "Reglas especiales" de la pestaña
 Principal) + flags agregadas en el pipeline (`PrepContext.flag`, alimentadas por la
-ficha y por `synthetics.flags` para futuros rule elements). Única regla implementada:
-`secondaryBonusSoftCap`. Previstas (solo diseño): PCs adicionales, rango de abierta,
-rango de pifia.
+ficha y por `synthetics.flags` para futuros rule elements). Implementadas:
+`secondaryBonusSoftCap`, `openRollRange` y `fumbleRange` (estas dos las lee
+[house-rules.ts](../src/system/statistic/house-rules.ts) al tirar). Prevista (solo
+diseño): PCs adicionales.
 
 ### Combate — cálculo de estadísticas
 **Completo.** HA/HP/Esquiva/Llevar Armadura, bono de daño, TA combinada multicapa,
@@ -93,14 +96,58 @@ iniciativa por arma, combate desarmado, armas enormes/gigantes. Ver
 [equipment.ts](../src/actors/creature/prep/equipment.ts). Detalle de reglas en
 [armas-y-combate.md](reglas/armas-y-combate.md) y [armaduras.md](reglas/armaduras.md).
 
+### Tiradas
+**Completo.** Motor con la arquitectura de PF2e (`Statistic → Check → Roll →
+ChatMessage`) en [src/system/](../src/system/): mecánica de dados pura y testeable en
+`dice/` (abierta con umbral creciente, pifia y su nivel, maestría sobre 200, D10 con
+las reglas del 10 y del 1, resistencias sin abierta), políticas por tipo de control en
+`check/types.ts`, estadísticas construidas desde lo que publica el pipeline en
+`statistic/build.ts`, y tarjetas de chat en HTML generado desde TypeScript (el
+proyecto no usa Handlebars). Diálogo de modificadores en React, Mayús+clic para
+saltarlo. Reglas especiales `openRollRange` y `fumbleRange` implementadas. Cubierto
+por `tests/dice-d100.test.ts`, `dice-d10.test.ts`, `check-resolve.test.ts` y
+`roll-modifier.test.ts`. Detalle en [tiradas.md](reglas/tiradas.md).
+
+Los modificadores situacionales viven en un bucket propio de las synthetics
+(`rollModifiers`, indexado por *selector* en vez de por *target*) y se resuelven al
+tirar, no en la preparación: es lo que permite que los predicados
+`technique:<slug>:active` de las técnicas de Ki tengan por fin quien los active.
+
+### Escudos sobrenaturales
+**Completo.** Lista unificada `system.shields[]` en el modelo de criatura, así que
+magia, psíquica y ki comparten mecánica y UI (`ActiveShieldsList`, pestaña Combate).
+El botón "Levantar escudo" de la tarjeta la rellena con el aguante del grado lanzado;
+defender con el escudo consume el **daño base** del ataque, y al romperse el impacto
+penetrante se resuelve sin defensa con el daño reducido a lo que traspasó. La barrera
+de daño se rellena a mano en la ficha del ítem, con la excepción del daño de energía
+implementada. Ver [shield.ts](../src/system/combat/shield.ts) y `tests/shield.test.ts`,
+que fija los dos ejemplos literales del manual.
+
+### Magia y psíquica — daño y aguante
+**Completo.** Los grados de conjuro y las filas de la escala de los poderes traen ya
+`damage`, `shieldPoints` y `damageBarrier`. Los dos primeros los extrae
+[parse-effect-numbers.ts](../scripts/lib/parse-effect-numbers.ts) de la prosa del
+Excel al regenerar los packs (30 de 34 conjuros de ataque, 16 de 21 de defensa, y el
+resto en `MANUAL_OVERRIDES` con su motivo); la barrera es un campo de autor. El
+diálogo de tirada gana un selector de grado con el coste en Zeón y el daño de cada
+uno; la tarjeta ofrece gastar el Zeón y levantar el escudo. En psíquica el grado no se
+elige: sale del control de potencial contra la escala, y la tarjeta ofrece la
+Proyección Psíquica de seguimiento con el daño de la fila alcanzada y `ignoresArmor`
+(Core p. 211).
+
 ### Combate — resolución de tiradas/daño automático
-**No implementado.** `CombateTab.tsx` tiene una calculadora de daño manual (el
-usuario introduce a mano el resultado de ataque/defensa/TA enemigo); no hay tirada de
-dados, iniciativa en el Combat Tracker de Foundry, aplicación automática de daño ni
-tarjetas de chat. Los campos de bonus de `combat-style`
-(`attackBonus`/`defenseBonus`/...) tampoco están conectados al motor de rule
-elements — son datos de exhibición salvo que se añada manualmente una regla
-`FlatModifier`.
+**Completo salvo críticos.** El atacante tira y la tarjeta queda pendiente con botones
+de Parada / Esquiva / Escudo mágico / Defensa psíquica; el defensor pulsa, tira, y la
+misma tarjeta se resuelve con el Resultado del Asalto, la Absorción aplicada, el
+porcentaje de la Tabla 42 y un botón de aplicar daño (por socket cuando quien pulsa no
+es propietario del objetivo). Ver [src/system/combat/](../src/system/combat/) y
+[src/system/chat/listeners.ts](../src/system/chat/listeners.ts).
+
+Pendiente: Nivel de Crítico y Tabla 50, localización (Tabla 51), iniciativa en el
+Combat Tracker de Foundry, y ataques múltiples con sus penalizadores. Los campos de
+bonus de `combat-style` (`attackBonus`/`defenseBonus`/...) siguen sin estar conectados
+al motor de rule elements — son datos de exhibición salvo que se añada manualmente una
+regla `FlatModifier` o `RollModifier`.
 
 ### Magia
 **Fórmulas derivadas completas** (Zeón máximo/regeneración, ACT, Proyección Mágica) en

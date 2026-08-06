@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Vacío",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Abre un portal unidireccional al vacío. Cualquiera que cruce la puerta dejará de existir automáticamente, sin control de resistencia. Sólo los seres con Gnosis 35 o superior, objetos de presencia equivalente, o individuos protegidos modo contra el Vacío pueden sobrevivir allí, pero van perdiendo poco a poco puntos de su atributo de Poder, que se recupera a un ritmo de uno al día. Naturalmente, algo que permanezca en el interior es  inmune a cualquier clase de ataque.",
@@ -23,25 +24,37 @@
         "zeonCost": 300,
         "intRequired": 11,
         "maintenanceCost": 30,
-        "effect": "2 metros de diámetro."
+        "effect": "2 metros de diámetro.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 500,
         "intRequired": 13,
         "maintenanceCost": 50,
-        "effect": "5 metros de diámetro."
+        "effect": "5 metros de diámetro.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 800,
         "intRequired": 15,
         "maintenanceCost": 80,
-        "effect": "15 metros de diámetro"
+        "effect": "15 metros de diámetro",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 1200,
         "intRequired": 18,
         "maintenanceCost": 120,
-        "effect": "50 metros de diámetro."
+        "effect": "50 metros de diámetro.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -13,7 +13,8 @@
     "actionType": "active",
     "maintenanceType": "none",
     "magicPath": "Fuego",
-    "damageType": "",
+    "damageType": "cal",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "attack",
     "effect": "Proyecta una descarga de ondas de alta temperatura, capaces de abrasar cualquier cosa. El ataque se realiza en a TA de calor. Dado que las ondas no son visibles para el ojo humano, el defensor deberá ser capaz de ver magia, tener visión térmica, o superar un control de Advertir contra Absurdo si no quiere sufrir el penalizador de Cegado contra este ataque.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "Daño 50"
+        "effect": "Daño 50",
+        "damage": 50,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "Daño 70"
+        "effect": "Daño 70",
+        "damage": 70,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Daño 90"
+        "effect": "Daño 90",
+        "damage": 90,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "Daño 110"
+        "effect": "Daño 110",
+        "damage": 110,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

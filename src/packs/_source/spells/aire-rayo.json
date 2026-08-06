@@ -13,7 +13,8 @@
     "actionType": "active",
     "maintenanceType": "none",
     "magicPath": "Aire",
-    "damageType": "",
+    "damageType": "ele",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "attack",
     "effect": "Relámpago con daño base 100. Antes de impactar, el mago elige si concentra todo el rayo en una sola descarga, o tras alcanzar su blanco, la electricidad rebota hacia el cuerpo más próximo realizando un nuevo ataque de idénticas características al primero. El hechicero no podrá elegir sobre quién se dirigirá el rayo después del ataque original, aunque nunca podrá volverse contra él. Un mismo blanco no puede ser afectado dos veces por el mismo rayo.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "1 rebote o +10 al daño"
+        "effect": "1 rebote o +10 al daño",
+        "damage": 100,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "10 rebotes o +40 al daño"
+        "effect": "10 rebotes o +40 al daño",
+        "damage": 100,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 280,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "15 rebotes o +80 al daño"
+        "effect": "15 rebotes o +80 al daño",
+        "damage": 100,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 400,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "25 rebotes o +150 al daño"
+        "effect": "25 rebotes o +150 al daño",
+        "damage": 100,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Destrucción",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Destruye para siempre parte de las capacidades o poderes de un individuo. El brujo puede elegir libremente como rebajar los PDs del personaje afectado. Permite también destruir poderes de monstruo, según los costes fijados en el capítulo 26, y arrebatar las ventajas elegidas con puntos de Creación, a un coste de 100 PD por punto.",
@@ -23,25 +24,37 @@
         "zeonCost": 150,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "-50 PD, RM 120"
+        "effect": "-50 PD, RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 250,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "-100 PD, RM 160"
+        "effect": "-100 PD, RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 350,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "-150 PD, RM 200"
+        "effect": "-150 PD, RM 200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 500,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "-200 PD, RM 240"
+        "effect": "-200 PD, RM 240",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

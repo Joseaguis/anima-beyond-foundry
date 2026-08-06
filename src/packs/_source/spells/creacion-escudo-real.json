@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Creación",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "defense",
     "effect": "Forma una barrera de energía que protege frente a cualquier fuente de ataque.",
@@ -23,25 +24,37 @@
         "zeonCost": 40,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "500 Puntos de Resistencia"
+        "effect": "500 Puntos de Resistencia",
+        "damage": 0,
+        "shieldPoints": 500,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 150,
         "intRequired": 8,
         "maintenanceCost": 15,
-        "effect": "3.000 Puntos de Resistencia"
+        "effect": "3.000 Puntos de Resistencia",
+        "damage": 0,
+        "shieldPoints": 3000,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 260,
         "intRequired": 10,
         "maintenanceCost": 15,
-        "effect": "5.000 Puntos de Resistencia"
+        "effect": "5.000 Puntos de Resistencia",
+        "damage": 0,
+        "shieldPoints": 5000,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 400,
         "intRequired": 12,
         "maintenanceCost": 20,
-        "effect": "10.000 Puntos de Resistencia"
+        "effect": "10.000 Puntos de Resistencia",
+        "damage": 0,
+        "shieldPoints": 10000,
+        "damageBarrier": 0
       }
     }
   }

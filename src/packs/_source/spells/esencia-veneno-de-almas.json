@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Esencia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "El veneno es una creación sobrenatural que se inocula en el alma del afectado y se extiende por todo su cuerpo. El mago podrá crear libremente los efectos del veneno, siguiendo la descripción del capítulo 14. También es posible desarrollar antídotos, si se tienen los conocimientos suficientes sobre el veneno original.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "Veneno de nivel 40"
+        "effect": "Veneno de nivel 40",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "Veneno de nivel 50"
+        "effect": "Veneno de nivel 50",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Veneno de nivel 60"
+        "effect": "Veneno de nivel 60",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "Veneno de nivel 70"
+        "effect": "Veneno de nivel 70",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

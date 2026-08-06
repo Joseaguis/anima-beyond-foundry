@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Creación",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El mago, o el objetivo, se transforma en un Ser Entre Mundos con Gnosis 25, con todas sus ventajas y desventajas. Obtendrá PD extras usables para elegir entre Habilidades Esenciales y poderes de la Creación de Seres. También puede escoger PD en desventajas y penalizadores para más puntos. El exceso de PD aumenta el nivel. Sólo funciona en seres naturales. Todo lo que se obtiene depende de su forma física perdiendose si se trasmigra el alma.",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Más 100 PD / hasta 100 PD opcionales en desventajas"
+        "effect": "Más 100 PD / hasta 100 PD opcionales en desventajas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 500,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "Más 200 PD / hasta 100 PD opcionales en desventajas"
+        "effect": "Más 200 PD / hasta 100 PD opcionales en desventajas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 1000,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "Más 300 PD / hasta 200 PD opcionales en desventajas"
+        "effect": "Más 300 PD / hasta 200 PD opcionales en desventajas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 2500,
         "intRequired": 17,
         "maintenanceCost": 0,
-        "effect": "Más 400 PD / hasta 200 PD opcionales en desventajas"
+        "effect": "Más 400 PD / hasta 200 PD opcionales en desventajas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

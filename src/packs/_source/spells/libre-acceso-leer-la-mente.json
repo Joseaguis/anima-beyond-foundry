@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Permite al hechicero indagar en los pensamientos o recuerdos de un individuo. Queda a discreción del DJ decidir la cantidad de asaltos que necesita para obtener la información deseada, dependiendo de lo oculto que esté en la memoria del personaje. El afectado puede resistirse superando una RP o una RM. Mientras pueda leer las intenciones de su adversario, el brujo aplica un bonificador de +30 a las acciones enfrentadas en su contra.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "RM o RP 80"
+        "effect": "RM o RP 80",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 160,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "RM o RP 120"
+        "effect": "RM o RP 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 200,
         "intRequired": 12,
         "maintenanceCost": 20,
-        "effect": "RM o RP 140"
+        "effect": "RM o RP 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 240,
         "intRequired": 15,
         "maintenanceCost": 25,
-        "effect": "RM o RP 180"
+        "effect": "RM o RP 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

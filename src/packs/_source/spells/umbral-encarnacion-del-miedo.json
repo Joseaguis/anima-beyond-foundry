@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Umbral",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Se crea un ser entre mundos nacido a partir de los terrores más profundos del objetivo. La criatura es real en todos los aspectos, pero únicamente el individuo o individuos que la temen son capaces de verla o interactuar con ella (del mismo modo, la criatura sólo siente o puede tocar a aquellas personas que la temen). La criatura puede tener cualquier nivel o poder, siempre que no tenga un Gnosis superior a 30 o supere los límites impuestos por el grado del sortilegio.",
@@ -23,25 +24,37 @@
         "zeonCost": 150,
         "intRequired": 10,
         "maintenanceCost": 15,
-        "effect": "Nivel 4 / RM 140."
+        "effect": "Nivel 4 / RM 140.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 250,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "Nivel 8 / RM 160."
+        "effect": "Nivel 8 / RM 160.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 500,
         "intRequired": 15,
         "maintenanceCost": 50,
-        "effect": "Nivel 12 / RM 180."
+        "effect": "Nivel 12 / RM 180.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 700,
         "intRequired": 18,
         "maintenanceCost": 70,
-        "effect": "Nivel 15 / RM 200."
+        "effect": "Nivel 15 / RM 200.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

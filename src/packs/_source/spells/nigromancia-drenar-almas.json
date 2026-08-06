@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Nigromancia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Se drena el alma del objetivo que o supera una RM o pierde presencia igual a la mitad de nivel de fracaso. Por 5 puntos perdidos resta un nivel  y cualquier capacidad o poder que dependiera de este. Si llega a cero muere. Por cada 10 puntos que sume, incrementa temporalmente una característica en +1, u obtiene 10 PD para poderes o habilidades esenciales de monstruos de Gnosis 30. Se pierde cada día un punto de característica o 20 de los PD incrementados.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "RM 120"
+        "effect": "RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "RM 140"
+        "effect": "RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 280,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "RM 160"
+        "effect": "RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 320,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "RM 180"
+        "effect": "RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

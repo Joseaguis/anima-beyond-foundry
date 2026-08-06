@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Creación",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Permite controlar el cuerpo de un ser. Dado a que es solo dominio físico y no espiritual, el individuo sometido no está obligado a usar ninguna habilidad sobrenatural en contra de su voluntad, aunque sí sus habilidades marciales. Para resistir el control, hay que superar una RM. El afectado tendrá derecho a una nueva Resistencia por día, y en cada ocasión en la que las órdenes recibidas vayan completamente en contra de su comportamiento.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 6,
         "maintenanceCost": 24,
-        "effect": "RM 80"
+        "effect": "RM 80",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 40,
-        "effect": "RM 120"
+        "effect": "RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 50,
-        "effect": "RM 140"
+        "effect": "RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 60,
-        "effect": "RM 180"
+        "effect": "RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

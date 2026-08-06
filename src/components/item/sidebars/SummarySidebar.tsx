@@ -26,11 +26,15 @@ const SUMMARY_CONFIG: Record<string, SummaryFieldDef[]> = {
     { label: "ANIMA.ItemMovementPenalty", path: "movementPenalty", color: "red" },
     { label: "ANIMA.ItemRequirement", path: "requirement" },
   ],
+  // Zeón, INT y daño viven bajo el grado desde la migración a los cuatro
+  // grados (Core p. 119); las rutas de nivel raíz ya no existen y pintaban "—".
   spell: [
     { label: "ANIMA.ItemSpellLevel", path: "spellLevel", color: "blue" },
-    { label: "ANIMA.ItemZeonCost", path: "zeonCost", color: "acc" },
-    { label: "ANIMA.ItemIntRequired", path: "intRequired" },
+    { label: "ANIMA.ItemZeonCost", path: "grades.base.zeonCost", color: "acc" },
+    { label: "ANIMA.ItemIntRequired", path: "grades.base.intRequired" },
     { label: "ANIMA.ItemSpellType", path: "spellType" },
+    { label: "ANIMA.ItemSpellDamage", path: "grades.base.damage", color: "red" },
+    { label: "ANIMA.ItemShieldPoints", path: "grades.base.shieldPoints", color: "blue" },
   ],
   combatStyle: [
     { label: "ANIMA.ItemDegree", path: "degree", color: "acc" },

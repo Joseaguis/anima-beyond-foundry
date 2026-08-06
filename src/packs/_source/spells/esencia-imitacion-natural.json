@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Esencia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Crea un animal natural, imitando una especie existente. Estará bajo el control absoluto del lanzador. La criatura creada debe ser un animal con Gnosis 0 y de una raza que exista en el mundo. El conjuro permite elegir entre crear un sólo ser (de cinco niveles como máximo) o repartir los niveles que confiere entre varias criaturas. Las Creaciónes tendrán todos sus instintos y habilidades naturales. Como referencia, el hechicero debe utilizar los animales del capítulo 25.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "2 niveles"
+        "effect": "2 niveles",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "10 niveles"
+        "effect": "10 niveles",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 13,
         "maintenanceCost": 15,
-        "effect": "20 niveles"
+        "effect": "20 niveles",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 15,
-        "effect": "50 niveles"
+        "effect": "50 niveles",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

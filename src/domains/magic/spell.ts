@@ -17,6 +17,15 @@ function spellGradeField() {
     // Per-grade effect line (Excel "Tablas Magia" cols V-Y): the same spell has
     // different numbers at each grade ("Daño 60" / "Daño 90"…).
     effect: new HTMLField({ required: true, initial: "" }),
+    // The figures the roll engine needs, which the Excel only states inside the
+    // effect prose. The extractor fills damage and shieldPoints through
+    // `scripts/lib/parse-effect-numbers`; damageBarrier is authored by hand
+    // (see that module's header for why it is not guessed).
+    damage: new NumberField({ required: true, initial: 0, integer: true, min: 0 }),
+    /** Resistance points of the shield this grade raises (Core p. 97). */
+    shieldPoints: new NumberField({ required: true, initial: 0, integer: true, min: 0 }),
+    /** Attacks with a base damage under this never wear it down (Core p. 236). */
+    damageBarrier: new NumberField({ required: true, initial: 0, integer: true, min: 0 }),
   });
 }
 
@@ -27,7 +36,11 @@ export function spellSchema() {
     actionType: new StringField({ required: true, initial: "active" }),
     maintenanceType: new StringField({ required: true, initial: "none" }),
     magicPath: new StringField({ required: true, initial: "" }),
+    // TA the attack resolves against: fil | con | pen | cal | fri | ele | ene.
     damageType: new StringField({ required: true, initial: "" }),
+    // Grades of the defender's TA this spell ignores. No source in the Excel,
+    // so it is authored per spell.
+    atPiercing: new NumberField({ required: true, initial: 0, integer: true, min: 0 }),
     resistanceType: new StringField({ required: true, initial: "none" }),
     // effect | attack | defense | detection | automatic | spiritual (Anímico).
     spellType: new StringField({ required: true, initial: "effect" }),

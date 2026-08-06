@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Musical",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Crea una potente melodía que refuerza el aguante innato de aquellos que la escuchen  y sean designados por el lanzador. Aquellos afectados que se encuentren alrededor del brujo obtienen diferentes bonos, descritos en los grados del conjuro. Los beneficios de este conjuro no se superponen, por lo que un individuo que se encuentre detro de la zona de influencia de dos Marzialle diferentes no aplica dos veces sus beneficios.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 8,
         "maintenanceCost": 5,
-        "effect": "10 metros radio/ +2 a la TA/ +20 RM"
+        "effect": "10 metros radio/ +2 a la TA/ +20 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "25 metros de radio/ +3 a la TA/ +20 RM y RF"
+        "effect": "25 metros de radio/ +3 a la TA/ +20 RM y RF",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "50 metros de radio/ +5 a la TA/ +20 a la RM, RF y RP/ Barrera de daño 50"
+        "effect": "50 metros de radio/ +5 a la TA/ +20 a la RM, RF y RP/ Barrera de daño 50",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 14,
         "maintenanceCost": 20,
-        "effect": "100 metros de radio/ +5 a la TA/ +30 RM, RF y RP/ Barrera de daño 100"
+        "effect": "100 metros de radio/ +5 a la TA/ +30 RM, RF y RP/ Barrera de daño 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

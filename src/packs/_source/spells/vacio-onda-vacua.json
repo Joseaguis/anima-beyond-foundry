@@ -13,7 +13,8 @@
     "actionType": "active",
     "maintenanceType": "none",
     "magicPath": "Vacío",
-    "damageType": "",
+    "damageType": "ene",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "attack",
     "effect": "Este hechizo manda una leve onda de vacío capaz de desestructurar las fibras sobrenaturales de cualquier protección. Este conjuro en si no provoca daños a sus adversarios, pero dirigido contra un escudo sobrenatural, provoca demoledoras consecuencias. La Onda Vacua es invisible al ojo humano, salvo para aquellos capaces de ver magia.",
@@ -23,25 +24,37 @@
         "zeonCost": 30,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "Daño 120 contra escudos."
+        "effect": "Daño 120 contra escudos.",
+        "damage": 120,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 60,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "Daño 250 contra escudos."
+        "effect": "Daño 250 contra escudos.",
+        "damage": 250,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 90,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Daño 400 contra escudos."
+        "effect": "Daño 400 contra escudos.",
+        "damage": 400,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "Daño 600 contra escudos."
+        "effect": "Daño 600 contra escudos.",
+        "damage": 600,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

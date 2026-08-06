@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Destrucción",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Crea una zona estática, en la que toda forma de vida comienza a pudrirse y deshacerse de forma acelerada. Quien se encuentre dentro de ella, perderá una décima parte de sus puntos de vida totales si no es capaz de superar el control de RM. Cada asalto que permanezca dentro del área, debe realizar un nuevo control, sin importar si ha superado o no la resistencia anteriormente. La condición para ser afectado es encontrarse dentro del área.",
@@ -23,25 +24,37 @@
         "zeonCost": 140,
         "intRequired": 7,
         "maintenanceCost": 15,
-        "effect": "10 metros de radio / RM 100"
+        "effect": "10 metros de radio / RM 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "30 metros de radio / RM 120"
+        "effect": "30 metros de radio / RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "60 metros de radio / RM 160"
+        "effect": "60 metros de radio / RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "100 metros de radio / RM 200"
+        "effect": "100 metros de radio / RM 200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

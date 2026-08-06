@@ -3,6 +3,7 @@ import { SectionCard } from "../ui/SectionCard";
 import { TextArea } from "../ui/fields";
 import { ItemList } from "../ui/ItemList";
 import { WeaponBlocks } from "./combate/WeaponBlocks";
+import { ActiveShieldsList } from "../ui/ActiveShieldsList";
 import type { TabProps } from "./types";
 
 const AT_TYPES: { key: string; label: string }[] = [
@@ -40,7 +41,7 @@ const ARMOR_TYPE_LABELS: Record<string, string> = {
   natural: "Natural",
 };
 
-export function CombateTab({ system, items, isEditable, onUpdate, itemOps }: TabProps) {
+export function CombateTab({ system, items, isEditable, onUpdate, itemOps, rollOps }: TabProps) {
   const combat = system.combat ?? {};
   const equipment = system.equipment ?? {};
   const armors: any[] = system.equippedArmors ?? [];
@@ -137,6 +138,17 @@ export function CombateTab({ system, items, isEditable, onUpdate, itemOps }: Tab
         isEditable={isEditable}
         onUpdate={onUpdate}
         itemOps={itemOps}
+        rollOps={rollOps}
+      />
+
+      {/* Escudos sobrenaturales: magia, psíquica y ki comparten mecánica, así
+          que comparten lista. Normalmente los rellena el botón "Levantar
+          escudo" de la tarjeta de chat. */}
+      <ActiveShieldsList
+        shields={system.shields ?? []}
+        isEditable={isEditable}
+        onUpdate={onUpdate}
+        style={{ gridColumn: "span 12" }}
       />
 
       {/* Modificadores / Calculadora / Notas */}

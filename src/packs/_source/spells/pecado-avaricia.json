@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Pecado",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Arrebata automáticamente algo que esté en posesión del blanco del conjuro, haciéndolo aparecer ante el hechicero. No es ni siquiera necesario que dicho objeto pueda \"moverse\" hacia el lanzador. Alguien que sea consciente de que puede ser blanco de este conjuro puede tratar de resistirse a sus efectos superando una RM.",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "RM 120 / Pres. 50"
+        "effect": "RM 120 / Pres. 50",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "RM 140 / Pres. 80"
+        "effect": "RM 140 / Pres. 80",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "RM 160 / Pres. 100"
+        "effect": "RM 160 / Pres. 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 260,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "RM 180 / Pres. 120"
+        "effect": "RM 180 / Pres. 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

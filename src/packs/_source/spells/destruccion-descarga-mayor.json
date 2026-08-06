@@ -13,7 +13,8 @@
     "actionType": "active",
     "maintenanceType": "none",
     "magicPath": "Destrucción",
-    "damageType": "",
+    "damageType": "ene",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "attack",
     "effect": "Proyecta una poderosa descarga mística. El ataque se realiza en la TA de Energía.",
@@ -23,25 +24,37 @@
         "zeonCost": 150,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "Daño 150"
+        "effect": "Daño 150",
+        "damage": 150,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 300,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Daño 300"
+        "effect": "Daño 300",
+        "damage": 300,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 450,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "Daño 450"
+        "effect": "Daño 450",
+        "damage": 450,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 600,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "Daño 500"
+        "effect": "Daño 500",
+        "damage": 500,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Ilusión",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Confunde los sentidos de un individuo, provocando un penalizador a todas las habilidades secundarias del campo perceptivo equivalnete al nivel de fracaso. Si la difrecncia es mayor de 40, el afectado sufrirá un negativo adicional de -20 a toda acción a causa de los mareos. Un individuo afectado no tiene derecho a un nuevo control  salvo si aumentan sus Resistencias.",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "140 RM."
+        "effect": "140 RM.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 70,
         "intRequired": 9,
         "maintenanceCost": 5,
-        "effect": "160 RM."
+        "effect": "160 RM.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 90,
         "intRequired": 11,
         "maintenanceCost": 5,
-        "effect": "180 RM."
+        "effect": "180 RM.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 13,
         "maintenanceCost": 10,
-        "effect": "200 RM."
+        "effect": "200 RM.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

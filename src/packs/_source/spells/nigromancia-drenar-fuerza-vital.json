@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Nigromancia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Absorbe la fuerza vital de un ser y se pasa al objetivo. El blanco debe superar RM o perder un punto de Constitución y de Poder por cada 10 que falle. Si se quiere, el objetivo envejece tantos años como nivel de fracaso. Los puntos absorbidos permiten al mago o al sujeto que los reciba, recuperar atributos perdidos hasta sus niveles iniciales o rejuvenecer. El personaje al que se le arranca la fuerza vital no la recupera, salvo con habilidades sobrenaturales.",
@@ -23,25 +24,37 @@
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "RM 100"
+        "effect": "RM 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "RM 130"
+        "effect": "RM 130",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "RM 160"
+        "effect": "RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 360,
         "intRequired": 18,
         "maintenanceCost": 0,
-        "effect": "RM 190"
+        "effect": "RM 190",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

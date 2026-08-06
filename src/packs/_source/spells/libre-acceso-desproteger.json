@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Reduce la TA de un defensor, si este (o su armadura) no superan una RM. La única condición para ser afectado por este conjuro es ser designado como blanco por el lanzador y fallar la RM",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "-2 a la TA / RM 140"
+        "effect": "-2 a la TA / RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "-4 a la TA / RM 160"
+        "effect": "-4 a la TA / RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "-6 a la TA / RM 180"
+        "effect": "-6 a la TA / RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 140,
         "intRequired": 14,
         "maintenanceCost": 15,
-        "effect": "-8 a la TA / RM 200"
+        "effect": "-8 a la TA / RM 200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Agua",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Confiere la capacidad de respirar y moverse libremente por ambientes acuáticos. El personaje sobre el que se lance podrá trasladarse con su máximo Tipo de movimiento en dichos medios, respirando líquidos y resistiendo cualquier clase de presión. Puede afectar a tantos blancos como desee el brujo, siempre que la suma de sus presencias no supere lo que determine el grado del conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 5,
         "maintenanceCost": 10,
-        "effect": "Presencia máxima 50."
+        "effect": "Presencia máxima 50.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 70,
         "intRequired": 8,
         "maintenanceCost": 20,
-        "effect": "Presencia máxima 100."
+        "effect": "Presencia máxima 100.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "Presencia máxima 200."
+        "effect": "Presencia máxima 200.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 140,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "Presencia máxima 350."
+        "effect": "Presencia máxima 350.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

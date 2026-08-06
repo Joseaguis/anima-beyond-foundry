@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Fuego",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Permite al mago usar su energía mágica, para incrementar temporalmente atributos y habilidades que dependen de ellos. Se gana habilidad pasiva de gastar puntos de Zeon para obtener un bonificador a las características. Cada 25 puntos de Zeon que gaste de esta forma le proporcionan un +1 a uno de sus atributos hasta el fin del turno. Sus efectos no se superponen.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 6,
         "maintenanceCost": 10,
-        "effect": "50 puntos de Zeon por asalto"
+        "effect": "50 puntos de Zeon por asalto",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "100 puntos de Zeon por asalto"
+        "effect": "100 puntos de Zeon por asalto",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 13,
         "maintenanceCost": 15,
-        "effect": "150 puntos de Zeon por asalto"
+        "effect": "150 puntos de Zeon por asalto",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 15,
-        "effect": "200 puntos de Zeon por asalto"
+        "effect": "200 puntos de Zeon por asalto",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Umbral",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "El personaje se torna una fuente de miedo, provocando temor a todo tipo de criatura, incluso a aquellas que son inmunes a psicología. Todo aquel que esté en su presencia es sometido automáticamente a miedo, sin resistencia posible, y debe superar un control de RM o RP para no verse sometido además a Terror.",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 11,
         "maintenanceCost": 0,
-        "effect": "RM o RP 120"
+        "effect": "RM o RP 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 350,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "RM o RP 140"
+        "effect": "RM o RP 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 450,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "RM o RP 200"
+        "effect": "RM o RP 200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 600,
         "intRequired": 17,
         "maintenanceCost": 0,
-        "effect": "RM o RP 240"
+        "effect": "RM o RP 240",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

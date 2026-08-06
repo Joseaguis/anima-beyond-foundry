@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Destrucción",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Destruye un sortilegio hasta cierto valor de Zeon. Dado que es un conjuro pasivo, puede emplearse para anular cualquier hechizo que se lance en el mismo asalto.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "Valor zeónico 50"
+        "effect": "Valor zeónico 50",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 150,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "Valor zeónico 120"
+        "effect": "Valor zeónico 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 300,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Valor zeónico 200"
+        "effect": "Valor zeónico 200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 500,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "Valor zeónico 350"
+        "effect": "Valor zeónico 350",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

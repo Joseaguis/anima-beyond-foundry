@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Envía un mensaje oral o escrito a una persona o lugar conocido, que se encuentre dentro de los límites espaciales del conjuro",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "10 kilómetros / Hasta 500 palabras"
+        "effect": "10 kilómetros / Hasta 500 palabras",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "100 kilómetros / Hasta 1.000 palabras"
+        "effect": "100 kilómetros / Hasta 1.000 palabras",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 11,
         "maintenanceCost": 0,
-        "effect": "150 kilómetros / Hasta 2.500 palabras"
+        "effect": "150 kilómetros / Hasta 2.500 palabras",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 140,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "1.000 kilómetros / Hasta 5.000 palabras"
+        "effect": "1.000 kilómetros / Hasta 5.000 palabras",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

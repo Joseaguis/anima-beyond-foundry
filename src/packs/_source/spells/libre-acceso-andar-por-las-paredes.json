@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Permite a un individuo moverse por paredes o techos como si se tratase del suelo, anulando absolutamente cualquier regla de la gravedad",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 8,
         "maintenanceCost": 5,
-        "effect": "A una cuarta parte del Tipo de Movimiento como máximo"
+        "effect": "A una cuarta parte del Tipo de Movimiento como máximo",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 10,
         "maintenanceCost": 5,
-        "effect": "A mitad de Tipo de Movimiento como máximo"
+        "effect": "A mitad de Tipo de Movimiento como máximo",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 100,
         "intRequired": 12,
         "maintenanceCost": 10,
-        "effect": "Tipo de Movimiento pleno"
+        "effect": "Tipo de Movimiento pleno",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 15,
         "maintenanceCost": 10,
-        "effect": "Puede moverse o quedarse quieto por superficies completamente imposibles."
+        "effect": "Puede moverse o quedarse quieto por superficies completamente imposibles.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

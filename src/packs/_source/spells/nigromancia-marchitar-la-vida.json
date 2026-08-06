@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Nigromancia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Este conjuro crea un área de energía nigromántica que mata de inmediato cualquier forma de vida inferior que se encuentre alrededor del brujo, como pequeños animales y plantas. Todo ser vivo con una presencia 20 o inferior se pudre o marchita a gran velocidad sin derecho a ningún control de Resistencia.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "10 metros de radio"
+        "effect": "10 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 140,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "20 metros de radio"
+        "effect": "20 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 180,
         "intRequired": 14,
         "maintenanceCost": 20,
-        "effect": "30 metros de radio"
+        "effect": "30 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 220,
         "intRequired": 16,
         "maintenanceCost": 25,
-        "effect": "50 metros de radio"
+        "effect": "50 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

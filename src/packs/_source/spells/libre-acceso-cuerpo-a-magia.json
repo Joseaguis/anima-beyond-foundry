@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El cuerpo designado por el hechicero se transformará en energía mágica",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "El objetivo es inmune a todos los ataques no basados en energía"
+        "effect": "El objetivo es inmune a todos los ataques no basados en energía",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 11,
         "maintenanceCost": 15,
-        "effect": "el objetivo puede atravesar cualquier materia física no basada en energía"
+        "effect": "el objetivo puede atravesar cualquier materia física no basada en energía",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 140,
         "intRequired": 13,
         "maintenanceCost": 15,
-        "effect": "el objetivo obtiene un +10 a su ACT"
+        "effect": "el objetivo obtiene un +10 a su ACT",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 160,
         "intRequired": 16,
         "maintenanceCost": 20,
-        "effect": "todo daño basado en habilidad mágica o conjuro queda reducido a la mitad"
+        "effect": "todo daño basado en habilidad mágica o conjuro queda reducido a la mitad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

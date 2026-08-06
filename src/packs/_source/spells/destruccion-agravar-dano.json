@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Destrucción",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Aumenta el daño base que produce una fuente de ataque de cualquier clase: físico o sobrenatural. Un luchador que acomete con un arma de daño base 60, empleando este conjuro en grado base, podrá incrementarlo hasta 90. A pesar de ser un sortilegio pasivo, debe ser ejecutado antes de que se lancen los dados para calcular el ataque y la defensa de los oponentes.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "Daño +30"
+        "effect": "Daño +30",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "Daño +50"
+        "effect": "Daño +50",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 150,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Daño +90"
+        "effect": "Daño +90",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 220,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "Daño +120"
+        "effect": "Daño +120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

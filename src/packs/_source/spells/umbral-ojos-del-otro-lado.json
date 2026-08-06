@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Umbral",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "detection",
     "effect": "Los ojos del hechicero le permiten ver los miedos intrínsecos de la gente, así como sus trastornos y locuras. Mientras este conjuro está activo, cualquiera capaz de percibir espíritus verá como los ojos del personaje se tornan completamente negros, como si una oscuridad interna los devorase. Para evitar sus efectos, un individuo puede superar un control de RM o RP contra la dificultad determinada por el grado del conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 30,
         "intRequired": 5,
         "maintenanceCost": 5,
-        "effect": "El personaje puede sentir si una persona está asustada o no / RM o RP 120."
+        "effect": "El personaje puede sentir si una persona está asustada o no / RM o RP 120.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 60,
         "intRequired": 8,
         "maintenanceCost": 5,
-        "effect": "Percibe cual es el origen del miedo que siente una persona / RM o RP 140"
+        "effect": "Percibe cual es el origen del miedo que siente una persona / RM o RP 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 90,
         "intRequired": 11,
         "maintenanceCost": 5,
-        "effect": "El mago percibe los miedos de alguien, aunque no esté asustada /RM o RP 160."
+        "effect": "El mago percibe los miedos de alguien, aunque no esté asustada /RM o RP 160.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 14,
         "maintenanceCost": 10,
-        "effect": "El personaje percibe representacion visual de los miedos / RM o RP 180."
+        "effect": "El personaje percibe representacion visual de los miedos / RM o RP 180.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

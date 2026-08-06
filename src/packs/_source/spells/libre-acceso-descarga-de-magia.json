@@ -13,7 +13,8 @@
     "actionType": "active",
     "maintenanceType": "none",
     "magicPath": "Libre acceso",
-    "damageType": "",
+    "damageType": "ene",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "attack",
     "effect": "Proyecta una descarga de energía mágica, que ataca en la TA de Energía",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "Daño 40"
+        "effect": "Daño 40",
+        "damage": 40,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "Daño 60"
+        "effect": "Daño 60",
+        "damage": 60,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 11,
         "maintenanceCost": 0,
-        "effect": "Daño 80"
+        "effect": "Daño 80",
+        "damage": 80,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "Daño 100"
+        "effect": "Daño 100",
+        "damage": 100,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

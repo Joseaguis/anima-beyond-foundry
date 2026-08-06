@@ -17,46 +17,77 @@
     "masteryCost": 1,
     "fortifyCvs": 0,
     "maintenanceDifficulty": "medium",
+    "damageType": "ene",
     "grades": [
       {
         "difficulty": "Rutinario",
-        "effect": "Fatiga 2"
+        "effect": "Fatiga 2",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Fácil",
-        "effect": "Fatiga 1"
+        "effect": "Fatiga 1",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Medio",
-        "effect": "300 PVs"
+        "effect": "300 PVs",
+        "damage": 0,
+        "shieldPoints": 300,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Difícil",
-        "effect": "500 PVs"
+        "effect": "500 PVs",
+        "damage": 0,
+        "shieldPoints": 500,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Muy difícil",
-        "effect": "700 PVs"
+        "effect": "700 PVs",
+        "damage": 0,
+        "shieldPoints": 700,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Absurdo",
-        "effect": "1000 PVs"
+        "effect": "1000 PVs",
+        "damage": 0,
+        "shieldPoints": 1000,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Casi imposible",
-        "effect": "1500 PVs / Barrera de daño 60"
+        "effect": "1500 PVs / Barrera de daño 60",
+        "damage": 0,
+        "shieldPoints": 1500,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Imposible",
-        "effect": "2000 PVs / BD 80 Para energía"
+        "effect": "2000 PVs / BD 80 Para energía",
+        "damage": 0,
+        "shieldPoints": 2000,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Inhumano",
-        "effect": "3000 PVs / BD 120 Para energía"
+        "effect": "3000 PVs / BD 120 Para energía",
+        "damage": 0,
+        "shieldPoints": 3000,
+        "damageBarrier": 0
       },
       {
         "difficulty": "Zen",
-        "effect": "5000 PVs / BD 160 Para energía"
+        "effect": "5000 PVs / BD 160 Para energía",
+        "damage": 0,
+        "shieldPoints": 5000,
+        "damageBarrier": 0
       }
     ],
     "effect": ""

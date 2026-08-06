@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Esencia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Altera la esencia de un individuo, permitíendole volverse afín a cualquier tipo de ser vivo, y consiguiendo que estos le reconozcan como un miembro de su especie. Sólo afecta a seres que se basen en institntos.",
@@ -23,25 +24,37 @@
         "zeonCost": 30,
         "intRequired": 5,
         "maintenanceCost": 5,
-        "effect": "Afecta a animales naturales (caballos, conejos, lobos, etc)"
+        "effect": "Afecta a animales naturales (caballos, conejos, lobos, etc)",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "Afecta a toda clase de criatura natural"
+        "effect": "Afecta a toda clase de criatura natural",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "Afecta a seres naturales y a criaturas entre mundos"
+        "effect": "Afecta a seres naturales y a criaturas entre mundos",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "Afecta a cualquier criatura, incluyendo seres sobrenaturales de alto poder"
+        "effect": "Afecta a cualquier criatura, incluyendo seres sobrenaturales de alto poder",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

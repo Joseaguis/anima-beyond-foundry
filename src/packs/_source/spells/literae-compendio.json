@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Literae",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Encanta un libro para que responda las preguntas que se le dirijan de manera que, cuando alguien haga una pregunta ante él, se escribirá en sus páginas una contestación. Lamentablemente, el libro no es capaz de responder a cualquier duda; al lanzar Compendio, el manuscrito afectado recibe una cantidad de puntos de una habilidad intelectual, y dará una respuesta apropiada basada en lo que sabría un experto con la misma puntuación sobre el tema.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 7,
         "maintenanceCost": 10,
-        "effect": "120 puntos de habilidad intelectual"
+        "effect": "120 puntos de habilidad intelectual",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 260,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "240 puntos de habilidad intelectual"
+        "effect": "240 puntos de habilidad intelectual",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 380,
         "intRequired": 13,
         "maintenanceCost": 30,
-        "effect": "320 puntos de habilidad intelectual"
+        "effect": "320 puntos de habilidad intelectual",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 500,
         "intRequired": 15,
         "maintenanceCost": 40,
-        "effect": "440 puntos de habilidad intelectual"
+        "effect": "440 puntos de habilidad intelectual",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

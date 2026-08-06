@@ -1,13 +1,18 @@
-# Graph Report - anima-beyond-foundry  (2026-07-26)
+# Graph Report - anima-beyond-foundry  (2026-07-30)
 
 ## Corpus Check
-- 1245 files · ~311,793 words
+- 1263 files · ~345,271 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1242 nodes · 2876 edges · 66 communities (62 shown, 4 thin omitted)
-- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 12 edges (avg confidence: 0.83)
+- 1440 nodes · 3346 edges · 70 communities (68 shown, 2 thin omitted)
+- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.87)
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `5ced472a`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Item Sheet Tabs & UI|Item Sheet Tabs & UI]]
@@ -55,6 +60,7 @@
 - [[_COMMUNITY_Community 43|Community 43]]
 - [[_COMMUNITY_Community 44|Community 44]]
 - [[_COMMUNITY_Community 45|Community 45]]
+- [[_COMMUNITY_Community 46|Community 46]]
 - [[_COMMUNITY_Community 48|Community 48]]
 - [[_COMMUNITY_Community 49|Community 49]]
 - [[_COMMUNITY_Community 50|Community 50]]
@@ -73,57 +79,66 @@
 - [[_COMMUNITY_Community 63|Community 63]]
 - [[_COMMUNITY_Community 64|Community 64]]
 - [[_COMMUNITY_Community 65|Community 65]]
+- [[_COMMUNITY_Community 66|Community 66]]
+- [[_COMMUNITY_Community 67|Community 67]]
+- [[_COMMUNITY_Community 68|Community 68]]
+- [[_COMMUNITY_Community 69|Community 69]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `SectionCard()` - 36 edges
+1. `SectionCard()` - 37 edges
 2. `BaseItemModel` - 33 edges
-3. `NumberField()` - 26 edges
-4. `PrepContext` - 23 edges
-5. `TextField()` - 23 edges
-6. `defaultCategoryData()` - 22 edges
-7. `prepareVitals()` - 21 edges
-8. `CreatureModel` - 20 edges
-9. `prepareSupernatural()` - 20 edges
-10. `prepareCharacteristics()` - 19 edges
+3. `AnimaActor` - 30 edges
+4. `AnimaItem` - 28 edges
+5. `NumberField()` - 26 edges
+6. `TextField()` - 23 edges
+7. `RollModifier` - 21 edges
+8. `Detalle por sistema` - 21 edges
+9. `CreatureModel` - 20 edges
+10. `ItemTabProps` - 20 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `graphify` --semantically_similar_to--> `Graphify Knowledge Graph Integration`  [INFERRED] [semantically similar]
   .github/copilot-instructions.md → CLAUDE.md
-- `prepareCombat()` --calls--> `mod()`  [INFERRED]
-  src/actors/creature/prep/combat.ts → tests/modifier.test.ts
-- `prepareSecondaries()` --calls--> `mod()`  [INFERRED]
-  src/actors/creature/prep/secondaries.ts → tests/modifier.test.ts
-- `prepareVitals()` --calls--> `mod()`  [INFERRED]
-  src/actors/creature/prep/vitals.ts → tests/modifier.test.ts
 - `MockActor` --references--> `AnimaRuleElement`  [EXTRACTED]
   sandbox/mock-documents.ts → src/rules/rule-element/base.ts
+- `MockActor` --references--> `AnimaSynthetics`  [EXTRACTED]
+  sandbox/mock-documents.ts → src/rules/synthetics.ts
+- `buildRollOps()` --calls--> `buildStatistics()`  [EXTRACTED]
+  sandbox/roll-bridge.ts → src/system/statistic/build.ts
+- `DamageCalculator()` --calls--> `num()`  [INFERRED]
+  src/components/character/tabs/CombateTab.tsx → scripts/extract-technique-tables.ts
 
 ## Import Cycles
+- 3-file cycle: `src/documents/actor.ts -> src/system/statistic/statistic.ts -> src/system/check/check.ts -> src/documents/actor.ts`
+- 3-file cycle: `src/documents/actor.ts -> src/system/statistic/statistic.ts -> src/system/statistic/house-rules.ts -> src/documents/actor.ts`
 - 3-file cycle: `src/documents/actor.ts -> src/rules/index.ts -> src/rules/rule-element/base.ts -> src/documents/actor.ts`
 - 3-file cycle: `src/documents/item.ts -> src/items/physical/model.ts -> src/items/base/model.ts -> src/documents/item.ts`
+- 4-file cycle: `src/documents/actor.ts -> src/system/statistic/build.ts -> src/system/statistic/statistic.ts -> src/system/check/check.ts -> src/documents/actor.ts`
+- 4-file cycle: `src/documents/actor.ts -> src/system/statistic/build.ts -> src/system/statistic/statistic.ts -> src/system/statistic/house-rules.ts -> src/documents/actor.ts`
 - 4-file cycle: `src/documents/actor.ts -> src/rules/index.ts -> src/rules/rule-element/flat-modifier.ts -> src/rules/rule-element/base.ts -> src/documents/actor.ts`
+- 4-file cycle: `src/documents/actor.ts -> src/rules/index.ts -> src/rules/rule-element/roll-modifier.ts -> src/rules/rule-element/base.ts -> src/documents/actor.ts`
 
 ## Hyperedges (group relationships)
 - **Game Rules Source Documents** — claude_core_exxet, claude_arcana_exxet, claude_dominus_exxet, claude_prometheum_exxet, claude_ficha_anima_excel [EXTRACTED 1.00]
 - **Project Reference Architecture Pattern** — claude_anima_beyond_foundry, claude_anime_beyond_fantasy_docs, claude_pf2e_reference [EXTRACTED 1.00]
 
-## Communities (66 total, 4 thin omitted)
+## Communities (70 total, 2 thin omitted)
 
 ### Community 0 - "Item Sheet Tabs & UI"
-Cohesion: 0.06
-Nodes (46): combate, costes, descripcion, disciplinaPsi, estilo, fisico, hechizo, kiTab (+38 more)
+Cohesion: 0.09
+Nodes (36): DESCRIPTION_TAB, ITEM_SHEET_CONFIG, RULES_TAB, ItemSheetConfig, ItemTabDef, ItemTabProps, PhysicalSidebar(), CategoryTab() (+28 more)
 
 ### Community 1 - "Character Sheet & Tabs"
-Cohesion: 0.14
-Nodes (8): CELL_SEP, CRIT_GRID, HANDS_LABELS, ROW_SEP, SIZE_LABELS, typeBanner(), VALUE_GRID, WeaponBlock()
+Cohesion: 0.12
+Nodes (18): SUMMARY_CONFIG, SummaryFieldDef, SummarySidebar(), SummaryStats(), LEVEL_ADJUSTMENTS, CHARS, PrincipalTab(), RES (+10 more)
 
 ### Community 2 - "Character Data & Modifiers"
-Cohesion: 0.09
-Nodes (31): ArmorPenaltyKind, CharacteristicKey, DEFAULT_SECONDARY_ABILITIES, SECONDARY_ABILITIES_BY_GROUP, SECONDARY_ABILITY_GROUPS, SECONDARY_ABILITY_MAP, SecondaryAbilityDefinition, SecondaryAbilityGroup (+23 more)
+Cohesion: 0.06
+Nodes (38): CELL_SEP, CRIT_GRID, HANDS_LABELS, ROW_SEP, SIZE_LABELS, typeBanner(), VALUE_GRID, WeaponBlock() (+30 more)
 
 ### Community 3 - "Item Data Models"
-Cohesion: 0.19
-Nodes (10): ArmorModel, ArmorSchema, armorTypeField(), MentalPatternModel, MentalPatternSchema, PhysicalItemModel, PhysicalItemSchema, DataModelConfig (+2 more)
+Cohesion: 0.14
+Nodes (15): AT_KEYWORDS, AT_WORDS, AtTypeToken, DAMAGE, DECLARED_AT, EffectNumbers, firstMatch(), NO_NUMBERS (+7 more)
 
 ### Community 4 - "Categories & Build Tools"
 Cohesion: 0.29
@@ -142,8 +157,8 @@ Cohesion: 0.40
 Nodes (5): FoundryActor, FoundryCompendium, FoundryDocument, FoundryEmbeddedCollection, FoundrySheet
 
 ### Community 8 - "Item Sheet Rendering"
-Cohesion: 0.16
-Nodes (12): capitalize(), Vital, VitalsStrip(), VitalsStripProps, CHARACTERISTICS, COMBAT_SKILLS, RESISTANCES, CalcTip (+4 more)
+Cohesion: 0.15
+Nodes (13): capitalize(), Vital, VitalsStrip(), VitalsStripProps, CHARACTERISTICS, COMBAT_SKILLS, RESISTANCES, CalcTip (+5 more)
 
 ### Community 9 - "Project Documentation"
 Cohesion: 0.09
@@ -154,36 +169,36 @@ Cohesion: 0.22
 Nodes (9): Armaduras, Calidad (cada +5 de una armadura), Capas de armadura, Combinación de TAs, Estado en el código, Estructura de datos de una armadura, Llevar Armadura, requerimiento y penalizador natural, Pendiente de volcar (⚠️ verificar en Core Exxet) (+1 more)
 
 ### Community 11 - "Vitals & Tooltips"
-Cohesion: 0.09
-Nodes (23): Características, Combate — cálculo de estadísticas, Combate — resolución de tiradas/daño automático, Contagio, vehículos, ambientación, Convención de estado de implementación, Creación de personaje, Código muerto detectado, Cómo mantener este documento (+15 more)
+Cohesion: 0.08
+Nodes (26): Características, Combate — cálculo de estadísticas, Combate — resolución de tiradas/daño automático, Contagio, vehículos, ambientación, Convención de estado de implementación, Creación de personaje, Código muerto detectado, Cómo mantener este documento (+18 more)
 
 ### Community 12 - "Characteristics Display"
 Cohesion: 0.14
-Nodes (24): assertLayout(), cell(), colIndex(), CONVERTED_DIR, DIFFICULTIES, DOCS_ROOT, emitDisciplines(), emitPowers() (+16 more)
+Nodes (25): guessAttackType(), assertLayout(), cell(), colIndex(), CONVERTED_DIR, DIFFICULTIES, DOCS_ROOT, emitDisciplines() (+17 more)
 
 ### Community 13 - "Combat Stats Display"
 Cohesion: 0.12
-Nodes (27): cell(), colIndex(), CONVERTED_DIR, DOCS_ROOT, EFFECT_COLS, emitFreeAccess(), emitPaths(), emitSpells() (+19 more)
+Nodes (28): cell(), colIndex(), CONVERTED_DIR, DOCS_ROOT, EFFECT_COLS, emitFreeAccess(), emitPaths(), emitSpells() (+20 more)
 
 ### Community 14 - "Deep Entity Extraction"
-Cohesion: 0.06
-Nodes (44): ActorSystemMap, ActorType, AnimaActor, ItemSystemMap, ItemType, GROUP_LABELS, GROUP_ORDER, localize() (+36 more)
+Cohesion: 0.05
+Nodes (59): SpellCast, promptCheckDialog(), CheckRollParameters, DEFAULT_SECONDARY_ABILITIES, ActorSystemMap, ActorType, AnimaActor, AnimaItem (+51 more)
 
 ### Community 15 - "Entity Extraction"
-Cohesion: 0.14
-Nodes (24): DifficultyRow, getActionsPerTurn(), getDifficultyForValue(), getLifePointsBase(), getModifier(), getMovementSpeed(), getRegeneration(), getRegenerationRow() (+16 more)
+Cohesion: 0.18
+Nodes (14): CHARACTERISTIC_DIFFICULTIES, CharacteristicDifficultyKey, CharacteristicDifficultyRow, DIFFICULTY_KEYS, getLifePointsBase(), getMovementSpeed(), getRegeneration(), getRegenerationRow() (+6 more)
 
 ### Community 16 - "Derived Stats Display"
 Cohesion: 0.09
 Nodes (35): cell(), CHAR_KEYS, CLASES, colIndex(), CompendiumEntry, CONVERTED_DIR, DisadvantageDef, DisadvantageOption (+27 more)
 
 ### Community 17 - "Supernatural Stats"
-Cohesion: 0.31
+Cohesion: 0.36
 Nodes (7): AnyRecord, legacyDpRecord(), legacyDpTotal(), migrateCharacterDp(), migrateDpField(), migrateKiField(), migrateSecondaryNatural()
 
 ### Community 19 - "Community 19"
-Cohesion: 0.11
-Nodes (31): prepareCharacteristics(), ActionModBreakdown, COMBAT_CHAR, CombatSkillData, CombatSystemSlice, EquipBonusData, prepareCombat(), AT_TYPES (+23 more)
+Cohesion: 0.14
+Nodes (16): getActionsPerTurn(), ActionModBreakdown, COMBAT_CHAR, CombatSkillData, CombatSystemSlice, EquipBonusData, ceil10(), combineAt() (+8 more)
 
 ### Community 20 - "Community 20"
 Cohesion: 0.17
@@ -198,8 +213,8 @@ Cohesion: 0.18
 Nodes (11): Concentración (Tabla 69, Core p. 211 — confirmado), CVs (Consumos de Voluntad) y Potencial Psíquico, Dificultad y alcance de un poder psíquico (tabla confirmada, hoja Psíquicos), Disciplinas y patrones mentales, Estado en el código, Fracaso psíquico y fatiga (Core p. 211 — confirmado), Mantenimiento de poderes: los innatos (Core p. 212 — confirmado), Pendiente (+3 more)
 
 ### Community 25 - "Community 25"
-Cohesion: 0.08
-Nodes (26): DIFFICULTY_LEVELS, CONCENTRATION_BONUSES, CV_FREE_USES, ACTION_LABELS, MisticosTab(), sign(), SUMMONING_SKILLS, ACTION_LABELS (+18 more)
+Cohesion: 0.09
+Nodes (19): ACTION_LABELS, MisticosTab(), sign(), SUMMONING_SKILLS, ActiveShieldRow, ActiveShieldsList(), ActiveShieldsListProps, ORIGIN_LABELS (+11 more)
 
 ### Community 26 - "Community 26"
 Cohesion: 0.22
@@ -214,8 +229,8 @@ Cohesion: 0.25
 Nodes (8): Creación de Técnicas (Dominus Exxet cap. 5 — confirmado), Dominios del Ki (árbol de habilidades, hoja `Ki`), Estado en el código, Habilidades del Ki: coste y duración individual (Core pp. 101–102 — confirmado), Ki, Mantener y sostener técnicas (Dominus pp. 46–47 — confirmado), Pendiente de volcar (⚠️ verificar en Dominus Exxet), Puntos de Ki y acumulación
 
 ### Community 29 - "Community 29"
-Cohesion: 0.11
-Nodes (13): AnimaItem, PsychicDisciplineModel, PsychicDisciplineSchema, PsychicPowerModel, PsychicPowerSchema, ACTOR_MODELS, ITEM_MODELS, ModelConstructor (+5 more)
+Cohesion: 0.05
+Nodes (57): ArmorModel, ArmorSchema, armorTypeField(), combatBonusSchema(), descriptionSchema(), mkCostSchema(), BaseItemModel, BaseItemSchema (+49 more)
 
 ### Community 30 - "Community 30"
 Cohesion: 0.29
@@ -230,140 +245,168 @@ Cohesion: 0.16
 Nodes (17): META_LAYOUT, nodeX(), nodeY(), entry(), Cell, COLUMNS, MetaGraph, METAMAGIA_GRAPH (+9 more)
 
 ### Community 33 - "Community 33"
-Cohesion: 0.18
-Nodes (9): descriptionSchema(), BaseItemModel, BaseItemSchema, DIFFICULTY_KEYS, MonsterAbilityModel, MonsterAbilitySchema, TraitModel, TraitSchema (+1 more)
+Cohesion: 0.17
+Nodes (14): DifficultyKey, KiData, ActiveSpellData, DpSkill, MagicData, MagicSystemSlice, SupernaturalSystemSlice, DpValue (+6 more)
 
 ### Community 34 - "Community 34"
 Cohesion: 0.50
 Nodes (3): Cómo funciona, Límites conocidos, Sandbox de UI
 
 ### Community 35 - "Community 35"
-Cohesion: 0.16
-Nodes (7): ArrayField, BooleanField, clone(), DataField, NumberField, ObjectField, TypedObjectField
+Cohesion: 0.06
+Nodes (22): ArrayField, BooleanField, ChatListener, chatListeners, clone(), DataField, FieldOptions, format() (+14 more)
 
 ### Community 36 - "Community 36"
-Cohesion: 0.10
-Nodes (21): CharacterSheet, NpcSheet, CharacterSheetApp(), NpcSheetApp(), ApplicationV2Like, ReactApplicationMixin(), AnimaItemView, CompendiumEntry (+13 more)
+Cohesion: 0.23
+Nodes (13): ApplicationV2Like, ReactApplicationMixin(), AnimaItemView, ItemOps, ReactSheetProps, RollOps, CompendiumPicker(), CompendiumPickerProps (+5 more)
 
 ### Community 37 - "Community 37"
 Cohesion: 0.67
 Nodes (3): Convenciones de estos documentos, Reglas de Anima: Beyond Fantasy — Referencia para el desarrollo, Índice
 
 ### Community 38 - "Community 38"
-Cohesion: 0.24
-Nodes (7): ItemSheet, ITEM_TYPE_LABELS, ItemSheetApp(), DEFAULT_TABS, ITEM_TAB_CONFIG, ReactItemSheet, ReactItemSheetProps
+Cohesion: 0.20
+Nodes (7): ItemSheet, ITEM_TYPE_LABELS, ItemSheetApp(), buildTabs(), sidebarFor(), ReactItemSheet, ReactItemSheetProps
 
 ### Community 39 - "Community 39"
-Cohesion: 0.10
-Nodes (24): TAB_COMPONENTS, WeaponBlocks(), ARMOR_TYPE_LABELS, AT_TYPES, CombateTab(), LOCALIZATION_LABELS, WEAPON_TYPE_LABELS, BIO_FIELDS (+16 more)
+Cohesion: 0.11
+Nodes (23): TAB_COMPONENTS, ARMOR_TYPE_LABELS, AT_TYPES, CombateTab(), LOCALIZATION_LABELS, WEAPON_TYPE_LABELS, BIO_FIELDS, FAME (+15 more)
 
 ### Community 40 - "Community 40"
-Cohesion: 0.18
-Nodes (11): CharacteristicData, CHARACTERISTIC_KEYS, defaultCategoryData(), ctxFor(), kiCategory(), category(), ctxFor(), mageCategory() (+3 more)
+Cohesion: 0.20
+Nodes (13): GradeOption, StrikeFlag, CheckContext, CheckDialogApplication, CheckDialogInput, CheckDialogApp(), CheckDialogProps, CheckDialogResult (+5 more)
 
 ### Community 41 - "Community 41"
-Cohesion: 0.21
-Nodes (13): analyzeEffect(), buildTechnique(), durationKi(), EffectAnalysis, emptyPerChar(), KI_DISPLAY_ORDER, meetsTreeRequirement(), sumDistribution() (+5 more)
+Cohesion: 0.11
+Nodes (24): CheckFlag, CheckOutcome, CheckResolveInput, CheckResult, resolveCheck(), resolveSuccess(), usesDifficultyLadder(), DifficultyRow (+16 more)
 
 ### Community 42 - "Community 42"
 Cohesion: 0.40
 Nodes (5): Datos por habilidad (confirmados con ficha-test01), Fórmula del total (confirmada, PDs!AA129), Habilidades fuera de la lista fija, Habilidades secundarias, Mejora natural (columnas "Bon.", "Hab." y "Novel" — confirmada y modelada)
 
 ### Community 43 - "Community 43"
-Cohesion: 0.09
-Nodes (33): CategorySystemSource, categorySystemToData(), CategoryDevelopment, collectSpends(), DevelopmentData, developmentPointsForLevel(), prepareDevelopment(), ReserveKey (+25 more)
+Cohesion: 0.14
+Nodes (17): getModifier(), CharacteristicData, prepareCharacteristics(), CategoryDevelopment, collectSpends(), DevelopmentData, DevelopmentSystemSlice, prepareDevelopment() (+9 more)
 
 ### Community 44 - "Community 44"
-Cohesion: 0.11
-Nodes (17): ActorKey, ACTORS, App(), buildSheetProps(), character, npc, useActorVersion(), characterFixture() (+9 more)
+Cohesion: 0.07
+Nodes (26): Contexto, Decisiones ya tomadas, Fase 0 — Schema: `description.gm`, `slug` y `effect` como HTML, Fase 1 — `<RichTextEditor>`: ProseMirror dentro de React, Fase 2 — Props de la sheet: nombre e imagen editables, `isGM`, `uuid`, Fase 3 — Nuevo registro: `ITEM_SHEET_CONFIG`, Fase 4 — `ItemSheetApp.tsx`: la anatomía PF2e, Fase 5 — Pestaña Reglas (fusión de Modificadores) (+18 more)
 
 ### Community 45 - "Community 45"
 Cohesion: 0.14
 Nodes (4): ItemWindow, applyPathUpdate(), MockActor, MockItem
 
+### Community 46 - "Community 46"
+Cohesion: 0.12
+Nodes (31): GRADE_LABELS, gradeData(), isShieldSpell(), isSpellGrade(), SPELL_GRADE_KEYS, spellCastAt(), SpellGradeData, SpellGradeKey (+23 more)
+
 ### Community 48 - "Community 48"
 Cohesion: 0.16
-Nodes (13): CharacterModel, CharacterSchema, dpRecordField(), dpSkillField(), kiCharField(), characteristicField(), CreatureModel, CreatureSchema (+5 more)
+Nodes (12): CharacterSchema, dpRecordField(), dpSkillField(), kiCharField(), equipBonusField(), directSkillField(), NpcSchema, FATIGUE_PENALTIES (+4 more)
 
 ### Community 49 - "Community 49"
-Cohesion: 0.11
-Nodes (20): LEVEL_ADJUSTMENTS, CHARS, PrincipalTab(), RES, sign(), TRAIT_SUBTYPE_LABELS, ACTIONS, Grade (+12 more)
+Cohesion: 0.13
+Nodes (14): DIFFICULTY_LEVELS, ARMOR_TYPES, ArmorProtectionTab(), AT_KEYS, LOCALIZATIONS, ACTION_LABELS, PsiquicosTab(), StubPanel() (+6 more)
 
 ### Community 50 - "Community 50"
-Cohesion: 0.17
-Nodes (14): TechniqueDuration, addTo(), AREA_EFFECTS, ARMOR_EFFECTS, buildTechniqueProfile(), EFFECT_TARGETS, EXTRA_ATTACK_EFFECTS, EXTRA_DEFENSE_EFFECTS (+6 more)
+Cohesion: 0.22
+Nodes (14): analyzeEffect(), buildTechnique(), durationKi(), EffectAnalysis, emptyPerChar(), KI_DISPLAY_ORDER, meetsTreeRequirement(), sumDistribution() (+6 more)
 
 ### Community 51 - "Community 51"
-Cohesion: 0.18
-Nodes (11): KI_CHAR_KEYS, KiAbilityData, KiCharBreakdown, KiCharKey, kiDistributionField(), KiTechniqueModel, KiTechniqueSchema, KiTechniqueData (+3 more)
+Cohesion: 0.20
+Nodes (8): kiDistributionField(), KiTechniqueModel, KiTechniqueSchema, TechniqueComposition, TechniqueProfile, techniqueRuleElements(), TECHNIQUE_LEVELS, slugify()
 
 ### Community 52 - "Community 52"
-Cohesion: 0.16
-Nodes (24): DifficultyKey, KiSystemSlice, prepareKi(), prepareMagic(), prepareSupernatural(), SupernaturalSystemSlice, baseFromDp(), PrepContext (+16 more)
+Cohesion: 0.31
+Nodes (8): innateCv(), preparePsychic(), CONCENTRATION_BONUSES, CV_FREE_USES, getPotentialIncrementBonus(), getPsychicPotentialByVol(), POTENTIAL_INCREMENT_TIERS, PSYCHIC_POTENTIAL_BY_VOL
 
 ### Community 53 - "Community 53"
-Cohesion: 0.18
-Nodes (8): formatKiCost(), TechniqueDisadvantageEntry, effectsBySection(), TECHNIQUE_LEVELS, CHAR_ORDER, DURATIONS, KiTechniqueTab(), SECTIONS
+Cohesion: 0.20
+Nodes (5): CharacterSheet, NpcSheet, CharacterSheetApp(), NpcSheetApp(), ReactSheet
 
 ### Community 54 - "Community 54"
-Cohesion: 0.22
-Nodes (8): TechniqueComposition, DISTRIBUTION_CODES, docs, KNOWN_LEVEL_MISMATCHES, KNOWN_UNKNOWN_DISADVANTAGES, KNOWN_UNKNOWN_OPTIONS, PACK_DIR, PackDoc
+Cohesion: 0.16
+Nodes (10): KiCharKey, formatKiCost(), TechniqueBuildResult, TechniqueDisadvantageEntry, TechniqueEffectEntry, effectsBySection(), CHAR_ORDER, DURATIONS (+2 more)
 
 ### Community 55 - "Community 55"
-Cohesion: 0.15
-Nodes (17): KiData, ActiveSpellData, DpSkill, MagicData, MagicPathData, MagicSystemSlice, SpellData, FreeAccessResult (+9 more)
+Cohesion: 0.16
+Nodes (17): lookup1to20(), MagicPathData, SpellData, FREE_ACCESS_LEVELS, SUB_PATH_LEVELS, FreeAccessResult, isClosedTo(), isOpposedToOwned() (+9 more)
 
 ### Community 56 - "Community 56"
-Cohesion: 0.17
-Nodes (9): combatBonusSchema(), mkCostSchema(), CombatStyleData, CombatStyleModel, CombatStyleSchema, KiAbilityModel, KiAbilitySchema, MagicPathModel (+1 more)
+Cohesion: 0.19
+Nodes (12): TechniqueDuration, addTo(), AREA_EFFECTS, ARMOR_EFFECTS, buildTechniqueProfile(), EFFECT_TARGETS, EXTRA_ATTACK_EFFECTS, EXTRA_DEFENSE_EFFECTS (+4 more)
 
 ### Community 57 - "Community 57"
-Cohesion: 0.12
-Nodes (15): FREE_ACCESS_LEVELS, SUB_PATH_LEVELS, ACTION_TYPES, GRADE_KEYS, KNOWN_BAD_TIPO, MAINTENANCE_TYPES, PATH_DIR, PathDoc (+7 more)
+Cohesion: 0.11
+Nodes (18): Barrera de daño, Controles de Característica, Controles de Resistencia, De dónde salen las cifras de conjuros y poderes, Escudos sobrenaturales, La Maestría, La Pifia, La Tirada Abierta (+10 more)
 
 ### Community 58 - "Community 58"
-Cohesion: 0.12
-Nodes (15): ACTIONS, DIFFICULTY_KEYS, DIFFICULTY_LABELS, DISCIPLINE_DIR, DisciplineDoc, disciplines, Grade, PATTERN_DIR (+7 more)
+Cohesion: 0.27
+Nodes (20): button(), escapeHtml(), GRADE_LABELS, gradeLabel(), localize(), outcomeClass(), renderBreakdown(), renderCastActions() (+12 more)
 
 ### Community 59 - "Community 59"
-Cohesion: 0.16
-Nodes (12): ChatListener, chatListeners, FieldOptions, format(), g, HTMLField, localize(), messages (+4 more)
+Cohesion: 0.14
+Nodes (23): readAnimaFlags(), actorFromUuid(), applyDamage(), DEFENSE_STATISTICS, handleSocketRequest(), onApplyDamage(), onDefend(), onPsychicProject() (+15 more)
+
+### Community 60 - "Community 60"
+Cohesion: 0.31
+Nodes (11): AbsorptionBreakdown, AbsorptionInput, applyDamagePercent(), computeAbsorption(), damagePercent(), toAtType(), counterattackBonus(), resolveRound() (+3 more)
 
 ### Community 61 - "Community 61"
-Cohesion: 0.33
-Nodes (6): CategoryModel, CategorySchema, combatBonusField(), combatCostField(), secondaryBonusField(), secondaryCostField()
+Cohesion: 0.21
+Nodes (10): characterFixture(), npcFixture(), packItem(), DocumentSource, MockActorInit, cloneSource(), findByUuid(), modules (+2 more)
 
 ### Community 62 - "Community 62"
-Cohesion: 0.38
-Nodes (3): spellGradeField(), SpellModel, SpellSchema
+Cohesion: 0.21
+Nodes (7): ActorKey, ACTORS, App(), buildSheetProps(), character, npc, useActorVersion()
 
 ### Community 63 - "Community 63"
 Cohesion: 0.29
-Nodes (5): CategoryTab(), COMBAT_KEYS, COMBAT_LABELS, SEC_GROUPS, SEC_LABELS
+Nodes (8): KI_CHAR_KEYS, KiAbilityData, KiCharBreakdown, KiSystemSlice, getInnateKiAccumulation(), getInnateKiPoints(), KI_ACCUMULATION, KiTechniqueData
 
 ### Community 64 - "Community 64"
-Cohesion: 0.29
-Nodes (6): ACTION_TYPES, MAINTENANCE_TYPES, RESISTANCE_TYPES, SPELL_GRADES, SPELL_TYPES, SpellTab()
+Cohesion: 0.15
+Nodes (8): ACTIONS, EMPTY_GRADE, Grade, PsychicPowerTab(), FallbackEditor(), nest(), ProseMirrorApi, ProseMirrorEl
+
+### Community 65 - "Community 65"
+Cohesion: 0.36
+Nodes (8): applyOpposedGap(), D10CheckResult, D10Result, effectiveDieValue(), OpposedD10Result, resolveCharacteristicCheck(), resolveD10(), resolveOpposedCharacteristicCheck()
+
+### Community 66 - "Community 66"
+Cohesion: 0.17
+Nodes (19): gradeRows(), isAttackPower(), isShieldPower(), PsychicGradeData, PsychicOutcome, psychicOutcomeAt(), AnimaChatFlags, ApplyDamageRequest (+11 more)
+
+### Community 67 - "Community 67"
+Cohesion: 0.21
+Nodes (14): prepareKi(), prepareMagic(), prepareCombat(), ImprovementStatus, PHYSICAL_CHARS, prepareSecondaries(), prepareSecondaryImprovement(), SecondariesSystemSlice (+6 more)
+
+### Community 68 - "Community 68"
+Cohesion: 0.25
+Nodes (7): ACTION_TYPES, AT_TYPES, MAINTENANCE_TYPES, RESISTANCE_TYPES, SPELL_GRADES, SPELL_TYPES, SpellTab()
+
+### Community 69 - "Community 69"
+Cohesion: 0.47
+Nodes (4): CompendiumEntry, PowerTree(), PowerTreeProps, TreeRow
 
 ## Knowledge Gaps
-- **408 isolated node(s):** `name`, `version`, `description`, `type`, `dev` (+403 more)
+- **427 isolated node(s):** `name`, `version`, `description`, `type`, `dev` (+422 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `DamageCalculator()` connect `Derived Stats Display` to `Community 39`?**
-  _High betweenness centrality (0.043) - this node is a cross-community bridge._
-- **Why does `SectionCard()` connect `Community 25` to `Item Sheet Tabs & UI`, `Community 64`, `Character Data & Modifiers`, `Community 36`, `Community 39`, `Item Sheet Rendering`, `Community 49`, `Community 53`, `Community 63`?**
-  _High betweenness centrality (0.028) - this node is a cross-community bridge._
+  _High betweenness centrality (0.046) - this node is a cross-community bridge._
+- **Why does `AnimaActor` connect `Deep Entity Extraction` to `Community 66`, `Community 36`, `Community 40`, `Community 46`, `Community 53`, `Community 59`, `Community 29`?**
+  _High betweenness centrality (0.035) - this node is a cross-community bridge._
 - **What connects `name`, `version`, `description` to the rest of the system?**
-  _409 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _428 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Item Sheet Tabs & UI` be split into smaller, more focused modules?**
-  _Cohesion score 0.06412583182093164 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08705882352941176 - nodes in this community are weakly interconnected._
 - **Should `Character Sheet & Tabs` be split into smaller, more focused modules?**
-  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.12433862433862433 - nodes in this community are weakly interconnected._
 - **Should `Character Data & Modifiers` be split into smaller, more focused modules?**
-  _Cohesion score 0.08708708708708708 - nodes in this community are weakly interconnected._
-- **Should `Package Configuration` be split into smaller, more focused modules?**
-  _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05656108597285068 - nodes in this community are weakly interconnected._
+- **Should `Item Data Models` be split into smaller, more focused modules?**
+  _Cohesion score 0.13970588235294118 - nodes in this community are weakly interconnected._

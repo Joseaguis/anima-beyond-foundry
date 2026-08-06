@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El hechicero obtiene conocimientos intelectuales que desconoce. Otorga al brujo, o a quien este designe, un bono a las secundarias del campo Intelectual, que podrá repartir como considere apropiado (hasta un tope de 340). Por ejemplo si obtuviera 100 puntos, puede aumentar 40 puntos su habilidad de Historia, más 30 en Ciencia y Animales, respectivamente. Sólo un conjuro de El Don del Conocimiento puede estar activo en un sujeto a la vez.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 30,
-        "effect": "+100 de bono"
+        "effect": "+100 de bono",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 300,
         "intRequired": 12,
         "maintenanceCost": 45,
-        "effect": "+250 de bono"
+        "effect": "+250 de bono",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 400,
         "intRequired": 14,
         "maintenanceCost": 60,
-        "effect": "+400 de bono"
+        "effect": "+400 de bono",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 500,
         "intRequired": 16,
         "maintenanceCost": 75,
-        "effect": "+600 de bono"
+        "effect": "+600 de bono",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

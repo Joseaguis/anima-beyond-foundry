@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Tiempo",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este hechizo permite al lanzador crear un punto de unión entre el presente y el pasado. Todo lo que hubiera en el momento designado por el hechicero dentro de la zona que determine el Grado del Conjuro se manifiesta en el presente, como si siempre hubiera estado ahí. No se puede \"traer\" del pasado a alguien o algo que haya sido descreado o cuya alma fuese destruida. En contra de las reglas generales, este conjuro se considera un conjuro de Magia Divina.",
@@ -23,25 +24,37 @@
         "zeonCost": 500,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "5m radio / Hasta 1 año en el pasado"
+        "effect": "5m radio / Hasta 1 año en el pasado",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 800,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "25m radio / Hasta 1 década en el pasado"
+        "effect": "25m radio / Hasta 1 década en el pasado",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 1250,
         "intRequired": 17,
         "maintenanceCost": 0,
-        "effect": "500m radio / Hasta 1 siglo en el pasado"
+        "effect": "500m radio / Hasta 1 siglo en el pasado",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 2500,
         "intRequired": 19,
         "maintenanceCost": 0,
-        "effect": "1 Km radio / Hasta mil años en el pasado"
+        "effect": "1 Km radio / Hasta mil años en el pasado",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

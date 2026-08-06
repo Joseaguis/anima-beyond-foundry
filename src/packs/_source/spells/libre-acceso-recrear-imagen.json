@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Recrea la imagen de algo que el hechicero ha visto con anterioridad. La aparición se trata de un holograma translúcido y sin sustancia, que permanece inmóvil en el lugar donde es creado.",
@@ -23,25 +24,37 @@
         "zeonCost": 40,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "Imagen de 1 metro cuadrado"
+        "effect": "Imagen de 1 metro cuadrado",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 70,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "Imagen de 5 metros cuadrados"
+        "effect": "Imagen de 5 metros cuadrados",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 100,
         "intRequired": 11,
         "maintenanceCost": 10,
-        "effect": "Imagen de 10 metros cuadrados"
+        "effect": "Imagen de 10 metros cuadrados",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 130,
         "intRequired": 13,
         "maintenanceCost": 15,
-        "effect": "15 metros² /Imagen realista, Advertir a 140 o Buscar a 80 para darse cuenta"
+        "effect": "15 metros² /Imagen realista, Advertir a 140 o Buscar a 80 para darse cuenta",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

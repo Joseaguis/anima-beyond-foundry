@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Aire",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "defense",
     "effect": "Ell mago se mueve o transporta fuera del alcance de un ataque. Puede usar Proyección Mágica del mago como si se tratase de su esquiva. Podrá apartarse de un máximo de ataques por asalto, tras los cuales deberá encontrar otro método de defensa hasta el siguiente turno. El conjuro esquiva como si se dispusiera de una velocidad equivalente a un Tipo de movimiento determinado por el grado del conjuro a la hora de los penalizadores contra ataques en área.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 7,
         "maintenanceCost": 15,
-        "effect": "3 esquivas / tipo de movimiento 8"
+        "effect": "3 esquivas / tipo de movimiento 8",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "9 esquivas / tipo de movimiento 12"
+        "effect": "9 esquivas / tipo de movimiento 12",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "15 esquivas / tipo de movimiento 16"
+        "effect": "15 esquivas / tipo de movimiento 16",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "sin limite de esquivas / tipo de movimiento 18"
+        "effect": "sin limite de esquivas / tipo de movimiento 18",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

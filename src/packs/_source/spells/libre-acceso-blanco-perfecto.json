@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Encanta un proyectil convencional haciendo que alcance su blanco de modo ineludible. El proyectil utiliza la habilidad de su lanzador, y en el caso de que se emplee para atacar a un adversario, este se defiende utilizando las reglas convencionales. Se confiere un bono a su tirada, permitiéndole ignorar las dificultades de disparo de la Tabla 48 y la distancia que le separa del blanco. Se debe lanzar en el mismo asalto en que se realiza el disparo",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "Bono de Habilidad +40"
+        "effect": "Bono de Habilidad +40",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 11,
         "maintenanceCost": 0,
-        "effect": "Bono de Habilidad +60"
+        "effect": "Bono de Habilidad +60",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "Bono de Habilidad +80"
+        "effect": "Bono de Habilidad +80",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 140,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "Bono de Habilidad +100"
+        "effect": "Bono de Habilidad +100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

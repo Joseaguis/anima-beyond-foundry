@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Oscuridad",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Oculta la presencia de un individuo contra los conjuros de tipo Automático, haciendo que no sea afectado de manera directa por ellos. Al contrario de lo que indican las reglas generales, el hechicero que mantenga cualquier conjuro Automático deberá conseguir fijar con su Proyección Mágica al personaje, como si se tratase de un conjuro Anímico normal, a pesar de que este cumpla la condición para ser afectado",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "Afecta a conjuros Automáticos de Grado Base"
+        "effect": "Afecta a conjuros Automáticos de Grado Base",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "Afecta a conjuros Automáticos de Grado Intermedio"
+        "effect": "Afecta a conjuros Automáticos de Grado Intermedio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 280,
         "intRequired": 14,
         "maintenanceCost": 15,
-        "effect": "Afecta a conjuros Automáticos de Grado Avanzado"
+        "effect": "Afecta a conjuros Automáticos de Grado Avanzado",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 320,
         "intRequired": 16,
         "maintenanceCost": 20,
-        "effect": "Afecta a conjuros Automáticos de Grado Arcano"
+        "effect": "Afecta a conjuros Automáticos de Grado Arcano",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

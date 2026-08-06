@@ -13,7 +13,8 @@
     "actionType": "active",
     "maintenanceType": "none",
     "magicPath": "Agua",
-    "damageType": "",
+    "damageType": "con",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "attack",
     "effect": "El brujo genera una descarga ofensiva que, aunque ataca en Contundente, es capaz de dañar energía. Si causa daño o es detenido, produce un impacto sobre el blanco del sortilegio con una fuerza determinada por el grado del conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 5,
         "maintenanceCost": 0,
-        "effect": "Daño 40 / Fuerza 8."
+        "effect": "Daño 40 / Fuerza 8.",
+        "damage": 40,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "Daño 60 / Fuerza 10."
+        "effect": "Daño 60 / Fuerza 10.",
+        "damage": 60,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 140,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Daño 80 / Fuerza 12."
+        "effect": "Daño 80 / Fuerza 12.",
+        "damage": 80,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 200,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Daño 100 / Fuerza 14."
+        "effect": "Daño 100 / Fuerza 14.",
+        "damage": 100,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

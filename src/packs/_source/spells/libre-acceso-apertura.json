@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Permite abrir cualquier puerta cerrada utilizando una habilidad final en Cerrajería determinada por el grado del conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 30,
         "intRequired": 5,
         "maintenanceCost": 0,
-        "effect": "80 en Cerrajería"
+        "effect": "80 en Cerrajería",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 70,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "140 en Cerrajería"
+        "effect": "140 en Cerrajería",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "240 en Cerrajería"
+        "effect": "240 en Cerrajería",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 140,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "280 en Cerrajería"
+        "effect": "280 en Cerrajería",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

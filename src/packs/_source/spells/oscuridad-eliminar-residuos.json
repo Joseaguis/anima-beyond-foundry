@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Oscuridad",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El hechicero puede borrar el rastro de que ha estado en un sitio determinado. De hecho, cualquier residuo de su paso por ese lugar desaparece completamente, ya sea ante habilidades de carácter natural, como Rastrear, o detecciones sobrenaturales.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "50 metros de radio."
+        "effect": "50 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "250 metros de radio"
+        "effect": "250 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 300,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "1 km de radio / Borra acciones de alguien al ver el pasado de objetos o lugares."
+        "effect": "1 km de radio / Borra acciones de alguien al ver el pasado de objetos o lugares.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 400,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "5 km de radio / Como Avanzado y puede borrar todo rastro del pasado del lugar."
+        "effect": "5 km de radio / Como Avanzado y puede borrar todo rastro del pasado del lugar.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El mago modifica trayectoria de un cuerpo en movimiento, redirigiéndolo. No permite mover un cuerpo estático. Puede ser utilizado como defensa contra ataques materiales, como espadazos o proyectiles. En el caso de que el mago consiga una defensa con éxito con su Proyección Mágica, podrá redirigirlo hacia otro adversario. Este conjuro puede evitarse, superando una RM (en caso de usarse como defensa, será el atacante quien deba superar la Resistencia)",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "RM 140"
+        "effect": "RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 160,
         "intRequired": 11,
         "maintenanceCost": 0,
-        "effect": "RM 160"
+        "effect": "RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 220,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "RM 200"
+        "effect": "RM 200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "RM 240"
+        "effect": "RM 240",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

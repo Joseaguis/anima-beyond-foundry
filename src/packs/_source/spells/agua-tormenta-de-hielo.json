@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Agua",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Crea una tormenta helada que congelará todo. Quien se halle en ella, debe de superar cada cinco asaltos un control de RF contra 140, o sufrir 10 puntos de daño basado en frío y un -5 acumulativo a toda acción. Las habilidades perceptivas aumentan dos niveles su dificultad. La tormenta tendrá un radio dentro del cual no es posible designar blancos. La condición para ser afectado es estar en el área. El conjuro permanece siempre en el mismo lugar.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 7,
         "maintenanceCost": 10,
-        "effect": "50 metros de radio."
+        "effect": "50 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "150 metros de radio."
+        "effect": "150 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "500 metros de radio / La RF se incrementa hasta 160."
+        "effect": "500 metros de radio / La RF se incrementa hasta 160.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 320,
         "intRequired": 15,
         "maintenanceCost": 15,
-        "effect": "1 kilómetro de radio / La RF se incrementa hasta 180."
+        "effect": "1 kilómetro de radio / La RF se incrementa hasta 180.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

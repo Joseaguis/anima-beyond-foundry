@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Oscuridad",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Destruye temporalmente cualquier sentimiento positivo, como paz interior, calma o alegría, que se encuentre en un radio respecto al hechicero. Si desea resistirse, ha de superarse una RM o RP.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "RM o RP 100 / 100 metros de radio"
+        "effect": "RM o RP 100 / 100 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "RM o RP 150 / 500 metros de radio"
+        "effect": "RM o RP 150 / 500 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "RM o RP 180 / 1 kilómetro de radio"
+        "effect": "RM o RP 180 / 1 kilómetro de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 350,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "RM o RP 220 / 5 Kilómetros de radio"
+        "effect": "RM o RP 220 / 5 Kilómetros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

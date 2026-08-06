@@ -13,7 +13,8 @@
     "actionType": "active",
     "maintenanceType": "none",
     "magicPath": "Aire",
-    "damageType": "",
+    "damageType": "fil",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "attack",
     "effect": "Produce una fuerte ráfaga de aire, capaz de cortar lo que toque como si se tratase de una afilada espada. El tajo afecta en una línea en la cual no será posible seleccionar blanco. Tiene un daño base de 80 y ataca en Filo, reduciendo en -2 la TA al defensor",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "linea de 3 metros de longitud"
+        "effect": "linea de 3 metros de longitud",
+        "damage": 80,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 150,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "linea de 12 metros de lingitud"
+        "effect": "linea de 12 metros de lingitud",
+        "damage": 80,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "linea de 25 metros de longitud"
+        "effect": "linea de 25 metros de longitud",
+        "damage": 80,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 350,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "linea de 50 metros de longitud"
+        "effect": "linea de 50 metros de longitud",
+        "damage": 80,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Fuego",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este conjuro seca inmediatamente cualquier cuerpo mojado que se encuentre dentro de un radio. Puede utilizarse para dañar cualquier tipo de elemental de agua, causándole un daño igual al doble de lo que no supere una RM o RF. Si se usa contra seres vivos que poseen organismos basados en agua (lo que incluye también seres humanos), sus efectos pueden ser también muy perjudiciales, aunque el daño se reduce a solo la mitad del nivel de fracaso.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "5 metros de radio/ RM o RF 100"
+        "effect": "5 metros de radio/ RM o RF 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "15 metros de radio / RM o RF 120"
+        "effect": "15 metros de radio / RM o RF 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 180,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "25 metros de radio / RM o RF 140"
+        "effect": "25 metros de radio / RM o RF 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 240,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "35 metros de radio / RM o RF 160"
+        "effect": "35 metros de radio / RM o RF 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

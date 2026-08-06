@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Tierra",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El brujo es capaz de abrir grietas de gran tamaño en el suelo, capaces de engullir a personas y construcciones. Si un individuo se encuentran en la zona en la que se abre la grieta, debe superar un control de Agilidad para evitar caer al interior y sufrir una caída de entre 20 y 50 metros. Las construcciones con una barrera de daño no son afectadas por el conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 150,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "10 metros de longitud / 3 de anchura / Construcciones con barrera de 40"
+        "effect": "10 metros de longitud / 3 de anchura / Construcciones con barrera de 40",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "25 metros de longitud / 8 de anchura / Construcciones con barrera de 60"
+        "effect": "25 metros de longitud / 8 de anchura / Construcciones con barrera de 60",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 250,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "36 metros de longitud/ 12 de anchura/ Construcciones con barrera de 80"
+        "effect": "36 metros de longitud/ 12 de anchura/ Construcciones con barrera de 80",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "48 metros de longitud/ 15 de anchura/ Construcciones con barrera de 100"
+        "effect": "48 metros de longitud/ 15 de anchura/ Construcciones con barrera de 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

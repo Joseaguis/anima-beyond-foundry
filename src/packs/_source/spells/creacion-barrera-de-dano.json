@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Creación",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Las energías sobrenaturales que maneja este hechizo se unen al cuerpo del individuo designado, otorgándole así cierta inmunidad al daño. A efectos de juego, obtendrá una barrera de daño (Ver capítulo 14).",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 10,
-        "effect": "Barrera de Daño 30."
+        "effect": "Barrera de Daño 30.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "Barrera de Daño 50."
+        "effect": "Barrera de Daño 50.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "Barrera de Daño 80."
+        "effect": "Barrera de Daño 80.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 15,
         "maintenanceCost": 15,
-        "effect": "Barrera de Daño 100."
+        "effect": "Barrera de Daño 100.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

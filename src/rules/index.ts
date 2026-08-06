@@ -1,10 +1,13 @@
 import { FlatModifierRuleElement } from "./rule-element/flat-modifier";
+import { RollModifierRuleElement } from "./rule-element/roll-modifier";
 import type { AnimaRuleElement, RuleElementConstructor, RuleElementSource } from "./rule-element/base";
 import type { AnimaItem } from "../documents/item";
 
 export { AnimaRuleElement, type RuleElementSource, type RuleElementConstructor } from "./rule-element/base";
 export { FlatModifierRuleElement } from "./rule-element/flat-modifier";
+export { RollModifierRuleElement } from "./rule-element/roll-modifier";
 export { type AnimaSynthetics, emptySynthetics } from "./synthetics";
+export { extractRollModifiers, extractRollOptions } from "./roll-helpers";
 export {
   MODIFIER_TYPES,
   isModifierType,
@@ -12,6 +15,8 @@ export {
   stackTotal,
   type Modifier,
   type ModifierType,
+  type RollModifier,
+  type StackableModifier,
 } from "./modifier";
 export { isPredicate, testPredicate, type Predicate } from "./predicate";
 export { TARGETS, isTarget, targetOptions, type TargetDef, type TargetGroup } from "./targets";
@@ -28,6 +33,7 @@ export {
  */
 export const RULE_ELEMENTS: Record<string, RuleElementConstructor> = {
   FlatModifier: FlatModifierRuleElement,
+  RollModifier: RollModifierRuleElement,
 };
 
 /**

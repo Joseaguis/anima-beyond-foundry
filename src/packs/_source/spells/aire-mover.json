@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Aire",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este conjuro permite al brujo mover objetos inanimados a distancia, sin la necesidad de que exista contacto físico entre ellos, a una velocidad equivalente a un Tipo de vuelo 10. No afecta a objetos que estén directamente en contacto con seres vivos.",
@@ -23,25 +24,37 @@
         "zeonCost": 30,
         "intRequired": 5,
         "maintenanceCost": 5,
-        "effect": "Peso maximo 10 Kg"
+        "effect": "Peso maximo 10 Kg",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 60,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "Peso maximo 50 Kg"
+        "effect": "Peso maximo 50 Kg",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 90,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "Peso maximo 100 Kg"
+        "effect": "Peso maximo 100 Kg",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "Peso maximo 250 Kg"
+        "effect": "Peso maximo 250 Kg",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

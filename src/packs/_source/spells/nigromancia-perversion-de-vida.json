@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Nigromancia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Este conjuro corrompe la esencia de un ser vivo y detiene sus funciones físicas, transformándolo de inmediato en un ente no muerto. El personaje afectado mantendrá las mismas características y habilidades que tenía en vida, aunque en su estado de cadáver animado conseguirá, naturalmente, la ventaja de exención física. Para evitar la transformación, es necesario superar una RM o RF.",
@@ -23,25 +24,37 @@
         "zeonCost": 180,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "RM o RF 100"
+        "effect": "RM o RF 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 240,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "RM o RF 140"
+        "effect": "RM o RF 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "RM o RF 180"
+        "effect": "RM o RF 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 360,
         "intRequired": 18,
         "maintenanceCost": 0,
-        "effect": "RM o RF 220"
+        "effect": "RM o RF 220",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

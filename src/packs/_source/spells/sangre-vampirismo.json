@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Sangre",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este conjuro provoca que un arma beba parte de la sangre de aquellos a los que hiera, canalizando sus energías vitales y otorgándoselas al portador para que recupere sus PV perdidos. En el caso de que se ataque a un ser con acumulación de daño, la cantidad drenada debe dividirse por diez.",
@@ -23,25 +24,37 @@
         "zeonCost": 150,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "Drena el 10% de las heridas causadas"
+        "effect": "Drena el 10% de las heridas causadas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "Drena el 20% de las heridas causadas"
+        "effect": "Drena el 20% de las heridas causadas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 250,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "Drena el 30% de las heridas causadas"
+        "effect": "Drena el 30% de las heridas causadas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 15,
-        "effect": "Drena el 40% de las heridas causadas"
+        "effect": "Drena el 40% de las heridas causadas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

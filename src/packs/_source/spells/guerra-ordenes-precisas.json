@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Guerra",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Permite al hechicero o a aquel sobre el que se lance el conjuro trasmitir órdenes directamente a la mente de sus compañeros. Estos mensajes son automáticos, sin la necesidad de hablar con ellos o de formular largas frases o indicaciones que pueden ser escuchadas por personas indeseadas. El elegido puede seleccionar quienes les escuchan y quienes no, o incluso transmitir varias órdenes a la vez con un simple pensamiento.",
@@ -23,25 +24,37 @@
         "zeonCost": 150,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "25m radio"
+        "effect": "25m radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "100m radio"
+        "effect": "100m radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 250,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "250m radio"
+        "effect": "250m radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "500m radio"
+        "effect": "500m radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

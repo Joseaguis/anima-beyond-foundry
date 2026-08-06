@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Permite a una envoltura, bolsa o baúl, cargar materiales que excedan su capacidad de contención, sin aumentar su peso. El mago siempre es capaz de extraer lo que quiere, aunque los demás sacarán las cosas al azar. No se pueden introducir objetos que no entren físicamente en el interior, como una lanza en una pequeña bolsa. Si el conjuro finaliza, la carga reaparecerá, pudiendo incluso reventar el contenedor.",
@@ -23,25 +24,37 @@
         "zeonCost": 40,
         "intRequired": 5,
         "maintenanceCost": 5,
-        "effect": "x10 su capacidad"
+        "effect": "x10 su capacidad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "x30 su capacidad"
+        "effect": "x30 su capacidad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "x40 su capacidad"
+        "effect": "x40 su capacidad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "x50 su capacidad"
+        "effect": "x50 su capacidad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

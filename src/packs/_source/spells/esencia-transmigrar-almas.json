@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Esencia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Transporta almas de un cuerpo a otro, conservando las capacidades intelectuales y anímicas y adquiere las limitaciones físicas del nuevo cuerpo. Un cuerpo muerto, volverá a vivir. Si el cuerpo ya tiene alma, ambas lucharan (ver libro). Tanto el alma como el cuerpo anfitrión tienen derecho a RM. Puede transmigrar cualquier clase de alma, incluso espíritus que esperan El Llamamiento. Si un espíritu es encerrado en un cuerpo físico, pierde sus poderes anímicos.",
@@ -23,25 +24,37 @@
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "RM 100 / Presencia máxima 60"
+        "effect": "RM 100 / Presencia máxima 60",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "RM 140 / Presencia máxima 100"
+        "effect": "RM 140 / Presencia máxima 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "RM 160 / Presencia máxima 140"
+        "effect": "RM 160 / Presencia máxima 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 540,
         "intRequired": 18,
         "maintenanceCost": 0,
-        "effect": "RM 200 / Presencia máxima 180"
+        "effect": "RM 200 / Presencia máxima 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

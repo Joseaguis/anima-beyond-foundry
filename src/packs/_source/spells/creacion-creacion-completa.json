@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Creación",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Forma un objeto con una presencia determinada por el grado del conjuro. La creación debe de encontrarse en una ubicación lógica, dependiendo de su naturaleza. No es posible, por ejemplo, hacer aparecer una pequeña montaña, situarla en el aire y dejarla caer. Como limitación, la presencia del objeto creado no puede ser superior al doble de la presencia base del brujo.",
@@ -23,25 +24,37 @@
         "zeonCost": 150,
         "intRequired": 8,
         "maintenanceCost": 15,
-        "effect": "Presencia máxima 50"
+        "effect": "Presencia máxima 50",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "Presencia máxima 80"
+        "effect": "Presencia máxima 80",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 300,
         "intRequired": 12,
         "maintenanceCost": 30,
-        "effect": "Presencia máxima 120"
+        "effect": "Presencia máxima 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 400,
         "intRequired": 14,
         "maintenanceCost": 40,
-        "effect": "Presencia máxima 150"
+        "effect": "Presencia máxima 150",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Literae",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Encanta un libro para que recoja todas las experiencias que afecten al mago para poder revisarlas posteriormente, como si a efectos de juego estuviera escribiendo un detallado diario. El grado del conjuro determina el máximo periodo de tiempo que dicho libro cubre retrospectivamente desde el momento del lanzamiento",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 6,
         "maintenanceCost": 15,
-        "effect": "1 día"
+        "effect": "1 día",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "1 semana"
+        "effect": "1 semana",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "1 mes"
+        "effect": "1 mes",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "1 año"
+        "effect": "1 año",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

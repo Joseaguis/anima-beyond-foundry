@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Esencia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Afecta a un espíritu, devolviéndolo al más allá. Permite influenciar tanto a almas que esperan El Llamamiento como a criaturas de naturaleza espiritual. Salvo si la entidad tiene un Gnosis lo suficientemente elevado como para permitirle regresar al mundo, su esencia desaparecerá al llegar al más allá. En el caso de los no muertos, dado que sus almas no pertenecen al mundo, son automáticamente destruídos.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "RM 120"
+        "effect": "RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "RM 180"
+        "effect": "RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "RM 240"
+        "effect": "RM 240",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "RM 300"
+        "effect": "RM 300",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

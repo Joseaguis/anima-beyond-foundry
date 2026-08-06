@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Luz",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Encanta una zona, haciéndola impenetrable para seres basados naturalmente en sentimientos negativos u oscuridad. Cualquiera de estas criaturas que entre en la zona , debe realizar cada asalto una RM o perder tantos puntos de vida como el nivel de fracaso. Adicionalmente, de fallar el control, el ser recibirá de inmediato un penalizador a toda acción de -40 mientras siga en su interior. La zona afectada permanece estática en el lugar donde fue lanzada.",
@@ -23,25 +24,37 @@
         "zeonCost": 140,
         "intRequired": 7,
         "maintenanceCost": 15,
-        "effect": "RM 120 / radio de 20 metros"
+        "effect": "RM 120 / radio de 20 metros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "RM 140 / radio de 100 metros"
+        "effect": "RM 140 / radio de 100 metros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "RM 160 / radio de 250 metros"
+        "effect": "RM 160 / radio de 250 metros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "RM 180 / radio de 500 metros"
+        "effect": "RM 180 / radio de 500 metros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

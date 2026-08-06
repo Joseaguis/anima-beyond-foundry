@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Paz",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "El hechicero cancela una acción de ataque dirigida contra él. La condición para ser afectado es realizar un ataque que tenga como blanco al lanzador (incluso si hay otros individuos afectados por el ataque). Para evitar sus efectos, es necesario superar una RM contra la dificultad indicada por el Grado del conjuro. Un mismo ataque sólo puede ser afectado una vez por un conjuro de Signo de Paz.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "RM 120"
+        "effect": "RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "RM 160"
+        "effect": "RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 260,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "RM 200"
+        "effect": "RM 200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 340,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "RM 240"
+        "effect": "RM 240",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

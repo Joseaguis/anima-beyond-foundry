@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Fuego",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Traslada los sentidos del hechicero al pasado, permitiéndole ver la causa o incidente que provocó un determinado incendio. El hechicero deberá estar presente entre los restos del incendio para ejecutar el conjuro, y mientras lo hace no será consciente de lo que ocurre a su alrededor en la realidad.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "Retrocede una hora"
+        "effect": "Retrocede una hora",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 140,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Retrocede un día"
+        "effect": "Retrocede un día",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 220,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "Retrocede un mes"
+        "effect": "Retrocede un mes",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 340,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "Retrocede un año"
+        "effect": "Retrocede un año",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

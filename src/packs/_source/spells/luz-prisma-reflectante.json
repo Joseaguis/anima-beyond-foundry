@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Luz",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "defense",
     "effect": "Crea un cuerpo de luz que reflecta todo hechizo ofensivo, poder psíquico de ataque o técnica de Ki a distancia que sea contra el. Deberá logar una defensa con éxito y ganar un control de choque contra un equivalente de daño determinado por el Grado del conjuro, para devolverla. Si es un Ataque en área, seguirá afectando a todo el área, salvo al mago. No se devuelven efectos Anímicos o Esotéricos. Se puede usar Proyección Mágica para redirigir el ataque.",
@@ -23,25 +24,37 @@
         "zeonCost": 160,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "100 contra choques / Tiene 800 puntos de Resistencia"
+        "effect": "100 contra choques / Tiene 800 puntos de Resistencia",
+        "damage": 0,
+        "shieldPoints": 800,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 250,
         "intRequired": 13,
         "maintenanceCost": 25,
-        "effect": "120 contra choques / Tiene 1.500 puntos de Resistencia"
+        "effect": "120 contra choques / Tiene 1.500 puntos de Resistencia",
+        "damage": 0,
+        "shieldPoints": 1500,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "140 contra choques / Tiene 3.000 puntos de Resistencia"
+        "effect": "140 contra choques / Tiene 3.000 puntos de Resistencia",
+        "damage": 0,
+        "shieldPoints": 3000,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 400,
         "intRequired": 17,
         "maintenanceCost": 40,
-        "effect": "180 contra choques / Tiene 6.000 puntos de Resistencia"
+        "effect": "180 contra choques / Tiene 6.000 puntos de Resistencia",
+        "damage": 0,
+        "shieldPoints": 6000,
+        "damageBarrier": 0
       }
     }
   }

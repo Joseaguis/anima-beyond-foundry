@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Vacío",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Crea una zona repleta de millones de microscópicas partículas de vacío. Todo individuo que esté en ella más de un asalto deberá hacer automáticamente una RM cada turno o sufrir un daño y una pérdida de puntos de Ki equivalente a la mitad del nivel de fracaso, así como una pérdida de puntos de Zeon equivalente al nivel de fracaso pleno. Este hechizo no permite elegir blancos, y afecta a todos por igual, inclusive el propio lanzador.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 7,
         "maintenanceCost": 5,
-        "effect": "RM 100 / 5 metros de radio."
+        "effect": "RM 100 / 5 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "RM 120 / 10 metros de radio."
+        "effect": "RM 120 / 10 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 180,
         "intRequired": 13,
         "maintenanceCost": 15,
-        "effect": "RM 140 / 20 metros de radio."
+        "effect": "RM 140 / 20 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 240,
         "intRequired": 15,
         "maintenanceCost": 20,
-        "effect": "RM 160 / 40 metros de radio."
+        "effect": "RM 160 / 40 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

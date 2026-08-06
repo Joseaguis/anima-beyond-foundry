@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Tiempo",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este conjuro afecta un área determinada de terreno dentro de la cual todo aquel individuo designado por el lanzador es arrastrado a un flujo temporal retardado y sufre los penalizadores indicados. El área afectada por Lentitud Temporal permanece estática en el lugar donde es lanzada. Es necesario superar una RM, pero alguien que haya fallado el control no podrá repetirlo hasta que salga de la influencia del conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 7,
         "maintenanceCost": 10,
-        "effect": "-2 Tipos Movimiento / -40 Turno / 10m radio / 100RM"
+        "effect": "-2 Tipos Movimiento / -40 Turno / 10m radio / 100RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 150,
         "intRequired": 10,
         "maintenanceCost": 15,
-        "effect": "-4 Tipos Movimiento / -60 Turno / -10 Toda Acción / 25m radio / 120RM"
+        "effect": "-4 Tipos Movimiento / -60 Turno / -10 Toda Acción / 25m radio / 120RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 200,
         "intRequired": 12,
         "maintenanceCost": 20,
-        "effect": "-6 Tipos Movimiento / -80 Turno / -20 Toda Acción / 50m radio / 140RM"
+        "effect": "-6 Tipos Movimiento / -80 Turno / -20 Toda Acción / 50m radio / 140RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 250,
         "intRequired": 15,
         "maintenanceCost": 25,
-        "effect": "-8 Tipos Movimiento / -100 Turno / -30 Toda Acción / 100m radio / 160RM"
+        "effect": "-8 Tipos Movimiento / -100 Turno / -30 Toda Acción / 100m radio / 160RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

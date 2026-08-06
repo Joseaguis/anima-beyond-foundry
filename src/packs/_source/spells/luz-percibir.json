@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Luz",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este conjuro aumenta la percepción del hechicero acrecentando sus habilidades secundarias de Advertir y Buscar, así como su Valoración mágica en el caso de que pretenda medir o detectar el potencial mágico de algo o alguien (nunca para ocultarlo) así como para analizar la naturaleza de otros conjuros",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "+50 Advertir, Buscar y Valoración mágica."
+        "effect": "+50 Advertir, Buscar y Valoración mágica.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 150,
         "intRequired": 9,
         "maintenanceCost": 15,
-        "effect": "+150 Advertir, Buscar y Valoración mágica"
+        "effect": "+150 Advertir, Buscar y Valoración mágica",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 200,
         "intRequired": 12,
         "maintenanceCost": 20,
-        "effect": "+200 Advertir, Buscar y Valoración mágica"
+        "effect": "+200 Advertir, Buscar y Valoración mágica",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 250,
         "intRequired": 14,
         "maintenanceCost": 25,
-        "effect": "+250 Advertir, Buscar y Valoración mágica"
+        "effect": "+250 Advertir, Buscar y Valoración mágica",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

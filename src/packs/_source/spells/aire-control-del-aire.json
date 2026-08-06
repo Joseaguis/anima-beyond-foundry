@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Aire",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Otorga al hechicero el control del aire, así como el de cualquier sustancia gaseosa que se encuentre a su alrededor. El mago será capaz de manejar a su antojo las corrientes de viento y los elementos gaseosos para usarlos como desee. Podría, por ejemplo, vaciar de aire una zona o cambiar el curso de un tornado. Si se lanza sobre un ser basado naturalmente en aire, el mago podrá controlarlo si la criatura no supera una RM.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "radio de 50 metros / RM 120"
+        "effect": "radio de 50 metros / RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 150,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "radio de 300 metros / RM 140"
+        "effect": "radio de 300 metros / RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 13,
         "maintenanceCost": 25,
-        "effect": "radio de 500 metros / RM 180"
+        "effect": "radio de 500 metros / RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 350,
         "intRequired": 15,
         "maintenanceCost": 35,
-        "effect": "radio de 1 kilometro / RM 220"
+        "effect": "radio de 1 kilometro / RM 220",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

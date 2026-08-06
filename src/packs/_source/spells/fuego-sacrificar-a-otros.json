@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Fuego",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Permite consumir la esencia de otros y utilizar sus puntos de vida y Zeon para sus hechizos de sacrificio: Sacrificio Vital, Magia por Capacidades, Sacrificio de Poder y Consumir Vida Por Magia. Este conjuro tiene un área estática de un km, donde se puede asignar tantos blancos como se quiera. La RM a superar será de 120. Los afectados podran tirar una vez por día, o cuando sus energías sean consumidas.",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 13,
         "maintenanceCost": 50,
-        "effect": "RM 120/ 1 km de area"
+        "effect": "RM 120/ 1 km de area",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 350,
         "intRequired": 15,
         "maintenanceCost": 70,
-        "effect": "RM 140/ 2km de area"
+        "effect": "RM 140/ 2km de area",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 500,
         "intRequired": 17,
         "maintenanceCost": 100,
-        "effect": "RM 160/ 3km de area"
+        "effect": "RM 160/ 3km de area",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 750,
         "intRequired": 19,
         "maintenanceCost": 150,
-        "effect": "RM 180/ 5 km de area"
+        "effect": "RM 180/ 5 km de area",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

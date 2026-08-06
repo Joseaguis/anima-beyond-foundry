@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Agua",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Se crea el reflejo de un territorio, siendo una realidad paralela a imagen y semejanza del mundo real. No podrán ser imitados seres vivos con una presencia superior a 20 y los lugares con características excepcionales. Al lanzarse, el mago debe crear distintas puertas que conecten el mundo real con su obra, que podrán ubicarse y tener la forma que desee. No hay un número máximo de aperturas, aunque por lo menos está obligado a crear una.",
@@ -23,25 +24,37 @@
         "zeonCost": 300,
         "intRequired": 9,
         "maintenanceCost": 30,
-        "effect": "500 metros de radio máximo."
+        "effect": "500 metros de radio máximo.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 480,
         "intRequired": 12,
         "maintenanceCost": 50,
-        "effect": "2 kilómetros de radio máximo."
+        "effect": "2 kilómetros de radio máximo.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 600,
         "intRequired": 15,
         "maintenanceCost": 60,
-        "effect": "5 kilómetros de radio máximo."
+        "effect": "5 kilómetros de radio máximo.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 800,
         "intRequired": 17,
         "maintenanceCost": 70,
-        "effect": "10 kilómetros de radio máximo / Se pueden imitar seres de hasta presencia 30."
+        "effect": "10 kilómetros de radio máximo / Se pueden imitar seres de hasta presencia 30.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

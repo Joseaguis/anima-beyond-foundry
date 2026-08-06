@@ -12,6 +12,51 @@ const ACTIONS = [
 interface Grade {
   difficulty: string;
   effect: string;
+  /** Cifras que consume el motor de tiradas; ver src/domains/psychic/psychic-power.ts. */
+  damage: number;
+  shieldPoints: number;
+  damageBarrier: number;
+}
+
+const EMPTY_GRADE: Grade = {
+  difficulty: "",
+  effect: "",
+  damage: 0,
+  shieldPoints: 0,
+  damageBarrier: 0,
+};
+
+/**
+ * A numeric cell of one grade row. `NumberField` commits by path, which does not
+ * work here: the grades are an ArrayField, so the whole array has to be written
+ * at once. Commits on blur, like the rest of the sheet.
+ */
+function GradeNumber({
+  label,
+  value,
+  isEditable,
+  onCommit,
+}: {
+  label: string;
+  value: number;
+  isEditable: boolean;
+  onCommit: (value: number) => void;
+}) {
+  return (
+    <input
+      type="number"
+      className="a-input w-16!"
+      title={label}
+      placeholder={label}
+      defaultValue={value}
+      disabled={!isEditable}
+      min={0}
+      onBlur={(e) => {
+        const next = Number(e.target.value) || 0;
+        if (next !== value) onCommit(next);
+      }}
+    />
+  );
 }
 
 export function PsychicPowerTab({ itemUuid, system, isEditable, onUpdate }: ItemTabProps) {
@@ -25,7 +70,7 @@ export function PsychicPowerTab({ itemUuid, system, isEditable, onUpdate }: Item
   };
 
   const addGrade = () => {
-    void onUpdate("system.grades", [...grades, { difficulty: "", effect: "" }]);
+    void onUpdate("system.grades", [...grades, { ...EMPTY_GRADE }]);
   };
 
   const removeGrade = (index: number) => {
@@ -110,7 +155,8 @@ export function PsychicPowerTab({ itemUuid, system, isEditable, onUpdate }: Item
               onChange={(e) => updateGrade(i, { difficulty: e.target.value })}
             />
             {/* Los grados viven en un ArrayField: se commitea el array entero,
-                así que el editor recibe su propio onUpdate en vez de un path. */}
+                así que el editor y los números reciben su propio onUpdate en
+                vez de un path. */}
             <div style={{ flex: 2 }}>
               <RichTextEditor
                 path={`grades.${i}.effect`}
@@ -122,6 +168,24 @@ export function PsychicPowerTab({ itemUuid, system, isEditable, onUpdate }: Item
                 height={90}
               />
             </div>
+            <GradeNumber
+              label={loc("ANIMA.ItemSpellDamage")}
+              value={g.damage}
+              isEditable={isEditable}
+              onCommit={(v) => updateGrade(i, { damage: v })}
+            />
+            <GradeNumber
+              label={loc("ANIMA.ItemShieldPoints")}
+              value={g.shieldPoints}
+              isEditable={isEditable}
+              onCommit={(v) => updateGrade(i, { shieldPoints: v })}
+            />
+            <GradeNumber
+              label={loc("ANIMA.ItemDamageBarrier")}
+              value={g.damageBarrier}
+              isEditable={isEditable}
+              onCommit={(v) => updateGrade(i, { damageBarrier: v })}
+            />
             {isEditable && (
               <button type="button" onClick={() => removeGrade(i)} className="a-modifier-row button">
                 ✕

@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Ilusión",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Crea una realidad de mentiras, todas las Ilusiónes serán fantasmales, y cualquiera que entre debe superar RM para no verse influido. Permite crear criaturas irreales. El mago podrá dar niveles a esas entidades, ninguna de ellas, podrá tener más de la mitad de su nivel (redondeando hacia arriba). Los fantasmas son creados como Seres Entre Mundos. Los personajes que entren en el área y fallen el control de resistencia sólo podrán repetirlo cuando tengan alguna duda.",
@@ -23,25 +24,37 @@
         "zeonCost": 500,
         "intRequired": 13,
         "maintenanceCost": 50,
-        "effect": "RM 140 / 10 Km de radio / 100 niveles a repartir entre seres."
+        "effect": "RM 140 / 10 Km de radio / 100 niveles a repartir entre seres.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 900,
         "intRequired": 15,
         "maintenanceCost": 90,
-        "effect": "RM 180 / 100 Km de radio / 500 niveles a repartir entre seres."
+        "effect": "RM 180 / 100 Km de radio / 500 niveles a repartir entre seres.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 1400,
         "intRequired": 17,
         "maintenanceCost": 140,
-        "effect": "RM 220 / 1000 Km de radio/ 1.500 niveles a repartir entre seres."
+        "effect": "RM 220 / 1000 Km de radio/ 1.500 niveles a repartir entre seres.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 2000,
         "intRequired": 19,
         "maintenanceCost": 200,
-        "effect": "RM 260 / 10.000 Km de radio / 5.000 niveles a repartir entre seres"
+        "effect": "RM 260 / 10.000 Km de radio / 5.000 niveles a repartir entre seres",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

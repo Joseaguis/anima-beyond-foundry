@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Luz",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "detection",
     "effect": "Permite localizar una persona, objeto o lugar, y saber su ubicación exacta en ese momento sin importar la distancia. Podrá buscar cualquier cosa, concreta o genérica, o simplemente algo que reúna una condición. Podría localizar una ciudad, un ladron (al cual no conoce) o incluso a la doncella de sangre real más cercana. Los blancos deberán hacer una tirada de RM para evitar ser localizados. Los lugares de gran tamaño aplican un –40 a dicha tirada.",
@@ -23,25 +24,37 @@
         "zeonCost": 160,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "RM 140."
+        "effect": "RM 140.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "RM 180"
+        "effect": "RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 260,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "RM 220."
+        "effect": "RM 220.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 320,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "RM 260."
+        "effect": "RM 260.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

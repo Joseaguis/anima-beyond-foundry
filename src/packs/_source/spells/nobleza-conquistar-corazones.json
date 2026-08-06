@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Nobleza",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Cualquiera sexualmente compatible con el personaje que se beneficia de sus efectos deberá superar un control de RM o RP, o quedará automáticamente embelesado. Además, el individuo en el que recae obtiene un +200 a sus tiradas de persuasión (Seducción) contra cualquiera que no haya podido superar el control. La condición para ser afectado por el sortilégio es dedicar verdadera atención a la apariencia del individuo que se beneficia del conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 8,
         "maintenanceCost": 5,
-        "effect": "120 de RM o RP"
+        "effect": "120 de RM o RP",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 150,
         "intRequired": 11,
         "maintenanceCost": 10,
-        "effect": "160 de RM o RP"
+        "effect": "160 de RM o RP",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 200,
         "intRequired": 13,
         "maintenanceCost": 15,
-        "effect": "200 de RM o RP"
+        "effect": "200 de RM o RP",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 250,
         "intRequired": 15,
         "maintenanceCost": 15,
-        "effect": "240 de RM o RP"
+        "effect": "240 de RM o RP",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

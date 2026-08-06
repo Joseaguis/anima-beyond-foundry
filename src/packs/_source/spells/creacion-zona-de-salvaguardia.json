@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Creación",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Crea zona en cuyo interior nada ni nadie puede causar ningún tipo de daño a ninguna persona u objeto. Afecta a cualquiera que se encuentre en el área del sortilegio, incluyendo al propio brujo. La zona encantada permanece en el lugar donde es lanzada, sin que el hechicero pueda reubicarla posteriormente. Para superar sus efectos es necesario superar una RM. Sólo es posible repetir la Resistencia una vez al día, incluso si se sale de ella y se vuelve a entrar.",
@@ -23,25 +24,37 @@
         "zeonCost": 350,
         "intRequired": 12,
         "maintenanceCost": 35,
-        "effect": "RM 140 / radio de 100 metros"
+        "effect": "RM 140 / radio de 100 metros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 500,
         "intRequired": 15,
         "maintenanceCost": 50,
-        "effect": "RM 180 / radio de 500 metros"
+        "effect": "RM 180 / radio de 500 metros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 800,
         "intRequired": 17,
         "maintenanceCost": 80,
-        "effect": "RM 220 / radio de 1 kilómetro"
+        "effect": "RM 220 / radio de 1 kilómetro",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 1500,
         "intRequired": 18,
         "maintenanceCost": 150,
-        "effect": "RM 250 / radio de 5 kilómetros"
+        "effect": "RM 250 / radio de 5 kilómetros",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

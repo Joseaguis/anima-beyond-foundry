@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Creación",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Crea una brecha en la realidad, capaz de separar el mundo en dos. Si se traspasa, se sale por otro punto de la barrera y el transporte se percibe con advertir(inhumano). Es capaz de adoptar cualquier apariencia. El mago puede elegir dejar abiertos pasajes, en una o ambas direcciones. Se puede pasar con Gnosis 25 o mas, y sabiendo su existencia y ubicación exacta a su vez que tirando una RM. Si fracasa, sólo puede repetir una vez al día.",
@@ -23,25 +24,37 @@
         "zeonCost": 800,
         "intRequired": 15,
         "maintenanceCost": 40,
-        "effect": "RM 120 / 100 kilómetros cuadrados o línea"
+        "effect": "RM 120 / 100 kilómetros cuadrados o línea",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 2500,
         "intRequired": 16,
         "maintenanceCost": 45,
-        "effect": "RM 180 / 1.000 kilómetros cuadrados o línea"
+        "effect": "RM 180 / 1.000 kilómetros cuadrados o línea",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 5000,
         "intRequired": 17,
         "maintenanceCost": 45,
-        "effect": "RM 240 / 100.000 kilómetros cuadrados o línea"
+        "effect": "RM 240 / 100.000 kilómetros cuadrados o línea",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 10000,
         "intRequired": 19,
         "maintenanceCost": 50,
-        "effect": "RM 300 / Sin límite de espacio"
+        "effect": "RM 300 / Sin límite de espacio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

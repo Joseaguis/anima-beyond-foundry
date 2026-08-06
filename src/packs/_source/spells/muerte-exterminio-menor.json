@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Muerte",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Mata a las criaturas con Presencia 20 determinadas por el lanzador en un área, si no superan la RM determinada por el grado de conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 7,
         "maintenanceCost": 0,
-        "effect": "RM 60 / 10 metros de radio"
+        "effect": "RM 60 / 10 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "RM 80 / 25 metros de radio"
+        "effect": "RM 80 / 25 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 11,
         "maintenanceCost": 0,
-        "effect": "RM 100 / 50 metros de radio"
+        "effect": "RM 100 / 50 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 140,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "RM 120 / 75 metros de radio"
+        "effect": "RM 120 / 75 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

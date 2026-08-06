@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Guerra",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Despierta en los aliados del brujo un ansia de lucha que los convierte en guerreros imparables, bestias humanas llenas de furia sin par. El hechizo confiere un Bono de +10 al Ataque y provoca el estado de Ira (impidiendo a los afectados perder el control o atacarse unos a otros) en todo aquel aliado dentro del radio de acción.",
@@ -23,25 +24,37 @@
         "zeonCost": 40,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "10m radio"
+        "effect": "10m radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 70,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "50m radio"
+        "effect": "50m radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 100,
         "intRequired": 12,
         "maintenanceCost": 10,
-        "effect": "250m radio"
+        "effect": "250m radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 130,
         "intRequired": 15,
         "maintenanceCost": 15,
-        "effect": "500m radio"
+        "effect": "500m radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

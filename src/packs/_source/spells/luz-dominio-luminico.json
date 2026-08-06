@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Luz",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Modifica y controla la forma, color o intensidad de la luz de un ambiente. Si se lanza sobre seres basados naturalmente en este elemento serán dominados por el hechicero si no superan una RM determinada por el grado del conjuro. La criatura sólo puede repetir el control si recibe una orden que sea opuesta a su naturaleza.",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "Radio de 20 metros / RM 80"
+        "effect": "Radio de 20 metros / RM 80",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 150,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "Radio de 150 metros / RM 140"
+        "effect": "Radio de 150 metros / RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 250,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "Radio de 300 metros y RM 180."
+        "effect": "Radio de 300 metros y RM 180.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 250,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "Radio de 500 metros / RM 220"
+        "effect": "Radio de 500 metros / RM 220",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

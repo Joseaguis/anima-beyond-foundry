@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Tiempo",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Este hechizo memoriza el estado y condición actual de todo cuanto se encuentra en su radio de acción, pero sólo puede retrasar los efectos de lo sucedido, por lo que todo perjuicio que un individuo o cosa haya sufrido durante el lapso de tiempo estancado aparecerá de inmediato en cuanto el conjuro finalice o salgan de su zona de influencia.",
@@ -23,25 +24,37 @@
         "zeonCost": 150,
         "intRequired": 8,
         "maintenanceCost": 15,
-        "effect": "5m"
+        "effect": "5m",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 11,
         "maintenanceCost": 20,
-        "effect": "10m"
+        "effect": "10m",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 280,
         "intRequired": 13,
         "maintenanceCost": 30,
-        "effect": "25m"
+        "effect": "25m",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 380,
         "intRequired": 15,
         "maintenanceCost": 40,
-        "effect": "50m"
+        "effect": "50m",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

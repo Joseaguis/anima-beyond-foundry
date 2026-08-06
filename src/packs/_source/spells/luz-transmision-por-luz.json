@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Luz",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Transporta instantáneamente a los individuos u objetos designados por el brujo, desde una fuente de luz hasta otra. Si desea resistirse, hay que superar la RM del conjuro. Tanto la distancia máxima como la máxima presencia afectable son determinadas por el grado del conjuro",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "100 kilómetros / 250 de presencia / RM 120"
+        "effect": "100 kilómetros / 250 de presencia / RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 360,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "1.000 kilómetros / 500 de presencia / RM 140"
+        "effect": "1.000 kilómetros / 500 de presencia / RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 450,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "5.000 kilómetros / 1.000 de presencia / RM 180"
+        "effect": "5.000 kilómetros / 1.000 de presencia / RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 600,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "15.000 kilómetros / 2.000 de presencia / RM contra 200"
+        "effect": "15.000 kilómetros / 2.000 de presencia / RM contra 200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

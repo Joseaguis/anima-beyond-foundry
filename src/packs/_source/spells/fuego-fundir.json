@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Fuego",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este conjuro calienta un objeto inorgánico en un radio haciendo que alcance mucha temperatura. El calor producido será tanto que, cualquier objeto susceptible de fundirse que no supere un control de resistencia se fundirá en un número de asaltos equivalente a su entereza. Cualquier persona que esté en contacto con el cuerpo abrasado, deberá desprenderse de él o sufrirá daños. Si no lo arroja, cada turno realizará una tirada acumulativa en la Tabla 76",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "10 metros de radio/ RF 80"
+        "effect": "10 metros de radio/ RF 80",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "50 metros de radio / RF 100"
+        "effect": "50 metros de radio / RF 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 180,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "100 metros de radio / RF 120"
+        "effect": "100 metros de radio / RF 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 240,
         "intRequired": 14,
         "maintenanceCost": 15,
-        "effect": "150 metros de radio / RF 140"
+        "effect": "150 metros de radio / RF 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

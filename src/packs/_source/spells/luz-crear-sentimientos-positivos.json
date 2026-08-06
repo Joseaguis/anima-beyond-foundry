@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Luz",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Introduce algún tipo de sentimiento positivo, como amor, placer o amistad, en los individuos designados por el hechicero que fallen la RM del conjuro. El afectado puede repetir el control una vez al día",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "Radio de 20 metros / RM o RP 120."
+        "effect": "Radio de 20 metros / RM o RP 120.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "Radio de 100 metros / RM o RP 160"
+        "effect": "Radio de 100 metros / RM o RP 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "Radio de 250 metros / RM o RP 180."
+        "effect": "Radio de 250 metros / RM o RP 180.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "Radio de 500 metros / RM o RP 220"
+        "effect": "Radio de 500 metros / RM o RP 220",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

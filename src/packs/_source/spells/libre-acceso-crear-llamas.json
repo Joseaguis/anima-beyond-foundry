@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Crea intensidades de fuego en una materia que sea naturalmente inflamable. Si prende, no será necesario mantener el conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 40,
         "intRequired": 5,
         "maintenanceCost": 5,
-        "effect": "1 intensidad"
+        "effect": "1 intensidad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "3 intensidades"
+        "effect": "3 intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 110,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "6 intensidades"
+        "effect": "6 intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 130,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "9 intensidades"
+        "effect": "9 intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

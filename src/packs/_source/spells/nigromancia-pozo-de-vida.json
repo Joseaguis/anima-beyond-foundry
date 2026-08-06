@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Nigromancia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Como un vacío que se alimenta del daño que sufren los demás, el nigromante absorbe la mitad de los puntos de vida perdidos por los seres vivos que se encuentren a su alrededor, sin posible resistencia alguna. Estos PV le sirven para restituir cualquier clase de herida que haya sufrido.",
@@ -23,25 +24,37 @@
         "zeonCost": 300,
         "intRequired": 9,
         "maintenanceCost": 15,
-        "effect": "50 metros de radio"
+        "effect": "50 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 400,
         "intRequired": 12,
         "maintenanceCost": 20,
-        "effect": "250 metros de radio"
+        "effect": "250 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 500,
         "intRequired": 14,
         "maintenanceCost": 25,
-        "effect": "500 metros de radio"
+        "effect": "500 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 600,
         "intRequired": 16,
         "maintenanceCost": 30,
-        "effect": "1 kilometro de radio"
+        "effect": "1 kilometro de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

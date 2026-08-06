@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Musical",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Controlando el ritmo del mundo, este conjuro aísla al hechicero de las distracciones exteriores permitiéndole discernir de manera intuitiva todos los sonidos que le rodean. En conscuencia, obtiene un bono a su habilidad secundaria Buscar para todos aquellos controles que estén relacionados con el sonido.",
@@ -23,25 +24,37 @@
         "zeonCost": 30,
         "intRequired": 5,
         "maintenanceCost": 0,
-        "effect": "Da + 40 a buscar"
+        "effect": "Da + 40 a buscar",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 50,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "Da +60 a buscar"
+        "effect": "Da +60 a buscar",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 70,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Da +80 a buscar"
+        "effect": "Da +80 a buscar",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 100,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Da +100 a buscar"
+        "effect": "Da +100 a buscar",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

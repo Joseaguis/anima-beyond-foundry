@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Solidifica la magia, creando un recipiente sobrenatural para el Zeon. Aplicado a reglas de juego, conforma un contenedor de magia que aparece vacío. Sólo es posible mantener activo un conjuro de Prisma de Magia a la vez",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "400 puntos de Zeon"
+        "effect": "400 puntos de Zeon",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "800 puntos de Zeon"
+        "effect": "800 puntos de Zeon",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 280,
         "intRequired": 14,
         "maintenanceCost": 20,
-        "effect": "1.500 puntos de Zeon"
+        "effect": "1.500 puntos de Zeon",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 320,
         "intRequired": 16,
         "maintenanceCost": 20,
-        "effect": "3.000 puntos de Zeon"
+        "effect": "3.000 puntos de Zeon",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Oscuridad",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Forma una marca o un espectáculo de luces en un lugar determinado que aterroriza y llena de terror a quienes la observen. Todo aquel que lo mire y falle la Resistencia sufrirá de inmediato el estado de Terror. La condición para ser afectado consiste en mirar directamente la Marca del Miedo",
@@ -23,25 +24,37 @@
         "zeonCost": 140,
         "intRequired": 10,
         "maintenanceCost": 5,
-        "effect": "Visible en 1 kilómetro de radio / RM o RP 120"
+        "effect": "Visible en 1 kilómetro de radio / RM o RP 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 12,
         "maintenanceCost": 10,
-        "effect": "Visible en 5 kilómetros de radio / RM o RP 150"
+        "effect": "Visible en 5 kilómetros de radio / RM o RP 150",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 280,
         "intRequired": 14,
         "maintenanceCost": 10,
-        "effect": "Visible en 15 kilómetros de radio / RM o RP 180"
+        "effect": "Visible en 15 kilómetros de radio / RM o RP 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 360,
         "intRequired": 16,
         "maintenanceCost": 15,
-        "effect": "Visible en 25 kilómetros de radio / RM o RP 220"
+        "effect": "Visible en 25 kilómetros de radio / RM o RP 220",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

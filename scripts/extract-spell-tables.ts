@@ -18,6 +18,7 @@
 import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { guessAttackType, parseItemNumbers } from "./lib/parse-effect-numbers";
 
 const root = path.resolve(fileURLToPath(new URL(".", import.meta.url)), "..");
 const DOCS_ROOT = path.resolve(root, "..", "anime-beyond-fantasy-docs");
@@ -253,11 +254,59 @@ const INT_COLS = ["J", "K", "L", "M"] as const;
 const ZEON_COLS = ["N", "O", "P", "Q"] as const;
 const EFFECT_COLS = ["V", "W", "X", "Y"] as const;
 
+/**
+ * The handful of spells whose figures no amount of reading the prose can
+ * recover, keyed by spell name.
+ *
+ * `damage`/`shieldPoints` take one entry per grade. `attackType` overrides the
+ * keyword guess. Everything here is a deliberate editorial decision, so each
+ * one carries the reason: an empty list means "the book really gives no
+ * number", which is different from "the parser missed it".
+ */
+const MANUAL_OVERRIDES: Record<
+  string,
+  { damage?: number[]; shieldPoints?: number[]; attackType?: string; reason: string }
+> = {
+  // Damage scales off the caster's own Strength bonus, so there is no fixed
+  // figure to record: "Daño igual al doble del bono de la Fuerza".
+  "Golpe de aire": { reason: "daño derivado de la FUE del lanzador" },
+  // Grapple spells: they use the Presa rules, not damage.
+  "Lazos de luz": { reason: "usa las reglas de Presa, no causa daño" },
+  "Lazos oscuros": { reason: "usa las reglas de Presa, no causa daño" },
+  // Typed `attack` in the Excel but it is pure protection.
+  "Protección contra el vacío": { reason: "es protección, mal clasificada como ataque" },
+  // These two do have damage in their grades; what they lack is a declared TA.
+  // The sound wave "destroza cualquier cosa sólida" without naming a type, and
+  // the void spell only says it causes an automatic critical on top.
+  "Mezzo forte": { reason: "sin TA declarada para la onda sonora" },
+  Implosión: { reason: "sin TA declarada; además provoca un crítico automático" },
+  // Only ever damages supernatural shields, never a creature.
+  "Onda vacua": { attackType: "ene", reason: "sólo daña escudos sobrenaturales" },
+  // The caster picks the attack type each time it is cast.
+  "Ataque fantasmal": { reason: "el lanzador elige la tipología de ataque" },
+  // Both spheres are steered by Magic Projection and attack the Energy TA; the
+  // prose says "TA de ENE", which the keyword table reads, but they are listed
+  // here so the pair stays explicit.
+  "Esfera buscadora": { attackType: "ene", reason: "ataca en TA de ENE" },
+  "Esfera oscura": { attackType: "ene", reason: "ataca en TA de ENE" },
+  // Defence spells whose grades gate *what* they stop (an RM/RP threshold or a
+  // number of dodges), not how much punishment they soak up. They are not a
+  // pool of points and must not be given one.
+  "Movimiento defensivo": { reason: "sustituye la esquiva, no es un pool de puntos" },
+  "Barrera de almas": { reason: "detiene efectos por RM/RP, no tiene aguante" },
+  "Escudo espectral": { reason: "detiene efectos por Resistencia, no tiene aguante" },
+  // Su mecánica entera es la barrera de daño, no un aguante: "no sufre
+  // perjuicio alguno si detiene ataques con un daño base igual o inferior"
+  // (40 / 90 / 120 / 160 por grado). La barrera se rellena en la ficha.
+  "Burbuja protectora": { reason: "sólo tiene barrera de daño, sin puntos de aguante" },
+};
+
 function emitSpells(rows: Row[]): {
   written: number;
   vias: Set<string>;
   levelsByVia: Map<string, Set<number>>;
   unknownTypes: Map<string, number>;
+  gaps: { noDamage: string[]; noShield: string[]; noType: string[] };
 } {
   rmSync(OUT_SPELLS, { recursive: true, force: true });
   mkdirSync(OUT_SPELLS, { recursive: true });
@@ -266,6 +315,10 @@ function emitSpells(rows: Row[]): {
   const vias = new Set<string>();
   const levelsByVia = new Map<string, Set<number>>();
   const unknownTypes = new Map<string, number>();
+  // Spells the parser could not fill and MANUAL_OVERRIDES does not excuse. An
+  // empty report is the point: it means the next Excel revision did not quietly
+  // introduce a spell whose numbers nobody noticed were missing.
+  const gaps = { noDamage: [] as string[], noShield: [] as string[], noType: [] as string[] };
   let written = 0;
 
   for (const row of rows) {
@@ -284,15 +337,39 @@ function emitSpells(rows: Row[]): {
     const maintenance = parseMaintenance(row, cell(row, "G"));
     const description = cell(row, "Z");
 
+    // The sheet has no damage or resistance columns: both live inside the
+    // per-grade effect prose, and for a few spells only in the description
+    // ("cada espina tiene daño base 60" + grades listing 2/4/6/8 spines).
+    // The description is only trusted for attack and defence spells, where a
+    // bare figure can only mean that spell's own damage or pool.
+    const effectTexts = EFFECT_COLS.map((col) => cell(row, col));
+    const override = MANUAL_OVERRIDES[name];
+    const numbers = parseItemNumbers(description, effectTexts, {
+      useDescription: type === "attack" || type === "defense",
+    });
+
     const grades: Record<string, unknown> = {};
     GRADE_KEYS.forEach((key, i) => {
       grades[key] = {
         zeonCost: num(row, ZEON_COLS[i]),
         intRequired: num(row, INT_COLS[i]),
         maintenanceCost: maintenance.costs[i],
-        effect: cell(row, EFFECT_COLS[i]),
+        effect: effectTexts[i],
+        damage: override?.damage?.[i] ?? numbers[i].damage,
+        shieldPoints: override?.shieldPoints?.[i] ?? numbers[i].shieldPoints,
+        // Authored by hand on the item sheet, never guessed — see
+        // scripts/lib/parse-effect-numbers.
+        damageBarrier: 0,
       };
     });
+
+    if (!override) {
+      const anyDamage = GRADE_KEYS.some((_, i) => numbers[i].damage > 0);
+      const anyShield = GRADE_KEYS.some((_, i) => numbers[i].shieldPoints > 0);
+      if (type === "attack" && !anyDamage) gaps.noDamage.push(name);
+      if (type === "defense" && !anyShield) gaps.noShield.push(name);
+      if (type === "attack" && !guessAttackType(description, ...effectTexts)) gaps.noType.push(name);
+    }
 
     const doc = {
       name,
@@ -306,9 +383,14 @@ function emitSpells(rows: Row[]): {
         actionType: parseActionType(cell(row, "I")),
         maintenanceType: maintenance.type,
         magicPath: via,
-        // The sheet has no damage/resistance columns; both stay at their
-        // schema defaults rather than being guessed from the effect text.
-        damageType: "",
+        // Read from the same prose as the figures above; "" when nothing in the
+        // text gives it away, which is the signal for MANUAL_OVERRIDES.
+        damageType:
+          type === "attack"
+            ? (override?.attackType ?? guessAttackType(description, ...effectTexts))
+            : "",
+        // No source in the sheet: authored per spell on the item sheet.
+        atPiercing: 0,
         resistanceType: "none",
         spellType: type ?? "effect",
         effect: description,
@@ -328,7 +410,7 @@ function emitSpells(rows: Row[]): {
     written++;
   }
 
-  return { written, vias, levelsByVia, unknownTypes };
+  return { written, vias, levelsByVia, unknownTypes, gaps };
 }
 
 // ---------------------------------------------------------------------------
@@ -414,12 +496,24 @@ function main(): void {
   console.log(`[spell-tables] reading ${path.relative(root, workbook)}`);
   const md = readFileSync(workbook, "utf-8");
 
-  const { written, vias, levelsByVia, unknownTypes } = emitSpells(readSheet(md, SHEET));
+  const { written, vias, levelsByVia, unknownTypes, gaps } = emitSpells(readSheet(md, SHEET));
   console.log(`[spell-tables] ${path.relative(root, OUT_SPELLS)}: ${written} conjuros`);
 
   if (unknownTypes.size) {
     console.warn(`[spell-tables] WARNING: ${unknownTypes.size} "Tipo" value(s) not recognised:`);
     for (const [token, count] of unknownTypes) console.warn(`  - "${token}" (${count})`);
+  }
+
+  // Anything listed here needs either a better pattern in
+  // scripts/lib/parse-effect-numbers or an entry in MANUAL_OVERRIDES.
+  for (const [label, names] of [
+    ["ataques sin daño", gaps.noDamage],
+    ["defensas sin aguante", gaps.noShield],
+    ["ataques sin tipo de TA", gaps.noType],
+  ] as const) {
+    if (names.length) {
+      console.warn(`[spell-tables] WARNING: ${names.length} ${label}: ${names.join(", ")}`);
+    }
   }
 
   const pathDefs = readPathTable(md);

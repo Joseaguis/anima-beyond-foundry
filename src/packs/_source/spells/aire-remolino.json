@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Aire",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Se crea un remolino. Quien se encuentre en el área recibe un ataque con habilidad de Absurdo y daño base de 40 CON. Los afectados deberán superar un control enfrentado de Fuerza o Agilidad contra el equivalente a Fuerza 12, o serán levantados en el aire. Los levantados sufren penalizador de –60 a toda acción. Todos en el area son afectados. El mago podrá desplazar el hechizo con velocidad 8. No tiene efectos sobre cuerpos inmateriales.",
@@ -23,25 +24,37 @@
         "zeonCost": 140,
         "intRequired": 7,
         "maintenanceCost": 30,
-        "effect": "3 metros de radio"
+        "effect": "3 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 40,
-        "effect": "6 metros de radio"
+        "effect": "6 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 50,
-        "effect": "12 metros de radio"
+        "effect": "12 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 60,
-        "effect": "25 metros de radio"
+        "effect": "25 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

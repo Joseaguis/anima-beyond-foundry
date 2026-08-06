@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El hechicero absorbe conocimientos escritos o gráficos, que se encuentren a su vista o al alcance de su mano. Así pues, le es posible, por ejemplo, leer un libro en escasos segundos tocando su cubierta y recordar los detalles como si lo hubiera hecho con detenimiento. Un personaje que trate de recordar información que ha memorizado usando este conjuro disminuye dos grados la dificultad de cualquier control de Memorizar.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "Un libro corto y no muy complejo"
+        "effect": "Un libro corto y no muy complejo",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Un grueso volumen de gran complejidad"
+        "effect": "Un grueso volumen de gran complejidad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 320,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "El equivalente a una enciclopedia"
+        "effect": "El equivalente a una enciclopedia",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 500,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "El conocimiento de una biblioteca entera"
+        "effect": "El conocimiento de una biblioteca entera",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

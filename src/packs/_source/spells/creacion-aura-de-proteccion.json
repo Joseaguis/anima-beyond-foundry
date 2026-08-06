@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Creación",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Incrementa sobrenaturalmente todas las Resistencias de los individuos designados por el brujo en un área (RF, RV, RE, RM y RP). Los efectos de este conjuro no se superponen, y sólo se puede afectar con él una vez a cada sujeto.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 6,
         "maintenanceCost": 10,
-        "effect": "Mas 20 a las Resistencias / 100 metros de radio"
+        "effect": "Mas 20 a las Resistencias / 100 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 15,
-        "effect": "Mas 50 a las Resistencias / 500 metros de radio"
+        "effect": "Mas 50 a las Resistencias / 500 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "Mas 80 a las Resistencias / 1 kilometro de radio"
+        "effect": "Mas 80 a las Resistencias / 1 kilometro de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 350,
         "intRequired": 15,
         "maintenanceCost": 35,
-        "effect": "Mas 120 a las Resistencias / 10 kilometros de radio"
+        "effect": "Mas 120 a las Resistencias / 10 kilometros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Eleva el movimiento de un sujeto, al igual que le proporciona un bono a su turno. Los valores que hagan aumentar el Tipo de Movimiento por encima de 12 quedan reducidos a la mitad",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 6,
         "maintenanceCost": 10,
-        "effect": "Más 1 al Tipo de movimiento / +20 al turno"
+        "effect": "Más 1 al Tipo de movimiento / +20 al turno",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "Más 2 al tipo de movimiento / +40 al turno"
+        "effect": "Más 2 al tipo de movimiento / +40 al turno",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 160,
         "intRequired": 11,
         "maintenanceCost": 15,
-        "effect": "Más 4 al Tipo de movimiento / +60 al turno"
+        "effect": "Más 4 al Tipo de movimiento / +60 al turno",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 200,
         "intRequired": 13,
         "maintenanceCost": 15,
-        "effect": "Más 6 al Tipo de movimiento / +80 al turno"
+        "effect": "Más 6 al Tipo de movimiento / +80 al turno",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

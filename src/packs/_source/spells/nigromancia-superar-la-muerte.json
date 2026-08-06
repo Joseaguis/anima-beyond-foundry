@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Nigromancia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El Blanco se convierte en no muerto. Lanzado en el instante en el que el personaje fallece o escasos segundos antes. El mago decide si será un Ser Entre Mundos o  un Espíritu, tendrá Gnosis 25. Gana PD para elegir habilidades esenciales o poderes, si opta por ser espectro, deberá invertir 100 PD. Puede escoger PD en desventajas y penalizadores, que dan más puntos. El exceso de PD aumenta su nivel.  Sólo funciona sobre seres vivos en el momento de morir.",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Mas 100 PD / hasta 100 PD opcionales en desventajas"
+        "effect": "Mas 100 PD / hasta 100 PD opcionales en desventajas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 500,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "Mas 200 PD / hasta 100 PD opcionales en desventajas"
+        "effect": "Mas 200 PD / hasta 100 PD opcionales en desventajas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 1000,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "Mas 300 PD / hasta 200 PD opcionales en desventajas"
+        "effect": "Mas 300 PD / hasta 200 PD opcionales en desventajas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 2500,
         "intRequired": 17,
         "maintenanceCost": 0,
-        "effect": "Mas 400 PD / hasta 200 PD opcionales en desventajas"
+        "effect": "Mas 400 PD / hasta 200 PD opcionales en desventajas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

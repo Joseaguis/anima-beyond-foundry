@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Oscuridad",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Oculta un conjuro, o las propiedades místicas de un objeto, ante cualquier tipo de detección mágica. A efectos de juego, produce un penalizador a la Valoración mágica de quien intente detectar o medir el conjuro u objeto oculto (así como al propio hechizo de Ocultación de Magia).",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "–100 a Valoración Mágica"
+        "effect": "–100 a Valoración Mágica",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "–180 a Valoración Mágica"
+        "effect": "–180 a Valoración Mágica",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "–240 a Valoración Mágica"
+        "effect": "–240 a Valoración Mágica",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "–320 a Valoración Mágica"
+        "effect": "–320 a Valoración Mágica",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

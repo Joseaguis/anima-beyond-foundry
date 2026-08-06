@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Hace enfermar a un individuo que falle la RE requerida",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "Enfermedad de Nivel 30."
+        "effect": "Enfermedad de Nivel 30.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Enfermedad de Nivel 50."
+        "effect": "Enfermedad de Nivel 50.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 140,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Enfermedad de Nivel 70."
+        "effect": "Enfermedad de Nivel 70.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 200,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "Enfermedad de Nivel 90."
+        "effect": "Enfermedad de Nivel 90.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

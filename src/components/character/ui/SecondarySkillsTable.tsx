@@ -1,5 +1,6 @@
 import { SectionCard } from "./SectionCard";
 import { DerivedValue } from "./fields";
+import { Rollable } from "./Rollable";
 import {
   SECONDARY_ABILITY_GROUPS,
   SECONDARY_ABILITIES_BY_GROUP,
@@ -29,9 +30,13 @@ interface CustomAbility {
 export function SecondarySkillsTable({
   system,
   style,
+  onRoll,
+  rollable,
 }: {
   system: Record<string, any>;
   style?: React.CSSProperties;
+  onRoll?: (slug: string, options?: { skipDialog?: boolean }) => Promise<void>;
+  rollable?: Set<string>;
 }) {
   const equipment = system.equipment ?? {};
   const penaltyFor = (kind?: ArmorPenaltyKind): number | null => {
@@ -54,9 +59,18 @@ export function SecondarySkillsTable({
     penalty: number | null,
     final: number,
     tip?: string,
+    slug?: string,
   ) => (
     <div key={key} className="a-trow" style={{ gridTemplateColumns: GRID }}>
-      <div className="px-2.5 py-0.5 text-xs truncate">{label}</div>
+      <div className="px-2.5 py-0.5 text-xs truncate">
+        {slug ? (
+          <Rollable slug={slug} onRoll={onRoll} rollable={rollable}>
+            {label}
+          </Rollable>
+        ) : (
+          label
+        )}
+      </div>
       <div className={`text-center text-[11px] ${penalty ? "a-red" : "a-muted"}`}>
         {penalty === null ? "—" : penalty}
       </div>
@@ -81,6 +95,7 @@ export function SecondarySkillsTable({
               penaltyFor(d.armorPenalty),
               o.final ?? 0,
               `${game.i18n.localize(d.labelKey)}|Base=${o.base ?? 0}|Bono=${sign(o.bonusTotal ?? 0)}|Cat=${o.catBonus ?? 0}|Especial=${sign(o.special ?? 0)}|=${o.final ?? 0}`,
+              `secondary.${d.key}`,
             );
           })}
           {extra.map((a, i) =>

@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Tiempo",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Este sortilegio afecta la esencia de un objetivo, haciendo que su \"existencia\" retroceda en el tiempo. De ese modo, un anciano volvería a ser joven o un hombre adulto podría llegar a convertirse en un simple niño (o incluso un bebe). El tiempo retrocedido se borra de la vida del individuo, pudiendo llegar a alterar incluso su nivel.",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "120RM / Retrocede hasta 1 día"
+        "effect": "120RM / Retrocede hasta 1 día",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 350,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "140RM / Retrocede hasta 1 semana"
+        "effect": "140RM / Retrocede hasta 1 semana",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 450,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "160RM / Retrocede hasta 1 año"
+        "effect": "160RM / Retrocede hasta 1 año",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 600,
         "intRequired": 17,
         "maintenanceCost": 0,
-        "effect": "180RM / Retrocede hasta 1 década"
+        "effect": "180RM / Retrocede hasta 1 década",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

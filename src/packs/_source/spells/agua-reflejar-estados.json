@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Agua",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Crea un espejo místico, capaz de reflejar estado sobrenatural del que él o un individuo cercano sea blanco. El efecto se refleja automáticamente sobre aquel que lo haya producido, quien deberá superar una RM para evitar su propio poder. Este hechizo no tiene mantenimiento, pero el estado reflejado se mantendrá mientras perdure en el sujeto sobre el que fue lanzado originariamente. Cada efecto sólo puede tratar de reflejarse una vez.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 7,
         "maintenanceCost": 0,
-        "effect": "RM 120."
+        "effect": "RM 120.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "RM 150."
+        "effect": "RM 150.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "RM 180."
+        "effect": "RM 180.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 320,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "RM 220."
+        "effect": "RM 220.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -20,6 +20,7 @@
 import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { guessAttackType, parseEffectNumbers } from "./lib/parse-effect-numbers";
 
 const root = path.resolve(fileURLToPath(new URL(".", import.meta.url)), "..");
 const DOCS_ROOT = path.resolve(root, "..", "anime-beyond-fantasy-docs");
@@ -261,7 +262,16 @@ function emitPowers(powers: PowerRow[], maintenance: Map<string, string>): numbe
         // Fortalecer is a per-character investment, never part of the catalog.
         fortifyCvs: 0,
         maintenanceDifficulty: p.maintainable ? (maintenance.get(slug(p.name)) ?? "") : "",
-        grades: p.grades,
+        // No TA stops a psychic power (Core p. 211), so this is display-only —
+        // the roll engine sends them through with `ignoresArmor`.
+        damageType: guessAttackType(...p.grades.map((g) => g.effect)),
+        // Same treatment as the spells: the figures only exist inside the grade
+        // prose. There is no description to fall back on — the Excel leaves it
+        // empty for every power. The damage barrier is authored by hand.
+        grades: p.grades.map((g) => {
+          const numbers = parseEffectNumbers(g.effect);
+          return { ...g, ...numbers, damageBarrier: 0 };
+        }),
         effect: "",
       },
     };

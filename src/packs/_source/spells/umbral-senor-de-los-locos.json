@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Umbral",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "El brujo puede controlar a cualquier persona demente alterando su demencia y percepción de la realidad. La condición para ser afectado es estar dentro de la zona de influencia del conjuro y estar sumido en una demencia grave. Aquellos que sólo tengan una locura transitoria pueden aplicar un +40 a sus Resistencias contra los efectos de este conjuro. Los afectados sólo tienen derecho a repetir el control una vez al día o cuando aumenten sus Resistencias.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "RM o RP 140 / 100 metros de radio."
+        "effect": "RM o RP 140 / 100 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 300,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "RM o RP 160 / 250 metros de radio."
+        "effect": "RM o RP 160 / 250 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 400,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "RM o RP 180 / 1 kilómetro de radio."
+        "effect": "RM o RP 180 / 1 kilómetro de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 500,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "RM o RP 200 / 5 kilómetros de radio."
+        "effect": "RM o RP 200 / 5 kilómetros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

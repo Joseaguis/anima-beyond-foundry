@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Muerte",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El lanzador es capaz de presentir la muerte en las cercanías.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 7,
         "maintenanceCost": 10,
-        "effect": "En 100 m detecta muertes hace < 1 hora, o moribundo morirá < 1 minuto"
+        "effect": "En 100 m detecta muertes hace < 1 hora, o moribundo morirá < 1 minuto",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "150 m, muertes hace < 6 horas, o si alguien  va a morir en diez minutos."
+        "effect": "150 m, muertes hace < 6 horas, o si alguien  va a morir en diez minutos.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 13,
         "maintenanceCost": 15,
-        "effect": "Percibe tiempo de vida de una persona, y si alguien ha muerto en la zona"
+        "effect": "Percibe tiempo de vida de una persona, y si alguien ha muerto en la zona",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 15,
         "maintenanceCost": 15,
-        "effect": "Percibe las causas de muertes pasadas y futuras"
+        "effect": "Percibe las causas de muertes pasadas y futuras",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Tierra",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Otorga la capacidad de controlar cualquier sustancia mineral, aunque no de atribuírle propiedades que no tenga. El hechicero no puede hacer que una roca se mueva, pero si someter a su voluntad a un golem de piedra o a un elemental de tierra. Los seres conscientes pueden resistirse superando la RM establecida.",
@@ -23,25 +24,37 @@
         "zeonCost": 30,
         "intRequired": 5,
         "maintenanceCost": 5,
-        "effect": "Presencia máxima 30 / RM 100"
+        "effect": "Presencia máxima 30 / RM 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 60,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "Presencia máxima 60 / RM 120"
+        "effect": "Presencia máxima 60 / RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "Presencia máxima 90 / RM 130"
+        "effect": "Presencia máxima 90 / RM 130",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 140,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "Presencia máxima 120 / RM 140"
+        "effect": "Presencia máxima 120 / RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

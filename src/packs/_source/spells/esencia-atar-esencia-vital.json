@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Esencia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Esconde un alma en un contenedor físico. El alma sigue usando su cuerpo, aunque ya solo es una cáscara. Es incapaz de morir por pérdida de PV's. Si éstos se reducen hasta la Muerte, el cuerpo quedará inutilzado y sólo se curará mediante habilidades sobrenaturales. La carcasa sin alma será inmune a los efectos místicos de carácter anímico. La distancia máxima de separación con el contenedor es el grado de conjuro. El efecto puede resisitirse con RM.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "RM 100 / 1 kilómetro de distancia"
+        "effect": "RM 100 / 1 kilómetro de distancia",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 300,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "RM 120 / 5 kilómetros de distancia"
+        "effect": "RM 120 / 5 kilómetros de distancia",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 400,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "RM 140 / 50 kilómetros de distancia"
+        "effect": "RM 140 / 50 kilómetros de distancia",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 500,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "RM 160 / 150 kilómetros de distancia"
+        "effect": "RM 160 / 150 kilómetros de distancia",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

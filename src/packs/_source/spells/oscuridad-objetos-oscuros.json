@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Oscuridad",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Forma un objeto físico de energía lumínica, ya sea algo tan complejo como un reloj o tan simple como una espada. Pese a estar hecho de luz, tiene consistencia física. La presencia máxima de dicho objeto y la calidad del mismo viene determinada por el grado del conjuro",
@@ -23,25 +24,37 @@
         "zeonCost": 150,
         "intRequired": 10,
         "maintenanceCost": 15,
-        "effect": "Presencia 60 / Calidad +5."
+        "effect": "Presencia 60 / Calidad +5.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 12,
         "maintenanceCost": 20,
-        "effect": "Presencia 100 / Calidad +10"
+        "effect": "Presencia 100 / Calidad +10",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 14,
         "maintenanceCost": 25,
-        "effect": "Presencia 140 / Calidad +10"
+        "effect": "Presencia 140 / Calidad +10",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 16,
         "maintenanceCost": 30,
-        "effect": "Presencia 180 / Calidad +15"
+        "effect": "Presencia 180 / Calidad +15",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

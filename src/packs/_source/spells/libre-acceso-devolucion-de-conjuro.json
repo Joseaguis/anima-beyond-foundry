@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Devuelve un conjuro activo contra su lanzador, o sobre cualquier otro blanco que se elija. El sortilegio rechazado utiliza la misma Proyección Mágica de quien lo ejecutó. La devolución es un efecto automático",
@@ -23,25 +24,37 @@
         "zeonCost": 150,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Zeón máximo del conjuro 100"
+        "effect": "Zeón máximo del conjuro 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Zeón máximo del conjuro 120"
+        "effect": "Zeón máximo del conjuro 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "Zeón máximo del conjuro 140"
+        "effect": "Zeón máximo del conjuro 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 280,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "Zeón máximo del conjuro 160"
+        "effect": "Zeón máximo del conjuro 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

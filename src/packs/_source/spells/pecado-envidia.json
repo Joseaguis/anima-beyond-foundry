@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Pecado",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Si el objetivo falla la RM determinada por el Grado del conjuro, sufrirá todo lo que el hechicero sufra, tanto positivo como negativo. Por ejemplo, si dañan al lanzador el personaje afectado también sufrirá el mismo daño, o si el brujo recibe cualquier efecto místico, de la naturaleza que sea, también será traspasado.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 9,
         "maintenanceCost": 5,
-        "effect": "RM 120"
+        "effect": "RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 150,
         "intRequired": 11,
         "maintenanceCost": 5,
-        "effect": "RM 140"
+        "effect": "RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 200,
         "intRequired": 13,
         "maintenanceCost": 10,
-        "effect": "RM 160"
+        "effect": "RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 250,
         "intRequired": 15,
         "maintenanceCost": 10,
-        "effect": "RM 180"
+        "effect": "RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

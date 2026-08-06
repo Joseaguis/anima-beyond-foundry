@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Agua",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "defense",
     "effect": "Forma una barrera de hielo que protege frente a cualquier fuente de ataque. En el caso de que el escudo detenga con éxito una descarga de energía basada en luz u oscuridad, puede devolver el ataque hacia su lanzador con la misma habilidad con la que este lo proyectó.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 10,
-        "effect": "400 puntos de Resistencia."
+        "effect": "400 puntos de Resistencia.",
+        "damage": 0,
+        "shieldPoints": 400,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "1.500 puntos de Resistencia."
+        "effect": "1.500 puntos de Resistencia.",
+        "damage": 0,
+        "shieldPoints": 1500,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "2.500 puntos de Resistencia."
+        "effect": "2.500 puntos de Resistencia.",
+        "damage": 0,
+        "shieldPoints": 2500,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 15,
-        "effect": "4.000 puntos de Resistencia."
+        "effect": "4.000 puntos de Resistencia.",
+        "damage": 0,
+        "shieldPoints": 4000,
+        "damageBarrier": 0
       }
     }
   }

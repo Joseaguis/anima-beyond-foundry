@@ -25,6 +25,9 @@ interface SpellGrade {
   intRequired: number;
   maintenanceCost: number;
   effect: string;
+  damage: number;
+  shieldPoints: number;
+  damageBarrier: number;
 }
 
 interface SpellDoc {
@@ -36,6 +39,8 @@ interface SpellDoc {
     maintenanceType: string;
     magicPath: string;
     spellType: string;
+    damageType: string;
+    atPiercing: number;
     resistanceType: string;
     closedPaths: string;
     grades: Record<string, SpellGrade>;
@@ -269,6 +274,96 @@ describe("free-access slots", () => {
       expect(FREE_ACCESS_LEVELS["Luz"]).toContain(level);
       expect(FREE_ACCESS_LEVELS["Fuego"]).toContain(level);
     }
+  });
+});
+
+/**
+ * Figures the roll engine needs, pulled out of the grade prose by
+ * `scripts/lib/parse-effect-numbers`. These lock in the extraction: if a future
+ * Excel revision rewords a grade line, the count moves and the test says so.
+ */
+describe("cifras de combate extraídas de la prosa", () => {
+  const AT_TYPES = new Set(["fil", "con", "pen", "cal", "fri", "ele", "ene"]);
+
+  /**
+   * Attack spells the books genuinely give no damage figure for — damage off
+   * the caster's Strength, grapples that use the Presa rules, a spell that
+   * causes a critical instead of damage. Mirrors MANUAL_OVERRIDES in the
+   * extractor; asserted as an exact set so a real extraction gap cannot hide.
+   */
+  const ATTACKS_WITHOUT_DAMAGE = new Set([
+    "Golpe de aire",
+    "Lazos de luz",
+    "Lazos oscuros",
+    "Protección contra el vacío",
+  ]);
+
+  /** Defences whose grades gate *what* they stop, not how much they soak. */
+  const DEFENCES_WITHOUT_POINTS = new Set([
+    "Movimiento defensivo",
+    "Barrera de almas",
+    "Escudo espectral",
+    "Burbuja protectora",
+  ]);
+
+  const attacks = spells.filter((s) => s.system.spellType === "attack");
+  const defences = spells.filter((s) => s.system.spellType === "defense");
+  const gradesOf = (s: SpellDoc) => GRADE_KEYS.map((k) => s.system.grades[k]);
+
+  it("todo conjuro de ataque tiene daño, salvo los que el manual deja sin cifra", () => {
+    const without = attacks
+      .filter((s) => gradesOf(s).every((g) => g.damage === 0))
+      .map((s) => s.name);
+    expect(new Set(without)).toEqual(ATTACKS_WITHOUT_DAMAGE);
+  });
+
+  it("toda defensa tiene aguante, salvo las que no son un pool de puntos", () => {
+    const without = defences
+      .filter((s) => gradesOf(s).every((g) => g.shieldPoints === 0))
+      .map((s) => s.name);
+    expect(new Set(without)).toEqual(DEFENCES_WITHOUT_POINTS);
+  });
+
+  it("el daño y el aguante no decrecen al subir de grado", () => {
+    const regressions: string[] = [];
+    for (const spell of spells) {
+      const grades = gradesOf(spell);
+      for (let i = 1; i < grades.length; i++) {
+        if (grades[i].damage < grades[i - 1].damage && grades[i].damage > 0) {
+          regressions.push(`${spell.name} daño ${GRADE_KEYS[i]}`);
+        }
+        if (grades[i].shieldPoints < grades[i - 1].shieldPoints && grades[i].shieldPoints > 0) {
+          regressions.push(`${spell.name} aguante ${GRADE_KEYS[i]}`);
+        }
+      }
+    }
+    expect(regressions).toEqual([]);
+  });
+
+  it("los ataques declaran una TA válida cuando el manual la da", () => {
+    const bad = attacks.filter(
+      (s) => s.system.damageType !== "" && !AT_TYPES.has(s.system.damageType),
+    );
+    expect(bad.map((s) => `${s.name}=${s.system.damageType}`)).toEqual([]);
+
+    // Sólo estos tres dejan la tipología abierta o no atacan a una TA.
+    const untyped = attacks.filter((s) => s.system.damageType === "").map((s) => s.name);
+    expect(new Set(untyped)).toEqual(
+      new Set(["Ataque fantasmal", "Mezzo forte", "Implosión"]),
+    );
+  });
+
+  it("respeta la TA declarada por encima de una palabra suelta", () => {
+    const byName = new Map(spells.map((s) => [s.name, s]));
+    // Declara Penetrantes y menciona energía sólo para decir a quién NO afecta.
+    expect(byName.get("Espina de la tierra")?.system.damageType).toBe("pen");
+    // "Ataca en la TA de calor, aunque es capaz de dañar energía".
+    expect(byName.get("Devastación")?.system.damageType).toBe("cal");
+  });
+
+  it("la barrera de daño y la TA atravesada quedan en cero: son campos de autor", () => {
+    expect(spells.every((s) => s.system.atPiercing === 0)).toBe(true);
+    expect(spells.every((s) => gradesOf(s).every((g) => g.damageBarrier === 0))).toBe(true);
   });
 });
 

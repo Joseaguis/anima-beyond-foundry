@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Paz",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "defense",
     "effect": "Crea una barrera protectora que protege contra cualquier tipo de ataque. El conjuro permite cubrir todos los individuos que estén dentro del radio de acción del sortilegio sin sufrir por ello daño adicional o aplicar un penalizador a la habilidad defensiva del lanzador.",
@@ -23,25 +24,37 @@
         "zeonCost": 150,
         "intRequired": 9,
         "maintenanceCost": 15,
-        "effect": "El Escudo tiene 500 puntos de Resistencia / 5m radio"
+        "effect": "El Escudo tiene 500 puntos de Resistencia / 5m radio",
+        "damage": 0,
+        "shieldPoints": 500,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 250,
         "intRequired": 11,
         "maintenanceCost": 25,
-        "effect": "El Escudo tiene 1.200 puntos de Resistencia / 15m radio"
+        "effect": "El Escudo tiene 1.200 puntos de Resistencia / 15m radio",
+        "damage": 0,
+        "shieldPoints": 1200,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 350,
         "intRequired": 13,
         "maintenanceCost": 35,
-        "effect": "El Escudo tiene 2.200 puntos de Resistencia / 25m radio"
+        "effect": "El Escudo tiene 2.200 puntos de Resistencia / 25m radio",
+        "damage": 0,
+        "shieldPoints": 2200,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 450,
         "intRequired": 15,
         "maintenanceCost": 45,
-        "effect": "El Escudo tiene 5.000 puntos de Resistencia / 50m radio"
+        "effect": "El Escudo tiene 5.000 puntos de Resistencia / 50m radio",
+        "damage": 0,
+        "shieldPoints": 5000,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Paz",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Mientras el hechicero no realice ninguna acción ofensiva durante un asalto puede aplicar un bono a su Proyección Mágica Defensiva.",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 10,
-        "effect": "Da +20 a la Proyección Mágica Defensiva"
+        "effect": "Da +20 a la Proyección Mágica Defensiva",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "Da +30 a la Proyección Mágica Defensiva"
+        "effect": "Da +30 a la Proyección Mágica Defensiva",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 110,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "Da +40 a la Proyección Mágica Defensiva"
+        "effect": "Da +40 a la Proyección Mágica Defensiva",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 140,
         "intRequired": 15,
         "maintenanceCost": 15,
-        "effect": "Da +50 a la Proyección Mágica Defensiva"
+        "effect": "Da +50 a la Proyección Mágica Defensiva",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Agua",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Este hechizo congela toda la realidad, deteniendo completamente el paso del tiempo. Mientras duren sus efectos, la existencia permanece paralizada; únicamente el lanzador podrá moverse y alterar su entorno libremente (aunque será incapaz de regenerar Zeon). Las entidades afectadas pueden evitar las consecuencias del hechizo superando una RM, pero únicamente si poseen un Gnosis mayor de 35 o 20 puntos por encima de su Natura.",
@@ -23,25 +24,37 @@
         "zeonCost": 450,
         "intRequired": 12,
         "maintenanceCost": 90,
-        "effect": "RM 120."
+        "effect": "RM 120.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 800,
         "intRequired": 15,
         "maintenanceCost": 115,
-        "effect": "RM 180."
+        "effect": "RM 180.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 1200,
         "intRequired": 17,
         "maintenanceCost": 130,
-        "effect": "RM 220."
+        "effect": "RM 220.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 1600,
         "intRequired": 20,
         "maintenanceCost": 145,
-        "effect": "RM 260."
+        "effect": "RM 260.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

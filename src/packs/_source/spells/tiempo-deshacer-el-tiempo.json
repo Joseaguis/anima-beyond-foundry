@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Tiempo",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este conjuro permite hacer que las fibras del tiempo retrocedan unos instantes en una zona determinada, deshaciendo cualquier suceso que haya acontecido en dicho periodo. Sólo el lanzador, los seres con Gnosis 15 puntos superior a su Natura o criaturas de naturaleza divina serán conscientes de lo que ha pasado en el periodo de tiempo deshecho. Los seres con Gnosis 40 o superior son inmunes. No hay Tirada de Resistencia posible.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 11,
         "maintenanceCost": 0,
-        "effect": "15 segundos (5 asaltos) / 50m"
+        "effect": "15 segundos (5 asaltos) / 50m",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 350,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "30 segundos (10 asaltos) / 150m"
+        "effect": "30 segundos (10 asaltos) / 150m",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 500,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "1 minuto / 250m"
+        "effect": "1 minuto / 250m",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 800,
         "intRequired": 18,
         "maintenanceCost": 0,
-        "effect": "1 hora / 1 Km"
+        "effect": "1 hora / 1 Km",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

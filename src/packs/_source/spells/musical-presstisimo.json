@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Musical",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este conjuro crea una frenética melodía que incrementa la velocidad de reacción de todo aquel que la escuche y sea designado por el lanzador. Los afectados que se encuentren cerca del hechicero obtienen de inmediato un bono a su turno e incrementan su velodiad.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 8,
         "maintenanceCost": 5,
-        "effect": "10 metros de radio/ +1 al tipo de movimiento/ +30 al Turno"
+        "effect": "10 metros de radio/ +1 al tipo de movimiento/ +30 al Turno",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "20 metros de radio/ +2 al turno/ +30 al Turno"
+        "effect": "20 metros de radio/ +2 al turno/ +30 al Turno",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "30 metros de radio/ +2 al tipo de movimiento/ +40 al Turno"
+        "effect": "30 metros de radio/ +2 al tipo de movimiento/ +40 al Turno",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 14,
         "maintenanceCost": 20,
-        "effect": "40 metros de radio/ +3 al tipo de movimiento/ +50 al Turno"
+        "effect": "40 metros de radio/ +3 al tipo de movimiento/ +50 al Turno",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

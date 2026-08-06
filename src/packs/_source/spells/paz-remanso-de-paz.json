@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Paz",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Este hechizo genera una zona en cuyo interior se pierde todo instinto agresivo. Cualquiera que penetre dentro debe superar automáticamente un control de RM o perderá toda actitud violenta. Alguien que supere el control no vuelve a verse afectado por los efectos de Remanso de Paz mientras no salga de su zona de influencia. El área permanece estática en el lugar en que fue lanzada.",
@@ -23,25 +24,37 @@
         "zeonCost": 160,
         "intRequired": 8,
         "maintenanceCost": 20,
-        "effect": "10m radio / 100 RM"
+        "effect": "10m radio / 100 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 220,
         "intRequired": 10,
         "maintenanceCost": 25,
-        "effect": "25m rad / 120 RM"
+        "effect": "25m rad / 120 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 280,
         "intRequired": 12,
         "maintenanceCost": 30,
-        "effect": "50m rad / 140 RM"
+        "effect": "50m rad / 140 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 14,
         "maintenanceCost": 30,
-        "effect": "100m rad / 160 RM"
+        "effect": "100m rad / 160 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Creación",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Restaura pérdidas sufridas por  un individuo u objeto. Puede elegir qué partes recrea.Un ser herido o una construcción destrozada recupera todo daño o negativo. Tambien deshace efectos de habilidades sobrenaturales, restaura recuerdos, o PD. Afecta carencias sufridas de modo artificial, no una evolución natural o positiva. No tiene efecto en almas fallecidas. El daño hecho por ser de Gnosis 15 puntos mayor, reduce la presencia afectable a la mitad.",
@@ -23,25 +24,37 @@
         "zeonCost": 300,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "Presencia máxima 60"
+        "effect": "Presencia máxima 60",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 500,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Presencia máxima 120"
+        "effect": "Presencia máxima 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 750,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "Presencia máxima 180"
+        "effect": "Presencia máxima 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 1500,
         "intRequired": 18,
         "maintenanceCost": 0,
-        "effect": "Presencia máxima 240"
+        "effect": "Presencia máxima 240",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

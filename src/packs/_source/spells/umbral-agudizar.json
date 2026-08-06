@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Umbral",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "El personaje agudiza los temores y locuras de aquellos individuos que se encuentre dentro del área de efecto del conjuro. Toda aquella persona que no supere la RM o RP pasará de tener miedo a tener terror de aquellas cosas que le asustaban, y la locura transitoria se convertirá en una profunda demencia. Sólo es posible repetir el control una vez al día o cuando aumenten las Resistencias del personaje.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 6,
         "maintenanceCost": 15,
-        "effect": "50 metros / RM o RP 120."
+        "effect": "50 metros / RM o RP 120.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "100 metros / RM o RP 140."
+        "effect": "100 metros / RM o RP 140.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "250 metros / RM o RP 160."
+        "effect": "250 metros / RM o RP 160.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "500 metros / RM o RP 180."
+        "effect": "500 metros / RM o RP 180.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

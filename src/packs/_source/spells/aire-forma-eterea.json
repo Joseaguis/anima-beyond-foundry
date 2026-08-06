@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Aire",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El cuerpo objetivo se transformará en aire, volviéndose intangible ante la materia y ataque no basados en energía. En este estado será invisible ante cualquier individuo incapaz de ver magia o que no supere un control de Advertir contra Casi Imposible, o un Buscar contra Muy Difícil. Aunque no puede traspasar materia física, un cuerpo etéreo se introduce por cualquier rendija o espacio por el que pueda soplar el aire",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "Las habilidades descritas"
+        "effect": "Las habilidades descritas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 11,
         "maintenanceCost": 15,
-        "effect": "Se puede mover por el aire a velocidadigual a Tipo de movimiento natural"
+        "effect": "Se puede mover por el aire a velocidadigual a Tipo de movimiento natural",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 140,
         "intRequired": 13,
         "maintenanceCost": 15,
-        "effect": "Idem arriba, Si ve magia superar Advertir a 140 o Buscar a 80 para verle"
+        "effect": "Idem arriba, Si ve magia superar Advertir a 140 o Buscar a 80 para verle",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 160,
         "intRequired": 16,
         "maintenanceCost": 20,
-        "effect": "Idem arriba, ataques de FIL o PEN basados en ENE le hacen mitad de daño"
+        "effect": "Idem arriba, ataques de FIL o PEN basados en ENE le hacen mitad de daño",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

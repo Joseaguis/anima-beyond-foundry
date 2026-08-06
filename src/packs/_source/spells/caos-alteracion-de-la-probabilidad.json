@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Caos",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "El hechicero o el personaje que este elija sufre una alteración temporal de su naturaleza, siendo capaz de realizar con mucha más facilidad acciones extremas, tanto para bien como para mal. En consecuencia, incrementa su rango de pifia y tirada abierta, en los valores indicados por el grado del conjuro. Por ejemplo, alguien sin maestría que fuera afectado por este conjuro en grado base, pifiaría con un resultado de 5 y obtendría una tirada abierta con un 85",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 20,
-        "effect": "+2 al rango de pifia / -5 al rango de tirada abierta"
+        "effect": "+2 al rango de pifia / -5 al rango de tirada abierta",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "+4 al rango de pifia / -10 al rango de tirada abierta"
+        "effect": "+4 al rango de pifia / -10 al rango de tirada abierta",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "+6 al rango de pifia / -15 al rango de tirada abierta"
+        "effect": "+6 al rango de pifia / -15 al rango de tirada abierta",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 140,
         "intRequired": 14,
         "maintenanceCost": 30,
-        "effect": "+8 al rango de pifia / -20 al rango de tirada abierta"
+        "effect": "+8 al rango de pifia / -20 al rango de tirada abierta",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

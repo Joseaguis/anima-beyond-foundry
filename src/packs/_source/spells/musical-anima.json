@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Musical",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Debe de ser lanzado en combinación con otro conjuro de clase Anímico, haciendo que dicho sortilegio se convierta en Automático y funcione sobre cualquiera que esté a menos de 50 metros del hechicero y escuche la melodia mas de un asalto. La RM a superar es la misma de la del conjuro afectado por Anima, pero si alguien percibe la melodia de manera parcial , obtiene un bono de +40 a su control.",
@@ -23,25 +24,37 @@
         "zeonCost": 300,
         "intRequired": 8,
         "maintenanceCost": 5,
-        "effect": "Afecta a conjuros de grado base"
+        "effect": "Afecta a conjuros de grado base",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 450,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "Afecta a conjuros de grado intermedio"
+        "effect": "Afecta a conjuros de grado intermedio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 600,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "Afecta a conjuros de grado avanzado"
+        "effect": "Afecta a conjuros de grado avanzado",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 800,
         "intRequired": 14,
         "maintenanceCost": 20,
-        "effect": "Afecta a conjuros de grado arcano"
+        "effect": "Afecta a conjuros de grado arcano",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

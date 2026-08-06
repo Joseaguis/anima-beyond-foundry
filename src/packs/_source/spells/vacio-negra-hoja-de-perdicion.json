@@ -13,7 +13,8 @@
     "actionType": "active",
     "maintenanceType": "sustained",
     "magicPath": "Vacío",
-    "damageType": "",
+    "damageType": "fil",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "attack",
     "effect": "Crea un arma que atacar en Filo con la Proyección Mágica del mago o con su Habilidad de Ataque e ignora toda clase de Armadura. El mago puede mantener activa la hoja para realizar nuevos ataques en asaltos posteriores, pero debe de realizar un control de Voluntad contra 12. Cada vez que consiga supera el control incrementa un punto su dificultad en el siguiente turno. Si llegase a fallarlo, la espada se vuelve contra el brujo, atacándole con su habilidad plena.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "Daño 80"
+        "effect": "Daño 80",
+        "damage": 80,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 150,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "Daño 120."
+        "effect": "Daño 120.",
+        "damage": 120,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 200,
         "intRequired": 12,
         "maintenanceCost": 10,
-        "effect": "Daño 160."
+        "effect": "Daño 160.",
+        "damage": 160,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 250,
         "intRequired": 15,
         "maintenanceCost": 15,
-        "effect": "Daño 200."
+        "effect": "Daño 200.",
+        "damage": 200,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

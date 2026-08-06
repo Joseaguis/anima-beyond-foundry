@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Fuego",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Aumenta la temperatura ambiente. Si la temperatura aumenta 10º por encima de lo que es natural en una zona en su momento más cálido, el índice de aumento se reduce a la mitad.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 7,
         "maintenanceCost": 15,
-        "effect": "+5 grados/ 1 km de radio"
+        "effect": "+5 grados/ 1 km de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 140,
         "intRequired": 10,
         "maintenanceCost": 40,
-        "effect": "+10 grados / 5 km de radio"
+        "effect": "+10 grados / 5 km de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 50,
-        "effect": "+20 grados / 10km de radio"
+        "effect": "+20 grados / 10km de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 60,
-        "effect": "+30 grados / 15 km de  radio"
+        "effect": "+30 grados / 15 km de  radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -58,7 +58,7 @@ function InputLine({
   );
 }
 
-export function PsiquicosTab({ system, items, isEditable, onUpdate, itemOps }: TabProps) {
+export function PsiquicosTab({ system, items, isEditable, onUpdate, itemOps, rollOps }: TabProps) {
   const psy = system.psychic ?? {};
   const innatos: Innato[] = psy.innatos ?? [];
 
@@ -272,6 +272,9 @@ export function PsiquicosTab({ system, items, isEditable, onUpdate, itemOps }: T
         addLabel="+ Poder"
         emptyLabel="Sin poderes psíquicos."
         style={{ gridColumn: "span 8" }}
+        // Pulsar el nombre lanza el control de potencial del poder.
+        rollSlugFor={(i) => `power.${i.id}`}
+        rollOps={rollOps}
         columns={[
           { label: "Disciplina", width: "1fr", render: (i: any) => i.system?.discipline || "Matricial" },
           { label: "Nivel", width: "48px", render: (i: any) => i.system?.powerLevel ?? 0 },

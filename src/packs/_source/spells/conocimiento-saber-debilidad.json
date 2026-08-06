@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Conocimiento",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "detection",
     "effect": "Permite al hechicero ver las imperfecciones y debilidades de algo o alguien. Si se lanza sobre un ser sabra sus debilidades y si se lanza sobre un objeto sabra si es débil hacia algo o cual es su punto de fisura. La única condición para ser afectado por el conjuro es estar en presencia del lanzador aunque el objetivo puede resistirse a sus efectos superarando una RM:",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 7,
         "maintenanceCost": 0,
-        "effect": "120 RM"
+        "effect": "120 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "140 RM"
+        "effect": "140 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 140,
         "intRequired": 11,
         "maintenanceCost": 0,
-        "effect": "160 RM"
+        "effect": "160 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 180,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "180 RM"
+        "effect": "180 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

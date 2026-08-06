@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Sangre",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Permite que el brujo transfiera parte de sus Puntos de Vida a otra persona. La cantidad de PV que sacrifique el lanzador se multiplica por la cantidad que determine el Grado del conjuro. Este conjuro no permite restaurar miembros cercenados o pérdidas permanentes, pero si elimina los penalizadores causados por los críticos en una cantidad equivalente a los PV sacrificados.",
@@ -23,25 +24,37 @@
         "zeonCost": 40,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "x2 a los PV Sacrificados"
+        "effect": "x2 a los PV Sacrificados",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 60,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "x5 a los PV Sacrificados"
+        "effect": "x5 a los PV Sacrificados",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 80,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "x10 a los PV Sacrificados"
+        "effect": "x10 a los PV Sacrificados",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 100,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "x20 a los PV Sacrificados"
+        "effect": "x20 a los PV Sacrificados",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

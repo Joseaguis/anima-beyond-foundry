@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Conocimiento",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "detection",
     "effect": "El hechicero sabrá cuando alguien esta mintiendo ante él. El hechizado puede no ser afectado por el conjuro si supera una tirada de RM, si falla el mago sabrá que el objetivo esta mintiendo en algo, aunque no especificamente en que.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 7,
         "maintenanceCost": 10,
-        "effect": "80 RM"
+        "effect": "80 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 9,
         "maintenanceCost": 15,
-        "effect": "100 RM"
+        "effect": "100 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 160,
         "intRequired": 11,
         "maintenanceCost": 20,
-        "effect": "120 RM"
+        "effect": "120 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 200,
         "intRequired": 13,
         "maintenanceCost": 20,
-        "effect": "140 RM"
+        "effect": "140 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

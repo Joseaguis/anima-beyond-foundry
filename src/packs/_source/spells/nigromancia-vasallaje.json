@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Nigromancia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Ata eternamente la esencia de una criatura no muerta al mago, convirtiendolo en su superior jerárquico, y haciendo que la existencia de la entidad dependa de este. Aunque no otorga al nigromante control sobre la criatura, la vida del vasallo está unida a la de su maestro, conllevando que si el “amo” es destruido, también perezca el “súbdito”. Un no muerto puede resistirse al vasallaje superando una RM o RF, pero una vez fallada la unión no puede romperse.",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "RM o RF 100"
+        "effect": "RM o RF 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 360,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "RM o RF 140"
+        "effect": "RM o RF 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 450,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "RM o RF 180"
+        "effect": "RM o RF 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 540,
         "intRequired": 18,
         "maintenanceCost": 0,
-        "effect": "RM o RF 220"
+        "effect": "RM o RF 220",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Umbral",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Provoca temporalmente el estado de Terror a todos los sujetos que se encuentren alrededor del lanzador. El hechicero es quien decide cual es la fuente de terror para los afectados.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "RM o PR 120 / 10 metros de radio."
+        "effect": "RM o PR 120 / 10 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 140,
         "intRequired": 10,
         "maintenanceCost": 15,
-        "effect": "RM o PR 140 / 50 metros de radio."
+        "effect": "RM o PR 140 / 50 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 200,
         "intRequired": 12,
         "maintenanceCost": 20,
-        "effect": "RM o PR 180 / 100 metros de radio."
+        "effect": "RM o PR 180 / 100 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 240,
         "intRequired": 15,
         "maintenanceCost": 25,
-        "effect": "RM o PR 200 / 250 metros de radio."
+        "effect": "RM o PR 200 / 250 metros de radio.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

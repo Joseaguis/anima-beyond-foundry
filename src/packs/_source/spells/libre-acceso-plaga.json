@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Este conjuro debe de lanzarse sobre un sujeto o un lugar que esté infectado con una enfermedad. Al hacerlo, extiende la infección de manera automática sobre todos los individuos que se encuentren en el radio. Estas personas tendrán derecho a una RE contra la enfermedad expandida, para evitar el contagio. La condición para ser afectado será encontrarse, simplemente, en el área del conjuro",
@@ -23,25 +24,37 @@
         "zeonCost": 140,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "1 Kilómetro de radio / Nivel máximo de enfermedad 20"
+        "effect": "1 Kilómetro de radio / Nivel máximo de enfermedad 20",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 11,
         "maintenanceCost": 0,
-        "effect": "5 Kilómetros de radio / Nivel máximo de enfermedad 40"
+        "effect": "5 Kilómetros de radio / Nivel máximo de enfermedad 40",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "10 Kilómetros de radio / Nivel máximo de enfermedad 60"
+        "effect": "10 Kilómetros de radio / Nivel máximo de enfermedad 60",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 280,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "25 Km de radio / Nivel máximo de enfermedad 80 / La RE es más 10 puntos"
+        "effect": "25 Km de radio / Nivel máximo de enfermedad 80 / La RE es más 10 puntos",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

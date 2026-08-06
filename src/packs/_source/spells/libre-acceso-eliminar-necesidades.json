@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Hace desaparecer completamente cualquier necesidad física de un individuo. Mientras se mantenga el conjuro, no se verá afectado por los efectos del hambre, el cansancio o el Sueños, ignorando por completo cualquier penalizador causado por estos. El personaje puede seguir gastando puntos de Cansancio para mejorar sus acciones físicas (que se recuperan a un ritmo de un punto por hora), aunque no sufre negativos por alcanzar valores muy bajos",
@@ -23,25 +24,37 @@
         "zeonCost": 300,
         "intRequired": 10,
         "maintenanceCost": 15,
-        "effect": "Las habilidades descritas"
+        "effect": "Las habilidades descritas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 360,
         "intRequired": 12,
         "maintenanceCost": 20,
-        "effect": "ignora los penalizadores por efectos climáticos naturales como calor o frío"
+        "effect": "ignora los penalizadores por efectos climáticos naturales como calor o frío",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 420,
         "intRequired": 14,
         "maintenanceCost": 25,
-        "effect": "ignorará penalizador natural no provocado por efectos sobrenaturales"
+        "effect": "ignorará penalizador natural no provocado por efectos sobrenaturales",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 480,
         "intRequired": 16,
         "maintenanceCost": 25,
-        "effect": "pero el personaje recupera un punto de Cansancio por asalto"
+        "effect": "pero el personaje recupera un punto de Cansancio por asalto",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

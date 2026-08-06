@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Fuego",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Se crea aura sobrenatural alrededor del mago que destruye la esencia vital de los seres, curarse por medios naturales. Todo ser en el radio, superar RM o perder puntos de vida y Zeon igual al nivel de fracaso. La vida perdida no se recuperan de manera natural, y sólo podrán sanarse mediante conjuros de curación o medios sobrenaturales equivalentes. Los puntos de Zeon, deberán ser absorbidos de otros hechiceros o contenedores mágicos.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "10 metros de radio/ RM 120"
+        "effect": "10 metros de radio/ RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "25 metros de radio/ RM 160"
+        "effect": "25 metros de radio/ RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "50 metros de radio/ RM 200"
+        "effect": "50 metros de radio/ RM 200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "150 metros de radio / RM 220"
+        "effect": "150 metros de radio / RM 220",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

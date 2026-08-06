@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Esencia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "El hechizo establece un enlace anímico entre el lanzador y un sujeto determinado, permitiéndoles a ambos comunicarse espiritualmente. La conversación se realizará mediante conceptos que ambos entenderán automáticamente, incluso si hablan idiomas distintos, o aunque uno de ellos no esté capacitado para hablar. Es incluso posible comunicarse con animales o plantas, que no tienen un idioma estructurado.",
@@ -23,25 +24,37 @@
         "zeonCost": 30,
         "intRequired": 6,
         "maintenanceCost": 10,
-        "effect": "Permite comunicarse con animales o plantas"
+        "effect": "Permite comunicarse con animales o plantas",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 70,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "Permite comunicarte con cualquier clase de ser natural"
+        "effect": "Permite comunicarte con cualquier clase de ser natural",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "Permite comunicarse con cualquier clase de ser natural o entre mundos"
+        "effect": "Permite comunicarse con cualquier clase de ser natural o entre mundos",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 13,
         "maintenanceCost": 25,
-        "effect": "Permite comunicarse con cualquier clase de entidad"
+        "effect": "Permite comunicarse con cualquier clase de entidad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

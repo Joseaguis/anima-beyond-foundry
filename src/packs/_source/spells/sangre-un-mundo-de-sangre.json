@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Sangre",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "El hechicero obtiene un control absoluto sobre toda la sangre que se encuentre dentro del radio de acción del sortilegio. Cualquier individuo que se vea afectado por el conjuro debe superar un control de RM o RF para no verse controlado por el brujo como una marioneta, o sufrir un daño equivalente al doble del nivel de fracaso. Puede usar la sangre como medio de ataque o defensa (creando cuchillas, espinas o escudos), con su Proyección Mágica.",
@@ -23,25 +24,37 @@
         "zeonCost": 280,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "RM o RF 120 / Daño 60 / 500 Puntos de Resistencia"
+        "effect": "RM o RF 120 / Daño 60 / 500 Puntos de Resistencia",
+        "damage": 60,
+        "shieldPoints": 500,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 320,
         "intRequired": 13,
         "maintenanceCost": 0,
-        "effect": "RM o RF 140 / Daño 90 / 1.200 Puntos de Resistencia"
+        "effect": "RM o RF 140 / Daño 90 / 1.200 Puntos de Resistencia",
+        "damage": 90,
+        "shieldPoints": 1200,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 360,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "RM o RF 160 / Daño 120 / 2.400 Puntos de Resistencia"
+        "effect": "RM o RF 160 / Daño 120 / 2.400 Puntos de Resistencia",
+        "damage": 120,
+        "shieldPoints": 2400,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 400,
         "intRequired": 17,
         "maintenanceCost": 0,
-        "effect": "RM o RF 180 / Daño 150 / 3.600 Puntos de Resistencia"
+        "effect": "RM o RF 180 / Daño 150 / 3.600 Puntos de Resistencia",
+        "damage": 150,
+        "shieldPoints": 3600,
+        "damageBarrier": 0
       }
     }
   }

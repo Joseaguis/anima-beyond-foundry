@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Encanta un área estática sobre la cual es tan fácil resbalar como sobre una zona de hielo mojado. Pasar lentamente por ella sin caer requiere una tirada de Atletismo o Acrobacias de Difícil, mientras que corriendo la dificultad aumenta a Absurdo.",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "5 metros de radio"
+        "effect": "5 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 100,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "25 metros de radio"
+        "effect": "25 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 160,
         "intRequired": 11,
         "maintenanceCost": 10,
-        "effect": "50 metros de radio"
+        "effect": "50 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 240,
         "intRequired": 13,
         "maintenanceCost": 15,
-        "effect": "100 metros de radio / Pasar lentamente control contra 140, y corriendo a 280"
+        "effect": "100 metros de radio / Pasar lentamente control contra 140, y corriendo a 280",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

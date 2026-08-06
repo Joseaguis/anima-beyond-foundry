@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Tierra",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Le confiere a un individuo la capacidad de absorver temporalmente grandes cantidades de daño. A efectos de juego, otorga puntos de vida adicionales y permite al afectado aplicar las reglas de defensa de los seres de acumulación. Estos puntos serán los primeros que pierda el personaje, antes de restar los suyos propios. La TA depende del tamaño del personaje.",
@@ -23,25 +24,37 @@
         "zeonCost": 100,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "500 puntos de vida"
+        "effect": "500 puntos de vida",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "1.200 puntos de vida"
+        "effect": "1.200 puntos de vida",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 13,
         "maintenanceCost": 25,
-        "effect": "2.000 puntos de vida"
+        "effect": "2.000 puntos de vida",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "3.000 puntos de vida"
+        "effect": "3.000 puntos de vida",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

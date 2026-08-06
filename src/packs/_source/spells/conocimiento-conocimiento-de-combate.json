@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Conocimiento",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "El hechicero percibe y entiende las habilidades de una adversario, así como su metodología de combate y como anticiparse a sus movimientos. Por tanto, si el objetivo no supera la RM del conjuro, el lanzador obtiene un bono a todas las habilidades enfrentadas a dicho enemigo. La condición para verse afectado por este sortilegio es simplemente estar en presencia del hechicero.",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 7,
         "maintenanceCost": 5,
-        "effect": "140 RM/ + 20 a toda acción"
+        "effect": "140 RM/ + 20 a toda acción",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 120,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "160 RM/ +30 a toda acción"
+        "effect": "160 RM/ +30 a toda acción",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 160,
         "intRequired": 11,
         "maintenanceCost": 20,
-        "effect": "180 RM/ +30 a toda acción"
+        "effect": "180 RM/ +30 a toda acción",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 200,
         "intRequired": 13,
         "maintenanceCost": 20,
-        "effect": "200 RM/ + 40 a toda acción"
+        "effect": "200 RM/ + 40 a toda acción",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

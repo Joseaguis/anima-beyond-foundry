@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Literae",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Este hechizo modifica la realidad siempre que sea algo plausible y no afecte directamente a otro ser vivo. Las posibilidades de este hechizo son casi infinitas, siempre y cuando los elementos y objetos empleados sean simples y con una presencia que no supere lo que determine el grado del conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 280,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Presencia máxima 40"
+        "effect": "Presencia máxima 40",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 320,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Presencia máxima 80"
+        "effect": "Presencia máxima 80",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 480,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "Presencia máxima 120"
+        "effect": "Presencia máxima 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 700,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "Presencia máxima 160"
+        "effect": "Presencia máxima 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

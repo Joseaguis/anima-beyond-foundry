@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Aire",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Permite controlar la forma y dirección de una fuente eléctrica. Si se trata de un ser basado naturalmente en electricidad, el mago podrá controlarlo si este no supera una RM",
@@ -23,25 +24,37 @@
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "RM 120 / 5 intensidades"
+        "effect": "RM 120 / 5 intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 150,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "RM 160 / 15 intensidades"
+        "effect": "RM 160 / 15 intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 13,
         "maintenanceCost": 25,
-        "effect": "RM 180 / 25 intensidades"
+        "effect": "RM 180 / 25 intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 350,
         "intRequired": 15,
         "maintenanceCost": 35,
-        "effect": "RM 220 / 40 intensidades"
+        "effect": "RM 220 / 40 intensidades",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

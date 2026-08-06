@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Paz",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El hechicero o el objetivo designado por éste alcanza un nivel de paz interior que le hace inmune cualquier efecto que pueda desequilibrar su estado de ánimo.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 6,
         "maintenanceCost": 15,
-        "effect": "El PJ se vuelve inmune a los estados psicológicos negativos"
+        "effect": "El PJ se vuelve inmune a los estados psicológicos negativos",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 20,
-        "effect": "Obtiene un +40 a sus Resistencias contra efectos desequilibrantes"
+        "effect": "Obtiene un +40 a sus Resistencias contra efectos desequilibrantes",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "Como Grado Intermedio pero el Bono es de +80"
+        "effect": "Como Grado Intermedio pero el Bono es de +80",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 30,
-        "effect": "Bloquea todo efecto que altere negativamente la conducta"
+        "effect": "Bloquea todo efecto que altere negativamente la conducta",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

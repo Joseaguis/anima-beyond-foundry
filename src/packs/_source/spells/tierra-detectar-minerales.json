@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Tierra",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Permite detectar la ubicación de un mineral determinado, dentro del radio de acción del conjuro. No da información sobre la forma del mineral, pero si sobre su tamaño o cantidad. No es posible detectar a través de barreras basadas en energía.",
@@ -23,25 +24,37 @@
         "zeonCost": 20,
         "intRequired": 5,
         "maintenanceCost": 0,
-        "effect": "10 metros de radio"
+        "effect": "10 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 60,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "50 metros de radio"
+        "effect": "50 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 100,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "150 metros de radio"
+        "effect": "150 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 140,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "500 metros de radio"
+        "effect": "500 metros de radio",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

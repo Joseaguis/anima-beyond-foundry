@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Agua",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Se influye en espacio tiempo de una parte de la realidad, aminorando su flujo, para todo el mundo, incluyendo al propio lanzador. La zona afectada por el hechizo se separa de la realidad, haciendo que cada instante dure más en el exterior. El área de acción se extiende a una velocidad de 10 metros por turno a partir del momento lanzado. Si alguien penetra en ella, se ve influenciado. Se puede evitar superando RM, pero si posee Gnosis más de 30.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "100 metros de radio / RM 120 / El tiempo se reduce una décima parte."
+        "effect": "100 metros de radio / RM 120 / El tiempo se reduce una décima parte.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 320,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "200 metros de radio / RM 140 / El tiempo se reduce una centésima parte."
+        "effect": "200 metros de radio / RM 140 / El tiempo se reduce una centésima parte.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 450,
         "intRequired": 14,
         "maintenanceCost": 30,
-        "effect": "500 metros de radio / RM 160 / El tiempo se reduce una milésima parte."
+        "effect": "500 metros de radio / RM 160 / El tiempo se reduce una milésima parte.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 600,
         "intRequired": 16,
         "maintenanceCost": 35,
-        "effect": "1 kilómetro de radio / RM 180 / El tiempo se reduce una millonésima parte."
+        "effect": "1 kilómetro de radio / RM 180 / El tiempo se reduce una millonésima parte.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

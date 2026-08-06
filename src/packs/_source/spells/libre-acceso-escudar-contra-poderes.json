@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Afecta un lugar dentro del cual el hechicero crea un área que impide utilizar poderes sobrenaturales de cualquier tipo. En su interior, no funcionará ningún conjuro, convocación, poder psíquico o Técnica de Ki cuyo valor zeónico, potencial o coste no supere lo que indique el grado del conjuro. El área permanece siempre estática donde fue creada y afecta automáticamente a todos los que estén en su interior, incluyendo al propio lanzador",
@@ -23,25 +24,37 @@
         "zeonCost": 300,
         "intRequired": 11,
         "maintenanceCost": 30,
-        "effect": "50m radio / Zeon 100 / Potencial Psí. 140 / Ki 8 / Convocación inferior a 180"
+        "effect": "50m radio / Zeon 100 / Potencial Psí. 140 / Ki 8 / Convocación inferior a 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 360,
         "intRequired": 13,
         "maintenanceCost": 40,
-        "effect": "150m radio / Zeon 150 / Potencial Psíquico 180 / Ki 14 / Convocación 240"
+        "effect": "150m radio / Zeon 150 / Potencial Psíquico 180 / Ki 14 / Convocación 240",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 420,
         "intRequired": 15,
         "maintenanceCost": 45,
-        "effect": "300m radio / Zeon 200 / Potencial Psíquico 240 / Ki 22 / Convocación 280"
+        "effect": "300m radio / Zeon 200 / Potencial Psíquico 240 / Ki 22 / Convocación 280",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 480,
         "intRequired": 17,
         "maintenanceCost": 50,
-        "effect": "500m de radio / Zeon 250 / Potencial Psíquico 280 / Ki 30 / Convocación 320"
+        "effect": "500m de radio / Zeon 250 / Potencial Psíquico 280 / Ki 30 / Convocación 320",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

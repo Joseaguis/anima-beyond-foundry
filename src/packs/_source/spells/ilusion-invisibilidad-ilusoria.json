@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Ilusión",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Utilizando este conjuro, un Ilusiónista puede hacer desaparecer de la vista cualquier ser u objeto. Afectará a tantos como desee, mientras la suma de sus presencias no supere lo que determina el grado del conjuro. Cualquier individuo que mire hacia los cuerpos invisibles deberá superar automáticamente una RM o no será capaz de detectarlos usando su sentido de la vista.",
@@ -23,25 +24,37 @@
         "zeonCost": 60,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "RM 120 / Presencia máxima 140."
+        "effect": "RM 120 / Presencia máxima 140.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 5,
-        "effect": "RM 150 / Presencia máxima 200."
+        "effect": "RM 150 / Presencia máxima 200.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 10,
-        "effect": "RM 180 / Presencia máxima 260."
+        "effect": "RM 180 / Presencia máxima 260.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 15,
         "maintenanceCost": 10,
-        "effect": "RM 210 / Presencia máxima 320."
+        "effect": "RM 210 / Presencia máxima 320.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

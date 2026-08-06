@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Este conjuro provoca una serie de condiciones negativas sobre el objetivo. Su cometido es causar infortunio sobre ciertas acciones que realice el objetivo. El mago decide a qué exactamente, así como sus consecuencias, dentro de los límites por el grado del conjuro. Otros vinculados a la maldicion pueden tirar su RM para evitar sus efectos. Sólo se puede realizar un nuevo control cuando sus efectos vuelvan a activarse.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 8,
         "maintenanceCost": 10,
-        "effect": "actos concretos y crea infortunio, que no pueda lograr sus objetivos /RM 120"
+        "effect": "actos concretos y crea infortunio, que no pueda lograr sus objetivos /RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 350,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "Actos genéricos, mala suerte, maldecir una habilidad (–60 por uso) / RM 140"
+        "effect": "Actos genéricos, mala suerte, maldecir una habilidad (–60 por uso) / RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 500,
         "intRequired": 13,
         "maintenanceCost": 25,
-        "effect": "acto o condición, toda clase de efectos negativos, habilidad (–80) / RM 160"
+        "effect": "acto o condición, toda clase de efectos negativos, habilidad (–80) / RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 700,
         "intRequired": 16,
         "maintenanceCost": 35,
-        "effect": "Complejidad imaginable y produce efectos mayores, incluso muerte / RM 180"
+        "effect": "Complejidad imaginable y produce efectos mayores, incluso muerte / RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

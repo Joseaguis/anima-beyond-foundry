@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "El mago puede modificar sucesos venideros. El mago designa la complejidad de estos como desee. Es posible que predestine un único evento, dejando a casualidad los sucesos que permitan que pase, o determinar los aspectos hasta el fin deseado. No puede causar eventos imposibles. Los sucesos determinados pueden fijarse para una fecha concreta o para que se repitan eternamente a lo largo del tiempo. No crea un futuro absoluto e ineludible.",
@@ -23,25 +24,37 @@
         "zeonCost": 600,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "RM 140"
+        "effect": "RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 900,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "RM 170"
+        "effect": "RM 170",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 1200,
         "intRequired": 17,
         "maintenanceCost": 0,
-        "effect": "RM 200"
+        "effect": "RM 200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 1500,
         "intRequired": 19,
         "maintenanceCost": 0,
-        "effect": "RM 240"
+        "effect": "RM 240",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

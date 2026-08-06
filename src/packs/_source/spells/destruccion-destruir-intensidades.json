@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Destrucción",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Destruye intensidades de uno de los tres tipos de energía existentes: fuego, frío o electricidad. Los seres formados por dichos elementos pierden cinco puntos de vida por cada intensidad disminuida, si no superan la RM adecuada.",
@@ -23,25 +24,37 @@
         "zeonCost": 40,
         "intRequired": 5,
         "maintenanceCost": 0,
-        "effect": "1 intensidad / 100 RM"
+        "effect": "1 intensidad / 100 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 80,
         "intRequired": 8,
         "maintenanceCost": 0,
-        "effect": "5 intensidades / 120 RM"
+        "effect": "5 intensidades / 120 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "10 intensidades / 140 RM"
+        "effect": "10 intensidades / 140 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "15 intensidades / 160 RM"
+        "effect": "15 intensidades / 160 RM",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

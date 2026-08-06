@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Encanta una zona haciendo que todo el que entre (o que ya se encuentre en su interior) no pueda salir si no supera RM. Una vez que se ha fallado la Resistencia, un sujeto afectado no tiene derecho a un nuevo control mientras se mantenga el conjuro, salvo si por alguna causa sus Resistencias aumentan. El mago no podrá elegir blancos en su interior, e incluso podrá quedar él mismo encerrado",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 9,
         "maintenanceCost": 40,
-        "effect": "10 metros de radio / RM 120"
+        "effect": "10 metros de radio / RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 240,
         "intRequired": 11,
         "maintenanceCost": 50,
-        "effect": "25 metros de radio / RM 140"
+        "effect": "25 metros de radio / RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 280,
         "intRequired": 14,
         "maintenanceCost": 60,
-        "effect": "50 metros de radio / RM 160"
+        "effect": "50 metros de radio / RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 320,
         "intRequired": 16,
         "maintenanceCost": 65,
-        "effect": "100 metros de radio / RM 180"
+        "effect": "100 metros de radio / RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

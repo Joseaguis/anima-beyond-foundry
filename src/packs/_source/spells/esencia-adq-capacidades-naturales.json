@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Esencia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Da PD adicionales al personaje, para habilidades secundarias, habilidades esenciales o poderes de la Creación de Seres. Sólo pueden escogerse secundarias de los campos físicos de Agilidad, Percepción y Fuerza, y poderes especiales con Gnosis 0. No puede aumentarse habilidades primarias, ni adquirir capacidades sobrenaturales. Estos cambios afectarán temporalmente a la forma física del personaje. Los efectos de este conjuro no se superponen.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 7,
         "maintenanceCost": 25,
-        "effect": "50 PD"
+        "effect": "50 PD",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 40,
-        "effect": "100 PD"
+        "effect": "100 PD",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 280,
         "intRequired": 13,
         "maintenanceCost": 60,
-        "effect": "150 PD"
+        "effect": "150 PD",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 360,
         "intRequired": 15,
         "maintenanceCost": 80,
-        "effect": "200 PD"
+        "effect": "200 PD",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

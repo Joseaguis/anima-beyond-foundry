@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Destruye un conjuro activo cuyo valor zeónico no supere el indicado por el grado del conjuro",
@@ -23,25 +24,37 @@
         "zeonCost": 150,
         "intRequired": 7,
         "maintenanceCost": 0,
-        "effect": "Valor zeónico máximo 60"
+        "effect": "Valor zeónico máximo 60",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 0,
-        "effect": "Valor zeónico máximo 80"
+        "effect": "Valor zeónico máximo 80",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Valor zeónico máximo 100"
+        "effect": "Valor zeónico máximo 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 280,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "Valor zeónico máximo 120"
+        "effect": "Valor zeónico máximo 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

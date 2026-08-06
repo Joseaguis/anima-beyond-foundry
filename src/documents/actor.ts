@@ -1,5 +1,7 @@
-import { emptySynthetics, rulesFromItem, type AnimaSynthetics } from "../rules";
+import { emptySynthetics, extractRollOptions, rulesFromItem, type AnimaSynthetics } from "../rules";
+import { buildStatistics } from "../system/statistic/build";
 import type { AnimaRuleElement } from "../rules";
+import type { AnimaStatistic } from "../system/statistic/statistic";
 import type { BaseItemModel } from "../items/base/model";
 import type { AnimaItem } from "./item";
 
@@ -30,6 +32,23 @@ export class AnimaActor extends Actor {
   /** Active rule elements collected from embedded items, sorted by priority. */
   declare rules: AnimaRuleElement[];
 
+  /** Built lazily on first use and dropped whenever the actor is re-prepared. */
+  #statistics: Map<string, AnimaStatistic> | null = null;
+
+  /**
+   * Everything this actor can roll, keyed by slug — secondary abilities,
+   * Resistances, characteristics, one attack and parry per equipped weapon,
+   * the projections and initiative. See `system/statistic/build.ts`.
+   */
+  get statistics(): Map<string, AnimaStatistic> {
+    return (this.#statistics ??= buildStatistics(this));
+  }
+
+  /** One statistic by slug, e.g. `resistance.rm` or `strike.<weaponId>`. */
+  getStatistic(slug: string): AnimaStatistic | null {
+    return this.statistics.get(slug) ?? null;
+  }
+
   /**
    * Narrow this actor by type, typing `system` accordingly:
    * `if (actor.isOfType("character")) { actor.system... }`
@@ -42,9 +61,14 @@ export class AnimaActor extends Actor {
 
   /**
    * Roll options describing the actor's current state, consumed by rule
-   * element predicates. Deliberately minimal; grow it as predicates need.
+   * element predicates and by the check engine.
+   *
+   * Called with no arguments during preparation (only the actor's own state
+   * exists yet) and with a check's selectors at roll time, when rule elements
+   * may have contributed extra options per selector. `all` is always included,
+   * the same contract as PF2e's `ActorPF2e#getRollOptions`.
    */
-  getRollOptions(): Set<string> {
+  getRollOptions(selectors: string[] = []): Set<string> {
     const options = new Set<string>();
     options.add(`self:type:${this.type}`);
     const system = this.system as {
@@ -63,6 +87,24 @@ export class AnimaActor extends Actor {
     if (typeof system.level === "number") {
       options.add(`self:level:${system.level}`);
     }
+
+    // Synthetics are absent while the very first preparation pass is running.
+    if (this.synthetics) {
+      for (const option of extractRollOptions(this.synthetics, selectors)) options.add(option);
+    }
+
+    return options;
+  }
+
+  /**
+   * The same options re-prefixed for the other side of a roll, so a defender's
+   * rules can predicate on who is attacking them (PF2e's `getSelfRollOptions`).
+   */
+  getRollOptionsAs(prefix: "target" | "origin"): Set<string> {
+    const options = new Set<string>();
+    for (const option of this.getRollOptions()) {
+      options.add(option.startsWith("self:") ? option.replace(/^self/, prefix) : option);
+    }
     return options;
   }
 
@@ -70,6 +112,8 @@ export class AnimaActor extends Actor {
     super.prepareBaseData();
     this.synthetics = emptySynthetics();
     this.rules = [];
+    // Statistics read prepared values, so they must not outlive a prep cycle.
+    this.#statistics = null;
   }
 
   override prepareEmbeddedDocuments(): void {

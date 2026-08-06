@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Destrucción",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Otorga la capacidad de destruír parte del mundo material a gran escala, desde grandes construcciones a amplias zonas de terreno. Puede afectar automáticamente a cualquier número de cosas inorgánicas, siempre que no superen la presencia determinada por el grado de conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 350,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Presencia máxima 100"
+        "effect": "Presencia máxima 100",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 600,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "Presencia máxima 160"
+        "effect": "Presencia máxima 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 900,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "Presencia máxima 200"
+        "effect": "Presencia máxima 200",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 1500,
         "intRequired": 18,
         "maintenanceCost": 0,
-        "effect": "Presencia máxima 240"
+        "effect": "Presencia máxima 240",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

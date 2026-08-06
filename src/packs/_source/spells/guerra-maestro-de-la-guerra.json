@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Guerra",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El hechicero puede combatir físicamente con cualquier arma usando su habilidad de Proyección Mágica ofensiva y defensiva como si fuera habilidad de ataque y defensa. El límite máximo que puede alcanzar está determinado por el Grado del conjuro.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "200 Habilidad"
+        "effect": "200 Habilidad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 300,
         "intRequired": 12,
         "maintenanceCost": 15,
-        "effect": "250 Habilidad"
+        "effect": "250 Habilidad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 400,
         "intRequired": 15,
         "maintenanceCost": 20,
-        "effect": "300 Habilidad"
+        "effect": "300 Habilidad",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 500,
         "intRequired": 18,
         "maintenanceCost": 25,
-        "effect": "Sin Límite"
+        "effect": "Sin Límite",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Fuego",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "defense",
     "effect": "Este conjuro levanta un potente muro de fuego. Cualquiera que trate de traspasarlo recibirá automáticamente un ataque contra una habilidad de Casi Imposible, en la TA de calor. Recibir daño no impide a un personaje atravesar el muro. Adicionalmente, el brujo podrá usarla a modo de escudo mágico para detener únicamente ataques basados en agua, frío o fuego",
@@ -23,25 +24,37 @@
         "zeonCost": 50,
         "intRequired": 6,
         "maintenanceCost": 5,
-        "effect": "Daño 80 / 2 metros de extensión / 300 puntos de Resistencia"
+        "effect": "Daño 80 / 2 metros de extensión / 300 puntos de Resistencia",
+        "damage": 80,
+        "shieldPoints": 300,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 90,
         "intRequired": 9,
         "maintenanceCost": 10,
-        "effect": "Daño 90 / 5 metros de extensión / 500 puntos de Resistencia"
+        "effect": "Daño 90 / 5 metros de extensión / 500 puntos de Resistencia",
+        "damage": 90,
+        "shieldPoints": 500,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 120,
         "intRequired": 12,
         "maintenanceCost": 10,
-        "effect": "Daño 100 / 10 metros / 800 puntos / Puede detener ataques basados en energía"
+        "effect": "Daño 100 / 10 metros / 800 puntos / Puede detener ataques basados en energía",
+        "damage": 100,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 150,
         "intRequired": 15,
         "maintenanceCost": 15,
-        "effect": "Daño 100 /15 metros/1000 puntos/Ataque a IMP/ Puede con toda clase ataque"
+        "effect": "Daño 100 /15 metros/1000 puntos/Ataque a IMP/ Puede con toda clase ataque",
+        "damage": 100,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

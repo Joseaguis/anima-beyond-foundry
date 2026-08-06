@@ -36,11 +36,21 @@ export function psychicPowerSchema() {
     masteryCost: new NumberField({ required: true, initial: 1, integer: true, min: 0 }),
     // Fortalecer un poder: +10 per CV to this power, max 10 CV / +100 (Core p. 212).
     fortifyCvs: new NumberField({ required: true, initial: 0, integer: true, min: 0, max: 10 }),
-    // Difficulty→effect table proper to each power (filled in as content later).
+    // TA the attack resolves against, for the few offensive powers. Note that
+    // no TA actually stops a psychic power (Core p. 211) — the roll engine
+    // sends them through with `ignoresArmor`, so this is only for display.
+    damageType: new StringField({ required: true, initial: "" }),
+    // Difficulty→effect table proper to each power. Unlike a spell's four
+    // grades, which one applies is decided *after* rolling: the potential check
+    // is looked up on the ten-step difficulty ladder.
     grades: new ArrayField(
       new SchemaField({
         difficulty: new StringField({ required: true, initial: "" }),
         effect: new HTMLField({ required: true, initial: "" }),
+        // Same three figures as a spell grade; see spell.ts for provenance.
+        damage: new NumberField({ required: true, initial: 0, integer: true, min: 0 }),
+        shieldPoints: new NumberField({ required: true, initial: 0, integer: true, min: 0 }),
+        damageBarrier: new NumberField({ required: true, initial: 0, integer: true, min: 0 }),
       }),
       { required: true, initial: [] },
     ),

@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Ilusión",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "El mago puede hacer creer cualquier cosa a alguien.Si, por ejemplo, utiliza el conjuro para hacerle pensar que no tiene brazos ni piernas, deja de sentir sus extremidades y cae al suelo pensando que las ha perdido. Si se le dice que está muerto, caerá inconsciente automáticamente. El personaje afectado no tendrá derecho a una nueva Resistencia, salvo si tiene la convicción de que es víctima de un engaño.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 20,
-        "effect": "RM o RP 120."
+        "effect": "RM o RP 120.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 250,
         "intRequired": 12,
         "maintenanceCost": 25,
-        "effect": "RM o RP 150"
+        "effect": "RM o RP 150",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 300,
         "intRequired": 14,
         "maintenanceCost": 30,
-        "effect": "RM o RP 190"
+        "effect": "RM o RP 190",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 350,
         "intRequired": 16,
         "maintenanceCost": 35,
-        "effect": "RM o RP 220"
+        "effect": "RM o RP 220",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

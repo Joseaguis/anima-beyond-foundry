@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Tierra",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El brujo puede leer la historia de un objeto con el que se ponga en contacto, percibiendo los acontecimientos más importantes que hayan ocurrido en torno a él durante un tiempo. Puede usarse también sobre personas pero, en tal caso, el individuo afectado podrá evitarlo superando una RM.",
@@ -23,25 +24,37 @@
         "zeonCost": 120,
         "intRequired": 6,
         "maintenanceCost": 0,
-        "effect": "RM 80 / 1 mes"
+        "effect": "RM 80 / 1 mes",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 180,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "RM 120 / 1 año"
+        "effect": "RM 120 / 1 año",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "RM 140 / 10 años"
+        "effect": "RM 140 / 10 años",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 300,
         "intRequired": 15,
         "maintenanceCost": 0,
-        "effect": "RM 160 / 1 siglo"
+        "effect": "RM 160 / 1 siglo",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

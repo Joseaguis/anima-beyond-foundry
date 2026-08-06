@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Libre acceso",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "spiritual",
     "effect": "Controla el cuerpo de otro. Permite usar habilidades del poseído o las suyas. Si usa habilidades del poseído, las características físicas son las del poseído. Si el ser es diferente al mago aplica un  –20 a –40. El mago permanece en estado de coma. Los ataques que no dañan energía afectan al cuerpo poseído, pero si son sobrenaturales, restan vida a ambos. En el caso de que el cuerpo muera, pero no el mago, regresa de a su forma original. Para evitar, superar RM.",
@@ -23,25 +24,37 @@
         "zeonCost": 300,
         "intRequired": 10,
         "maintenanceCost": 30,
-        "effect": "RM 120"
+        "effect": "RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 400,
         "intRequired": 12,
         "maintenanceCost": 40,
-        "effect": "RM 140"
+        "effect": "RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 500,
         "intRequired": 14,
         "maintenanceCost": 50,
-        "effect": "RM 180"
+        "effect": "RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 600,
         "intRequired": 16,
         "maintenanceCost": 60,
-        "effect": "RM 220"
+        "effect": "RM 220",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

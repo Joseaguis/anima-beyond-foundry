@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Ilusión",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "El objetivo no podrá percibirse per sentidos naturales, aunque sigue siendo material y físico. Tampoco deja rastros o huellas.Solo es percibido por detecciones sobrenaturales; ya sea mágica, psíquica o de Ki. Cualquiera que pueda sentirle mediante algún sentido natural debe superar una RM. Si la falla, sólo tendrá la oportunidad de repetirlo cada vez que tenga una causa para pensar que hay alguien a su alrededor.",
@@ -23,25 +24,37 @@
         "zeonCost": 250,
         "intRequired": 11,
         "maintenanceCost": 25,
-        "effect": "RM 120"
+        "effect": "RM 120",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 300,
         "intRequired": 13,
         "maintenanceCost": 30,
-        "effect": "RM 140"
+        "effect": "RM 140",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 400,
         "intRequired": 15,
         "maintenanceCost": 40,
-        "effect": "RM 160"
+        "effect": "RM 160",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 500,
         "intRequired": 17,
         "maintenanceCost": 50,
-        "effect": "RM 180"
+        "effect": "RM 180",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

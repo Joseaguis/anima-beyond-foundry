@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Sueños",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "El hechicero crea un vórtice en la realidad permitiéndole crear un portal a la vigilia.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 40,
-        "effect": "El portal sólo permite pasar al hechicero, y es sólo de una dirección."
+        "effect": "El portal sólo permite pasar al hechicero, y es sólo de una dirección.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 240,
         "intRequired": 12,
         "maintenanceCost": 50,
-        "effect": "Cualquier clase de ser puede cruzar, pero sólo en una dirección."
+        "effect": "Cualquier clase de ser puede cruzar, pero sólo en una dirección.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 280,
         "intRequired": 14,
         "maintenanceCost": 60,
-        "effect": "El portal puede ser usado en ambas direcciones."
+        "effect": "El portal puede ser usado en ambas direcciones.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 320,
         "intRequired": 16,
         "maintenanceCost": 70,
-        "effect": "Puede escogerse quienes pueden cruzar el portal, y como abrirlo."
+        "effect": "Puede escogerse quienes pueden cruzar el portal, y como abrirlo.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

@@ -20,6 +20,9 @@ const PATTERN_DIR = path.join(SOURCE_DIR, "mentalPatterns");
 interface Grade {
   difficulty: string;
   effect: string;
+  damage: number;
+  shieldPoints: number;
+  damageBarrier: number;
 }
 
 interface PowerDoc {
@@ -201,5 +204,60 @@ describe("compendio psíquico: patrones mentales", () => {
     for (const p of patterns) {
       expect(p.system.dpCost, p.name).toBe(p.name === "Locura" ? 20 : 30);
     }
+  });
+});
+
+/**
+ * Figures pulled out of the grade prose by `scripts/lib/parse-effect-numbers`.
+ * Unlike a spell, which grade applies is decided *after* rolling — the psychic
+ * potential check is looked up on the difficulty ladder — so every grade row
+ * carries its own damage or shield pool.
+ */
+describe("cifras de combate de los poderes", () => {
+  const withDamage = powers.filter((p) => p.system.grades.some((g) => g.damage > 0));
+  const withShield = powers.filter((p) => p.system.grades.some((g) => g.shieldPoints > 0));
+
+  it("los poderes ofensivos conocidos traen daño por grado", () => {
+    expect(new Set(withDamage.map((p) => p.name))).toEqual(
+      new Set([
+        "Esquirlas de hielo",
+        "Arco eléctrico",
+        "Cúpula de energía",
+        "Descarga de energía",
+        "Barrera ígnea",
+        "Inmolar",
+      ]),
+    );
+  });
+
+  it("los escudos psíquicos traen su aguante por grado", () => {
+    expect(new Set(withShield.map((p) => p.name))).toEqual(
+      new Set([
+        "Escudo de hielo",
+        "Escudo magnético",
+        "Escudo de energía",
+        "Pantalla de luz",
+        "Escudo telequinético",
+      ]),
+    );
+  });
+
+  it("las cifras crecen al subir de dificultad", () => {
+    const regressions: string[] = [];
+    for (const power of [...withDamage, ...withShield]) {
+      // Sólo se comparan los grados que traen cifra: la escala deja huecos
+      // (los primeros peldaños son `Fatiga N`, sin efecto de combate).
+      for (const key of ["damage", "shieldPoints"] as const) {
+        const values = power.system.grades.map((g) => g[key]).filter((v) => v > 0);
+        for (let i = 1; i < values.length; i++) {
+          if (values[i] < values[i - 1]) regressions.push(`${power.name}.${key}[${i}]`);
+        }
+      }
+    }
+    expect(regressions).toEqual([]);
+  });
+
+  it("la barrera de daño queda en cero: es un campo de autor", () => {
+    expect(powers.every((p) => p.system.grades.every((g) => g.damageBarrier === 0))).toBe(true);
   });
 });

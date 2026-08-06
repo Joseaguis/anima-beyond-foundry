@@ -14,6 +14,7 @@
     "maintenanceType": "sustained",
     "magicPath": "Agua",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Crea masa de agua que engulle a todos los individuos que encuentre. El ser atrapado, se moverá buceando, comenzará también a ahogarse. La prisión no permite que nadie escape de ella, produciendo corrientes que empujan hacia su centro. Si se quiere huir, superar un control enfrentado contra Fuerza 14, aunque obtiene un +1 a su por cada nivel de Nadar que supere por encima de Fácil. La condición para ser afectado será encontrarse en el interior de la zona.",
@@ -23,25 +24,37 @@
         "zeonCost": 140,
         "intRequired": 7,
         "maintenanceCost": 10,
-        "effect": "10 metros cúbicos."
+        "effect": "10 metros cúbicos.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 200,
         "intRequired": 10,
         "maintenanceCost": 10,
-        "effect": "50 metros cúbicos."
+        "effect": "50 metros cúbicos.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 280,
         "intRequired": 13,
         "maintenanceCost": 15,
-        "effect": "100 metros cúbicos."
+        "effect": "100 metros cúbicos.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 350,
         "intRequired": 16,
         "maintenanceCost": 20,
-        "effect": "150 metros cúbicos / El control es contra Fuerza 15."
+        "effect": "150 metros cúbicos / El control es contra Fuerza 15.",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

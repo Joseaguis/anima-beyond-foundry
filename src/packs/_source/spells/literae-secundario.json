@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Literae",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Crea un “personaje” con la personalidad y habilidades que desee el hechicero. Para hacerlo, el lanzador debe de describir en un libro la personalidad, historia y naturaleza de dicho individuo, quien creerá realmente ser lo que el brujo ha descrito para él. Si el libro es destruído, el Secundario desaparecerá. El nivel del Secundario no puede superar el indicado por el grado del sortilegio ni tampoco el nivel del propio hechicero.",
@@ -23,25 +24,37 @@
         "zeonCost": 400,
         "intRequired": 10,
         "maintenanceCost": 40,
-        "effect": "Nivel 2"
+        "effect": "Nivel 2",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 600,
         "intRequired": 12,
         "maintenanceCost": 60,
-        "effect": "Nivel 5"
+        "effect": "Nivel 5",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 800,
         "intRequired": 14,
         "maintenanceCost": 80,
-        "effect": "Nivel 7"
+        "effect": "Nivel 7",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 1200,
         "intRequired": 17,
         "maintenanceCost": 120,
-        "effect": "Nivel 10"
+        "effect": "Nivel 10",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

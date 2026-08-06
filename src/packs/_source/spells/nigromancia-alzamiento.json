@@ -14,6 +14,7 @@
     "maintenanceType": "none",
     "magicPath": "Nigromancia",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "effect",
     "effect": "Alza un cadáver conservando todos los poderes, conocimientos y habilidades que tenía en vida. Carece de alma. Afecta a cualquier individuo o criatura fallecida cuyo cadáver esté al alcance del mago, siempre y cuando su nivel no sea mayor de lo que diga el grado del conjuro. Si el cuerpo se encuentra en mal estado, sus habilidades físicas pueden perjudicarse. Alguien levantado no puede volver a ser alzado. El cadaver no está controlado por el mago.",
@@ -23,25 +24,37 @@
         "zeonCost": 350,
         "intRequired": 9,
         "maintenanceCost": 0,
-        "effect": "Nivel máximo 3"
+        "effect": "Nivel máximo 3",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 500,
         "intRequired": 12,
         "maintenanceCost": 0,
-        "effect": "Nivel máximo 6"
+        "effect": "Nivel máximo 6",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 800,
         "intRequired": 14,
         "maintenanceCost": 0,
-        "effect": "Nivel máximo 9"
+        "effect": "Nivel máximo 9",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 1200,
         "intRequired": 16,
         "maintenanceCost": 0,
-        "effect": "Nivel máximo 12"
+        "effect": "Nivel máximo 12",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }

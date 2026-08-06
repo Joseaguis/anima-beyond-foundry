@@ -14,6 +14,7 @@
     "maintenanceType": "daily",
     "magicPath": "Tiempo",
     "damageType": "",
+    "atPiercing": 0,
     "resistanceType": "none",
     "spellType": "automatic",
     "effect": "Todo aquel individuo o cosa que, a partir del asalto posterior al lanzamiento del conjuro, se encuentre en el interior de la zona de efecto quedará congelado en el tiempo si no supera una RM. Las personas o cosas congeladas son completamente sólidas, por lo que nada puede tocarlas o dañarlas (excepto seres con Gnosis 40 o superior). Puede repetirse el control de RM una vez al día. El área afectada permanece estática y no es posible elegir blancos.",
@@ -23,25 +24,37 @@
         "zeonCost": 200,
         "intRequired": 9,
         "maintenanceCost": 40,
-        "effect": "120RM / 10m"
+        "effect": "120RM / 10m",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "intermediate": {
         "zeonCost": 300,
         "intRequired": 12,
         "maintenanceCost": 60,
-        "effect": "140RM / 25m"
+        "effect": "140RM / 25m",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "advanced": {
         "zeonCost": 400,
         "intRequired": 14,
         "maintenanceCost": 80,
-        "effect": "160RM / 50m"
+        "effect": "160RM / 50m",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       },
       "arcane": {
         "zeonCost": 500,
         "intRequired": 16,
         "maintenanceCost": 100,
-        "effect": "180RM / 100m"
+        "effect": "180RM / 100m",
+        "damage": 0,
+        "shieldPoints": 0,
+        "damageBarrier": 0
       }
     }
   }
